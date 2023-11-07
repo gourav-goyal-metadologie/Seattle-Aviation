@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Company --></label>
+        <name>inscor__Company__c</name>
+        <relationshipLabel><!-- Consignor Payables --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Consignor Due --></label>
+        <name>inscor__Consignor_Due__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consignor --></label>
+        <name>inscor__Consignor__c</name>
+        <relationshipLabel><!-- Consignor Payables --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payable Name --></label>
+        <name>inscor__Payable_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Processed By --></label>
+        <name>inscor__Processed_By__c</name>
+        <relationshipLabel><!-- Consignor Payables --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity of Adjustment Lines --></label>
+        <name>inscor__Quantity_of_Adjustment_Lines__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity of Sales Lines --></label>
+        <name>inscor__Quantity_of_Sales_Lines__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>inscor__Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid</masterLabel>
+            <translation><!-- Paid --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total Adjustments --></label>
+        <name>inscor__Total_Adjustments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Consignor Payable --></label>
+        <name>inscor__Total_Consignor_Payable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Sales --></label>
+        <name>inscor__Total_Price__c</name>
+    </fields>
+    <webLinks>
+        <label><!-- Export --></label>
+        <name>inscor__Export</name>
+    </webLinks>
+</CustomObjectTranslation>

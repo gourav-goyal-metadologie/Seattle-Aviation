@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Adjustment Description --></label>
+        <name>inscor__Adjustment_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Adjustment Quantity --></label>
+        <name>inscor__Adjustment_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Adjustment Reason --></label>
+        <name>inscor__Adjustment_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Missing</masterLabel>
+            <translation><!-- Missing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Overage</masterLabel>
+            <translation><!-- Overage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scrap</masterLabel>
+            <translation><!-- Scrap --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Counted Quantity --></label>
+        <name>inscor__Counted_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cycle Count --></label>
+        <name>inscor__Cycle_Count__c</name>
+        <relationshipLabel><!-- Cycle Count Discrepancies --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Discrepancy Quantity - After Adjustment --></label>
+        <name>inscor__Discrepancy_Quantity_After_Adjustment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discrepancy Quantity --></label>
+        <name>inscor__Discrepancy_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Quantity --></label>
+        <name>inscor__Initial_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Comments --></label>
+        <name>inscor__Internal_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inventory ID --></label>
+        <name>inscor__Inventory_ID__c</name>
+        <relationshipLabel><!-- Cycle Count Discrepancies --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>inscor__Status__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Process</masterLabel>
+            <translation><!-- In Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Cycle Count Discrepancy Layout</layout>
+        <sections>
+            <label><!-- Adjustment Information --></label>
+            <section>Adjustment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Discrepancy Information --></label>
+            <section>Discrepancy Information</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

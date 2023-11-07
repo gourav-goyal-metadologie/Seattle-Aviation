@@ -1,0 +1,36 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId,force:lightningQuickActionWithoutHeader"
+                controller="OpportunitySendEmailCtrl" access="global" >
+    <aura:html tag="style">
+        .cuf-content {
+        padding: 0 0rem !important;
+        }
+        .slds-p-around--medium {
+        padding: 0rem !important;
+        }       
+        .slds-modal__content{
+        overflow-y:hidden !important;
+        height:unset !important;
+        max-height:unset !important;
+        }
+    </aura:html>
+    <aura:attribute name="myVal" type="String" />
+    <aura:attribute name="subject" type="String" />
+    <aura:attribute name="emailIds" type="String" />
+    <aura:handler name="init" value="{! this }" action="{! c.init }"/>
+    <div class="slds-col modal-header slds-modal__header">
+        <h2 class="title slds-text-heading--medium">Send Email</h2>
+    </div>
+    <div class="slds-col modal-body scrollable slds-p-around--medium" style="overflow-y: auto !important">
+        <div class="slds-p-around--medium" style="padding: 10px !important;">
+            <lightning:helptext content="Email Id seperated with ," iconName="utility:info" class="popover"/>
+            <lightning:input name="Email Id" label="Email Id" value="{!v.emailIds}" required="true"/>
+            <lightning:input name="Subject" label="Subject" value="{!v.subject}" required="true" style="padding-bottom:6px"/>
+            <span style="color: rgb(62,62,60);">&nbsp;Email Body</span>
+            <lightning:inputRichText value="{!v.myVal}" label="Make a note"/>
+        </div>
+    </div>
+    <div class="slds-col modal-footer slds-modal__footer">        
+        <lightning:button variant="neutral" label="Cancel" onclick="{! c.cancelClick }" />      
+        <lightning:button variant="brand" label="Send Email" onclick="{! c.saveClick }" />
+    </div>
+</aura:component>

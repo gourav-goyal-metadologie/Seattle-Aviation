@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Complaint Defect Complaint GT Junction --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Complaint Defect Complaint GT Junction --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Complaint Defect Complaint GT Junction --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Complaint Defect Complaint GT Junction --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Complaint Defect Complaint GT Junction --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Complaint Defect Complaint GT Junction --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Complaint Defect Complaint GT Junction --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Complaint Defect Complaint GT Junction --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Evaluation Codes --></label>
+        <name>QPMS__Evaluation_Codes</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Category --></label>
+        <name>QPMS__Category__c</name>
+        <picklistValues>
+            <masterLabel>val1</masterLabel>
+            <translation><!-- val1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>val2</masterLabel>
+            <translation><!-- val2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>val3</masterLabel>
+            <translation><!-- val3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Evaluation Code --></label>
+        <name>QPMS__Complaint_Defect__c</name>
+        <relationshipLabel><!-- Complaint Defect Complaint GT Junctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Complaint General Task --></label>
+        <name>QPMS__Complaint_General_Task__c</name>
+        <relationshipLabel><!-- Complaint Defect Complaint GT Junctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Complaint --></label>
+        <name>QPMS__Complaint__c</name>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <nameFieldLabel><!-- Complaint Defect Complaint GT Junction N --></nameFieldLabel>
+</CustomObjectTranslation>

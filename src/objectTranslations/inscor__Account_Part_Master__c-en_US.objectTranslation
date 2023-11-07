@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account --></label>
+        <name>inscor__Account__c</name>
+        <relationshipLabel><!-- Account Part Masters --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- A new alternate part number record will be created with the relationship of &quot;Customer Part Number&quot;, and a description with the Account Name --></help>
+        <label><!-- Create Alternate Record? --></label>
+        <name>inscor__Create_Alternate_Record__c</name>
+    </fields>
+    <fields>
+        <label><!-- Proprietary Part Number --></label>
+        <name>inscor__Customer_Part_Number__c</name>
+        <relationshipLabel><!-- Account Part Masters (Customer Part Number) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Part Number --></label>
+        <name>inscor__Part_Number__c</name>
+        <relationshipLabel><!-- Account Part Masters --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

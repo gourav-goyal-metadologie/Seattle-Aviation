@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- ProductAuditTrail --></label>
+        <name>QPMS__ProductAuditTrail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ProductTaskDetils --></label>
+        <name>QPMS__ProductTaskDetils</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ProductTaskUpdate --></label>
+        <name>QPMS__ProductTaskUpdate</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Product_Task --></label>
+        <name>QPMS__Product_Task</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Product Task View --></label>
+        <name>QPMS__Product_Task_View</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Product_task_update_view --></label>
+        <name>QPMS__Product_task_update_view</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- WebServiceResponse --></label>
+        <name>QPMS__WebServiceResponse</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Active --></label>
+        <name>QPMS__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Unit --></label>
+        <name>QPMS__Business_Unit__c</name>
+        <picklistValues>
+            <masterLabel>Val1</masterLabel>
+            <translation><!-- Val1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Val2</masterLabel>
+            <translation><!-- Val2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CR Status --></label>
+        <name>QPMS__CR_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commodity Code --></label>
+        <name>QPMS__Commodity_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distributor --></label>
+        <name>QPMS__Distributor__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Created From CR --></label>
+        <name>QPMS__Is_Created_From_CR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer / Supplier --></label>
+        <name>QPMS__Manufacturer_Supplier__c</name>
+        <relationshipLabel><!-- Product Family --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer --></label>
+        <name>QPMS__Manufacturer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturing Site --></label>
+        <name>QPMS__Manufacturing_Site__c</name>
+        <relationshipLabel><!-- Product Family --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Part Classification --></label>
+        <name>QPMS__Part_Classification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part Quality --></label>
+        <name>QPMS__Part_Quality__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part Revision --></label>
+        <name>QPMS__Part_Revision__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part Vault --></label>
+        <name>QPMS__Part_Vault__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Code --></label>
+        <name>QPMS__Product_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Description --></label>
+        <name>QPMS__Product_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Number --></label>
+        <name>QPMS__Product_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Task Status --></label>
+        <name>QPMS__Product_Task_Status__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Void</masterLabel>
+            <translation><!-- Void --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product Task --></label>
+        <name>QPMS__Product_Task__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>QPMS__Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Risk Level --></label>
+        <name>QPMS__Risk_Level__c</name>
+        <picklistValues>
+            <masterLabel>Val1</masterLabel>
+            <translation><!-- Val1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Val2</masterLabel>
+            <translation><!-- Val2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>val3</masterLabel>
+            <translation><!-- val3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sampling Plan --></label>
+        <name>QPMS__Sampling_Plan__c</name>
+        <relationshipLabel><!-- Product Family --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>QPMS__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Under Change</masterLabel>
+            <translation><!-- Under Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Void</masterLabel>
+            <translation><!-- Void --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>QPMS__Type__c</name>
+        <picklistValues>
+            <masterLabel>Component</masterLabel>
+            <translation><!-- Component --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equipment</masterLabel>
+            <translation><!-- Equipment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finished Product</masterLabel>
+            <translation><!-- Finished Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Part</masterLabel>
+            <translation><!-- Part --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- UDF --></label>
+        <name>QPMS__UDF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit Cost --></label>
+        <name>QPMS__Unit_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit of Measure --></label>
+        <name>QPMS__Unit_of_Measure__c</name>
+        <picklistValues>
+            <masterLabel>EA</masterLabel>
+            <translation><!-- EA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GAL</masterLabel>
+            <translation><!-- GAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KG</masterLabel>
+            <translation><!-- KG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L</masterLabel>
+            <translation><!-- L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LB</masterLabel>
+            <translation><!-- LB --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Component</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Equipment</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Finished Product</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Part</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Product (custom) Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Service</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Component --></label>
+        <name>QPMS__Component</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Equipment --></label>
+        <name>QPMS__Equipment</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Finished Product --></label>
+        <name>QPMS__Finished_Product</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Part --></label>
+        <name>QPMS__Part</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Service --></label>
+        <name>QPMS__Service</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Product code should not be changed once product created --></errorMessage>
+        <name>QPMS__Product_code</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Product code  is required --></errorMessage>
+        <name>QPMS__Product_code_required</name>
+    </validationRules>
+</CustomObjectTranslation>

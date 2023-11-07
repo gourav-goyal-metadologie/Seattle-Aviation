@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- History Fields --></label>
+        <name>QPMS__History_Fields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Action --></label>
+        <name>QPMS__ActionStatus__c</name>
+        <picklistValues>
+            <masterLabel>Created</masterLabel>
+            <translation><!-- Created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deleted</masterLabel>
+            <translation><!-- Deleted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Updated</masterLabel>
+            <translation><!-- Updated --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Attachment --></label>
+        <name>QPMS__Attachment_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>QPMS__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- FieldApiName --></label>
+        <name>QPMS__FieldApiName__c</name>
+    </fields>
+    <fields>
+        <label><!-- FieldName --></label>
+        <name>QPMS__FieldName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last ModifiedBy --></label>
+        <name>QPMS__Last_ModifiedBy__c</name>
+    </fields>
+    <fields>
+        <label><!-- NewValue --></label>
+        <name>QPMS__NewValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- NC Type --></label>
+        <name>QPMS__Non_Conformance_Type__c</name>
+        <relationshipLabel><!-- NC Type History --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Object --></label>
+        <name>QPMS__Object__c</name>
+    </fields>
+    <fields>
+        <label><!-- OldValue --></label>
+        <name>QPMS__OldValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub Parent --></label>
+        <name>QPMS__Sub_Parent__c</name>
+        <picklistValues>
+            <masterLabel>Additional Details</masterLabel>
+            <translation><!-- Additional Details --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adhoc Task</masterLabel>
+            <translation><!-- Adhoc Task --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Functional Task</masterLabel>
+            <translation><!-- Functional Task --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Initiation</masterLabel>
+            <translation><!-- Initiation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reference</masterLabel>
+            <translation><!-- Reference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Security</masterLabel>
+            <translation><!-- Security --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Created --></label>
+        <name>QPMS__isCreated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deleted --></label>
+        <name>QPMS__isDeleted__c</name>
+    </fields>
+</CustomObjectTranslation>

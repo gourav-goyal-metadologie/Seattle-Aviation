@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Email Fields --></label>
+        <name>QPMS__Email_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- NC Product Contextual Help --></label>
+        <name>QPMS__NC_Product_Contextual_Help</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- NC Product Dynamic Contextual Help --></label>
+        <name>QPMS__NC_Product_Dynamic_Contextual_Help</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- NC Product Information --></label>
+        <name>QPMS__NC_Product_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- NC Product Lot Audit Trail --></label>
+        <name>QPMS__NC_Product_Lot_Audit_Trail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- dispositioncontextualhelplot --></label>
+        <name>QPMS__dispositioncontextualhelplot</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Customer/Supplier --></label>
+        <name>QPMS__Customer_Supplier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Defect Codes --></label>
+        <name>QPMS__Defect_Codes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Defect Count --></label>
+        <name>QPMS__Defect_Count__c</name>
+    </fields>
+    <fields>
+        <label>Part/Batch Number</label>
+        <name>QPMS__Lot_Bacth_Number__c</name>
+    </fields>
+    <fields>
+        <label>Quantity Affected</label>
+        <name>QPMS__Lot_Quantity_Affected__c</name>
+    </fields>
+    <fields>
+        <label><!-- NCProduct --></label>
+        <name>QPMS__NCProduct__c</name>
+    </fields>
+    <fields>
+        <label><!-- NC Created Date --></label>
+        <name>QPMS__NC_Created_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- NC Number --></label>
+        <name>QPMS__NC_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- NC Product --></label>
+        <name>QPMS__NC_Product__c</name>
+        <relationshipLabel><!-- NC Product Lot Numbers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Non-Conformance --></label>
+        <name>QPMS__Non_Conformance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>QPMS__Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- UOM --></label>
+        <name>QPMS__UOM__c</name>
+        <picklistValues>
+            <masterLabel>EA</masterLabel>
+            <translation><!-- EA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GAL</masterLabel>
+            <translation><!-- GAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KG</masterLabel>
+            <translation><!-- KG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L</masterLabel>
+            <translation><!-- L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LB</masterLabel>
+            <translation><!-- LB --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Product Lot Numbers Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Lot Quantity Affected is required. --></errorMessage>
+        <name>QPMS__Lot_Quantity_affected_is_required</name>
+    </validationRules>
+</CustomObjectTranslation>

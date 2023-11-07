@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Contact Role --></label>
+        <name>inscor__Contact_Role__c</name>
+        <picklistValues>
+            <masterLabel>Approver</masterLabel>
+            <translation><!-- Approver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Involved</masterLabel>
+            <translation><!-- Involved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Primary</masterLabel>
+            <translation><!-- Primary --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>inscor__Contact__c</name>
+        <relationshipLabel><!-- Work Order Contacts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Receive Notification? --></label>
+        <name>inscor__Receive_Notification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Order --></label>
+        <name>inscor__Work_Order__c</name>
+        <relationshipLabel><!-- Work Order Contacts --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Work Order Contact Role Layout</layout>
+        <sections>
+            <label><!-- Contact Role --></label>
+            <section>Contact Role</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- Work Order Contact --></label>
+            <section>Work Order Contact</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Only Work Order Customer&apos;s contact allowed --></errorMessage>
+        <name>inscor__Customer_Contact_Check</name>
+    </validationRules>
+</CustomObjectTranslation>

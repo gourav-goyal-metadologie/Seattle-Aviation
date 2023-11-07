@@ -1,0 +1,1288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Repair_Order1</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>Repair_Order1</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>inscor__RO_Compact</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>inscor__RO_Compact</fullName>
+        <fields>Name</fields>
+        <fields>inscor__Vendor__c</fields>
+        <fields>inscor__Create_Date__c</fields>
+        <fields>inscor__Contact__c</fields>
+        <fields>inscor__Urgency__c</fields>
+        <fields>inscor__AOG__c</fields>
+        <fields>inscor__Number_of_Lines__c</fields>
+        <fields>inscor__RO_Total_Estimated_Cost__c</fields>
+        <fields>inscor__Repair_Total_Cost__c</fields>
+        <fields>inscor__Assigned_To__c</fields>
+        <label>RO Compact</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>false</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>false</enableSharing>
+    <enableStreamingApi>false</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Legacy_Misc_Details__c</fullName>
+        <externalId>false</externalId>
+        <label>Legacy Misc. Details</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Legacy_Ship_Method__c</fullName>
+        <externalId>false</externalId>
+        <label>Legacy Ship Method</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__AOG__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>AOG?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Acct__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>If this field is left blank when changing Ship Method then the default Acct # will be filled in automatically.</inlineHelpText>
+        <label>Acct #</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Approval_Queue_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Approval Queue Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Assigned_To__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Assigned To</label>
+        <referenceTo>User</referenceTo>
+        <relationshipLabel>Repair Orders</relationshipLabel>
+        <relationshipName>Repair_Orders</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Bill_Freight_Via__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Bill Freight Via</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>On Cust Acct</fullName>
+                    <default>false</default>
+                    <label>On Cust Acct</label>
+                </value>
+                <value>
+                    <fullName>On Our Acct</fullName>
+                    <default>false</default>
+                    <label>On Our Acct</label>
+                </value>
+                <value>
+                    <fullName>On 3rd Party Acct</fullName>
+                    <default>false</default>
+                    <label>On 3rd Party Acct</label>
+                </value>
+                <value>
+                    <fullName>On Cust Invoice</fullName>
+                    <default>false</default>
+                    <label>On Cust Invoice</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>inscor__Billing_City__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Billing City</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Billing_Country__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Billing Country</label>
+        <length>80</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Billing_Postal_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Billing Postal Code</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Billing_State__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Billing State</label>
+        <length>80</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Billing_Street__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Billing Street</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Business_Category_Auto_Update__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Business Category Auto Update?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Business_Category__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Business Category</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>inscor__Business_Category</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>inscor__Carrier__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Carrier</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>inscor__Ship_Carrier</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>inscor__Company__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Company</label>
+        <referenceTo>inscor__Company__c</referenceTo>
+        <relationshipLabel>Repair Orders</relationshipLabel>
+        <relationshipName>Repair_Orders</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Contact_Phone__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Contact Phone</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Contact</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>(1 AND 2) OR (3 AND 4)</booleanFilter>
+            <filterItems>
+                <field>Contact.AccountId</field>
+                <operation>equals</operation>
+                <valueField>$Source.inscor__Vendor__c</valueField>
+            </filterItems>
+            <filterItems>
+                <field>$Source.inscor__Dropship_Site__c</field>
+                <operation>equals</operation>
+                <value></value>
+            </filterItems>
+            <filterItems>
+                <field>$Source.inscor__Dropship_Site__c</field>
+                <operation>notEqual</operation>
+                <value></value>
+            </filterItems>
+            <filterItems>
+                <field>$Source.inscor__Dropship_Site__c</field>
+                <operation>equals</operation>
+                <valueField>Contact.inscor__Account_Shipping_Address__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Repair Orders (Contact)</relationshipLabel>
+        <relationshipName>Repair_Orders1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Conversion_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Conversion ID</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Create_Date__c</fullName>
+        <defaultValue>NOW()</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Create Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Created_From_Sales_Order__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Created From Sales Order</label>
+        <referenceTo>inscor__Sales_Order__c</referenceTo>
+        <relationshipLabel>Repair Orders</relationshipLabel>
+        <relationshipName>Repair_Orders</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__DropShip_Email__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>DropShip Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Dropship_ATTN__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Dropship ATTN</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>$Source.inscor__Dropship_to_Account__c</field>
+                <operation>equals</operation>
+                <valueField>Contact.AccountId</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Repair Orders (Dropship ATTN)</relationshipLabel>
+        <relationshipName>Repair_Orders</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Dropship_Site__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Dropship Site</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>$Source.inscor__Dropship_to_Account__c</field>
+                <operation>equals</operation>
+                <valueField>inscor__Account_Ship_Address__c.inscor__Account__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>inscor__Account_Ship_Address__c</referenceTo>
+        <relationshipLabel>Repair Orders</relationshipLabel>
+        <relationshipName>Repair_Orders</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Dropship_to_Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Dropship to Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Repair Orders (Dropship to Account)</relationshipLabel>
+        <relationshipName>Repair_Orders1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__External_Comments_Available__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>External Comments Available</label>
+        <referenceTo>inscor__Quick_Comment__c</referenceTo>
+        <relationshipLabel>Repair Orders (External Comments Available)</relationshipLabel>
+        <relationshipName>Repair_Orders1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__External_Comments_rt__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>External Comments</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__External_Reference_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <deprecated>false</deprecated>
+        <externalId>true</externalId>
+        <label>External Reference ID</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Generate_PDF_Selected_Docs__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Generate PDF Selected Docs</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__Internal_Comments_Available__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Internal Comments Available</label>
+        <referenceTo>inscor__Quick_Comment__c</referenceTo>
+        <relationshipLabel>Repair Orders</relationshipLabel>
+        <relationshipName>Repair_Orders</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Internal_Comments_rt__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Internal Comments</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__Internal_Instructions__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Internal Instructions</label>
+        <length>10000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__Load_Address_from_Account__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>If left checked, Shipping Address will fill in automatically from the Vendor.</inlineHelpText>
+        <label>Load Address from Account - RETIRED</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Number_of_Lines__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Number of Lines</label>
+        <summaryForeignKey>inscor__Repair_Order_Line__c.inscor__Repair_Order__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Port_Dest__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Port/Dest</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__RO_Total_Estimated_Company_Cost__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>RO Total Estimated Company Cost</label>
+        <summarizedField>inscor__Repair_Order_Line__c.inscor__Company_Extended_Estimated_Cost__c</summarizedField>
+        <summaryForeignKey>inscor__Repair_Order_Line__c.inscor__Repair_Order__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>inscor__RO_Total_Estimated_Cost__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>RO Total Estimated Cost</label>
+        <summarizedField>inscor__Repair_Order_Line__c.inscor__Extended_Estimated_Cost__c</summarizedField>
+        <summaryForeignKey>inscor__Repair_Order_Line__c.inscor__Repair_Order__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Reference_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Reference ID</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Repair_Total_Company_Cost__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Repair Total Company Cost</label>
+        <summarizedField>inscor__Repair_Order_Line__c.inscor__Company_Extended_Final_Cost__c</summarizedField>
+        <summaryForeignKey>inscor__Repair_Order_Line__c.inscor__Repair_Order__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Repair_Total_Cost__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Repair Total Cost</label>
+        <summarizedField>inscor__Repair_Order_Line__c.inscor__Extended_Final_Cost__c</summarizedField>
+        <summaryForeignKey>inscor__Repair_Order_Line__c.inscor__Repair_Order__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Requested_Ship_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Requested Ship Date</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Ship_Method__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>If wanting to use the default Acct # when setting/changing Ship Method, make sure that Acct # is blank. If Acct # is filled in then it will not be automatically set.</inlineHelpText>
+        <label>Ship Method</label>
+        <referenceTo>inscor__Ship_Method__c</referenceTo>
+        <relationshipLabel>Repair Orders</relationshipLabel>
+        <relationshipName>Repair_Orders</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Ship_Terms__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Ship Terms</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>inscor__Shipping_Terms</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>inscor__Ship_To_Address__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Ship To Address</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>$Source.inscor__Vendor__c</field>
+                <operation>equals</operation>
+                <valueField>inscor__Account_Ship_Address__c.inscor__Account__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>inscor__Account_Ship_Address__c</referenceTo>
+        <relationshipLabel>Repair Orders (Ship To Address)</relationshipLabel>
+        <relationshipName>Repair_Orders1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Ship_To_Location__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>This is the physical location where the Repair Order will be returned to. If blank, it will default to the location of your employee record.</inlineHelpText>
+        <label>Ship To Location</label>
+        <referenceTo>inscor__Company_Location__c</referenceTo>
+        <relationshipLabel>Repair Orders</relationshipLabel>
+        <relationshipName>Repair_Orders</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Shipping_City__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Shipping City</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Shipping_Country__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Shipping Country</label>
+        <length>80</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Shipping_Instructions__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Shipping Instructions</label>
+        <length>10000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__Shipping_Postal_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Shipping Postal Code</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Shipping_State__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Shipping State</label>
+        <length>80</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Shipping_Street__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Shipping Street</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Status__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New</fullName>
+                    <default>true</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Released</fullName>
+                    <default>false</default>
+                    <label>Released</label>
+                </value>
+                <value>
+                    <fullName>Shipped</fullName>
+                    <default>false</default>
+                    <label>Shipped</label>
+                </value>
+                <value>
+                    <fullName>Estimate Received</fullName>
+                    <default>false</default>
+                    <label>Estimate Received</label>
+                </value>
+                <value>
+                    <fullName>In Repair</fullName>
+                    <default>false</default>
+                    <label>In Repair</label>
+                </value>
+                <value>
+                    <fullName>Received</fullName>
+                    <default>false</default>
+                    <label>Received</label>
+                </value>
+                <value>
+                    <fullName>Vouchered</fullName>
+                    <default>false</default>
+                    <label>Vouchered</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>inscor__Terms__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Terms</label>
+        <referenceTo>inscor__Account_Terms__c</referenceTo>
+        <relationshipLabel>Repair Orders</relationshipLabel>
+        <relationshipName>Repair_Orders</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Urgency__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Urgency</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Regular</fullName>
+                    <default>true</default>
+                    <label>Regular</label>
+                </value>
+                <value>
+                    <fullName>Budgetary</fullName>
+                    <default>false</default>
+                    <label>Budgetary</label>
+                </value>
+                <value>
+                    <fullName>Expedite</fullName>
+                    <default>false</default>
+                    <label>Expedite</label>
+                </value>
+                <value>
+                    <fullName>Work Stoppage</fullName>
+                    <default>false</default>
+                    <label>Work Stoppage</label>
+                </value>
+                <value>
+                    <fullName>Critical</fullName>
+                    <default>false</default>
+                    <label>Critical</label>
+                </value>
+                <value>
+                    <fullName>AOG</fullName>
+                    <default>false</default>
+                    <label>AOG</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>inscor__Vendor__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Vendor</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Account.inscor__Hide_from_RO__c</field>
+                <operation>equals</operation>
+                <value>False</value>
+            </filterItems>
+            <isOptional>true</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Repair Orders</relationshipLabel>
+        <relationshipName>Repair_Orders</relationshipName>
+        <required>true</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Repair Order</label>
+    <listViews>
+        <fullName>Commercial_Teardown_RO</fullName>
+        <booleanFilter>1 OR 2 OR 3</booleanFilter>
+        <columns>NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>inscor__Assigned_To__c</field>
+            <operation>contains</operation>
+            <value>Tyler</value>
+        </filters>
+        <filters>
+            <field>inscor__Assigned_To__c</field>
+            <operation>contains</operation>
+            <value>Stephen</value>
+        </filters>
+        <filters>
+            <field>inscor__Assigned_To__c</field>
+            <operation>contains</operation>
+            <value>Yulius</value>
+        </filters>
+        <label>Commercial/Teardown RO</label>
+        <sharedTo>
+            <group>Commercial_Teardown</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>inscor__All</fullName>
+        <columns>NAME</columns>
+        <columns>inscor__Vendor__c</columns>
+        <columns>inscor__Repair_Total_Cost__c</columns>
+        <columns>inscor__Create_Date__c</columns>
+        <columns>inscor__Status__c</columns>
+        <columns>inscor__Urgency__c</columns>
+        <columns>inscor__Assigned_To__c</columns>
+        <columns>inscor__Internal_Comments_rt__c</columns>
+        <columns>inscor__External_Comments_rt__c</columns>
+        <columns>Legacy_Misc_Details__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Repair Orders</label>
+    </listViews>
+    <nameField>
+        <displayFormat>RO-{0}</displayFormat>
+        <label>RO Number</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Repair Orders</pluralLabel>
+    <searchLayouts>
+        <searchResultsAdditionalFields>CREATED_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>inscor__Vendor__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>inscor__Urgency__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>inscor__Assigned_To__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>inscor__Business_Category_blank_Auto_Update</fullName>
+        <active>true</active>
+        <errorConditionFormula>inscor__Business_Category_Auto_Update__c == true &amp;&amp; NOT(ISBLANK(TEXT(inscor__Business_Category__c)))</errorConditionFormula>
+        <errorMessage>Auto Update Cannot be true when Business Category Selected.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Cancelled_cannot_be_changed</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( 
+ISCHANGED(inscor__Status__c), 
+TEXT(PRIORVALUE(inscor__Status__c)) = &quot;Cancelled&quot; 
+)</errorConditionFormula>
+        <errorMessage>Once RO is cancelled, it cannot be reopened</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Dropship_Site_And_Ship_To_Location</fullName>
+        <active>true</active>
+        <errorConditionFormula>inscor__Dropship_to_Account__c != null &amp;&amp;  inscor__Ship_To_Location__c != null</errorConditionFormula>
+        <errorMessage>Can not set &quot;Dropship to Account&quot; and &quot;Ship To Location&quot; together.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Status_cannot_be_previous</fullName>
+        <active>false</active>
+        <errorConditionFormula>OR(
+   AND
+   (
+     OR(
+       ISPICKVAL(PRIORVALUE( inscor__Status__c ), &quot;In Progress&quot;),
+       ISPICKVAL(PRIORVALUE( inscor__Status__c ), &quot;Sent to Vendor&quot;),
+       ISPICKVAL(PRIORVALUE( inscor__Status__c ), &quot;Released&quot;),
+       ISPICKVAL(PRIORVALUE( inscor__Status__c ), &quot;Shipped&quot;),
+       ISPICKVAL(PRIORVALUE( inscor__Status__c ), &quot;Estimate Received&quot;),
+       ISPICKVAL(PRIORVALUE( inscor__Status__c ), &quot;In Repair&quot;),
+       ISPICKVAL(PRIORVALUE( inscor__Status__c ), &quot;Received - Complete&quot;)
+       ),
+      ISPICKVAL(inscor__Status__c, &quot;New&quot;)
+   )
+,
+   AND
+   (
+     OR(
+       ISPICKVAL(PRIORVALUE( inscor__Status__c ), &quot;Sent to Vendor&quot;),
+       ISPICKVAL(PRIORVALUE( inscor__Status__c ), &quot;Released&quot;),
+       ISPICKVAL(PRIORVALUE( inscor__Status__c ), &quot;Shipped&quot;),
+       ISPICKVAL(PRIORVALUE( inscor__Status__c ), &quot;Estimate Received&quot;),
+       ISPICKVAL(PRIORVALUE( inscor__Status__c ), &quot;In Repair&quot;),
+       ISPICKVAL(PRIORVALUE( inscor__Status__c ), &quot;Received - Complete&quot;)
+       ),
+      ISPICKVAL(inscor__Status__c, &quot;In Progress&quot;)
+   )
+,
+   AND
+   (
+     OR(
+       ISPICKVAL(PRIORVALUE( inscor__Status__c ), &quot;Released&quot;),
+       ISPICKVAL(PRIORVALUE( inscor__Status__c ), &quot;Shipped&quot;),
+       ISPICKVAL(PRIORVALUE( inscor__Status__c ), &quot;Estimate Received&quot;),
+       ISPICKVAL(PRIORVALUE( inscor__Status__c ), &quot;In Repair&quot;),
+       ISPICKVAL(PRIORVALUE( inscor__Status__c ), &quot;Received - Complete&quot;)
+       ),
+      ISPICKVAL(inscor__Status__c, &quot;Sent to Vendor&quot;)
+   )
+,
+   AND
+   (
+     OR(
+       ISPICKVAL(PRIORVALUE( inscor__Status__c ), &quot;Estimate Received&quot;),
+       ISPICKVAL(PRIORVALUE( inscor__Status__c ), &quot;In Repair&quot;),
+       ISPICKVAL(PRIORVALUE( inscor__Status__c ), &quot;Received - Complete&quot;)
+       ),
+      ISPICKVAL(inscor__Status__c, &quot;Released&quot;)
+   )
+,
+   AND
+   (
+     OR(
+       ISPICKVAL(PRIORVALUE( inscor__Status__c ), &quot;Released&quot;),
+       ISPICKVAL(PRIORVALUE( inscor__Status__c ), &quot;Estimate Received&quot;),
+       ISPICKVAL(PRIORVALUE( inscor__Status__c ), &quot;In Repair&quot;),
+       ISPICKVAL(PRIORVALUE( inscor__Status__c ), &quot;Received - Complete&quot;)
+       ),
+      ISPICKVAL(inscor__Status__c, &quot;Shipped&quot;)
+   )
+,
+   AND
+   (
+     OR(
+       ISPICKVAL(PRIORVALUE( inscor__Status__c ), &quot;In Repair&quot;),
+       ISPICKVAL(PRIORVALUE( inscor__Status__c ), &quot;Received - Complete&quot;)
+       ),
+      ISPICKVAL(inscor__Status__c, &quot;Estimate Received&quot;)
+   )
+,
+   AND
+   (
+     OR(
+       ISPICKVAL(PRIORVALUE( inscor__Status__c ), &quot;Received - Complete&quot;)
+       ),
+      ISPICKVAL(inscor__Status__c, &quot;In Repair&quot;)
+   )
+)</errorConditionFormula>
+        <errorMessage>Status cannot be changed to a previous status</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>avszen__ZEN_Generate_Release</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Generate Release</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/lightning/n/avszen__ZEN_Generate_Release_RO?avszen__id={!inscor__Repair_Order__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>inscor__Generate_Release</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Generate Release</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/lightning/n/inscor__Generate_Release_RO?inscor__id={!inscor__Repair_Order__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>inscor__Pay</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Voucher</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/lightning/n/inscor__RO_Pay?inscor__id={!inscor__Repair_Order__c.Id}</url>
+    </webLinks>
+</CustomObject>

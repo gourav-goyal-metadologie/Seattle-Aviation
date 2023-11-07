@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Used to add, subtract, multiply or divide columns. --></help>
+        <label><!-- Calculation --></label>
+        <name>AcctSeed__Calculation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Financial Statement Definition --></label>
+        <name>AcctSeed__Financial_Report_Definition__c</name>
+        <relationshipLabel><!-- Financial Statement Rows --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The group of general ledger accounts to report on in this row. --></help>
+        <label><!-- GL Account Reporting Group --></label>
+        <name>AcctSeed__GL_Account_Reporting_Group__c</name>
+        <relationshipLabel><!-- Financial Statement Rows --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- General Ledger segment used for reporting of a business unit such as division or department. --></help>
+        <label><!-- GL Variable 1 --></label>
+        <name>AcctSeed__GL_Account_Variable_1__c</name>
+        <relationshipLabel><!-- Financial Statement Rows (GL Account Variable 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- General Ledger segment used for reporting of a business unit such as division or department. --></help>
+        <label><!-- GL Variable 2 --></label>
+        <name>AcctSeed__GL_Account_Variable_2__c</name>
+        <relationshipLabel><!-- Financial Statement Rows (GL Account Variable 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- General Ledger segment used for reporting of a business unit such as division or department. --></help>
+        <label><!-- GL Variable 3 --></label>
+        <name>AcctSeed__GL_Account_Variable_3__c</name>
+        <relationshipLabel><!-- Financial Statement Rows (GL Account Variable 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- General Ledger segment used for reporting of a business unit such as division or department. --></help>
+        <label><!-- GL Variable 4 --></label>
+        <name>AcctSeed__GL_Account_Variable_4__c</name>
+        <relationshipLabel><!-- Financial Statement Rows (GL Account Variable 4) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The general ledger account to report on this row. --></help>
+        <label><!-- GL Account --></label>
+        <name>AcctSeed__GL_Account__c</name>
+        <relationshipLabel><!-- Financial Statement Rows --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Will position the row further to the right as the value increases. --></help>
+        <label><!-- Indent --></label>
+        <name>AcctSeed__Indent__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- A value of Debit will display a positive value for Asset and Revenue Accounts. A value of Credit will display a positive value for liability, equity and expense GL accounts --></help>
+        <label><!-- Normal Balance --></label>
+        <name>AcctSeed__Normal_Balance__c</name>
+        <picklistValues>
+            <masterLabel>Credit</masterLabel>
+            <translation><!-- Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Debit</masterLabel>
+            <translation><!-- Debit --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Position of the row from top to bottom. --></help>
+        <label><!-- Position --></label>
+        <name>AcctSeed__Position__c</name>
+    </fields>
+    <fields>
+        <help><!-- The label displayed on the row of the report. --></help>
+        <label><!-- Row Label --></label>
+        <name>AcctSeed__Row_Label__c</name>
+    </fields>
+    <fields>
+        <help><!-- Suppress the print of the row. --></help>
+        <label><!-- Suppress Print --></label>
+        <name>AcctSeed__Suppress_Print__c</name>
+    </fields>
+    <fields>
+        <help><!-- The value to display in the column. --></help>
+        <label><!-- Type --></label>
+        <name>AcctSeed__Type__c</name>
+        <picklistValues>
+            <masterLabel>Blank</masterLabel>
+            <translation><!-- Blank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calculation Number</masterLabel>
+            <translation><!-- Calculation Number --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calculation Percentage</masterLabel>
+            <translation><!-- Calculation Percentage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Description</masterLabel>
+            <translation><!-- Description --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GL Account</masterLabel>
+            <translation><!-- GL Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reporting Group</masterLabel>
+            <translation><!-- Reporting Group --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Allows for a single or double underline of the cell. --></help>
+        <label><!-- Underline --></label>
+        <name>AcctSeed__Underline__c</name>
+        <picklistValues>
+            <masterLabel>Double</masterLabel>
+            <translation><!-- Double --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single</masterLabel>
+            <translation><!-- Single --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Financial Report Row Layout</layout>
+        <sections>
+            <label><!-- Accounting Variable Information --></label>
+            <section>Accounting Variable Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Formatting Information --></label>
+            <section>Formatting Information</section>
+        </sections>
+        <sections>
+            <label><!-- GL Account Information --></label>
+            <section>GL Account Information</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label><!-- Mass_Add_Rows --></label>
+        <name>AcctSeed__Mass_Add_Rows</name>
+    </webLinks>
+</CustomObjectTranslation>

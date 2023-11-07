@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Active --></label>
+        <name>QPMS__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code --></label>
+        <name>QPMS__Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>QPMS__Type__c</name>
+        <picklistValues>
+            <masterLabel>val1</masterLabel>
+            <translation><!-- val1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>val2</masterLabel>
+            <translation><!-- val2 --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

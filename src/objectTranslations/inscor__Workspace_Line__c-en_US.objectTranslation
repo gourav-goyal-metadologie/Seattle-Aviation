@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Analysis Status --></label>
+        <name>inscor__Analysis_Status__c</name>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Queued</masterLabel>
+            <translation><!-- Queued --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Condition --></label>
+        <name>inscor__Condition__c</name>
+        <relationshipLabel><!-- Workspace Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cost --></label>
+        <name>inscor__Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Comments --></label>
+        <name>inscor__External_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Comments --></label>
+        <name>inscor__Internal_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line Status --></label>
+        <name>inscor__Line_Status__c</name>
+        <picklistValues>
+            <masterLabel>Canceled</masterLabel>
+            <translation><!-- Canceled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Loaded Condition --></label>
+        <name>inscor__Loaded_Condition__c</name>
+    </fields>
+    <fields>
+        <label><!-- Loaded Description --></label>
+        <name>inscor__Loaded_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Loaded Location --></label>
+        <name>inscor__Loaded_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Loaded Part Number --></label>
+        <name>inscor__Loaded_Part_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Loaded Price --></label>
+        <name>inscor__Loaded_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Loaded Qty --></label>
+        <name>inscor__Loaded_Qty__c</name>
+    </fields>
+    <fields>
+        <label><!-- Loaded Ref1 --></label>
+        <name>inscor__Loaded_Ref1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Loaded Ref2 --></label>
+        <name>inscor__Loaded_Ref2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Loaded Ref3 --></label>
+        <name>inscor__Loaded_Ref3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Loaded Ref4 --></label>
+        <name>inscor__Loaded_Ref4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>inscor__Location__c</name>
+        <relationshipLabel><!-- Workspace Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Part Number --></label>
+        <name>inscor__Part_Number__c</name>
+        <relationshipLabel><!-- Workspace Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Price --></label>
+        <name>inscor__Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>inscor__Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote-Avg 12 Month Price --></label>
+        <name>inscor__Quote_Avg_12_Month_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Workspace --></label>
+        <name>inscor__Workspace__c</name>
+        <relationshipLabel><!-- Workspace Lines --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Workspace Line Layout</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Line Information --></label>
+            <section>Line Information</section>
+        </sections>
+        <sections>
+            <label><!-- Loaded Information --></label>
+            <section>Loaded Information</section>
+        </sections>
+        <sections>
+            <label><!-- Metrics &amp; Analysis --></label>
+            <section>Metrics &amp; Analysis</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

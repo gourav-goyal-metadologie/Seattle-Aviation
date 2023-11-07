@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>52.0</apiVersion>
+    <formulas>
+        <name>CreatedDatePlusOneMin</name>
+        <dataType>DateTime</dataType>
+        <expression>{!$Record.CreatedDate} + (1/1440)</expression>
+    </formulas>
+    <formulas>
+        <name>NumberOfDays</name>
+        <dataType>Date</dataType>
+        <expression>TODAY() - {!$Setup.Quote_Configuration__c.Number_Of_Days__c}</expression>
+    </formulas>
+    <interviewLabel>Update Idle Quotes {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Update to Lost Customer Quotes</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Quote_Statuses</name>
+        <label>Update Quote Statuses</label>
+        <locationX>505</locationX>
+        <locationY>183</locationY>
+        <inputAssignments>
+            <field>Lost_Reason__c</field>
+            <value>
+                <stringValue>High Price</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>inscor__Status__c</field>
+            <value>
+                <stringValue>Closed - Lost</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>49</locationY>
+        <connector>
+            <targetReference>Update_Quote_Statuses</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Not_Responed__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <object>inscor__Customer_Quote__c</object>
+        <schedule>
+            <frequency>Daily</frequency>
+            <startDate>2021-09-24</startDate>
+            <startTime>00:37:00.000Z</startTime>
+        </schedule>
+        <triggerType>Scheduled</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

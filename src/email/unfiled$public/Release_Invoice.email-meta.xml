@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Release Invoice</name>
+    <style>none</style>
+    <subject>Your order for PO (Cust.PO#) has shipped out</subject>
+    <textOnly>Dear {!inscor__Release__c.inscor__Customer_Vendor__c},
+
+Your order under PO (Cust. PO#) has shipped out.
+SAS (SO#); {!inscor__Release__c.Name}
+
+Attached is a copy of the shipment documents.
+Your Tracking No# is {!inscor__Release__c.inscor__AWB__c}.
+Shipped Via (Ship Via).
+SAS Invoice # {!inscor__Release__c.inscor__Invoice_Number__c}.
+
+We appreciate your business.
+Your after-sales support person will be (SO Assigned to), (Email of SO Assigned to).
+Please also CC customersupport@seattleav.com.
+
+
+
+https://seattleav.force.com/inventoryportal/s/?param={!inscor__Release__c.GUID__c}
+
+--
+Best Regards
+
+Shipping
+
+Direct:
+
++1 (425) 448-5005 Ext: 702
+
+
+Office:
+
++1 (425) 448-5005
+
+
+shipping@seattleav.com
+
+
+www.seattleav.com
+
+
+18103 NE 68th street C200
+
+Redmond WA – United States 98052</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

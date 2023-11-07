@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Aircraft Register --></label>
+        <name>inscor__Aircraft_Register__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSN at Installation --></label>
+        <name>inscor__CSN_at_Installation__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSN at Removal --></label>
+        <name>inscor__CSN_at_Removal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cycle Limit Item --></label>
+        <name>inscor__Cycle_Limit_Item__c</name>
+        <relationshipLabel><!-- Lease Lines (Cycle Limit Item) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cycle Limit --></label>
+        <name>inscor__Cycle_Limit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cycle Overage Price --></label>
+        <name>inscor__Cycle_Overage_Price__c</name>
+    </fields>
+    <fields>
+        <help><!-- This % of the Cycle overage price will be used to reduce the cost fo the inventory line acquisition cost. This field overrides the &quot;Lease Part Writedown % --></help>
+        <label><!-- Cycles LPW % --></label>
+        <name>inscor__Cycles_LPW__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Engine Installation --></label>
+        <name>inscor__Date_of_Engine_Installation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Removal --></label>
+        <name>inscor__Date_of_Removal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>inscor__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- ECSN at Installation --></label>
+        <name>inscor__ECSN_at_Installation__c</name>
+    </fields>
+    <fields>
+        <label><!-- ECSN at Removal --></label>
+        <name>inscor__ECSN_at_Removal__c</name>
+    </fields>
+    <fields>
+        <label><!-- ETSN at Installation --></label>
+        <name>inscor__ETSN_at_Installation__c</name>
+    </fields>
+    <fields>
+        <label><!-- ETSN at Removal --></label>
+        <name>inscor__ETSN_at_Removal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engine Position --></label>
+        <name>inscor__Engine_Position__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flat Rate Item --></label>
+        <name>inscor__Flat_Rate_Item__c</name>
+        <relationshipLabel><!-- Lease Lines (Flat Rate Item) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Flat Rate --></label>
+        <name>inscor__Flat_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inventory --></label>
+        <name>inscor__Inventory__c</name>
+        <relationshipLabel><!-- Lease Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Lease COGS Account --></label>
+        <name>inscor__Lease_COGS_Account__c</name>
+        <relationshipLabel><!-- Lease Lines (Lease COGS Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This % of the invoice will be used to reduce the cost of the inventory line acquisition cost. --></help>
+        <label><!-- Lease Part Writedown % --></label>
+        <name>inscor__Lease_Part_Writedown__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lease Quantity --></label>
+        <name>inscor__Lease_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lease Revenue Account --></label>
+        <name>inscor__Lease_Revenue_Account__c</name>
+        <relationshipLabel><!-- Lease Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Lease --></label>
+        <name>inscor__Lease__c</name>
+        <relationshipLabel><!-- Lease Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Min Cycles --></label>
+        <name>inscor__Min_Cycles__c</name>
+    </fields>
+    <fields>
+        <label><!-- Min Times --></label>
+        <name>inscor__Min_Times__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is informational only --></help>
+        <label><!-- Outright Price --></label>
+        <name>inscor__Outright_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part Number --></label>
+        <name>inscor__Part_Number__c</name>
+        <relationshipLabel><!-- Lease Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Pricing Type --></label>
+        <name>inscor__Pricing_Type__c</name>
+        <picklistValues>
+            <masterLabel>Fixed Rate</masterLabel>
+            <translation><!-- Fixed Rate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed Rate + Overages</masterLabel>
+            <translation><!-- Fixed Rate + Overages --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Usage Based</masterLabel>
+            <translation><!-- Usage Based --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Removal Reason --></label>
+        <name>inscor__Removal_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sequence Number --></label>
+        <name>inscor__Sequence_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- TSN at Installation --></label>
+        <name>inscor__TSN_at_Installation__c</name>
+    </fields>
+    <fields>
+        <label><!-- TSN at Removal --></label>
+        <name>inscor__TSN_at_Removal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Limit Item --></label>
+        <name>inscor__Time_Limit_Item__c</name>
+        <relationshipLabel><!-- Lease Lines (Time Limit Item) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Time Limit --></label>
+        <name>inscor__Time_Limit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Overage Price --></label>
+        <name>inscor__Time_Overage_Price__c</name>
+    </fields>
+    <fields>
+        <help><!-- This % of the Time overage price will be used to reduce the cost fo the inventory line acquisition cost. This field overrides the &quot;Lease Part Writedown % --></help>
+        <label><!-- Times LPW % --></label>
+        <name>inscor__Times_LPW__c</name>
+    </fields>
+    <layouts>
+        <layout>Lease Line Layout</layout>
+        <sections>
+            <label><!-- Financial Information --></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label><!-- Installation Information --></label>
+            <section>Installation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Lease Line Information --></label>
+            <section>Lease Line Information</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- Removal Information --></label>
+            <section>Removal Information</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Lease Quantity can not greater than Quantity Available of Inventory --></errorMessage>
+        <name>inscor__Qty_cannot_more_then_Inv_qty_available</name>
+    </validationRules>
+</CustomObjectTranslation>

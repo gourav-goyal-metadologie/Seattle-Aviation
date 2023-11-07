@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Risk_PriorityAuditTrail --></label>
+        <name>QPMS__Risk_PriorityAuditTrail</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Active --></label>
+        <name>QPMS__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>QPMS__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Module --></label>
+        <name>QPMS__Module__c</name>
+        <picklistValues>
+            <masterLabel>AUD</masterLabel>
+            <translation><!-- AUD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAPA</masterLabel>
+            <translation><!-- CAPA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CMP</masterLabel>
+            <translation><!-- CMP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CNG</masterLabel>
+            <translation><!-- CNG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DOC</masterLabel>
+            <translation><!-- DOC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC</masterLabel>
+            <translation><!-- NC --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Risk Priority Number (RPN) assigns a value the a specific combination of severity and probability. --></help>
+        <label><!-- Number --></label>
+        <name>QPMS__Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Set the action to be take for this priority level. --></help>
+        <label><!-- Threshold Action --></label>
+        <name>QPMS__Threshold_Action__c</name>
+        <picklistValues>
+            <masterLabel>Default to No CAPA Required</masterLabel>
+            <translation><!-- Default to No CAPA Required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Default to Yes CAPA Required</masterLabel>
+            <translation><!-- Default to Yes CAPA Required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Force Yes CAPA Required</masterLabel>
+            <translation><!-- Force Yes CAPA Required --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Risk Priority Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

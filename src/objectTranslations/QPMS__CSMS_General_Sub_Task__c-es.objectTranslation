@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- CSMS General Sub Task --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- CSMS General Sub Task --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- AdhocContextualHelp --></label>
+        <name>QPMS__AdhocContextualHelp</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Audit Trail --></label>
+        <name>QPMS__Audit_Trail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Calibration Adhoc Action Fields --></label>
+        <name>QPMS__Calibration_Adhoc_Action_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Maintenance Adhoc Action Fields --></label>
+        <name>QPMS__Maintenance_Adhoc_Action_Fields</name>
+    </fieldSets>
+    <fields>
+        <help><!-- CSMS General Task --></help>
+        <label><!-- CSMS General Task --></label>
+        <name>QPMS__CSMS_General_Task__c</name>
+        <relationshipLabel><!-- CSMS General Sub Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Calibration Lookup --></help>
+        <label><!-- Calibration --></label>
+        <name>QPMS__Calibration__c</name>
+    </fields>
+    <fields>
+        <help><!-- Completed By Name --></help>
+        <label><!-- Completed By Name --></label>
+        <name>QPMS__Completed_By_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Completed By --></help>
+        <label><!-- Completed By --></label>
+        <name>QPMS__Completed_By__c</name>
+        <relationshipLabel><!-- CSMS General Sub Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Completed Date --></help>
+        <label><!-- Completed Date --></label>
+        <name>QPMS__Completed_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Details --></help>
+        <label><!-- Details --></label>
+        <name>QPMS__Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Stores general task Initiating Site Security --></help>
+        <label><!-- Initiating Site Security --></label>
+        <name>QPMS__Initiating_Site_Security__c</name>
+    </fields>
+    <fields>
+        <help><!-- Maintenance --></help>
+        <label><!-- Maintenance --></label>
+        <name>QPMS__Maintenance__c</name>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <nameFieldLabel><!-- CSMS General Sub Task Name --></nameFieldLabel>
+    <recordTypes>
+        <description><!-- Adoc Action --></description>
+        <label><!-- Adhoc Action --></label>
+        <name>QPMS__Adhoc_Action</name>
+    </recordTypes>
+</CustomObjectTranslation>

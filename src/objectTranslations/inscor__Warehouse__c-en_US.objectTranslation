@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- When this is checked, inventory allocation is restricted to only the customers linked to this warehouse using the related list &quot;Account Warehouses&quot; --></help>
+        <label><!-- Account Warehouse Restricted? --></label>
+        <name>inscor__Account_Warehouse_Restricted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Location --></label>
+        <name>inscor__Company_Location__c</name>
+        <relationshipLabel><!-- Warehouses --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Export Control --></label>
+        <name>inscor__Export_Control__c</name>
+        <picklistValues>
+            <masterLabel>Export Control</masterLabel>
+            <translation><!-- Export Control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hide from Services --></label>
+        <name>inscor__Hide_from_Services1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hide from Services - RETIRED --></label>
+        <name>inscor__Hide_from_Services__c</name>
+        <picklistValues>
+            <masterLabel>AeroXchange</masterLabel>
+            <translation><!-- AeroXchange --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ILS</masterLabel>
+            <translation><!-- ILS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OneAero</masterLabel>
+            <translation><!-- OneAero --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Warehouse Code --></label>
+        <name>inscor__Warehouse_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Warehouse Description --></label>
+        <name>inscor__Warehouse_Description__c</name>
+    </fields>
+    <layouts>
+        <layout>Warehouse Layout</layout>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- Warehouse Information --></label>
+            <section>Warehouse Information</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

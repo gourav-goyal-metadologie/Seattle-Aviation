@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>gouravsfdc0106@gmail.com</contactEmail>
+    <ipRanges>
+        <end>34.195.225.244</end>
+        <start>34.195.225.244</start>
+    </ipRanges>
+    <label>YayPay Integration</label>
+    <oauthConfig>
+        <callbackUrl>https://seattleav.app.yaypay.com/salesforce/oauth2/redirect</callbackUrl>
+        <consumerKey>3MVG9lIH5nSM6mjR1sxnwiuAneW2qky6rmPU4r.DPaWPrPefVs7UoYSmoVmHOnQK06PEBozwK5Vamb5m8zgq.</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>Full</scopes>
+        <scopes>RefreshToken</scopes>
+        <scopes>OpenID</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>

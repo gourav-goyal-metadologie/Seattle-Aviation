@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Denotes if the GL Account is active. Most filtered lookups to the GL Account object look for an active status. --></help>
+        <label><!-- Active --></label>
+        <name>AcctSeed__Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates if the GL Account can be selected to record Cash Receipts and Disbursements and used in Bank Direct Connect and Bank Reconciliation. --></help>
+        <label><!-- Bank/Credit Card Account --></label>
+        <name>AcctSeed__Bank__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is an alternate name for the GL Account when used in Billings to display a more customer Friendly description of the GL Account. This feature only is applicable to Revenue GL Accounts. --></help>
+        <label><!-- Billing Description --></label>
+        <name>AcctSeed__Billing_Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used in expense report entry screen to provide a more user friendly name for a GL Account --></help>
+        <label><!-- Expense Report Name --></label>
+        <name>AcctSeed__Expense_Report_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- The GL Category type classifies GL accounts according to where they are found on your financial statements. In this way they are similar to Type and Sub Type 1 fields which are reporting driven. This field tells the system what function it serves. --></help>
+        <label><!-- GL Category --></label>
+        <name>AcctSeed__GL_Category__c</name>
+        <picklistValues>
+            <masterLabel>Input VAT</masterLabel>
+            <translation><!-- Input VAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Output VAT</masterLabel>
+            <translation><!-- Output VAT --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Check this box if the account is to be used to track Mileage in Expenses Reports. --></help>
+        <label><!-- Mileage Account --></label>
+        <name>AcctSeed__Mileage_Account__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used for mileage rate for expenses. --></help>
+        <label><!-- Mileage Rate --></label>
+        <name>AcctSeed__Mileage_Rate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used in conjunction with the Type field to further classify GL Accounts. Balance Sheet accounts must be Assets, Liabilities or Owners Equity. --></help>
+        <label><!-- Sub Type 1 --></label>
+        <name>AcctSeed__Sub_Type_1__c</name>
+        <picklistValues>
+            <masterLabel>Assets</masterLabel>
+            <translation><!-- Assets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost of Goods Sold</masterLabel>
+            <translation><!-- Cost of Goods Sold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facilities</masterLabel>
+            <translation><!-- Facilities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financing</masterLabel>
+            <translation><!-- Financing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General &amp; Administrative</masterLabel>
+            <translation><!-- General &amp; Administrative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investing</masterLabel>
+            <translation><!-- Investing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Labor</masterLabel>
+            <translation><!-- Labor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liabilities</masterLabel>
+            <translation><!-- Liabilities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operating</masterLabel>
+            <translation><!-- Operating --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Expense</masterLabel>
+            <translation><!-- Other Expense --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Income</masterLabel>
+            <translation><!-- Other Income --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Owners Equity</masterLabel>
+            <translation><!-- Owners Equity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Revenue</masterLabel>
+            <translation><!-- Product Revenue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales &amp; Marketing</masterLabel>
+            <translation><!-- Sales &amp; Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Revenue</masterLabel>
+            <translation><!-- Service Revenue --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Used in conjunction with the Type and Subtype 1 fields to further classify GL Accounts in reports. This pick list is dependent on Subtype 1. --></help>
+        <label><!-- Sub Type 2 --></label>
+        <name>AcctSeed__Sub_Type_2__c</name>
+        <picklistValues>
+            <masterLabel>Accounting</masterLabel>
+            <translation><!-- Accounting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advertising</masterLabel>
+            <translation><!-- Advertising --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Benefits</masterLabel>
+            <translation><!-- Benefits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash</masterLabel>
+            <translation><!-- Cash --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Current Assets</masterLabel>
+            <translation><!-- Current Assets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Current Liabilities</masterLabel>
+            <translation><!-- Current Liabilities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equity</masterLabel>
+            <translation><!-- Equity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive Benefits</masterLabel>
+            <translation><!-- Executive Benefits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed Assets</masterLabel>
+            <translation><!-- Fixed Assets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Human Resources</masterLabel>
+            <translation><!-- Human Resources --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Labor</masterLabel>
+            <translation><!-- Labor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal &amp; Professional</masterLabel>
+            <translation><!-- Legal &amp; Professional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Long Term Assets</masterLabel>
+            <translation><!-- Long Term Assets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Long Term Liabilities</masterLabel>
+            <translation><!-- Long Term Liabilities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing Events</masterLabel>
+            <translation><!-- Marketing Events --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Materials</masterLabel>
+            <translation><!-- Materials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Overhead</masterLabel>
+            <translation><!-- Overhead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll Taxes</masterLabel>
+            <translation><!-- Payroll Taxes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Family 1</masterLabel>
+            <translation><!-- Product Family 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Family 2</masterLabel>
+            <translation><!-- Product Family 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Family 3</masterLabel>
+            <translation><!-- Product Family 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rent</masterLabel>
+            <translation><!-- Rent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salary &amp; Wages</masterLabel>
+            <translation><!-- Salary &amp; Wages --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Travel</masterLabel>
+            <translation><!-- Sales Travel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Family 1</masterLabel>
+            <translation><!-- Service Family 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Family 2</masterLabel>
+            <translation><!-- Service Family 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Family 3</masterLabel>
+            <translation><!-- Service Family 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Software</masterLabel>
+            <translation><!-- Software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utilities</masterLabel>
+            <translation><!-- Utilities --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Used for correctly mapping expense related transactions to the proper revenue related GL Account when creating Billing records from Time Card or Expense Report records. --></help>
+        <label><!-- Time and Expense Revenue Conversion --></label>
+        <name>AcctSeed__TM_Revenue_Conversion__c</name>
+        <relationshipLabel><!-- GL Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Must be Balance Sheet, Revenue or Expense. --></help>
+        <label><!-- Type --></label>
+        <name>AcctSeed__Type__c</name>
+        <picklistValues>
+            <masterLabel>Balance Sheet</masterLabel>
+            <translation><!-- Balance Sheet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Flow</masterLabel>
+            <translation><!-- Cash Flow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expense</masterLabel>
+            <translation><!-- Expense --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revenue</masterLabel>
+            <translation><!-- Revenue --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Must be marked checked to be available for selection in submitting an expense. --></help>
+        <label><!-- Used in Expense Reports --></label>
+        <name>AcctSeed__Used_in_Expense_Reports__c</name>
+    </fields>
+    <layouts>
+        <layout>Project GL Account Layout</layout>
+        <sections>
+            <label><!-- Billing Information --></label>
+            <section>Billing Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Expense Report Information --></label>
+            <section>Expense Report Information</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- You must specify a mileage rate for a mileage account. --></errorMessage>
+        <name>AcctSeed__Mileage_Acccount_Require_Rate</name>
+    </validationRules>
+</CustomObjectTranslation>

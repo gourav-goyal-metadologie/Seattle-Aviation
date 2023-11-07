@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account --></label>
+        <name>DNBI__Account__c</name>
+        <relationshipLabel><!-- Account Decision Rules --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ApplicationValue --></label>
+        <name>DNBI__ApplicationValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract --></label>
+        <name>DNBI__Contract__c</name>
+        <relationshipLabel><!-- Contract Decision Rules --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Credit Decision History --></label>
+        <name>DNBI__Credit_Decision_History__c</name>
+        <relationshipLabel><!-- History Decision Rules --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Lead --></label>
+        <name>DNBI__Lead__c</name>
+        <relationshipLabel><!-- Lead Decision Rules --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>DNBI__Opportunity__c</name>
+        <relationshipLabel><!-- Opportunity Decision Rules --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Rule Type --></label>
+        <name>DNBI__Rule_Type__c</name>
+        <picklistValues>
+            <masterLabel>AND</masterLabel>
+            <translation><!-- AND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR</masterLabel>
+            <translation><!-- OR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OVERRIDE</masterLabel>
+            <translation><!-- OVERRIDE --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Rule --></label>
+        <name>DNBI__Rule__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value --></label>
+        <name>DNBI__Value__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Complaint Product --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Complaint Product --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Complaint Product --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Complaint Product --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Complaint Product --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Complaint Product --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Complaint Product --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Complaint Product --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- CMP CMP Complaint Detail Contextual Help --></label>
+        <name>QPMS__CMP_CMP_Complaint_Detail_Contextual_Help</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Complaint Init Product --></label>
+        <name>QPMS__Complaint_Init_Product</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ListView --></label>
+        <name>QPMS__ListView</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Suspect Product --></label>
+        <name>QPMS__Product</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QueryFields --></label>
+        <name>QPMS__QueryFields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Brand Name --></label>
+        <name>QPMS__Brand_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Catalog Number --></label>
+        <name>QPMS__Catalog_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Complaint --></label>
+        <name>QPMS__Complaint__c</name>
+        <relationshipLabel><!-- Complaint Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Device Available for Evaluation? --></label>
+        <name>QPMS__Device_Available_for_Evaluation__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Expiration Date --></label>
+        <name>QPMS__Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lot Number --></label>
+        <name>QPMS__Lot_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturing Date --></label>
+        <name>QPMS__Manufacturing_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Code --></label>
+        <name>QPMS__Product_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Code --></label>
+        <name>QPMS__Product_Number__c</name>
+        <relationshipLabel><!-- Complaint Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Serial Number --></label>
+        <name>QPMS__Serial_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Software Version --></label>
+        <name>QPMS__Software_Version__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unique Device Identifier(UDI) --></label>
+        <name>QPMS__Unique_Device_Identifier_UDI__c</name>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <nameFieldLabel><!-- Complaint Product Name --></nameFieldLabel>
+</CustomObjectTranslation>

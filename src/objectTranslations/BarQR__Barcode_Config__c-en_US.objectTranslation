@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Allow Save to formats --></label>
+        <name>BarQR__Allow_Save_to_formats__c</name>
+        <picklistValues>
+            <masterLabel>JPEG</masterLabel>
+            <translation><!-- JPEG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PNG</masterLabel>
+            <translation><!-- PNG --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Barcode Type --></label>
+        <name>BarQR__Barcode_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please enter the API name of the field from which barcode needs to be generated --></help>
+        <label><!-- Field API Name --></label>
+        <name>BarQR__Field_API_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Font Rendering --></label>
+        <name>BarQR__Font_Rendering__c</name>
+    </fields>
+    <fields>
+        <help><!-- Specify if barcode image needs to be returned --></help>
+        <label><!-- Image Rotation --></label>
+        <name>BarQR__Image_Rotation__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please enter API name of the object from which barcode data is taken --></help>
+        <label><!-- Object API Name --></label>
+        <name>BarQR__Object_API_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Barcode scale value on X axis --></help>
+        <label><!-- Scale X --></label>
+        <name>BarQR__Scale_X__c</name>
+    </fields>
+    <fields>
+        <help><!-- Barcode scale value on Y axis --></help>
+        <label><!-- Scale Y --></label>
+        <name>BarQR__Scale_Y__c</name>
+    </fields>
+    <fields>
+        <help><!-- Checkbox to denote if the text also needs to be rendered next to barcode --></help>
+        <label><!-- Show Text Also? --></label>
+        <name>BarQR__Show_Text_Also__c</name>
+    </fields>
+    <layouts>
+        <layout>Barcode Config Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Please enter an alphanumeric and unique names without spaces. --></errorMessage>
+        <name>BarQR__Only_Allow_Alphanumeric_Names</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- AdhocTask --></label>
+        <name>QPMS__AdhocTask</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CMP Adhoc Sub Help --></label>
+        <name>QPMS__CMP_Adhoc_Sub_Help</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CMP Investigation Sub Help --></label>
+        <name>QPMS__CMP_Investigation_Sub_Help</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CMP Product Evaluation Sub Help --></label>
+        <name>QPMS__CMP_Product_Evaluation_Sub_Help</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CMP Review DHR Sub Help --></label>
+        <name>QPMS__CMP_Review_DHR_Sub_Help</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ComplaintGeneralSubtaskAudittrial --></label>
+        <name>QPMS__ComplaintGeneralSubtaskAudittrial</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Complaint ActionPlan --></label>
+        <name>QPMS__Complaint_ActionPlan</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Complaint ActionPlan Hidden Fields --></label>
+        <name>QPMS__Complaint_ActionPlan_Hidden_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Complaint ActionPlan Subsection --></label>
+        <name>QPMS__Complaint_ActionPlan_Subsection</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Complaint Adhoc Actions --></label>
+        <name>QPMS__Complaint_Adhoc_Actions</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Complaint Product Evalution Actions --></label>
+        <name>QPMS__Complaint_Product_Evalution_Actions</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Complaint Review DHR Actions --></label>
+        <name>QPMS__Complaint_Review_DHR_Actions</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Complaint RootCause --></label>
+        <name>QPMS__Complaint_RootCause</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Investigation --></label>
+        <name>QPMS__Investigation</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ProductEvaluation --></label>
+        <name>QPMS__ProductEvaluation</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ReviewDHR --></label>
+        <name>QPMS__ReviewDHR</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Action Plan Status --></label>
+        <name>QPMS__Action_Plan_Status__c</name>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skipped</masterLabel>
+            <translation><!-- Skipped --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Age --></label>
+        <name>QPMS__Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Completed --></label>
+        <name>QPMS__Approval_Completed__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Assigned User --></label>
+        <name>QPMS__Assigned_User__c</name>
+        <relationshipLabel><!-- Complaint General Sub Tasks (Assigned User) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Associated Root Causes --></label>
+        <name>QPMS__Associated_Root_Causes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cause Code Description --></label>
+        <name>QPMS__Cause_Code_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cause Code Name --></label>
+        <name>QPMS__Cause_Code_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cause Code --></label>
+        <name>QPMS__Cause_Code__c</name>
+        <relationshipLabel><!-- Complaint General Sub Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Change Management --></label>
+        <name>QPMS__Change_Management__c</name>
+    </fields>
+    <fields>
+        <label><!-- Closed Date --></label>
+        <name>QPMS__Closed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>QPMS__Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Complaint General Task --></label>
+        <name>QPMS__Complaint_General_Task__c</name>
+        <relationshipLabel><!-- Complaint General Sub Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Complaint --></label>
+        <name>QPMS__Complaint_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Complaint --></label>
+        <name>QPMS__Complaint__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completed By --></label>
+        <name>QPMS__Completed_By__c</name>
+        <relationshipLabel><!-- Complaint General Sub Tasks (Completed By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Completed Date --></label>
+        <name>QPMS__Completed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completed --></label>
+        <name>QPMS__Completed__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Date Field --></label>
+        <name>QPMS__Date_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>QPMS__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Details --></label>
+        <name>QPMS__Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Due Date --></label>
+        <name>QPMS__Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initiating Site --></label>
+        <name>QPMS__Initiating_Site__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Task --></label>
+        <name>QPMS__Parent_Task__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pend Save ActionPlan --></label>
+        <name>QPMS__Pend_Save_ActionPlan__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Plan Statement --></label>
+        <name>QPMS__Plan_Statement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>QPMS__Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Submit WithOut Approval --></label>
+        <name>QPMS__Submit_WithOut_Approval__c</name>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>QPMS__Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>QPMS__Type__c</name>
+        <picklistValues>
+            <masterLabel>Correction</masterLabel>
+            <translation><!-- Correction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corrective</masterLabel>
+            <translation><!-- Corrective --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preventive</masterLabel>
+            <translation><!-- Preventive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Risk Based</masterLabel>
+            <translation><!-- Risk Based --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Complaint General Sub Task Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Action Plan --></label>
+        <name>QPMS__Action_Plan</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- AdhocTask Actions --></label>
+        <name>QPMS__AdhocTask_Actions</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Product Evaluation Actions --></label>
+        <name>QPMS__Product_Evaluation_Actions</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Review DHR Actions --></label>
+        <name>QPMS__Review_DHR_Actions</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Root Cause --></label>
+        <name>QPMS__Root_Cause</name>
+    </recordTypes>
+</CustomObjectTranslation>

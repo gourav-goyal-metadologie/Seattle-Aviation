@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Abbreviated Name --></label>
+        <name>inscor__Abbreviated_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Filter --></label>
+        <name>inscor__Additional_Filter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aggregate Function --></label>
+        <name>inscor__Aggregate_Function__c</name>
+        <picklistValues>
+            <masterLabel>AVG</masterLabel>
+            <translation><!-- AVG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COUNT</masterLabel>
+            <translation><!-- COUNT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FIRST</masterLabel>
+            <translation><!-- FIRST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAST</masterLabel>
+            <translation><!-- LAST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAX</masterLabel>
+            <translation><!-- MAX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MIN</masterLabel>
+            <translation><!-- MIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SUM</masterLabel>
+            <translation><!-- SUM --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Cache Age --></label>
+        <name>inscor__Cache_Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cache Field Name --></label>
+        <name>inscor__Cache_Field_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company --></label>
+        <name>inscor__Company__c</name>
+        <relationshipLabel><!-- Account 360 Metrics --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Field Name --></label>
+        <name>inscor__Field_Name__c</name>
+        <picklistValues>
+            <masterLabel>Account Terms</masterLabel>
+            <translation><!-- Account Terms --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Create Date</masterLabel>
+            <translation><!-- Create Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Available</masterLabel>
+            <translation><!-- Credit Available --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Limit</masterLabel>
+            <translation><!-- Credit Limit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Extended Estimated Cost</masterLabel>
+            <translation><!-- Extended Estimated Cost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Extended Final Cost</masterLabel>
+            <translation><!-- Extended Final Cost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Line Total</masterLabel>
+            <translation><!-- Line Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PO Total Value</masterLabel>
+            <translation><!-- PO Total Value --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote Total</masterLabel>
+            <translation><!-- Quote Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RFQ Total Value</masterLabel>
+            <translation><!-- RFQ Total Value --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RO Total Estimated Cost</masterLabel>
+            <translation><!-- RO Total Estimated Cost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Read Only</masterLabel>
+            <translation><!-- Read Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair Total Cost</masterLabel>
+            <translation><!-- Repair Total Cost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Order Total Value</masterLabel>
+            <translation><!-- Sales Order Total Value --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vendor Terms</masterLabel>
+            <translation><!-- Vendor Terms --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Inactive? --></label>
+        <name>inscor__Inactive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Calculated --></label>
+        <name>inscor__Last_Calculated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Metric Description --></label>
+        <name>inscor__Metric_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Metric Type --></label>
+        <name>inscor__Metric_Type__c</name>
+        <picklistValues>
+            <masterLabel>Calculated</masterLabel>
+            <translation><!-- Calculated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Read Only</masterLabel>
+            <translation><!-- Read Only --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Object Name --></label>
+        <name>inscor__Object_Name__c</name>
+        <picklistValues>
+            <masterLabel>Account</masterLabel>
+            <translation><!-- Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Quote</masterLabel>
+            <translation><!-- Customer Quote --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Quote Line</masterLabel>
+            <translation><!-- Customer Quote Line --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase Order</masterLabel>
+            <translation><!-- Purchase Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase Order Line</masterLabel>
+            <translation><!-- Purchase Order Line --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RFQ</masterLabel>
+            <translation><!-- RFQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Read Only</masterLabel>
+            <translation><!-- Read Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair Order</masterLabel>
+            <translation><!-- Repair Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair Order Line</masterLabel>
+            <translation><!-- Repair Order Line --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Order</masterLabel>
+            <translation><!-- Sales Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Order Line</masterLabel>
+            <translation><!-- Sales Order Line --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Number of days from present to go back in time, For Last 12 Months use 365. Can also use MTD, Current Month, Last Month, YTD, Current Year, Last Year as a range. --></help>
+        <label><!-- Range Days --></label>
+        <name>inscor__Range_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Metric --></label>
+        <name>inscor__Related_Metric__c</name>
+        <relationshipLabel><!-- Account 360 Metrics --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Account 360 Metric Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Metric Information --></label>
+            <section>Metric Information</section>
+        </sections>
+        <sections>
+            <label><!-- Object and Filter Information --></label>
+            <section>Object and Filter Information</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- Technical Information --></label>
+            <section>Technical Information</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

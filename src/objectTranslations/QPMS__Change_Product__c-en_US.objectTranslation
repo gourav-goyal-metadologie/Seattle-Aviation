@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- ProductTask_init --></label>
+        <name>QPMS__ProductTask_init</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Change Request --></label>
+        <name>QPMS__Change_Request__c</name>
+    </fields>
+    <fields>
+        <label><!-- General Task --></label>
+        <name>QPMS__General_Task__c</name>
+        <relationshipLabel><!-- Change Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Family --></label>
+        <name>QPMS__Product__c</name>
+        <relationshipLabel><!-- Change Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>QPMS__Status__c</name>
+    </fields>
+    <layouts>
+        <layout>Change Product Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label><!-- Change_request --></label>
+        <name>QPMS__Change_request</name>
+    </webLinks>
+</CustomObjectTranslation>

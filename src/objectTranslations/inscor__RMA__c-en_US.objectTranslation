@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- AWB Number --></label>
+        <name>inscor__AWB_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Terms --></label>
+        <name>inscor__Account_Terms__c</name>
+        <relationshipLabel><!-- RMAs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Customer --></label>
+        <name>inscor__Account__c</name>
+        <relationshipLabel><!-- RMAs --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- If this field is left blank when changing Ship Method then the default Acct # will be filled in automatically. --></help>
+        <label><!-- Acct# --></label>
+        <name>inscor__Acct__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned To --></label>
+        <name>inscor__Assigned_To__c</name>
+        <relationshipLabel><!-- RMAs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Bill Freight Via --></label>
+        <name>inscor__Bill_Freight_Via__c</name>
+        <picklistValues>
+            <masterLabel>On 3rd Party Acct</masterLabel>
+            <translation><!-- On 3rd Party Acct --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Cust Acct</masterLabel>
+            <translation><!-- On Cust Acct --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Cust Invoice</masterLabel>
+            <translation><!-- On Cust Invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Our Acct</masterLabel>
+            <translation><!-- On Our Acct --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Business Category Auto Update? --></label>
+        <name>inscor__Business_Category_Auto_Update__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Category --></label>
+        <name>inscor__Business_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company --></label>
+        <name>inscor__Company__c</name>
+        <relationshipLabel><!-- RMAs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact Phone --></label>
+        <name>inscor__Contact_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>inscor__Contact__c</name>
+        <relationshipLabel><!-- RMAs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Create Date --></label>
+        <name>inscor__Create_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer PO Number --></label>
+        <name>inscor__Customer_PO_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disposition --></label>
+        <name>inscor__Disposition__c</name>
+        <picklistValues>
+            <masterLabel>Return per Instructions</masterLabel>
+            <translation><!-- Return per Instructions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scrap onsite</masterLabel>
+            <translation><!-- Scrap onsite --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- External Comments --></label>
+        <name>inscor__External_Comments_rt__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Final Return Reason --></label>
+        <name>inscor__Final_Return_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Finalized Resolution --></label>
+        <name>inscor__Finalized_Resolution__c</name>
+        <picklistValues>
+            <masterLabel>Credit Denied</masterLabel>
+            <translation><!-- Credit Denied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credited</masterLabel>
+            <translation><!-- Credited --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warranty Approved</masterLabel>
+            <translation><!-- Warranty Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warranty Denied</masterLabel>
+            <translation><!-- Warranty Denied --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Freight Amount --></label>
+        <name>inscor__Freight_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select reason for return given by customer --></help>
+        <label><!-- Initial Return Reason --></label>
+        <name>inscor__Initial_Return_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Comments --></label>
+        <name>inscor__Internal_Comments_rt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Instructions --></label>
+        <name>inscor__Internal_Instructions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Paperwork Only? --></label>
+        <name>inscor__Paperwork_Only__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Credited --></label>
+        <name>inscor__Quantity_Credited__c</name>
+    </fields>
+    <fields>
+        <label><!-- RMA Total Amount --></label>
+        <name>inscor__RMA_Total_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Order --></label>
+        <name>inscor__Sales_Order__c</name>
+        <relationshipLabel><!-- RMAs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Ship Method --></label>
+        <name>inscor__Ship_Method__c</name>
+        <relationshipLabel><!-- RMAs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Ship to Location --></label>
+        <name>inscor__Ship_to_Location__c</name>
+        <relationshipLabel><!-- RMAs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Shipping City --></label>
+        <name>inscor__Shipping_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Country --></label>
+        <name>inscor__Shipping_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Instructions --></label>
+        <name>inscor__Shipping_Instructions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping State --></label>
+        <name>inscor__Shipping_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Street 1 --></label>
+        <name>inscor__Shipping_Street_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Street 2 --></label>
+        <name>inscor__Shipping_Street_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Zip Code --></label>
+        <name>inscor__Shipping_Zip_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>inscor__Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Received</masterLabel>
+            <translation><!-- Received --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tax Amount --></label>
+        <name>inscor__Tax_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>inscor__Type__c</name>
+        <picklistValues>
+            <masterLabel>Credit</masterLabel>
+            <translation><!-- Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warranty Repair</masterLabel>
+            <translation><!-- Warranty Repair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warranty Replacement</masterLabel>
+            <translation><!-- Warranty Replacement --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Community - RMA Layout AvSight</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- RMA Information --></label>
+            <section>RMA Information</section>
+        </sections>
+        <sections>
+            <label><!-- Shipping Information --></label>
+            <section>Shipping Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>RMA Layout AvSight</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- RMA Information --></label>
+            <section>RMA Information</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Auto Update Cannot be true when Business Category Selected. --></errorMessage>
+        <name>inscor__Business_Category_blank_Auto_Update</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- RMA can not be cancelled after create credit memo. --></errorMessage>
+        <name>inscor__Quantity_Credited_check</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Create_RMA --></label>
+        <name>inscor__Create_RMA</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generate_Credit --></label>
+        <name>inscor__Generate_Credit</name>
+    </webLinks>
+</CustomObjectTranslation>

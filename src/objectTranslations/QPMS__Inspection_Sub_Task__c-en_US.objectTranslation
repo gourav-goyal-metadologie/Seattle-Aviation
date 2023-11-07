@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- AdhocTask --></label>
+        <name>QPMS__AdhocTask</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Inspection Adhoc Actions --></label>
+        <name>QPMS__Inspection_Adhoc_Actions</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Completed By --></label>
+        <name>QPMS__Completed_By__c</name>
+        <relationshipLabel><!-- Inspection Sub Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Completed Date --></label>
+        <name>QPMS__Completed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Details --></label>
+        <name>QPMS__Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inspection Task --></label>
+        <name>QPMS__Inspection_Task__c</name>
+        <relationshipLabel><!-- Inspection Sub Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ParentRecordForAudittrail --></label>
+        <name>QPMS__ParentRecordForAudittrail__c</name>
+    </fields>
+    <recordTypes>
+        <description><!-- AdhocTask Actions Record Type --></description>
+        <label><!-- AdhocTask Actions --></label>
+        <name>QPMS__AdhocTask_Actions</name>
+    </recordTypes>
+</CustomObjectTranslation>

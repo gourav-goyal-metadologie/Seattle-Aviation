@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Letterhead xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <backgroundColor>#CCCCCC</backgroundColor>
+    <bodyColor>#FFFFFF</bodyColor>
+    <bottomLine>
+        <color>#6cca3c</color>
+        <height>0</height>
+    </bottomLine>
+    <description>An example letterhead for email payment requests.  Contact your administrator or system integrator to create your own beautiful letterhead and email templates</description>
+    <footer>
+        <backgroundColor>#FFFFFF</backgroundColor>
+        <height>100</height>
+        <horizontalAlignment>Left</horizontalAlignment>
+        <verticalAlignment>Top</verticalAlignment>
+    </footer>
+    <header>
+        <backgroundColor>#FFFFFF</backgroundColor>
+        <height>0</height>
+        <horizontalAlignment>Left</horizontalAlignment>
+        <logo>BillNPay__Bill_Pay/BillNPay__Bill_Pay_Logo.png</logo>
+        <verticalAlignment>Top</verticalAlignment>
+    </header>
+    <middleLine>
+        <color>#6cca3c</color>
+        <height>0</height>
+    </middleLine>
+    <name>Authvia Sample</name>
+    <topLine>
+        <color>#6cca3c</color>
+        <height>0</height>
+    </topLine>
+</Letterhead>

@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Audit Trail --></label>
+        <name>QPMS__Audit_Trail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Canada Availability of device for evaluation --></label>
+        <name>QPMS__Canada_Availability_of_device_for_evalua</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Canada Device Classification --></label>
+        <name>QPMS__Canada_Device_Classification</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Canada Device Details --></label>
+        <name>QPMS__Canada_Device_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Canada Device Other Details --></label>
+        <name>QPMS__Canada_Device_Other_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Canada Medical Device Information --></label>
+        <name>QPMS__Canada_Medical_Device_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Canada QueryFields --></label>
+        <name>QPMS__Canada_QueryFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Canada Was the device labelled as sterile? --></label>
+        <name>QPMS__Canada_Was_the_device_labelled_as_steri</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe Categorization Of Device --></label>
+        <name>QPMS__Europe_Categorization_Of_Device</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe Description Of Device --></label>
+        <name>QPMS__Europe_Description_Of_Device</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe Duration Of Implantation --></label>
+        <name>QPMS__Europe_Duration_Of_Implantation</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe IVDR Type --></label>
+        <name>QPMS__Europe_IVDR_Type</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe Indicate The Date --></label>
+        <name>QPMS__Europe_Indicate_The_Date</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe MDR Type --></label>
+        <name>QPMS__Europe_MDR_Type</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe Market Distribution Of Device --></label>
+        <name>QPMS__Europe_Market_Distribution_Of_Device</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe Notified Body Certificate --></label>
+        <name>QPMS__Europe_Notified_Body_Certificate</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe Notify Body &amp; Id --></label>
+        <name>QPMS__Europe_Notify_Body_Id</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe QueryFields --></label>
+        <name>QPMS__Europe_QueryFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe Risk Class Of Device --></label>
+        <name>QPMS__Europe_Risk_Class_Of_Device</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe Unique Device Identification --></label>
+        <name>QPMS__Europe_Unique_Device_Identification</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe Use Of Accessories --></label>
+        <name>QPMS__Europe_Use_Of_Accessories</name>
+    </fieldSets>
+    <fields>
+        <label><!-- AT --></label>
+        <name>QPMS__AT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active Device --></label>
+        <name>QPMS__Active_Device__c</name>
+    </fields>
+    <fields>
+        <help><!-- Age of Device --></help>
+        <label><!-- Age of Device --></label>
+        <name>QPMS__Age_of_Device__c</name>
+    </fields>
+    <fields>
+        <label><!-- All EEA, Switzerland and Turkey --></label>
+        <name>QPMS__All_EEA_Switzerland_and_Turkey__c</name>
+    </fields>
+    <fields>
+        <help><!-- Availability of device for evaluation --></help>
+        <label><!-- Availability of device for evaluation --></label>
+        <name>QPMS__Availability_of_device_for_evaluation__c</name>
+        <picklistValues>
+            <masterLabel>Destroyed</masterLabel>
+            <translation><!-- Destroyed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neither (with explanation)</masterLabel>
+            <translation><!-- Neither (with explanation) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Returned to Manufacturer/Importer</masterLabel>
+            <translation><!-- Returned to Manufacturer/Importer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- BE --></label>
+        <name>QPMS__BE__c</name>
+    </fields>
+    <fields>
+        <label><!-- BG --></label>
+        <name>QPMS__BG__c</name>
+    </fields>
+    <fields>
+        <label><!-- Basic UDI-DI/Eudamed-DI --></label>
+        <name>QPMS__Basic_UDI_DI_Eudamed_DI__c</name>
+    </fields>
+    <fields>
+        <label><!-- CH --></label>
+        <name>QPMS__CH__c</name>
+    </fields>
+    <fields>
+        <label><!-- CY --></label>
+        <name>QPMS__CY__c</name>
+    </fields>
+    <fields>
+        <label><!-- CZ --></label>
+        <name>QPMS__CZ__c</name>
+    </fields>
+    <fields>
+        <label><!-- Catalogue/reference number --></label>
+        <name>QPMS__Catalogue_reference_number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Companion Diagnostic --></label>
+        <name>QPMS__Companion_Diagnostic__c</name>
+    </fields>
+    <fields>
+        <label><!-- ComplaintId --></label>
+        <name>QPMS__ComplaintId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Control/Lot/Serial No. --></help>
+        <label><!-- Control/Lot/Serial No. --></label>
+        <name>QPMS__Control_Lot_Serial_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom-Made --></label>
+        <name>QPMS__Custom_Made__c</name>
+    </fields>
+    <fields>
+        <label><!-- DE --></label>
+        <name>QPMS__DE__c</name>
+    </fields>
+    <fields>
+        <label><!-- DK --></label>
+        <name>QPMS__DK__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date When Device Was Explanted --></label>
+        <name>QPMS__Date_When_Device_Was_Explanted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date When Device Was Implanted --></label>
+        <name>QPMS__Date_When_Device_Was_Implanted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Device Expiry Date --></label>
+        <name>QPMS__Device_Expiry_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Device Identification No --></help>
+        <label><!-- Device Identification No --></label>
+        <name>QPMS__Device_Identification_No__c</name>
+    </fields>
+    <fields>
+        <help><!-- Device License No --></help>
+        <label><!-- Device License No --></label>
+        <name>QPMS__Device_License_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Device Manufacturing Date --></label>
+        <name>QPMS__Device_Manufacturing_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Device Placed On the Market --></label>
+        <name>QPMS__Device_Placed_On_the_Market__c</name>
+    </fields>
+    <fields>
+        <label><!-- EE --></label>
+        <name>QPMS__EE__c</name>
+    </fields>
+    <fields>
+        <label><!-- ES --></label>
+        <name>QPMS__ES__c</name>
+    </fields>
+    <fields>
+        <help><!-- Expiration Date --></help>
+        <label><!-- Expiration Date --></label>
+        <name>QPMS__Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Explant Facility --></label>
+        <name>QPMS__Explant_Facility__c</name>
+    </fields>
+    <fields>
+        <label><!-- To --></label>
+        <name>QPMS__Explanted_To__c</name>
+    </fields>
+    <fields>
+        <label><!-- FI --></label>
+        <name>QPMS__FI__c</name>
+    </fields>
+    <fields>
+        <label><!-- FR --></label>
+        <name>QPMS__FR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Firmware Version --></label>
+        <name>QPMS__Firmware_Version__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Declaration Of Conformity --></label>
+        <name>QPMS__First_Declaration_Of_Conformity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Follow Up Number --></label>
+        <name>QPMS__Follow_Up_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- GB --></label>
+        <name>QPMS__GB__c</name>
+    </fields>
+    <fields>
+        <label><!-- GR --></label>
+        <name>QPMS__GR__c</name>
+    </fields>
+    <fields>
+        <label><!-- HR --></label>
+        <name>QPMS__HR__c</name>
+    </fields>
+    <fields>
+        <label><!-- HU --></label>
+        <name>QPMS__HU__c</name>
+    </fields>
+    <fields>
+        <help><!-- How long was the device in use? --></help>
+        <label><!-- How long was the device in use? --></label>
+        <name>QPMS__How_long_was_the_device_in_use__c</name>
+    </fields>
+    <fields>
+        <label><!-- IE --></label>
+        <name>QPMS__IE__c</name>
+    </fields>
+    <fields>
+        <label><!-- IS --></label>
+        <name>QPMS__IS__c</name>
+    </fields>
+    <fields>
+        <label><!-- IT --></label>
+        <name>QPMS__IT__c</name>
+    </fields>
+    <fields>
+        <label><!-- IVDD --></label>
+        <name>QPMS__IVDD__c</name>
+        <picklistValues>
+            <masterLabel>IVD Annex II List A</masterLabel>
+            <translation><!-- IVD Annex II List A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IVD Annex II List B</masterLabel>
+            <translation><!-- IVD Annex II List B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IVD devices for self-testing</masterLabel>
+            <translation><!-- IVD devices for self-testing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IVD general</masterLabel>
+            <translation><!-- IVD general --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- IVDR --></label>
+        <name>QPMS__IVDR__c</name>
+        <picklistValues>
+            <masterLabel>class A</masterLabel>
+            <translation><!-- class A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>class B</masterLabel>
+            <translation><!-- class B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>class C</masterLabel>
+            <translation><!-- class C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>class D</masterLabel>
+            <translation><!-- class D --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Implant Facility --></label>
+        <name>QPMS__Implant_Facility__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implantable --></label>
+        <name>QPMS__Implantable__c</name>
+    </fields>
+    <fields>
+        <label><!-- To --></label>
+        <name>QPMS__Implanted_To__c</name>
+    </fields>
+    <fields>
+        <label><!-- Indicate The Date --></label>
+        <name>QPMS__Indicate_The_Date__c</name>
+        <picklistValues>
+            <masterLabel>First declaration of conformity</masterLabel>
+            <translation><!-- First declaration of conformity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First placed on the market</masterLabel>
+            <translation><!-- First placed on the market --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First put into service</masterLabel>
+            <translation><!-- First put into service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>If software, date first made available</masterLabel>
+            <translation><!-- If software, date first made available --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The device first CE marked</masterLabel>
+            <translation><!-- The device first CE marked --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Instrument --></label>
+        <name>QPMS__Instrument__c</name>
+    </fields>
+    <fields>
+        <label><!-- Intended To Administer --></label>
+        <name>QPMS__Intended_To_Administer__c</name>
+    </fields>
+    <fields>
+        <label><!-- LI --></label>
+        <name>QPMS__LI__c</name>
+    </fields>
+    <fields>
+        <label><!-- LT --></label>
+        <name>QPMS__LT__c</name>
+    </fields>
+    <fields>
+        <label><!-- LU --></label>
+        <name>QPMS__LU__c</name>
+    </fields>
+    <fields>
+        <label><!-- LV --></label>
+        <name>QPMS__LV__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lot/Batch Number --></label>
+        <name>QPMS__Lot_Batch_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- MDD/AIMDD --></label>
+        <name>QPMS__MDD_AIMDD__c</name>
+        <picklistValues>
+            <masterLabel>active implant</masterLabel>
+            <translation><!-- active implant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>class I</masterLabel>
+            <translation><!-- class I --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>class III</masterLabel>
+            <translation><!-- class III --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>class IIb</masterLabel>
+            <translation><!-- class IIb --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>class IM</masterLabel>
+            <translation><!-- class IM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>class Is</masterLabel>
+            <translation><!-- class Is --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>class Ism</masterLabel>
+            <translation><!-- class Ism --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>custom-made</masterLabel>
+            <translation><!-- custom-made --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- MDR --></label>
+        <name>QPMS__MDR__c</name>
+        <picklistValues>
+            <masterLabel>class I</masterLabel>
+            <translation><!-- class I --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>class III</masterLabel>
+            <translation><!-- class III --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>class IIa</masterLabel>
+            <translation><!-- class IIa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>class IIb</masterLabel>
+            <translation><!-- class IIb --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- MT --></label>
+        <name>QPMS__MT__c</name>
+    </fields>
+    <fields>
+        <help><!-- Manufacturer’s Medical Device Identifier (catalogue/model no.) --></help>
+        <label><!-- Manufacturer’s Medical Device Identifier --></label>
+        <name>QPMS__Manufacturer_s_Medical_Device_Identifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Measuring Function --></label>
+        <name>QPMS__Measuring_Function__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other --></label>
+        <name>QPMS__Medical_Device_Terminology_Other__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical device name --></label>
+        <name>QPMS__Medical_device_name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical device nomenclature code --></label>
+        <name>QPMS__Medical_device_nomenclature_code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical device terminology --></label>
+        <name>QPMS__Medical_device_terminology__c</name>
+        <picklistValues>
+            <masterLabel>EMDN</masterLabel>
+            <translation><!-- EMDN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GIVD/EDMS</masterLabel>
+            <translation><!-- GIVD/EDMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GMDN</masterLabel>
+            <translation><!-- GMDN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other, Please Specify First Declaration</masterLabel>
+            <translation><!-- Other, Please Specify First Declaration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UMDNS(ECRI)</masterLabel>
+            <translation><!-- UMDNS(ECRI) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Model --></label>
+        <name>QPMS__Model__c</name>
+    </fields>
+    <fields>
+        <label><!-- Month --></label>
+        <name>QPMS__Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- NL --></label>
+        <name>QPMS__NL__c</name>
+    </fields>
+    <fields>
+        <label><!-- NO --></label>
+        <name>QPMS__NO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Near-Patient Testing --></label>
+        <name>QPMS__Near_Patient_Testing__c</name>
+    </fields>
+    <fields>
+        <help><!-- Neither (with explanation) --></help>
+        <label><!-- Neither (with explanation) --></label>
+        <name>QPMS__Neither_with_explanation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nomenclature text/Description --></label>
+        <name>QPMS__Nomenclature_text_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non-Medical Purpose --></label>
+        <name>QPMS__Non_Medical_Purpose__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1 --></label>
+        <name>QPMS__Notified_Body_Certificate_Number_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- 2 --></label>
+        <name>QPMS__Notified_Body_Certificate_Number_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1 --></label>
+        <name>QPMS__Notified_Body_ID_Number_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- 2 --></label>
+        <name>QPMS__Notified_Body_ID_Number_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Of Days --></label>
+        <name>QPMS__Number_Of_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Of Months --></label>
+        <name>QPMS__Number_Of_Months__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Of Years --></label>
+        <name>QPMS__Number_Of_Years__c</name>
+    </fields>
+    <fields>
+        <label><!-- Others --></label>
+        <name>QPMS__Others__c</name>
+    </fields>
+    <fields>
+        <label><!-- PL --></label>
+        <name>QPMS__PL__c</name>
+    </fields>
+    <fields>
+        <label><!-- PT --></label>
+        <name>QPMS__PT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Procedure Packs --></label>
+        <name>QPMS__Procedure_Packs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Professional Testing --></label>
+        <name>QPMS__Professional_Testing__c</name>
+    </fields>
+    <fields>
+        <label><!-- RO --></label>
+        <name>QPMS__RO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reagent --></label>
+        <name>QPMS__Reagent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regulatory Body --></label>
+        <name>QPMS__Regulatory_Body__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regulatory Report --></label>
+        <name>QPMS__Regulatory_Report__c</name>
+        <relationshipLabel><!-- Medical Device Informations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Relevant Accessories Used With The Devic --></label>
+        <name>QPMS__Relevant_Accessories_Used_With_The_Devic__c</name>
+    </fields>
+    <fields>
+        <label><!-- Relevant Associated Devices Used --></label>
+        <name>QPMS__Relevant_Associated_Devices_Used__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reusable Surgical Instruments --></label>
+        <name>QPMS__Reusable_Surgical_Instruments__c</name>
+    </fields>
+    <fields>
+        <label><!-- SE --></label>
+        <name>QPMS__SE__c</name>
+    </fields>
+    <fields>
+        <label><!-- SK --></label>
+        <name>QPMS__SK__c</name>
+    </fields>
+    <fields>
+        <label><!-- SL --></label>
+        <name>QPMS__SL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Self-Testing --></label>
+        <name>QPMS__Self_Testing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Serial Number --></label>
+        <name>QPMS__Serial_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Software Version --></label>
+        <name>QPMS__Software_Version__c</name>
+    </fields>
+    <fields>
+        <label><!-- Software --></label>
+        <name>QPMS__Software__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sterile Conditions --></label>
+        <name>QPMS__Sterile_Conditions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Systems --></label>
+        <name>QPMS__Systems__c</name>
+    </fields>
+    <fields>
+        <label><!-- TR --></label>
+        <name>QPMS__TR__c</name>
+    </fields>
+    <fields>
+        <help><!-- Trade/Brand Name --></help>
+        <label><!-- Trade/Brand Name --></label>
+        <name>QPMS__Trade_Brand_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Software --></label>
+        <name>QPMS__Type_Software__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sterile Conditions --></label>
+        <name>QPMS__Type_Sterile_Conditions__c</name>
+    </fields>
+    <fields>
+        <label><!-- UDI device identifier/Eudamed ID --></label>
+        <name>QPMS__UDI_device_identifier_Eudamed_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- UDI production identifier --></label>
+        <name>QPMS__UDI_production_identifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit of use UDI-DI --></label>
+        <name>QPMS__Unit_of_use_UDI_DI__c</name>
+    </fields>
+    <fields>
+        <help><!-- Was the device labelled as sterile? --></help>
+        <label><!-- Was the device labelled as sterile? --></label>
+        <name>QPMS__Was_the_device_labelled_as_sterile__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Year --></label>
+        <name>QPMS__Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- i --></label>
+        <name>QPMS__i_Device_Classification__c</name>
+    </fields>
+    <fields>
+        <label><!-- ii --></label>
+        <name>QPMS__ii_Device_Classification__c</name>
+    </fields>
+    <fields>
+        <label><!-- iii --></label>
+        <name>QPMS__iii_Device_Classification__c</name>
+    </fields>
+    <fields>
+        <label><!-- iv --></label>
+        <name>QPMS__iv_Device_Classification__c</name>
+    </fields>
+</CustomObjectTranslation>

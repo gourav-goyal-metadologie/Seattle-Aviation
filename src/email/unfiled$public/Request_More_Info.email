@@ -1,0 +1,102 @@
+Dear {!inscor__Customer_Exchange_Summary__c.inscor__Customer__c},
+<br/>
+<br/> Thank you for your previous purchase on PO {!inscor__Customer_Exchange_Summary__c.Customer_PO_Number__c}
+<br/> PN {!inscor__Customer_Exchange_Summary__c.inscor__Original_Product__c} {!inscor__Customer_Exchange_Summary__c.Parts_Keyword_Description__c}
+<br/>
+<p>
+    Please kindly fill out this mandatory Exchange Core Form to complete the exchange order paperwork needed.<br/>
+    Please contact <a href="mailto:{!inscor__Customer_Exchange_Summary__c.Assigned_To_Email__c}" style="color: rgb(17, 85, 204);" target="_blank">{!inscor__Customer_Exchange_Summary__c.Assigned_To_Email__c}</a> 
+    or <a href="mailto:shipping@seattleav.com" style="color: rgb(17, 85, 204);" target="_blank">shipping@seattleav.com</a> for any questions related to this form. <br/>
+    We sincerely appreciate the time you took on completing this form!
+</p>
+<br/> <a href="https://fullcrm-seattleav.cs218.force.com/inventoryportal/s/exchangecore?id={!inscor__Customer_Exchange_Summary__c.Id}" style="text-align: center;
+    padding: 4px 8px;
+    background-color: #d01c48;
+    color: #fff;
+    font-family: 'helvetica', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    border: 2px solid #d01c48;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    text-decoration: none !important;
+    justify-content: center;">Click Here</a>
+<br/>
+<br/>
+<br/> Best Regards
+<br/>
+<table border="0" cellpadding="0" cellspacing="0" style="color: rgb(34, 34, 34);font-family: Arial, Helvetica, sans-serif;font-size: small;font-style: normal;font-weight: 400;text-align: start;background-color: rgb(255, 255, 255);width: 516.05pt;border-collapse: collapse;" width="688">
+	<tbody>
+		<tr>
+			<td colspan="3" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;margin: 0px;width: 516.05pt;padding: 0in 5.4pt;height: 24.5pt;" width="100%">
+				<p style="margin: 0px;"><strong>Shipping</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;margin: 0px;width: 43.45pt;padding: 0in 5.4pt;height: 23.3pt;" width="8.430232558139535%">
+				<p style="margin: 0px;"><strong><span style="font-size:14px;color: rgb(192, 0, 0);">Direct:</span></strong></p>
+			</td>
+			<td style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;margin: 0px;width: 170.15pt;padding: 0in 5.4pt;height: 23.3pt;" width="32.99418604651163%">
+				<p style="margin: 0px;"><span style="font-size:13px;">+1 (425) 448-5005 Ext: 702</span></p>
+			</td>
+			<td rowspan="6" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;margin: 0px;width: 4.2in;padding: 0in 5.4pt;height: 23.3pt;" width="58.575581395348834%">
+				<p style="margin: 0px;"><strong><span style="font-size:12px;color: white;"><img border="0" width="332" height="187"  src="https://prod-avs-seattle--c.documentforce.com/servlet/servlet.ImageServer?id=0155Y0000058rhQ&oid=00D5Y000001dSJ7&lastMod=1626789413000" alt="A screenshot of a video game
+
+Description automatically generated" data-image-whitelisted="" tabindex="0" style="width: 3.4583in; height: 1.9444in;"></span></strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;margin: 0px;width: 43.45pt;padding: 0in 5.4pt;height: 19.3pt;" width="20.350877192982455%">
+				<p style="margin: 0px;"><strong><span style="font-size:14px;color: rgb(192, 0, 0);">Office:</span></strong></p>
+			</td>
+			<td style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;margin: 0px;width: 170.15pt;padding: 0in 5.4pt;height: 19.3pt;" width="79.64912280701755%">
+				<p style="margin: 0px;"><span style="font-size:13px;">+1 (425) 448-5005</span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;margin: 0px;width: 43.45pt;padding: 0in 5.4pt;height: 25.55pt;" width="20.350877192982455%">
+				<p style="margin: 0px;"><span style="font-size:13px;"><img border="0" width="19" height="15" src="https://prod-avs-seattle--c.documentforce.com/servlet/servlet.ImageServer?id=0155Y0000058rhJ&oid=00D5Y000001dSJ7&lastMod=1626789413000" data-image-whitelisted="" style="width: 0.2013in; height: 0.1527in;"></span></p>
+			</td>
+			<td style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;margin: 0px;width: 170.15pt;padding: 0in 5.4pt;height: 25.55pt;" width="79.64912280701755%">
+				<p style="margin: 0px;"><span style="font-size:13px;">
+				<a href="mailto:shipping@seattleav.com" style="color: rgb(17, 85, 204);" target="_blank">shipping@seattleav.com</a></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;margin: 0px;width: 43.45pt;padding: 0in 5.4pt;height: 21.25pt;" width="20.350877192982455%">
+				<p style="margin: 0px;"><strong><span style="font-size:13px;color: rgb(192, 0, 0);">
+				<img border="0" width="19" height="19" \
+				src="https://prod-avs-seattle--c.documentforce.com/servlet/servlet.ImageServer?id=0155Y0000058rhP&oid=00D5Y000001dSJ7&lastMod=1626789413000" alt="signature_1068903345" data-image-whitelisted="" style="width: 0.2013in; height: 0.2013in;"></span></strong></p>
+			</td>
+			<td style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;margin: 0px;width: 170.15pt;padding: 0in 5.4pt;height: 21.25pt;" width="79.64912280701755%">
+				<p style="margin: 0px;"><span style="font-size:13px;"><a data-saferedirecturl="https://www.google.com/url?q=http://www.seattleav.com&source=gmail&ust=1626840455289000&usg=AFQjCNH9l82ZZBbGb8oB1WKhOEWwqihplA" href="http://www.seattleav.com/" style="color: rgb(17, 85, 204);" target="_blank">www.seattleav.com</a></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;margin: 0px;width: 43.45pt;padding: 0in 5.4pt;height: 29.9pt;" width="20.350877192982455%">
+				<p style="margin: 0px;"><strong><span style="font-size:13px;color: rgb(192, 0, 0);"><img border="0" width="19" height="26" src="https://prod-avs-seattle--c.documentforce.com/servlet/servlet.ImageServer?id=0155Y0000058rhN&oid=00D5Y000001dSJ7&lastMod=1626789413000" alt="Icon
+
+Description automatically generated" data-image-whitelisted="" style="width: 0.2013in; height: 0.2708in;"></span></strong></p>
+			</td>
+			<td style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;margin: 0px;width: 170.15pt;padding: 0in 5.4pt;height: 29.9pt;" width="79.64912280701755%">
+				<p style="margin: 0px;"><span style="font-size:13px;">18103 NE 68<sup>th</sup> street C200</span></p>
+				<p style="margin: 0px;"><span style="font-size:13px;">Redmond WA &ndash; United States 98052</span></p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;margin: 0px;width: 213.6pt;padding: 0in 5.4pt;height: 26.2pt;" width="100%">
+				<p style="margin: 0px;">
+					<a data-saferedirecturl="https://www.google.com/url?q=https://www.facebook.com/SeattleAviation&source=gmail&ust=1626840455289000&usg=AFQjCNHOAkS1PyFVrEdXQVvk1uqe6FDBMw" href="https://www.facebook.com/SeattleAviation" style="color: rgb(17, 85, 204);" target="_blank"><img border="0" width="21" height="21" src="https://prod-avs-seattle--c.documentforce.com/servlet/servlet.ImageServer?id=0155Y0000058rhK&oid=00D5Y000001dSJ7&lastMod=1626789413000" alt="signature_1572281343" data-image-whitelisted="" style="width: 0.2222in; height: 0.2222in;"></a><span style="color: rgb(192, 0, 0);">&nbsp;&nbsp;</span>
+					<a data-saferedirecturl="https://www.google.com/url?q=https://www.instagram.com/seattleaviationsolution/&source=gmail&ust=1626840455289000&usg=AFQjCNF1bCMfPbAuKKUK8kDzxDPUwN1f4A" href="https://www.instagram.com/seattleaviationsolution/" style="color: rgb(17, 85, 204);" target="_blank"><img border="0" width="21" height="21" src="https://prod-avs-seattle--c.documentforce.com/servlet/servlet.ImageServer?id=0155Y0000058rhL&oid=00D5Y000001dSJ7&lastMod=1626789413000" alt="signature_307504533" data-image-whitelisted="" style="width: 0.2222in; height: 0.2222in;"></a><span style="color: rgb(192, 0, 0);">&nbsp;&nbsp;</span>
+					<a data-saferedirecturl="https://www.google.com/url?q=https://www.linkedin.com/company/seattle-aviation/&source=gmail&ust=1626840455289000&usg=AFQjCNGsw9YwMGF4Wrcfg3zjIhG0LU2DvQ" href="https://www.linkedin.com/company/seattle-aviation/" style="color: rgb(17, 85, 204);" target="_blank"><img border="0" width="21" height="21" src="https://prod-avs-seattle--c.documentforce.com/servlet/servlet.ImageServer?id=0155Y0000058rhM&oid=00D5Y000001dSJ7&lastMod=1626789413000" alt="signature_1878707167" data-image-whitelisted="" style="width: 0.2222in; height: 0.2222in;"></a><span style="color: rgb(192, 0, 0);">&nbsp;&nbsp;</span>
+					<a data-saferedirecturl="https://www.google.com/url?q=https://twitter.com/seattleav&source=gmail&ust=1626840455289000&usg=AFQjCNFcpO4F6hXfWctRC9e3SlCv23YUxA" href="https://twitter.com/seattleav" style="color: rgb(17, 85, 204);" target="_blank"><img border="0" width="21" height="21" src="https://prod-avs-seattle--c.documentforce.com/servlet/servlet.ImageServer?id=0155Y0000058rhO&oid=00D5Y000001dSJ7&lastMod=1626789413000" alt="signature_99785767" data-image-whitelisted="" style="width: 0.2222in; height: 0.2222in;"></a>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;margin: 0px;width: 516.05pt;padding: 0in 5.4pt;height: 15.75pt;" width="100%">
+				<p style="margin: 0px;line-height: 38pt;"><span style="font-size:12px;color: rgb(192, 0, 0);"><img border="0" width="617" height="41" src="https://prod-avs-seattle--c.documentforce.com/servlet/servlet.ImageServer?id=0155Y0000058rhI&oid=00D5Y000001dSJ7&lastMod=1630421293000" alt="signature_1005356458" data-image-whitelisted="" style="width: 620; height:84;"></span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>

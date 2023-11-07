@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Carrier --></label>
+        <name>zkmulti__Carrier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Permission Object --></label>
+        <name>zkmulti__PermissionObject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Permission Type --></label>
+        <name>zkmulti__PermissionType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Profile --></label>
+        <name>zkmulti__Profile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Text Value --></label>
+        <name>zkmulti__Text_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>zkmulti__User__c</name>
+        <relationshipLabel><!-- Permission Settings --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

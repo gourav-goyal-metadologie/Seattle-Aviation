@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>BillNPay__LP_Default</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>BillNPay__LP_Default</fullName>
+        <fields>Name</fields>
+        <fields>RecordTypeId</fields>
+        <fields>BillNPay__Active__c</fields>
+        <fields>BillNPay__Description__c</fields>
+        <fields>BillNPay__Account__c</fields>
+        <fields>BillNPay__Contact__c</fields>
+        <label>BP Default</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Setup one time future payments and recurring payment schedules.  A nightly job will create Payments based on the rules setup in this object</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>BillNPay__Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Scheduled Payments</relationshipLabel>
+        <relationshipName>Scheduled_Payments</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Active__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Active</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Authvia_Payment_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <description>If you add a custom lookup field to Payment such as an AccountingSeed Billing #, this custom field can be referenced in a formula</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Payment ID (sometimes known as Order Number by some gateways) is used for reconciling payments in your gateway/processors reports (ex: Invoice or Order#) Enter a formula.  BillNPay__Account__r.BillNPay__authViaAccountId__c&amp;&quot;-&quot;&amp;Text(NOW())</inlineHelpText>
+        <label>Authvia Payment Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Scheduled Payments</relationshipLabel>
+        <relationshipName>Scheduled_Payments</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Contract__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Contract</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Contract.AccountId</field>
+                <operation>equals</operation>
+                <valueField>$Source.BillNPay__Account__c</valueField>
+            </filterItems>
+            <infoMessage>Scheduled Payment Account and Contract Account are typically the same</infoMessage>
+            <isOptional>true</isOptional>
+        </lookupFilter>
+        <referenceTo>Contract</referenceTo>
+        <relationshipLabel>Scheduled Payments</relationshipLabel>
+        <relationshipName>Scheduled_Payments</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Debit_Day__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Field not used</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(BillNPay__Payment_Frequency__c,&apos;Daily&apos;), &apos;1&apos;,IF(ISPICKVAL(BillNPay__Payment_Frequency__c,&apos;Weekly&apos;), &apos;7&apos;,IF(ISPICKVAL(BillNPay__Payment_Frequency__c,&apos;Monthly&apos;), &apos;30&apos;,IF(ISPICKVAL(BillNPay__Payment_Frequency__c,&apos;Quarterly&apos;), &apos;120&apos;,IF(ISPICKVAL(BillNPay__Payment_Frequency__c,&apos;Annual&apos;), &apos;365&apos;,IF(ISPICKVAL(BillNPay__Payment_Frequency__c,&apos;Bi-Weekly&apos;), &apos;14&apos;,IF(ISPICKVAL(BillNPay__Payment_Frequency__c,&apos;Bi-Monthly&apos;), &apos;60&apos;,null)))))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Weekly: Day of Week (1=Monday)
+Monthly: If 29,30,31, pmt will be last day of month if month has a fewer days
+Bi-Weekly: 1st pmt day. Next pmt 2 weeks later
+Bi-Monthly: 1st pmt day. Next pmt 14 days later or EOM (Value must be &lt;18)</inlineHelpText>
+        <label>Debit Day</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Copies to the Payment Description field</inlineHelpText>
+        <label>Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Different_Initial_Amount__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>If entered, a different amount will be charged for the first payment</inlineHelpText>
+        <label>Different Initial Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Due_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Customize how this is set based on your business rules. Typically, Next Transaction Date + Due Days = Next Due Date, but you can add your own logic such as &quot;Next Business Day, End of Month, etc.  Use a Process Builder to populate.</inlineHelpText>
+        <label>Next Due Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Due_Days__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Use formula in Scheduled Payments Process Builder to customize how Next Due Date is determined</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Number of days between date sent and date due.</inlineHelpText>
+        <label>Due Days</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Last_of_the_month__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF( MONTH( TODAY() ) = 12, 
+DATE( YEAR( TODAY() ), 12, 31 ), 
+DATE( YEAR( TODAY() ), MONTH( TODAY() ) + 1, 1) - 1)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Last of the month</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Next_Transaction_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Next Transaction Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__No_of_Payments_Made__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Rollup done by Chase Pay for Salesforce</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Rollup of Payments completed for this schedule.  Only approved/cleared payments that have not been reversed or charged back are considered</inlineHelpText>
+        <label>No. of Payments Made</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__No_of_Payments_to_Make__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Instead of End Date, enter the number of recurring payments to schedule</inlineHelpText>
+        <label>No. of Payments to Make</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Number_of_Retry_Attempts__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>How many times should the system retry the payment after a failure.  Payment will be retried daily</inlineHelpText>
+        <label>Number of Retry Attempts</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Scheduled Payments</relationshipLabel>
+        <relationshipName>Scheduled_Payments</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Payment_Frequency__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Bi-Weekly: Payments posted every other week starting from the first Next Payment Date (26/yr)
+Bi-Monthly: Payment posted every other month starting from the first Next Payment Date (6/yr)
+Semi-Monthly; Payment posted on 1st and 15th (24/yr)</inlineHelpText>
+        <label>Payment Frequency</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>BillNPay__Payment_Frequency</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Payment_Method_Description__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK( BillNPay__Payment_Method__r.BillNPay__Nickname__c ),
+BillNPay__Payment_Method__r.RecordType.Name   &amp;&quot; - &quot;&amp;  BillNPay__Payment_Method__r.BillNPay__Bank_Name__c,
+BillNPay__Payment_Method__r.BillNPay__Nickname__c
+)</formula>
+        <label>Payment Method Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Payment_Method_Status__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF (  BillNPay__Payment_Method__r.BillNPay__Expired__c = TRUE,
+  &quot;WARNING - PAYMENT METHOD EXPIRED!&quot;,
+IF ( BillNPay__Payment_Method__r.BillNPay__Active__c = TRUE , 
+  &quot;ACTIVE&quot;,
+  &quot;WARNING - PAYMENT METHOD INACTIVE!&quot;
+))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Payment Method Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Payment_Method__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Payment Method</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+            <errorMessage>Payment Method should belong to the same Contact or Account used in the Schedule.  Method must be Active</errorMessage>
+            <filterItems>
+                <field>BillNPay__Payment_Methods__c.BillNPay__Account__c</field>
+                <operation>equals</operation>
+                <valueField>$Source.BillNPay__Account__c</valueField>
+            </filterItems>
+            <filterItems>
+                <field>BillNPay__Payment_Methods__c.BillNPay__Contact__c</field>
+                <operation>equals</operation>
+                <valueField>$Source.BillNPay__Contact__c</valueField>
+            </filterItems>
+            <filterItems>
+                <field>BillNPay__Payment_Methods__c.BillNPay__Active__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <infoMessage>Normally a Payment Method should belong to the same Account or Contact as used in the Schedule.  Methods must be Active</infoMessage>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>BillNPay__Payment_Methods__c</referenceTo>
+        <relationshipLabel>Scheduled Payments</relationshipLabel>
+        <relationshipName>Scheduled_Payments</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__R01_Insufficient_Funds__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Select when a payment declined for R01 Insufficient Funds should be retried.</inlineHelpText>
+        <label>R01 Insufficient Funds</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>BillNPay__Retry_Logic</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BillNPay__R09_Uncollected_Funds__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>R09 Uncollected Funds</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>BillNPay__Retry_Logic</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Recurring_End_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Recurring End Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Recurring_Start_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Recurring Start Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Retry_Count__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The system counts how many retries have been attempted</inlineHelpText>
+        <label>Retry Count</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Retry_Logic__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>If enabled, a failed payment will be retried</inlineHelpText>
+        <label>Retry Logic</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Enabled</fullName>
+                    <default>false</default>
+                    <label>Enabled</label>
+                </value>
+                <value>
+                    <fullName>Disabled</fullName>
+                    <default>true</default>
+                    <label>Disabled</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Retry_Pending__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Retry Pending</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Scheduled_Payment_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Automatic process the payment without notifying consumer.  Semi-automatic sends a text or email requiring the user to approve the payment.</inlineHelpText>
+        <label>Scheduled Payment Type</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Automatic</fullName>
+                    <default>false</default>
+                    <label>Automatic</label>
+                </value>
+                <value>
+                    <fullName>Semi Automatic</fullName>
+                    <default>false</default>
+                    <label>Semi Automatic</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Transaction_Amount__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Transaction Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <label>Scheduled Payment</label>
+    <listViews>
+        <fullName>BillNPay__All</fullName>
+        <columns>NAME</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>BillNPay__Active__c</columns>
+        <columns>BillNPay__Account__c</columns>
+        <columns>BillNPay__Contact__c</columns>
+        <columns>BillNPay__Payment_Frequency__c</columns>
+        <columns>BillNPay__Scheduled_Payment_Type__c</columns>
+        <columns>BillNPay__Payment_Method_Description__c</columns>
+        <columns>BillNPay__Transaction_Amount__c</columns>
+        <columns>BillNPay__Next_Transaction_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>BillNPay__One_Time</fullName>
+        <columns>NAME</columns>
+        <columns>BillNPay__Account__c</columns>
+        <columns>BillNPay__Payment_Frequency__c</columns>
+        <columns>BillNPay__Payment_Method__c</columns>
+        <columns>BillNPay__Transaction_Amount__c</columns>
+        <columns>BillNPay__Next_Transaction_Date__c</columns>
+        <columns>BillNPay__Active__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>BillNPay__Scheduled_Payments__c.BillNPay__One_Time</value>
+        </filters>
+        <label>One-Time</label>
+    </listViews>
+    <listViews>
+        <fullName>BillNPay__Recurring</fullName>
+        <columns>NAME</columns>
+        <columns>BillNPay__Account__c</columns>
+        <columns>BillNPay__Contact__c</columns>
+        <columns>BillNPay__Payment_Frequency__c</columns>
+        <columns>BillNPay__Scheduled_Payment_Type__c</columns>
+        <columns>BillNPay__Payment_Method__c</columns>
+        <columns>BillNPay__Transaction_Amount__c</columns>
+        <columns>BillNPay__Different_Initial_Amount__c</columns>
+        <columns>BillNPay__Recurring_Start_Date__c</columns>
+        <columns>BillNPay__Next_Transaction_Date__c</columns>
+        <columns>BillNPay__Active__c</columns>
+        <columns>BillNPay__Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>BillNPay__Scheduled_Payments__c.BillNPay__Recurring</value>
+        </filters>
+        <label>Recurring</label>
+    </listViews>
+    <nameField>
+        <displayFormat>SP-{000000}</displayFormat>
+        <label>Scheduled Payment Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Scheduled Payments</pluralLabel>
+    <recordTypeTrackHistory>true</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>BillNPay__One_Time</fullName>
+        <active>true</active>
+        <description>Payment will be generated once and then this record will become inactive</description>
+        <label>One-Time</label>
+        <picklistValues>
+            <picklist>BillNPay__Payment_Frequency__c</picklist>
+            <values>
+                <fullName>Single-Payment</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>BillNPay__R01_Insufficient_Funds__c</picklist>
+            <values>
+                <fullName>24 Hours</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>48 Hours</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>BillNPay__R09_Uncollected_Funds__c</picklist>
+            <values>
+                <fullName>24 Hours</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>48 Hours</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>BillNPay__Retry_Logic__c</picklist>
+            <values>
+                <fullName>Disabled</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Enabled</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>BillNPay__Scheduled_Payment_Type__c</picklist>
+            <values>
+                <fullName>Automatic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Semi Automatic</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>BillNPay__Recurring</fullName>
+        <active>true</active>
+        <description>Payment will be generated more than once</description>
+        <label>Recurring</label>
+        <picklistValues>
+            <picklist>BillNPay__Payment_Frequency__c</picklist>
+            <values>
+                <fullName>Annual</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bi-Annual</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bi-Monthly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bi-Weekly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Daily</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Monthly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Monthly-Last Day Of Month</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quarterly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Semi-Monthly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Weekly</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>BillNPay__R01_Insufficient_Funds__c</picklist>
+            <values>
+                <fullName>24 Hours</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>48 Hours</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>BillNPay__R09_Uncollected_Funds__c</picklist>
+            <values>
+                <fullName>24 Hours</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>48 Hours</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>BillNPay__Retry_Logic__c</picklist>
+            <values>
+                <fullName>Disabled</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Enabled</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>BillNPay__Scheduled_Payment_Type__c</picklist>
+            <values>
+                <fullName>Automatic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Semi Automatic</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>BillNPay__Account__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>RECORDTYPE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>BillNPay__Payment_Frequency__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>BillNPay__Payment_Method__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>BillNPay__Transaction_Amount__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>BillNPay__Active__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>BillNPay__Account__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>RECORDTYPE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>BillNPay__Payment_Frequency__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>BillNPay__Payment_Method__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>BillNPay__Transaction_Amount__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>BillNPay__Active__c</lookupDialogsAdditionalFields>
+        <searchFilterFields>RECORDTYPE</searchFilterFields>
+        <searchFilterFields>BillNPay__Account__c</searchFilterFields>
+        <searchFilterFields>BillNPay__Opportunity__c</searchFilterFields>
+        <searchFilterFields>BillNPay__Transaction_Amount__c</searchFilterFields>
+        <searchResultsAdditionalFields>BillNPay__Account__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>BillNPay__Contact__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>RECORDTYPE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>BillNPay__Payment_Frequency__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>BillNPay__Payment_Method__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>BillNPay__Transaction_Amount__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>BillNPay__Active__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>BillNPay__Schedule_with_dates_or_count</fullName>
+        <active>true</active>
+        <description>Recurring schedule payments can be sunsetted with End Date or Count, but not both</description>
+        <errorConditionFormula>not(isnull( BillNPay__No_of_Payments_to_Make__c))&amp;&amp;
+not(isnull( BillNPay__Recurring_End_Date__c))</errorConditionFormula>
+        <errorMessage>Use either End Date or No. of Payments to Make to control when schedule should end, but not both</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

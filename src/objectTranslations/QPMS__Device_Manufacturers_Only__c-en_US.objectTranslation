@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- US FDA Audit Trail --></label>
+        <name>QPMS__US_FDA_Audit_Trail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA If Follow-up --></label>
+        <name>QPMS__US_FDA_If_Follow_up</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA If Follow-up, What Type --></label>
+        <name>QPMS__US_FDA_If_Follow_up_What_Type</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA If Remedial Action Initiated, Check Type --></label>
+        <name>QPMS__US_FDA_If_Remedial_Action_Initiated_Chec</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA QueryFields --></label>
+        <name>QPMS__US_FDA_QueryFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA Type of Reportable Event: --></label>
+        <name>QPMS__US_FDA_Type_of_Reportable_Event</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA Usage of Device --></label>
+        <name>QPMS__US_FDA_Usage_of_Device</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Additional Information --></label>
+        <name>QPMS__Additional_Information__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other --></label>
+        <name>QPMS__Check_Type_Other__c</name>
+    </fields>
+    <fields>
+        <label><!-- ComplaintId --></label>
+        <name>QPMS__ComplaintId__c</name>
+    </fields>
+    <fields>
+        <label><!-- H11. Corrected Data --></label>
+        <name>QPMS__Corrected_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Correction --></label>
+        <name>QPMS__Correction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Death --></label>
+        <name>QPMS__Death__c</name>
+    </fields>
+    <fields>
+        <label><!-- Device Evaluated by Manufacturer? --></label>
+        <name>QPMS__Device_Evaluated_by_Manufacturer__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Device Evaluation --></label>
+        <name>QPMS__Device_Evaluation__c</name>
+    </fields>
+    <fields>
+        <label><!-- H4. Device Manufacture Date --></label>
+        <name>QPMS__Device_Manufacture_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evaluation Summary Attached --></label>
+        <name>QPMS__Evaluation_Summary_Attached__c</name>
+    </fields>
+    <fields>
+        <label><!-- Follow Up Number --></label>
+        <name>QPMS__Follow_Up_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- H9. If Action Reported to FDA --></label>
+        <name>QPMS__If_Action_Reported_to_FDA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inspection --></label>
+        <name>QPMS__Inspection__c</name>
+    </fields>
+    <fields>
+        <label><!-- H5. Labeled for Single Use? --></label>
+        <name>QPMS__Labeled_for_Single_Use__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Malfunction --></label>
+        <name>QPMS__Malfunction__c</name>
+    </fields>
+    <fields>
+        <label><!-- H10. Manufacturer Narrative --></label>
+        <name>QPMS__Manufacturer_Narrative__c</name>
+    </fields>
+    <fields>
+        <label><!-- Modification/Adjustment --></label>
+        <name>QPMS__Modification_Adjustment__c</name>
+    </fields>
+    <fields>
+        <help><!-- No. of Events Summarized (Note: MUST be greater than 0 for initial reports) --></help>
+        <label><!-- No. of Events Summarized --></label>
+        <name>QPMS__No_of_Events_Summarized__c</name>
+    </fields>
+    <fields>
+        <label><!-- Not Returned to Manufacturer --></label>
+        <name>QPMS__Not_Returned_to_Manufacturer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notification --></label>
+        <name>QPMS__Notification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other --></label>
+        <name>QPMS__Other__c</name>
+    </fields>
+    <fields>
+        <label><!-- Others --></label>
+        <name>QPMS__Others_Text_Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- Patient Monitoring --></label>
+        <name>QPMS__Patient_Monitoring__c</name>
+    </fields>
+    <fields>
+        <help><!-- Provide Narrative/Data --></help>
+        <label><!-- Provide Narrative/Data --></label>
+        <name>QPMS__Provide_Narrative_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recall --></label>
+        <name>QPMS__Recall__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regulatory Body --></label>
+        <name>QPMS__Regulatory_Body__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regulatory Report --></label>
+        <name>QPMS__Regulatory_Report__c</name>
+        <relationshipLabel><!-- Device Manufacturers Onlys --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Relabeling --></label>
+        <name>QPMS__Relabeling__c</name>
+    </fields>
+    <fields>
+        <label><!-- Repair --></label>
+        <name>QPMS__Repair__c</name>
+    </fields>
+    <fields>
+        <label><!-- Replace --></label>
+        <name>QPMS__Replace__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response to FDA Request --></label>
+        <name>QPMS__Response_to_FDA_Request__c</name>
+    </fields>
+    <fields>
+        <label><!-- Serious Injury --></label>
+        <name>QPMS__Serious_Injury__c</name>
+    </fields>
+    <fields>
+        <help><!-- Summary Report --></help>
+        <label><!-- Summary Report --></label>
+        <name>QPMS__Summary_Report__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type of Reportable Event --></label>
+        <name>QPMS__Type_of_Reportable_Event__c</name>
+        <picklistValues>
+            <masterLabel>Initial Use of Device</masterLabel>
+            <translation><!-- Initial Use of Device --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reuse</masterLabel>
+            <translation><!-- Reuse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- if not evaluated, select an explanation as why not. --></help>
+        <label><!-- if not evaluated, select an explanation --></label>
+        <name>QPMS__if_not_evaluated_select_an_explanation__c</name>
+        <picklistValues>
+            <masterLabel>Device evaluation anticipated, but not yet begun (02)</masterLabel>
+            <translation><!-- Device evaluation anticipated, but not yet begun (02) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Device not made by company (03)</masterLabel>
+            <translation><!-- Device not made by company (03) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Device problem already known, no evaluation necessary (04)</masterLabel>
+            <translation><!-- Device problem already known, no evaluation necessary (04) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Device received in a condition which made analysis impossible(01)</masterLabel>
+            <translation><!-- Device received in a condition which made analysis impossible(01) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other (code unspecified, describe in H10)(81)</masterLabel>
+            <translation><!-- Other (code unspecified, describe in H10)(81) --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

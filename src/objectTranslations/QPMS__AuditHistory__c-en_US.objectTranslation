@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- History Fields --></label>
+        <name>QPMS__History_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- History Fields For Checklist --></label>
+        <name>QPMS__History_Fields_For_Checklist</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QueryFields --></label>
+        <name>QPMS__QueryFields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- ActionStatus --></label>
+        <name>QPMS__ActionStatus__c</name>
+        <picklistValues>
+            <masterLabel>Created</masterLabel>
+            <translation><!-- Created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deleted</masterLabel>
+            <translation><!-- Deleted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Updated</masterLabel>
+            <translation><!-- Updated --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This field is for to display the action value whether is created/updated --></help>
+        <label><!-- Action --></label>
+        <name>QPMS__Action__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attachment --></label>
+        <name>QPMS__Attachment_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Audit Program --></label>
+        <name>QPMS__Audit_Program__c</name>
+        <relationshipLabel><!-- Audit History --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Audit Type --></label>
+        <name>QPMS__Audit_Type__c</name>
+        <relationshipLabel><!-- AuditHistorys --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Audit --></label>
+        <name>QPMS__Audit__c</name>
+        <relationshipLabel><!-- Audit History --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>QPMS__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- FieldApiName --></label>
+        <name>QPMS__FieldApiName__c</name>
+    </fields>
+    <fields>
+        <label><!-- FieldName --></label>
+        <name>QPMS__FieldName__c</name>
+    </fields>
+    <fields>
+        <label><!-- HistoryObject --></label>
+        <name>QPMS__HistoryObject__c</name>
+        <picklistValues>
+            <masterLabel>Audit</masterLabel>
+            <translation><!-- Audit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AuditProgram</masterLabel>
+            <translation><!-- AuditProgram --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AuditType</masterLabel>
+            <translation><!-- AuditType --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Checklist</masterLabel>
+            <translation><!-- Checklist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Observation</masterLabel>
+            <translation><!-- Observation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Question</masterLabel>
+            <translation><!-- Question --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Section</masterLabel>
+            <translation><!-- Section --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last ModifiedBy --></label>
+        <name>QPMS__Last_ModifiedBy__c</name>
+    </fields>
+    <fields>
+        <label><!-- NewValue --></label>
+        <name>QPMS__NewValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object --></label>
+        <name>QPMS__Object__c</name>
+    </fields>
+    <fields>
+        <label><!-- Observation --></label>
+        <name>QPMS__Observation__c</name>
+        <relationshipLabel><!-- Audit History --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- OldValue --></label>
+        <name>QPMS__OldValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checklist --></label>
+        <name>QPMS__Parent__c</name>
+        <relationshipLabel><!-- Audit History --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sub Parent --></label>
+        <name>QPMS__Sub_Parent__c</name>
+        <picklistValues>
+            <masterLabel>Action Plan</masterLabel>
+            <translation><!-- Action Plan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Action_Plan</masterLabel>
+            <translation><!-- Action_Plan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Additional Details</masterLabel>
+            <translation><!-- Additional Details --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Additional Details Approval</masterLabel>
+            <translation><!-- Additional Details Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adhoc</masterLabel>
+            <translation><!-- Adhoc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdhocTask</masterLabel>
+            <translation><!-- AdhocTask --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdhocTask Actions</masterLabel>
+            <translation><!-- AdhocTask Actions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdhocTask Approval</masterLabel>
+            <translation><!-- AdhocTask Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdhocTask Change Due  Approval</masterLabel>
+            <translation><!-- AdhocTask Change Due  Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdhocTask Change Due Date</masterLabel>
+            <translation><!-- AdhocTask Change Due Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdhocTask Change Due Date Approval</masterLabel>
+            <translation><!-- AdhocTask Change Due Date Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdhocTask Change Owner</masterLabel>
+            <translation><!-- AdhocTask Change Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdhocTask Change Owner  Approval</masterLabel>
+            <translation><!-- AdhocTask Change Owner  Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdhocTask Change Owner Approval</masterLabel>
+            <translation><!-- AdhocTask Change Owner Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Audit</masterLabel>
+            <translation><!-- Audit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Audit Adhoc</masterLabel>
+            <translation><!-- Audit Adhoc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Audit Approval</masterLabel>
+            <translation><!-- Audit Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Audit Approval Reassign Approver</masterLabel>
+            <translation><!-- Audit Approval Reassign Approver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Audit Change Lead Auditor</masterLabel>
+            <translation><!-- Audit Change Lead Auditor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Audit Change Lead Auditor Approval</masterLabel>
+            <translation><!-- Audit Change Lead Auditor Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Audit Change Lead Audittor</masterLabel>
+            <translation><!-- Audit Change Lead Audittor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Audit Checklist</masterLabel>
+            <translation><!-- Audit Checklist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Audit Closure</masterLabel>
+            <translation><!-- Audit Closure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Audit Observation</masterLabel>
+            <translation><!-- Audit Observation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Audit Observation Approval</masterLabel>
+            <translation><!-- Audit Observation Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Audit Observation Process Approval</masterLabel>
+            <translation><!-- Audit Observation Process Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Audit Progam Approval</masterLabel>
+            <translation><!-- Audit Progam Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Audit Program Approval</masterLabel>
+            <translation><!-- Audit Program Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Audit Program Checklist</masterLabel>
+            <translation><!-- Audit Program Checklist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Audit Program Init</masterLabel>
+            <translation><!-- Audit Program Init --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Audit Program Reference</masterLabel>
+            <translation><!-- Audit Program Reference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Audit Type</masterLabel>
+            <translation><!-- Audit Type --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Audit Type Approval</masterLabel>
+            <translation><!-- Audit Type Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Audit Type Checklist</masterLabel>
+            <translation><!-- Audit Type Checklist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Audit Type Init</masterLabel>
+            <translation><!-- Audit Type Init --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Audit Void</masterLabel>
+            <translation><!-- Audit Void --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Audit program Initiation</masterLabel>
+            <translation><!-- Audit program Initiation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AuditInit</masterLabel>
+            <translation><!-- AuditInit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AuditProgram Approval</masterLabel>
+            <translation><!-- AuditProgram Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AuditType Approval</masterLabel>
+            <translation><!-- AuditType Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AuditTypeInit</masterLabel>
+            <translation><!-- AuditTypeInit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CR Adhoc</masterLabel>
+            <translation><!-- CR Adhoc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Observation Owner Approval</masterLabel>
+            <translation><!-- Change Observation Owner Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change assigned To Approval</masterLabel>
+            <translation><!-- Change assigned To Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Checklist</masterLabel>
+            <translation><!-- Checklist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closure</masterLabel>
+            <translation><!-- Closure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closure Approval</masterLabel>
+            <translation><!-- Closure Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closure Change Due  Approval</masterLabel>
+            <translation><!-- Closure Change Due  Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closure Change Due Date</masterLabel>
+            <translation><!-- Closure Change Due Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closure Change Due Date Approval</masterLabel>
+            <translation><!-- Closure Change Due Date Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closure Change Owner</masterLabel>
+            <translation><!-- Closure Change Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closure Change Owner  Approval</masterLabel>
+            <translation><!-- Closure Change Owner  Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ClosureReassign Approver</masterLabel>
+            <translation><!-- ClosureReassign Approver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collaboration Review</masterLabel>
+            <translation><!-- Collaboration Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete CheckList</masterLabel>
+            <translation><!-- Complete CheckList --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Containment</masterLabel>
+            <translation><!-- Containment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Details</masterLabel>
+            <translation><!-- Details --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disposition</masterLabel>
+            <translation><!-- Disposition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document Change</masterLabel>
+            <translation><!-- Document Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Effectiveness Review</masterLabel>
+            <translation><!-- Effectiveness Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EffectivenessReview</masterLabel>
+            <translation><!-- EffectivenessReview --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EffectivenessReview Approval</masterLabel>
+            <translation><!-- EffectivenessReview Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EffectivenessReview Change Due Date</masterLabel>
+            <translation><!-- EffectivenessReview Change Due Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EffectivenessReview Change Owner  Approval</masterLabel>
+            <translation><!-- EffectivenessReview Change Owner  Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Functional Task</masterLabel>
+            <translation><!-- Functional Task --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Implementation</masterLabel>
+            <translation><!-- Implementation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Initiation</masterLabel>
+            <translation><!-- Initiation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IntPersonnal</masterLabel>
+            <translation><!-- IntPersonnal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investigation</masterLabel>
+            <translation><!-- Investigation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Observation Approval</masterLabel>
+            <translation><!-- Observation Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Observation Change Owner</masterLabel>
+            <translation><!-- Observation Change Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reference</masterLabel>
+            <translation><!-- Reference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Response Task</masterLabel>
+            <translation><!-- Response Task --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Response Task Approval</masterLabel>
+            <translation><!-- Response Task Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Response Task Change Due  Approval</masterLabel>
+            <translation><!-- Response Task Change Due  Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Response Task Change Due Date Approval</masterLabel>
+            <translation><!-- Response Task Change Due Date Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Response Task Change Owner Approval</masterLabel>
+            <translation><!-- Response Task Change Owner Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Response Task Void</masterLabel>
+            <translation><!-- Response Task Void --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Response_Task</masterLabel>
+            <translation><!-- Response_Task --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Response_Task Approval</masterLabel>
+            <translation><!-- Response_Task Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Response_Task Change Due Date</masterLabel>
+            <translation><!-- Response_Task Change Due Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Response_Task Change Owner</masterLabel>
+            <translation><!-- Response_Task Change Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Root Cause</masterLabel>
+            <translation><!-- Root Cause --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Root_Cause</masterLabel>
+            <translation><!-- Root_Cause --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Security</masterLabel>
+            <translation><!-- Security --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Summary</masterLabel>
+            <translation><!-- Summary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>checklist For audit</masterLabel>
+            <translation><!-- checklist For audit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>observation</masterLabel>
+            <translation><!-- observation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>observations</masterLabel>
+            <translation><!-- observations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>planned Audit For Audit Program</masterLabel>
+            <translation><!-- planned Audit For Audit Program --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Action --></label>
+        <name>QPMS__isCreated__c</name>
+    </fields>
+    <fields>
+        <label><!-- isDeleted --></label>
+        <name>QPMS__isDeleted__c</name>
+    </fields>
+    <layouts>
+        <layout>Audit History Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

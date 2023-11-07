@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Complaint History --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Complaint History --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- History Fields --></label>
+        <name>QPMS__History_Fields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Action --></label>
+        <name>QPMS__ActionStatus__c</name>
+        <picklistValues>
+            <masterLabel>Created</masterLabel>
+            <translation><!-- Created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deleted</masterLabel>
+            <translation><!-- Deleted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Updated</masterLabel>
+            <translation><!-- Updated --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Attachment --></label>
+        <name>QPMS__Attachment_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Complaint --></label>
+        <name>QPMS__Complaint__c</name>
+        <relationshipLabel><!-- Complaint History --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Customer Experience Type --></label>
+        <name>QPMS__Customer_Experience_Type__c</name>
+        <relationshipLabel><!-- Complaint History --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>QPMS__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- FieldApiName --></label>
+        <name>QPMS__FieldApiName__c</name>
+    </fields>
+    <fields>
+        <label><!-- FieldName --></label>
+        <name>QPMS__FieldName__c</name>
+    </fields>
+    <fields>
+        <label><!-- HistoryObject --></label>
+        <name>QPMS__HistoryObject__c</name>
+        <picklistValues>
+            <masterLabel>Complaint</masterLabel>
+            <translation><!-- Complaint --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last ModifiedBy --></label>
+        <name>QPMS__Last_ModifiedBy__c</name>
+    </fields>
+    <fields>
+        <label><!-- NewValue --></label>
+        <name>QPMS__NewValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object --></label>
+        <name>QPMS__Object__c</name>
+    </fields>
+    <fields>
+        <label><!-- OldValue --></label>
+        <name>QPMS__OldValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Provider --></label>
+        <name>QPMS__Service_Provider__c</name>
+        <relationshipLabel><!-- Complaint History --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sub Parent Formula --></label>
+        <name>QPMS__Sub_Parent_Formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub Parent Prefix --></label>
+        <name>QPMS__Sub_Parent_Prefix__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub Parent --></label>
+        <name>QPMS__Sub_Parent__c</name>
+        <picklistValues>
+            <masterLabel>Additional Details</masterLabel>
+            <translation><!-- Additional Details --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Additional Info</masterLabel>
+            <translation><!-- Additional Info --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Address</masterLabel>
+            <translation><!-- Address --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adhoc Task</masterLabel>
+            <translation><!-- Adhoc Task --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdhocTask</masterLabel>
+            <translation><!-- AdhocTask --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdhocTask Approval</masterLabel>
+            <translation><!-- AdhocTask Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdhocTask Change Due Date</masterLabel>
+            <translation><!-- AdhocTask Change Due Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdhocTask Change Owner</masterLabel>
+            <translation><!-- AdhocTask Change Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdhocTask Complaint Change Due Date Approval</masterLabel>
+            <translation><!-- AdhocTask Complaint Change Due Date Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdhocTask Complaint Change Task Owner Approval</masterLabel>
+            <translation><!-- AdhocTask Complaint Change Task Owner Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdhocTask Task Approval Approval</masterLabel>
+            <translation><!-- AdhocTask Task Approval Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Administrative Information</masterLabel>
+            <translation><!-- Administrative Information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Administrative Information - Authorized Representative</masterLabel>
+            <translation><!-- Administrative Information - Authorized Representative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Administrative Information - Manufacturer</masterLabel>
+            <translation><!-- Administrative Information - Manufacturer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Administrative Information - Submitter Details</masterLabel>
+            <translation><!-- Administrative Information - Submitter Details --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adverse Events or Product Problem</masterLabel>
+            <translation><!-- Adverse Events or Product Problem --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>All Manufacturers</masterLabel>
+            <translation><!-- All Manufacturers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>All Manufacturers - Compounding Outsourcing Facility</masterLabel>
+            <translation><!-- All Manufacturers - Compounding Outsourcing Facility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>All Manufacturers - Manufacturer Site</masterLabel>
+            <translation><!-- All Manufacturers - Manufacturer Site --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CEM Approval</masterLabel>
+            <translation><!-- CEM Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CEM Type Approval</masterLabel>
+            <translation><!-- CEM Type Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CEMInitiation</masterLabel>
+            <translation><!-- CEMInitiation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closure</masterLabel>
+            <translation><!-- Closure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closure Approval</masterLabel>
+            <translation><!-- Closure Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closure Change Due Date</masterLabel>
+            <translation><!-- Closure Change Due Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closure Change Owner</masterLabel>
+            <translation><!-- Closure Change Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closure Complaint Change Due Date Approval</masterLabel>
+            <translation><!-- Closure Complaint Change Due Date Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closure Complaint Change Task Owner Approval</masterLabel>
+            <translation><!-- Closure Complaint Change Task Owner Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closure Task Approval Approval</masterLabel>
+            <translation><!-- Closure Task Approval Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complainant Information</masterLabel>
+            <translation><!-- Complainant Information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complaint</masterLabel>
+            <translation><!-- Complaint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complaint Approval</masterLabel>
+            <translation><!-- Complaint Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complaint Change Owner</masterLabel>
+            <translation><!-- Complaint Change Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complaint Change Owner Approval</masterLabel>
+            <translation><!-- Complaint Change Owner Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complaint Details</masterLabel>
+            <translation><!-- Complaint Details --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complaint Product</masterLabel>
+            <translation><!-- Complaint Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complaint Reference</masterLabel>
+            <translation><!-- Complaint Reference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ComplaintGeneralSubTask</masterLabel>
+            <translation><!-- ComplaintGeneralSubTask --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ComplaintGeneralTask</masterLabel>
+            <translation><!-- ComplaintGeneralTask --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ComplaintInit</masterLabel>
+            <translation><!-- ComplaintInit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Experience Type</masterLabel>
+            <translation><!-- Customer Experience Type --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Details</masterLabel>
+            <translation><!-- Details --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Device Manufacturers Only</masterLabel>
+            <translation><!-- Device Manufacturers Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Evaluation Codes</masterLabel>
+            <translation><!-- Evaluation Codes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event Problem Codes</masterLabel>
+            <translation><!-- Event Problem Codes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event Problem Codes - Device Manufacturers Only</masterLabel>
+            <translation><!-- Event Problem Codes - Device Manufacturers Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event Problem Codes - For use by User Facility</masterLabel>
+            <translation><!-- Event Problem Codes - For use by User Facility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facility</masterLabel>
+            <translation><!-- Facility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>For use by User Facility</masterLabel>
+            <translation><!-- For use by User Facility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Comments</masterLabel>
+            <translation><!-- General Comments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incident Information</masterLabel>
+            <translation><!-- Incident Information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Initial Reporter</masterLabel>
+            <translation><!-- Initial Reporter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Initiation</masterLabel>
+            <translation><!-- Initiation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investigation</masterLabel>
+            <translation><!-- Investigation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investigation Approval</masterLabel>
+            <translation><!-- Investigation Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investigation Change Due Date</masterLabel>
+            <translation><!-- Investigation Change Due Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investigation Change Owner</masterLabel>
+            <translation><!-- Investigation Change Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investigation Complaint Change Due Date Approval</masterLabel>
+            <translation><!-- Investigation Complaint Change Due Date Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investigation Complaint Change Task Owner Approval</masterLabel>
+            <translation><!-- Investigation Complaint Change Task Owner Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investigation Information</masterLabel>
+            <translation><!-- Investigation Information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investigation Reassign Approver</masterLabel>
+            <translation><!-- Investigation Reassign Approver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investigation Task Approval Approval</masterLabel>
+            <translation><!-- Investigation Task Approval Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manufacturer Aanalysis</masterLabel>
+            <translation><!-- Manufacturer Aanalysis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manufacturer Analysis</masterLabel>
+            <translation><!-- Manufacturer Analysis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical Device Information</masterLabel>
+            <translation><!-- Medical Device Information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Patient Information</masterLabel>
+            <translation><!-- Patient Information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product  Evaluation</masterLabel>
+            <translation><!-- Product  Evaluation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product  Evaluation Complaint Change Due Date Approval</masterLabel>
+            <translation><!-- Product  Evaluation Complaint Change Due Date Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product  Evaluation Complaint Change Task Owner Approval</masterLabel>
+            <translation><!-- Product  Evaluation Complaint Change Task Owner Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Evaluation  Approval</masterLabel>
+            <translation><!-- Product Evaluation  Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Evaluation Change Due Date</masterLabel>
+            <translation><!-- Product Evaluation Change Due Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Evaluation Change Owner</masterLabel>
+            <translation><!-- Product Evaluation Change Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Evaluation Reassign Approver</masterLabel>
+            <translation><!-- Product Evaluation Reassign Approver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Evaluation Task Approval Approval</masterLabel>
+            <translation><!-- Product Evaluation Task Approval Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product User Details</masterLabel>
+            <translation><!-- Product User Details --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ProductEvaluation</masterLabel>
+            <translation><!-- ProductEvaluation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reference</masterLabel>
+            <translation><!-- Reference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regulatory Assessment Approval</masterLabel>
+            <translation><!-- Regulatory Assessment Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regulatory Report</masterLabel>
+            <translation><!-- Regulatory Report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regulatory Report Approval</masterLabel>
+            <translation><!-- Regulatory Report Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regulatory Report Attachment</masterLabel>
+            <translation><!-- Regulatory Report Attachment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regulatory Report Change Due Date</masterLabel>
+            <translation><!-- Regulatory Report Change Due Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regulatory Report Change Due Date Approval</masterLabel>
+            <translation><!-- Regulatory Report Change Due Date Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regulatory Report Change Owner</masterLabel>
+            <translation><!-- Regulatory Report Change Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regulatory Report Change Owner Approval</masterLabel>
+            <translation><!-- Regulatory Report Change Owner Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regulatory Report Void</masterLabel>
+            <translation><!-- Regulatory Report Void --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reporter Information</masterLabel>
+            <translation><!-- Reporter Information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolution</masterLabel>
+            <translation><!-- Resolution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolution Approval</masterLabel>
+            <translation><!-- Resolution Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Review</masterLabel>
+            <translation><!-- Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Review  DHR</masterLabel>
+            <translation><!-- Review  DHR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Review  DHR Complaint Change Due Date Approval</masterLabel>
+            <translation><!-- Review  DHR Complaint Change Due Date Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Review  DHR Complaint Change Task Owner Approval</masterLabel>
+            <translation><!-- Review  DHR Complaint Change Task Owner Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Review DHR Approval</masterLabel>
+            <translation><!-- Review DHR Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Review DHR Change Due Date</masterLabel>
+            <translation><!-- Review DHR Change Due Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Review DHR Change Owner</masterLabel>
+            <translation><!-- Review DHR Change Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Review DHR Task Approval Approval</masterLabel>
+            <translation><!-- Review DHR Task Approval Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ReviewDHR</masterLabel>
+            <translation><!-- ReviewDHR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Security</masterLabel>
+            <translation><!-- Security --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ServiceProvider</masterLabel>
+            <translation><!-- ServiceProvider --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suspect Medical Device</masterLabel>
+            <translation><!-- Suspect Medical Device --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suspect Medical Device - Manufacturer</masterLabel>
+            <translation><!-- Suspect Medical Device - Manufacturer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suspect Medical Device - Reprocessor</masterLabel>
+            <translation><!-- Suspect Medical Device - Reprocessor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suspect Product</masterLabel>
+            <translation><!-- Suspect Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US-FDA</masterLabel>
+            <translation><!-- US-FDA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US-FDA - Decision Tree Questionnaire</masterLabel>
+            <translation><!-- US-FDA - Decision Tree Questionnaire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US-FDA - Regulatory Assessment</masterLabel>
+            <translation><!-- US-FDA - Regulatory Assessment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US-FDA - Regulatory Assessment Change Owner Approval</masterLabel>
+            <translation><!-- US-FDA - Regulatory Assessment Change Owner Approval --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Created --></label>
+        <name>QPMS__isCreated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deleted --></label>
+        <name>QPMS__isDeleted__c</name>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <layouts>
+        <layout>Complaint History Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- ComplaintHistory Name --></nameFieldLabel>
+</CustomObjectTranslation>

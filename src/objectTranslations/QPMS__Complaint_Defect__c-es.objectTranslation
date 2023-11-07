@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Defecto de queja</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Defectos de queja</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Complaint_DefectAuditTrail --></label>
+        <name>QPMS__Complaint_DefectAuditTrail</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Active --></label>
+        <name>QPMS__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>QPMS__Category__c</name>
+        <picklistValues>
+            <masterLabel>val1</masterLabel>
+            <translation><!-- val1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>val2</masterLabel>
+            <translation><!-- val2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>val3</masterLabel>
+            <translation><!-- val3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Defect Code --></label>
+        <name>QPMS__Defect_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost --></label>
+        <name>QPMS__Defect_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>QPMS__Type__c</name>
+        <picklistValues>
+            <masterLabel>Adverse Event</masterLabel>
+            <translation><!-- Adverse Event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Evaluation Code</masterLabel>
+            <translation><!-- Evaluation Code --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malfunction</masterLabel>
+            <translation><!-- Malfunction --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Complaint Defect Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nombre de queja</nameFieldLabel>
+</CustomObjectTranslation>

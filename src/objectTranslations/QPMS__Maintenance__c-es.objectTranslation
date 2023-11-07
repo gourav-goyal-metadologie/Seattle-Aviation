@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Maintenance</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Maintenances</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Asset Maintenance List View --></label>
+        <name>QPMS__Asset_Maintenance_List_View</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Header For Details --></label>
+        <name>QPMS__Header_For_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- MaintenanceInitContextualHelp --></label>
+        <name>QPMS__MaintenanceInitContextualHelp</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- MaintenanceTabContextualFieldset --></label>
+        <name>QPMS__MaintenanceTabContextualFieldset</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- MaintenanceTask Read Only --></label>
+        <name>QPMS__MaintenanceTask_Read_Only</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Maintenance Details Section --></label>
+        <name>QPMS__Maintenance_Details_Section</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Maintenance Header --></label>
+        <name>QPMS__Maintenance_Header</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Maintenance Init --></label>
+        <name>QPMS__Maintenance_Init</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Maintenance Init For Details --></label>
+        <name>QPMS__Maintenance_Init_For_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Maintenance Initiation --></label>
+        <name>QPMS__Maintenance_Initiation</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Maintenance Other --></label>
+        <name>QPMS__Maintenance_Other</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Maintenance Search Fields --></label>
+        <name>QPMS__Maintenance_Search_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Maintenance Transfer Fields --></label>
+        <name>QPMS__Maintenance_Transfer_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Maintenance View --></label>
+        <name>QPMS__Maintenance_View</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- PostMaintenanceRecordContextualHelp --></label>
+        <name>QPMS__PostMaintenanceRecordContextualHelp</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QueryFields --></label>
+        <name>QPMS__QueryFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Resolution Fields --></label>
+        <name>QPMS__Resolution_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- maintenanceInitAuditTrailFields --></label>
+        <name>QPMS__maintenanceInitAuditTrailFields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Age --></label>
+        <name>QPMS__Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- ApprovalProcess --></label>
+        <name>QPMS__ApprovalProcess__c</name>
+        <picklistValues>
+            <masterLabel>Change Due Date</masterLabel>
+            <translation><!-- Change Due Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Owner</masterLabel>
+            <translation><!-- Change Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maintenance Approval</masterLabel>
+            <translation><!-- Maintenance Approval --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Stores Approval Group value --></help>
+        <label><!-- Approval Group --></label>
+        <name>QPMS__Approval_Group__c</name>
+    </fields>
+    <fields>
+        <help><!-- Approval Required --></help>
+        <label><!-- Approval Required --></label>
+        <name>QPMS__Approval_Required__c</name>
+    </fields>
+    <fields>
+        <help><!-- Approval Status --></help>
+        <label><!-- Approval Status --></label>
+        <name>QPMS__Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recall</masterLabel>
+            <translation><!-- Recall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Approver 1 --></help>
+        <label><!-- Approver 1 --></label>
+        <name>QPMS__Approver_1__c</name>
+        <relationshipLabel><!-- Maintenances (Approver 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Approver 2 --></help>
+        <label><!-- Approver 2 --></label>
+        <name>QPMS__Approver_2__c</name>
+        <relationshipLabel><!-- Maintenances (Approver 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Approver 3 --></help>
+        <label><!-- Approver 3 --></label>
+        <name>QPMS__Approver_3__c</name>
+        <relationshipLabel><!-- Maintenances (Approver 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Approver 4 --></help>
+        <label><!-- Approver 4 --></label>
+        <name>QPMS__Approver_4__c</name>
+        <relationshipLabel><!-- Maintenances (Approver 4) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Approver 5 --></help>
+        <label><!-- Approver 5 --></label>
+        <name>QPMS__Approver_5__c</name>
+        <relationshipLabel><!-- Maintenances (Approver 5) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Approver 6 --></help>
+        <label><!-- Approver 6 --></label>
+        <name>QPMS__Approver_6__c</name>
+        <relationshipLabel><!-- Maintenances (Approver 6) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Approver 7 --></help>
+        <label><!-- Approver 7 --></label>
+        <name>QPMS__Approver_7__c</name>
+        <relationshipLabel><!-- Maintenances (Approver 7) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Approver 8 --></help>
+        <label><!-- Approver 8 --></label>
+        <name>QPMS__Approver_8__c</name>
+        <relationshipLabel><!-- Maintenances (Approver 8) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Approver 9 --></help>
+        <label><!-- Approver 9 --></label>
+        <name>QPMS__Approver_9__c</name>
+        <relationshipLabel><!-- Maintenances (Approver 9) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Approver --></help>
+        <label><!-- Approver --></label>
+        <name>QPMS__Approver__c</name>
+        <relationshipLabel><!-- Maintenances (Approver) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Asset Name --></label>
+        <name>QPMS__Asset_Profile_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asset Profile Owner --></label>
+        <name>QPMS__Asset_Profile_Owner__c</name>
+        <relationshipLabel><!-- Maintenances (Asset Profile Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Asset Name --></label>
+        <name>QPMS__Asset_Profile__c</name>
+        <relationshipLabel><!-- Maintenances --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Authorized Entity Names --></help>
+        <label><!-- Authorized Entity Names --></label>
+        <name>QPMS__Authorized_Entity_Names__c</name>
+    </fields>
+    <fields>
+        <help><!-- Authorized Entity users --></help>
+        <label><!-- Authorized Entity --></label>
+        <name>QPMS__Authorized_Entity__c</name>
+    </fields>
+    <fields>
+        <help><!-- Bypass Initiation and Resolution step --></help>
+        <label><!-- Bypass Initiation and Resolution step --></label>
+        <name>QPMS__Bypass_Initiation_and_Resolution_step__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSMS Standard --></label>
+        <name>QPMS__CSMS_Standard_Title__c</name>
+    </fields>
+    <fields>
+        <help><!-- CSMS Standard --></help>
+        <label><!-- CSMS Standard --></label>
+        <name>QPMS__CSMS_Standard__c</name>
+        <relationshipLabel><!-- Maintenances --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ChangeFieldApprovalStatus --></label>
+        <name>QPMS__ChangeFieldApprovalStatus__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recall</masterLabel>
+            <translation><!-- Recall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Used for calculating age of maintenance in void or closed status --></help>
+        <label><!-- Closed Date --></label>
+        <name>QPMS__Closed_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- CurrentApprovalSequenceNumber --></help>
+        <label><!-- CurrentApprovalSequenceNumber --></label>
+        <name>QPMS__CurrentApprovalSequenceNumber__c</name>
+    </fields>
+    <fields>
+        <help><!-- due date of a maintenance record --></help>
+        <label><!-- Due Date --></label>
+        <name>QPMS__Due_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Calibration security value --></help>
+        <label><!-- Security --></label>
+        <name>QPMS__Enable_Security__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Initial Submitter --></help>
+        <label><!-- Initial Submitter --></label>
+        <name>QPMS__Initial_Submitter__c</name>
+        <relationshipLabel><!-- Maintenances (Initial Submitter) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Stores the logged in user site public group and inherited from Asset Profile --></help>
+        <label><!-- Initiating Site Security --></label>
+        <name>QPMS__Initiating_Site_Security__c</name>
+    </fields>
+    <fields>
+        <help><!-- Instruction of maintenance --></help>
+        <label><!-- Instructions --></label>
+        <name>QPMS__Instructions__c</name>
+    </fields>
+    <fields>
+        <help><!-- holds the value of Schedule type Disabled or Not --></help>
+        <label><!-- Is Schedule Type Disabled --></label>
+        <name>QPMS__Is_Schedule_Type_Disabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Maintenance Name --></label>
+        <name>QPMS__Maintenance_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- New Due Date --></help>
+        <label><!-- New Due Date --></label>
+        <name>QPMS__New_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Owner --></label>
+        <name>QPMS__New_Owner__c</name>
+        <relationshipLabel><!-- Maintenances (New Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Note To Approver Owner/DueDate --></help>
+        <label><!-- Note To Approver Owner/DueDate --></label>
+        <name>QPMS__Note_To_Approver_Owner_DueDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Note To Approver --></help>
+        <label><!-- Note To Approver --></label>
+        <name>QPMS__Note_To_Approver__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner --></label>
+        <name>QPMS__Owner_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Performed By --></label>
+        <name>QPMS__Performed_By__c</name>
+        <relationshipLabel><!-- Maintenances (Performed By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Purpose --></label>
+        <name>QPMS__Purpose__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason For Void --></label>
+        <name>QPMS__Reason_For_Void__c</name>
+    </fields>
+    <fields>
+        <help><!-- Resolution Code --></help>
+        <label><!-- Resolution Code --></label>
+        <name>QPMS__Resolution_Code__c</name>
+        <picklistValues>
+            <masterLabel>Maintenance</masterLabel>
+            <translation><!-- Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Action Required</masterLabel>
+            <translation><!-- No Action Required --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Resolution Comment --></help>
+        <label><!-- Resolution Comment --></label>
+        <name>QPMS__Resolution_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Schedule Assigned User Name --></label>
+        <name>QPMS__Schedule_Assigned_User_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Schedule Assigned User --></label>
+        <name>QPMS__Schedule_Assigned_User__c</name>
+        <relationshipLabel><!-- Maintenances (Schedule Assigned User) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Schedule Type --></help>
+        <label><!-- Schedule Type --></label>
+        <name>QPMS__Schedule_Type__c</name>
+        <picklistValues>
+            <masterLabel>Estimate</masterLabel>
+            <translation><!-- Estimate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frequency</masterLabel>
+            <translation><!-- Frequency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Usage</masterLabel>
+            <translation><!-- Usage --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Schedule --></label>
+        <name>QPMS__Schedule__c</name>
+        <relationshipLabel><!-- Maintenances --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Sequence --></help>
+        <label><!-- Sequence --></label>
+        <name>QPMS__Sequence__c</name>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation><!-- 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40</masterLabel>
+            <translation><!-- 40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50</masterLabel>
+            <translation><!-- 50 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60</masterLabel>
+            <translation><!-- 60 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>70</masterLabel>
+            <translation><!-- 70 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>80</masterLabel>
+            <translation><!-- 80 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>90</masterLabel>
+            <translation><!-- 90 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Signed Off Details --></help>
+        <label><!-- Signed Off Details --></label>
+        <name>QPMS__Signed_Off_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>QPMS__Status__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review</masterLabel>
+            <translation><!-- In Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Void</masterLabel>
+            <translation><!-- Void --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- To Track Spare Part Inventory --></help>
+        <label><!-- Track Spare Part Inventory --></label>
+        <name>QPMS__Track_Spare_Part_Inventory__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>QPMS__Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- To Validate against inventory --></help>
+        <label><!-- Validate Against Inventory --></label>
+        <name>QPMS__Validate_Against_Inventory__c</name>
+    </fields>
+    <fields>
+        <help><!-- View Only Entity Names --></help>
+        <label><!-- View Only Entity Names --></label>
+        <name>QPMS__View_Only_Entity_Names__c</name>
+    </fields>
+    <fields>
+        <help><!-- View Only Entity users --></help>
+        <label><!-- View Only Entity --></label>
+        <name>QPMS__View_Only_Entity__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nombre de mantenimiento</nameFieldLabel>
+</CustomObjectTranslation>

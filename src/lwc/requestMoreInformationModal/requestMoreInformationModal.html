@@ -1,0 +1,42 @@
+<template>
+    <!-- used to get record id -->
+    <div style="display: none;">
+        {recordId}
+    </div>
+    <!-- sldsValidatorIgnoreNextLine -->
+    <template if:true={isLoading}>
+        <div class="spinner">
+            <lightning-spinner alternative-text="Loading" variant="brand" size="small"></lightning-spinner>
+        </div>
+    </template>
+
+    <!-- sldsValidatorIgnoreNextLine -->
+    <lightning-quick-action-panel header="Request More Information">
+		<template if:true={isReady}>
+			<div if:true={isValid} >
+                <div>
+                    <lightning-textarea placeholder="Type Here..." label="Request More Information">
+                    </lightning-textarea>
+                </div>
+                <div class="slds-m-around_large">
+                    <lightning-dual-listbox name="f"
+                            label="Select required more info fields"
+                            source-label="Available"
+                            selected-label="Selected"
+                            field-level-help="Select your field you need more info"
+                            options={availableFields}
+                            onchange={handleFieldSelection}></lightning-dual-listbox>
+                </div>
+                <div slot="footer" style="text-align: center;">
+                    <lightning-button variant="neutral" label="Cancel" onclick={handleCancel}></lightning-button>
+                    <lightning-button variant="brand" label="Send" onclick={isFormResponseAvailable} class="slds-m-left_x-small"></lightning-button>
+                </div>
+			</div>
+			<div if:false={isValid} class="slds-p-top_medium">
+				<div style="padding:0.5rem;background:#ec0d0d">
+					<div class="slds-text-color_inverse slds-text-align_center">ERROR: {errorMessage}</div>
+				</div>
+			</div>
+		</template>
+    </lightning-quick-action-panel>
+ </template>

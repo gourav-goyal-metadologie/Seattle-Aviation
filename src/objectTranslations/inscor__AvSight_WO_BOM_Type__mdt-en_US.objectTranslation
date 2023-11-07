@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- BOM Type --></label>
+        <name>inscor__BOM_Type__c</name>
+        <picklistValues>
+            <masterLabel>Consumable</masterLabel>
+            <translation><!-- Consumable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inspect</masterLabel>
+            <translation><!-- Inspect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Material</masterLabel>
+            <translation><!-- Material --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remove</masterLabel>
+            <translation><!-- Remove --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair</masterLabel>
+            <translation><!-- Repair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Replace</masterLabel>
+            <translation><!-- Replace --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Part Return Required? --></label>
+        <name>inscor__Part_Return_Required__c</name>
+    </fields>
+</CustomObjectTranslation>

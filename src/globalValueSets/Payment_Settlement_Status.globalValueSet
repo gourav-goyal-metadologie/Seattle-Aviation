@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Under Settlement</fullName>
+        <default>true</default>
+        <label>Under Settlement</label>
+    </customValue>
+    <customValue>
+        <fullName>Payment Settled</fullName>
+        <default>false</default>
+        <label>Payment Settled</label>
+    </customValue>
+    <description>Payment Settlement Status by payment gateway</description>
+    <masterLabel>Payment Settlement Status</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

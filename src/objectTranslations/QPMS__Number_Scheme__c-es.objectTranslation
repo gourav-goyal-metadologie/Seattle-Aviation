@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Number Scheme --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Number Scheme --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Number_SchemeAuditTrail --></label>
+        <name>QPMS__Number_SchemeAuditTrail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QueryFields --></label>
+        <name>QPMS__QueryFields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Active --></label>
+        <name>QPMS__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Annual reset --></label>
+        <name>QPMS__Annual_reset__c</name>
+    </fields>
+    <fields>
+        <label><!-- Decimal --></label>
+        <name>QPMS__Decimal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Department --></label>
+        <name>QPMS__Department__c</name>
+        <relationshipLabel><!-- Number Schemes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- MAXDECIMAL --></label>
+        <name>QPMS__MAXDECIMAL__c</name>
+    </fields>
+    <fields>
+        <label><!-- MAXNUMBER --></label>
+        <name>QPMS__MAXNUMBER__c</name>
+    </fields>
+    <fields>
+        <label><!-- Module --></label>
+        <name>QPMS__Module__c</name>
+        <picklistValues>
+            <masterLabel>Audit</masterLabel>
+            <translation><!-- Audit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAPA</masterLabel>
+            <translation><!-- CAPA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSMS Standard</masterLabel>
+            <translation><!-- CSMS Standard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calibration</masterLabel>
+            <translation><!-- Calibration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Request</masterLabel>
+            <translation><!-- Change Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complaint</masterLabel>
+            <translation><!-- Complaint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Decision Tree</masterLabel>
+            <translation><!-- Decision Tree --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document</masterLabel>
+            <translation><!-- Document --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inspection</masterLabel>
+            <translation><!-- Inspection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inspection PO</masterLabel>
+            <translation><!-- Inspection PO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maintenance</masterLabel>
+            <translation><!-- Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC</masterLabel>
+            <translation><!-- NC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation><!-- Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplier</masterLabel>
+            <translation><!-- Supplier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training</masterLabel>
+            <translation><!-- Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US-FDA</masterLabel>
+            <translation><!-- US-FDA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Name Module Site --></label>
+        <name>QPMS__Name_Module__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Scheme Formula --></label>
+        <name>QPMS__Number_Scheme_Formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number format --></label>
+        <name>QPMS__Number_format__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prefix Number format Suffix Revision --></label>
+        <name>QPMS__Prefix_Number_format_Suffix_Revision__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prefix --></label>
+        <name>QPMS__Prefix__c</name>
+    </fields>
+    <fields>
+        <label><!-- Revision --></label>
+        <name>QPMS__Revision__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1.1</masterLabel>
+            <translation><!-- 1.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A.1</masterLabel>
+            <translation><!-- A.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AA</masterLabel>
+            <translation><!-- AA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Site --></label>
+        <name>QPMS__Site__c</name>
+        <relationshipLabel><!-- Number Schemes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Suffix --></label>
+        <name>QPMS__Suffix__c</name>
+    </fields>
+    <fields>
+        <label><!-- YEAR --></label>
+        <name>QPMS__YY__c</name>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <layouts>
+        <layout>Number Scheme Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Number Scheme Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Max Number sholud be more than the previous value --></errorMessage>
+        <name>QPMS__Max_Number_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only Numbers are allowed --></errorMessage>
+        <name>QPMS__Number_Format_validation</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Duplicate Check Group --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Duplicate Check Groups --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Display --></label>
+        <name>dupcheck__Display__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error Count --></label>
+        <name>dupcheck__ErrorCount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Master Record --></label>
+        <name>dupcheck__MasterRecord__c</name>
+    </fields>
+    <fields>
+        <label><!-- Average Score --></label>
+        <name>dupcheck__avgScore__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duplicate Check Job --></label>
+        <name>dupcheck__dcJob__c</name>
+        <relationshipLabel><!-- Duplicate Check Groups --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Duplicate Count --></label>
+        <name>dupcheck__duplicateCount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duplicate Filter Value --></label>
+        <name>dupcheck__duplicateFilterValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duplicate Owner --></label>
+        <name>dupcheck__duplicateOwner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duplicate Record Type --></label>
+        <name>dupcheck__duplicateRecordType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Empty --></label>
+        <name>dupcheck__empty__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group --></label>
+        <name>dupcheck__group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Handled --></label>
+        <name>dupcheck__handled__c</name>
+    </fields>
+    <fields>
+        <label><!-- High Score --></label>
+        <name>dupcheck__highScore__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lowest Score --></label>
+        <name>dupcheck__lowScore__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merge Data --></label>
+        <name>dupcheck__mergeData__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Count --></label>
+        <name>dupcheck__recordCount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sum Score --></label>
+        <name>dupcheck__sumScore__c</name>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <nameFieldLabel><!-- Duplicate Check Group --></nameFieldLabel>
+</CustomObjectTranslation>

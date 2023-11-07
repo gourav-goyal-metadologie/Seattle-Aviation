@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Description of the setting --></help>
+        <label><!-- Description --></label>
+        <name>AMSTATCORP__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicator if the Setting is active --></help>
+        <label><!-- IsActive --></label>
+        <name>AMSTATCORP__IsActive__c</name>
+    </fields>
+    <fields>
+        <help><!-- Type of the setting value. --></help>
+        <label><!-- Setting Type --></label>
+        <name>AMSTATCORP__Setting_Type__c</name>
+        <picklistValues>
+            <masterLabel>Boolean</masterLabel>
+            <translation><!-- Boolean --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Date</masterLabel>
+            <translation><!-- Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Datetime</masterLabel>
+            <translation><!-- Datetime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Decimal</masterLabel>
+            <translation><!-- Decimal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Double</masterLabel>
+            <translation><!-- Double --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Integer</masterLabel>
+            <translation><!-- Integer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>String</masterLabel>
+            <translation><!-- String --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- User the setting applies to --></help>
+        <label><!-- User --></label>
+        <name>AMSTATCORP__User__c</name>
+        <relationshipLabel><!-- Settings --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The Value of the Setting --></help>
+        <label><!-- Value --></label>
+        <name>AMSTATCORP__Value__c</name>
+    </fields>
+    <layouts>
+        <layout>Setting Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

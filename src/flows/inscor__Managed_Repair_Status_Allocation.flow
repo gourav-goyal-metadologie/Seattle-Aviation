@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <assignments>
+        <name>Change_Manage_Repair_Status</name>
+        <label>Change Manage Repair Status</label>
+        <locationX>606</locationX>
+        <locationY>470</locationY>
+        <assignmentItems>
+            <assignToReference>Get_SO_Line.inscor__Managed_Repair_Status__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Received from Customer</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Manage_Repair_Status</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Change_Status_After_Allocation</name>
+        <label>Change Status After Allocation</label>
+        <locationX>260</locationX>
+        <locationY>483</locationY>
+        <assignmentItems>
+            <assignToReference>Get_SO_Line.inscor__Managed_Repair_Status__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>On RO</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Manage_Repair_Status</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Check_Allocation_Status</name>
+        <label>Check Allocation Status</label>
+        <locationX>423</locationX>
+        <locationY>410</locationY>
+        <defaultConnector>
+            <targetReference>Change_Status_After_Allocation</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Is_Repair_Reserved</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.inscor__Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Repair Reserved</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Change_Manage_Repair_Status</targetReference>
+            </connector>
+            <label>Is Repair Reserved</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Is_Create_Or_Status_Updated</name>
+        <label>Is Create Or Status Updated</label>
+        <locationX>197</locationX>
+        <locationY>284</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Is_Created</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record__Prior</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.inscor__Sales_Order_Line__r.inscor__Order_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Managed Repair</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.inscor__Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Repair Reserved</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_SO_Line</targetReference>
+            </connector>
+            <label>Is Created</label>
+        </rules>
+        <rules>
+            <name>Is_Status_Changed</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record__Prior.inscor__Status__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>$Record.inscor__Status__c</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.inscor__Sales_Order_Line__r.inscor__Order_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Managed Repair</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.inscor__Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Allocated</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_SO_Line</targetReference>
+            </connector>
+            <label>Is Status Changed</label>
+        </rules>
+    </decisions>
+    <interviewLabel>Managed Repair Status Allocation {!$Flow.CurrentDateTime}</interviewLabel>
+    <isTemplate>true</isTemplate>
+    <label>Managed Repair Status Allocation</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_SO_Line</name>
+        <label>Get SO Line</label>
+        <locationX>433</locationX>
+        <locationY>241</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Check_Allocation_Status</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.inscor__Sales_Order_Line__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>inscor__Sales_Order_Line__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Manage_Repair_Status</name>
+        <label>Update Manage Repair Status</label>
+        <locationX>435</locationX>
+        <locationY>706</locationY>
+        <inputReference>Get_SO_Line</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>79</locationX>
+        <locationY>24</locationY>
+        <connector>
+            <targetReference>Is_Create_Or_Status_Updated</targetReference>
+        </connector>
+        <object>inscor__Allocation__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

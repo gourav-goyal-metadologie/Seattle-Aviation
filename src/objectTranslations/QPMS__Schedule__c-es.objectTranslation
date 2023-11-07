@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Schedule --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Schedule --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Asset Calibration Schedule Fields --></label>
+        <name>QPMS__Asset_Calibration_Schedule_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Asset Calibration Schedule List View --></label>
+        <name>QPMS__Asset_Calibration_Schedule_List_View</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Asset Maintenance Schedule Fields --></label>
+        <name>QPMS__Asset_Maintenance_Schedule_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Asset Maintenance Schedule List View --></label>
+        <name>QPMS__Asset_Maintenance_Schedule_List_View</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Audit Trail --></label>
+        <name>QPMS__Audit_Trail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CalibrationScheduleContextualHelp --></label>
+        <name>QPMS__CalibrationScheduleContextualHelp</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Calibration Schedule Fields --></label>
+        <name>QPMS__Calibration_Schedule_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- MaintenanceScheduleContextualHelp --></label>
+        <name>QPMS__MaintenanceScheduleContextualHelp</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Maintenance Schedule Fields --></label>
+        <name>QPMS__Maintenance_Schedule_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QueryFields --></label>
+        <name>QPMS__QueryFields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Active --></label>
+        <name>QPMS__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Age --></label>
+        <name>QPMS__Age__c</name>
+    </fields>
+    <fields>
+        <help><!-- Asset Profile --></help>
+        <label><!-- Asset Profile --></label>
+        <name>QPMS__Asset_Profile__c</name>
+        <relationshipLabel><!-- Schedules --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Assign To --></label>
+        <name>QPMS__Assign_To__c</name>
+        <picklistValues>
+            <masterLabel>Internal</masterLabel>
+            <translation><!-- Internal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vendor</masterLabel>
+            <translation><!-- Vendor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CSMS Standard --></label>
+        <name>QPMS__CSMS_Standard_Title__c</name>
+    </fields>
+    <fields>
+        <help><!-- CSMS Standard --></help>
+        <label><!-- CSMS Standard --></label>
+        <name>QPMS__CSMS_Standard__c</name>
+        <relationshipLabel><!-- Schedules --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>QPMS__Calibration_Type_Link__c</name>
+    </fields>
+    <fields>
+        <help><!-- Schedule Type --></help>
+        <label><!-- Type --></label>
+        <name>QPMS__Calibration_Type__c</name>
+        <picklistValues>
+            <masterLabel>Calibration</masterLabel>
+            <translation><!-- Calibration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certification</masterLabel>
+            <translation><!-- Certification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validation</masterLabel>
+            <translation><!-- Validation --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Cost --></help>
+        <label><!-- Cost ($) --></label>
+        <name>QPMS__Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Profile --></label>
+        <name>QPMS__Document_Profile_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Profile --></label>
+        <name>QPMS__Document_Profile__c</name>
+        <relationshipLabel><!-- Schedules --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Estimation (In Hours) --></help>
+        <label><!-- Estimation (In Hours) --></label>
+        <name>QPMS__Estimation_In_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Frequency(In Days) --></help>
+        <label><!-- Frequency (In Days) --></label>
+        <name>QPMS__Frequency_In_Days__c</name>
+    </fields>
+    <fields>
+        <help><!-- Calibration/Maintenance Instruction --></help>
+        <label><!-- Instruction --></label>
+        <name>QPMS__Instruction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal --></label>
+        <name>QPMS__Internal_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Internal --></help>
+        <label><!-- Internal --></label>
+        <name>QPMS__Internal__c</name>
+        <relationshipLabel><!-- Schedules --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>QPMS__Maintenance_Type_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>QPMS__Maintenance_Type__c</name>
+        <picklistValues>
+            <masterLabel>Daily</masterLabel>
+            <translation><!-- Daily --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation><!-- Monthly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation><!-- Quarterly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation><!-- Weekly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yearly</masterLabel>
+            <translation><!-- Yearly --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Next Due Date --></help>
+        <label><!-- Next Due Date --></label>
+        <name>QPMS__Next_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner --></label>
+        <name>QPMS__Owner__c</name>
+    </fields>
+    <fields>
+        <help><!-- Schedule Type --></help>
+        <label><!-- Schedule Type --></label>
+        <name>QPMS__Schedule_Type__c</name>
+        <picklistValues>
+            <masterLabel>Estimate</masterLabel>
+            <translation><!-- Estimate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frequency</masterLabel>
+            <translation><!-- Frequency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Usage</masterLabel>
+            <translation><!-- Usage --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>QPMS__Status__c</name>
+    </fields>
+    <fields>
+        <help><!-- Usage Limit --></help>
+        <label><!-- Usage Limit --></label>
+        <name>QPMS__Usage_Limit__c</name>
+    </fields>
+    <fields>
+        <help><!-- Usage UOM --></help>
+        <label><!-- Usage UOM --></label>
+        <name>QPMS__Usage_UOM__c</name>
+        <picklistValues>
+            <masterLabel>Cycles</masterLabel>
+            <translation><!-- Cycles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kilo Meters</masterLabel>
+            <translation><!-- Kilo Meters --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Miles</masterLabel>
+            <translation><!-- Miles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Times</masterLabel>
+            <translation><!-- Times --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Vendor --></label>
+        <name>QPMS__Vendor_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Vendor --></help>
+        <label><!-- Vendor --></label>
+        <name>QPMS__Vendor__c</name>
+        <relationshipLabel><!-- Schedules --></relationshipLabel>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <layouts>
+        <layout>Schedule Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Schedule Name --></nameFieldLabel>
+    <recordTypes>
+        <label><!-- Calibration --></label>
+        <name>QPMS__Calibration</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Maintenance --></label>
+        <name>QPMS__Maintenance</name>
+    </recordTypes>
+</CustomObjectTranslation>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- PN Copy --></label>
+        <name>PN_Copy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allocation Type --></label>
+        <name>inscor__Allocation_Type__c</name>
+        <picklistValues>
+            <masterLabel>Credit</masterLabel>
+            <translation><!-- Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non Stock</masterLabel>
+            <translation><!-- Non Stock --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase Order</masterLabel>
+            <translation><!-- Purchase Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair Order</masterLabel>
+            <translation><!-- Repair Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stock</masterLabel>
+            <translation><!-- Stock --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Comments for Repair --></label>
+        <name>inscor__Comments_for_Repair__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inventory Line --></label>
+        <name>inscor__Inventory_Line__c</name>
+        <relationshipLabel><!-- Allocations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Non Inventory Owner Code --></label>
+        <name>inscor__Non_Inventory_Owner_Code__c</name>
+        <relationshipLabel><!-- Allocations (Non Inventory Owner Code) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Owner Code --></label>
+        <name>inscor__Owner_Code__c</name>
+        <relationshipLabel><!-- Allocations (Owner Code) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- PO Line Number --></label>
+        <name>inscor__PO_Line_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- PO Number --></label>
+        <name>inscor__PO_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part Number --></label>
+        <name>inscor__Part_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purchase Order Line --></label>
+        <name>inscor__Purchase_Order_Line__c</name>
+        <relationshipLabel><!-- Allocations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Purchase Order --></label>
+        <name>inscor__Purchase_Order__c</name>
+        <relationshipLabel><!-- Allocations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity Allocated --></label>
+        <name>inscor__Quantity_Allocated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Invoiced --></label>
+        <name>inscor__Quantity_Invoiced__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Shipped --></label>
+        <name>inscor__Quantity_Shipped__c</name>
+    </fields>
+    <fields>
+        <label><!-- RO Line Number --></label>
+        <name>inscor__RO_Line_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- RO Number --></label>
+        <name>inscor__RO_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference ID --></label>
+        <name>inscor__Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Repair Order Line --></label>
+        <name>inscor__Repair_Order_Line__c</name>
+        <relationshipLabel><!-- Allocations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Repair Order --></label>
+        <name>inscor__Repair_Order__c</name>
+        <relationshipLabel><!-- Allocations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sales Order Line --></label>
+        <name>inscor__Sales_Order_Line__c</name>
+        <relationshipLabel><!-- Allocations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sales Order --></label>
+        <name>inscor__Sales_Order__c</name>
+        <relationshipLabel><!-- Allocations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Serial Number --></label>
+        <name>inscor__Serial_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sold Condition --></label>
+        <name>inscor__Sold_Condition__c</name>
+        <relationshipLabel><!-- Allocations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sold Part Number --></label>
+        <name>inscor__Sold_Part_Number__c</name>
+        <relationshipLabel><!-- Allocations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>inscor__Status__c</name>
+        <picklistValues>
+            <masterLabel>Allocated</masterLabel>
+            <translation><!-- Allocated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Released</masterLabel>
+            <translation><!-- Released --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair Reserved</masterLabel>
+            <translation><!-- Repair Reserved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipped</masterLabel>
+            <translation><!-- Shipped --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- WO Material --></label>
+        <name>inscor__WO_Material__c</name>
+        <relationshipLabel><!-- Allocations --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Allocation Detail Layout</layout>
+        <sections>
+            <label><!-- Allocation Details --></label>
+            <section>Allocation Details</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- Repair Reservation --></label>
+            <section>Repair Reservation</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

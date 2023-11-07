@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>WH Manager</label>
+    <permissionSets>AvSight_Dashboard_User</permissionSets>
+    <permissionSets>AvSight_Reporting_User</permissionSets>
+    <permissionSets>AvSight_Stock_Check</permissionSets>
+    <permissionSets>avszen__AvSight_Zenkraft</permissionSets>
+    <permissionSets>inscor__AvSight_Accounts_Basic</permissionSets>
+    <permissionSets>inscor__AvSight_Accounts_User</permissionSets>
+    <permissionSets>inscor__AvSight_Cycle_Count</permissionSets>
+    <permissionSets>inscor__AvSight_Inventory_User</permissionSets>
+    <permissionSets>inscor__AvSight_Outbound_QC</permissionSets>
+    <permissionSets>inscor__AvSight_Part_Master_Basic</permissionSets>
+    <permissionSets>inscor__AvSight_Picking</permissionSets>
+    <permissionSets>inscor__AvSight_Receiving_User</permissionSets>
+    <permissionSets>inscor__AvSight_User</permissionSets>
+    <permissionSets>inscor__AvSight_User_Base_Read</permissionSets>
+    <permissionSets>inscor__AvSight_User_Operations</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

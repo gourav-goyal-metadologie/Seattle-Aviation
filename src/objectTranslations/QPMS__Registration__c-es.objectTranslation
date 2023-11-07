@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Registration</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Registrations</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Contextual Help --></label>
+        <name>QPMS__Contextual_Help</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Facility Details --></label>
+        <name>QPMS__Facility_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Hidden Lookups --></label>
+        <name>QPMS__Hidden_Lookups</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Maintenance Provider --></label>
+        <name>QPMS__Maintenance_Provider</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Product Details --></label>
+        <name>QPMS__Product_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Registration Details --></label>
+        <name>QPMS__Registration_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Service Details --></label>
+        <name>QPMS__Service_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Service Provider --></label>
+        <name>QPMS__Service_Provider</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Department --></label>
+        <name>QPMS__Business_Entity__c</name>
+        <relationshipLabel><!-- Registrations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Created By --></label>
+        <name>QPMS__CreatedBy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created By --></label>
+        <name>QPMS__Created_By__c</name>
+        <relationshipLabel><!-- Registrations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Created Date --></label>
+        <name>QPMS__Created_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expiration Date --></label>
+        <name>QPMS__Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Facility --></label>
+        <name>QPMS__Facility__c</name>
+        <relationshipLabel><!-- Registrations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>QPMS__Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lot Number --></label>
+        <name>QPMS__Lot_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Maintenance Provider --></help>
+        <label><!-- Maintenance Provider --></label>
+        <name>QPMS__Maintenance_Provider__c</name>
+        <relationshipLabel><!-- Registrations (Maintenance Provider) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Manufacturing Date --></label>
+        <name>QPMS__Manufacturing_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Site --></label>
+        <name>QPMS__Manufacturing_Site__c</name>
+        <relationshipLabel><!-- Registrations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>QPMS__Product_Family__c</name>
+        <relationshipLabel><!-- Registrations --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Serial Number --></help>
+        <label><!-- Serial Number --></label>
+        <name>QPMS__Serial_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Date --></label>
+        <name>QPMS__Service_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Service Provider --></help>
+        <label><!-- Service Provider --></label>
+        <name>QPMS__Service_Provider__c</name>
+        <relationshipLabel><!-- Registrations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Service Type --></label>
+        <name>QPMS__Service_Type__c</name>
+        <picklistValues>
+            <masterLabel>ABC</masterLabel>
+            <translation><!-- ABC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service A</masterLabel>
+            <translation><!-- Service A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service B</masterLabel>
+            <translation><!-- Service B --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Unique Device Identifier(UDI) --></label>
+        <name>QPMS__Unique_Device_Identifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consumer Detail --></label>
+        <name>QPMS__User_Detail__c</name>
+        <relationshipLabel><!-- Registrations --></relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Identificación de Registro</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Action Code --></label>
+        <name>inscor__Action_Code__c</name>
+        <picklistValues>
+            <masterLabel>Bench Test</masterLabel>
+            <translation><!-- Bench Test --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Functional Test</masterLabel>
+            <translation><!-- Functional Test --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Modification</masterLabel>
+            <translation><!-- Modification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Part</masterLabel>
+            <translation><!-- New Part --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Overhaul</masterLabel>
+            <translation><!-- Overhaul --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair</masterLabel>
+            <translation><!-- Repair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Visual Check</masterLabel>
+            <translation><!-- Visual Check --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Completed By --></label>
+        <name>inscor__Completed_By__c</name>
+        <relationshipLabel><!-- Inspection Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Completed Date --></label>
+        <name>inscor__Completed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disposition --></label>
+        <name>inscor__Disposition__c</name>
+        <picklistValues>
+            <masterLabel>Servicable</masterLabel>
+            <translation><!-- Servicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unservicable</masterLabel>
+            <translation><!-- Unservicable --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- External Comments --></label>
+        <name>inscor__External_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Finding Details --></label>
+        <name>inscor__Finding_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inspection Details --></label>
+        <name>inscor__Inspection_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Comments --></label>
+        <name>inscor__Internal_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part Master --></label>
+        <name>inscor__Part_Master__c</name>
+        <relationshipLabel><!-- Inspection Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>inscor__Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Serial Number --></label>
+        <name>inscor__Serial_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>inscor__Status__c</name>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Work Order Task --></label>
+        <name>inscor__Work_Order_Task__c</name>
+        <relationshipLabel><!-- Inspection Items --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>AvSight Inspection Item Layout</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Inspection Details --></label>
+            <section>Inspection Details</section>
+        </sections>
+        <sections>
+            <label><!-- Inspection Information --></label>
+            <section>Inspection Information</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

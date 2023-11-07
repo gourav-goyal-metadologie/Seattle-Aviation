@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- DataType --></label>
+        <name>QPMS__DataType__c</name>
+        <picklistValues>
+            <masterLabel>Boolean</masterLabel>
+            <translation><!-- Boolean --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Date</masterLabel>
+            <translation><!-- Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>String</masterLabel>
+            <translation><!-- String --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Default Value --></label>
+        <name>QPMS__Default_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field API Name --></label>
+        <name>QPMS__Field_API_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Field set name --></help>
+        <label><!-- Field Set --></label>
+        <name>QPMS__Field_Set__c</name>
+        <picklistValues>
+            <masterLabel>Facility Details</masterLabel>
+            <translation><!-- Facility Details --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Module API Name --></label>
+        <name>QPMS__Module_API_Name__c</name>
+        <picklistValues>
+            <masterLabel>Account</masterLabel>
+            <translation><!-- Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contact</masterLabel>
+            <translation><!-- Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QPMS__Audit__c</masterLabel>
+            <translation><!-- QPMS__Audit__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QPMS__Complaint__c</masterLabel>
+            <translation><!-- QPMS__Complaint__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QPMS__Defect__c</masterLabel>
+            <translation><!-- QPMS__Defect__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QPMS__Process__c</masterLabel>
+            <translation><!-- QPMS__Process__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QPMS__Product__c</masterLabel>
+            <translation><!-- QPMS__Product__c --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- map the field names of account with the fields of facility details field set of complaints --></help>
+        <label><!-- Other Mapping --></label>
+        <name>QPMS__Other_Mapping__c</name>
+    </fields>
+    <fields>
+        <label><!-- RecordType --></label>
+        <name>QPMS__RecordType__c</name>
+        <picklistValues>
+            <masterLabel>AdhocTask</masterLabel>
+            <translation><!-- AdhocTask --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closure</masterLabel>
+            <translation><!-- Closure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investigation</masterLabel>
+            <translation><!-- Investigation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Evaluation</masterLabel>
+            <translation><!-- Product Evaluation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Review DHR</masterLabel>
+            <translation><!-- Review DHR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>QPMS__Type__c</name>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Request</masterLabel>
+            <translation><!-- Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Response</masterLabel>
+            <translation><!-- Response --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

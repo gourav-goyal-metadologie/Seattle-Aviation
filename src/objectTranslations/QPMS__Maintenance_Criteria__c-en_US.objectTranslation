@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Audit Trail --></label>
+        <name>QPMS__Audit_Trail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Maintenance Attribute Criteria List View --></label>
+        <name>QPMS__Maintenance_Attribute_Criteria_List_View</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Maintenance Criteria List View --></label>
+        <name>QPMS__Maintenance_Criteria_List_View</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Maintenance Task Attribute ListView --></label>
+        <name>QPMS__Maintenance_Task_Attribute_ListView</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Maintenance Task Attributes For Details --></label>
+        <name>QPMS__Maintenance_Task_Attributes_For_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Maintenance Task Variable ListView --></label>
+        <name>QPMS__Maintenance_Task_Variable_ListView</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QueryFields --></label>
+        <name>QPMS__QueryFields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Criteria Name --></label>
+        <name>QPMS__Criteria_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Criteria Type --></label>
+        <name>QPMS__Criteria_Type__c</name>
+        <picklistValues>
+            <masterLabel>Attribute</masterLabel>
+            <translation><!-- Attribute --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Variable</masterLabel>
+            <translation><!-- Variable --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Criteria --></label>
+        <name>QPMS__Criteria__c</name>
+        <relationshipLabel><!-- Maintenance Criterias --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Description --></help>
+        <label><!-- Description --></label>
+        <name>QPMS__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Modified By --></label>
+        <name>QPMS__Last_Modified_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Maintenance --></label>
+        <name>QPMS__Maintenance__c</name>
+        <relationshipLabel><!-- Maintenance Criterias --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Measurement --></label>
+        <name>QPMS__Measurement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Result --></label>
+        <name>QPMS__Result__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tolerance (-) --></label>
+        <name>QPMS__Tolerance_Minus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tolerance(+) --></label>
+        <name>QPMS__Tolerance_Plus__c</name>
+    </fields>
+    <fields>
+        <label><!-- UOM --></label>
+        <name>QPMS__UOM__c</name>
+        <picklistValues>
+            <masterLabel>cm</masterLabel>
+            <translation><!-- cm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>g</masterLabel>
+            <translation><!-- g --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>inch</masterLabel>
+            <translation><!-- inch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>kg</masterLabel>
+            <translation><!-- kg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>lbs</masterLabel>
+            <translation><!-- lbs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>m</masterLabel>
+            <translation><!-- m --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>mm</masterLabel>
+            <translation><!-- mm --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

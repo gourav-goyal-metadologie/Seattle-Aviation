@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Select the Message Template to send when the condition is met --></help>
+        <label><!-- Message Template --></label>
+        <name>BillNPay__Message_Template__c</name>
+        <relationshipLabel><!-- Notification Messages --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Notification Condition --></label>
+        <name>BillNPay__Notification_Condition__c</name>
+        <relationshipLabel><!-- Notification Messages --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- When condition is met, when should the message be sent --></help>
+        <label><!-- Send the Message --></label>
+        <name>BillNPay__Send_the_Message__c</name>
+        <picklistValues>
+            <masterLabel>As Soon As Possible</masterLabel>
+            <translation><!-- As Soon As Possible --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Days After Due Date</masterLabel>
+            <translation><!-- Days After Due Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Days Before Due Date</masterLabel>
+            <translation><!-- Days Before Due Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Days From Invoice Creation</masterLabel>
+            <translation><!-- Days From Invoice Creation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Now</masterLabel>
+            <translation><!-- Now --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Due Date</masterLabel>
+            <translation><!-- On Due Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Next Day of Month</masterLabel>
+            <translation><!-- On Next Day of Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Next Day of Week</masterLabel>
+            <translation><!-- On Next Day of Week --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Send Tomorrow</masterLabel>
+            <translation><!-- Send Tomorrow --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Value --></label>
+        <name>BillNPay__Value__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 Day After</masterLabel>
+            <translation><!-- 1 Day After --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 Day Before</masterLabel>
+            <translation><!-- 1 Day Before --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10 Day After</masterLabel>
+            <translation><!-- 10 Day After --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10 Day Before</masterLabel>
+            <translation><!-- 10 Day Before --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11 Day After</masterLabel>
+            <translation><!-- 11 Day After --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11 Day Before</masterLabel>
+            <translation><!-- 11 Day Before --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12 Day After</masterLabel>
+            <translation><!-- 12 Day After --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12 Day Before</masterLabel>
+            <translation><!-- 12 Day Before --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13 Day After</masterLabel>
+            <translation><!-- 13 Day After --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13 Day Before</masterLabel>
+            <translation><!-- 13 Day Before --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14 Day After</masterLabel>
+            <translation><!-- 14 Day After --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14 Day Before</masterLabel>
+            <translation><!-- 14 Day Before --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15 Day After</masterLabel>
+            <translation><!-- 15 Day After --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15 Day Before</masterLabel>
+            <translation><!-- 15 Day Before --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16 Day After</masterLabel>
+            <translation><!-- 16 Day After --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16 Day Before</masterLabel>
+            <translation><!-- 16 Day Before --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>17 Day After</masterLabel>
+            <translation><!-- 17 Day After --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>17 Day Before</masterLabel>
+            <translation><!-- 17 Day Before --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18 Day After</masterLabel>
+            <translation><!-- 18 Day After --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18 Day Before</masterLabel>
+            <translation><!-- 18 Day Before --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>19 Day After</masterLabel>
+            <translation><!-- 19 Day After --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>19 Day Before</masterLabel>
+            <translation><!-- 19 Day Before --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 Day After</masterLabel>
+            <translation><!-- 2 Day After --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 Day Before</masterLabel>
+            <translation><!-- 2 Day Before --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20 Day After</masterLabel>
+            <translation><!-- 20 Day After --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20 Day Before</masterLabel>
+            <translation><!-- 20 Day Before --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>21 Day After</masterLabel>
+            <translation><!-- 21 Day After --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>21 Day Before</masterLabel>
+            <translation><!-- 21 Day Before --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>22 Day After</masterLabel>
+            <translation><!-- 22 Day After --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>22 Day Before</masterLabel>
+            <translation><!-- 22 Day Before --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>23 Day After</masterLabel>
+            <translation><!-- 23 Day After --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>23 Day Before</masterLabel>
+            <translation><!-- 23 Day Before --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>24 Day After</masterLabel>
+            <translation><!-- 24 Day After --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>24 Day Before</masterLabel>
+            <translation><!-- 24 Day Before --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25 Day After</masterLabel>
+            <translation><!-- 25 Day After --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25 Day Before</masterLabel>
+            <translation><!-- 25 Day Before --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>26 Day After</masterLabel>
+            <translation><!-- 26 Day After --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>26 Day Before</masterLabel>
+            <translation><!-- 26 Day Before --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>27 Day After</masterLabel>
+            <translation><!-- 27 Day After --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>27 Day Before</masterLabel>
+            <translation><!-- 27 Day Before --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>28 Day After</masterLabel>
+            <translation><!-- 28 Day After --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>28 Day Before</masterLabel>
+            <translation><!-- 28 Day Before --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>29 Day After</masterLabel>
+            <translation><!-- 29 Day After --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>29 Day Before</masterLabel>
+            <translation><!-- 29 Day Before --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 Day After</masterLabel>
+            <translation><!-- 3 Day After --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 Day Before</masterLabel>
+            <translation><!-- 3 Day Before --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30 Day After</masterLabel>
+            <translation><!-- 30 Day After --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30 Day Before</masterLabel>
+            <translation><!-- 30 Day Before --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 Day After</masterLabel>
+            <translation><!-- 4 Day After --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 Day Before</masterLabel>
+            <translation><!-- 4 Day Before --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 Day After</masterLabel>
+            <translation><!-- 5 Day After --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 Day Before</masterLabel>
+            <translation><!-- 5 Day Before --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 Day After</masterLabel>
+            <translation><!-- 6 Day After --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 Day Before</masterLabel>
+            <translation><!-- 6 Day Before --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7 Day After</masterLabel>
+            <translation><!-- 7 Day After --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7 Day Before</masterLabel>
+            <translation><!-- 7 Day Before --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8 Day After</masterLabel>
+            <translation><!-- 8 Day After --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8 Day Before</masterLabel>
+            <translation><!-- 8 Day Before --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9 Day After</masterLabel>
+            <translation><!-- 9 Day After --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9 Day Before</masterLabel>
+            <translation><!-- 9 Day Before --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Day 1</masterLabel>
+            <translation><!-- Day 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Day 10</masterLabel>
+            <translation><!-- Day 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Day 11</masterLabel>
+            <translation><!-- Day 11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Day 12</masterLabel>
+            <translation><!-- Day 12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Day 13</masterLabel>
+            <translation><!-- Day 13 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Day 14</masterLabel>
+            <translation><!-- Day 14 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Day 15</masterLabel>
+            <translation><!-- Day 15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Day 16</masterLabel>
+            <translation><!-- Day 16 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Day 17</masterLabel>
+            <translation><!-- Day 17 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Day 18</masterLabel>
+            <translation><!-- Day 18 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Day 19</masterLabel>
+            <translation><!-- Day 19 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Day 2</masterLabel>
+            <translation><!-- Day 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Day 20</masterLabel>
+            <translation><!-- Day 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Day 21</masterLabel>
+            <translation><!-- Day 21 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Day 22</masterLabel>
+            <translation><!-- Day 22 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Day 23</masterLabel>
+            <translation><!-- Day 23 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Day 24</masterLabel>
+            <translation><!-- Day 24 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Day 25</masterLabel>
+            <translation><!-- Day 25 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Day 26</masterLabel>
+            <translation><!-- Day 26 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Day 27</masterLabel>
+            <translation><!-- Day 27 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Day 28</masterLabel>
+            <translation><!-- Day 28 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Day 29</masterLabel>
+            <translation><!-- Day 29 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Day 3</masterLabel>
+            <translation><!-- Day 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Day 30</masterLabel>
+            <translation><!-- Day 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Day 4</masterLabel>
+            <translation><!-- Day 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Day 5</masterLabel>
+            <translation><!-- Day 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Day 6</masterLabel>
+            <translation><!-- Day 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Day 7</masterLabel>
+            <translation><!-- Day 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Day 8</masterLabel>
+            <translation><!-- Day 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Day 9</masterLabel>
+            <translation><!-- Day 9 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Friday</masterLabel>
+            <translation><!-- Friday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monday</masterLabel>
+            <translation><!-- Monday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saturday</masterLabel>
+            <translation><!-- Saturday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sunday</masterLabel>
+            <translation><!-- Sunday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thursday</masterLabel>
+            <translation><!-- Thursday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tuesday</masterLabel>
+            <translation><!-- Tuesday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wednesday</masterLabel>
+            <translation><!-- Wednesday --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

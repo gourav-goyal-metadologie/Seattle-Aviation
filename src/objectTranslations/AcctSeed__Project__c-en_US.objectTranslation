@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Related Customer --></help>
+        <label><!-- Account --></label>
+        <name>AcctSeed__Account__c</name>
+        <relationshipLabel><!-- Projects --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Summary of Expense budgeted at the Project Task Level. --></help>
+        <label><!-- Budgeted Expense --></label>
+        <name>AcctSeed__Budgeted_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Summary of hours budgeted at the Project Task Level. Typically used for Labor. --></help>
+        <label><!-- Budgeted Hours --></label>
+        <name>AcctSeed__Budgeted_Hours__c</name>
+    </fields>
+    <fields>
+        <help><!-- Summary of Revenue budgeted at the Project Task Level. --></help>
+        <label><!-- Budgeted Revenue --></label>
+        <name>AcctSeed__Budgeted_Revenue__c</name>
+    </fields>
+    <fields>
+        <help><!-- Related Opportunity --></help>
+        <label><!-- Opportunity --></label>
+        <name>AcctSeed__Opportunity__c</name>
+        <relationshipLabel><!-- Projects --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Used in list views, filtered lookups and reporting. --></help>
+        <label><!-- Status --></label>
+        <name>AcctSeed__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Denotes whether the project is a template project. A template project is used to clone a new project sourced from an opportunity --></help>
+        <label><!-- Template Project --></label>
+        <name>AcctSeed__Template_Project__c</name>
+    </fields>
+    <layouts>
+        <layout>Project Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label><!-- Clone_with_Project_Tasks --></label>
+        <name>AcctSeed__Clone_with_Project_Tasks</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- QueryFields --></label>
+        <name>QPMS__QueryFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SecurityBasedQueryFields --></label>
+        <name>QPMS__SecurityBasedQueryFields</name>
+    </fieldSets>
+    <fields>
+        <help><!-- Marks default 1099 box for reporting cash disbursements to a 1099 vendor. --></help>
+        <label><!-- Default 1099 Box --></label>
+        <name>AcctSeed__Default_1099_Box__c</name>
+        <picklistValues>
+            <masterLabel>1. Rents</masterLabel>
+            <translation><!-- 1. Rents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10. Crop Insurance</masterLabel>
+            <translation><!-- 10. Crop Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13. Golden Parachute</masterLabel>
+            <translation><!-- 13. Golden Parachute --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14. Attorney Proceeds</masterLabel>
+            <translation><!-- 14. Attorney Proceeds --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15a. Section 409A Deferrals</masterLabel>
+            <translation><!-- 15a. Section 409A Deferrals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15b. Section 409A Income</masterLabel>
+            <translation><!-- 15b. Section 409A Income --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16. State Tax Withheld</masterLabel>
+            <translation><!-- 16. State Tax Withheld --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2. Royalties</masterLabel>
+            <translation><!-- 2. Royalties --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3. Other Income</masterLabel>
+            <translation><!-- 3. Other Income --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4. Federal Tax Withheld</masterLabel>
+            <translation><!-- 4. Federal Tax Withheld --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5. Fishing Boat Proceeds</masterLabel>
+            <translation><!-- 5. Fishing Boat Proceeds --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6. Medical Payments</masterLabel>
+            <translation><!-- 6. Medical Payments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7. Nonemployee Compensation</masterLabel>
+            <translation><!-- 7. Nonemployee Compensation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8. Substitute Payments</masterLabel>
+            <translation><!-- 8. Substitute Payments --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Default Billing Rate --></label>
+        <name>AcctSeed__Default_Billing_Rate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Marks vendor to report cash disbursements on 1099-Misc form. --></help>
+        <label><!-- 1099 Vendor --></label>
+        <name>AcctSeed__X1099_Vendor__c</name>
+    </fields>
+    <fields>
+        <label><!-- VC PW --></label>
+        <name>ECUSTOMS__VC_PW__c</name>
+    </fields>
+    <fields>
+        <label><!-- VC Secno --></label>
+        <name>ECUSTOMS__VC_Secno__c</name>
+    </fields>
+    <fields>
+        <help><!-- Person Profile value --></help>
+        <label><!-- Active Person Profile --></label>
+        <name>QPMS__Active_Person_Profile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Date Format --></label>
+        <name>QPMS__Enable_Date_Format__c</name>
+    </fields>
+    <fields>
+        <label><!-- Person Profile Login --></label>
+        <name>QPMS__Person_Profile_Login__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>QPMS__Region__c</name>
+        <picklistValues>
+            <masterLabel>APAC</masterLabel>
+            <translation><!-- APAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA</masterLabel>
+            <translation><!-- EMEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NORTH AMERICA</masterLabel>
+            <translation><!-- NORTH AMERICA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Site --></label>
+        <name>QPMS__Site__c</name>
+        <picklistValues>
+            <masterLabel>Allentown</masterLabel>
+            <translation><!-- Allentown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Site1</masterLabel>
+            <translation><!-- Site1 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Can Manage DocuSign Account --></label>
+        <name>dfsle__CanManageAccount__c</name>
+    </fields>
+    <fields>
+        <help>프로비저닝된 날짜</help>
+        <label><!-- DocuSign Provisioned Date --></label>
+        <name>dfsle__Provisioned__c</name>
+    </fields>
+    <fields>
+        <label><!-- Docusign Status --></label>
+        <name>dfsle__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation>활성</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation>비활성화</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>대기 중</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- DocuSign Username --></label>
+        <name>dfsle__Username__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disable All Duplicate Check triggers --></label>
+        <name>dupcheck__dc3DisableDCTriggers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disable Duplicate Check --></label>
+        <name>dupcheck__dc3DisableDuplicateCheck__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- External_Reference_ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Encrypted FedEx End User Key --></label>
+        <name>zkmulti__EncryptedFedExEndUserKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Encrypted FedEx End User Password --></label>
+        <name>zkmulti__EncryptedFedExEndUserPassword__c</name>
+    </fields>
+    <fields>
+        <label><!-- FedEx End User Key --></label>
+        <name>zkmulti__FedExEndUserKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- FedEx End User Password --></label>
+        <name>zkmulti__FedExEndUserPassword__c</name>
+    </fields>
+    <fields>
+        <label><!-- FedEx Registered Preference --></label>
+        <name>zkmulti__FedExRegisteredPreference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Registered Preference --></label>
+        <name>zkmulti__Registered_Preference__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Credentials Encrypted --></label>
+        <name>zkmulti__UserCredentialsEncrypted__c</name>
+    </fields>
+    <layouts>
+        <layout>Community Member Layout</layout>
+        <layoutType>CommunityMemberLayout</layoutType>
+        <sections>
+            <label><!-- Basic Information --></label>
+            <section>Basic Information</section>
+        </sections>
+        <sections>
+            <label><!-- Chatter Settings --></label>
+            <section>Chatter Settings</section>
+        </sections>
+        <sections>
+            <label><!-- Language And Locale Settings --></label>
+            <section>Language And Locale Settings</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>User (Accounting) Layout</layout>
+        <sections>
+            <label><!-- Accounting Information --></label>
+            <section>Accounting Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>User Layout</layout>
+        <sections>
+            <label><!-- Accounting Information --></label>
+            <section>Accounting Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>User Profile Layout</layout>
+        <layoutType>UserAlt</layoutType>
+        <sections>
+            <label><!-- About --></label>
+            <section>About</section>
+        </sections>
+        <sections>
+            <label><!-- Background --></label>
+            <section>Background</section>
+        </sections>
+        <sections>
+            <label><!-- Contact --></label>
+            <section>Contact</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- You Cannot Edit User details --></errorMessage>
+        <name>QPMS__User_Edit_Check</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- SendEmailUser --></label>
+        <name>MME__SendEmailUser</name>
+    </webLinks>
+</CustomObjectTranslation>

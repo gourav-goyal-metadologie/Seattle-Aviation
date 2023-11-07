@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <assignments>
+        <name>Change_Manage_Repair_Status</name>
+        <label>Change Manage Repair Status</label>
+        <locationX>201</locationX>
+        <locationY>544</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.inscor__Managed_Repair_Status__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Shipped to Customer</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_ROL</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Check_ROL_Status</name>
+        <label>Check ROL Status</label>
+        <locationX>201</locationX>
+        <locationY>272</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>SOL_Shipped</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record__Prior.inscor__Status__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>$Record.inscor__Status__c</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.inscor__Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Shipped</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.inscor__Order_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Managed Repair</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Change_Manage_Repair_Status</targetReference>
+            </connector>
+            <label>SOL Shipped</label>
+        </rules>
+    </decisions>
+    <interviewLabel>Managed Repair Status SOL {!$Flow.CurrentDateTime}</interviewLabel>
+    <isTemplate>true</isTemplate>
+    <label>Managed Repair Status SOL</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_ROL</name>
+        <label>Update ROL</label>
+        <locationX>521</locationX>
+        <locationY>589</locationY>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>80</locationX>
+        <locationY>23</locationY>
+        <connector>
+            <targetReference>Check_ROL_Status</targetReference>
+        </connector>
+        <object>inscor__Sales_Order_Line__c</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

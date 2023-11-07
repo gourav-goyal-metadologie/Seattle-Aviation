@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Billed? --></label>
+        <name>inscor__Billed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Entry --></label>
+        <name>inscor__Contract_Entry__c</name>
+        <relationshipLabel><!-- Contract Entry Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contract Line --></label>
+        <name>inscor__Contract_Line__c</name>
+        <relationshipLabel><!-- Contract Entry Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part Number --></label>
+        <name>inscor__Part_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reported Cycles --></label>
+        <name>inscor__Reported_Cycles__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reported Times --></label>
+        <name>inscor__Reported_Times__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Cycles --></label>
+        <name>inscor__Total_Cycles__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Times --></label>
+        <name>inscor__Total_Times__c</name>
+    </fields>
+    <layouts>
+        <layout>Contract Entry Line Layout</layout>
+        <sections>
+            <label><!-- Reported Information --></label>
+            <section>Reported Information</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

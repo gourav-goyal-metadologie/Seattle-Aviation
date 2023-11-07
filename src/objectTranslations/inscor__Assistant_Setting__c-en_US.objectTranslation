@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- The name of the apex class that implements processing this rule --></help>
+        <label><!-- Class Name --></label>
+        <name>inscor__Class_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company --></label>
+        <name>inscor__Company__c</name>
+        <relationshipLabel><!-- Assistant Settings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency Value 1 Title --></label>
+        <name>inscor__Currency_Value_1_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency Value 1 --></label>
+        <name>inscor__Currency_Value_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enabled? --></label>
+        <name>inscor__Enabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Numeric Value 1 Title --></label>
+        <name>inscor__Numeric_Value_1_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Numeric Value 1 --></label>
+        <name>inscor__Numeric_Value_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Numeric Value 2 Title --></label>
+        <name>inscor__Numeric_Value_2_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Numeric Value 2 --></label>
+        <name>inscor__Numeric_Value_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Option Value 1 Title --></label>
+        <name>inscor__Option_Value_1_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Option Value 1 --></label>
+        <name>inscor__Option_Value_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Option Value 2 Title --></label>
+        <name>inscor__Option_Value_2_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Option Value 2 --></label>
+        <name>inscor__Option_Value_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Setting Description --></label>
+        <name>inscor__Setting_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Setting Logic --></label>
+        <name>inscor__Setting_Logic__c</name>
+    </fields>
+    <layouts>
+        <layout>Assistant Setting Layout</layout>
+        <sections>
+            <label><!-- Owner Info --></label>
+            <section>Owner Info</section>
+        </sections>
+        <sections>
+            <label><!-- Settings --></label>
+            <section>Settings</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- You must not change class name --></errorMessage>
+        <name>inscor__Do_not_allow_changing_class_name</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- SidebarFields --></label>
+        <name>inscor__SidebarFields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Business Category --></label>
+        <name>inscor__Business_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Currency --></label>
+        <name>inscor__Company_Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Line Total --></label>
+        <name>inscor__Company_Line_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Price --></label>
+        <name>inscor__Company_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Condition Code --></label>
+        <name>inscor__Condition_Code__c</name>
+        <relationshipLabel><!-- Purchase Order Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Core Disposition --></label>
+        <name>inscor__Core_Disposition__c</name>
+        <picklistValues>
+            <masterLabel>Overhaul</masterLabel>
+            <translation><!-- Overhaul --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return &apos;As Is&apos;</masterLabel>
+            <translation><!-- Return &apos;As Is&apos; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Serviceable</masterLabel>
+            <translation><!-- Serviceable --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Core Due Date --></label>
+        <name>inscor__Core_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Core Due (In Days) --></label>
+        <name>inscor__Core_Due_In_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Create Date --></label>
+        <name>inscor__Create_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created From RFQ --></label>
+        <name>inscor__Created_From_RFQ__c</name>
+        <relationshipLabel><!-- Purchase Order Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Created From SO Line --></label>
+        <name>inscor__Created_From_SO_Line__c</name>
+        <relationshipLabel><!-- Purchase Order Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Exchange Rate Date --></label>
+        <name>inscor__Exchange_Rate_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exchange Rate --></label>
+        <name>inscor__Exchange_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exchange Type --></label>
+        <name>inscor__Exchange_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expected Delivery --></label>
+        <name>inscor__Expected_Delivery__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Comments --></label>
+        <name>inscor__External_Comments_rt__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Promise Date --></label>
+        <name>inscor__Initial_Promise_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Comments --></label>
+        <name>inscor__Internal_Comments_rt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inventory Line --></label>
+        <name>inscor__Inventory_Line__c</name>
+        <relationshipLabel><!-- Purchase Order Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- If renumbering the lines, please be cognizant of existing Releases, Receipts, Allocations, Payment Vouchers, and other related lines as they may continue referencing the original line number. You will need to edit those as well. --></help>
+        <label><!-- Line Number --></label>
+        <name>inscor__Line_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line Total --></label>
+        <name>inscor__Line_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non Inventory Item --></label>
+        <name>inscor__Non_Inventory_Item__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Amount --></label>
+        <name>inscor__Other_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Outright Price --></label>
+        <name>inscor__Outright_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Code --></label>
+        <name>inscor__Owner_Code__c</name>
+        <relationshipLabel><!-- Purchase Order Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- PO Number --></label>
+        <name>inscor__PO_Number__c</name>
+        <relationshipLabel><!-- Purchase Order Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Part Description --></label>
+        <name>inscor__Part_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part Number --></label>
+        <name>inscor__Part_Number_formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price --></label>
+        <name>inscor__Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part Number --></label>
+        <name>inscor__Product__c</name>
+        <relationshipLabel><!-- Purchase Order Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Purchase UOM --></label>
+        <name>inscor__Purchase_UOM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Allocated --></label>
+        <name>inscor__Quantity_Allocated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Available --></label>
+        <name>inscor__Quantity_Available__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Paid --></label>
+        <name>inscor__Quantity_Paid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Received --></label>
+        <name>inscor__Quantity_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Rejected --></label>
+        <name>inscor__Quantity_Rejected__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Shipped --></label>
+        <name>inscor__Quantity_Shipped__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>inscor__Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference ID --></label>
+        <name>inscor__Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shelf Life? --></label>
+        <name>inscor__Shelf_Life__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Shipping Amount --></label>
+        <name>inscor__Shipping_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>inscor__Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credited</masterLabel>
+            <translation><!-- Credited --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partially Received</masterLabel>
+            <translation><!-- Partially Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Received</masterLabel>
+            <translation><!-- Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Released</masterLabel>
+            <translation><!-- Released --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sent To Vendor</masterLabel>
+            <translation><!-- Sent To Vendor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipped</masterLabel>
+            <translation><!-- Shipped --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vouchered</masterLabel>
+            <translation><!-- Vouchered --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tax Amount --></label>
+        <name>inscor__Tax_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line Type --></label>
+        <name>inscor__Type_Quoted__c</name>
+        <picklistValues>
+            <masterLabel>Core Charge</masterLabel>
+            <translation><!-- Core Charge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exchange</masterLabel>
+            <translation><!-- Exchange --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outright</masterLabel>
+            <translation><!-- Outright --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return EX Core</masterLabel>
+            <translation><!-- Return EX Core --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return Inventory</masterLabel>
+            <translation><!-- Return Inventory --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- UOM Purchase Price --></label>
+        <name>inscor__UOM_Purchase_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- UOM Purchase Quantity --></label>
+        <name>inscor__UOM_Purchase_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- UOM --></label>
+        <name>inscor__UOM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Update Promise Date --></label>
+        <name>inscor__Update_Promise_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Warehouse --></label>
+        <name>inscor__Warehouse__c</name>
+        <relationshipLabel><!-- Purchase Order Lines --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Purchase Order Line Layout</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Financial --></label>
+            <section>Financial</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- PO Line Information --></label>
+            <section>PO Line Information</section>
+        </sections>
+        <sections>
+            <label><!-- Tracking --></label>
+            <section>Tracking</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Condition Code is required --></errorMessage>
+        <name>inscor__Condition_Code_is_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must use a Consignment Owner Code when PO Header Type = Consignment. --></errorMessage>
+        <name>inscor__Cons_Owner_for_Cons_Purchases</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- PO Lines for consignment owner codes should be $0 --></errorMessage>
+        <name>inscor__Consignment_lines_cannot_have_price</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Expected Delivery date cannot be prior to today --></errorMessage>
+        <name>inscor__Expected_delivery_cannot_be_previous</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Initial promise date cannot be prior to today --></errorMessage>
+        <name>inscor__Initial_Promise_date_cannot_be_previous</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must use a LOT Owner Code when PO Header Type = LOT. --></errorMessage>
+        <name>inscor__LOT_Owner_for_LOT_Purchases</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- PO Lines for Lot owner codes should be $0 --></errorMessage>
+        <name>inscor__Lot_lines_cannot_have_price</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot use a Consignment Owner Code when PO Header is not a Consignment. --></errorMessage>
+        <name>inscor__Non_Cons_Owner_for_Non_Cons_PO_Header</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot use a LOT Owner Code when PO Header is not a LOT. --></errorMessage>
+        <name>inscor__Non_LOT_Owner_for_Non_LOT_PO_Header</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Owner Code is required --></errorMessage>
+        <name>inscor__Owner_Code_is_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Owner code missing. --></errorMessage>
+        <name>inscor__Owner_Code_or_Non_Inventory_Part_Require</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Part Number is required --></errorMessage>
+        <name>inscor__Part_Number_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Price change not allowed due to partially rec&apos;d status. Contact your Accounts Payable Dept. --></errorMessage>
+        <name>inscor__Partial_Receive_Price_Change</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Price can not change after paid. --></errorMessage>
+        <name>inscor__Price_Cannot_Change_After_Paid</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Price cannot be left blank. --></errorMessage>
+        <name>inscor__Price_is_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Qty Ordered cannot be less than Qty Received plus Qty Allocated. --></errorMessage>
+        <name>inscor__Qty_Ordered_less_than_Qty_Received</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Negative values not allowed for Prices and Quantity fields. --></errorMessage>
+        <name>inscor__Quantity_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- cannot change Shelf life, it will be copied from Part Number !! --></errorMessage>
+        <name>inscor__Restrict_Shelf_Life_Updation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Type Purchase is required --></errorMessage>
+        <name>inscor__Type_Purchase_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Warehouse Code is required --></errorMessage>
+        <name>inscor__Warehouse_Code_is_required</name>
+    </validationRules>
+</CustomObjectTranslation>

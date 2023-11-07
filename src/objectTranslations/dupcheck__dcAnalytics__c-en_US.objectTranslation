@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Auto Convert Count --></label>
+        <name>dupcheck__AutoConvert__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auto Merge Count --></label>
+        <name>dupcheck__AutoMerge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Convert Count --></label>
+        <name>dupcheck__Convert__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date --></label>
+        <name>dupcheck__Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delta Prevention Count --></label>
+        <name>dupcheck__DeltaPrevented__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delta Records Count --></label>
+        <name>dupcheck__DeltaRecords__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delta Single Prevention Count --></label>
+        <name>dupcheck__DeltaSinglePrevented__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delta Single Records Count --></label>
+        <name>dupcheck__DeltaSingleRecords__c</name>
+    </fields>
+    <fields>
+        <label><!-- Direct Processing Convert Count --></label>
+        <name>dupcheck__DirectConvert__c</name>
+    </fields>
+    <fields>
+        <label><!-- Direct Processing Merge Count --></label>
+        <name>dupcheck__DirectMerge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Find Duplicates Count --></label>
+        <name>dupcheck__JobFindDuplicates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Find Record Count --></label>
+        <name>dupcheck__JobFindRecords__c</name>
+    </fields>
+    <fields>
+        <label><!-- DC Jobs Count --></label>
+        <name>dupcheck__JobFind__c</name>
+    </fields>
+    <fields>
+        <label><!-- DC Local Job Find Duplicates Count --></label>
+        <name>dupcheck__JobLocalFindDuplicates__c</name>
+    </fields>
+    <fields>
+        <label><!-- DC Local Job Find Record Count --></label>
+        <name>dupcheck__JobLocalFindRecords__c</name>
+    </fields>
+    <fields>
+        <label><!-- DC Local Jobs Count --></label>
+        <name>dupcheck__JobLocalFind__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merge Count --></label>
+        <name>dupcheck__Merge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prevention Warning Count --></label>
+        <name>dupcheck__PreventionWarningOverride__c</name>
+    </fields>
+    <fields>
+        <label><!-- Processed --></label>
+        <name>dupcheck__Processed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quick Convert Count --></label>
+        <name>dupcheck__QuickConvert__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quick Merge Count --></label>
+        <name>dupcheck__QuickMerge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Web2Lead Prevented --></label>
+        <name>dupcheck__Web2LeadPrevented__c</name>
+    </fields>
+    <fields>
+        <label><!-- Web2Lead Records --></label>
+        <name>dupcheck__Web2LeadRecords__c</name>
+    </fields>
+</CustomObjectTranslation>

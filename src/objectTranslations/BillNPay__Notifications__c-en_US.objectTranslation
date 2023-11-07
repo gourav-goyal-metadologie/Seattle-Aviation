@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Condition --></label>
+        <name>BillNPay__Condition__c</name>
+        <picklistValues>
+            <masterLabel>Contains</masterLabel>
+            <translation><!-- Contains --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Does Not Equal</masterLabel>
+            <translation><!-- Does Not Equal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equals</masterLabel>
+            <translation><!-- Equals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exists</masterLabel>
+            <translation><!-- Exists --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greater than</masterLabel>
+            <translation><!-- Greater than --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Less than</masterLabel>
+            <translation><!-- Less than --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Was Created</masterLabel>
+            <translation><!-- Was Created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Was Updated</masterLabel>
+            <translation><!-- Was Updated --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- DEPRECATE Days from Event Date --></label>
+        <name>BillNPay__Days_from_Due_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select a field for the condition.  &quot;Account&quot; refers to Account or Contact fields associated with the Payment.  &quot;Invoice&quot; refers to fields in the Payment record.    &quot;Account Customer #&quot; is the Bill &amp; Pay User ID. --></help>
+        <label><!-- Field --></label>
+        <name>BillNPay__Field__c</name>
+        <picklistValues>
+            <masterLabel>Account Customer #</masterLabel>
+            <translation><!-- Account Customer # --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Account Email</masterLabel>
+            <translation><!-- Account Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Account Mobile Phone</masterLabel>
+            <translation><!-- Account Mobile Phone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Account Name</masterLabel>
+            <translation><!-- Account Name --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Account Status</masterLabel>
+            <translation><!-- Account Status --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice</masterLabel>
+            <translation><!-- Invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice Address</masterLabel>
+            <translation><!-- Invoice Address --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice Amount Due</masterLabel>
+            <translation><!-- Invoice Amount Due --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice City</masterLabel>
+            <translation><!-- Invoice City --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice Description</masterLabel>
+            <translation><!-- Invoice Description --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice Due Date</masterLabel>
+            <translation><!-- Invoice Due Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice Full Name</masterLabel>
+            <translation><!-- Invoice Full Name --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice ID</masterLabel>
+            <translation><!-- Invoice ID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice State</masterLabel>
+            <translation><!-- Invoice State --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice Template</masterLabel>
+            <translation><!-- Invoice Template --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice Zip Code</masterLabel>
+            <translation><!-- Invoice Zip Code --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Select which Message Template should be sent --></help>
+        <label><!-- DEPRECATE Message Template --></label>
+        <name>BillNPay__Message_Template__c</name>
+        <relationshipLabel><!-- Notification Conditions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- When should this notice be triggered --></help>
+        <label><!-- DEPRECATE Notification Event --></label>
+        <name>BillNPay__Notification_Event__c</name>
+        <picklistValues>
+            <masterLabel>Days After Event Date</masterLabel>
+            <translation><!-- Days After Event Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Days Before Event Date</masterLabel>
+            <translation><!-- Days Before Event Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Now</masterLabel>
+            <translation><!-- Now --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Event Date</masterLabel>
+            <translation><!-- On Event Date --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- DEPRECATE Notification Trigger --></label>
+        <name>BillNPay__Notification_Trigger__c</name>
+    </fields>
+    <fields>
+        <help><!-- If using the &quot;Exists&quot; &quot;Was Updated&quot; or &quot;Was Created&quot;  condition, enter &quot;true&quot; --></help>
+        <label><!-- Value --></label>
+        <name>BillNPay__Value__c</name>
+    </fields>
+</CustomObjectTranslation>

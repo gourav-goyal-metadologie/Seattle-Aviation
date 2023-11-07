@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account Add2 Name --></label>
+        <name>ECUSTOMS__Account_Add2Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Add3 Name --></label>
+        <name>ECUSTOMS__Account_Add3Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account City2 Field Map --></label>
+        <name>ECUSTOMS__Account_City2_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account City3 Field Map --></label>
+        <name>ECUSTOMS__Account_City3_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account City Field Map --></label>
+        <name>ECUSTOMS__Account_City_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Company Field Map --></label>
+        <name>ECUSTOMS__Account_Company_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Country2 Field Map --></label>
+        <name>ECUSTOMS__Account_Country2_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Country3 Field Map --></label>
+        <name>ECUSTOMS__Account_Country3_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Country Field Map --></label>
+        <name>ECUSTOMS__Account_Country_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Country List --></label>
+        <name>ECUSTOMS__Account_Country_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account E1 Map --></label>
+        <name>ECUSTOMS__Account_E1_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account E2 Map --></label>
+        <name>ECUSTOMS__Account_E2_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account E3 Map --></label>
+        <name>ECUSTOMS__Account_E3_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account E4 Map --></label>
+        <name>ECUSTOMS__Account_E4_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account E5 Map --></label>
+        <name>ECUSTOMS__Account_E5_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account E6 Map --></label>
+        <name>ECUSTOMS__Account_E6_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account E7 Map --></label>
+        <name>ECUSTOMS__Account_E7_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account E8 Map --></label>
+        <name>ECUSTOMS__Account_E8_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account EnableAdd2 --></label>
+        <name>ECUSTOMS__Account_EnableAdd2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account EnableAdd3 --></label>
+        <name>ECUSTOMS__Account_EnableAdd3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Name Field Map --></label>
+        <name>ECUSTOMS__Account_Name_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account PostalCode2 Field Map --></label>
+        <name>ECUSTOMS__Account_PostalCode2_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account PostalCode3 Field Map --></label>
+        <name>ECUSTOMS__Account_PostalCode3_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account PostalCode Field Map --></label>
+        <name>ECUSTOMS__Account_PostalCode_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account State2 Field Map --></label>
+        <name>ECUSTOMS__Account_State2_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account State3 Field Map --></label>
+        <name>ECUSTOMS__Account_State3_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account State Field Map --></label>
+        <name>ECUSTOMS__Account_State_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Street2 Field Map --></label>
+        <name>ECUSTOMS__Account_Street2_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Street3 Field Map --></label>
+        <name>ECUSTOMS__Account_Street3_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Street Field Map --></label>
+        <name>ECUSTOMS__Account_Street_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Add2Name --></label>
+        <name>ECUSTOMS__Contact_Add2Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Add3Name --></label>
+        <name>ECUSTOMS__Contact_Add3Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact City2 Field Map --></label>
+        <name>ECUSTOMS__Contact_City2_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact City3 Field Map --></label>
+        <name>ECUSTOMS__Contact_City3_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact City Field Map --></label>
+        <name>ECUSTOMS__Contact_City_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Company Field Map --></label>
+        <name>ECUSTOMS__Contact_Company_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Country2 Field Map --></label>
+        <name>ECUSTOMS__Contact_Country2_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Country3 Field Map --></label>
+        <name>ECUSTOMS__Contact_Country3_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Country Field Map --></label>
+        <name>ECUSTOMS__Contact_Country_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Country List --></label>
+        <name>ECUSTOMS__Contact_Country_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact E1 Map --></label>
+        <name>ECUSTOMS__Contact_E1_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact E2 Map --></label>
+        <name>ECUSTOMS__Contact_E2_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact E3 Map --></label>
+        <name>ECUSTOMS__Contact_E3_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact E4 Map --></label>
+        <name>ECUSTOMS__Contact_E4_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact E5 Map --></label>
+        <name>ECUSTOMS__Contact_E5_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact E6 Map --></label>
+        <name>ECUSTOMS__Contact_E6_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact E7 Map --></label>
+        <name>ECUSTOMS__Contact_E7_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact E8 Map --></label>
+        <name>ECUSTOMS__Contact_E8_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact EnableAdd2 --></label>
+        <name>ECUSTOMS__Contact_EnableAdd2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Name Field Map --></label>
+        <name>ECUSTOMS__Contact_Name_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact PostalCode2 Field Map --></label>
+        <name>ECUSTOMS__Contact_PostalCode2_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact PostalCode3 Field Map --></label>
+        <name>ECUSTOMS__Contact_PostalCode3_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact PostalCode Field Map --></label>
+        <name>ECUSTOMS__Contact_PostalCode_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact State2 Field Map --></label>
+        <name>ECUSTOMS__Contact_State2_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact State3 Field Map --></label>
+        <name>ECUSTOMS__Contact_State3_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact State Field Map --></label>
+        <name>ECUSTOMS__Contact_State_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Street2 Field Map --></label>
+        <name>ECUSTOMS__Contact_Street2_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Street3 Field Map --></label>
+        <name>ECUSTOMS__Contact_Street3_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Street Field Map --></label>
+        <name>ECUSTOMS__Contact_Street_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Core --></label>
+        <name>ECUSTOMS__Core__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country List --></label>
+        <name>ECUSTOMS__Country_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Account Address Screening --></label>
+        <name>ECUSTOMS__Enable_Account_Address_Screening__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Accounts --></label>
+        <name>ECUSTOMS__Enable_Accounts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Contact Address Screening --></label>
+        <name>ECUSTOMS__Enable_Contact_Address_Screening__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Contacts --></label>
+        <name>ECUSTOMS__Enable_Contacts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Lead Address Screening --></label>
+        <name>ECUSTOMS__Enable_Lead_Address_Screening__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Leads --></label>
+        <name>ECUSTOMS__Enable_Leads__c</name>
+    </fields>
+    <fields>
+        <help><!-- Address to send API connection errors to. --></help>
+        <label><!-- Error Notification Email --></label>
+        <name>ECUSTOMS__Error_Notification_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- IMWCatchup --></label>
+        <name>ECUSTOMS__IMWCatchup__c</name>
+    </fields>
+    <fields>
+        <label><!-- IMW Catchup Date --></label>
+        <name>ECUSTOMS__IMW_Catchup_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- IMW Catchup Run Date --></label>
+        <name>ECUSTOMS__IMW_Catchup_Run_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Add2Name --></label>
+        <name>ECUSTOMS__Lead_Add2Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Add3Name --></label>
+        <name>ECUSTOMS__Lead_Add3Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead City2 Field Map --></label>
+        <name>ECUSTOMS__Lead_City2_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead City3 Field Map --></label>
+        <name>ECUSTOMS__Lead_City3_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead City Field Map --></label>
+        <name>ECUSTOMS__Lead_City_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Company Field Map --></label>
+        <name>ECUSTOMS__Lead_Company_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Country2 Field Map --></label>
+        <name>ECUSTOMS__Lead_Country2_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Country3 Field Map --></label>
+        <name>ECUSTOMS__Lead_Country3_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Country Field Map --></label>
+        <name>ECUSTOMS__Lead_Country_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Country List --></label>
+        <name>ECUSTOMS__Lead_Country_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead E1 Map --></label>
+        <name>ECUSTOMS__Lead_E1_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead E2 Map --></label>
+        <name>ECUSTOMS__Lead_E2_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead E3 Map --></label>
+        <name>ECUSTOMS__Lead_E3_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead E4 Map --></label>
+        <name>ECUSTOMS__Lead_E4_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead E5 Map --></label>
+        <name>ECUSTOMS__Lead_E5_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead E6 Map --></label>
+        <name>ECUSTOMS__Lead_E6_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead E7 Map --></label>
+        <name>ECUSTOMS__Lead_E7_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead E8 Map --></label>
+        <name>ECUSTOMS__Lead_E8_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead EnableAdd2 --></label>
+        <name>ECUSTOMS__Lead_EnableAdd2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Name Field Map --></label>
+        <name>ECUSTOMS__Lead_Name_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead PostalCode2 Field Map --></label>
+        <name>ECUSTOMS__Lead_PostalCode2_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead PostalCode3 Field Map --></label>
+        <name>ECUSTOMS__Lead_PostalCode3_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead PostalCode Field Map --></label>
+        <name>ECUSTOMS__Lead_PostalCode_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead State2 Field Map --></label>
+        <name>ECUSTOMS__Lead_State2_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead State3 Field Map --></label>
+        <name>ECUSTOMS__Lead_State3_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead State Field Map --></label>
+        <name>ECUSTOMS__Lead_State_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Street2 Field Map --></label>
+        <name>ECUSTOMS__Lead_Street2_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Street3 Field Map --></label>
+        <name>ECUSTOMS__Lead_Street3_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Street Field Map --></label>
+        <name>ECUSTOMS__Lead_Street_Field_Map__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number --></label>
+        <name>ECUSTOMS__Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Password --></label>
+        <name>ECUSTOMS__Password__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sandbox --></label>
+        <name>ECUSTOMS__Sandbox__c</name>
+    </fields>
+    <fields>
+        <label><!-- Suspend Screening --></label>
+        <name>ECUSTOMS__Suspend_Screening__c</name>
+    </fields>
+    <fields>
+        <label><!-- Track Compliance History --></label>
+        <name>ECUSTOMS__Track_Compliance_History__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Address (not Billing) --></label>
+        <name>ECUSTOMS__aAddressType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address Fields - Account --></label>
+        <name>ECUSTOMS__aAddress_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Business Words --></label>
+        <name>ECUSTOMS__aBus__c</name>
+    </fields>
+    <fields>
+        <label><!-- City Trigger - Account --></label>
+        <name>ECUSTOMS__aCityTrigger__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country Trigger - Account --></label>
+        <name>ECUSTOMS__aCountryTrigger__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Fuzzy Render --></label>
+        <name>ECUSTOMS__aFRender__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Field Specific --></label>
+        <name>ECUSTOMS__aFS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Fuzzy Level --></label>
+        <name>ECUSTOMS__aFuzzyLevel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account MOTR --></label>
+        <name>ECUSTOMS__aMOTR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Render Address Account --></label>
+        <name>ECUSTOMS__aRender__c</name>
+    </fields>
+    <fields>
+        <label><!-- Screening Trigger Override - Account --></label>
+        <name>ECUSTOMS__aScreeningTrigger__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Search Type --></label>
+        <name>ECUSTOMS__aSearchType__c</name>
+    </fields>
+    <fields>
+        <label><!-- State Trigger - Account --></label>
+        <name>ECUSTOMS__aStateTrigger__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Word Stemming --></label>
+        <name>ECUSTOMS__aStem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Thesaurus --></label>
+        <name>ECUSTOMS__aThes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account List Groups --></label>
+        <name>ECUSTOMS__asGroups__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Search Modes --></label>
+        <name>ECUSTOMS__asModes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address Fields - Contact --></label>
+        <name>ECUSTOMS__cAddress_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Business Words --></label>
+        <name>ECUSTOMS__cBus__c</name>
+    </fields>
+    <fields>
+        <label><!-- City Trigger - Contact --></label>
+        <name>ECUSTOMS__cCityTrigger__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country Trigger - Contact --></label>
+        <name>ECUSTOMS__cCountryTrigger__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Fuzzy Render --></label>
+        <name>ECUSTOMS__cFRender__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Field Specific --></label>
+        <name>ECUSTOMS__cFS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Fuzzy Level --></label>
+        <name>ECUSTOMS__cFuzzyLevel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact MOTR --></label>
+        <name>ECUSTOMS__cMOTR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Render Address Contact --></label>
+        <name>ECUSTOMS__cRender__c</name>
+    </fields>
+    <fields>
+        <label><!-- Screening Trigger Override - Contact --></label>
+        <name>ECUSTOMS__cScreeningTrigger__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Search Type --></label>
+        <name>ECUSTOMS__cSearchType__c</name>
+    </fields>
+    <fields>
+        <label><!-- State Trigger - Contact --></label>
+        <name>ECUSTOMS__cStateTrigger__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Word Stemming --></label>
+        <name>ECUSTOMS__cStem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Thesaurus --></label>
+        <name>ECUSTOMS__cThes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact List Groups --></label>
+        <name>ECUSTOMS__csGroups__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Search Modes --></label>
+        <name>ECUSTOMS__csModes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address Fields - Leads --></label>
+        <name>ECUSTOMS__lAddress_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Business Words --></label>
+        <name>ECUSTOMS__lBus__c</name>
+    </fields>
+    <fields>
+        <label><!-- City Trigger - Lead --></label>
+        <name>ECUSTOMS__lCityTrigger__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country Trigger - Lead --></label>
+        <name>ECUSTOMS__lCountryTrigger__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Fuzzy Render --></label>
+        <name>ECUSTOMS__lFRender__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Field Specific --></label>
+        <name>ECUSTOMS__lFS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Fuzzy Level --></label>
+        <name>ECUSTOMS__lFuzzyLevel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead MOTR --></label>
+        <name>ECUSTOMS__lMOTR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Render Address Lead --></label>
+        <name>ECUSTOMS__lRender__c</name>
+    </fields>
+    <fields>
+        <label><!-- Screening Trigger Override - Lead --></label>
+        <name>ECUSTOMS__lScreeningTrigger__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Search Type --></label>
+        <name>ECUSTOMS__lSearchType__c</name>
+    </fields>
+    <fields>
+        <label><!-- State Trigger - Lead --></label>
+        <name>ECUSTOMS__lStateTrigger__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Word Stemming --></label>
+        <name>ECUSTOMS__lStem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Leads Thesaurus --></label>
+        <name>ECUSTOMS__lThes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead List Groups --></label>
+        <name>ECUSTOMS__lsGroups__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Search Modes --></label>
+        <name>ECUSTOMS__lsModes__c</name>
+    </fields>
+</CustomObjectTranslation>

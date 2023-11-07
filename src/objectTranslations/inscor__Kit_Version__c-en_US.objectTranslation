@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Active --></label>
+        <name>inscor__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Unit Cost --></label>
+        <name>inscor__Estimated_Unit_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kit Template --></label>
+        <name>inscor__Kit_Template__c</name>
+        <relationshipLabel><!-- Kit Versions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Number of Lines --></label>
+        <name>inscor__Number_of_Lines__c</name>
+    </fields>
+    <fields>
+        <help><!-- Provide the owner code to use for the soft kit feature in Sales Orders. --></help>
+        <label><!-- Owner Code --></label>
+        <name>inscor__Owner_Code__c</name>
+        <relationshipLabel><!-- Kit Versions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Part Number --></label>
+        <name>inscor__Part_Number__c</name>
+        <relationshipLabel><!-- Kit Versions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Version --></label>
+        <name>inscor__Revision__c</name>
+    </fields>
+    <fields>
+        <label><!-- Template BOM Task --></label>
+        <name>inscor__Template_BOM_Task__c</name>
+        <relationshipLabel><!-- Kit Versions --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Kit Version Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- AQLWithNo --></label>
+        <name>QPMS__AQLWithNo</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- AQLWithYes --></label>
+        <name>QPMS__AQLWithYes</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- AQL_Type_Details --></label>
+        <name>QPMS__AQL_Type_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- AQL With No Details --></label>
+        <name>QPMS__AQL_With_No_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Fixed --></label>
+        <name>QPMS__Fixed</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Inspect Sample History Fields --></label>
+        <name>QPMS__Inspect_Sample_History_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- InspectionTaskContextualHelp --></label>
+        <name>QPMS__InspectionTaskContextualHelp</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Inspection Sample Initiation Fields --></label>
+        <name>QPMS__Inspection_Sample_Initiation_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Percent --></label>
+        <name>QPMS__Percent</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QueryFields --></label>
+        <name>QPMS__QueryFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Range --></label>
+        <name>QPMS__Range</name>
+    </fieldSets>
+    <fields>
+        <label><!-- AQL Limit --></label>
+        <name>QPMS__AQL_Limit__c</name>
+        <picklistValues>
+            <masterLabel>0.01</masterLabel>
+            <translation><!-- 0.01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.015</masterLabel>
+            <translation><!-- 0.015 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.025</masterLabel>
+            <translation><!-- 0.025 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.04</masterLabel>
+            <translation><!-- 0.04 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.065</masterLabel>
+            <translation><!-- 0.065 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.1</masterLabel>
+            <translation><!-- 0.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.15</masterLabel>
+            <translation><!-- 0.15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.25</masterLabel>
+            <translation><!-- 0.25 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.4</masterLabel>
+            <translation><!-- 0.4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.65</masterLabel>
+            <translation><!-- 0.65 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1.5</masterLabel>
+            <translation><!-- 1.5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100</masterLabel>
+            <translation><!-- 100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1000</masterLabel>
+            <translation><!-- 1000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation><!-- 15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>150</masterLabel>
+            <translation><!-- 150 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.5</masterLabel>
+            <translation><!-- 2.5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25</masterLabel>
+            <translation><!-- 25 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>250</masterLabel>
+            <translation><!-- 250 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40</masterLabel>
+            <translation><!-- 40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>400</masterLabel>
+            <translation><!-- 400 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6.5</masterLabel>
+            <translation><!-- 6.5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>65</masterLabel>
+            <translation><!-- 65 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>650</masterLabel>
+            <translation><!-- 650 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AQL Table Type --></label>
+        <name>QPMS__AQL_Table_Type__c</name>
+        <picklistValues>
+            <masterLabel>Doubling</masterLabel>
+            <translation><!-- Doubling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multiple</masterLabel>
+            <translation><!-- Multiple --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single</masterLabel>
+            <translation><!-- Single --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Accept Point --></label>
+        <name>QPMS__Accept_Point__c</name>
+    </fields>
+    <fields>
+        <label><!-- Accept Point --></label>
+        <name>QPMS__Critical_Accept_Point__c</name>
+    </fields>
+    <fields>
+        <label><!-- Critical Count --></label>
+        <name>QPMS__Critical_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Critical Failed Samples --></label>
+        <name>QPMS__Critical_Failed_Samples__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reject Point --></label>
+        <name>QPMS__Critical_Reject_Point__c</name>
+    </fields>
+    <fields>
+        <label><!-- Critical --></label>
+        <name>QPMS__Critical__c</name>
+        <picklistValues>
+            <masterLabel>0.01</masterLabel>
+            <translation><!-- 0.01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.015</masterLabel>
+            <translation><!-- 0.015 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.025</masterLabel>
+            <translation><!-- 0.025 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.04</masterLabel>
+            <translation><!-- 0.04 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.065</masterLabel>
+            <translation><!-- 0.065 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.1</masterLabel>
+            <translation><!-- 0.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.15</masterLabel>
+            <translation><!-- 0.15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.25</masterLabel>
+            <translation><!-- 0.25 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.4</masterLabel>
+            <translation><!-- 0.4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.65</masterLabel>
+            <translation><!-- 0.65 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1.5</masterLabel>
+            <translation><!-- 1.5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100</masterLabel>
+            <translation><!-- 100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1000</masterLabel>
+            <translation><!-- 1000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation><!-- 15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>150</masterLabel>
+            <translation><!-- 150 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.5</masterLabel>
+            <translation><!-- 2.5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25</masterLabel>
+            <translation><!-- 25 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>250</masterLabel>
+            <translation><!-- 250 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40</masterLabel>
+            <translation><!-- 40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>400</masterLabel>
+            <translation><!-- 400 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6.5</masterLabel>
+            <translation><!-- 6.5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>65</masterLabel>
+            <translation><!-- 65 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>650</masterLabel>
+            <translation><!-- 650 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Exported --></label>
+        <name>QPMS__Exported__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inspection Criteria Type --></label>
+        <name>QPMS__Inspection_Criteria_Type__c</name>
+        <picklistValues>
+            <masterLabel>Attribute</masterLabel>
+            <translation><!-- Attribute --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Variable</masterLabel>
+            <translation><!-- Variable --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Inspection Id --></label>
+        <name>QPMS__Inspection_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inspection Level --></label>
+        <name>QPMS__Inspection_Level__c</name>
+        <picklistValues>
+            <masterLabel>General I</masterLabel>
+            <translation><!-- General I --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General II</masterLabel>
+            <translation><!-- General II --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General III</masterLabel>
+            <translation><!-- General III --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special 1</masterLabel>
+            <translation><!-- Special 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special 2</masterLabel>
+            <translation><!-- Special 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special 3</masterLabel>
+            <translation><!-- Special 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special 4</masterLabel>
+            <translation><!-- Special 4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Result --></label>
+        <name>QPMS__Inspection_Result__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inspection State --></label>
+        <name>QPMS__Inspection_State__c</name>
+        <picklistValues>
+            <masterLabel>Normal</masterLabel>
+            <translation><!-- Normal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reduced</masterLabel>
+            <translation><!-- Reduced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tighten</masterLabel>
+            <translation><!-- Tighten --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Inspection Task --></label>
+        <name>QPMS__Inspection_Task__c</name>
+        <relationshipLabel><!-- Inspect Samples --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Lot Size (Max) --></label>
+        <name>QPMS__Lot_Size_Max__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lot Size (Min) --></label>
+        <name>QPMS__Lot_Size_Min__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lot size --></label>
+        <name>QPMS__Lot_size__c</name>
+    </fields>
+    <fields>
+        <label><!-- Accept Point --></label>
+        <name>QPMS__Major_Accept_Point__c</name>
+    </fields>
+    <fields>
+        <label><!-- Major Count --></label>
+        <name>QPMS__Major_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Major Failed Samples --></label>
+        <name>QPMS__Major_Failed_Samples__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reject Point --></label>
+        <name>QPMS__Major_Reject_Point__c</name>
+    </fields>
+    <fields>
+        <label><!-- Major --></label>
+        <name>QPMS__Major__c</name>
+        <picklistValues>
+            <masterLabel>0.01</masterLabel>
+            <translation><!-- 0.01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.015</masterLabel>
+            <translation><!-- 0.015 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.025</masterLabel>
+            <translation><!-- 0.025 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.04</masterLabel>
+            <translation><!-- 0.04 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.065</masterLabel>
+            <translation><!-- 0.065 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.1</masterLabel>
+            <translation><!-- 0.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.15</masterLabel>
+            <translation><!-- 0.15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.25</masterLabel>
+            <translation><!-- 0.25 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.4</masterLabel>
+            <translation><!-- 0.4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.65</masterLabel>
+            <translation><!-- 0.65 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1.5</masterLabel>
+            <translation><!-- 1.5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100</masterLabel>
+            <translation><!-- 100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1000</masterLabel>
+            <translation><!-- 1000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation><!-- 15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>150</masterLabel>
+            <translation><!-- 150 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.5</masterLabel>
+            <translation><!-- 2.5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25</masterLabel>
+            <translation><!-- 25 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>250</masterLabel>
+            <translation><!-- 250 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40</masterLabel>
+            <translation><!-- 40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>400</masterLabel>
+            <translation><!-- 400 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6.5</masterLabel>
+            <translation><!-- 6.5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>65</masterLabel>
+            <translation><!-- 65 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>650</masterLabel>
+            <translation><!-- 650 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Accept Point --></label>
+        <name>QPMS__Minor_Accept_Point__c</name>
+    </fields>
+    <fields>
+        <label><!-- Minor Count --></label>
+        <name>QPMS__Minor_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Minor Failed Samples --></label>
+        <name>QPMS__Minor_Failed_Samples__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reject Point --></label>
+        <name>QPMS__Minor_Reject_Point__c</name>
+    </fields>
+    <fields>
+        <label><!-- Minor --></label>
+        <name>QPMS__Minor__c</name>
+        <picklistValues>
+            <masterLabel>0.01</masterLabel>
+            <translation><!-- 0.01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.015</masterLabel>
+            <translation><!-- 0.015 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.025</masterLabel>
+            <translation><!-- 0.025 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.04</masterLabel>
+            <translation><!-- 0.04 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.065</masterLabel>
+            <translation><!-- 0.065 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.1</masterLabel>
+            <translation><!-- 0.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.15</masterLabel>
+            <translation><!-- 0.15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.25</masterLabel>
+            <translation><!-- 0.25 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.4</masterLabel>
+            <translation><!-- 0.4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.65</masterLabel>
+            <translation><!-- 0.65 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1.5</masterLabel>
+            <translation><!-- 1.5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100</masterLabel>
+            <translation><!-- 100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1000</masterLabel>
+            <translation><!-- 1000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation><!-- 15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>150</masterLabel>
+            <translation><!-- 150 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.5</masterLabel>
+            <translation><!-- 2.5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25</masterLabel>
+            <translation><!-- 25 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>250</masterLabel>
+            <translation><!-- 250 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40</masterLabel>
+            <translation><!-- 40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>400</masterLabel>
+            <translation><!-- 400 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6.5</masterLabel>
+            <translation><!-- 6.5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>65</masterLabel>
+            <translation><!-- 65 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>650</masterLabel>
+            <translation><!-- 650 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Ordered Quantity --></label>
+        <name>QPMS__Ordered_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plan Type --></label>
+        <name>QPMS__Plan_Type__c</name>
+        <picklistValues>
+            <masterLabel>AQL</masterLabel>
+            <translation><!-- AQL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed</masterLabel>
+            <translation><!-- Fixed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percent</masterLabel>
+            <translation><!-- Percent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Range</masterLabel>
+            <translation><!-- Range --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reject Point --></label>
+        <name>QPMS__Reject_Point__c</name>
+    </fields>
+    <fields>
+        <label><!-- Result --></label>
+        <name>QPMS__Result__c</name>
+        <picklistValues>
+            <masterLabel>Empty</masterLabel>
+            <translation><!-- Empty --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sample Size --></label>
+        <name>QPMS__Sample_Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sample --></label>
+        <name>QPMS__Sample__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Passed Samples --></label>
+        <name>QPMS__Total_Passed_Samples__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Rejected Samples --></label>
+        <name>QPMS__Total_Rejected_Samples__c</name>
+    </fields>
+    <fields>
+        <label><!-- Use Severity based AQL? --></label>
+        <name>QPMS__Use_Severity_based_AQL__c</name>
+    </fields>
+    <layouts>
+        <layout>Inspect Sample Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- SidebarFields --></label>
+        <name>inscor__SidebarFields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Alternate Part Number --></label>
+        <name>inscor__Alternate_Product__c</name>
+        <relationshipLabel><!-- RFQ Lines (Alternate Part Number) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Business Category --></label>
+        <name>inscor__Business_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Currency --></label>
+        <name>inscor__Company_Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Line Total --></label>
+        <name>inscor__Company_Line_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Unit Price --></label>
+        <name>inscor__Company_Unit_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Condition Code Quoted --></label>
+        <name>inscor__Condition_Code_Quoted__c</name>
+        <relationshipLabel><!-- RFQ Lines (Condition Code Quoted) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Condition Code --></label>
+        <name>inscor__Condition_Code__c</name>
+        <relationshipLabel><!-- RFQ Lines (Condition Code) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Core Due (In Days) --></label>
+        <name>inscor__Core_Due__c</name>
+    </fields>
+    <fields>
+        <label><!-- Create Date --></label>
+        <name>inscor__Create_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created From CQ Line --></label>
+        <name>inscor__Created_From_CQ_Line__c</name>
+        <relationshipLabel><!-- RFQ Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cycles --></label>
+        <name>inscor__Cycles__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery --></label>
+        <name>inscor__Delivery__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exchange Rate --></label>
+        <name>inscor__Exchange_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exchange Type --></label>
+        <name>inscor__Exchange_Type__c</name>
+        <picklistValues>
+            <masterLabel>Cost Plus</masterLabel>
+            <translation><!-- Cost Plus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flat Rate w/OH Core</masterLabel>
+            <translation><!-- Flat Rate w/OH Core --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flat Rate w/Repairable Core</masterLabel>
+            <translation><!-- Flat Rate w/Repairable Core --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flat Rate w/SV Core</masterLabel>
+            <translation><!-- Flat Rate w/SV Core --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- External Comments --></label>
+        <name>inscor__External_Comments_rt__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Comments --></label>
+        <name>inscor__Internal_Comments_rt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line Number --></label>
+        <name>inscor__Line_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line Total --></label>
+        <name>inscor__Line_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Need by date --></label>
+        <name>inscor__Need_by_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Outright Company Price --></label>
+        <name>inscor__Outright_Company_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Outright Price --></label>
+        <name>inscor__Outright_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part Number Keyword --></label>
+        <name>inscor__Part_Number_Keyword__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit Price --></label>
+        <name>inscor__Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part Number Quoted --></label>
+        <name>inscor__Product_Quoted__c</name>
+        <relationshipLabel><!-- RFQ Lines (Part Number Quoted) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Part Number --></label>
+        <name>inscor__Product__c</name>
+        <relationshipLabel><!-- RFQ Lines (Part Number) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity Quoted --></label>
+        <name>inscor__Quantity_Quoted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Requested --></label>
+        <name>inscor__Quantity_Requested__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quoted Date --></label>
+        <name>inscor__Quoted_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- RFQ Number --></label>
+        <name>inscor__RFQ_Number__c</name>
+        <relationshipLabel><!-- RFQ Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Rate Date --></label>
+        <name>inscor__Rate_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference ID --></label>
+        <name>inscor__Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Serial Number --></label>
+        <name>inscor__Serial_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>inscor__Status__c</name>
+        <picklistValues>
+            <masterLabel>Assigned</masterLabel>
+            <translation><!-- Assigned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tag Date --></label>
+        <name>inscor__Tag_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tagged By --></label>
+        <name>inscor__Tagged_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Times --></label>
+        <name>inscor__Times__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trace --></label>
+        <name>inscor__Trace__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type Quoted --></label>
+        <name>inscor__Type_Quoted__c</name>
+        <picklistValues>
+            <masterLabel>Exchange</masterLabel>
+            <translation><!-- Exchange --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Quote</masterLabel>
+            <translation><!-- No Quote --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non Stock</masterLabel>
+            <translation><!-- Non Stock --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outright</masterLabel>
+            <translation><!-- Outright --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rental / Lease</masterLabel>
+            <translation><!-- Rental / Lease --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair</masterLabel>
+            <translation><!-- Repair --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type Requested --></label>
+        <name>inscor__Type_Requested__c</name>
+        <picklistValues>
+            <masterLabel>Exchange</masterLabel>
+            <translation><!-- Exchange --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non Stock</masterLabel>
+            <translation><!-- Non Stock --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outright</masterLabel>
+            <translation><!-- Outright --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rental / Lease</masterLabel>
+            <translation><!-- Rental / Lease --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair</masterLabel>
+            <translation><!-- Repair --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Validity Period (Days) --></label>
+        <name>inscor__Validity_Period_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vendor Reference # --></label>
+        <name>inscor__Vendor_Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Warranty --></label>
+        <name>inscor__Warranty__c</name>
+    </fields>
+    <layouts>
+        <layout>RFQ Line Layout</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- Quoted Details --></label>
+            <section>Quoted Details</section>
+        </sections>
+        <sections>
+            <label><!-- RFQ Line Information --></label>
+            <section>RFQ Line Information</section>
+        </sections>
+        <sections>
+            <label><!-- Requested Details --></label>
+            <section>Requested Details</section>
+        </sections>
+        <sections>
+            <label><!-- Tag &amp; Trace --></label>
+            <section>Tag &amp; Trace</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Delivery days cannot be negative --></errorMessage>
+        <name>inscor__Delivery_days_cannot_be_negative</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Need By Date cannot be in the past --></errorMessage>
+        <name>inscor__Need_By_Date_cannot_be_in_the_past</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Part Number is required --></errorMessage>
+        <name>inscor__Part_Number_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Validity period cannot be negative --></errorMessage>
+        <name>inscor__Validity_period_cannot_be_negative</name>
+    </validationRules>
+</CustomObjectTranslation>

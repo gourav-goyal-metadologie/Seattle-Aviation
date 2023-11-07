@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Duplicate Check Index --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Duplicate Check Indexes --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Record Type Id --></label>
+        <name>dupcheck__RecordType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Index --></label>
+        <name>dupcheck__index__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Prefix --></label>
+        <name>dupcheck__objectPrefix__c</name>
+    </fields>
+    <fields>
+        <label><!-- Person Account --></label>
+        <name>dupcheck__personAccount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Type Id (Old) --></label>
+        <name>dupcheck__recordTypeId__c</name>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <nameFieldLabel><!-- DC Object Id --></nameFieldLabel>
+</CustomObjectTranslation>

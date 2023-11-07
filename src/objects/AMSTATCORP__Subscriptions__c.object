@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>AMSTAT User Subscription</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>AMSTATCORP__Account_Token__c</fullName>
+        <deprecated>false</deprecated>
+        <description>AMSTAT Subscription Account Token</description>
+        <externalId>false</externalId>
+        <inlineHelpText>AMSTAT Subscription Account Token</inlineHelpText>
+        <label>Account Token</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AMSTATCORP__Token__c</fullName>
+        <deprecated>false</deprecated>
+        <description>AMSTAT Subscription Token</description>
+        <externalId>true</externalId>
+        <inlineHelpText>AMSTAT Subscription Token</inlineHelpText>
+        <label>Token</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Subscriptions</label>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- SidebarFields --></label>
+        <name>inscor__SidebarFields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Allow Off Unit Receipts --></label>
+        <name>inscor__Allow_Off_Unit_Receipts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bench Test Only? --></label>
+        <name>inscor__Bench_Test_Only__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Category --></label>
+        <name>inscor__Business_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Currency --></label>
+        <name>inscor__Company_Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Estimated Unit Repair Cost --></label>
+        <name>inscor__Company_Estimated_Unit_Repair_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Expected Part Market Value --></label>
+        <name>inscor__Company_Expected_Part_Market_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Extended Estimated Cost --></label>
+        <name>inscor__Company_Extended_Estimated_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Extended Final Cost --></label>
+        <name>inscor__Company_Extended_Final_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Final Unit Repair Cost --></label>
+        <name>inscor__Company_Final_Unit_Repair_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Final Unit Repair --></label>
+        <name>inscor__Company_Final_Unit_Repair__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Initial Unit Repair Cost --></label>
+        <name>inscor__Company_Initial_Unit_Repair_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Labor Cost --></label>
+        <name>inscor__Company_Labor_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Misc Cost --></label>
+        <name>inscor__Company_Misc_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Original Acq Cost --></label>
+        <name>inscor__Company_Original_Acq_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Original Repair Cost --></label>
+        <name>inscor__Company_Original_Repair_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Part Cost --></label>
+        <name>inscor__Company_Part_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Create Date --></label>
+        <name>inscor__Create_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created From ROL --></label>
+        <name>inscor__Created_From_ROL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created From SO Line --></label>
+        <name>inscor__Created_From_SO_Line__c</name>
+        <relationshipLabel><!-- Repair Order Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Estimated Unit Repair Cost --></label>
+        <name>inscor__Estimated_Repair_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exchange Rate --></label>
+        <name>inscor__Exchange_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expected Delivery Date --></label>
+        <name>inscor__Expected_Delivery_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expected Part Condition --></label>
+        <name>inscor__Expected_Part_Condition__c</name>
+        <relationshipLabel><!-- Repair Order Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Expected Part Market Value --></label>
+        <name>inscor__Expected_Part_Market_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expected Part Serial --></label>
+        <name>inscor__Expected_Part_Serial__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expected Part Warehouse --></label>
+        <name>inscor__Expected_Part_Warehouse__c</name>
+        <relationshipLabel><!-- Repair Order Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Expected Part Number --></label>
+        <name>inscor__Expected_Product__c</name>
+        <relationshipLabel><!-- Repair Order Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Extended Estimated Cost --></label>
+        <name>inscor__Extended_Estimated_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extended Final Cost --></label>
+        <name>inscor__Extended_Final_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Comments --></label>
+        <name>inscor__External_Comments_rt__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Final Unit Repair Cost --></label>
+        <name>inscor__Final_Unit_Repair_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Promise Date --></label>
+        <name>inscor__Initial_Promise_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Fill in once the Shop supplies initial quote, even before approving. --></help>
+        <label><!-- Initial Unit Repair Cost --></label>
+        <name>inscor__Initial_Unit_Repair_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Comments --></label>
+        <name>inscor__Internal_Comments_rt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Labor Cost --></label>
+        <name>inscor__Labor_Cost__c</name>
+    </fields>
+    <fields>
+        <help><!-- If renumbering the lines, please be cognizant of existing Releases, Receipts, Allocations, Payment Vouchers, and other related lines as they may continue referencing the original line number. You will need to edit those as well. --></help>
+        <label><!-- Line Number --></label>
+        <name>inscor__Line_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Managed Repair Status --></label>
+        <name>inscor__Managed_Repair_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Managed Repair? --></label>
+        <name>inscor__Managed_Repair__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manifest --></label>
+        <name>inscor__Manifest__c</name>
+        <relationshipLabel><!-- Repair Order Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Misc Cost --></label>
+        <name>inscor__Misc_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Follow Up Date --></label>
+        <name>inscor__Next_Follow_Up_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Inventory Line --></label>
+        <name>inscor__Original_Inventory_Line__c</name>
+        <relationshipLabel><!-- Repair Order Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Original Part Acq Cost --></label>
+        <name>inscor__Original_Part_Acq_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Part Condition --></label>
+        <name>inscor__Original_Part_Condition__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Part Keyword --></label>
+        <name>inscor__Original_Part_Keyword__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Part Location --></label>
+        <name>inscor__Original_Part_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Part Owner Name --></label>
+        <name>inscor__Original_Part_Owner_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Part Owner --></label>
+        <name>inscor__Original_Part_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Part Repair Cost --></label>
+        <name>inscor__Original_Part_Repair_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Part Serial --></label>
+        <name>inscor__Original_Part_Serial__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Part Source --></label>
+        <name>inscor__Original_Part_Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Part Warehouse --></label>
+        <name>inscor__Original_Part_Warehouse__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Part Number --></label>
+        <name>inscor__Original_Product__c</name>
+        <relationshipLabel><!-- Repair Order Lines (Original Part Number) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Original ROL for Split --></label>
+        <name>inscor__Original_ROL_for_Split__c</name>
+        <relationshipLabel><!-- Repair Order Lines (Original ROL for Split) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Orignal Quantity To Repair --></label>
+        <name>inscor__Orignal_Quantity_To_Repair__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part Cost --></label>
+        <name>inscor__Part_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Allocated --></label>
+        <name>inscor__Quantity_Allocated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Available --></label>
+        <name>inscor__Quantity_Available__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Paid --></label>
+        <name>inscor__Quantity_Paid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Received --></label>
+        <name>inscor__Quantity_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Rejected --></label>
+        <name>inscor__Quantity_Rejected__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Shipped --></label>
+        <name>inscor__Quantity_Shipped__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity to Repair --></label>
+        <name>inscor__Quantity_to_Repair__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Approved Date --></label>
+        <name>inscor__Quote_Approved_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Received Date --></label>
+        <name>inscor__Quote_Received_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- RFQ Sent Date --></label>
+        <name>inscor__RFQ_Sent_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rate Date --></label>
+        <name>inscor__Rate_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference ID --></label>
+        <name>inscor__Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Repair Order Line --></label>
+        <name>inscor__Repair_Order_Line__c</name>
+        <relationshipLabel><!-- Repair Order Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Repair Order --></label>
+        <name>inscor__Repair_Order__c</name>
+        <relationshipLabel><!-- Repair Order Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Use this to identify the type of repair done on the part, i.e. OEM, PMA, DER. Will be copied to the Inventory line at time of receipt. --></help>
+        <label><!-- Repair Type --></label>
+        <name>inscor__Repair_Type_New__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line Type --></label>
+        <name>inscor__Repair_Type__c</name>
+        <relationshipLabel><!-- Repair Order Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Shipped Date --></label>
+        <name>inscor__Shipped_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>inscor__Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estimate Received</masterLabel>
+            <translation><!-- Estimate Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Repair</masterLabel>
+            <translation><!-- In Repair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Received</masterLabel>
+            <translation><!-- Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Released</masterLabel>
+            <translation><!-- Released --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipped</masterLabel>
+            <translation><!-- Shipped --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vouchered</masterLabel>
+            <translation><!-- Vouchered --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Teardown Owner Code --></label>
+        <name>inscor__Teardown_Owner_Code__c</name>
+        <relationshipLabel><!-- Repair Order Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Updated Promise Date --></label>
+        <name>inscor__Updated_Promise_Date__c</name>
+    </fields>
+    <layouts>
+        <layout>Repair Order Line Layout</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Expected Part Information --></label>
+            <section>Expected Part Information</section>
+        </sections>
+        <sections>
+            <label><!-- Financial --></label>
+            <section>Financial</section>
+        </sections>
+        <sections>
+            <label><!-- Original Part Information --></label>
+            <section>Original Part Information</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- RO Dates --></label>
+            <section>RO Dates</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Final Unit Repair Cost can not change after paid --></errorMessage>
+        <name>inscor__Cost_Cannot_Change_After_Paid</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Expected Serial Number is mandatory when Expected Part is serialized. --></errorMessage>
+        <name>inscor__Expected_Part_and_Serial_Number</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Seralized Indicator mismatch between Original Part Number and Expected Part Number. --></errorMessage>
+        <name>inscor__Expected_and_original_part_validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Expected Delivery Date cannot be previous --></errorMessage>
+        <name>inscor__Expected_delivery_cannot_be_previous</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Initial Promise date cannot be previous --></errorMessage>
+        <name>inscor__Initial_Promise_date_cannot_be_previous</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can not change the quantity to repair after it has been shipped --></errorMessage>
+        <name>inscor__Qty_can_not_change_afrer_ship</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The quantity to repair cannot be greater than the quantity available on the Inventory Line --></errorMessage>
+        <name>inscor__Qty_not_greater_than_available</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The quantity to repair cannot be greater than the quantity available on the Inventory Line --></errorMessage>
+        <name>inscor__Quantity_not_greater_than_available</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Updated Promise Date cannot be previous --></errorMessage>
+        <name>inscor__Updated_Promise_Date_cannot_be_previous</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Repair Order Line cannot be updated as it is already Allocated. --></errorMessage>
+        <name>inscor__Validation_for_Qty_allocated_gt_0</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Repair Order Line cannot be updated as it is already Shipped. --></errorMessage>
+        <name>inscor__Validation_for_Qty_shipped_gt_0</name>
+    </validationRules>
+</CustomObjectTranslation>

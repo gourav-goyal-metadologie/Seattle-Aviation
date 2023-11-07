@@ -1,0 +1,505 @@
+<apex:page standardController="inscor__Sales_Order__c" extensions="SalesOrderPDFController" applyBodyTag="false" renderAs="pdf">
+    <head>
+        <style type="text/css" media="print">
+            @page:first {
+                    @top-left {
+                    	content: element(header);
+            			width:100%;
+                    }
+            		@bottom-center {
+                    	content: element(footer);
+                    }
+            		
+                    margin-top: 120px;
+            		margin-bottom : 100px;
+            }
+            
+            @page {
+                @top-left {
+                    padding-top : 10px;
+                    content: element(header);
+                    padding-bottom : 160px;
+                    display : block;
+            		width:100%;
+                }
+            	
+                @bottom-center {
+            			content: element(footer);
+            			width: 100%;	
+                    }
+            	
+            	thead {
+                        display: table-header-group;
+                    }
+            	margin-bottom : 100px;
+            	margin-top: 120px;
+            }
+            div.headerFirst {
+                margin-left:5px;
+                position: running(headerFirst);
+                display: block;
+            }
+            div.header {
+            	position: running(header);
+            	display: block;
+            }
+            div.content {
+            position: relative;
+            }
+            div.footer {
+                display: block;
+                padding: 0px;
+                position: running(footer);
+            }
+            
+            
+            .pagenumber:before {
+            content: counter(page);
+            }
+            .pagecount:before {
+            content: counter(pages);
+            }
+            body {
+            font-family: "Arial""Sans-Serif";
+            font-size: 12px;
+            margin: 0px;
+            }
+            .tableHeader {
+                font-weight: bold;
+                background-color: #DADADA;
+                height: 20px;
+                padding: 6px;
+            }
+            .columnHeader {
+            text-align: right;
+            }
+            .tableRow {
+            border-bottom: 3px solid #DADADA;
+            padding: 6px;
+            vertical-align:text-top;
+            }
+            .tableRowAmount {
+            background-color: #DADADA;
+            }            
+            .alignRight {
+            text-align: right
+            }
+            .content .margin7{
+            margin:7px;
+            }
+            .content {
+            margin:0px;
+            }
+            .items{
+            -fs-table-paginate: paginate;
+            border-spacing: 0;
+            font-size:11px;
+            table-layout:fixed;
+            }
+            .wordBreak {
+            word-break: break-all;
+            }
+            
+            .colHeader{
+            <!--
+border:1px solid black;
+text-align:center; 
+vertical-align: middle;-->
+            }
+            .form-name{
+            text-transform:uppercase;
+            text-align: center;
+            width:100%;
+            }
+            .ml10 {
+            margin-left:10px;
+            }
+        </style>
+    </head>
+    <html >
+    <body>
+        <!--<div class="header" style="width:100%;">
+            <table style="width: 100%;">
+                <tr style="width: 100%;">
+                    <td style="width:70%;padding-top:12px;">
+                        <apex:image url="{!$Resource.SAS_LOGO}" width="264px" height="78px"/>
+                    </td>
+                    <td style="width:15%;padding-top:12px;">
+                        <apex:image url="{!$Resource.SAS_LOGO}" width="50px" height="28px"/>
+                    </td>
+                    <td style="width:15%;padding-top:12px;">
+                        <apex:image url="{!$Resource.SAS_LOGO}" width="50px" height="28px"/>
+                    </td>
+                </tr>
+            </table>
+            <br/>
+        </div>-->
+        <div class="header" style="width: 100%; height: 110px;">
+            <table style="width: 100%;">
+                <tr style="width: 100%;padding-bottom:20px;">
+                    <td style="width:50%;text-align:left;padding-top:12px;">
+                        <apex:image url="{!$Resource.SAS_LOGO}" width="264px" height="78px"/>  
+                    </td>
+                    <td style="width:50%;padding-left:160px;">
+                        <table>
+                            <tr>
+                                <td style="width:50%;padding-top:12px;padding-left:48px;">
+                                    <strong>
+                                        <span style="font-size:36px;">{!SalesOrder.Name}</span>
+                                    
+                                    </strong>
+                                </td>
+                                <!--<td style="width:50%;padding-top:12px;">
+                                    <apex:image url="https://www.seattleav.com/media_library/original_custom-image-wjeaui.png" />
+                                </td>
+                                <td style="width:50%;padding-top:12px;">
+                                    <apex:image url="https://www.seattleav.com/seattle-storefront/images/index/logo_slider/logo3.png" height="64px"/>
+                                    
+                                </td>-->
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <br/>
+        </div>
+        <div class="header1" style="width:40%;">
+            <table>
+                
+            </table>
+            <br/>
+        </div>
+        
+        <div class="footer" style="font-size:8px;">
+            <!--<apex:outputField value="{!formOptions.inscor__Footer__c}"/>-->
+            <span  style="float:right;padding-left:48px;padding-right:0px;margin-right;0;">
+                Page&nbsp;<span class="pagenumber" />&nbsp;of&nbsp;<span class="pagecount" />
+            </span>
+        </div>
+        
+        <div class="content">
+            <table style="width:100%;padding:0px;margin-top:0px;">
+                <tr style="padding:0px;">
+                    <td style="width:70%;padding:0px;">
+                        <strong style="font-size:20px">
+                            Seattle Aviation Solutions LLC<br/>
+                        </strong>
+                        <apex:image url="{!$Resource.Location}" width="15px" height="15px"/>
+                        <span class="ml10">18103 NE 68th Street, Suite C200</span><br/>
+                        <span style="margin-left:25px">United States Redmond WA 98052</span><br/>
+                        <apex:image url="{!$Resource.Phone}" width="15px" height="15px"/><span class="ml10">+1 (425) 448-5005</span><br/>
+                        <apex:image url="{!$Resource.Building}" width="15px" height="15px"/><span class="ml10">+1 (425) 777-2095</span>
+                    </td>
+                    <td style="width:30%;padding:0px; padding-left:90px;">
+                        <table>
+                            <tr>
+                                <td style="padding-right:4px;">
+                                    <a href="mailto:customersupport@seattleav.com">customersupport@seattleav.com</a>
+                                </td>
+                                
+                            </tr>
+                            <tr>
+                                <td style="padding-left:0px;">
+                                    <a href="www.seattleav.com">www.seattleav.com</a>
+                                </td> 
+                            </tr>
+                            <!--<tr>
+                                <td>
+                                    <Strong>AOG: </Strong> 01 (425) 448-5005x703<br/>
+                                </td> 
+                            </tr> -->
+                            <tr>
+                                <td style="padding-top:4px;text-align:right;">
+                                    <apex:image value="{!imageUrl}"  style="border:0px padding-left:40px;padding-right:0;margin:0;" title="AOG"/>
+                                </td> 
+                            </tr>
+                        </table>
+                        
+                      
+                    </td>
+                </tr>
+            </table>
+            <div>
+                <h1 class="form-name">
+                    ORDER ACKNOWLEDGEMENT
+                </h1>
+                <table class="items">
+                    <tr>
+                        <td style="width:70%;padding:0px;">
+                            <strong class="ml10">
+                                For : Account No. [{!SalesOrder.inscor__Customer__r.inscor__Account_Number__c}]
+                            </strong>
+                        </td>
+                        <td style="width:30%;padding:0px">
+                           <!-- <span class="ml10">SO No. : {!SalesOrder.Name}</span> -->
+                        </td>
+                    </tr>
+                    <tr><td colspan="2"><hr/></td></tr>
+                </table>
+                <table class="items">
+                    <thead>
+                        <th style="width:70%;padding:0px">
+                            <strong class="ml10">
+                                Bill To  
+                            </strong>
+                        </th>
+                        <th style="width:30%;padding:0px">
+                            <strong class="ml10">
+                                Ship To  
+                            </strong>
+                        </th>
+                    </thead>
+                    <tbody>
+                        <tr><td colspan="2"><hr/></td></tr>
+                        <tr>
+                            <td>
+                                <div class="ml10">
+                                    {!SalesOrder.inscor__Customer__r.Name}<br/>
+                                    Attn: {!SalesOrder.inscor__Billing_Contact__r.Name},<br/>
+                                    {!SalesOrder.inscor__Billing_Contact__r.Title}<br/>
+                                    {!SalesOrder.inscor__Billing_Street__c} <br/>
+                                    {!SalesOrder.inscor__Billing_City__c}<br/>
+                                    {!SalesOrder.inscor__Billing_State__c} {!SalesOrder.inscor__Billing_Country__c}&nbsp;{!SalesOrder.inscor__Billing_Postal_Code__c} <br/>
+                                    Tel. : {!SalesOrder.inscor__Billing_Contact__r.Phone}<br/>
+                                    Fax : {!SalesOrder.inscor__Billing_Contact__r.Fax}<br/>
+                                    Email : {!SalesOrder.inscor__Billing_Contact__r.Email}<br/>
+                                    
+                                    <!--Boeing Distribution, Inc <br/>
+                                    Attn: Mr. Justin Miller, <br/>
+                                    Northwest Area Sales Manager <br/>
+                                    2750 &amp; 2755 Regent Blvd <br/>
+                                    Dallas, TX 7526, United States <br/>
+                                    Tel. : + 0 - 1 - 509-936-0059 <br/>
+                                    Fax : + 0 - 1 - 907-243-4150 <br/>
+                                    Email: Justin.Miller@aviall.com <br/> -->
+                                </div>
+                            </td>
+                            <td>
+                                <div class="ml10" style="vertical-align:top;">
+                                    <!--{!SalesOrder.inscor__Customer__r.Name},<br/> -->
+                                    {!shippingAddressAccountName},<br/>
+                                    {!SalesOrder.inscor__Shipping_Street__c} <br/>
+                                    {!SalesOrder.inscor__Shipping_City__c}<br/>
+                                    {!SalesOrder.inscor__Shipping_State__c} {!SalesOrder.inscor__Shipping_Country__c}&nbsp;{!SalesOrder.inscor__Shipping_Postal_Code__c} <br/>
+                                    Tel. : {!SalesOrder.inscor__Contact__r.Phone}<br/>
+                                    Fax : {!SalesOrder.inscor__Contact__r.Fax}<br/>
+                                    Email : {!SalesOrder.inscor__Contact__r.Email}<br/>
+                                    <!--
+                                    Boeing Distribution, Inc <br/>
+                                    2750 &amp; 2755 Regent Blvd <br/>
+                                    Dallas, TX 7526, United States <br/>
+                                    Tel. : + 0 - 1 - 509-936-0059 <br/>
+                                    Fax : + 0 - 1 - 907-243-4150 <br/>
+                                    Email: Justin.Miller@aviall.com <br/>
+									-->
+                                </div>
+                            </td>
+                        </tr>
+                        <tr><td colspan="3"><hr/></td></tr>
+                    </tbody>
+                </table>
+                <table class="items">
+                    <tbody>
+                        <tr>
+                            <td style="width:15%">
+                                <strong class="ml10">
+                                    Inco
+                                </strong>
+                            </td>
+                            <td style="width:5%">:</td>
+                            <td style="width:20%">{!SalesOrder.inscor__Incoterms__c}</td>
+                            <td style="width:15%">
+                                <strong>
+                                    # of Pieces
+                                </strong>
+                            </td>
+                            <td style="width:5%">:</td>
+                            <td style="width:13%">{!SalesOrder.inscor__Number_of_Lines__c}</td>
+                            <td style="width:8%">
+                                <strong>
+                                    Date
+                                </strong>
+                            </td>
+                            <td style="width:5%">:</td>
+                            <td style="width:15%">
+                                <span>
+                                    <apex:outputText value="{0,date,MM/dd/yy}">
+                                        <apex:param value="{!SalesOrder.inscor__Create_Date__c}" />
+                                        <!--<apex:param value="{!Today()}" />-->
+                                    </apex:outputText>
+                                </span>
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <strong class="ml10">
+                                    Port/Dest
+                                </strong>
+                            </td>
+                            <td>:</td>
+                            <td>{!SalesOrder.inscor__Port_Dest__c}</td>
+                            <td>
+                                <strong>
+                                    Customer PO
+                                </strong>
+                            </td>
+                            <td>:</td>
+                            <td>{!SalesOrder.inscor__Customer_PO_Number__c}</td>
+                            <td>
+                                <strong>
+                                    SO
+                                </strong>
+                            </td>
+                            <td>:</td>
+                            <td>{!SalesOrder.Name}</td>
+                        </tr>
+                        <!--<tr>
+                            <td>
+                                <strong class="ml10">
+                                    Ekh'96djWYj
+                                </strong>
+                            </td>
+                            <td>:</td>
+                            <td><!--Jordan Blazek [TBD]</td>
+                            <td colspan="6"></td>
+                        </tr>-->
+                        <tr><td colspan="9"><hr/></td></tr>
+                    </tbody>
+                </table>
+                <table class="items">
+                    <thead>
+                        <th style="width:10%;">
+                            <span style="margin:2px 20px">Line</span>
+                        </th>
+                        <th style="width:24%;">
+                            P/N Description
+                        </th>
+                        <th style="width:6%;text-align:center;">
+                            CND
+                        </th>
+                        <th style="width:10%;text-align:center;">
+                            Qty Bid
+                        </th> 
+                        <th style="width:13%;">
+                            Lead Time
+                        </th>
+                        <th style="width:15%;">
+                            Unit Price
+                        </th>
+                        <th style="width:15%;">
+                            Amount
+                        </th>
+                    </thead>
+                    <tbody>
+                        <apex:variable value="{!1}" var="count" />
+                        <apex:repeat value="{!salesOrderLines}" var="salesOrderLine"> 
+                            <tr><td colspan="7" style="color:#00809d"><hr/></td></tr>
+                        	<tr>
+                                <td>
+                                    <span style="margin-left:20px">
+                                        {!count}
+                                        <apex:variable value="{!count+1}" var="count" /> 
+                                    </span>
+                                </td>
+                                <td style="padding-right:2px;">
+                                {!salesOrderLine.inscor__Product__r.Name}&nbsp;
+                                    {!salesOrderLine.inscor__Product__r.inscor__Description__c}<br/>  
+                                Tag Type: 
+                                </td>
+                                <td style="text-align:center;">{!salesOrderLine.inscor__Condition_Code__r.Name}</td>
+                                <td style="text-align:center;">{!salesOrderLine.inscor__Quantity_Ordered__c}</td>
+                                <td>
+                                	<apex:outputText value="{0,number,###,###,##0}">       
+                                        <apex:param value="{!salesOrderLine.inscor__Product__r.inscor__Avg_Lead_Time__c}"/>
+                                    </apex:outputText> {!if(salesOrderLine.inscor__Product__r.inscor__Avg_Lead_Time__c<>null,'Days','')}
+                                </td>
+                                <td>$ {!salesOrderLine.inscor__Price__c}</td>
+                                <td>$ {!salesOrderLine.inscor__Line_Total__c}</td>
+                            </tr>
+                            <tr>
+                                <td colspan="7">
+                                    <div style="margin:2px 20px">
+                                        <strong>Line Note:</strong>
+                                        This is simple line note . All component parts must be accompanied with an ATA-106 or equivalent certificate. Products must have a minimum of 80% shelf life remaining
+                                    </div>
+                                </td>
+                            </tr>
+                        </apex:repeat>
+                        <tr style="padding-top:4px;">
+                            <td colspan="5">
+                                <div style="margin:2px 20px">
+                                    <strong></strong>
+                                </div>
+                            </td>
+                            <td colspan="1" style="border-top:1px solid #00809d;margin:0px; font-size:12px;">
+                                <div style="margin:0px 20px;padding-top:4px;">
+                                    <span style="">Sub Total </span>
+                                </div>
+                            </td>
+                            <td colspan="1" style="border-top:1px solid #00809d;margin:0px; font-size:12px;">
+                                <div style="padding-top:4px;">
+                                    <span style=""><strong>${!SalesOrder.inscor__Sales_Order_Total_Value__c}</strong></span>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br/>
+                <table class="items" style="width:100%;margin-top:25px;margin-bottom:10px;">
+                    <tbody>
+                        <tr>
+                            <td class="tableHeader">
+                                <span style="margin:15px;">Note : Please mention the measurement and trace values</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="items" style="width:100%;padding:0px;margin:0px">
+                    <tbody>
+                        <tr>
+                            <td style="width:100%;">
+                                <div style="margin-left:15px;">
+                                    <div style="text-align:center">
+                                        REMIT TO:<br/>
+                                        *** All bank charges to be paid by Customer . ***<br/>
+                                    </div>
+                                    <table style="">
+                                        <tr style="width:100%;">
+                                        	<td style="width:70%">
+                                                Bank of America N.A.<br/>
+                                                222 Broadway<br/>
+                                                New York, NY 10038 <br/>
+                                                SWIFT: BOFAUS3N<br/>
+                                                Wire Routing/ABA: 026009593 <br/>
+                                                ACH Routing/ABA: 125000024<br/>
+                                                Account: 138119647572<br/>
+                                            </td>
+                                            <td style="width:20%;">
+                                                1st Security Bank<br/>
+                                                6100 219th ST, Ste. 400 <br/>
+                                                Mountlake Terrace, WA 98043 <br/>
+                                                Routing/ABA: 325182289 <br/>
+                                                Account: 005151666160<br/>
+                                            </td>
+                                        </tr>
+                                        
+                                    </table>
+                                    <br/><br/><br/>
+                                </div>
+                            </td>
+                            <!--<td style="width:30%;border-left:1px solid #00809d;margin:0px">
+                                <div style="margin:0px 20px;">
+                                    <span style="width:70%">Sub Total </span>
+                                    <span style="float:right"><strong>${!SalesOrder.inscor__Sales_Order_Total_Value__c}</strong></span>
+                                </div>
+                            </td>-->
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+        </div>
+    </body>
+    </html>
+</apex:page>

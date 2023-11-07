@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Aprobador</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Aprobadores</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- ApprovalContextualhelp --></label>
+        <name>QPMS__ApprovalContextualhelp</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Approval Audit Trail --></label>
+        <name>QPMS__Approval_Audit_Trail</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Allowed Days --></label>
+        <name>QPMS__Allowed_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Process --></label>
+        <name>QPMS__Approval_Process__c</name>
+        <picklistValues>
+            <masterLabel>Audit Observation Approval</masterLabel>
+            <translation><!-- Audit Observation Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approval Request Subject --></label>
+        <name>QPMS__Approval_Request_Subject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approver --></label>
+        <name>QPMS__Approver_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- To reference Audit record for task approvers --></help>
+        <label><!-- Audit Id --></label>
+        <name>QPMS__Audit_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- To reference Audit Program record for task approvers --></help>
+        <label><!-- Audit Program Id --></label>
+        <name>QPMS__Audit_Program_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Audit Program --></label>
+        <name>QPMS__Audit_Program__c</name>
+        <relationshipLabel><!-- Approvers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Audit Type --></label>
+        <name>QPMS__Audit_Type__c</name>
+        <relationshipLabel><!-- Approvers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Audit --></label>
+        <name>QPMS__Audit__c</name>
+        <relationshipLabel><!-- Approvers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CAPA --></label>
+        <name>QPMS__CAPAID__c</name>
+        <relationshipLabel><!-- Approvers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CAPA --></label>
+        <name>QPMS__CAPA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Change Management --></label>
+        <name>QPMS__Change_Management_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Change Management --></label>
+        <name>QPMS__Change_Management__c</name>
+        <relationshipLabel><!-- Approvers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Checklist --></label>
+        <name>QPMS__Checklist__c</name>
+        <relationshipLabel><!-- Approvers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>QPMS__Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Profile --></label>
+        <name>QPMS__Document_Profile_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Profile --></label>
+        <name>QPMS__Document_Profile__c</name>
+        <relationshipLabel><!-- Approvers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Due Date --></label>
+        <name>QPMS__Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- General Task --></label>
+        <name>QPMS__General_Task__c</name>
+        <relationshipLabel><!-- Approvers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Manager --></label>
+        <name>QPMS__Manager__c</name>
+        <relationshipLabel><!-- Approvers (Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Non Conformance --></label>
+        <name>QPMS__NC__c</name>
+        <relationshipLabel><!-- Approvers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Non-Conformance --></label>
+        <name>QPMS__Non_Conformance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Observation Id --></label>
+        <name>QPMS__Observation_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Observation --></label>
+        <name>QPMS__Observation__c</name>
+        <relationshipLabel><!-- Approvers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Parent --></label>
+        <name>QPMS__Parent_Developer_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Object --></label>
+        <name>QPMS__Parent_Object__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Owner --></label>
+        <name>QPMS__Parent_Owner__c</name>
+        <relationshipLabel><!-- Approvers (Parent Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Parent Title --></label>
+        <name>QPMS__Parent_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent --></label>
+        <name>QPMS__Parent_name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sequence Position --></label>
+        <name>QPMS__Sequence_Position__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status Updated --></label>
+        <name>QPMS__Status_Updated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>QPMS__Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Started</masterLabel>
+            <translation><!-- Not Started --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recalled</masterLabel>
+            <translation><!-- Recalled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Started</masterLabel>
+            <translation><!-- Started --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Task Status --></label>
+        <name>QPMS__Task_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Task --></label>
+        <name>QPMS__Task__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL --></label>
+        <name>QPMS__URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>QPMS__User__c</name>
+        <relationshipLabel><!-- Approvers (User) --></relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Approver Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nombre del aprobador</nameFieldLabel>
+</CustomObjectTranslation>

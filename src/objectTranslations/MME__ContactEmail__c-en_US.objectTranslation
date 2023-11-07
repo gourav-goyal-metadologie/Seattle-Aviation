@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Contact --></label>
+        <name>MME__Contact__c</name>
+        <relationshipLabel><!-- Secondary Email Addresses --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>MME__Email__c</name>
+    </fields>
+</CustomObjectTranslation>

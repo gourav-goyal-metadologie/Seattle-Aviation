@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Document Type</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Document Types</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- DocTypeInitWatermarkContextualHelp --></label>
+        <name>QPMS__DocTypeInitWatermarkContextualHelp</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- DocType_Save --></label>
+        <name>QPMS__DocType_Save</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Doc Type WaterMark Fields --></label>
+        <name>QPMS__Doc_Type_WaterMark_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- DocumentType_ListView --></label>
+        <name>QPMS__DocumentType_ListView</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- DocumentTypecontextualhelp --></label>
+        <name>QPMS__DocumentTypecontextualhelp</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Document Profile Transfer Fields --></label>
+        <name>QPMS__Document_Profile_Transfer_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Document_Setup --></label>
+        <name>QPMS__Document_Setup</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Document_Type --></label>
+        <name>QPMS__Document_Type</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Document Type Fields --></label>
+        <name>QPMS__Document_Type_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Security Fields --></label>
+        <name>QPMS__Security_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Filed Visibility --></label>
+        <name>QPMS__Watermark_Filed_Visibility</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Watermark Position --></label>
+        <name>QPMS__Watermark_Position</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Watermark Section --></label>
+        <name>QPMS__Watermark_Section</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- documentTypesecurityconthelp --></label>
+        <name>QPMS__documentTypesecurityconthelp</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- documentsetupcobtextualhelp --></label>
+        <name>QPMS__documentsetupcobtextualhelp</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Security Fields --></label>
+        <name>QPMS__documenttypemoreinfocontexthelp</name>
+    </fieldSets>
+    <fields>
+        <help><!-- Holds the approves group API (DevelperName)name --></help>
+        <label><!-- Approval Group --></label>
+        <name>QPMS__Approval_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Authorized Entity Group --></label>
+        <name>QPMS__Authorized_Entity_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Authorized Entity --></label>
+        <name>QPMS__Authorized_Entity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auto Expire --></label>
+        <name>QPMS__Automatically_Expire_Previous_Revision__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Unit --></label>
+        <name>QPMS__Business_Unit__c</name>
+        <picklistValues>
+            <masterLabel>BU1</masterLabel>
+            <translation><!-- BU1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BU2</masterLabel>
+            <translation><!-- BU2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BU3</masterLabel>
+            <translation><!-- BU3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BU4</masterLabel>
+            <translation><!-- BU4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Categories --></label>
+        <name>QPMS__Categories__c</name>
+        <picklistValues>
+            <masterLabel>Category1</masterLabel>
+            <translation><!-- Category1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Category2</masterLabel>
+            <translation><!-- Category2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Category3</masterLabel>
+            <translation><!-- Category3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Category4</masterLabel>
+            <translation><!-- Category4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Category5</masterLabel>
+            <translation><!-- Category5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>QPMS__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Type Number --></label>
+        <name>QPMS__Document_Type_Number_URL__c</name>
+    </fields>
+    <fields>
+        <help><!-- Edit Effective Date --></help>
+        <label><!-- Edit Effective Date --></label>
+        <name>QPMS__Edit_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Edit Expiration Date --></help>
+        <label><!-- Edit Expiration Date --></label>
+        <name>QPMS__Edit_Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Edit Pre Release Duration Date --></help>
+        <label><!-- Edit Pre Release Duration Date --></label>
+        <name>QPMS__Edit_Pre_Release_Duration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Security --></label>
+        <name>QPMS__Enable_Security__c</name>
+    </fields>
+    <fields>
+        <label><!-- Escalation Rule for Task --></label>
+        <name>QPMS__Escalation_Rule_for_Task__c</name>
+        <picklistValues>
+            <masterLabel>Default</masterLabel>
+            <translation><!-- Default --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NONE</masterLabel>
+            <translation><!-- NONE --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Expiration Date --></label>
+        <name>QPMS__Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expire After(In days) --></label>
+        <name>QPMS__Expire_After__c</name>
+    </fields>
+    <fields>
+        <help><!-- External Id --></help>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grace Period for Release(In days) --></label>
+        <name>QPMS__Grace_Period_for_Release__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initiating Site --></label>
+        <name>QPMS__Initiating_Site_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Stores the logged in user site public group --></help>
+        <label><!-- Initiating Site Security --></label>
+        <name>QPMS__Initiating_Site_Security__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initiating Site --></label>
+        <name>QPMS__Initiating_Site__c</name>
+        <relationshipLabel><!-- Document Types --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Number Scheme --></label>
+        <name>QPMS__Number_Scheme_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Scheme --></label>
+        <name>QPMS__Number_Scheme__c</name>
+        <relationshipLabel><!-- Document Types --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Owner --></label>
+        <name>QPMS__Owner_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Protected Draft --></label>
+        <name>QPMS__Protected_Draft__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason --></label>
+        <name>QPMS__Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>QPMS__Region__c</name>
+        <picklistValues>
+            <masterLabel>APAC</masterLabel>
+            <translation><!-- APAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA</masterLabel>
+            <translation><!-- EMEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NORTH AMERICA</masterLabel>
+            <translation><!-- NORTH AMERICA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Release Date --></label>
+        <name>QPMS__Release_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Retention Duration(In days) --></label>
+        <name>QPMS__Retention_Duration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Secondary Format --></label>
+        <name>QPMS__Secondary_Format__c</name>
+        <picklistValues>
+            <masterLabel>Autosync</masterLabel>
+            <translation><!-- Autosync --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual</masterLabel>
+            <translation><!-- Manual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Show All Users/Groups --></help>
+        <label><!-- Show All Users/Groups --></label>
+        <name>QPMS__Show_All_Users_Groups__c</name>
+    </fields>
+    <fields>
+        <help><!-- Signed Off Details --></help>
+        <label><!-- Signed Off Details --></label>
+        <name>QPMS__Signed_Off_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effectiveness Review In Advance(In days) --></label>
+        <name>QPMS__Start_Effectiveness_Review_In_Advance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>QPMS__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Supersede Previous Revision --></label>
+        <name>QPMS__Supersede_Previous_Revision__c</name>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>QPMS__Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- View Only Entity Group --></label>
+        <name>QPMS__View_Only_Entity_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- View Only Entity --></label>
+        <name>QPMS__View_Only_Entity__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used in filed visibility section in watermark tab --></help>
+        <label><!-- Approvers --></label>
+        <name>QPMS__Watermark_Approvers__c</name>
+    </fields>
+    <fields>
+        <help><!-- Watermark Text Color Display. --></help>
+        <label><!-- Watermark Color --></label>
+        <name>QPMS__Watermark_Color__c</name>
+        <picklistValues>
+            <masterLabel>Blue</masterLabel>
+            <translation><!-- Blue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grey</masterLabel>
+            <translation><!-- Grey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red</masterLabel>
+            <translation><!-- Red --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Doc Owner --></label>
+        <name>QPMS__Watermark_Doc_Owner__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used in filed visibility section in watermark tab --></help>
+        <label><!-- Doc Title --></label>
+        <name>QPMS__Watermark_Doc_Title__c</name>
+    </fields>
+    <fields>
+        <help><!-- Document Number &amp; Revision is used in filed visibility section in watermark tab --></help>
+        <label><!-- Document Number &amp; Revision --></label>
+        <name>QPMS__Watermark_Document_Number_Revision__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used to restrict the document status on cover page --></help>
+        <label><!-- Document Status --></label>
+        <name>QPMS__Watermark_Document_Status__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used in filed visibility section in watermark tab --></help>
+        <label><!-- Effective Date --></label>
+        <name>QPMS__Watermark_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used in filed visibility section watermark tab --></help>
+        <label><!-- Enable Cover Page --></label>
+        <name>QPMS__Watermark_Enable_Cover_Page__c</name>
+    </fields>
+    <fields>
+        <help><!-- When TRUE a watermark will be placed on a printed document. It will also make the secondary file required to ensure a file of format PDF is available for watermarking. --></help>
+        <label><!-- Enable Watermark --></label>
+        <name>QPMS__Watermark_Enabled__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used in filed visibility section in watermark tab --></help>
+        <label><!-- Expiration Date --></label>
+        <name>QPMS__Watermark_Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- When true watermark will be placed at the bottom of every page --></help>
+        <label><!-- Footer --></label>
+        <name>QPMS__Watermark_Layout_Footer__c</name>
+    </fields>
+    <fields>
+        <help><!-- When true watermark will be placed at the top of every page --></help>
+        <label><!-- Header --></label>
+        <name>QPMS__Watermark_Layout_Header__c</name>
+    </fields>
+    <fields>
+        <help><!-- When true watermark will be placed on the left of every page --></help>
+        <label><!-- Left (vertically) --></label>
+        <name>QPMS__Watermark_Layout_Left__c</name>
+    </fields>
+    <fields>
+        <help><!-- When true watermark will be placed on the right of every page --></help>
+        <label><!-- Right (vertically) --></label>
+        <name>QPMS__Watermark_Layout_Right__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used in filed visibility section watermark tab --></help>
+        <label><!-- Page Number --></label>
+        <name>QPMS__Watermark_Page_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used in filed visibility section in watermark tab --></help>
+        <label><!-- Printed By --></label>
+        <name>QPMS__Watermark_Printed_By__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used in filed visibility section in watermark tab --></help>
+        <label><!-- Printed Date --></label>
+        <name>QPMS__Watermark_Printed_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used in filed visibility section watermark tab --></help>
+        <label><!-- Reference --></label>
+        <name>QPMS__Watermark_Reference__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enables displaying text diagonally, behind everything on each, large, and at about 50% opacity. --></help>
+        <label><!-- Display Diagonally --></label>
+        <name>QPMS__Watermark_Text_Also_Diagonal__c</name>
+    </fields>
+    <fields>
+        <help><!-- Text will be displayed on &quot;Printed&quot; documents that have been watermarked. Additional text will be appended containing dynamic information --></help>
+        <label><!-- Watermark Text --></label>
+        <name>QPMS__Watermark_Text__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of days a printed document can remain valid .  If this value is set to 3 and the document is printed on 17-Jan-2017 the watermark will display &quot;Valid Until: 20-Jan-2017&quot; unless the document expires sooner in which case the watermark will display th --></help>
+        <label><!-- Valid Duration (Days) --></label>
+        <name>QPMS__Watermark_Valid_Duration__c</name>
+    </fields>
+    <fields>
+        <label><!-- isEditable --></label>
+        <name>QPMS__isEditable__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Document Type Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Número de tipo de documento</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Only one layout can be selected at one time --></errorMessage>
+        <name>QPMS__Allow_Only_One_Watermark_Layout</name>
+    </validationRules>
+</CustomObjectTranslation>

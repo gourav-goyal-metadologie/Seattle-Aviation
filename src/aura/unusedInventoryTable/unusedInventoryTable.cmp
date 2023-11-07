@@ -1,0 +1,96 @@
+<aura:component implements="force:appHostable" controller="unusedInventoryTableCTRL" access="global" >
+	<aura:attribute name="allData" type="List" />
+    <aura:attribute name="filteredData" type="List" />
+    <aura:attribute name="tableData" type="List" />
+    <aura:attribute name="columns" type="Object[]" />
+    <aura:attribute name="pageSize" type="Integer" default="200" />
+    <aura:attribute name="pageSizeOptions" type="Integer[]" default="50,100,200,500,1000" />
+    <aura:attribute name="currentPageNumber" type="Integer" default="1" />
+    <aura:attribute name="totalPages" type="Integer" default="1" />
+    <aura:attribute name="searchPhrase" type="String" />
+    <aura:attribute name="isLoading" type="Boolean" default="false" />
+    <aura:attribute name="recordId" type="Id"/>
+    <aura:attribute name="selectedRows" type="List" />
+ 
+ 
+    <aura:handler name="init" value="{! this }" action="{! c.doInit }" />
+ 
+    <aura:if isTrue="{! v.isLoading }">
+        <lightning:spinner alternativeText="Loading" />
+    </aura:if>
+    
+    <!-- change title from Customer Quotes Line to Parts Requested -->
+    <lightning:card title="Unused Parts">
+        <aura:if isTrue="{!not(empty(v.tableData))}">
+            <div class="slds-grid slds-gutters">
+                <div class="slds-col">
+                    <div class="slds-form_horizontal">
+                        <lightning:select
+                            label="Records Count"
+                            value="{! v.pageSize }"
+                            onchange="{! c.onPageSizeChange }">
+                            <aura:iteration items="{! v.pageSizeOptions }" var="opt">
+                                <option text="{! opt }"></option>
+                            </aura:iteration>
+                        </lightning:select>
+                    </div>
+                </div>
+                <div class="slds-col">
+                    <lightning:button variant ="destructive-text" label="Delete Selected" onclick="{! c.handleSelectedDelete}"></lightning:button>
+                </div>
+              </div>
+            <div class="">
+                
+            </div>
+            <div style="height: 80%;">
+            <lightning:datatable
+                aura:id="table"
+                columns="{! v.columns }"
+                data="{! v.tableData }"
+                onrowselection="{!c.handleRowSelection}" 
+                keyField="Id" />
+            </div>
+         
+                <div class="slds-grid slds-wrap slds-align_absolute-center" style="margin-top:3px; padding-top:16px;">
+                  <div class="slds-col slds-size_12-of-12 slds-align_absolute-center">
+                    <lightning:button
+                        label="First"
+                        iconName="utility:left"
+                        iconPosition="left"
+                        onclick="{! c.onFirst }"
+                        disabled="{! v.currentPageNumber == 1 }" />
+                    <lightning:button
+                        label="Previous"
+                        iconName="utility:chevronleft"
+                        iconPosition="left"
+                        onclick="{! c.onPrev }"
+                        disabled="{! v.currentPageNumber == 1 }" />
+                    
+                    <lightning:button
+                        label="Next"
+                        iconName="utility:chevronright"
+                        iconPosition="right"
+                        onclick="{! c.onNext }"
+                        disabled="{! v.currentPageNumber == v.totalPages }" />
+                    <lightning:button
+                        label="Last"
+                        iconName="utility:right"
+                        iconPosition="right"
+                        onclick="{! c.onLast }"        
+                        disabled="{! v.currentPageNumber == v.totalPages }" />
+                    </div>
+                    <div class="slds-col slds-size_12-of-12 slds-align_absolute-center">
+                     <span class="slds-var-p-horizontal_x-small">
+                        Page {! (v.currentPageNumber) } of {! (v.totalPages) }
+                    </span>
+                    </div>
+                </div>
+            <aura:set attribute="else">
+                <div class="slds-align_absolute-center" style="text-align: center; margin-top: 4%;">
+                    <h1>No Records Found</h1>
+                </div>
+            </aura:set>
+        </aura:if>
+         
+    </lightning:card>
+</aura:component>

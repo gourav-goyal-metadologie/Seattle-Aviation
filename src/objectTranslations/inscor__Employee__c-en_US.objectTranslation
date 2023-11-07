@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Zenkraft Integration Active? --></label>
+        <name>avszen__Zenkraft_Integration_Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Selected Metrics --></label>
+        <name>inscor__Account_Selected_Metrics__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used in Work Orders when generating the 8130-3 for block 13c or 14c. --></help>
+        <label><!-- Approval/Certificate No --></label>
+        <name>inscor__Approval_Certificate_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company --></label>
+        <name>inscor__Company__c</name>
+        <relationshipLabel><!-- Employees --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Barcode Label Form --></label>
+        <name>inscor__Default_Barcode_Label_Form__c</name>
+        <relationshipLabel><!-- Employees --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Default Barcode Printer --></label>
+        <name>inscor__Default_Barcode_Printer__c</name>
+        <relationshipLabel><!-- Employees --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- If left blank the default is the Inventory tab. --></help>
+        <label><!-- Default Part Research Tab --></label>
+        <name>inscor__Default_Part_Research_Tab__c</name>
+        <picklistValues>
+            <masterLabel>History</masterLabel>
+            <translation><!-- History --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inventory</masterLabel>
+            <translation><!-- Inventory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing</masterLabel>
+            <translation><!-- Pricing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Research</masterLabel>
+            <translation><!-- Research --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Default Shipping Location --></label>
+        <name>inscor__Default_Shipping_Location__c</name>
+        <relationshipLabel><!-- Employees --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Email Signature --></label>
+        <name>inscor__Email_Signature__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee Name --></label>
+        <name>inscor__Employee_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hourly Rate --></label>
+        <name>inscor__Hourly_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- ILS Username --></label>
+        <name>inscor__ILS_Username__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line Tracking Header Fields --></label>
+        <name>inscor__Line_Tracking_Header_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manifest Line Fields --></label>
+        <name>inscor__Manifest_Line_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- Open Links in New Tab --></label>
+        <name>inscor__Open_Links_in_New_Tab__c</name>
+    </fields>
+    <fields>
+        <help><!-- used when signing off Tasks and Work Instructions in Work Orders. --></help>
+        <label><!-- PIN --></label>
+        <name>inscor__PIN__c</name>
+    </fields>
+    <fields>
+        <label><!-- PS Flag Setting --></label>
+        <name>inscor__PS_Flag_Setting__c</name>
+    </fields>
+    <fields>
+        <label><!-- PS History Tab Column1 Setting --></label>
+        <name>inscor__PS_History_Tab_Column1_Setting__c</name>
+    </fields>
+    <fields>
+        <label><!-- PS History Tab Column2 Setting --></label>
+        <name>inscor__PS_History_Tab_Column2_Setting__c</name>
+    </fields>
+    <fields>
+        <label><!-- PS Inventory Tab Setting --></label>
+        <name>inscor__PS_Inventory_Tab_Setting__c</name>
+    </fields>
+    <fields>
+        <label><!-- PS Pricing Tab Setting --></label>
+        <name>inscor__PS_Pricing_Tab_Setting__c</name>
+    </fields>
+    <fields>
+        <label><!-- PS Research Tab Setting --></label>
+        <name>inscor__PS_Research_Tab_Setting__c</name>
+    </fields>
+    <fields>
+        <label><!-- PartSearch Alternate Fields --></label>
+        <name>inscor__PartSearch_Alternate_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- PartSearch BOM  History Fields --></label>
+        <name>inscor__PartSearch_BOM_History_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- PartSearch Cust Exchange History Fields --></label>
+        <name>inscor__PartSearch_Cust_Exchange_History_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- PartSearch Customer Cont. Pricing Fields --></label>
+        <name>inscor__PartSearch_Customer_Cont_Pricing_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- PartSearch Inventory Fields --></label>
+        <name>inscor__PartSearch_Inventory_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- PartSearch Invoice Line History Fields --></label>
+        <name>inscor__PartSearch_Invoice_Line_History_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- PartSearch Master Fields --></label>
+        <name>inscor__PartSearch_Master_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- PartSearch Metrics --></label>
+        <name>inscor__PartSearch_Metrics__c</name>
+    </fields>
+    <fields>
+        <label><!-- PartSearch Pricing Fields --></label>
+        <name>inscor__PartSearch_Pricing_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- PartSearch Purchase History Fields --></label>
+        <name>inscor__PartSearch_Purchase_History_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- PartSearch Quote History Fields --></label>
+        <name>inscor__PartSearch_Quote_History_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- PartSearch RMA History Fields --></label>
+        <name>inscor__PartSearch_RMA_History_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- PartSearch Receipt History Fields --></label>
+        <name>inscor__PartSearch_Receipt_History_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- PartSearch Release Line History Fields --></label>
+        <name>inscor__PartSearch_Release_Line_History_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- PartSearch Repair Cont. Pricing Fields --></label>
+        <name>inscor__PartSearch_Repair_Cont_Pricing_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- PartSearch Repair Order History Fields --></label>
+        <name>inscor__PartSearch_Repair_Order_History_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- PartSearch Request Fields --></label>
+        <name>inscor__PartSearch_Request_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- PartSearch Request Item Fields --></label>
+        <name>inscor__PartSearch_Request_Item_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- PartSearch Sales History Fields --></label>
+        <name>inscor__PartSearch_Sales_History_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- PartSearch Secondary Inventory Fields --></label>
+        <name>inscor__PartSearch_Secondary_Inventory_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- PartSearch Stock Check History Fields --></label>
+        <name>inscor__PartSearch_Stock_Check_History_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- PartSearch Vendor Cont. Pricing Fields --></label>
+        <name>inscor__PartSearch_Vendor_Cont_Pricing_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- PartSearch Vendor Quote History Fields --></label>
+        <name>inscor__PartSearch_Vendor_Quote_History_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- PartSearch WO Allocation History Fields --></label>
+        <name>inscor__PartSearch_WO_Allocation_History_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part 360 Collapse Loaded Field --></label>
+        <name>inscor__Part_360_Collapse_Loaded_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part Research Search By NSN? --></label>
+        <name>inscor__Part_Research_Search_By_NSN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part Research Strip PN Active? --></label>
+        <name>inscor__Part_Research_Strip_PN_Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parts 360 Workspace Line Fields --></label>
+        <name>inscor__Parts_360_Workspace_Line_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- Profile --></label>
+        <name>inscor__Profile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purchase Selected Metrics --></label>
+        <name>inscor__Purchase_Selected_Metrics__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q360 Inventory Tab Setting --></label>
+        <name>inscor__Q360_Inventory_Tab_Setting__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q360 Pricing Tab Setting --></label>
+        <name>inscor__Q360_Pricing_Tab_Setting__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote360 Filter Setting --></label>
+        <name>inscor__Quote360_Filter_Setting__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote360 Status Filter --></label>
+        <name>inscor__Quote360_Status_Filter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote 360 Fields --></label>
+        <name>inscor__Quote_360_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Selected Metrics --></label>
+        <name>inscor__Quote_Selected_Metrics__c</name>
+    </fields>
+    <fields>
+        <label><!-- RFQ Selected Metrics --></label>
+        <name>inscor__RFQ_Selected_Metrics__c</name>
+    </fields>
+    <fields>
+        <label><!-- Repair Selected Metrics --></label>
+        <name>inscor__Repair_Selected_Metrics__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Selected Metrics --></label>
+        <name>inscor__Sales_Selected_Metrics__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show All Company Locations --></label>
+        <name>inscor__Show_All_Company_Locations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Future Shipments? --></label>
+        <name>inscor__Show_future_Shipments__c</name>
+    </fields>
+    <fields>
+        <help><!-- Best Image Size 300px x 40px in .png or .jpg --></help>
+        <label><!-- Signature --></label>
+        <name>inscor__Signature__c</name>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>inscor__User__c</name>
+        <relationshipLabel><!-- Employees --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Used in Work Order documents like Closeout Paperwork where user&apos;s ID are selected to be displayed along with the user&apos;s signature. --></help>
+        <label><!-- Employee ID --></label>
+        <name>inscor__WO_Inspector_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- WO Teardown Label --></label>
+        <name>inscor__WO_Teardown_Label__c</name>
+        <relationshipLabel><!-- Employees (WO Teardown Label) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- WO Teardown Printer --></label>
+        <name>inscor__WO_Teardown_Printer__c</name>
+        <relationshipLabel><!-- Employees (WO Teardown Printer) --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>AvSight Employee Layout v2</layout>
+        <sections>
+            <label><!-- Employee Information --></label>
+            <section>Employee Information</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- Part Research Tab Settings --></label>
+            <section>Part Research Tab Settings</section>
+        </sections>
+        <sections>
+            <label><!-- Security Information --></label>
+            <section>Security Information</section>
+        </sections>
+        <sections>
+            <label><!-- Settings --></label>
+            <section>Settings</section>
+        </sections>
+        <sections>
+            <label><!-- Signatures --></label>
+            <section>Signatures</section>
+        </sections>
+        <sections>
+            <label><!-- Work Order Information --></label>
+            <section>Work Order Information</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Minimum 6 digit pin required --></errorMessage>
+        <name>inscor__PIN_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- User is required --></errorMessage>
+        <name>inscor__User_is_Required</name>
+    </validationRules>
+</CustomObjectTranslation>

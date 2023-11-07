@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Condition --></label>
+        <name>inscor__Condition__c</name>
+        <relationshipLabel><!-- Kit Lists --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Estimated Extended Cost --></label>
+        <name>inscor__Estimated_Extended_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Unit Cost --></label>
+        <name>inscor__Estimated_Unit_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Item Line # --></label>
+        <name>inscor__Item_Line__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kit --></label>
+        <name>inscor__Kit__c</name>
+        <relationshipLabel><!-- Kit Lists --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Part Number --></label>
+        <name>inscor__Part_Number__c</name>
+        <relationshipLabel><!-- Kit Lists --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>inscor__Quantity__c</name>
+    </fields>
+    <layouts>
+        <layout>Kit List Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

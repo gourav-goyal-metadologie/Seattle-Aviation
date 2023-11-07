@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Name --></label>
+        <name>inscor__Field_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Name --></label>
+        <name>inscor__Object_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used as Column Heading --></help>
+        <label><!-- Override Short Name --></label>
+        <name>inscor__Override_Short_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Short Name --></label>
+        <name>inscor__Short_Name__c</name>
+    </fields>
+</CustomObjectTranslation>

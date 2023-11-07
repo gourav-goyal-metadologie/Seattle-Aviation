@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Change Type AuditTrial --></label>
+        <name>QPMS__Change_Type_AuditTrial</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Change Type Contextual Help --></label>
+        <name>QPMS__Change_Type_Contextual_Help</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Change Type Fields --></label>
+        <name>QPMS__Change_Type_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Change Type Fields for Details and Print Page --></label>
+        <name>QPMS__Change_Type_Fields_for_Details_and_Print</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Change Type Header --></label>
+        <name>QPMS__Change_Type_Header</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Change Type Secuirty --></label>
+        <name>QPMS__Change_Type_Secuirty</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Change Type View --></label>
+        <name>QPMS__Change_Type_View</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QueryFields --></label>
+        <name>QPMS__QueryFields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Allow Workflow Configuration --></label>
+        <name>QPMS__Allow_Workflow_Configuration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Group --></label>
+        <name>QPMS__Approval_Group_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Group --></label>
+        <name>QPMS__Approval_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Authorized Entity --></label>
+        <name>QPMS__Authorized_Entity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Change Review Required --></label>
+        <name>QPMS__Change_Review_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Change Type --></label>
+        <name>QPMS__Change_Type__c</name>
+        <picklistValues>
+            <masterLabel>Document</masterLabel>
+            <translation><!-- Document --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equipment</masterLabel>
+            <translation><!-- Equipment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facility</masterLabel>
+            <translation><!-- Facility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT</masterLabel>
+            <translation><!-- IT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infrastructure</masterLabel>
+            <translation><!-- Infrastructure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Organization</masterLabel>
+            <translation><!-- Organization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Process</masterLabel>
+            <translation><!-- Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation><!-- Product --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Created By --></label>
+        <name>QPMS__Created_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Document Information Section --></label>
+        <name>QPMS__Enable_Document_Information_Section__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Impact Assessment --></label>
+        <name>QPMS__Enable_Impact_Assessment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Product Section --></label>
+        <name>QPMS__Enable_Product_Section__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Risk Assessment --></label>
+        <name>QPMS__Enable_Risk_Assessment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Security --></label>
+        <name>QPMS__Enable_Security__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initiating Site Security --></label>
+        <name>QPMS__Initiating_Site_Security__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initiating Site --></label>
+        <name>QPMS__Initiating_Site__c</name>
+        <relationshipLabel><!-- Change Types --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Justification --></label>
+        <name>QPMS__Justification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Scheme --></label>
+        <name>QPMS__Number_Scheme__c</name>
+        <relationshipLabel><!-- Change Types --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Owner Name --></label>
+        <name>QPMS__Owner_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Post Change Approval --></label>
+        <name>QPMS__Post_Change_Approval__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pre Change Approval --></label>
+        <name>QPMS__Pre_Change_Approval__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purpose --></label>
+        <name>QPMS__Purpose__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason --></label>
+        <name>QPMS__Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scope --></label>
+        <name>QPMS__Scope__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signed Off Details --></label>
+        <name>QPMS__Signed_Off_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>QPMS__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft;Active</masterLabel>
+            <translation><!-- Draft;Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>QPMS__Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valid Change Review Required --></label>
+        <name>QPMS__Valid_Change_Review_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- View Only Entity Group --></label>
+        <name>QPMS__View_Only_Entity_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- View Only Entity --></label>
+        <name>QPMS__View_Only_Entity__c</name>
+    </fields>
+    <layouts>
+        <layout>Change Type Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

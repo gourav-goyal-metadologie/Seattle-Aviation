@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- US FDA Audit Trail --></label>
+        <name>QPMS__US_FDA_Audit_Trail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA QueryFields --></label>
+        <name>QPMS__US_FDA_QueryFields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- ComplaintId --></label>
+        <name>QPMS__ComplaintId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Conclusions --></help>
+        <label><!-- Conclusions --></label>
+        <name>QPMS__Conclusions__c</name>
+        <relationshipLabel><!-- Evaluation Codes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Device Manufacturers Only --></label>
+        <name>QPMS__Device_Manufacturers_Only__c</name>
+        <relationshipLabel><!-- Evaluation Codes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Follow Up Number --></label>
+        <name>QPMS__Follow_Up_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Method --></help>
+        <label><!-- Method --></label>
+        <name>QPMS__Method__c</name>
+        <relationshipLabel><!-- Evaluation Codes (Method) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Regulatory Body --></label>
+        <name>QPMS__Regulatory_Body__c</name>
+    </fields>
+    <fields>
+        <help><!-- Results --></help>
+        <label><!-- Results --></label>
+        <name>QPMS__Results__c</name>
+        <relationshipLabel><!-- Evaluation Codes (Results) --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

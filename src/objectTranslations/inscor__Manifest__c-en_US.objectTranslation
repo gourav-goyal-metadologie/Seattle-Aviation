@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Business Category Auto Update? --></label>
+        <name>inscor__Business_Category_Auto_Update__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Category --></label>
+        <name>inscor__Business_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company --></label>
+        <name>inscor__Company__c</name>
+        <relationshipLabel><!-- Manifests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Hide From Services --></label>
+        <name>inscor__Hide_From_Services__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inventory --></label>
+        <name>inscor__Inventory__c</name>
+        <relationshipLabel><!-- Manifests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Manifest Name --></label>
+        <name>inscor__Manifest_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manifest Receiving Options --></label>
+        <name>inscor__Manifest_Receiving_Options__c</name>
+        <picklistValues>
+            <masterLabel>Allow Additional Receipts</masterLabel>
+            <translation><!-- Allow Additional Receipts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receive against Manifest Only</masterLabel>
+            <translation><!-- Receive against Manifest Only --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Received Date --></label>
+        <name>inscor__Received_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Repair Order --></label>
+        <name>inscor__Repair_Order__c</name>
+        <relationshipLabel><!-- Manifests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Repair Vendor --></label>
+        <name>inscor__Repair_Vendor__c</name>
+        <relationshipLabel><!-- Manifests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>inscor__Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Manifest Layout</layout>
+        <sections>
+            <label><!-- Manifest Information --></label>
+            <section>Manifest Information</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Auto Update Cannot be true when Business Category Selected. --></errorMessage>
+        <name>inscor__Business_Category_blank_Auto_Update</name>
+    </validationRules>
+</CustomObjectTranslation>

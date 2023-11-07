@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Export Controlled? --></label>
+        <name>inscor__Export_Controlled__c</name>
+    </fields>
+    <layouts>
+        <layout>ECCN Layout</layout>
+        <sections>
+            <label><!-- ECCN Information --></label>
+            <section>ECCN Information</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

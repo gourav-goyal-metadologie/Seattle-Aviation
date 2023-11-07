@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- AsyncApexJobId --></label>
+        <name>QPMS__AsyncApexJobId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Batch Apex Error Log --></label>
+        <name>QPMS__BatchApexErrorLog__c</name>
+        <relationshipLabel><!-- Batch Apex Errors --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Does Exceed Job Scope Max Length --></label>
+        <name>QPMS__DoesExceedJobScopeMaxLength__c</name>
+    </fields>
+    <fields>
+        <label><!-- ErrorScope --></label>
+        <name>QPMS__ErrorScope__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exception Type --></label>
+        <name>QPMS__ExceptionType__c</name>
+    </fields>
+    <fields>
+        <label><!-- FailedRecords --></label>
+        <name>QPMS__FailedRecords__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsTriggeredFromEvent --></label>
+        <name>QPMS__IsTriggeredFromEvent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Apex Class --></label>
+        <name>QPMS__JobApexClass__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Scope --></label>
+        <name>QPMS__JobScope__c</name>
+    </fields>
+    <fields>
+        <label><!-- Message --></label>
+        <name>QPMS__Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Id --></label>
+        <name>QPMS__RequestId__c</name>
+    </fields>
+    <fields>
+        <label><!-- ScopeCount --></label>
+        <name>QPMS__ScopeCount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stack Trace --></label>
+        <name>QPMS__StackTrace__c</name>
+    </fields>
+    <fields>
+        <label><!-- #TimesReExecuted --></label>
+        <name>QPMS__TimesReExecuted__c</name>
+    </fields>
+    <layouts>
+        <layout>Batch Apex Error Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

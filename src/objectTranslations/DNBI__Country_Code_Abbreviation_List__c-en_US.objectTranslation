@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Code --></label>
+        <name>DNBI__Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- ISO Country Name --></label>
+        <name>DNBI__ISO_Country_Name__c</name>
+    </fields>
+</CustomObjectTranslation>

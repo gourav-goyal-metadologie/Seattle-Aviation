@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Scorecard History --></label>
+        <name>QPMS__Scorecard_History</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Active Suppliers --></label>
+        <name>QPMS__Active_Suppliers__c</name>
+    </fields>
+    <fields>
+        <label><!-- All Suppliers --></label>
+        <name>QPMS__All_Suppliers__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>QPMS__End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Module --></label>
+        <name>QPMS__Module__c</name>
+        <picklistValues>
+            <masterLabel>Audit</masterLabel>
+            <translation><!-- Audit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAPA</masterLabel>
+            <translation><!-- CAPA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inspection</masterLabel>
+            <translation><!-- Inspection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC</masterLabel>
+            <translation><!-- NC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Observation</masterLabel>
+            <translation><!-- Observation --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Score Card Status --></label>
+        <name>QPMS__Score_Card_Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inprogress</masterLabel>
+            <translation><!-- Inprogress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Started</masterLabel>
+            <translation><!-- Started --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Search Modules --></label>
+        <name>QPMS__Search_Modules__c</name>
+    </fields>
+    <fields>
+        <label><!-- Selected Suppliers --></label>
+        <name>QPMS__Selected_Suppliers_Names__c</name>
+    </fields>
+    <fields>
+        <label><!-- Selected Suppliers --></label>
+        <name>QPMS__Selected_Suppliers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>QPMS__Start_Date__c</name>
+    </fields>
+    <layouts>
+        <layout>Score Card Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Start date can not be greater than today. --></errorMessage>
+        <name>QPMS__Compare_Start_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- End date can not be greater than today. --></errorMessage>
+        <name>QPMS__End_Date_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Start date should not be greater than End date. --></errorMessage>
+        <name>QPMS__Start_Date_Validation</name>
+    </validationRules>
+</CustomObjectTranslation>

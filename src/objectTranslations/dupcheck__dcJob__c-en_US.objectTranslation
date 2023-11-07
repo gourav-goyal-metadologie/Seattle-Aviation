@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Ended --></label>
+        <name>dupcheck__Ended__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error Count --></label>
+        <name>dupcheck__ErrorCount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Duplicate Added --></label>
+        <name>dupcheck__LastDuplicateAdded__c</name>
+    </fields>
+    <fields>
+        <label><!-- Started --></label>
+        <name>dupcheck__Started__c</name>
+    </fields>
+    <fields>
+        <label><!-- Apex Job Id --></label>
+        <name>dupcheck__apex__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auto Process Convert Owner --></label>
+        <name>dupcheck__autoProcessConvertOwner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auto Process Convert Status --></label>
+        <name>dupcheck__autoProcessConvertStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auto Process Threshold --></label>
+        <name>dupcheck__autoProcessThreshold__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auto Process Type --></label>
+        <name>dupcheck__autoProcessType__c</name>
+        <picklistValues>
+            <masterLabel>CONVERT</masterLabel>
+            <translation><!-- CONVERT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MERGE</masterLabel>
+            <translation><!-- MERGE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NONE</masterLabel>
+            <translation><!-- NONE --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Average Score --></label>
+        <name>dupcheck__avgScore__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duplicate Count --></label>
+        <name>dupcheck__duplicateCount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error Message --></label>
+        <name>dupcheck__errorMessage__c</name>
+    </fields>
+    <fields>
+        <label><!-- filter match --></label>
+        <name>dupcheck__filterMatch__c</name>
+    </fields>
+    <fields>
+        <label><!-- Filter On --></label>
+        <name>dupcheck__filterOn__c</name>
+        <picklistValues>
+            <masterLabel>all</masterLabel>
+            <translation><!-- all --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>filter</masterLabel>
+            <translation><!-- filter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>predefined</masterLabel>
+            <translation><!-- predefined --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Filter With --></label>
+        <name>dupcheck__filterWith__c</name>
+        <picklistValues>
+            <masterLabel>all</masterLabel>
+            <translation><!-- all --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>filter</masterLabel>
+            <translation><!-- filter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>predefined</masterLabel>
+            <translation><!-- predefined --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>source</masterLabel>
+            <translation><!-- source --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- filter --></label>
+        <name>dupcheck__filter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Count --></label>
+        <name>dupcheck__groupCounter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has Hit License Limit --></label>
+        <name>dupcheck__hitLicenseLimit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lowest Score --></label>
+        <name>dupcheck__lowScore__c</name>
+    </fields>
+    <fields>
+        <label><!-- Match Object --></label>
+        <name>dupcheck__matchObject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>dupcheck__name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Job --></label>
+        <name>dupcheck__parent__c</name>
+        <relationshipLabel><!-- Duplicate Check Jobs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Processed Records --></label>
+        <name>dupcheck__processedRecords__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Count --></label>
+        <name>dupcheck__recordCount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scenario --></label>
+        <name>dupcheck__scenario__c</name>
+    </fields>
+    <fields>
+        <label><!-- Schedule --></label>
+        <name>dupcheck__schedule__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Object --></label>
+        <name>dupcheck__sourceObject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>dupcheck__status__c</name>
+        <picklistValues>
+            <masterLabel>Aborted</masterLabel>
+            <translation><!-- Aborted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sum Score --></label>
+        <name>dupcheck__sumScore__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>dupcheck__type__c</name>
+        <picklistValues>
+            <masterLabel>convert</masterLabel>
+            <translation><!-- convert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>delta</masterLabel>
+            <translation><!-- delta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>deltasingle</masterLabel>
+            <translation><!-- deltasingle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>direct</masterLabel>
+            <translation><!-- direct --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>index</masterLabel>
+            <translation><!-- index --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>localindex</masterLabel>
+            <translation><!-- localindex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>merge</masterLabel>
+            <translation><!-- merge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>search</masterLabel>
+            <translation><!-- search --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>search-ext</masterLabel>
+            <translation><!-- search-ext --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>setformerge</masterLabel>
+            <translation><!-- setformerge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>unique</masterLabel>
+            <translation><!-- unique --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>web2lead</masterLabel>
+            <translation><!-- web2lead --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- External worker data --></label>
+        <name>dupcheck__workerData__c</name>
+    </fields>
+    <layouts>
+        <layout>Duplicate Check Job Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

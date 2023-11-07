@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- History Fields --></label>
+        <name>QPMS__History_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QueryFields --></label>
+        <name>QPMS__QueryFields</name>
+    </fieldSets>
+    <fields>
+        <help><!-- Captures the action on the record i.e Created,Updated and Deleted --></help>
+        <label><!-- Action --></label>
+        <name>QPMS__Action__c</name>
+        <picklistValues>
+            <masterLabel>Created</masterLabel>
+            <translation><!-- Created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deleted</masterLabel>
+            <translation><!-- Deleted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Updated</masterLabel>
+            <translation><!-- Updated --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Lookup to Asset Profile --></help>
+        <label><!-- Asset Profile --></label>
+        <name>QPMS__Asset_Profile__c</name>
+        <relationshipLabel><!-- CSMS Histories --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CSMS Standard --></label>
+        <name>QPMS__CSMS_Standard__c</name>
+        <relationshipLabel><!-- CSMS Histories --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Lookup to Calibration --></help>
+        <label><!-- Calibration --></label>
+        <name>QPMS__Calibration__c</name>
+        <relationshipLabel><!-- CSMS Histories --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>QPMS__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Captures the field API name in audit trail --></help>
+        <label><!-- FieldAPIName --></label>
+        <name>QPMS__FieldAPIName__c</name>
+    </fields>
+    <fields>
+        <help><!-- Captures the field name for audit trail --></help>
+        <label><!-- FieldName --></label>
+        <name>QPMS__FieldName__c</name>
+    </fields>
+    <fields>
+        <help><!-- Captures the object which is being audit trailed --></help>
+        <label><!-- HistoryObject --></label>
+        <name>QPMS__HistoryObject__c</name>
+        <picklistValues>
+            <masterLabel>Adhoc</masterLabel>
+            <translation><!-- Adhoc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asset_Profile_Criteria__c</masterLabel>
+            <translation><!-- Asset_Profile_Criteria__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asset_Profile__c</masterLabel>
+            <translation><!-- Asset_Profile__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSMS_Approver__c</masterLabel>
+            <translation><!-- CSMS_Approver__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSMS_General_Sub_Task__c</masterLabel>
+            <translation><!-- CSMS_General_Sub_Task__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSMS_General_Task__c</masterLabel>
+            <translation><!-- CSMS_General_Task__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSMS_Standard_Asset__c</masterLabel>
+            <translation><!-- CSMS_Standard_Asset__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSMS_Standard_Criteria__c</masterLabel>
+            <translation><!-- CSMS_Standard_Criteria__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSMS_Standard_General_Task__c</masterLabel>
+            <translation><!-- CSMS_Standard_General_Task__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSMS_Standard__c</masterLabel>
+            <translation><!-- CSMS_Standard__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calibrate</masterLabel>
+            <translation><!-- Calibrate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calibration_Criteria__c</masterLabel>
+            <translation><!-- Calibration_Criteria__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calibration__c</masterLabel>
+            <translation><!-- Calibration__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closure</masterLabel>
+            <translation><!-- Closure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maintenance_Criteria__c</masterLabel>
+            <translation><!-- Maintenance_Criteria__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maintenance_Spare_Part__c</masterLabel>
+            <translation><!-- Maintenance_Spare_Part__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maintenance__c</masterLabel>
+            <translation><!-- Maintenance__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R_R_Study_Profile__c</masterLabel>
+            <translation><!-- R_R_Study_Profile__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schedule__c</masterLabel>
+            <translation><!-- Schedule__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Variable_Data__c</masterLabel>
+            <translation><!-- Variable_Data__c --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last ModifiedBy --></label>
+        <name>QPMS__Last_ModifiedBy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Maintenance --></label>
+        <name>QPMS__Maintenance__c</name>
+        <relationshipLabel><!-- CSMS Histories --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- New Value of the record --></help>
+        <label><!-- NewValue --></label>
+        <name>QPMS__NewValue__c</name>
+    </fields>
+    <fields>
+        <help><!-- Old Value --></help>
+        <label><!-- OldValue --></label>
+        <name>QPMS__OldValue__c</name>
+    </fields>
+    <fields>
+        <help><!-- Captures the section of  audit trail --></help>
+        <label><!-- Sub Parent --></label>
+        <name>QPMS__Sub_Parent__c</name>
+        <picklistValues>
+            <masterLabel>Adhoc</masterLabel>
+            <translation><!-- Adhoc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adhoc Action</masterLabel>
+            <translation><!-- Adhoc Action --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adhoc Approval</masterLabel>
+            <translation><!-- Adhoc Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adhoc Change Due Date</masterLabel>
+            <translation><!-- Adhoc Change Due Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adhoc Change Due Date Approval</masterLabel>
+            <translation><!-- Adhoc Change Due Date Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adhoc Change Owner</masterLabel>
+            <translation><!-- Adhoc Change Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adhoc Change Owner Approval</masterLabel>
+            <translation><!-- Adhoc Change Owner Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adhoc Reassign Approver</masterLabel>
+            <translation><!-- Adhoc Reassign Approver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adhoc Task</masterLabel>
+            <translation><!-- Adhoc Task --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asset Details</masterLabel>
+            <translation><!-- Asset Details --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asset Profile Criteria</masterLabel>
+            <translation><!-- Asset Profile Criteria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asset Schedule</masterLabel>
+            <translation><!-- Asset Schedule --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSMS Standard Approval</masterLabel>
+            <translation><!-- CSMS Standard Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSMS Standard Change Owner Approval</masterLabel>
+            <translation><!-- CSMS Standard Change Owner Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSMS Standard Criteria</masterLabel>
+            <translation><!-- CSMS Standard Criteria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSMS Standard Init</masterLabel>
+            <translation><!-- CSMS Standard Init --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSMS Standard Reassign Approver</masterLabel>
+            <translation><!-- CSMS Standard Reassign Approver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSMS Standard Status Change Approval</masterLabel>
+            <translation><!-- CSMS Standard Status Change Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calibrate</masterLabel>
+            <translation><!-- Calibrate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calibrate Approval</masterLabel>
+            <translation><!-- Calibrate Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calibrate Change Due Date</masterLabel>
+            <translation><!-- Calibrate Change Due Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calibrate Change Due Date Approval</masterLabel>
+            <translation><!-- Calibrate Change Due Date Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calibrate Change Owner</masterLabel>
+            <translation><!-- Calibrate Change Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calibrate Change Owner Approval</masterLabel>
+            <translation><!-- Calibrate Change Owner Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calibrate Reassign Approver</masterLabel>
+            <translation><!-- Calibrate Reassign Approver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calibration Approval</masterLabel>
+            <translation><!-- Calibration Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calibration Change Due Date</masterLabel>
+            <translation><!-- Calibration Change Due Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calibration Change Due Date Approval</masterLabel>
+            <translation><!-- Calibration Change Due Date Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calibration Change Owner</masterLabel>
+            <translation><!-- Calibration Change Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calibration Change Owner Approval</masterLabel>
+            <translation><!-- Calibration Change Owner Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calibration Criteria</masterLabel>
+            <translation><!-- Calibration Criteria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calibration Details</masterLabel>
+            <translation><!-- Calibration Details --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calibration Init</masterLabel>
+            <translation><!-- Calibration Init --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calibration Reassign Approver</masterLabel>
+            <translation><!-- Calibration Reassign Approver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calibration Schedule</masterLabel>
+            <translation><!-- Calibration Schedule --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calibration Void</masterLabel>
+            <translation><!-- Calibration Void --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closure</masterLabel>
+            <translation><!-- Closure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closure Approval</masterLabel>
+            <translation><!-- Closure Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closure Change Due Date</masterLabel>
+            <translation><!-- Closure Change Due Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closure Change Due Date Approval</masterLabel>
+            <translation><!-- Closure Change Due Date Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closure Change Owner</masterLabel>
+            <translation><!-- Closure Change Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closure Change Owner Approval</masterLabel>
+            <translation><!-- Closure Change Owner Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closure Reassign Approver</masterLabel>
+            <translation><!-- Closure Reassign Approver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maintenance</masterLabel>
+            <translation><!-- Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maintenance Approval</masterLabel>
+            <translation><!-- Maintenance Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maintenance Change Due Date</masterLabel>
+            <translation><!-- Maintenance Change Due Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maintenance Change Due Date Approval</masterLabel>
+            <translation><!-- Maintenance Change Due Date Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maintenance Change Owner</masterLabel>
+            <translation><!-- Maintenance Change Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maintenance Change Owner Approval</masterLabel>
+            <translation><!-- Maintenance Change Owner Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maintenance Criteria</masterLabel>
+            <translation><!-- Maintenance Criteria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maintenance Init</masterLabel>
+            <translation><!-- Maintenance Init --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maintenance Reassign Approver</masterLabel>
+            <translation><!-- Maintenance Reassign Approver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maintenance Schedule</masterLabel>
+            <translation><!-- Maintenance Schedule --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maintenance Void</masterLabel>
+            <translation><!-- Maintenance Void --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R&amp;R Study Profile</masterLabel>
+            <translation><!-- R&amp;R Study Profile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reference</masterLabel>
+            <translation><!-- Reference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Security</masterLabel>
+            <translation><!-- Security --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spare Part Details</masterLabel>
+            <translation><!-- Spare Part Details --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Variable Data</masterLabel>
+            <translation><!-- Variable Data --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

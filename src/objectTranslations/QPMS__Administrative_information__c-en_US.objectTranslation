@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Europe Audit Trail --></label>
+        <name>QPMS__Europe_Audit_Trail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe Audit Trail Authorized --></label>
+        <name>QPMS__Europe_Audit_Trail_Authorized</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe Audit Trail Manufacturer --></label>
+        <name>QPMS__Europe_Audit_Trail_Manufacturer</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe Audit Trail Submitters Details --></label>
+        <name>QPMS__Europe_Audit_Trail_Submitters_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe Authorised representative information --></label>
+        <name>QPMS__Europe_Authorised_representative_informa</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe Classification of incident --></label>
+        <name>QPMS__Europe_Classification_of_incident</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe Corresponding competent authority --></label>
+        <name>QPMS__Europe_Corresponding_competent_authority</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe Date, type, and classification of incident report --></label>
+        <name>QPMS__Europe_Date_type_and_classification_of</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe In case of initial and follow-up reports --></label>
+        <name>QPMS__Europe_In_case_of_initial_and_follow_up</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe Manufacturer information --></label>
+        <name>QPMS__Europe_Manufacturer_information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe Periodic Summary &amp; investigation --></label>
+        <name>QPMS__Europe_Periodic_Summary_investigation</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe QueryFields --></label>
+        <name>QPMS__Europe_QueryFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe Submitter of the report --></label>
+        <name>QPMS__Europe_Submitter_of_the_report</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe Submitter’s details if not also manufacturer --></label>
+        <name>QPMS__Europe_Submitter_s_details_if_not_also</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe Type of report --></label>
+        <name>QPMS__Europe_Type_of_report</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe incident involves multiple devices --></label>
+        <name>QPMS__Europe_incident_involves_multiple_device</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe incident is covered under an FSCA --></label>
+        <name>QPMS__Europe_incident_is_covered_under_an_FSCA</name>
+    </fieldSets>
+    <fields>
+        <help><!-- Address complement --></help>
+        <label><!-- Address complement --></label>
+        <name>QPMS__Address_complement_Manufacturer__c</name>
+    </fields>
+    <fields>
+        <help><!-- Address complement --></help>
+        <label><!-- Address complement --></label>
+        <name>QPMS__Address_complement_Submitter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address complement --></label>
+        <name>QPMS__Address_complement_authorized__c</name>
+    </fields>
+    <fields>
+        <label><!-- All other reportable incidents --></label>
+        <name>QPMS__All_other_reportable_incidents__c</name>
+    </fields>
+    <fields>
+        <help><!-- Authorization representative organization name --></help>
+        <label><!-- Authorization representative org name --></label>
+        <name>QPMS__Authorization_representative_org_name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Authorized Representative --></label>
+        <name>QPMS__Authorized_Representative__c</name>
+    </fields>
+    <fields>
+        <help><!-- City name --></help>
+        <label><!-- City name --></label>
+        <name>QPMS__City_name_Manufacturer__c</name>
+    </fields>
+    <fields>
+        <help><!-- City name --></help>
+        <label><!-- City name --></label>
+        <name>QPMS__City_name_Submitter__c</name>
+    </fields>
+    <fields>
+        <help><!-- City name --></help>
+        <label><!-- City name --></label>
+        <name>QPMS__City_name_authorized__c</name>
+    </fields>
+    <fields>
+        <label><!-- Combined initial and final --></label>
+        <name>QPMS__Combined_initial_and_final__c</name>
+    </fields>
+    <fields>
+        <help><!-- Complaint Id --></help>
+        <label><!-- ComplaintId --></label>
+        <name>QPMS__ComplaintId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Contact’s first name --></help>
+        <label><!-- Contact’s first name --></label>
+        <name>QPMS__Contact_s_first_name_Manufacturer__c</name>
+    </fields>
+    <fields>
+        <help><!-- Contact’s first name --></help>
+        <label><!-- Contact’s first name --></label>
+        <name>QPMS__Contact_s_first_name_Submitter__c</name>
+    </fields>
+    <fields>
+        <help><!-- Contact’s first name --></help>
+        <label><!-- Contact’s first name --></label>
+        <name>QPMS__Contact_s_first_name_authorized__c</name>
+    </fields>
+    <fields>
+        <help><!-- Contact’s last name --></help>
+        <label><!-- Contact’s last name --></label>
+        <name>QPMS__Contact_s_last_name_Manufacturer__c</name>
+    </fields>
+    <fields>
+        <help><!-- Contact’s last name --></help>
+        <label><!-- Contact’s last name --></label>
+        <name>QPMS__Contact_s_last_name_Submitter__c</name>
+    </fields>
+    <fields>
+        <help><!-- Contact’s last name --></help>
+        <label><!-- Contact’s last name --></label>
+        <name>QPMS__Contact_s_last_name_authorized__c</name>
+    </fields>
+    <fields>
+        <help><!-- Country --></help>
+        <label><!-- Country --></label>
+        <name>QPMS__Country_Manufacturer__c</name>
+    </fields>
+    <fields>
+        <help><!-- Country --></help>
+        <label><!-- Country --></label>
+        <name>QPMS__Country_Submitter__c</name>
+    </fields>
+    <fields>
+        <help><!-- Country --></help>
+        <label><!-- Country --></label>
+        <name>QPMS__Country_authorized__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date of incident --></help>
+        <label><!-- To --></label>
+        <name>QPMS__Date_of_incident_To__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of incident --></label>
+        <name>QPMS__Date_of_incident__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of submission --></label>
+        <name>QPMS__Date_of_submission__c</name>
+    </fields>
+    <fields>
+        <label><!-- Death --></label>
+        <name>QPMS__Death__c</name>
+    </fields>
+    <fields>
+        <label><!-- EUDAMED number of NCA --></label>
+        <name>QPMS__EUDAMED_number_of_NCA__c</name>
+    </fields>
+    <fields>
+        <label><!-- EUDAMED&apos;s FSCA reference number --></label>
+        <name>QPMS__EUDAMED_s_FSCA_reference_number__c</name>
+    </fields>
+    <fields>
+        <label><!-- EUDAMED&apos;s reference number --></label>
+        <name>QPMS__EUDAMED_s_reference_number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Email --></help>
+        <label><!-- Email --></label>
+        <name>QPMS__Email_Manufacturer__c</name>
+    </fields>
+    <fields>
+        <help><!-- Email --></help>
+        <label><!-- Email --></label>
+        <name>QPMS__Email_Submitter__c</name>
+    </fields>
+    <fields>
+        <help><!-- Email --></help>
+        <label><!-- Email --></label>
+        <name>QPMS__Email_authorized__c</name>
+    </fields>
+    <fields>
+        <label><!-- Eudamed ID of PMCF/PMPF Investigation --></label>
+        <name>QPMS__Eudamed_ID_of_PMCF_PMPF_Investigation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expected Date Of The Next Report --></label>
+        <name>QPMS__Expected_Date_Of_The_Next_Report__c</name>
+    </fields>
+    <fields>
+        <label><!-- Final (Non-reportable incident) --></label>
+        <name>QPMS__Final_Non_reportable_incident__c</name>
+    </fields>
+    <fields>
+        <label><!-- Final (Reportable incident) --></label>
+        <name>QPMS__Final_Reportable_incident__c</name>
+    </fields>
+    <fields>
+        <label><!-- Follow Up Number --></label>
+        <name>QPMS__Follow_Up_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Follow up --></label>
+        <name>QPMS__Follow_up__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial --></label>
+        <name>QPMS__Initial__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer --></label>
+        <name>QPMS__Manufacturer__c</name>
+    </fields>
+    <fields>
+        <help><!-- Manufacturer awareness date --></help>
+        <label><!-- Manufacturer awareness date --></label>
+        <name>QPMS__Manufacturer_awareness_date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Manufacturer organisation name --></help>
+        <label><!-- Manufacturer organisation name --></label>
+        <name>QPMS__Manufacturer_organisation_name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer&apos;s FSCA reference number --></label>
+        <name>QPMS__Manufacturer_s_FSCA_reference_number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer&apos;s reference number --></label>
+        <name>QPMS__Manufacturer_s_reference_number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer&apos;s reference number incident --></label>
+        <name>QPMS__Manufacturer_s_reference_number_incident__c</name>
+    </fields>
+    <fields>
+        <label><!-- NCA&apos;s local FSCA reference number --></label>
+        <name>QPMS__NCA_s_local_FSCA_reference_number__c</name>
+    </fields>
+    <fields>
+        <label><!-- NCA&apos;s local reference number --></label>
+        <name>QPMS__NCA_s_local_reference_number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name of receiving national competent aut --></label>
+        <name>QPMS__Name_of_receiving_national_competent_aut__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other, please specify --></label>
+        <name>QPMS__Other_please_specify__c</name>
+    </fields>
+    <fields>
+        <help><!-- PO Box --></help>
+        <label><!-- PO Box --></label>
+        <name>QPMS__PO_Box_Manufacturer__c</name>
+    </fields>
+    <fields>
+        <help><!-- PO Box --></help>
+        <label><!-- PO Box --></label>
+        <name>QPMS__PO_Box_Submitter__c</name>
+    </fields>
+    <fields>
+        <help><!-- PO Box --></help>
+        <label><!-- PO Box --></label>
+        <name>QPMS__PO_Box_authorized__c</name>
+    </fields>
+    <fields>
+        <label><!-- Periodic Summary Report (PSR) ID --></label>
+        <name>QPMS__Periodic_Summary_Report_PSR_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Phone --></help>
+        <label><!-- Phone --></label>
+        <name>QPMS__Phone_Manufacturer__c</name>
+    </fields>
+    <fields>
+        <help><!-- Phone --></help>
+        <label><!-- Phone --></label>
+        <name>QPMS__Phone_Submitter__c</name>
+    </fields>
+    <fields>
+        <help><!-- Phone --></help>
+        <label><!-- Phone --></label>
+        <name>QPMS__Phone_authorized__c</name>
+    </fields>
+    <fields>
+        <help><!-- Postal code --></help>
+        <label><!-- Postal code --></label>
+        <name>QPMS__Postal_code_Manufacturer__c</name>
+    </fields>
+    <fields>
+        <help><!-- Postal code --></help>
+        <label><!-- Postal code --></label>
+        <name>QPMS__Postal_code_Submitter__c</name>
+    </fields>
+    <fields>
+        <help><!-- Postal code --></help>
+        <label><!-- Postal code --></label>
+        <name>QPMS__Postal_code_authorized__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference number assigned by EUDAMED --></label>
+        <name>QPMS__Reference_number_assigned_by_EUDAMED__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference number assigned by NCA --></label>
+        <name>QPMS__Reference_number_assigned_by_NCA__c</name>
+    </fields>
+    <fields>
+        <help><!-- Registered commercial name of company --></help>
+        <label><!-- Registered commercial name of company --></label>
+        <name>QPMS__Registered_commercial_name_of_company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regulatory Body --></label>
+        <name>QPMS__Regulatory_Body__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regulatory Report --></label>
+        <name>QPMS__Regulatory_Report__c</name>
+        <relationshipLabel><!-- Administrative informations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Serious public health threat --></label>
+        <name>QPMS__Serious_public_health_threat__c</name>
+    </fields>
+    <fields>
+        <help><!-- Single Registration Number --></help>
+        <label><!-- Single Registration Number --></label>
+        <name>QPMS__Single_Registration_Number_Authorized__c</name>
+    </fields>
+    <fields>
+        <help><!-- Single registration number --></help>
+        <label><!-- Single registration number --></label>
+        <name>QPMS__Single_registration_number_Manufacturer__c</name>
+    </fields>
+    <fields>
+        <help><!-- Street --></help>
+        <label><!-- Street --></label>
+        <name>QPMS__Street_Authorized__c</name>
+    </fields>
+    <fields>
+        <help><!-- Street --></help>
+        <label><!-- Street --></label>
+        <name>QPMS__Street_Manufacturer__c</name>
+    </fields>
+    <fields>
+        <help><!-- Street --></help>
+        <label><!-- Street --></label>
+        <name>QPMS__Street_Submitter__c</name>
+    </fields>
+    <fields>
+        <help><!-- Street number --></help>
+        <label><!-- Street number --></label>
+        <name>QPMS__Street_number_Manufacturer__c</name>
+    </fields>
+    <fields>
+        <help><!-- Street number --></help>
+        <label><!-- Street number --></label>
+        <name>QPMS__Street_number_Submitter__c</name>
+    </fields>
+    <fields>
+        <help><!-- Street number --></help>
+        <label><!-- Street number --></label>
+        <name>QPMS__Street_number_authorized__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unanticipated serious deterioration --></label>
+        <name>QPMS__Unanticipated_serious_deterioration__c</name>
+    </fields>
+</CustomObjectTranslation>

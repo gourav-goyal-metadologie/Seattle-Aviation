@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- CEMInitAuditTrial --></label>
+        <name>QPMS__CEMInitAuditTrial</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CEM Contextual help --></label>
+        <name>QPMS__CEM_Contextual_help</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CEM Header --></label>
+        <name>QPMS__CEM_Header</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CEM Header For Mobile --></label>
+        <name>QPMS__CEM_Header_For_Mobile</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CEM Init --></label>
+        <name>QPMS__CEM_Init</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CEM Type Approval Audit Trail --></label>
+        <name>QPMS__CEM_Type_Approval_Audit_Trail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CEM View --></label>
+        <name>QPMS__CEM_View</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Enable Section Fields --></label>
+        <name>QPMS__Enable_Section_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QueryFields --></label>
+        <name>QPMS__QueryFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Resolution Fields --></label>
+        <name>QPMS__Resolution_Fields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Adverse Event Codes --></label>
+        <name>QPMS__Adverse_Event_Codes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allow Multiple Product --></label>
+        <name>QPMS__Allow_Multiple_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- ApprovalProcess --></label>
+        <name>QPMS__ApprovalProcess__c</name>
+        <picklistValues>
+            <masterLabel>CEMTypeStatusChange</masterLabel>
+            <translation><!-- CEMTypeStatusChange --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approval Group --></label>
+        <name>QPMS__Approval_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Process Complete --></label>
+        <name>QPMS__Approval_Process_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Process Completed --></label>
+        <name>QPMS__Approval_Process_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Required --></label>
+        <name>QPMS__Approval_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>QPMS__Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recall</masterLabel>
+            <translation><!-- Recall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approver 1 --></label>
+        <name>QPMS__Approver_1__c</name>
+        <relationshipLabel><!-- Customer Experience Types (Approver 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 2 --></label>
+        <name>QPMS__Approver_2__c</name>
+        <relationshipLabel><!-- Customer Experience Types (Approver 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 3 --></label>
+        <name>QPMS__Approver_3__c</name>
+        <relationshipLabel><!-- Customer Experience Types (Approver 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 4 --></label>
+        <name>QPMS__Approver_4__c</name>
+        <relationshipLabel><!-- Customer Experience Types (Approver 4) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 5 --></label>
+        <name>QPMS__Approver_5__c</name>
+        <relationshipLabel><!-- Customer Experience Types (Approver 5) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 6 --></label>
+        <name>QPMS__Approver_6__c</name>
+        <relationshipLabel><!-- Customer Experience Types (Approver 6) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 7 --></label>
+        <name>QPMS__Approver_7__c</name>
+        <relationshipLabel><!-- Customer Experience Types (Approver 7) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 8 --></label>
+        <name>QPMS__Approver_8__c</name>
+        <relationshipLabel><!-- Customer Experience Types (Approver 8) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 9 --></label>
+        <name>QPMS__Approver_9__c</name>
+        <relationshipLabel><!-- Customer Experience Types (Approver 9) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver --></label>
+        <name>QPMS__Approver__c</name>
+        <relationshipLabel><!-- Customer Experience Types (Approver) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CEM Status --></label>
+        <name>QPMS__CEM_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Configure Workflow --></label>
+        <name>QPMS__Configure_Workflow__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field holds the sequence of the current approver who is supposed to approve the record --></help>
+        <label><!-- CurrentApprovalSequenceNumber --></label>
+        <name>QPMS__CurrentApprovalSequenceNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evaluation Codes --></label>
+        <name>QPMS__Evaluation_Codes__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Facility Information --></label>
+        <name>QPMS__Facility_Information__c</name>
+    </fields>
+    <fields>
+        <help><!-- The field is use store the initial submitter value from approval process --></help>
+        <label><!-- Initial Submitter --></label>
+        <name>QPMS__Initial_Submitter__c</name>
+        <relationshipLabel><!-- Customer Experience Types (Initial Submitter) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Initiating Site Security --></label>
+        <name>QPMS__Initiating_Site_Security__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initiating Site --></label>
+        <name>QPMS__Initiating_Site__c</name>
+        <relationshipLabel><!-- Customer Experience Types --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- last sync time of the complaint --></help>
+        <label><!-- Last Sync Time --></label>
+        <name>QPMS__Last_Sync_Time__c</name>
+    </fields>
+    <fields>
+        <help><!-- hold details of integration errors --></help>
+        <label><!-- Last Transaction Result --></label>
+        <name>QPMS__Last_Transaction_Result__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field stores notes for approvers when this record submitted for approval --></help>
+        <label><!-- Note To Approver --></label>
+        <name>QPMS__Note_To_Approver__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Scheme --></label>
+        <name>QPMS__Number_Scheme__c</name>
+        <relationshipLabel><!-- Customer Experience Types --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Owner Name --></label>
+        <name>QPMS__Owner_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Information --></label>
+        <name>QPMS__Product_Information__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Problem Codes --></label>
+        <name>QPMS__Product_Problem_Codes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purpose --></label>
+        <name>QPMS__Purpose__c</name>
+    </fields>
+    <fields>
+        <help><!-- To display the reson for active/inactive --></help>
+        <label><!-- Reason --></label>
+        <name>QPMS__Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regulatory Assessment --></label>
+        <name>QPMS__Regulatory_Assessment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regulatory Body --></label>
+        <name>QPMS__Regulatory_Body__c</name>
+        <picklistValues>
+            <masterLabel>Canada</masterLabel>
+            <translation><!-- Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Europe</masterLabel>
+            <translation><!-- Europe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US-FDA</masterLabel>
+            <translation><!-- US-FDA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Resolution Code --></label>
+        <name>QPMS__Resolution_Code__c</name>
+        <picklistValues>
+            <masterLabel>Complaint Workflow</masterLabel>
+            <translation><!-- Complaint Workflow --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sequence --></label>
+        <name>QPMS__Sequence__c</name>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation><!-- 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40</masterLabel>
+            <translation><!-- 40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50</masterLabel>
+            <translation><!-- 50 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60</masterLabel>
+            <translation><!-- 60 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>70</masterLabel>
+            <translation><!-- 70 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>80</masterLabel>
+            <translation><!-- 80 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>90</masterLabel>
+            <translation><!-- 90 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Signed Off Details --></label>
+        <name>QPMS__Signed_Off_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Site Location --></label>
+        <name>QPMS__Site_Location__c</name>
+        <relationshipLabel><!-- Customer Experience Types (Site Location) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>QPMS__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-Review</masterLabel>
+            <translation><!-- In-Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>QPMS__Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>QPMS__Type__c</name>
+        <picklistValues>
+            <masterLabel>Product Complaints</masterLabel>
+            <translation><!-- Product Complaints --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- User Information --></label>
+        <name>QPMS__User_Information__c</name>
+    </fields>
+    <fields>
+        <label><!-- isDisabled --></label>
+        <name>QPMS__isDisabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- isLocked --></label>
+        <name>QPMS__isLocked__c</name>
+    </fields>
+    <layouts>
+        <layout>Customer Experience Type Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

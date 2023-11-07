@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>AcctSeed__Bank_Reconciliation_Compact_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>AcctSeed__Bank_Reconciliation_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>AcctSeed__Bank_Account__c</fields>
+        <fields>AcctSeed__End_Date__c</fields>
+        <fields>AcctSeed__Ledger__c</fields>
+        <fields>AcctSeed__Type__c</fields>
+        <fields>AcctSeed__Status__c</fields>
+        <label>Bank Reconciliation Compact Layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Used to document all aggregate bank reconciliation activity for a defined period. This includes detail information such as outstanding and cleared deposit and disbursement activity.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>AcctSeed__Bank_Account__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The bank account which will be reconciled. Only source records associated with this bank account will be associated with this bank reconciliation.</inlineHelpText>
+        <label>Bank/Credit Card Account</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>AcctSeed__GL_Account__c.AcctSeed__Bank__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>AcctSeed__GL_Account__c</referenceTo>
+        <relationshipLabel>Bank Reconciliations</relationshipLabel>
+        <relationshipName>Bank_Reconciliations1</relationshipName>
+        <required>true</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Beginning_Balance__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Auto-populates upon creation or upon setting status to ‘Completed’ with the cleared balance from the prior bank reconciliation. If Override Beginning Balance checkbox is checked, then will not update upon setting status to ‘Completed’.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The beginning balance of the bank reconciliation. Should match the ending balance of the prior reconciliation.</inlineHelpText>
+        <label>Beginning Balance</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Calculated_Ending_Balance__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(AcctSeed__Type__c , &apos;Bank&apos;)
+, AcctSeed__Beginning_Balance__c + AcctSeed__Cleared_Deposits__c - AcctSeed__Cleared_Disbursements__c
+, AcctSeed__Beginning_Balance__c - AcctSeed__Cleared_Deposits__c + AcctSeed__Cleared_Disbursements__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>This is the beginning balance + cleared deposits - cleared disbursements.</inlineHelpText>
+        <label>Cleared Balance</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Calculated_GL_Balance__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(AcctSeed__Type__c, &apos;Bank&apos;)
+, AcctSeed__Ending_Balance__c +  AcctSeed__UnCleared_Deposits__c -  AcctSeed__UnCleared_Payments__c 
+, AcctSeed__Ending_Balance__c -  AcctSeed__UnCleared_Deposits__c +  AcctSeed__UnCleared_Payments__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>If bank, calculated as statement ending balance + uncleared deposits - uncleared payments. If credit card, calculated as statement ending balance - uncleared payments + uncleared charges.</inlineHelpText>
+        <label>Calculated Balance</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Cleared_Deposits__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Shall sum the total cleared cash receipts, bank deposits and debit journal entry lines on the associated bank reconciliation record.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The aggregate amount of cleared deposits associated with this bank reconciliation. This includes all cleared cash receipts, bank deposits, and journal lines with a debit balance.</inlineHelpText>
+        <label>Cleared Deposits</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Cleared_Disbursements__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Shall sum the total cleared cash disbursements and credit journal entry lines on the associated bank reconciliation record.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The aggregate amount of cleared disbursements for the bank reconciliation. This includes all cleared cash disbursements and journal entry lines with a credit balance.</inlineHelpText>
+        <label>Cleared Payments</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__End_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This date used in the query criteria for populating the Clear/Unclear table. Should always be the as-of date to be reconciled.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The end date for the period to be reconciled.</inlineHelpText>
+        <label>Statement Ending Date</label>
+        <required>true</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Ending_Balance__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The ending balance of the bank reconciliation.</inlineHelpText>
+        <label>Statement Ending Balance</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Error__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Used to hold any error messages encountered while transitioning from In Progress to Completed.</inlineHelpText>
+        <label>Error</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__GL_Account_Variable_1__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>General Ledger segment used for reporting of a business unit such as division or department.</inlineHelpText>
+        <label>GL Variable 1</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>AcctSeed__Accounting_Variable__c.AcctSeed__Type__c</field>
+                <operation>equals</operation>
+                <value>GL Account Variable 1</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>AcctSeed__Accounting_Variable__c</referenceTo>
+        <relationshipLabel>Bank Reconciliations</relationshipLabel>
+        <relationshipName>Bank_Reconciliations</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__GL_Account_Variable_2__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>General Ledger segment used for reporting of a business unit such as division or department.</inlineHelpText>
+        <label>GL Variable 2</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>AcctSeed__Accounting_Variable__c.AcctSeed__Type__c</field>
+                <operation>equals</operation>
+                <value>GL Account Variable 2</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>AcctSeed__Accounting_Variable__c</referenceTo>
+        <relationshipLabel>Bank Reconciliations (GL Account Variable 2)</relationshipLabel>
+        <relationshipName>Bank_Reconciliations1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__GL_Account_Variable_3__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>General Ledger segment used for reporting of a business unit such as division or department.</inlineHelpText>
+        <label>GL Variable 3</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>AcctSeed__Accounting_Variable__c.AcctSeed__Type__c</field>
+                <operation>equals</operation>
+                <value>GL Account Variable 3</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>AcctSeed__Accounting_Variable__c</referenceTo>
+        <relationshipLabel>Bank Reconciliations (GL Account Variable 3)</relationshipLabel>
+        <relationshipName>Bank_Reconciliations2</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__GL_Account_Variable_4__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>General Ledger segment used for reporting of a business unit such as division or department.</inlineHelpText>
+        <label>GL Variable 4</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>AcctSeed__Accounting_Variable__c.AcctSeed__Type__c</field>
+                <operation>equals</operation>
+                <value>GL Account Variable 4</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>AcctSeed__Accounting_Variable__c</referenceTo>
+        <relationshipLabel>Bank Reconciliations (GL Account Variable 4)</relationshipLabel>
+        <relationshipName>Bank_Reconciliations3</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__GL_Difference__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>AcctSeed__GL_Ending_Balance__c - AcctSeed__Calculated_GL_Balance__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>The difference between the calculated balance and the GL ending balance. Should be zero when status is completed.</inlineHelpText>
+        <label>GL Difference</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__GL_Ending_Balance__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The ending balance of the bank account or credit card GL account per the general ledger as of the statement ending date.</inlineHelpText>
+        <label>GL Ending Balance</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Ledger__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Denotes the associated ledger.</inlineHelpText>
+        <label>Ledger</label>
+        <referenceTo>AcctSeed__Ledger__c</referenceTo>
+        <relationshipLabel>Bank Reconciliations</relationshipLabel>
+        <relationshipName>Bank_Reconciliations</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Modern_BR__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>System field to identify bank reconciliations created using the modern BR process vs pre-existing bank reconciliations that do not function with modern bank reconciliation functionality.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Bank reconciliations with this flag set to unchecked are those that exist prior to the modern BR process and do not function with the modern BR process functionality.</inlineHelpText>
+        <label>Modern BR</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Override_Beginning_Balance__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Overrides trigger that updates the Beginning Balance with prior bank reconciliation’s cleared balance when the status is set to Completed.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Cleared balance from prior completed bank reconciliation will not be carried forward to this bank reconciliation if this override selected and a manual beginning balance entered.</inlineHelpText>
+        <label>Override Beginning Balance</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Start_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This date field is no longer used.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The start date for the period to be reconciled.</inlineHelpText>
+        <label>Statement Start Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Sets the status to completed when the difference is zero.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A completed status indicates that the cleared balance agrees to the statement ending balance and the calculated balance agrees to the actual GL ending balance.</inlineHelpText>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Sets the display format and calculation. Bank = +Cash In, - Cash Out. Credit Card = - Cash In, + Cash Out.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The type of financial institution account you are reconciling.</inlineHelpText>
+        <label>Type</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Bank</fullName>
+                    <default>false</default>
+                    <label>Bank</label>
+                </value>
+                <value>
+                    <fullName>Credit Card</fullName>
+                    <default>false</default>
+                    <label>Credit Card</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__UnCleared_Deposits__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Shall sum the total uncleared cash receipts, bank deposits and debit journal entry lines as of the statement ending date.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The sum of the uncleared incoming funds (bank) or payments (credit card) as of the statement ending date. This includes all uncleared cash receipts, bank deposits and debit journal entry lines.</inlineHelpText>
+        <label>UnCleared Deposits</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__UnCleared_Payments__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Shall sum the total uncleared cash disbursements and credit journal entry lines as of the statement ending date.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The sum of the uncleared outgoing funds (bank) or charges (credit card) as of the statement ending date. This includes all uncleared cash disbursements and credit journal entry lines.</inlineHelpText>
+        <label>UnCleared Payments</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Uncleared_Amount__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>AcctSeed__Ending_Balance__c - AcctSeed__Calculated_Ending_Balance__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>The difference between the calculated ending balance and the ending balance. Should be zero when the bank rec is finished.</inlineHelpText>
+        <label>Difference</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <label>Bank Reconciliation</label>
+    <listViews>
+        <fullName>AcctSeed__All</fullName>
+        <columns>NAME</columns>
+        <columns>AcctSeed__Status__c</columns>
+        <columns>AcctSeed__Bank_Account__c</columns>
+        <columns>AcctSeed__Start_Date__c</columns>
+        <columns>AcctSeed__End_Date__c</columns>
+        <columns>AcctSeed__Uncleared_Amount__c</columns>
+        <columns>AcctSeed__Beginning_Balance__c</columns>
+        <columns>AcctSeed__Ending_Balance__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>AcctSeed__Bank_Reconciliations</fullName>
+        <columns>NAME</columns>
+        <columns>AcctSeed__Bank_Account__c</columns>
+        <columns>AcctSeed__End_Date__c</columns>
+        <columns>AcctSeed__Beginning_Balance__c</columns>
+        <columns>AcctSeed__Ending_Balance__c</columns>
+        <columns>AcctSeed__Uncleared_Amount__c</columns>
+        <columns>AcctSeed__Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>AcctSeed__Type__c</field>
+            <operation>equals</operation>
+            <value>Bank</value>
+        </filters>
+        <label>Bank Reconciliations</label>
+    </listViews>
+    <listViews>
+        <fullName>AcctSeed__Credit_Card</fullName>
+        <columns>NAME</columns>
+        <columns>AcctSeed__Bank_Account__c</columns>
+        <columns>AcctSeed__End_Date__c</columns>
+        <columns>AcctSeed__Beginning_Balance__c</columns>
+        <columns>AcctSeed__Ending_Balance__c</columns>
+        <columns>AcctSeed__Uncleared_Amount__c</columns>
+        <columns>AcctSeed__Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>AcctSeed__Type__c</field>
+            <operation>equals</operation>
+            <value>Credit Card</value>
+        </filters>
+        <label>Credit Card</label>
+    </listViews>
+    <nameField>
+        <displayFormat>BR-{00000}</displayFormat>
+        <label>Bank Reconciliation Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Bank Reconciliations</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>AcctSeed__Start_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>AcctSeed__End_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>AcctSeed__Bank_Account__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>AcctSeed__Beginning_Balance__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>AcctSeed__Ending_Balance__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>AcctSeed__Calculated_Ending_Balance__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>AcctSeed__Cleared_Deposits__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>AcctSeed__Cleared_Disbursements__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>AcctSeed__Uncleared_Amount__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>AcctSeed__Start_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>AcctSeed__End_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>AcctSeed__Bank_Account__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>AcctSeed__Beginning_Balance__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>AcctSeed__Ending_Balance__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>AcctSeed__Calculated_Ending_Balance__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>AcctSeed__Cleared_Deposits__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>AcctSeed__Cleared_Disbursements__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>AcctSeed__Uncleared_Amount__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>AcctSeed__Start_Date__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>AcctSeed__End_Date__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>AcctSeed__Bank_Account__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>AcctSeed__Bank_Account__c</searchFilterFields>
+        <searchFilterFields>AcctSeed__Start_Date__c</searchFilterFields>
+        <searchFilterFields>AcctSeed__End_Date__c</searchFilterFields>
+        <searchResultsAdditionalFields>AcctSeed__Start_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>AcctSeed__End_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>AcctSeed__Bank_Account__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>AcctSeed__Beginning_Balance__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>AcctSeed__Ending_Balance__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>AcctSeed__Calculated_Ending_Balance__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>AcctSeed__Cleared_Deposits__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>AcctSeed__Cleared_Disbursements__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>AcctSeed__Uncleared_Amount__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>AcctSeed__Clear_Unclear_Transactions</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Clear/Unclear Transactions</masterLabel>
+        <openType>sidebar</openType>
+        <page>AcctSeed__BankReconciliationManager</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>AcctSeed__Create_Next</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Create Next</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/lightning/cmp/AcctSeed__bankRecCreateNavProxy?AcctSeed__recordId={!AcctSeed__Bank_Reconciliation2__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>AcctSeed__Create_Reconciliation_Reports</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Create Reconciliation Report</masterLabel>
+        <openType>sidebar</openType>
+        <page>AcctSeed__BankReconciliationReports</page>
+        <protected>false</protected>
+    </webLinks>
+</CustomObject>

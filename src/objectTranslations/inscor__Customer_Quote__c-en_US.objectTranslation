@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Legacy Ship Method --></label>
+        <name>Legacy_Ship_Method__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lost Reason --></label>
+        <name>Lost_Reason__c</name>
+        <picklistValues>
+            <masterLabel>High Price</masterLabel>
+            <translation><!-- High Price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wrong price</masterLabel>
+            <translation><!-- Wrong price --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Not Responed --></label>
+        <name>Not_Responed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Terms --></label>
+        <name>inscor__Account_Terms__c</name>
+        <relationshipLabel><!-- Customer Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Assigned To --></label>
+        <name>inscor__Assigned_To__c</name>
+        <relationshipLabel><!-- Customer Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Business Category Auto Update? --></label>
+        <name>inscor__Business_Category_Auto_Update__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Category --></label>
+        <name>inscor__Business_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company --></label>
+        <name>inscor__Company__c</name>
+        <relationshipLabel><!-- Customer Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <lookupFilter>
+            <errorMessage><!-- Contact must be associated with the selected customer. --></errorMessage>
+        </lookupFilter>
+        <name>inscor__Contact__c</name>
+        <relationshipLabel><!-- Customer Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Create Date --></label>
+        <name>inscor__Create_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer --></label>
+        <name>inscor__Customer__c</name>
+        <relationshipLabel><!-- Customer Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- DS Company ID --></label>
+        <name>inscor__DS_Company_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- DS Contact ID --></label>
+        <name>inscor__DS_Contact_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- DS ID --></label>
+        <name>inscor__DS_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Service Reference --></label>
+        <name>inscor__Data_Service_Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Comments Available --></label>
+        <name>inscor__External_Comments_Available__c</name>
+        <relationshipLabel><!-- Customer Quotes (External Comments Available) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- External Comments --></label>
+        <name>inscor__External_Comments_rt__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Port/Dest --></label>
+        <name>inscor__FOB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Generate Quote Selected Docs --></label>
+        <name>inscor__Generate_Quote_Selected_Docs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Government Solicitation --></label>
+        <name>inscor__Government_Solicitation__c</name>
+        <relationshipLabel><!-- Customer Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Internal Comments Available --></label>
+        <name>inscor__Internal_Comments_Available__c</name>
+        <relationshipLabel><!-- Customer Quotes (Internal Comments Available) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Internal Comments --></label>
+        <name>inscor__Internal_Comments_rt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Export Control Check Date --></label>
+        <name>inscor__Last_Export_Control_Check_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Export Control Check Result --></label>
+        <name>inscor__Last_Export_Control_Check_Result__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lost Reason --></label>
+        <name>inscor__Lost_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Condition</masterLabel>
+            <translation><!-- Condition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead Time</masterLabel>
+            <translation><!-- Lead Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation><!-- Price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trace</masterLabel>
+            <translation><!-- Trace --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Number of Lines --></label>
+        <name>inscor__Number_of_Lines__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Company Total --></label>
+        <name>inscor__Quote_Company_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Score Date --></label>
+        <name>inscor__Quote_Score_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Score Reason --></label>
+        <name>inscor__Quote_Score_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Score --></label>
+        <name>inscor__Quote_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Source Image --></label>
+        <name>inscor__Quote_Source_Image__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Source --></label>
+        <name>inscor__Quote_Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Total --></label>
+        <name>inscor__Quote_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference ID --></label>
+        <name>inscor__Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference # --></label>
+        <name>inscor__Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ship Method --></label>
+        <name>inscor__Ship_Method__c</name>
+        <relationshipLabel><!-- Customer Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Ship Terms --></label>
+        <name>inscor__Ship_Terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ship To Address --></label>
+        <name>inscor__Ship_To_Address__c</name>
+        <relationshipLabel><!-- Customer Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Shipping Terms --></label>
+        <name>inscor__Shipping_Terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Solicitation Number --></label>
+        <name>inscor__Solicitation_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>inscor__Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed - Lost</masterLabel>
+            <translation><!-- Closed - Lost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed - Won</masterLabel>
+            <translation><!-- Closed - Won --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sent to Customer</masterLabel>
+            <translation><!-- Sent to Customer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Temp Account Industry --></label>
+        <name>inscor__Temp_Account_Industry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Temp Account Phone --></label>
+        <name>inscor__Temp_Account_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Temp Comments --></label>
+        <name>inscor__Temp_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Temp Contact Address1 --></label>
+        <name>inscor__Temp_Contact_Address1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Temp Contact Address2 --></label>
+        <name>inscor__Temp_Contact_Address2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Temp Contact City --></label>
+        <name>inscor__Temp_Contact_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Temp Contact County --></label>
+        <name>inscor__Temp_Contact_County__c</name>
+    </fields>
+    <fields>
+        <label><!-- Temp Contact Email --></label>
+        <name>inscor__Temp_Contact_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Temp Contact Fax --></label>
+        <name>inscor__Temp_Contact_Fax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Temp Contact Phone --></label>
+        <name>inscor__Temp_Contact_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Temp Contact Postal Code --></label>
+        <name>inscor__Temp_Contact_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Temp Contact State --></label>
+        <name>inscor__Temp_Contact_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Temp Contact Title --></label>
+        <name>inscor__Temp_Contact_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Temp Contact --></label>
+        <name>inscor__Temp_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Temp Customer --></label>
+        <name>inscor__Temp_Customer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Temp Quote? --></label>
+        <name>inscor__Temp_Quote__c</name>
+    </fields>
+    <fields>
+        <label><!-- Temp Responded Date --></label>
+        <name>inscor__Temp_Responded_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Urgency --></label>
+        <name>inscor__Urgency__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Routine</masterLabel>
+            <translation><!-- Routine --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Customer Quote Layout</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Company &amp; Owner Information --></label>
+            <section>Company &amp; Owner Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Mark as Lost --></label>
+        <name>Mark_as_Lost</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- Auto Update Cannot be true when Business Category Selected. --></errorMessage>
+        <name>inscor__Business_Category_blank_Auto_Update</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Once cancelled, the Quote cannot be reopened --></errorMessage>
+        <name>inscor__Cancelled_cannot_be_changed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Once closed, the quote cannot be reopened --></errorMessage>
+        <name>inscor__Closed_Quotes_cant_be_reopened</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Customer is required --></errorMessage>
+        <name>inscor__Customer_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Quote cannot be changed to a previous status --></errorMessage>
+        <name>inscor__Status_cannot_be_previous</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Convert_to_Order_btn --></label>
+        <name>inscor__Convert_to_Order_btn</name>
+    </webLinks>
+</CustomObjectTranslation>

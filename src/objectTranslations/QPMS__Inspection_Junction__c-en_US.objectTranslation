@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- DetailsFields --></label>
+        <name>QPMS__DetailsFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- History Fields --></label>
+        <name>QPMS__History_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QueryFields --></label>
+        <name>QPMS__QueryFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- displayFields --></label>
+        <name>QPMS__displayFields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Code --></label>
+        <name>QPMS__Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inspection Id --></label>
+        <name>QPMS__Inspection_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inspection Task --></label>
+        <name>QPMS__Inspection_Task__c</name>
+        <relationshipLabel><!-- Inspection Junctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Inspection Type --></label>
+        <name>QPMS__Inspection_Type__c</name>
+        <picklistValues>
+            <masterLabel>Container Loading</masterLabel>
+            <translation><!-- Container Loading --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>During Production (DPI)</masterLabel>
+            <translation><!-- During Production (DPI) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Final</masterLabel>
+            <translation><!-- Final --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First Article(FAI)</masterLabel>
+            <translation><!-- First Article(FAI) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incoming</masterLabel>
+            <translation><!-- Incoming --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Shipment (PSI), Random</masterLabel>
+            <translation><!-- Pre-Shipment (PSI), Random --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-production (PPI)</masterLabel>
+            <translation><!-- Pre-production (PPI) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>QPMS__Material_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>QPMS__Product_Family__c</name>
+        <relationshipLabel><!-- Inspection Junctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>QPMS__Type__c</name>
+        <picklistValues>
+            <masterLabel>Equipment</masterLabel>
+            <translation><!-- Equipment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Material</masterLabel>
+            <translation><!-- Material --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation><!-- Product --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

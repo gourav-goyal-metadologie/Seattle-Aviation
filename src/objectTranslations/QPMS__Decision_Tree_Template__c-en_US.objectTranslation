@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- DTT Contexual Help --></label>
+        <name>QPMS__DTT_Contexual_Help</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Decision Tree Audit Trail --></label>
+        <name>QPMS__Decision_Tree_Audit_Trail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Decision Tree Header --></label>
+        <name>QPMS__Decision_Tree_Header</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Decision Tree Template Details and Print --></label>
+        <name>QPMS__Decision_Tree_Template_Details_and_Print</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Decision tree fields --></label>
+        <name>QPMS__Decision_tree_fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QueryFields --></label>
+        <name>QPMS__QueryFields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- DT Name --></label>
+        <name>QPMS__DT_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- DT Type --></label>
+        <name>QPMS__DT_Type__c</name>
+        <picklistValues>
+            <masterLabel>Non Regulatory</masterLabel>
+            <translation><!-- Non Regulatory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regulatory</masterLabel>
+            <translation><!-- Regulatory --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Parent --></label>
+        <name>QPMS__Decision_Tree_Template__c</name>
+        <relationshipLabel><!-- Decision Tree Tempates --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Exception --></label>
+        <name>QPMS__Exception__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>QPMS__Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Name --></label>
+        <name>QPMS__Parent_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question Update Status --></label>
+        <name>QPMS__Question_Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exception</masterLabel>
+            <translation><!-- Exception --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Process</masterLabel>
+            <translation><!-- In Process --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reason --></label>
+        <name>QPMS__Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regulatory Body --></label>
+        <name>QPMS__Regulatory_Body__c</name>
+        <picklistValues>
+            <masterLabel>Canada</masterLabel>
+            <translation><!-- Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Europe</masterLabel>
+            <translation><!-- Europe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US-FDA</masterLabel>
+            <translation><!-- US-FDA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Revision --></label>
+        <name>QPMS__Revision__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>QPMS__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total Questions --></label>
+        <name>QPMS__Total_Questions__c</name>
+    </fields>
+    <layouts>
+        <layout>Decision Tree Template Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Regulatory is required --></errorMessage>
+        <name>QPMS__Regulatory_Body_is_Required</name>
+    </validationRules>
+</CustomObjectTranslation>

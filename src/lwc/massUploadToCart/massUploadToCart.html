@@ -1,0 +1,43 @@
+<template>
+    <template if:true={showMassUpload}>
+        <template if:true={showlink}>
+            <div class="massuploadlink">
+                <a class="massUploadHomePage" onclick={ShowComponent}>Mass Upload To Cart</a>                
+            </div>
+        </template>
+        <template if:true={showMassUploadcompo}>
+            <div class="slds-modal slds-fade-in-open slds-backdrop">  
+                <div class="slds-modal__container">  
+                    <!------HEADER Section-->  
+                    <div class="slds-modal__header">  
+                        <lightning-button-icon icon-name="utility:close" alternative-text="Close this window" size="large"  
+                        variant="bare-inverse" onclick={closeComponent} class="slds-modal__close">  
+                        </lightning-button-icon>  
+                        <h2 class="slds-text-heading_medium slds-m-bottom_xx-small">Mass Upload To Cart</h2>  
+                    </div>  
+                    <!------Body Section-->  
+                    <div class="slds-modal__content slds-p-around_medium"> 
+                        <!--<lightning-card icon-name="custom:custom19" title='Part Master File Upload To Cart'>-->
+                        <!--<div class="massUpload">-->
+                            
+                            <!--<lightning-file-upload accept=".xlsx, .xls, .csv" onuploadfinished={handleUploadFinished} multiple="multiple">
+
+                            </lightning-file-upload>-->
+
+                            <lightning-input type="file" name="uploadFile" accept=".xlsx, .xls, .csv" onchange={handleUploadTOCart} style="text-align: center;" >
+
+                            </lightning-input> 
+
+                            <br/>
+                            <a href="https://prod-avs-seattle--sassandbox.my.salesforce.com/sfc/p/6s0000008mC9/a/6s000000Go9H/iQYJvqAfY_VTejp788.mMljxzMRZUH6cLzkIAA0u1oM" style="text-align: center;" target="_blank">Click here to download Sample File.</a>
+                            <br/><br/><p>Note: Do not include Exchange Products in the list.</p>
+                        <!--</div>-->
+                    </div> 
+                </div> 
+                 
+            </div>            
+                        <!--</lightning-card>-->
+        </template>
+    </template>
+    <div class="massuploadlinkBottom"></div>
+</template>

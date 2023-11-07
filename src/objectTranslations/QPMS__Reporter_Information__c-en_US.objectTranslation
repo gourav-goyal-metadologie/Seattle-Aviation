@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Canada Audit Trail --></label>
+        <name>QPMS__Canada_Audit_Trail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Canada Date Submitted --></label>
+        <name>QPMS__Canada_Date_Submitted</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Canada Health Canada assigned company identification number --></label>
+        <name>QPMS__Canada_Health_Canada_assigned_company_id</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Canada License Number --></label>
+        <name>QPMS__Canada_License_Number</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Canada Name and Address --></label>
+        <name>QPMS__Canada_Name_and_Address</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Canada QueryFields --></label>
+        <name>QPMS__Canada_QueryFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Canada Reporter Contact Information --></label>
+        <name>QPMS__Canada_Reporter_Contact_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Canada Reporter Type --></label>
+        <name>QPMS__Canada_Reporter_Type</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Canada Type of Report --></label>
+        <name>QPMS__Canada_Type_of_Report</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Canada Type of Report Dates --></label>
+        <name>QPMS__Canada_Type_of_Report_Dates</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Canada in the case where the reporter is the importer --></label>
+        <name>QPMS__Canada_in_the_case_where_the_reporter_is</name>
+    </fieldSets>
+    <fields>
+        <label><!-- ComplaintId --></label>
+        <name>QPMS__ComplaintId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date Submitted --></help>
+        <label><!-- Date Submitted --></label>
+        <name>QPMS__Date_Submitted__c</name>
+    </fields>
+    <fields>
+        <help><!-- Did the importer report the incident to the manufacturer? --></help>
+        <label><!-- Did the importer report the incident --></label>
+        <name>QPMS__Did_the_importer_report_the_incident__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Final --></help>
+        <label><!-- Final --></label>
+        <name>QPMS__Final__c</name>
+    </fields>
+    <fields>
+        <label><!-- Follow Up Number --></label>
+        <name>QPMS__Follow_Up_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Health Canada File No. (if applicable) --></help>
+        <label><!-- Health Canada File No. (if applicable) --></label>
+        <name>QPMS__Health_Canada_File_No_if_applicable__c</name>
+    </fields>
+    <fields>
+        <help><!-- If “preliminary” only, anticipated date for the final report --></help>
+        <label><!-- If “preliminary” only, anticipated date --></label>
+        <name>QPMS__If_preliminary_only_anticipated_date__c</name>
+    </fields>
+    <fields>
+        <help><!-- If “update/final”, date the previous report was submitted to Health Canada --></help>
+        <label><!-- If “update/final”, date the previous --></label>
+        <name>QPMS__If_update_final_date_the_previous__c</name>
+    </fields>
+    <fields>
+        <help><!-- Importer --></help>
+        <label><!-- Importer --></label>
+        <name>QPMS__Importer_License_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Importer --></help>
+        <label><!-- Importer --></label>
+        <name>QPMS__Importer_Name_and_Address__c</name>
+    </fields>
+    <fields>
+        <help><!-- Importer --></help>
+        <label><!-- Importer --></label>
+        <name>QPMS__Importer_Reporter_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- Importer --></help>
+        <label><!-- Importer --></label>
+        <name>QPMS__Importer_company_identification__c</name>
+    </fields>
+    <fields>
+        <help><!-- Is the importer also submitting the report on behalf of the manufacturer? --></help>
+        <label><!-- Is the importer also submitting --></label>
+        <name>QPMS__Is_the_importer_also_submitting__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Manufacturer --></help>
+        <label><!-- Manufacturer --></label>
+        <name>QPMS__Manufacturer_License_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Manufacturer --></help>
+        <label><!-- Manufacturer --></label>
+        <name>QPMS__Manufacturer_Name_and_Address__c</name>
+    </fields>
+    <fields>
+        <help><!-- Manufacturer --></help>
+        <label><!-- Manufacturer --></label>
+        <name>QPMS__Manufacturer_Reporter_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- Manufacturer --></help>
+        <label><!-- Manufacturer --></label>
+        <name>QPMS__Manufacturer_company_identification__c</name>
+    </fields>
+    <fields>
+        <help><!-- Preliminary &amp; Final --></help>
+        <label><!-- Preliminary &amp; Final --></label>
+        <name>QPMS__Preliminary_Final__c</name>
+    </fields>
+    <fields>
+        <help><!-- Preliminary --></help>
+        <label><!-- Preliminary --></label>
+        <name>QPMS__Preliminary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regulatory Body --></label>
+        <name>QPMS__Regulatory_Body__c</name>
+    </fields>
+    <fields>
+        <help><!-- Regulatory Report --></help>
+        <label><!-- Regulatory Report --></label>
+        <name>QPMS__Regulatory_Report__c</name>
+        <relationshipLabel><!-- Reporter Informations --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Reporter Contact Information --></help>
+        <label><!-- Reporter Contact Information --></label>
+        <name>QPMS__Reporter_Contact_Information__c</name>
+    </fields>
+    <fields>
+        <help><!-- Reporter File No. --></help>
+        <label><!-- Reporter File No. --></label>
+        <name>QPMS__Reporter_File_No__c</name>
+    </fields>
+    <fields>
+        <help><!-- Update --></help>
+        <label><!-- Update --></label>
+        <name>QPMS__Update__c</name>
+    </fields>
+</CustomObjectTranslation>

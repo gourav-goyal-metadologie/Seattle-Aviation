@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- AMM Reference --></label>
+        <name>inscor__AMM_Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>inscor__Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Customer Approval</masterLabel>
+            <translation><!-- Pending Customer Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Assigned To --></label>
+        <name>inscor__Assigned_To__c</name>
+        <relationshipLabel><!-- Work Order Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Comments/Findings --></label>
+        <name>inscor__Comments_Findings__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Currency --></label>
+        <name>inscor__Company_Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Default Quoted Amount --></label>
+        <name>inscor__Company_Default_Quoted_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Flat Rate Price --></label>
+        <name>inscor__Company_Flat_Rate_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Labor Fixed Rate --></label>
+        <name>inscor__Company_Labor_Fixed_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Labor Rate NTE --></label>
+        <name>inscor__Company_Labor_Rate_NTE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Last Quoted Price --></label>
+        <name>inscor__Company_Last_Quoted_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Misc Fixed Price --></label>
+        <name>inscor__Company_Misc_Fixed_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Misc NTE --></label>
+        <name>inscor__Company_Misc_NTE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Parts Fixed Price --></label>
+        <name>inscor__Company_Parts_Fixed_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Parts NTE --></label>
+        <name>inscor__Company_Parts_NTE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Planned Labor Cost --></label>
+        <name>inscor__Company_Planned_Labor_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Rate Billed --></label>
+        <name>inscor__Company_Rate_Billed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Task Price Billed --></label>
+        <name>inscor__Company_Task_Price_Billed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Total Cost Invoiced --></label>
+        <name>inscor__Company_Total_Cost_Invoiced__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Total Labor Invoiced --></label>
+        <name>inscor__Company_Total_Labor_Invoiced__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Total Misc Billed --></label>
+        <name>inscor__Company_Total_Misc_Billed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Total Parts Billed --></label>
+        <name>inscor__Company_Total_Parts_Billed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Total Price Invoiced --></label>
+        <name>inscor__Company_Total_Price_Invoiced__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Total Price --></label>
+        <name>inscor__Company_Total_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completed By --></label>
+        <name>inscor__Completed_By__c</name>
+        <relationshipLabel><!-- Work Order Tasks (Completed By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Completed Date --></label>
+        <name>inscor__Completed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Corrective Action --></label>
+        <name>inscor__Corrective_Action__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>inscor__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duration --></label>
+        <name>inscor__Duration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exchange Rate Date --></label>
+        <name>inscor__Exchange_Rate_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exchange Rate --></label>
+        <name>inscor__Exchange_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Comments --></label>
+        <name>inscor__External_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flat Rate Price --></label>
+        <name>inscor__Flat_Rate_Price__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this box for billing a single flat rate amount for entire task. No Parts, Labor or other charges will be billed. --></help>
+        <label><!-- Flat Rate Task? --></label>
+        <name>inscor__Flat_Rate_Task__c</name>
+    </fields>
+    <fields>
+        <label><!-- Generated From --></label>
+        <name>inscor__Generated_From__c</name>
+        <relationshipLabel><!-- Work Order Tasks (Generated From) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Hours Billed --></label>
+        <name>inscor__Hours_Billed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hours Entered --></label>
+        <name>inscor__Hours_Entered__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inspect Only? --></label>
+        <name>inscor__Inspect_Only__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inspected By --></label>
+        <name>inscor__Inspected_By__c</name>
+        <relationshipLabel><!-- Work Order Tasks (Inspected By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Inspected Date --></label>
+        <name>inscor__Inspected_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inspection Details --></label>
+        <name>inscor__Inspection_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inspection Required? --></label>
+        <name>inscor__Inspection_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inspection Status --></label>
+        <name>inscor__Inspection_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hold</masterLabel>
+            <translation><!-- Hold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Internal Comments --></label>
+        <name>inscor__Internal_Comments__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter Labor Hours for Fixed Labor --></help>
+        <label><!-- Labor Fixed Hours --></label>
+        <name>inscor__Labor_Fixed_Hours__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter Labor Fixed Rate --></help>
+        <label><!-- Labor Fixed Rate --></label>
+        <name>inscor__Labor_Fixed_Rate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select Labor Hour Billing Type. --></help>
+        <label><!-- Labor Hour Billing Type --></label>
+        <name>inscor__Labor_Hour_Billing_Type__c</name>
+        <picklistValues>
+            <masterLabel>Actual Hours</masterLabel>
+            <translation><!-- Actual Hours --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Actual Hrs-Over and Above</masterLabel>
+            <translation><!-- Actual Hrs-Over and Above --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed Hours</masterLabel>
+            <translation><!-- Fixed Hours --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Labor Hours Not To Exceed Qty --></help>
+        <label><!-- Labor Hours NTE --></label>
+        <name>inscor__Labor_Hours_NTE__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select a Labor Rate Type. Burden Rate is the Skill Cost while Skill Rate is the Skill Price. --></help>
+        <label><!-- Labor Rate Billing Type --></label>
+        <name>inscor__Labor_Rate_Billing_Type__c</name>
+        <picklistValues>
+            <masterLabel>Fixed Rate</masterLabel>
+            <translation><!-- Fixed Rate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skill Burden Rate Markup+/Discount-</masterLabel>
+            <translation><!-- Skill Burden Rate Markup+/Discount- --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skill Rate Markup+/Discount-</masterLabel>
+            <translation><!-- Skill Rate Markup+/Discount- --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enter positive for a Markup (20%) or negative for a Discount (-20%) or 0% for none. --></help>
+        <label><!-- Labor Rate Markup+/Discount- --></label>
+        <name>inscor__Labor_Rate_Markup_Discount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter Labor Rate Not To Exceed Amount --></help>
+        <label><!-- Labor Rate NTE --></label>
+        <name>inscor__Labor_Rate_NTE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Quoted Price --></label>
+        <name>inscor__Last_Quoted_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- MPD Reference --></label>
+        <name>inscor__MPD_Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manual Link --></label>
+        <name>inscor__Manual_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Milestone? --></label>
+        <name>inscor__Milestone__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select Miscellaneous Charge Billing Method --></help>
+        <label><!-- Misc Charge Billing Type --></label>
+        <name>inscor__Misc_Charge_Billing_Type__c</name>
+        <picklistValues>
+            <masterLabel>Cost Markup+/Discount-</masterLabel>
+            <translation><!-- Cost Markup+/Discount- --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed Price</masterLabel>
+            <translation><!-- Fixed Price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price Markup+/Discount-</masterLabel>
+            <translation><!-- Price Markup+/Discount- --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Misc Fixed Price Amount --></help>
+        <label><!-- Misc Fixed Price --></label>
+        <name>inscor__Misc_Fixed_Price__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter positive for a Markup (20%) or negative for a Discount (-20%) or 0% for none. --></help>
+        <label><!-- Misc Markup+/Discount- --></label>
+        <name>inscor__Misc_Markup_Discount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter Miscellaneous Not To Exceed Amount --></help>
+        <label><!-- Misc NTE --></label>
+        <name>inscor__Misc_NTE__c</name>
+    </fields>
+    <fields>
+        <help><!-- Controls the displaying of the Task and Parts/Charges/Labor in Quotes and Invoices. Summary only shows the Task, Detail Rollup will show all but roll up Prices to the Task line while Itemized will show the individual prices at the BOM/Labor/Misc. --></help>
+        <label><!-- Default Output Type --></label>
+        <name>inscor__Output_Type__c</name>
+        <picklistValues>
+            <masterLabel>Detail Itemized</masterLabel>
+            <translation><!-- Detail Itemized --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Detail Itemized Hidden Labor</masterLabel>
+            <translation><!-- Detail Itemized Hidden Labor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Detail Rollup</masterLabel>
+            <translation><!-- Detail Rollup --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Detail Rollup Hidden Labor</masterLabel>
+            <translation><!-- Detail Rollup Hidden Labor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hidden</masterLabel>
+            <translation><!-- Hidden --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Summary</masterLabel>
+            <translation><!-- Summary --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enter the threshold above which the labor hours must exceed before billing begins. Only those hours above the threshold will be applied for billing. --></help>
+        <label><!-- Over &amp; Above Threshold Hours --></label>
+        <name>inscor__Over_Above_Threshold_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Task --></label>
+        <name>inscor__Parent_Task__c</name>
+        <relationshipLabel><!-- Work Order Tasks (Parent Task) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Select Parts Billing Type. --></help>
+        <label><!-- Parts Billing Type --></label>
+        <name>inscor__Parts_Billing_Type__c</name>
+        <picklistValues>
+            <masterLabel>Cost Markup+/Discount-</masterLabel>
+            <translation><!-- Cost Markup+/Discount- --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed Price</masterLabel>
+            <translation><!-- Fixed Price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price Markup+/Discount-</masterLabel>
+            <translation><!-- Price Markup+/Discount- --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Parts Fixed Price --></label>
+        <name>inscor__Parts_Fixed_Price__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter positive for a Markup (20%) or negative for a Discount (-20%) or 0% for none. --></help>
+        <label><!-- Parts Markup/Discount --></label>
+        <name>inscor__Parts_Markup_Discount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter Parts Not To Exceed Amount --></help>
+        <label><!-- Parts NTE --></label>
+        <name>inscor__Parts_NTE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percent Complete --></label>
+        <name>inscor__Percent_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Planned Labor Cost --></label>
+        <name>inscor__Planned_Labor_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Planned Labor Hours --></label>
+        <name>inscor__Planned_Labor_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pricing Template --></label>
+        <name>inscor__Pricing_Template__c</name>
+        <relationshipLabel><!-- Work Order Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Default Quoted Amount --></label>
+        <name>inscor__Quoted_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rate Billed --></label>
+        <name>inscor__Rate_Billed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reconciled By --></label>
+        <name>inscor__Reconciled_By__c</name>
+        <relationshipLabel><!-- Work Order Tasks (Reconciled By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reconciled Date --></label>
+        <name>inscor__Reconciled_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rejection Comment --></label>
+        <name>inscor__Rejection_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sequence --></label>
+        <name>inscor__Sequence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show WO Builder? --></label>
+        <name>inscor__Show_WO_Builder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>inscor__Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>inscor__Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Summary Task? --></label>
+        <name>inscor__Summary_Task__c</name>
+    </fields>
+    <fields>
+        <label><!-- Task Instructions --></label>
+        <name>inscor__Task_Instructions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Task Name --></label>
+        <name>inscor__Task_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Task Price Billed --></label>
+        <name>inscor__Task_Price_Billed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Task Total Cost --></label>
+        <name>inscor__Task_Total_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Task Type --></label>
+        <name>inscor__Task_Type__c</name>
+        <picklistValues>
+            <masterLabel>Non-Routine</masterLabel>
+            <translation><!-- Non-Routine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Routine</masterLabel>
+            <translation><!-- Routine --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Template Project? --></label>
+        <name>inscor__Template_Project__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tool Assignment With Qty --></label>
+        <name>inscor__Tool_Assignment_With_Qty__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Cost Invoiced --></label>
+        <name>inscor__Total_Cost_Invoiced__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Cost --></label>
+        <name>inscor__Total_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Hours Unbilled --></label>
+        <name>inscor__Total_Hours_Unbilled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Labor Cost --></label>
+        <name>inscor__Total_Labor_Cost__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total Hours Billed. If NTE, this will show the not to exceed amount. --></help>
+        <label><!-- Total Labor Hours Billed --></label>
+        <name>inscor__Total_Labor_Hours_Billed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Labor Invoiced --></label>
+        <name>inscor__Total_Labor_Invoiced__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Misc Billed --></label>
+        <name>inscor__Total_Misc_Billed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Misc Charge Cost --></label>
+        <name>inscor__Total_Misc_Charge_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Parts Billed --></label>
+        <name>inscor__Total_Parts_Billed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Parts Cost --></label>
+        <name>inscor__Total_Parts_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Price Invoiced --></label>
+        <name>inscor__Total_Price_Invoiced__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Price --></label>
+        <name>inscor__Total_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Instructions - RETIRED --></label>
+        <name>inscor__Work_Instructions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Order Name --></label>
+        <name>inscor__Work_Order_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Order Status --></label>
+        <name>inscor__Work_Order_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Order --></label>
+        <name>inscor__Work_Order__c</name>
+        <relationshipLabel><!-- Work Order Tasks --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>AvSight Work Order Task Layout v1</layout>
+        <sections>
+            <label><!-- Billing Setup --></label>
+            <section>Billing Setup</section>
+        </sections>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Completion &amp; Inspection Information --></label>
+            <section>Completion &amp; Inspection Information</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Information --></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label><!-- Inspection and Findings --></label>
+            <section>Inspection and Findings</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- Planning Information --></label>
+            <section>Planning Information</section>
+        </sections>
+        <sections>
+            <label><!-- Task Instructions --></label>
+            <section>Task Instructions</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Work Order Task - Cost Hidden</layout>
+        <sections>
+            <label><!-- Billing Setup --></label>
+            <section>Billing Setup</section>
+        </sections>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Completion &amp; Inspection Information --></label>
+            <section>Completion &amp; Inspection Information</section>
+        </sections>
+        <sections>
+            <label><!-- Inspection and Findings --></label>
+            <section>Inspection and Findings</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- Planning Information --></label>
+            <section>Planning Information</section>
+        </sections>
+        <sections>
+            <label><!-- Task Instructions --></label>
+            <section>Task Instructions</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Can&apos;t cancel a Task once Completed By or Inspected By is filled in --></errorMessage>
+        <name>inscor__Block_Cancel</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Flat Rate Price required when &apos;Flat Rate Task?&apos; is true. --></errorMessage>
+        <name>inscor__Flat_Rate_Price_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Labor Fixed Hours&apos; is require when &apos;Labor Hour Billing Type&apos; is &apos;Fixed Hours&apos;. --></errorMessage>
+        <name>inscor__Labor_Fixed_Hours_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Labor Fixed Rate&apos; is require when &apos;Labor Rate Billing Type&apos; is &apos;Fixed Rate&apos;. --></errorMessage>
+        <name>inscor__Labor_Fixed_Rate_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Labor Rate Markup/Discount&apos; is required for selected &apos;Labor Rate Billing Type&apos;. --></errorMessage>
+        <name>inscor__Labor_Rate_Markup_Discount_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Misc Fixed Price&apos; is require when &apos;Misc Billing Type&apos; is &apos;Fixed Price&apos; --></errorMessage>
+        <name>inscor__Misc_Fixed_Price_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Misc Markup/Discount&apos; is require for selected &apos;Misc Billing Type&apos;. --></errorMessage>
+        <name>inscor__Misc_Markup_Discount_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Over and Above Threshold Hours&apos; is require when &apos;Labor Hour Billing Type&apos; is &apos;Actual Hrs-Over and Above&apos;. --></errorMessage>
+        <name>inscor__Over_and_Above_Threshold_Hours_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Parts Fixed Price&apos; required when &apos;Parts Billing Type&apos; is &apos;Fixed Cost&apos;. --></errorMessage>
+        <name>inscor__Parts_Fixed_Price_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Required Field &apos;Parts_Markup/Discount_Required&apos; for selected &apos;Parts Billing Type&apos;. --></errorMessage>
+        <name>inscor__Parts_Markup_Discount_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Billing methods cannot be changed once Task is in &quot;Invoiced, Reconciled, Complete&quot; status. --></errorMessage>
+        <name>inscor__Restrict_Billing_Method_On_Status</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Fields under Billing Setup &amp; Inspection and Findings cannot be updated for Summary Task. --></errorMessage>
+        <name>inscor__Restrict_Fields_If_Summary_Task_True</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Status Task Complete is not allowed as Inspection Required field is True. --></errorMessage>
+        <name>inscor__Restrict_Inspection_Task_to_Complete</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cannot change Task Name once task has been released. --></errorMessage>
+        <name>inscor__Restrict_Once_Released</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Task status can not be changed once Invoiced. --></errorMessage>
+        <name>inscor__Restrict_Status_Change_Once_Invoiced</name>
+    </validationRules>
+</CustomObjectTranslation>

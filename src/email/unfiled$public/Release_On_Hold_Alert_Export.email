@@ -1,0 +1,11 @@
+Your release below is on Export Hold
+
+Your order is currently under review for export & compliance
+No action required. You will be contacted if any action is required.
+
+Keep calm and carry on being compliant!
+
+Release: {!inscor__Release__c.Name}
+Sales Order #: {!inscor__Release__c.inscor__Sales_Order__c}
+Customer: {!inscor__Release__c.inscor__Customer_Vendor__c}
+Release Value: {!inscor__Release__c.inscor__Release_Value__c}

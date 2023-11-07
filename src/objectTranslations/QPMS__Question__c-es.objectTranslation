@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Question --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Question --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- AuditQuestion --></label>
+        <name>QPMS__AuditQuestion</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CompleteChecklistQuestion --></label>
+        <name>QPMS__CompleteChecklistQuestion</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Question --></label>
+        <name>QPMS__Question</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Assigned To --></label>
+        <name>QPMS__Assigned_To__c</name>
+    </fields>
+    <fields>
+        <label><!-- Audit Program Id --></label>
+        <name>QPMS__Audit_Program_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Audit Type --></label>
+        <name>QPMS__Audit_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Audit --></label>
+        <name>QPMS__Audit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checklist Id --></label>
+        <name>QPMS__Checklist_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Color --></label>
+        <name>QPMS__Color__c</name>
+        <picklistValues>
+            <masterLabel>Green</masterLabel>
+            <translation><!-- Green --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red</masterLabel>
+            <translation><!-- Red --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yellow</masterLabel>
+            <translation><!-- Yellow --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This is Question Comment --></help>
+        <label><!-- Comment --></label>
+        <name>QPMS__Comment__c</name>
+    </fields>
+    <fields>
+        <help><!-- Add Comments found while Auditing --></help>
+        <label><!-- Comments --></label>
+        <name>QPMS__Comments__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is hint for the question --></help>
+        <label><!-- Hint --></label>
+        <name>QPMS__Hint__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>QPMS__Order__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is Pass/Fail --></help>
+        <label><!-- Pass/Fail --></label>
+        <name>QPMS__Pass_Fail__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NA</masterLabel>
+            <translation><!-- NA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Question Group --></label>
+        <name>QPMS__Question_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question_In_Group --></label>
+        <name>QPMS__Question_In_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question Name --></label>
+        <name>QPMS__Question_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field displays the question --></help>
+        <label><!-- Question --></label>
+        <name>QPMS__Question__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is Received Score --></help>
+        <label><!-- Received Score --></label>
+        <name>QPMS__Received_Score__c</name>
+    </fields>
+    <fields>
+        <help><!-- Maximum score of the question --></help>
+        <label><!-- Score --></label>
+        <name>QPMS__Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Section/Subsection --></label>
+        <name>QPMS__Section_Subsection__c</name>
+        <relationshipLabel><!-- Questions --></relationshipLabel>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <layouts>
+        <layout>Question Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Question Number --></nameFieldLabel>
+</CustomObjectTranslation>

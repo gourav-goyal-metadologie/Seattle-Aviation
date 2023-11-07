@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cycle Count --></label>
+        <name>inscor__Cycle_Count__c</name>
+        <relationshipLabel><!-- Cycle Count Entries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Discrepancy ID --></label>
+        <name>inscor__Discrepancy_ID__c</name>
+        <relationshipLabel><!-- Cycle Count Entries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Entered By --></label>
+        <name>inscor__Entered_By__c</name>
+        <relationshipLabel><!-- Cycle Count Entries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Entry Date --></label>
+        <name>inscor__Entry_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Entry Location --></label>
+        <name>inscor__Entry_Location__c</name>
+        <relationshipLabel><!-- Cycle Count Entries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inventory ID --></label>
+        <name>inscor__Inventory_ID__c</name>
+        <relationshipLabel><!-- Cycle Count Entries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity Counted --></label>
+        <name>inscor__Quantity_Counted__c</name>
+    </fields>
+    <layouts>
+        <layout>Cycle Count Entry Layout</layout>
+        <sections>
+            <label><!-- Cycle Count Entry Information --></label>
+            <section>Cycle Count Entry Information</section>
+        </sections>
+        <sections>
+            <label><!-- Entry Detail Information --></label>
+            <section>Entry Detail Information</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

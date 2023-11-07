@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- This does not enable your FedEx account to allow for Alcohol Shipping. This allows the Shipmate to display the Alcohol Shipping option under special services. Please contact FedEx if you are unsure if your FedEx account is setup for Alcohol Shipping. --></help>
+        <label><!-- Enable Alcohol Shipping --></label>
+        <name>zkmulti__EnableAlcoholShipping__c</name>
+    </fields>
+    <fields>
+        <help><!-- This does not enable your FedEx account for Dangerous Goods or Hazardous Materials Shipping. This allows the Shipmate to display the options under special services. Please contact FedEx if you are unsure if your FedEx account is setup for this Shipping. --></help>
+        <label><!-- Enable Dangerous Goods and HazMat --></label>
+        <name>zkmulti__EnableDangerousGoodsAndHazMat__c</name>
+    </fields>
+    <fields>
+        <help><!-- This does not enable your FedEx account to allow for Priority Alert. This allows the Shipmate to display the Priority Alert option under special services. Please contact FedEx if you are unsure if your FedEx account is setup for Priority Alert. --></help>
+        <label><!-- Enable Priority Alert --></label>
+        <name>zkmulti__EnablePriorityAlert__c</name>
+    </fields>
+</CustomObjectTranslation>

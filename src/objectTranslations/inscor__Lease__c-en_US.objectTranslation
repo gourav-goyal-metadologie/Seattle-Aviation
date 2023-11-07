@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>inscor__Account_Name__c</name>
+        <relationshipLabel><!-- Leases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Assigned To --></label>
+        <name>inscor__Assigned_To__c</name>
+        <relationshipLabel><!-- Leases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Billing Frequency --></label>
+        <name>inscor__Billing_Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Annual</masterLabel>
+            <translation><!-- Annual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daily</masterLabel>
+            <translation><!-- Daily --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual</masterLabel>
+            <translation><!-- Manual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation><!-- Monthly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation><!-- Quarterly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation><!-- Weekly --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Company --></label>
+        <name>inscor__Company__c</name>
+        <relationshipLabel><!-- Leases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contract End Date --></label>
+        <name>inscor__Contract_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Start Date --></label>
+        <name>inscor__Contract_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract --></label>
+        <name>inscor__Contract__c</name>
+        <relationshipLabel><!-- Leases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deposit Amount --></label>
+        <name>inscor__Deposit_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>inscor__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- If not entered at the line level, this will be used by default for all lines --></help>
+        <label><!-- Lease COGS Account --></label>
+        <name>inscor__Lease_COGS_Account__c</name>
+        <relationshipLabel><!-- Leases (Lease COGS Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- If not entered at the line level, this will be used by default for all lines --></help>
+        <label><!-- Lease Part Writedown % --></label>
+        <name>inscor__Lease_Part_Writedown__c</name>
+    </fields>
+    <fields>
+        <help><!-- If not entered at the line level, this will be used by default for all lines --></help>
+        <label><!-- Lease Revenue Account --></label>
+        <name>inscor__Lease_Revenue_Account__c</name>
+        <relationshipLabel><!-- Leases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Special Terms --></label>
+        <name>inscor__Special_Terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>inscor__Status__c</name>
+        <picklistValues>
+            <masterLabel>Activated</masterLabel>
+            <translation><!-- Activated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Approval Process</masterLabel>
+            <translation><!-- In Approval Process --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Community Lease Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Lease Information --></label>
+            <section>Lease Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lease Layout</layout>
+        <sections>
+            <label><!-- Financial Information --></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label><!-- Lease Information --></label>
+            <section>Lease Information</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

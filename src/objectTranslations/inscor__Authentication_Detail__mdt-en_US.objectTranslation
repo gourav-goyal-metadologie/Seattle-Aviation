@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- ClientId --></label>
+        <name>inscor__ClientId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client_Secret --></label>
+        <name>inscor__Client_Secret__c</name>
+    </fields>
+    <fields>
+        <label><!-- Password --></label>
+        <name>inscor__Password__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Name --></label>
+        <name>inscor__Service_Name__c</name>
+        <picklistValues>
+            <masterLabel>Aeroxchange</masterLabel>
+            <translation><!-- Aeroxchange --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Govgistics</masterLabel>
+            <translation><!-- Govgistics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ILS</masterLabel>
+            <translation><!-- ILS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OneAero</masterLabel>
+            <translation><!-- OneAero --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PartsBase</masterLabel>
+            <translation><!-- PartsBase --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>inscor__Type__c</name>
+        <picklistValues>
+            <masterLabel>Company</masterLabel>
+            <translation><!-- Company --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee</masterLabel>
+            <translation><!-- Employee --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- UserName --></label>
+        <name>inscor__UserName__c</name>
+    </fields>
+    <layouts>
+        <layout>Default</layout>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

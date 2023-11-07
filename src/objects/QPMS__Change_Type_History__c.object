@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>This is a common object for all object  History(Change Type module)</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fieldSets>
+        <fullName>QPMS__History_Fields</fullName>
+        <description>used in Change Type trail</description>
+        <displayedFields>
+            <field>CreatedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__Sub_Parent__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__FieldName__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__ActionStatus__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__OldValue__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__NewValue__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__Last_ModifiedBy__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>History Fields</label>
+    </fieldSets>
+    <fields>
+        <fullName>QPMS__ActionStatus__c</fullName>
+        <defaultValue>&apos;Updated&apos;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This field is for to display the action values like Created,Updated,Deleted in Change Type trail</description>
+        <externalId>false</externalId>
+        <label>Action</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Created</fullName>
+                    <default>false</default>
+                    <label>Created</label>
+                </value>
+                <value>
+                    <fullName>Updated</fullName>
+                    <default>false</default>
+                    <label>Updated</label>
+                </value>
+                <value>
+                    <fullName>Deleted</fullName>
+                    <default>false</default>
+                    <label>Deleted</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>QPMS__Attachment_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field is used to save attachment name</description>
+        <externalId>false</externalId>
+        <label>Attachment</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Change_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field is to save the Change Type id</description>
+        <externalId>false</externalId>
+        <label>Change Type</label>
+        <referenceTo>QPMS__Change_Type__c</referenceTo>
+        <relationshipLabel>Change Type History</relationshipLabel>
+        <relationshipName>Change_Type_History</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>QPMS__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field is used to save the description of the filed</description>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>QPMS__FieldApiName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field is used to save api name of the field</description>
+        <externalId>false</externalId>
+        <label>FieldApiName</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__FieldName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field is used to save the filed name</description>
+        <externalId>false</externalId>
+        <label>FieldName</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__HistoryObject__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field is used to differentiate the history object</description>
+        <externalId>false</externalId>
+        <label>HistoryObject</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Change Type</fullName>
+                    <default>false</default>
+                    <label>Change Type</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>QPMS__Last_ModifiedBy__c</fullName>
+        <deprecated>false</deprecated>
+        <description>To save the last modified by user</description>
+        <externalId>false</externalId>
+        <formula>CreatedBy.FirstName + &apos; &apos; + CreatedBy.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Last ModifiedBy</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__NewValue__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field is used to save new value in history object</description>
+        <externalId>false</externalId>
+        <label>NewValue</label>
+        <length>131072</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>QPMS__Object__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field is used to save the object name</description>
+        <externalId>false</externalId>
+        <label>Object</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__OldValue__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field is used to save the old value</description>
+        <externalId>false</externalId>
+        <label>OldValue</label>
+        <length>131072</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>QPMS__Sub_Parent_Formula__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>TEXT( QPMS__Sub_Parent__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Sub Parent Formula</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Sub_Parent__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field is used to save related object</description>
+        <externalId>false</externalId>
+        <label>Sub Parent</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Reference</fullName>
+                    <default>false</default>
+                    <label>Reference</label>
+                </value>
+                <value>
+                    <fullName>Security</fullName>
+                    <default>false</default>
+                    <label>Security</label>
+                </value>
+                <value>
+                    <fullName>Additional Details</fullName>
+                    <default>false</default>
+                    <label>Additional Details</label>
+                </value>
+                <value>
+                    <fullName>Initiation</fullName>
+                    <default>false</default>
+                    <label>Initiation</label>
+                </value>
+                <value>
+                    <fullName>Change Type Reference</fullName>
+                    <default>false</default>
+                    <label>Change Type Reference</label>
+                </value>
+                <value>
+                    <fullName>Closure</fullName>
+                    <default>false</default>
+                    <label>Closure</label>
+                </value>
+                <value>
+                    <fullName>Change Type Init</fullName>
+                    <default>false</default>
+                    <label>Change Type Init</label>
+                </value>
+                <value>
+                    <fullName>Change Type GeneralTask</fullName>
+                    <default>false</default>
+                    <label>Change Type GeneralTask</label>
+                </value>
+                <value>
+                    <fullName>Change Type GeneralSubTask</fullName>
+                    <default>false</default>
+                    <label>Change Type GeneralSubTask</label>
+                </value>
+                <value>
+                    <fullName>AdhocTask</fullName>
+                    <default>false</default>
+                    <label>AdhocTask</label>
+                </value>
+                <value>
+                    <fullName>Resolution</fullName>
+                    <default>false</default>
+                    <label>Resolution</label>
+                </value>
+                <value>
+                    <fullName>Investigation</fullName>
+                    <default>false</default>
+                    <label>Investigation</label>
+                </value>
+                <value>
+                    <fullName>ServiceProvider</fullName>
+                    <default>false</default>
+                    <label>ServiceProvider</label>
+                </value>
+                <value>
+                    <fullName>Change Type Details</fullName>
+                    <default>false</default>
+                    <label>Change Type Details</label>
+                </value>
+                <value>
+                    <fullName>Product User Details</fullName>
+                    <default>false</default>
+                    <label>Product User Details</label>
+                </value>
+                <value>
+                    <fullName>Address</fullName>
+                    <default>false</default>
+                    <label>Address</label>
+                </value>
+                <value>
+                    <fullName>CEMTypeTaskTemplate</fullName>
+                    <default>false</default>
+                    <label>CEMTypeTaskTemplate</label>
+                </value>
+                <value>
+                    <fullName>Change Type Approver</fullName>
+                    <default>false</default>
+                    <label>Change Type Approver</label>
+                </value>
+                <value>
+                    <fullName>Change Type</fullName>
+                    <default>false</default>
+                    <label>Change Type</label>
+                </value>
+                <value>
+                    <fullName>Review DHR</fullName>
+                    <default>false</default>
+                    <label>Review DHR</label>
+                </value>
+                <value>
+                    <fullName>Product Evaluation</fullName>
+                    <default>false</default>
+                    <label>Product Evaluation</label>
+                </value>
+                <value>
+                    <fullName>Change Type Approval</fullName>
+                    <default>false</default>
+                    <label>Change Type Approval</label>
+                </value>
+                <value>
+                    <fullName>Change Field Approval</fullName>
+                    <default>false</default>
+                    <label>Change Field Approval</label>
+                </value>
+                <value>
+                    <fullName>Review DHR Approval</fullName>
+                    <default>false</default>
+                    <label>Review DHR Approval</label>
+                </value>
+                <value>
+                    <fullName>Product Evaluation Approval</fullName>
+                    <default>false</default>
+                    <label>Product Evaluation Approval</label>
+                </value>
+                <value>
+                    <fullName>Investigation Approval</fullName>
+                    <default>false</default>
+                    <label>Investigation Approval</label>
+                </value>
+                <value>
+                    <fullName>AdhocTask Approval</fullName>
+                    <default>false</default>
+                    <label>AdhocTask Approval</label>
+                </value>
+                <value>
+                    <fullName>Review DHR Change Field Approval</fullName>
+                    <default>false</default>
+                    <label>Review DHR Change Field Approval</label>
+                </value>
+                <value>
+                    <fullName>Product Evaluation Change Field Approval</fullName>
+                    <default>false</default>
+                    <label>Product Evaluation Change Field Approval</label>
+                </value>
+                <value>
+                    <fullName>Investigation Change Field Approval</fullName>
+                    <default>false</default>
+                    <label>Investigation Change Field Approval</label>
+                </value>
+                <value>
+                    <fullName>AdhocTask Change Field Approval</fullName>
+                    <default>false</default>
+                    <label>AdhocTask Change Field Approval</label>
+                </value>
+                <value>
+                    <fullName>Closure Approval</fullName>
+                    <default>false</default>
+                    <label>Closure Approval</label>
+                </value>
+                <value>
+                    <fullName>Closure Change Field Approval</fullName>
+                    <default>false</default>
+                    <label>Closure Change Field Approval</label>
+                </value>
+                <value>
+                    <fullName>CEM Type Approval</fullName>
+                    <default>false</default>
+                    <label>CEM Type Approval</label>
+                </value>
+                <value>
+                    <fullName>Change Type initiation</fullName>
+                    <default>false</default>
+                    <label>Change Type initiation</label>
+                </value>
+                <value>
+                    <fullName>Product Change</fullName>
+                    <default>false</default>
+                    <label>Product Change</label>
+                </value>
+                <value>
+                    <fullName>Functional Task</fullName>
+                    <default>false</default>
+                    <label>Functional Task</label>
+                </value>
+                <value>
+                    <fullName>Adhoc Task</fullName>
+                    <default>false</default>
+                    <label>Adhoc Task</label>
+                </value>
+                <value>
+                    <fullName>Document Change</fullName>
+                    <default>false</default>
+                    <label>Document Change</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>QPMS__isCreated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This field is for to show the value is created/updated</description>
+        <externalId>false</externalId>
+        <label>Created</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__isDeleted__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This field is used to  check record deleted or not</description>
+        <externalId>false</externalId>
+        <label>Deleted</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Change Type History</label>
+    <listViews>
+        <fullName>QPMS__All</fullName>
+        <columns>NAME</columns>
+        <columns>QPMS__HistoryObject__c</columns>
+        <columns>QPMS__Object__c</columns>
+        <columns>QPMS__NewValue__c</columns>
+        <columns>QPMS__OldValue__c</columns>
+        <columns>QPMS__Sub_Parent__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>CH-{00000000}</displayFormat>
+        <label>Change Type History Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Change Type History</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

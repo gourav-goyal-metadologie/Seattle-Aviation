@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Risk_OccurrenceAuditTrail --></label>
+        <name>QPMS__Risk_OccurrenceAuditTrail</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Active --></label>
+        <name>QPMS__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>QPMS__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Module --></label>
+        <name>QPMS__Module__c</name>
+        <picklistValues>
+            <masterLabel>AUD</masterLabel>
+            <translation><!-- AUD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAPA</masterLabel>
+            <translation><!-- CAPA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CMP</masterLabel>
+            <translation><!-- CMP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CNG</masterLabel>
+            <translation><!-- CNG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DOC</masterLabel>
+            <translation><!-- DOC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC</masterLabel>
+            <translation><!-- NC --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Number --></label>
+        <name>QPMS__Number__c</name>
+    </fields>
+    <layouts>
+        <layout>Risk Occurrence Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Past Occurrence --></label>
+        <name>QPMS__Past_Occurrence</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Risk Occurrence --></label>
+        <name>QPMS__Risk_Occurrence</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Occurrence Probability Number must be greater than zero. --></errorMessage>
+        <name>QPMS__Occurrence_Number_Greater_Than_Zero</name>
+    </validationRules>
+</CustomObjectTranslation>

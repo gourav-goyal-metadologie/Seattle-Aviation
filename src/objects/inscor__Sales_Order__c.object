@@ -1,0 +1,1571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>Sales_Order2</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>inscor__Sales_Order_Compact</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>inscor__Sales_Order_Compact</fullName>
+        <fields>Name</fields>
+        <fields>inscor__Customer__c</fields>
+        <fields>inscor__Create_Date__c</fields>
+        <fields>inscor__Contact__c</fields>
+        <fields>inscor__Customer_PO_Number__c</fields>
+        <fields>inscor__Urgency__c</fields>
+        <fields>inscor__Sales_Order_Total_Value__c</fields>
+        <fields>inscor__Order_Hold__c</fields>
+        <fields>inscor__Assigned_To__c</fields>
+        <fields>inscor__Order_Source_Image__c</fields>
+        <label>Sales Order Compact</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>false</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>false</enableSharing>
+    <enableStreamingApi>false</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fieldSets>
+        <fullName>inscor__SidebarFields</fullName>
+        <description>Sidebar component for the lines tab</description>
+        <label>SidebarFields</label>
+    </fieldSets>
+    <fields>
+        <fullName>Authorize_Payment_Settlement__c</fullName>
+        <externalId>false</externalId>
+        <label>Authorize Payment Settlement</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Payment_Settlement_Status</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Date_Value_for_Ex_Agreement__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(MONTH(DATEVALUE(CreatedDate)))&amp;&quot;/&quot; &amp;TEXT(DAY(DATEVALUE(CreatedDate)))&amp;&quot;/&quot; &amp;TEXT(YEAR(DATEVALUE(CreatedDate)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Date Value for Ex Agreement</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Legacy_Ship_Method__c</fullName>
+        <externalId>false</externalId>
+        <label>Legacy Ship Method</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Link_to_Hosted_Pay_Page__c</fullName>
+        <description>Populated by flow</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Authvia secure hosted payment page.  This link may be sent in an invoice or email</inlineHelpText>
+        <label>Link to Hosted Pay Page</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Order__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>B2B Order #</label>
+        <referenceTo>Order</referenceTo>
+        <relationshipLabel>Sales Orders</relationshipLabel>
+        <relationshipName>Sales_Orders</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Paid_in_Full__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Paid in Full?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Vendor</fullName>
+                    <default>false</default>
+                    <label>Vendor</label>
+                </value>
+                <value>
+                    <fullName>All</fullName>
+                    <default>true</default>
+                    <label>All</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>inscor__Account_Terms__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Account Terms</label>
+        <referenceTo>inscor__Account_Terms__c</referenceTo>
+        <relationshipLabel>Sales Orders</relationshipLabel>
+        <relationshipName>Sales_Orders</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Acct__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>If this field is left blank when changing Ship Method then the default Acct # will be filled in automatically.</inlineHelpText>
+        <label>Ship Acct#</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Approval_Queue_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Approval Queue Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Assigned_To__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Assigned To</label>
+        <referenceTo>User</referenceTo>
+        <relationshipLabel>Sales Orders</relationshipLabel>
+        <relationshipName>Sales_Orders</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Bill_Freight_Via__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Bill Freight Via</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>On Cust Acct</fullName>
+                    <default>false</default>
+                    <label>On Cust Acct</label>
+                </value>
+                <value>
+                    <fullName>On Our Acct</fullName>
+                    <default>false</default>
+                    <label>On Our Acct</label>
+                </value>
+                <value>
+                    <fullName>On 3rd Party Acct</fullName>
+                    <default>false</default>
+                    <label>On 3rd Party Acct</label>
+                </value>
+                <value>
+                    <fullName>On Cust Invoice</fullName>
+                    <default>false</default>
+                    <label>On Cust Invoice</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>inscor__Billing_City__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Billing City</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Billing_Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Billing Contact</label>
+        <lookupFilter>
+            <active>false</active>
+            <filterItems>
+                <field>Contact.AccountId</field>
+                <operation>equals</operation>
+                <valueField>$Source.inscor__Customer__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Sales Orders (Billing Contact)</relationshipLabel>
+        <relationshipName>Sales_Orders1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Billing_Country__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Billing Country</label>
+        <length>80</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Billing_Postal_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Billing Postal Code</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Billing_State__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Billing State</label>
+        <length>80</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Billing_Street__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Billing Street</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Business_Category_Auto_Update__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Business Category Auto Update?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Business_Category__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Business Category</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>inscor__Business_Category</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>inscor__Company__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Company</label>
+        <referenceTo>inscor__Company__c</referenceTo>
+        <relationshipLabel>Sales Orders</relationshipLabel>
+        <relationshipName>Sales_Orders</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Contact_Phone__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Shipping Contact Phone</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Contact</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>(1 AND 2) OR (3 AND 4)</booleanFilter>
+            <filterItems>
+                <field>Contact.AccountId</field>
+                <operation>equals</operation>
+                <valueField>$Source.inscor__Customer__c</valueField>
+            </filterItems>
+            <filterItems>
+                <field>$Source.inscor__Dropship_Site__c</field>
+                <operation>equals</operation>
+                <value></value>
+            </filterItems>
+            <filterItems>
+                <field>$Source.inscor__Dropship_Site__c</field>
+                <operation>notEqual</operation>
+                <value></value>
+            </filterItems>
+            <filterItems>
+                <field>$Source.inscor__Dropship_Site__c</field>
+                <operation>equals</operation>
+                <valueField>Contact.inscor__Account_Shipping_Address__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Sales Orders</relationshipLabel>
+        <relationshipName>Sales_Orders</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Conversion_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Conversion ID</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Create_Date__c</fullName>
+        <defaultValue>NOW()</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Create Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Customer_PO_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Customer PO Number</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Customer__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Customer</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Account.inscor__Hide_from_SO__c</field>
+                <operation>equals</operation>
+                <value>False</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Sales Orders</relationshipLabel>
+        <relationshipName>Sales_Orders</relationshipName>
+        <required>true</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__DropShip_Email__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>DropShip Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Dropship_ATTN__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Dropship ATTN</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>$Source.inscor__Dropship_to_Account__c</field>
+                <operation>equals</operation>
+                <valueField>Contact.AccountId</valueField>
+            </filterItems>
+            <isOptional>true</isOptional>
+        </lookupFilter>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Sales Orders (Dropship ATTN)</relationshipLabel>
+        <relationshipName>Sales_Orders2</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Dropship_Site__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>If a Dropship to Account has been selected, use this to override the default address with any of the optional shipping addresses.</inlineHelpText>
+        <label>Dropship Site</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>$Source.inscor__Dropship_to_Account__c</field>
+                <operation>equals</operation>
+                <valueField>inscor__Account_Ship_Address__c.inscor__Account__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>inscor__Account_Ship_Address__c</referenceTo>
+        <relationshipLabel>Sales Orders (Dropship Site)</relationshipLabel>
+        <relationshipName>Sales_Orders1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Dropship_to_Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Use this to dropship to another Account.</inlineHelpText>
+        <label>Dropship to Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Sales Orders (Dropship to Account)</relationshipLabel>
+        <relationshipName>Sales_Orders1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Expected_Ship_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>expected ship date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>expected ship date</inlineHelpText>
+        <label>Expected Ship Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>inscor__External_Comments_Available__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>External Comments Available</label>
+        <referenceTo>inscor__Quick_Comment__c</referenceTo>
+        <relationshipLabel>Sales Orders (External Comments Available)</relationshipLabel>
+        <relationshipName>Sales_Orders1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__External_Comments_rt__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>External Comments</label>
+        <length>131072</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__External_Instruction__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>External Instruction</label>
+        <length>10000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__External_Reference_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <deprecated>false</deprecated>
+        <externalId>true</externalId>
+        <label>External Reference ID</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Government_Award__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Government Award</label>
+        <referenceTo>inscor__Government_Award__c</referenceTo>
+        <relationshipLabel>Sales Orders</relationshipLabel>
+        <relationshipName>Sales_Orders</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Incoterms__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Incoterms - RETIRED</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>inscor__Incoterms</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>inscor__Internal_Comments_Available__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Internal Comments Available</label>
+        <referenceTo>inscor__Quick_Comment__c</referenceTo>
+        <relationshipLabel>Sales Orders</relationshipLabel>
+        <relationshipName>Sales_Orders</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Internal_Comments_rt__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Internal Comments</label>
+        <length>131072</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__Internal_Instructions__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Internal Instructions</label>
+        <length>10000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__Load_Address_from_Account__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>If left checked, Shipping Address will fill in automatically from the Customer Account.</inlineHelpText>
+        <label>Load Address from Account - RETIRED</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Number_of_Lines__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Number of Lines</label>
+        <summaryForeignKey>inscor__Sales_Order_Line__c.inscor__Order__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Order_Hold_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the reason you are putting this sales order on hold. To remove a hold code, &quot;Ctrl&quot; click the selected code.</inlineHelpText>
+        <label>Order Hold Code</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>inscor__Release_Hold_Codes</valueSetName>
+        </valueSet>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__Order_Hold__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Order Hold?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Order_Source_Image__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF( ISPICKVAL( inscor__Order_Source__c, &apos;Aeroxchange&apos;) ,IMAGE(&apos;/resource/inscor__aero_exchange&apos;, &apos;AEX&apos;, 50, 192),&apos;&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Order Source Image</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Order_Source__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Order Source</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Manual</fullName>
+                    <default>true</default>
+                    <label>Manual</label>
+                </value>
+                <value>
+                    <fullName>Aeroxchange</fullName>
+                    <default>false</default>
+                    <label>Aeroxchange</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>inscor__Port_Dest__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Port/Dest</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Quote_Number__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Quote Number</label>
+        <referenceTo>inscor__Customer_Quote__c</referenceTo>
+        <relationshipLabel>Sales Orders</relationshipLabel>
+        <relationshipName>Sales_Orders</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Reference_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Reference ID</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Sales_Order_Total_Company_Value__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Sales Order Total Company Value</label>
+        <summarizedField>inscor__Sales_Order_Line__c.inscor__Company_Line_Total__c</summarizedField>
+        <summaryForeignKey>inscor__Sales_Order_Line__c.inscor__Order__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Sales_Order_Total_Value__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Sales Order Total Value</label>
+        <summarizedField>inscor__Sales_Order_Line__c.inscor__Line_Total__c</summarizedField>
+        <summaryForeignKey>inscor__Sales_Order_Line__c.inscor__Order__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Ship_Method__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>If wanting to use the default Acct # when setting/changing Ship Method, make sure that Acct # is blank. If Acct # is filled in then it will not be automatically set.</inlineHelpText>
+        <label>Ship Method</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>1 OR 2</booleanFilter>
+            <filterItems>
+                <field>inscor__Ship_Method__c.inscor__Account__c</field>
+                <operation>equals</operation>
+                <value></value>
+            </filterItems>
+            <filterItems>
+                <field>$Source.inscor__Customer__c</field>
+                <operation>equals</operation>
+                <valueField>inscor__Ship_Method__c.inscor__Account__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>inscor__Ship_Method__c</referenceTo>
+        <relationshipLabel>Sales Orders</relationshipLabel>
+        <relationshipName>Sales_Orders</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Ship_Terms__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Ship Terms</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>inscor__Shipping_Terms</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>inscor__Ship_To_Address__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Ship To Address</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>$Source.inscor__Customer__c</field>
+                <operation>equals</operation>
+                <valueField>inscor__Account_Ship_Address__c.inscor__Account__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>inscor__Account_Ship_Address__c</referenceTo>
+        <relationshipLabel>Sales Orders</relationshipLabel>
+        <relationshipName>Sales_Orders</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Ship_to_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Ship to Code</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Shipping_City__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Shipping City</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Shipping_Country__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Shipping Country</label>
+        <length>80</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Shipping_Instruction__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Shipping Instruction</label>
+        <length>10000</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__Shipping_Postal_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Shipping Postal Code</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Shipping_State__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Shipping State</label>
+        <length>80</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Shipping_Street__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Shipping Street</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Solicitation_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Solicitation Number</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Status__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New</fullName>
+                    <default>true</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>In_Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Partially_Allocated</fullName>
+                    <default>false</default>
+                    <label>Partially Allocated</label>
+                </value>
+                <value>
+                    <fullName>Allocated</fullName>
+                    <default>false</default>
+                    <label>Allocated</label>
+                </value>
+                <value>
+                    <fullName>Released</fullName>
+                    <default>false</default>
+                    <label>Released</label>
+                </value>
+                <value>
+                    <fullName>Shipped</fullName>
+                    <default>false</default>
+                    <label>Shipped</label>
+                </value>
+                <value>
+                    <fullName>Invoiced</fullName>
+                    <default>false</default>
+                    <label>Invoiced</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>inscor__Tracking_Enabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Tracking Enabled?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Urgency__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Urgency</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Routine</fullName>
+                    <default>true</default>
+                    <label>Routine</label>
+                </value>
+                <value>
+                    <fullName>Low</fullName>
+                    <default>false</default>
+                    <label>Low</label>
+                </value>
+                <value>
+                    <fullName>High</fullName>
+                    <default>false</default>
+                    <label>High</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Sales Order</label>
+    <listViews>
+        <fullName>All_Sales_Order_UNFILTERED</fullName>
+        <columns>NAME</columns>
+        <columns>inscor__Customer_PO_Number__c</columns>
+        <columns>inscor__Customer__c</columns>
+        <columns>inscor__Create_Date__c</columns>
+        <columns>inscor__Contact__c</columns>
+        <columns>inscor__Status__c</columns>
+        <columns>inscor__Sales_Order_Total_Value__c</columns>
+        <columns>inscor__Assigned_To__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Sales Order - UNFILTERED</label>
+    </listViews>
+    <listViews>
+        <fullName>My_Open_Orders</fullName>
+        <columns>NAME</columns>
+        <columns>inscor__Customer__c</columns>
+        <columns>inscor__Create_Date__c</columns>
+        <columns>inscor__Contact__c</columns>
+        <columns>inscor__Status__c</columns>
+        <columns>inscor__Sales_Order_Total_Value__c</columns>
+        <columns>inscor__Assigned_To__c</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>inscor__Status__c</field>
+            <operation>notEqual</operation>
+            <value>Shipped,Invoiced,Cancelled</value>
+        </filters>
+        <label>My Open Orders</label>
+    </listViews>
+    <listViews>
+        <fullName>Open_Sales_Orders_Status</fullName>
+        <columns>NAME</columns>
+        <columns>inscor__Customer__c</columns>
+        <columns>inscor__Create_Date__c</columns>
+        <columns>inscor__Contact__c</columns>
+        <columns>inscor__Status__c</columns>
+        <columns>inscor__Sales_Order_Total_Value__c</columns>
+        <columns>inscor__Assigned_To__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>inscor__Assigned_To__c</field>
+            <operation>equals</operation>
+            <value>david judd</value>
+        </filters>
+        <label>Open Sales Orders Status</label>
+    </listViews>
+    <listViews>
+        <fullName>Stephen_s_SO</fullName>
+        <columns>NAME</columns>
+        <columns>inscor__Assigned_To__c</columns>
+        <columns>inscor__Customer_PO_Number__c</columns>
+        <columns>inscor__Status__c</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>inscor__Status__c</field>
+            <operation>notEqual</operation>
+            <value>Invoiced,Cancelled</value>
+        </filters>
+        <label>Stephen&apos;s SO</label>
+        <sharedTo>
+            <group>Commercial_Teardown</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>inscor__All</fullName>
+        <columns>NAME</columns>
+        <columns>inscor__Customer_PO_Number__c</columns>
+        <columns>inscor__Customer__c</columns>
+        <columns>inscor__Create_Date__c</columns>
+        <columns>inscor__Contact__c</columns>
+        <columns>inscor__Status__c</columns>
+        <columns>inscor__Sales_Order_Total_Value__c</columns>
+        <columns>inscor__Assigned_To__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Sales Orders</label>
+    </listViews>
+    <nameField>
+        <displayFormat>SO-{0}</displayFormat>
+        <label>Sales Order Num</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Sales Orders</pluralLabel>
+    <searchLayouts>
+        <searchResultsAdditionalFields>inscor__Customer__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CREATED_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>inscor__Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>inscor__Sales_Order_Total_Value__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>inscor__Assigned_To__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>inscor__Business_Category_blank_Auto_Update</fullName>
+        <active>true</active>
+        <errorConditionFormula>inscor__Business_Category_Auto_Update__c == true &amp;&amp; NOT(ISBLANK(TEXT(inscor__Business_Category__c)))</errorConditionFormula>
+        <errorMessage>Auto Update Cannot be true when Business Category Selected.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Cant_change_from_Cancelled</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( 
+ISCHANGED(inscor__Status__c), 
+TEXT(PRIORVALUE(inscor__Status__c)) = &quot;Cancelled&quot; 
+)</errorConditionFormula>
+        <errorMessage>Once cancelled, the order cannot be reopened.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Cant_change_from_invoiced</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND( 
+ISCHANGED(inscor__Status__c), 
+TEXT(PRIORVALUE(inscor__Status__c)) = &quot;Invoiced&quot; 
+)</errorConditionFormula>
+        <errorMessage>Once invoiced, the Order can&apos;t be changed</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Customer_PO_Required</fullName>
+        <active>false</active>
+        <description>Require entry of customer PO</description>
+        <errorConditionFormula>inscor__Customer_PO_Number__c  = &apos;&apos;</errorConditionFormula>
+        <errorMessage>Customer PO is required.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Dropship_Site_And_Ship_To_Address</fullName>
+        <active>true</active>
+        <errorConditionFormula>NOT(ISBLANK(inscor__Dropship_to_Account__c)) &amp;&amp; NOT(ISBLANK( inscor__Ship_To_Address__c))</errorConditionFormula>
+        <errorMessage>Can not set &quot;Dropship to Account&quot; and &quot;Ship To Address&quot; together.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Status_cannot_be_previous</fullName>
+        <active>false</active>
+        <errorConditionFormula>OR(
+   AND
+   (
+     OR(
+       ISPICKVAL(PRIORVALUE( inscor__Status__c ), &quot;In_Progress&quot;),
+       ISPICKVAL(PRIORVALUE( inscor__Status__c ), &quot;Partially_Allocated&quot;),
+       ISPICKVAL(PRIORVALUE( inscor__Status__c ), &quot;Allocated&quot;),
+       ISPICKVAL(PRIORVALUE( inscor__Status__c ), &quot;Shipped&quot;)
+       ),
+      ISPICKVAL(inscor__Status__c, &quot;New&quot;)
+   )
+,
+   AND
+   (
+     OR(
+       ISPICKVAL(PRIORVALUE( inscor__Status__c ), &quot;Partially_Allocated&quot;),
+       ISPICKVAL(PRIORVALUE( inscor__Status__c ), &quot;Allocated&quot;),
+       ISPICKVAL(PRIORVALUE( inscor__Status__c ), &quot;Shipped&quot;)
+       ),
+      ISPICKVAL(inscor__Status__c, &quot;In_Progress&quot;)
+   )
+,
+   AND
+   (
+     OR(
+       ISPICKVAL(PRIORVALUE( inscor__Status__c ), &quot;Allocated&quot;),
+       ISPICKVAL(PRIORVALUE( inscor__Status__c ), &quot;Shipped&quot;)
+       ),
+      ISPICKVAL(inscor__Status__c, &quot;Partially_Allocated&quot;)
+   )
+,
+   AND
+   (
+     OR(
+       ISPICKVAL(PRIORVALUE( inscor__Status__c ), &quot;Shipped&quot;)
+       ),
+      ISPICKVAL(inscor__Status__c, &quot;Allocated&quot;)
+   )
+)</errorConditionFormula>
+        <errorMessage>Status cannot be changed to a previous status.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Deca4c5Y000000uH0DQAU</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>TEST</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>{!URLFOR(IF($Site.prefix == &apos;/s&apos;,&apos;/apex/dfsle__sending&apos;, $Site.Prefix +&apos;/apex/dfsle__sending&apos;), null, [sId = inscor__Sales_Order__c.Id, templateId = &apos;a4c5Y000000uH0DQAU&apos;, recordId = inscor__Sales_Order__c.Id, title = &apos;TEST&apos;, quickSend = false, isEmbedded = false])}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Deca4c5Y000000uHFKQA2</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Ex Contract</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>{!URLFOR(IF($Site.prefix == &apos;/s&apos;,&apos;/apex/dfsle__sending&apos;, $Site.Prefix +&apos;/apex/dfsle__sending&apos;), null, [sId = inscor__Sales_Order__c.Id, quickSend = true, isEmbedded = false, templateId = &apos;a4c5Y000000uHFKQA2&apos;, recordId = inscor__Sales_Order__c.Id, title = &apos;Ex Contract&apos;])}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Deca4c5Y000000yZviQAE</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>EX Contract</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>{!URLFOR(IF($Site.prefix == &apos;/s&apos;,&apos;/apex/dfsle__sending&apos;, $Site.Prefix +&apos;/apex/dfsle__sending&apos;), null, [sId = inscor__Sales_Order__c.Id, quickSend = true, isEmbedded = false, templateId = &apos;a4c5Y000000yZviQAE&apos;, recordId = inscor__Sales_Order__c.Id, title = &apos;EX Contract&apos;])}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Email_Payment_Request</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Email Payment Request</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/flow/Authvia_Create_Payment_Screen_Flow?recordId={!inscor__Sales_Order__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>SendWithDocuSign</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Send with DocuSign</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>{!URLFOR(IF($Site.prefix == &apos;/s&apos;,&apos;/apex/dfsle__sending&apos;, $Site.Prefix +&apos;/apex/dfsle__sending&apos;), null, [sId = inscor__Sales_Order__c.Id])}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Send_to_Slack</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Send to Slack</masterLabel>
+        <openType>noSidebar</openType>
+        <protected>false</protected>
+        <url>/apex/slackv2__sendToSlack?recordId={!CASESAFEID (inscor__Sales_Order__c.Id)}&amp;objectApiName=inscor__Sales_Order__c</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Slack_Alerts</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Slack Alerts</masterLabel>
+        <openType>noSidebar</openType>
+        <protected>false</protected>
+        <url>/apex/slackv2__slackAlerts?recordId={!CASESAFEID (inscor__Sales_Order__c.Id)}&amp;objectApiName=inscor__Sales_Order__c</url>
+    </webLinks>
+    <webLinks>
+        <fullName>avszen__ZEN_Generate_Release</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Generate Release</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/lightning/n/avszen__ZEN_Generate_Release_SO?avszen__id={!inscor__Sales_Order__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>inscor__Auto_Allocation</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Auto Allocation</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/lightning/n/inscor__Auto_Allocation?inscor__id={!inscor__Sales_Order__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>inscor__Generate_Release</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Generate Release</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/lightning/n/inscor__Generate_Release_SO?inscor__id={!inscor__Sales_Order__c.Id}</url>
+    </webLinks>
+</CustomObject>

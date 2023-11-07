@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Customer_Exchange_Summary_Form_Response_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Customer_Exchange_Summary_Form_Response_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>This will be a Child object of Customer Exchange Summary which will store the responses from Customer.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>AC_CSN__c</fullName>
+        <description>AC CSN</description>
+        <externalId>false</externalId>
+        <inlineHelpText>AC CSN</inlineHelpText>
+        <label>AC CSN</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AC_TSN__c</fullName>
+        <description>AC TSN</description>
+        <externalId>false</externalId>
+        <inlineHelpText>AC TSN</inlineHelpText>
+        <label>AC TSN</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AWB__c</fullName>
+        <description>AWB</description>
+        <externalId>false</externalId>
+        <inlineHelpText>AWB</inlineHelpText>
+        <label>AWB</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Active__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>Field used to check which Exchange Summary response is active</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Field used to check which Exchange Summary response is active</inlineHelpText>
+        <label>Active</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Address__c</fullName>
+        <externalId>false</externalId>
+        <label>Address</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Agreement_to_Non_Incident_Statement__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Agreement to Non-Incident-Statement</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Agreement to Non-Incident-Statement</inlineHelpText>
+        <label>Agreement to Non-Incident-Statement</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Aircraft_Model__c</fullName>
+        <description>Aircraft Model - will store Aircraft Model</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Aircraft Model</inlineHelpText>
+        <label>Aircraft Model</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Aircraft_SN__c</fullName>
+        <description>Aircraft SN</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Aircraft SN</inlineHelpText>
+        <label>Aircraft SN</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Billing_Address__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(NOT(ISBLANK(Customer_Exchange_Summary__r.inscor__Original_SO_ID__r.inscor__Customer__r.BillingStreet)),      Customer_Exchange_Summary__r.inscor__Original_SO_ID__r.inscor__Customer__r.BillingStreet + &apos;, &apos;, &apos;&apos;) 
++ 
+IF(NOT(ISBLANK(Customer_Exchange_Summary__r.inscor__Original_SO_ID__r.inscor__Customer__r.BillingCity)),        Customer_Exchange_Summary__r.inscor__Original_SO_ID__r.inscor__Customer__r.BillingCity + &apos;, &apos;,&apos;&apos;) 
++
+IF(NOT(ISBLANK(Customer_Exchange_Summary__r.inscor__Original_SO_ID__r.inscor__Customer__r.BillingState)),       Customer_Exchange_Summary__r.inscor__Original_SO_ID__r.inscor__Customer__r.BillingState + &apos;, &apos;, &apos;&apos;) 
++
+IF(NOT(ISBLANK(Customer_Exchange_Summary__r.inscor__Original_SO_ID__r.inscor__Customer__r.BillingPostalCode)),Customer_Exchange_Summary__r.inscor__Original_SO_ID__r.inscor__Customer__r.BillingPostalCode + &apos;, &apos;, &apos;&apos;) 
++
+IF(NOT(ISBLANK(Customer_Exchange_Summary__r.inscor__Original_SO_ID__r.inscor__Customer__r.BillingCountry)),     Customer_Exchange_Summary__r.inscor__Original_SO_ID__r.inscor__Customer__r.BillingCountry, &apos;&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Billing Address</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CSN_Value__c</fullName>
+        <description>CSN Value</description>
+        <externalId>false</externalId>
+        <inlineHelpText>CSN Value</inlineHelpText>
+        <label>CSN Value</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CSO_Value__c</fullName>
+        <description>CSO Value</description>
+        <externalId>false</externalId>
+        <inlineHelpText>CSO Value</inlineHelpText>
+        <label>CSO Value</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CSO__c</fullName>
+        <description>CSO</description>
+        <externalId>false</externalId>
+        <inlineHelpText>CSO</inlineHelpText>
+        <label>CSO/CSN</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>CSN</fullName>
+                    <default>false</default>
+                    <label>CSN</label>
+                </value>
+                <value>
+                    <fullName>CSO</fullName>
+                    <default>false</default>
+                    <label>CSO</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Carrier__c</fullName>
+        <description>Carrier</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Carrier</inlineHelpText>
+        <label>Carrier</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>FedEx</fullName>
+                    <default>false</default>
+                    <label>FedEx</label>
+                </value>
+                <value>
+                    <fullName>UPS</fullName>
+                    <default>false</default>
+                    <label>UPS</label>
+                </value>
+                <value>
+                    <fullName>DHL</fullName>
+                    <default>false</default>
+                    <label>DHL</label>
+                </value>
+                <value>
+                    <fullName>Others</fullName>
+                    <default>false</default>
+                    <label>Others</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Customer_Exchange_Summary__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Customer Exchange Summary</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Customer Exchange Summary</inlineHelpText>
+        <label>Customer Exchange Summary</label>
+        <referenceTo>inscor__Customer_Exchange_Summary__c</referenceTo>
+        <relationshipLabel>Customer Exchange Summary Form Responses</relationshipLabel>
+        <relationshipName>Customer_From_Customer_Summary</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Customer_Name__c</fullName>
+        <description>Customer Name - Name of Customer</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Customer Name</inlineHelpText>
+        <label>Customer Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_PO_Number__c</fullName>
+        <description>Customer PO Number - will store PO Number</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Customer PO Number</inlineHelpText>
+        <label>Customer PO Number</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Locked__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>Field used to lock the response so customer will not able to fill the exchange form again</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Field used to lock the response so customer will not able to fill the exchange form again</inlineHelpText>
+        <label>Locked</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Name</label>
+        <length>150</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PN__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Part Number - will store Part Number</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Original Part Number</inlineHelpText>
+        <label>PN</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Customer Exchange Summary Form Responses</relationshipLabel>
+        <relationshipName>PN</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Parent_Form_Response__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Parent Form Response</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Parent Form Response</inlineHelpText>
+        <label>Parent Form Response</label>
+        <referenceTo>Customer_Exchange_Summary_Form_Response__c</referenceTo>
+        <relationshipLabel>Customer Exchange Summary Form Responses</relationshipLabel>
+        <relationshipName>Customer_Exchange_Summary_Form_Responses</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Position__c</fullName>
+        <externalId>false</externalId>
+        <label>Position</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Reason_for_Removal_Comments__c</fullName>
+        <description>Reason for Removal (Other)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Reason for Removal (Other)</inlineHelpText>
+        <label>Reason for Removal (Other)</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Reason_for_Removal__c</fullName>
+        <description>Reason for Removal</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Reason for Removal</inlineHelpText>
+        <label>Reason for Removal</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Scheduled</fullName>
+                    <default>false</default>
+                    <label>Scheduled</label>
+                </value>
+                <value>
+                    <fullName>Failed Worn to Limit</fullName>
+                    <default>false</default>
+                    <label>Failed Worn to Limit</label>
+                </value>
+                <value>
+                    <fullName>Others</fullName>
+                    <default>false</default>
+                    <label>Others</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SN__c</fullName>
+        <description>SN - will store SN.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>SN</inlineHelpText>
+        <label>SN</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sales_Order__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Sales Order</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Sales Order</inlineHelpText>
+        <label>Sales Order</label>
+        <referenceTo>inscor__Sales_Order__c</referenceTo>
+        <relationshipLabel>Customer Exchange Summary Form Responses</relationshipLabel>
+        <relationshipName>Customer_From_Sales_Order</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>TSN_Value__c</fullName>
+        <description>TSN Value</description>
+        <externalId>false</externalId>
+        <inlineHelpText>TSN Value</inlineHelpText>
+        <label>TSN Value</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TSO_Value__c</fullName>
+        <description>TSO Value</description>
+        <externalId>false</externalId>
+        <inlineHelpText>TSO Value</inlineHelpText>
+        <label>TSO Value</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TSO__c</fullName>
+        <description>TSO</description>
+        <externalId>false</externalId>
+        <inlineHelpText>TSO</inlineHelpText>
+        <label>TSO/TSN</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>TSN</fullName>
+                    <default>false</default>
+                    <label>TSN</label>
+                </value>
+                <value>
+                    <fullName>TSO</fullName>
+                    <default>false</default>
+                    <label>TSO</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Customer Exchange Summary Form Response</label>
+    <nameField>
+        <displayFormat>CFR-{000000000}</displayFormat>
+        <label>Customer Exchange Summary Form Response</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Customer Exchange Summary Form Responses</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

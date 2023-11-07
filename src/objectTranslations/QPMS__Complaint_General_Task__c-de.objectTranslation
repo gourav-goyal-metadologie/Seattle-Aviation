@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Complaint General Task --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Complaint General Task --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Complaint General Task --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Complaint General Task --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Complaint General Task --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Complaint General Task --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Complaint General Task --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Complaint General Task --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- AdhocTask --></label>
+        <name>QPMS__AdhocTask</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Adhoc Task Resolution --></label>
+        <name>QPMS__Adhoc_Task_Resolution</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CAPA --></label>
+        <name>QPMS__CAPA</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CMP Adhoc Help --></label>
+        <name>QPMS__CMP_Adhoc_Help</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CMP Closure Help --></label>
+        <name>QPMS__CMP_Closure_Help</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CMP GEN Approval --></label>
+        <name>QPMS__CMP_GEN_Approval</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CMP Inv Approval Help --></label>
+        <name>QPMS__CMP_Inv_Approval_Help</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CMP Investigation Help --></label>
+        <name>QPMS__CMP_Investigation_Help</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CMP Product Evaluation Help --></label>
+        <name>QPMS__CMP_Product_Evaluation_Help</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CMP Review DHR Help --></label>
+        <name>QPMS__CMP_Review_DHR_Help</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Closure --></label>
+        <name>QPMS__Closure</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ComplaintGeneraltaskAudittrial --></label>
+        <name>QPMS__ComplaintGeneraltaskAudittrial</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Complaint Adhoc --></label>
+        <name>QPMS__Complaint_Adhoc</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Complaint Closure --></label>
+        <name>QPMS__Complaint_Closure</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Complaint Investigation --></label>
+        <name>QPMS__Complaint_Investigation</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Complaint Product Evalution --></label>
+        <name>QPMS__Complaint_Product_Evalution</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Complaint Review DHR --></label>
+        <name>QPMS__Complaint_Review_DHR</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- GeneralTaskCloneFields --></label>
+        <name>QPMS__GeneralTaskCloneFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Investigation --></label>
+        <name>QPMS__Investigation</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ProductEvaluation --></label>
+        <name>QPMS__ProductEvaluation</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QueryFields --></label>
+        <name>QPMS__QueryFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ReviewDHR --></label>
+        <name>QPMS__ReviewDHR</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Risk Assessment --></label>
+        <name>QPMS__Risk_Assesment</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Risk Assessment Panel --></label>
+        <name>QPMS__Risk_Assessment_Panel</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Adhoc Sequence --></label>
+        <name>QPMS__Adhoc_Sequence__c</name>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation><!-- 15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25</masterLabel>
+            <translation><!-- 25 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation><!-- 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>35</masterLabel>
+            <translation><!-- 35 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40</masterLabel>
+            <translation><!-- 40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>45</masterLabel>
+            <translation><!-- 45 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50</masterLabel>
+            <translation><!-- 50 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>55</masterLabel>
+            <translation><!-- 55 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60</masterLabel>
+            <translation><!-- 60 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>65</masterLabel>
+            <translation><!-- 65 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>70</masterLabel>
+            <translation><!-- 70 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>75</masterLabel>
+            <translation><!-- 75 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>80</masterLabel>
+            <translation><!-- 80 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>85</masterLabel>
+            <translation><!-- 85 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>90</masterLabel>
+            <translation><!-- 90 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>95</masterLabel>
+            <translation><!-- 95 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Age --></label>
+        <name>QPMS__Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allowed Days --></label>
+        <name>QPMS__Allowed_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- ApprovalProcess --></label>
+        <name>QPMS__ApprovalProcess__c</name>
+        <picklistValues>
+            <masterLabel>Change DueDate</masterLabel>
+            <translation><!-- Change DueDate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Owner</masterLabel>
+            <translation><!-- Change Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Task Approval</masterLabel>
+            <translation><!-- Task Approval --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approval Group --></label>
+        <name>QPMS__Approval_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Process Complete --></label>
+        <name>QPMS__Approval_Process_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Required --></label>
+        <name>QPMS__Approval_Required__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approver 1 --></label>
+        <name>QPMS__Approver_1__c</name>
+        <relationshipLabel><!-- Complaint General Tasks (Approver 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 2 --></label>
+        <name>QPMS__Approver_2__c</name>
+        <relationshipLabel><!-- Complaint General Tasks (Approver 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 3 --></label>
+        <name>QPMS__Approver_3__c</name>
+        <relationshipLabel><!-- Complaint General Tasks (Approver 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 4 --></label>
+        <name>QPMS__Approver_4__c</name>
+        <relationshipLabel><!-- Complaint General Tasks (Approver 4) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 5 --></label>
+        <name>QPMS__Approver_5__c</name>
+        <relationshipLabel><!-- Complaint General Tasks (Approver 5) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 6 --></label>
+        <name>QPMS__Approver_6__c</name>
+        <relationshipLabel><!-- Complaint General Tasks (Approver 6) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 7 --></label>
+        <name>QPMS__Approver_7__c</name>
+        <relationshipLabel><!-- Complaint General Tasks (Approver 7) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 8 --></label>
+        <name>QPMS__Approver_8__c</name>
+        <relationshipLabel><!-- Complaint General Tasks (Approver 8) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 9 --></label>
+        <name>QPMS__Approver_9__c</name>
+        <relationshipLabel><!-- Complaint General Tasks (Approver 9) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver Comments --></label>
+        <name>QPMS__Approver_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approver --></label>
+        <name>QPMS__Approver__c</name>
+        <relationshipLabel><!-- Complaint General Tasks (Approver) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CAPA Created --></label>
+        <name>QPMS__CAPA_Created__c</name>
+    </fields>
+    <fields>
+        <label><!-- CAPA Required --></label>
+        <name>QPMS__CAPA_Required__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CAPA --></label>
+        <name>QPMS__CAPA__c</name>
+        <relationshipLabel><!-- Investigations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ChangeFieldApprovalStatus --></label>
+        <name>QPMS__ChangeFieldApprovalStatus__c</name>
+        <picklistValues>
+            <masterLabel>Approve</masterLabel>
+            <translation><!-- Approve --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recall</masterLabel>
+            <translation><!-- Recall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reject</masterLabel>
+            <translation><!-- Reject --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Change Management --></label>
+        <name>QPMS__Change_Management__c</name>
+        <relationshipLabel><!-- Complaint General Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Closure Summary --></label>
+        <name>QPMS__Closure_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Complaint --></label>
+        <name>QPMS__Complaint__c</name>
+        <relationshipLabel><!-- Complaint General Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Completed By --></label>
+        <name>QPMS__Completed_By_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completed By --></label>
+        <name>QPMS__Completed_By__c</name>
+        <relationshipLabel><!-- Complaint General Tasks (Completed By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Completed Date --></label>
+        <name>QPMS__Completed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- CurrentApprovalSequenceNumber --></label>
+        <name>QPMS__CurrentApprovalSequenceNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Department --></label>
+        <name>QPMS__Department__c</name>
+        <relationshipLabel><!-- Complaint General Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Due Date --></label>
+        <name>QPMS__Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Escalation Status --></label>
+        <name>QPMS__Escalation_Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Flow</masterLabel>
+            <translation><!-- In Flow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Started</masterLabel>
+            <translation><!-- Not Started --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Initial Submitter --></label>
+        <name>QPMS__Initial_Submitter__c</name>
+        <relationshipLabel><!-- Complaint General Tasks (Initial Submitter) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Initiating Site --></label>
+        <name>QPMS__Initiating_Site__c</name>
+    </fields>
+    <fields>
+        <label><!-- Investigation Summary --></label>
+        <name>QPMS__Investigation_Summary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Investigation Tools --></label>
+        <name>QPMS__Investigation_Tool__c</name>
+        <picklistValues>
+            <masterLabel>5 Whys</masterLabel>
+            <translation><!-- 5 Whys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cause &amp; Effect</masterLabel>
+            <translation><!-- Cause &amp; Effect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fish bone</masterLabel>
+            <translation><!-- Fish bone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Six Sigma</masterLabel>
+            <translation><!-- Six Sigma --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Investigation Tools --></label>
+        <name>QPMS__Investigation_Tools__c</name>
+        <picklistValues>
+            <masterLabel>5 Whys</masterLabel>
+            <translation><!-- 5 Whys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cause &amp; Effect</masterLabel>
+            <translation><!-- Cause &amp; Effect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fish bone</masterLabel>
+            <translation><!-- Fish bone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Six Sigma</masterLabel>
+            <translation><!-- Six Sigma --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Justification for CAPA/no CAPA --></label>
+        <name>QPMS__Justification_for_CAPA_no_CAPA__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Due Date --></label>
+        <name>QPMS__New_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Owner --></label>
+        <name>QPMS__New_Owner__c</name>
+        <relationshipLabel><!-- Complaint General Tasks (New Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Note To Approver Owner/DueDate --></label>
+        <name>QPMS__Note_To_Approver_Owner_DueDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Note To Approver --></label>
+        <name>QPMS__Note_To_Approver__c</name>
+    </fields>
+    <fields>
+        <label><!-- Open Date --></label>
+        <name>QPMS__Open_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- ParentOwner --></label>
+        <name>QPMS__ParentOwner__c</name>
+        <relationshipLabel><!-- Complaint General Tasks (ParentOwner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ParentQueue --></label>
+        <name>QPMS__ParentQueue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Past Occurrence --></label>
+        <name>QPMS__Past_Occurrence__c</name>
+        <relationshipLabel><!-- Investigations (Past Occurrence) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reason For Reopen --></label>
+        <name>QPMS__Reason_For_Reopen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason For Void --></label>
+        <name>QPMS__Reason_For_Void__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reassign To --></label>
+        <name>QPMS__Reassign_To__c</name>
+        <picklistValues>
+            <masterLabel>Delegator</masterLabel>
+            <translation><!-- Delegator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Owner</masterLabel>
+            <translation><!-- Owner --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Rejection Comments --></label>
+        <name>QPMS__Rejection_Comments__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter comments regarding the CAPA here. --></help>
+        <label><!-- Resolution CAPA Comment --></label>
+        <name>QPMS__Resolution_CAPA_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Risk Assessment Required --></label>
+        <name>QPMS__Risk_Assessment_Required__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Risk Description --></label>
+        <name>QPMS__Risk_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Risk Occurrence --></label>
+        <name>QPMS__Risk_Occurrence__c</name>
+        <relationshipLabel><!-- Investigation --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Risk Priority --></label>
+        <name>QPMS__Risk_Priority__c</name>
+        <relationshipLabel><!-- Investigations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Risk Severity --></label>
+        <name>QPMS__Risk_Severity__c</name>
+        <relationshipLabel><!-- Investigations --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Sequence in which task should be performed. For example, if value is &apos;3&apos; then tasks with sequence numbers &apos;1&apos; and &apos;2&apos; should be performed first. --></help>
+        <label><!-- Sequence Position --></label>
+        <name>QPMS__Sequence_Position__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sequence --></label>
+        <name>QPMS__Sequence__c</name>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100</masterLabel>
+            <translation><!-- 100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation><!-- 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40</masterLabel>
+            <translation><!-- 40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50</masterLabel>
+            <translation><!-- 50 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60</masterLabel>
+            <translation><!-- 60 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>70</masterLabel>
+            <translation><!-- 70 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>80</masterLabel>
+            <translation><!-- 80 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>90</masterLabel>
+            <translation><!-- 90 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Signed-off By --></label>
+        <name>QPMS__Signed_Off_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>QPMS__Status__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Created</masterLabel>
+            <translation><!-- Created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disposition Pending Completion</masterLabel>
+            <translation><!-- Disposition Pending Completion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>InProgress</masterLabel>
+            <translation><!-- InProgress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending ActionPlan</masterLabel>
+            <translation><!-- Pending ActionPlan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Void</masterLabel>
+            <translation><!-- Void --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sub Department --></label>
+        <name>QPMS__Sub_Department__c</name>
+        <relationshipLabel><!-- Complaint General Tasks (Sub Department) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Summary --></label>
+        <name>QPMS__Summary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Task Closed Date --></label>
+        <name>QPMS__Task_Closed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Task Reopen By --></label>
+        <name>QPMS__Task_Reopen_By__c</name>
+        <relationshipLabel><!-- Complaint General Tasks (Task Reopen By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Task Reopen Date --></label>
+        <name>QPMS__Task_Reopen_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Task Title --></label>
+        <name>QPMS__Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- isLocked --></label>
+        <name>QPMS__isLocked__c</name>
+    </fields>
+    <fields>
+        <label><!-- isSubmitted --></label>
+        <name>QPMS__isSubmitted__c</name>
+        <picklistValues>
+            <masterLabel>False</masterLabel>
+            <translation><!-- False --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>True</masterLabel>
+            <translation><!-- True --></translation>
+        </picklistValues>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <layouts>
+        <layout>Complaint General Task Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Complaint General Task --></nameFieldLabel>
+    <recordTypes>
+        <label><!-- AdhocTask --></label>
+        <name>QPMS__AdhocTask</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Closure --></label>
+        <name>QPMS__Closure</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Investigation --></label>
+        <name>QPMS__Investigation</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Product Evaluation --></label>
+        <name>QPMS__Product_Evaluation</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Review DHR --></label>
+        <name>QPMS__Review_DHR</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Allowed days is required --></errorMessage>
+        <name>QPMS__Allowed_days_is_required</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,13 @@
+<design:component>
+    <design:attribute name="recordId" label="Record Id" />
+    <design:attribute name="showFileHeader" label="Show File Header?" />
+    <design:attribute name="fileHeaderText" label="File Header Text" />
+    <design:attribute name="showRequired" label="Required" />
+    <design:attribute name="uploadMultiple" label="Upload Multiple?" />
+    <design:attribute name="allowUpload" label="Allow Upload" />
+    <design:attribute name="allowDelete" label="Allow Delete" />
+    <design:attribute name="acceptFileTypes" label="Accept File Types (.pdf, .jpg and etc.)" />
+    <!--<design:attribute name="files" label="Files" />-->
+    <design:attribute name="category" label="Category" />
+    <design:attribute name="helpText" label="Help Text" description="Use \n to break the line."/>
+</design:component>

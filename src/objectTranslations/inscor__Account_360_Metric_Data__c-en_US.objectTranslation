@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account --></label>
+        <name>inscor__Account__c</name>
+        <relationshipLabel><!-- Account 360 Metric Data --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cache Currency Value --></label>
+        <name>inscor__Cache_Currency_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company --></label>
+        <name>inscor__Company__c</name>
+        <relationshipLabel><!-- Account 360 Metric Data --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Last Updated --></label>
+        <name>inscor__Last_Updated__c</name>
+    </fields>
+</CustomObjectTranslation>

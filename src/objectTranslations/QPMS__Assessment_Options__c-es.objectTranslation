@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Assessment Options --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Assessment Options --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Assessment Option Fields --></label>
+        <name>QPMS__Assessment_Option_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QueryFields --></label>
+        <name>QPMS__QueryFields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Assessment Options Template --></label>
+        <name>QPMS__Assessment_Options_Template__c</name>
+        <relationshipLabel><!-- Assessment Optionss --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Assessment  Questions --></label>
+        <name>QPMS__Assessment_Questions__c</name>
+        <relationshipLabel><!-- Assessment Optionss --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Correct Answer --></label>
+        <name>QPMS__Correct_Answer__c</name>
+        <picklistValues>
+            <masterLabel>Option1</masterLabel>
+            <translation><!-- Option1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Option2</masterLabel>
+            <translation><!-- Option2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Option3</masterLabel>
+            <translation><!-- Option3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Option4</masterLabel>
+            <translation><!-- Option4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Option5</masterLabel>
+            <translation><!-- Option5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Option1 --></label>
+        <name>QPMS__Option1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Option2 --></label>
+        <name>QPMS__Option2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Option3 --></label>
+        <name>QPMS__Option3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Option4 --></label>
+        <name>QPMS__Option4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Option5 --></label>
+        <name>QPMS__Option5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pass-Fail --></label>
+        <name>QPMS__Pass_Fail__c</name>
+        <picklistValues>
+            <masterLabel>False</masterLabel>
+            <translation><!-- False --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>True</masterLabel>
+            <translation><!-- True --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- QA Comment --></label>
+        <name>QPMS__QA_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Selected Answer --></label>
+        <name>QPMS__Selected_Answer__c</name>
+        <picklistValues>
+            <masterLabel>Option1</masterLabel>
+            <translation><!-- Option1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Option2</masterLabel>
+            <translation><!-- Option2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Option3</masterLabel>
+            <translation><!-- Option3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Option4</masterLabel>
+            <translation><!-- Option4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Option5</masterLabel>
+            <translation><!-- Option5 --></translation>
+        </picklistValues>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <layouts>
+        <layout>Assessment Options Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Assessment Options Name --></nameFieldLabel>
+</CustomObjectTranslation>

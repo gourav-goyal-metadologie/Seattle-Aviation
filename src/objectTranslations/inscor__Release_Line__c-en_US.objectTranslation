@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Date Difference --></label>
+        <name>Date_Difference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Packed --></label>
+        <name>avszen__Quantity_Packed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Acquisition Cost --></label>
+        <name>inscor__Acquisition_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allocation --></label>
+        <name>inscor__Allocation__c</name>
+        <relationshipLabel><!-- Release Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Business Category --></label>
+        <name>inscor__Business_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Acquisition Cost --></label>
+        <name>inscor__Company_Acquisition_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Extended Acquisition Cost --></label>
+        <name>inscor__Company_Extended_Acquisition_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Extended Repair Cost --></label>
+        <name>inscor__Company_Extended_Repair_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Line Value --></label>
+        <name>inscor__Company_Line_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Price --></label>
+        <name>inscor__Company_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Repair Cost --></label>
+        <name>inscor__Company_Repair_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Create Date --></label>
+        <name>inscor__Create_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exchange Rate --></label>
+        <name>inscor__Exchange_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extended Acquisition Cost --></label>
+        <name>inscor__Extended_Acquisition_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extended Repair Cost --></label>
+        <name>inscor__Extended_Repair_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Comments --></label>
+        <name>inscor__External_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inventory Location --></label>
+        <name>inscor__Inventory_Location__c</name>
+        <relationshipLabel><!-- Release Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Line Number --></label>
+        <name>inscor__Line_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line Value --></label>
+        <name>inscor__Line_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Code --></label>
+        <name>inscor__Owner_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- PO Issue --></label>
+        <name>inscor__PO_Issue__c</name>
+        <relationshipLabel><!-- Release Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Part Number ID --></label>
+        <name>inscor__Part_Number_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part Number --></label>
+        <name>inscor__Part_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pick Assigned To --></label>
+        <name>inscor__Pick_Assigned_To__c</name>
+        <relationshipLabel><!-- Release Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Price --></label>
+        <name>inscor__Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purchase Order Line --></label>
+        <name>inscor__Purchase_Order_Line__c</name>
+        <relationshipLabel><!-- Release Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity Picked --></label>
+        <name>inscor__Quantity_Picked__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Returned --></label>
+        <name>inscor__Quantity_Returned__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity To Ship --></label>
+        <name>inscor__Quantity_To_Ship__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>inscor__Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity on RMA --></label>
+        <name>inscor__Quantity_on_RMA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity to Pick --></label>
+        <name>inscor__Quantity_to_Pick__c</name>
+    </fields>
+    <fields>
+        <label><!-- RMA Line --></label>
+        <name>inscor__RMA_Line__c</name>
+        <relationshipLabel><!-- Release Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RO Issue --></label>
+        <name>inscor__RO_Issue__c</name>
+        <relationshipLabel><!-- Release Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reference ID --></label>
+        <name>inscor__Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rejected Reason --></label>
+        <name>inscor__Rejected_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Condition</masterLabel>
+            <translation><!-- Condition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Found</masterLabel>
+            <translation><!-- Not Found --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paperwork</masterLabel>
+            <translation><!-- Paperwork --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Rejected --></label>
+        <name>inscor__Rejected__c</name>
+    </fields>
+    <fields>
+        <label><!-- Release --></label>
+        <name>inscor__Release__c</name>
+        <relationshipLabel><!-- Release Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Repair Cost --></label>
+        <name>inscor__Repair_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Repair Order Line --></label>
+        <name>inscor__Repair_Order_Line__c</name>
+        <relationshipLabel><!-- Release Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- SO Line Number --></label>
+        <name>inscor__SO_Line_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Order Line --></label>
+        <name>inscor__Sales_Order_Line__c</name>
+        <relationshipLabel><!-- Release Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>inscor__Status__c</name>
+        <picklistValues>
+            <masterLabel>In Picking</masterLabel>
+            <translation><!-- In Picking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In QC</masterLabel>
+            <translation><!-- In QC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Shipping</masterLabel>
+            <translation><!-- In Shipping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoiced</masterLabel>
+            <translation><!-- Invoiced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Picked</masterLabel>
+            <translation><!-- Picked --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QCd</masterLabel>
+            <translation><!-- QCd --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Released</masterLabel>
+            <translation><!-- Released --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipped</masterLabel>
+            <translation><!-- Shipped --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Work Order Allocation --></label>
+        <name>inscor__Work_Order_Allocation__c</name>
+        <relationshipLabel><!-- Release Lines --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Release Line Layout</layout>
+        <sections>
+            <label><!-- Financial Information --></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- Purchase Order Information --></label>
+            <section>Purchase Order Information</section>
+        </sections>
+        <sections>
+            <label><!-- Release Line Information --></label>
+            <section>Release Line Information</section>
+        </sections>
+        <sections>
+            <label><!-- Repair Order Information --></label>
+            <section>Repair Order Information</section>
+        </sections>
+        <sections>
+            <label><!-- Sales Order Information --></label>
+            <section>Sales Order Information</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Price cannot be edited once the Release is Shipped or Invoiced. --></errorMessage>
+        <name>inscor__Cant_Edit_Price_Once_Shipped_Or_Invoiced</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- SO Release line price can not be blank --></errorMessage>
+        <name>inscor__SO_Release_Price_Can_Not_Be_Blank</name>
+    </validationRules>
+</CustomObjectTranslation>

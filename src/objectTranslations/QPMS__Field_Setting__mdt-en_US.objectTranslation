@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- API Name --></label>
+        <name>QPMS__API_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- BelongsToSection --></label>
+        <name>QPMS__BelongsToSection__c</name>
+    </fields>
+    <fields>
+        <label><!-- Clearfix After --></label>
+        <name>QPMS__Clearfix_After__c</name>
+    </fields>
+    <fields>
+        <help><!-- Handling field display colors --></help>
+        <label><!-- Customized Colors --></label>
+        <name>QPMS__Customized_Colors__c</name>
+    </fields>
+    <fields>
+        <help><!-- Holds the id of wiz multi --></help>
+        <label><!-- Data Id --></label>
+        <name>QPMS__Data_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used for checked the filed by default --></help>
+        <label><!-- Default Checked --></label>
+        <name>QPMS__Default_Checked__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Date As Today --></label>
+        <name>QPMS__Default_Date_As_Today__c</name>
+    </fields>
+    <fields>
+        <help><!-- to disable field by default through wiz_everything --></help>
+        <label><!-- Disable --></label>
+        <name>QPMS__Disable__c</name>
+    </fields>
+    <fields>
+        <help><!-- if set to true the field will be displayed as multi picklist. It is used mostly  with  text area fields which holds id of records. --></help>
+        <label><!-- Display As Multi Picklist --></label>
+        <name>QPMS__Display_As_Multi_Picklist__c</name>
+    </fields>
+    <fields>
+        <label><!-- Display As --></label>
+        <name>QPMS__Display_As__c</name>
+        <picklistValues>
+            <masterLabel>Picklist</masterLabel>
+            <translation><!-- Picklist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Radioset</masterLabel>
+            <translation><!-- Radioset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RichTextArea</masterLabel>
+            <translation><!-- RichTextArea --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Do not Allow Future Date --></label>
+        <name>QPMS__Do_not_Allow_Future_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do not Allow Past Date --></label>
+        <name>QPMS__Do_not_Allow_Past_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable Locale --></help>
+        <label><!-- Enable Locale --></label>
+        <name>QPMS__Enable_Locale__c</name>
+    </fields>
+    <fields>
+        <help><!-- To display change link besides fields --></help>
+        <label><!-- FieldLink --></label>
+        <name>QPMS__FieldLink__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Set --></label>
+        <name>QPMS__Field_Set__c</name>
+        <relationshipLabel><!-- Field Settings --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Filter value to query --></help>
+        <label><!-- Filter Value --></label>
+        <name>QPMS__Filter_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- Filter value for wiz multi --></help>
+        <label><!-- Filter --></label>
+        <name>QPMS__Filter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Html formatted --></label>
+        <name>QPMS__Html_formatted__c</name>
+    </fields>
+    <fields>
+        <help><!-- Display value for lookup --></help>
+        <label><!-- Init Field Value --></label>
+        <name>QPMS__Init_Field_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- Module or group filter for wiz multi --></help>
+        <label><!-- ModuleGroupFilter --></label>
+        <name>QPMS__ModuleGroupFilter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Narrow --></label>
+        <name>QPMS__Narrow__c</name>
+    </fields>
+    <fields>
+        <help><!-- Holds the object name to fetch the records for pick list if display as multi picklist field is set to true --></help>
+        <label><!-- Object Name For Multi Picklist --></label>
+        <name>QPMS__Object_Name_For_Multi_Picklist__c</name>
+    </fields>
+    <fields>
+        <help><!-- On Change function for this field --></help>
+        <label><!-- OnChange --></label>
+        <name>QPMS__OnChange__c</name>
+    </fields>
+    <fields>
+        <help><!-- OnCustomerChange --></help>
+        <label><!-- OnCustomerChange --></label>
+        <name>QPMS__OnCustomerChange__c</name>
+    </fields>
+    <fields>
+        <label><!-- PageName --></label>
+        <name>QPMS__PageName__c</name>
+    </fields>
+    <fields>
+        <help><!-- To display placeholder for a field --></help>
+        <label><!-- Placeholder --></label>
+        <name>QPMS__Placeholder__c</name>
+    </fields>
+    <fields>
+        <help><!-- query fields to retrieve for wiz multi --></help>
+        <label><!-- Query Fields --></label>
+        <name>QPMS__Query_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- Query Orderby --></label>
+        <name>QPMS__Query_Orderby__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type Of User --></label>
+        <name>QPMS__Type_Of_User__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>QPMS__Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wide --></label>
+        <name>QPMS__Wide__c</name>
+    </fields>
+    <fields>
+        <label><!-- additional filter --></label>
+        <name>QPMS__additional_filter__c</name>
+    </fields>
+    <fields>
+        <label><!-- divClass --></label>
+        <name>QPMS__divClass__c</name>
+    </fields>
+    <fields>
+        <label><!-- isGroup --></label>
+        <name>QPMS__isGroup__c</name>
+    </fields>
+    <fields>
+        <label><!-- maxDate --></label>
+        <name>QPMS__maxDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- maxlength --></label>
+        <name>QPMS__maxlength__c</name>
+    </fields>
+    <fields>
+        <label><!-- minDate --></label>
+        <name>QPMS__minDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- minValue --></label>
+        <name>QPMS__minValue__c</name>
+    </fields>
+    <layouts>
+        <layout>Field Setting Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- US FDA Adverse Event And Manufacturer --></label>
+        <name>QPMS__US_FDA_Adverse_Event_And_Manufacturer</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA All Manufacturer Others --></label>
+        <name>QPMS__US_FDA_All_Manufacturer_Others</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA Audit Trail --></label>
+        <name>QPMS__US_FDA_Audit_Trail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA Audit Trail Contact office --></label>
+        <name>QPMS__US_FDA_Audit_Trail_Contact_office</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA Audit Trail Manufacturer Site --></label>
+        <name>QPMS__US_FDA_Audit_Trail_Manufacturer_Site</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA Date Received by Manufacturer --></label>
+        <name>QPMS__US_FDA_Date_Received_by_Manufacturer</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA If IND, Give Protocol # --></label>
+        <name>QPMS__US_FDA_If_IND_Give_Protocol</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA Manufacturer Continue --></label>
+        <name>QPMS__US_FDA_Manufacturer_Continue</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA Manufacturer Details --></label>
+        <name>QPMS__US_FDA_Manufacturer_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA QueryFields --></label>
+        <name>QPMS__US_FDA_QueryFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA Report Source --></label>
+        <name>QPMS__US_FDA_Report_Source</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA Type of Report --></label>
+        <name>QPMS__US_FDA_Type_of_Report</name>
+    </fieldSets>
+    <fields>
+        <label><!-- ANDA # --></label>
+        <name>QPMS__ANDA__c</name>
+    </fields>
+    <fields>
+        <help><!-- Adverse Event Term(s) --></help>
+        <label><!-- G7. Adverse Event Term(s) --></label>
+        <name>QPMS__Adverse_Event_Term__c</name>
+    </fields>
+    <fields>
+        <label><!-- G7. Adverse Event Term(s) --></label>
+        <name>QPMS__Adverse_Event_Term_s__c</name>
+    </fields>
+    <fields>
+        <label><!-- Combination Product --></label>
+        <name>QPMS__Combination_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Representative --></label>
+        <name>QPMS__Company_Representative__c</name>
+    </fields>
+    <fields>
+        <label><!-- ComplaintId --></label>
+        <name>QPMS__ComplaintId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Compounded Product --></help>
+        <label><!-- Compounded Product --></label>
+        <name>QPMS__Compounded_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consumer --></label>
+        <name>QPMS__Consumer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address - Line 1 --></label>
+        <name>QPMS__Contact_Address_Line_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address - Line 2 --></label>
+        <name>QPMS__Contact_Address_Line_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>QPMS__Contact_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>QPMS__Contact_Country__c</name>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation><!-- India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SA</masterLabel>
+            <translation><!-- SA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USA</masterLabel>
+            <translation><!-- USA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United States of America</masterLabel>
+            <translation><!-- United States of America --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Email Address --></label>
+        <name>QPMS__Contact_Email_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Establishment Name --></label>
+        <name>QPMS__Contact_Establishment_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- First/Given Name --></label>
+        <name>QPMS__Contact_First_Given_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Name --></label>
+        <name>QPMS__Contact_Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Middle Name --></label>
+        <name>QPMS__Contact_Middle_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Office --></label>
+        <name>QPMS__Contact_Office__c</name>
+    </fields>
+    <fields>
+        <label><!-- Post Office Or Zip Code --></label>
+        <name>QPMS__Contact_Post_Office_Or_Zip_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- State, Province, or Territory --></label>
+        <name>QPMS__Contact_State_Province_or_Territory__c</name>
+        <picklistValues>
+            <masterLabel>Andra</masterLabel>
+            <translation><!-- Andra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL</masterLabel>
+            <translation><!-- FL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Florida</masterLabel>
+            <translation><!-- Florida --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Date Received by Manufacturer --></label>
+        <name>QPMS__Date_Received_by_Manufacturer__c</name>
+    </fields>
+    <fields>
+        <help><!-- Device BLA Number --></help>
+        <label><!-- Device BLA Number --></label>
+        <name>QPMS__Device_BLA_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distributor --></label>
+        <name>QPMS__Distributor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Fax Number --></help>
+        <label><!-- Fax Number --></label>
+        <name>QPMS__Fax_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Follow Up Number --></label>
+        <name>QPMS__Follow_Up_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Follow-up# --></label>
+        <name>QPMS__Follow_up__c</name>
+    </fields>
+    <fields>
+        <label><!-- Foregin --></label>
+        <name>QPMS__Foregin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Health Professional --></label>
+        <name>QPMS__Health_Professional__c</name>
+    </fields>
+    <fields>
+        <label><!-- IND # --></label>
+        <name>QPMS__IND__c</name>
+    </fields>
+    <fields>
+        <label><!-- If IND, Give Protocol # --></label>
+        <name>QPMS__If_IND_Give_Protocol__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial --></label>
+        <name>QPMS__Initial__c</name>
+    </fields>
+    <fields>
+        <label><!-- Literature --></label>
+        <name>QPMS__Literature__c</name>
+    </fields>
+    <fields>
+        <label><!-- G8. Manufacturer Report Number --></label>
+        <name>QPMS__Manufacturer_Report_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- State, Province, or Territory --></label>
+        <name>QPMS__Manufacturin_State_Province_or_Territory__c</name>
+        <picklistValues>
+            <masterLabel>Andra</masterLabel>
+            <translation><!-- Andra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Florida</masterLabel>
+            <translation><!-- Florida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Goa</masterLabel>
+            <translation><!-- Goa --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Address - Line 1 --></label>
+        <name>QPMS__Manufacturing_Address_Line_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address - Line 2 --></label>
+        <name>QPMS__Manufacturing_Address_Line_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>QPMS__Manufacturing_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>QPMS__Manufacturing_Country__c</name>
+        <picklistValues>
+            <masterLabel>Austria</masterLabel>
+            <translation><!-- Austria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United States of America</masterLabel>
+            <translation><!-- United States of America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WEST</masterLabel>
+            <translation><!-- WEST --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Email Address --></label>
+        <name>QPMS__Manufacturing_Email_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Establishment Name --></label>
+        <name>QPMS__Manufacturing_Establishment_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Fax Number --></help>
+        <label><!-- Fax Number --></label>
+        <name>QPMS__Manufacturing_Fax_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone Number --></label>
+        <name>QPMS__Manufacturing_Phone_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Post Office Or Zip Code --></label>
+        <name>QPMS__Manufacturing_Post_Office_Or_Zip_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- NDA --></help>
+        <label><!-- NDA --></label>
+        <name>QPMS__NDA__c</name>
+    </fields>
+    <fields>
+        <help><!-- OTC Product --></help>
+        <label><!-- OTC Product --></label>
+        <name>QPMS__OTC_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other --></label>
+        <name>QPMS__Other__c</name>
+    </fields>
+    <fields>
+        <label><!-- Others --></label>
+        <name>QPMS__Others__c</name>
+    </fields>
+    <fields>
+        <label><!-- PMA/510(k) # --></label>
+        <name>QPMS__PMA_510_k__c</name>
+    </fields>
+    <fields>
+        <label><!-- Periodic --></label>
+        <name>QPMS__Periodic__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone Number --></label>
+        <name>QPMS__Phone_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Pre-1938:Yes --></help>
+        <label><!-- Pre-1938 --></label>
+        <name>QPMS__Pre_1938__c</name>
+    </fields>
+    <fields>
+        <help><!-- Pre-ANDA --></help>
+        <label><!-- Pre-ANDA --></label>
+        <name>QPMS__Pre_ANDA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regulatory Body --></label>
+        <name>QPMS__Regulatory_Body__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regulatory Report --></label>
+        <name>QPMS__Regulatory_Report__c</name>
+        <relationshipLabel><!-- All Manufacturers --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Study --></help>
+        <label><!-- Study --></label>
+        <name>QPMS__Study__c</name>
+    </fields>
+    <fields>
+        <label><!-- 15-day --></label>
+        <name>QPMS__TOR_15_day__c</name>
+    </fields>
+    <fields>
+        <label><!-- 30-day --></label>
+        <name>QPMS__TOR_30_day__c</name>
+    </fields>
+    <fields>
+        <label><!-- 5-day --></label>
+        <name>QPMS__TOR_5_day__c</name>
+    </fields>
+    <fields>
+        <label><!-- 7-day --></label>
+        <name>QPMS__TOR_7_day__c</name>
+    </fields>
+    <fields>
+        <label><!-- Title (e.g.,Mr.,Ms.) --></label>
+        <name>QPMS__Title_e_g_Mr_Ms__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Facility --></label>
+        <name>QPMS__User_Facility__c</name>
+    </fields>
+</CustomObjectTranslation>

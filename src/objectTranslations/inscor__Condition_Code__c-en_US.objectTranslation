@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Condition Code Rank --></label>
+        <name>inscor__Condition_Code_Rank__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Services Condition Code --></label>
+        <name>inscor__Data_Services_Condition_Code__c</name>
+        <picklistValues>
+            <masterLabel>AR</masterLabel>
+            <translation><!-- AR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NE</masterLabel>
+            <translation><!-- NE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NS</masterLabel>
+            <translation><!-- NS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SV</masterLabel>
+            <translation><!-- SV --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>inscor__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hide from Services --></label>
+        <name>inscor__Hide_from_Services1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hide from Services - RETIRED --></label>
+        <name>inscor__Hide_from_Services__c</name>
+        <picklistValues>
+            <masterLabel>ILS</masterLabel>
+            <translation><!-- ILS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partsbase</masterLabel>
+            <translation><!-- Partsbase --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Material Cert Active Side --></label>
+        <name>inscor__Material_Cert_Active_Side__c</name>
+        <picklistValues>
+            <masterLabel>14-17</masterLabel>
+            <translation><!-- 14-17 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18-21</masterLabel>
+            <translation><!-- 18-21 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Show in Summary --></label>
+        <name>inscor__Show_in_Summary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Summary Order --></label>
+        <name>inscor__Summary_Order__c</name>
+    </fields>
+    <layouts>
+        <layout>Condition Code Layout</layout>
+        <sections>
+            <label><!-- Condition Code Information --></label>
+            <section>Condition Code Information</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- Part Research Settings --></label>
+            <section>Part Research Settings</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Summary order cannot be blank or 0 if Show Is Summary is checked --></errorMessage>
+        <name>inscor__Summary_Order_required_if_shown</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,4 @@
+Dear {!inscor__Customer_Exchange_Summary__c.inscor__Customer__c}, 
+
+Thank you for your previous purchase on your PO{!inscor__Customer_Exchange_Summary__c.Customer_PO_Number__c} .
+We are kindly requesting your support to have the core exchange information filled out for us.

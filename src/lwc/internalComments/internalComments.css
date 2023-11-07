@@ -1,0 +1,71 @@
+.internalcomment {
+    font-size: 24px;
+    line-height: 28px;
+    color: #d01c48;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-left: 15px;
+    }
+
+ .Internalcommentform .label {
+        padding-bottom: 5px;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        color: #535353;
+    }
+
+    .ICbutton {
+        width: 100%;
+        border-radius: 0;
+        border: 1px solid #d01c48;
+        padding: 3px;
+        font-weight: 600;
+        padding:8px 10px;
+        font-size: 14px;
+        cursor: pointer;
+        background: #d01c48 ;
+        color: #FFF;
+    }
+    .ICbutton[disabled], .ICbutton:disabled {
+        background: rgb(177 177 177) ;
+        border-color: rgb(177 177 177) ;
+        color: #d01c48;
+        pointer-events: none;
+    }
+    .ICbutton:hover{
+        background-color: rgb(141, 1, 36);
+    }
+    
+
+    .Internalcommentform lightning-input {
+        margin-bottom: 20px;
+    }
+
+    .Internalcommentarea{
+        padding:10px;
+        }
+
+    lightning-textarea {
+        width: 100%; /* prev. 300px */
+
+    }
+    hr {
+        position: relative;
+        /* top: 20px; */
+        border: none;
+        height: 0.1px;
+        /* background: black; */
+        /* margin-bottom: 50px; */
+    }
+
+    /* .slds-button .slds-button_brand  {
+      
+        width: -webkit-fill-available !important;
+    } */
+
+    button.slds-button.slds-button_brand {
+        width: -webkit-fill-available !important;
+    }
+    onmouseover:hover {
+        background-color: #D01C48 !important;
+    }

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- DocumentJunctionForAuditProgram --></label>
+        <name>QPMS__DocumentJunctionForAuditProgram</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- DocumentJunctionForChangeManagement --></label>
+        <name>QPMS__DocumentJunctionForChangeManagement</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- DocumentJunctionForTraining --></label>
+        <name>QPMS__DocumentJunctionForTraining</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Document Junction Fields --></label>
+        <name>QPMS__Document_Junction_Fields</name>
+    </fieldSets>
+    <fields>
+        <help><!-- To determine the access level of entity on this record --></help>
+        <label><!-- Access Level --></label>
+        <name>QPMS__Access_Level__c</name>
+        <picklistValues>
+            <masterLabel>Edit</masterLabel>
+            <translation><!-- Edit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Read</masterLabel>
+            <translation><!-- Read --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Age --></label>
+        <name>QPMS__Age__c</name>
+    </fields>
+    <fields>
+        <help><!-- Asset Profile --></help>
+        <label><!-- Asset Profile --></label>
+        <name>QPMS__Asset_Profile__c</name>
+        <relationshipLabel><!-- DocumentJunctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Audit Program --></label>
+        <name>QPMS__Audit_Program__c</name>
+        <relationshipLabel><!-- DocumentJunctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Audit --></label>
+        <name>QPMS__Audit__c</name>
+        <relationshipLabel><!-- DocumentJunctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CAPA --></label>
+        <name>QPMS__CAPA__c</name>
+        <relationshipLabel><!-- DocumentJunctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CRName --></label>
+        <name>QPMS__CRName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Change ManagementChild --></label>
+        <name>QPMS__Change_ManagementChild__c</name>
+        <relationshipLabel><!-- DocumentJunctions (Change ManagementChild) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Change Management --></label>
+        <name>QPMS__Change_Management__c</name>
+        <relationshipLabel><!-- DocumentJunctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Child Owner --></label>
+        <name>QPMS__Child_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Child Revision --></label>
+        <name>QPMS__Child_Revision__c</name>
+    </fields>
+    <fields>
+        <label><!-- Child Status --></label>
+        <name>QPMS__Child_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Child Title --></label>
+        <name>QPMS__Child_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- CompletedBy --></label>
+        <name>QPMS__CompletedBy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completed Date --></label>
+        <name>QPMS__Completed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completion Period --></label>
+        <name>QPMS__Completion_Period__c</name>
+    </fields>
+    <fields>
+        <help><!-- Course --></help>
+        <label><!-- Course --></label>
+        <name>QPMS__Course__c</name>
+        <relationshipLabel><!-- DocumentJunctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Current Rev --></label>
+        <name>QPMS__Current_Rev__c</name>
+    </fields>
+    <fields>
+        <label><!-- Doc Status --></label>
+        <name>QPMS__Doc_Status__c</name>
+        <picklistValues>
+            <masterLabel>Viewed</masterLabel>
+            <translation><!-- Viewed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Doc Training Status --></label>
+        <name>QPMS__Doc_Training_Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incomplete</masterLabel>
+            <translation><!-- Incomplete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inprogress</masterLabel>
+            <translation><!-- Inprogress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refresher</masterLabel>
+            <translation><!-- Refresher --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Void</masterLabel>
+            <translation><!-- Void --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- DocumentChild --></label>
+        <name>QPMS__DocumentChild__c</name>
+        <relationshipLabel><!-- DocumentJunctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- DocumentName --></label>
+        <name>QPMS__DocumentName__c</name>
+    </fields>
+    <fields>
+        <label><!-- DocumentParent --></label>
+        <name>QPMS__DocumentParent__c</name>
+        <relationshipLabel><!-- DocumentJunctions (DocumentParent) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Document Read and sign of number --></label>
+        <name>QPMS__Document_Read_and_sign_of_number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Refresher Advance Date --></label>
+        <name>QPMS__Document_Refresher_Advance_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Type --></label>
+        <name>QPMS__Document_Type__c</name>
+        <relationshipLabel><!-- DocumentJunctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Due Date --></label>
+        <name>QPMS__DueDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Due Date --></label>
+        <name>QPMS__Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Id --></label>
+        <name>QPMS__Group_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Indexed Type --></label>
+        <name>QPMS__Indexed_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is From group --></label>
+        <name>QPMS__Is_From_group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturing Site --></label>
+        <name>QPMS__Manufacturing_Site__c</name>
+        <relationshipLabel><!-- DocumentJunctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- NC Type --></label>
+        <name>QPMS__NC_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non-Conformance --></label>
+        <name>QPMS__Non_Conformance__c</name>
+        <relationshipLabel><!-- DocumentJunctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Observation --></label>
+        <name>QPMS__Observation__c</name>
+        <relationshipLabel><!-- DocumentJunctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Owner --></label>
+        <name>QPMS__Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Owner --></label>
+        <name>QPMS__Parent_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Status --></label>
+        <name>QPMS__Parent_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Title --></label>
+        <name>QPMS__Parent_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference --></label>
+        <name>QPMS__Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Refresher Advance Notice(Days) --></label>
+        <name>QPMS__Refresher_Advance_Notice_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Refresher Date --></label>
+        <name>QPMS__Refresher_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Refresher Period (Days) --></label>
+        <name>QPMS__Refresher_Period_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- RelationWithChildForDisplay --></label>
+        <name>QPMS__RelationWithChildForDisplay__c</name>
+    </fields>
+    <fields>
+        <label><!-- RelationWithChild --></label>
+        <name>QPMS__RelationWithChild__c</name>
+    </fields>
+    <fields>
+        <label><!-- RelationWithParentForDisplay --></label>
+        <name>QPMS__RelationWithParentForDisplay__c</name>
+    </fields>
+    <fields>
+        <label><!-- RelationWithParent --></label>
+        <name>QPMS__RelationWithParent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signed Off Details --></label>
+        <name>QPMS__Signed_Off_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source --></label>
+        <name>QPMS__Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>QPMS__Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>QPMS__Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>QPMS__Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type Of Document --></label>
+        <name>QPMS__Type_Of_Document__c</name>
+        <picklistValues>
+            <masterLabel>Reference</masterLabel>
+            <translation><!-- Reference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revision</masterLabel>
+            <translation><!-- Revision --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temporary Revision</masterLabel>
+            <translation><!-- Temporary Revision --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>QPMS__Type__c</name>
+        <picklistValues>
+            <masterLabel>DocumentTraining</masterLabel>
+            <translation><!-- DocumentTraining --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Follow</masterLabel>
+            <translation><!-- Follow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Group</masterLabel>
+            <translation><!-- Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User</masterLabel>
+            <translation><!-- User --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>QPMS__User__c</name>
+        <relationshipLabel><!-- DocumentJunctions --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>DocumentJunction Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

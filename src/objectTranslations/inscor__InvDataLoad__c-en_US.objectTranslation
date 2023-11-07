@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Acquisition Code --></label>
+        <name>inscor__Acquisition_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Acquisition Date --></label>
+        <name>inscor__Acquisition_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alternate Part Number --></label>
+        <name>inscor__Alternate_Part_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSN --></label>
+        <name>inscor__CSN__c</name>
+    </fields>
+    <fields>
+        <help><!-- Cycles since last overhaul. --></help>
+        <label><!-- CSO --></label>
+        <name>inscor__CSO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>inscor__Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Condition Code --></label>
+        <name>inscor__Condition_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Condition Quoted --></label>
+        <name>inscor__Condition_Quoted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Core Due --></label>
+        <name>inscor__Core_Due__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Reference Line --></label>
+        <name>inscor__Customer_Reference_Line__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cycle Limit --></label>
+        <name>inscor__Cycle_Limit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cycles Remaining --></label>
+        <name>inscor__Cycles_Remaining__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery --></label>
+        <name>inscor__Delivery__c</name>
+    </fields>
+    <fields>
+        <label><!-- ESN --></label>
+        <name>inscor__ESN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Date --></label>
+        <name>inscor__Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exchange Type --></label>
+        <name>inscor__Exchange_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expected Delivery --></label>
+        <name>inscor__Expected_Delivery__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expiration Date --></label>
+        <name>inscor__Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Comments --></label>
+        <name>inscor__External_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Promise Date --></label>
+        <name>inscor__Initial_Promise_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inventory --></label>
+        <name>inscor__Inventory__c</name>
+        <relationshipLabel><!-- InvDataLoads --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Keyword --></label>
+        <name>inscor__Keyword__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Time --></label>
+        <name>inscor__Lead_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>inscor__Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- MFR Code --></label>
+        <name>inscor__MFR_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Type --></label>
+        <name>inscor__Object_Type__c</name>
+        <picklistValues>
+            <masterLabel>Customer Quote</masterLabel>
+            <translation><!-- Customer Quote --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inventory</masterLabel>
+            <translation><!-- Inventory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manifest</masterLabel>
+            <translation><!-- Manifest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PO</masterLabel>
+            <translation><!-- PO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RFQ</masterLabel>
+            <translation><!-- RFQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secondary Inventory</masterLabel>
+            <translation><!-- Secondary Inventory --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Other Amount --></label>
+        <name>inscor__Other_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Outright Price --></label>
+        <name>inscor__Outright_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Code --></label>
+        <name>inscor__Owner_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN Quoted --></label>
+        <name>inscor__PN_Quoted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part Description --></label>
+        <name>inscor__Part_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part Number --></label>
+        <name>inscor__Part_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Date --></label>
+        <name>inscor__Price_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price --></label>
+        <name>inscor__Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Qty Quoted --></label>
+        <name>inscor__Qty_Quoted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Qty --></label>
+        <name>inscor__Qty__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quoted Date --></label>
+        <name>inscor__Quoted_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference --></label>
+        <name>inscor__Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rejection Reason --></label>
+        <name>inscor__Rejection_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Repair Cost --></label>
+        <name>inscor__Repair_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sequence --></label>
+        <name>inscor__Sequence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Serial --></label>
+        <name>inscor__Serial__c</name>
+    </fields>
+    <fields>
+        <label><!-- Serialized --></label>
+        <name>inscor__Serialized__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Amount --></label>
+        <name>inscor__Shipping_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source 2 --></label>
+        <name>inscor__Source_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source --></label>
+        <name>inscor__Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>inscor__Status__c</name>
+        <picklistValues>
+            <masterLabel>Failure</masterLabel>
+            <translation><!-- Failure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Imported</masterLabel>
+            <translation><!-- Imported --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation><!-- Success --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- TSN --></label>
+        <name>inscor__TSN__c</name>
+    </fields>
+    <fields>
+        <help><!-- Time since last overhaul. --></help>
+        <label><!-- TSO --></label>
+        <name>inscor__TSO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tag Agency 2 --></label>
+        <name>inscor__Tag_Agency_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tag Agency --></label>
+        <name>inscor__Tag_Agency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tag Date 2 --></label>
+        <name>inscor__Tag_Date_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tag Date --></label>
+        <name>inscor__Tag_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tag Reference --></label>
+        <name>inscor__Tag_Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tag / Tag Date --></label>
+        <name>inscor__Tag_Tag_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Amount --></label>
+        <name>inscor__Tax_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Limit --></label>
+        <name>inscor__Time_Limit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Remaining --></label>
+        <name>inscor__Time_Remaining__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trace --></label>
+        <name>inscor__Trace__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type Quoted --></label>
+        <name>inscor__Type_Quoted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>inscor__Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- UOM --></label>
+        <name>inscor__UOM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validity --></label>
+        <name>inscor__Validity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vendor Customer --></label>
+        <name>inscor__Vendor_Customer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Warehouse --></label>
+        <name>inscor__Warehouse__c</name>
+    </fields>
+    <fields>
+        <label><!-- Warranty --></label>
+        <name>inscor__Warranty__c</name>
+    </fields>
+</CustomObjectTranslation>

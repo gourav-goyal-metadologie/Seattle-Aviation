@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Audit Trail Object for Change Management module.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fieldSets>
+        <fullName>QPMS__History_Fields</fullName>
+        <availableFields>
+            <field>CreatedById</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>CreatedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>QPMS__Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>QPMS__FieldApiName__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>IsDeleted</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>LastModifiedById</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>CreatedBy.Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>QPMS__New_Sub_Parent__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>QPMS__Object__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>OwnerId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>QPMS__Sub_Parent_Formula__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>QPMS__isCreated__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>QPMS__isDeleted__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>For Audit Trail</description>
+        <displayedFields>
+            <field>LastModifiedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__Sub_Parent__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__FieldName__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__Action__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__OldValue__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__NewValue__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__Last_ModifiedBy__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>History_Fields</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>QPMS__QueryFields</fullName>
+        <description>QueryFields</description>
+        <displayedFields>
+            <field>QPMS__Sub_Parent_Formula__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__New_Sub_Parent__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>IsDeleted</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__Action__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>CreatedBy.Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>CreatedById</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>CreatedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__FieldApiName__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__FieldName__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__isCreated__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__isDeleted__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__Last_ModifiedBy__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LastModifiedById</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LastModifiedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__NewValue__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__Object__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__OldValue__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OwnerId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__Parent__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__Sub_Parent__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>QueryFields</label>
+    </fieldSets>
+    <fields>
+        <fullName>QPMS__Action__c</fullName>
+        <defaultValue>&apos;Updated&apos;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Action</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Created</fullName>
+                    <default>false</default>
+                    <label>Created</label>
+                </value>
+                <value>
+                    <fullName>Updated</fullName>
+                    <default>false</default>
+                    <label>Updated</label>
+                </value>
+                <value>
+                    <fullName>Deleted</fullName>
+                    <default>false</default>
+                    <label>Deleted</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>QPMS__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>QPMS__FieldApiName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>FieldApiName</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__FieldName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>FieldName</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Last_ModifiedBy__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Last Modified By Name for audit trail</description>
+        <externalId>false</externalId>
+        <formula>CreatedBy.FirstName + &apos; &apos; + CreatedBy.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Last ModifiedBy</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__NewValue__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>NewValue</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>QPMS__New_Sub_Parent__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field is used to save task title</description>
+        <externalId>false</externalId>
+        <label>New Sub Parent</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Object__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Object</label>
+        <length>30</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__OldValue__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>OldValue</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>QPMS__Parent__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Parent</label>
+        <referenceTo>QPMS__Change_Management__c</referenceTo>
+        <relationshipLabel>Change Management Histories</relationshipLabel>
+        <relationshipName>Change_Management_Histories</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Sub_Parent_Formula__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>TEXT( QPMS__Sub_Parent__c ) +&apos; &apos;+  QPMS__New_Sub_Parent__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Sub Parent</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Sub_Parent__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Sub Parent</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Change Management</fullName>
+                    <default>false</default>
+                    <label>Change Management</label>
+                </value>
+                <value>
+                    <fullName>Resolution</fullName>
+                    <default>false</default>
+                    <label>Resolution</label>
+                </value>
+                <value>
+                    <fullName>Reference</fullName>
+                    <default>false</default>
+                    <label>Reference</label>
+                </value>
+                <value>
+                    <fullName>CR Init</fullName>
+                    <default>false</default>
+                    <label>CR Init</label>
+                </value>
+                <value>
+                    <fullName>CR Approval</fullName>
+                    <default>false</default>
+                    <label>CR Approval</label>
+                </value>
+                <value>
+                    <fullName>Resolution Approval</fullName>
+                    <default>false</default>
+                    <label>Resolution Approval</label>
+                </value>
+                <value>
+                    <fullName>Closure Approval</fullName>
+                    <default>false</default>
+                    <label>Closure Approval</label>
+                </value>
+                <value>
+                    <fullName>DocumentChange Change Due Date</fullName>
+                    <default>false</default>
+                    <label>DocumentChange Change Due Date</label>
+                </value>
+                <value>
+                    <fullName>DocumentChange Approval</fullName>
+                    <default>false</default>
+                    <label>DocumentChange Approval</label>
+                </value>
+                <value>
+                    <fullName>Closure Change Owner Approval</fullName>
+                    <default>false</default>
+                    <label>Closure Change Owner Approval</label>
+                </value>
+                <value>
+                    <fullName>Closure Change Owner</fullName>
+                    <default>false</default>
+                    <label>Closure Change Owner</label>
+                </value>
+                <value>
+                    <fullName>AdhocTask Approval</fullName>
+                    <default>false</default>
+                    <label>AdhocTask Approval</label>
+                </value>
+                <value>
+                    <fullName>DocumentChange Change Due Date Approval</fullName>
+                    <default>false</default>
+                    <label>DocumentChange Change Due Date Approval</label>
+                </value>
+                <value>
+                    <fullName>CR Void</fullName>
+                    <default>false</default>
+                    <label>CR Void</label>
+                </value>
+                <value>
+                    <fullName>DocumentChange Change Owner Approval</fullName>
+                    <default>false</default>
+                    <label>DocumentChange Change Owner Approval</label>
+                </value>
+                <value>
+                    <fullName>DocumentChange Change Owner</fullName>
+                    <default>false</default>
+                    <label>DocumentChange Change Owner</label>
+                </value>
+                <value>
+                    <fullName>AdhocTask Change Owner Approval</fullName>
+                    <default>false</default>
+                    <label>AdhocTask Change Owner Approval</label>
+                </value>
+                <value>
+                    <fullName>AdhocTask Change Owner</fullName>
+                    <default>false</default>
+                    <label>AdhocTask Change Owner</label>
+                </value>
+                <value>
+                    <fullName>Closure Change Due Date Approval</fullName>
+                    <default>false</default>
+                    <label>Closure Change Due Date Approval</label>
+                </value>
+                <value>
+                    <fullName>Document Change</fullName>
+                    <default>false</default>
+                    <label>Document Change</label>
+                </value>
+                <value>
+                    <fullName>AdhocTask Change Due Date Approval</fullName>
+                    <default>false</default>
+                    <label>AdhocTask Change Due Date Approval</label>
+                </value>
+                <value>
+                    <fullName>AdhocTask Change Due  Approval</fullName>
+                    <default>false</default>
+                    <label>AdhocTask Change Due  Approval</label>
+                </value>
+                <value>
+                    <fullName>Closure Change Due Date</fullName>
+                    <default>false</default>
+                    <label>Closure Change Due Date</label>
+                </value>
+                <value>
+                    <fullName>CR Change Owner</fullName>
+                    <default>false</default>
+                    <label>CR Change Owner</label>
+                </value>
+                <value>
+                    <fullName>Closure Change Due  Approval</fullName>
+                    <default>false</default>
+                    <label>Closure Change Due  Approval</label>
+                </value>
+                <value>
+                    <fullName>DocumentChange Change Due  Approval</fullName>
+                    <default>false</default>
+                    <label>DocumentChange Change Due  Approval</label>
+                </value>
+                <value>
+                    <fullName>AdhocTask Change Due Date</fullName>
+                    <default>false</default>
+                    <label>AdhocTask Change Due Date</label>
+                </value>
+                <value>
+                    <fullName>ClosureReassign Approver</fullName>
+                    <default>false</default>
+                    <label>ClosureReassign Approver</label>
+                </value>
+                <value>
+                    <fullName>CR Adhoc</fullName>
+                    <default>false</default>
+                    <label>CR Adhoc</label>
+                </value>
+                <value>
+                    <fullName>CR Change Owner Approval</fullName>
+                    <default>false</default>
+                    <label>CR Change Owner Approval</label>
+                </value>
+                <value>
+                    <fullName>Pre Change Approval</fullName>
+                    <default>false</default>
+                    <label>Pre Change Approval</label>
+                </value>
+                <value>
+                    <fullName>Post Change Approval</fullName>
+                    <default>false</default>
+                    <label>Post Change Approval</label>
+                </value>
+                <value>
+                    <fullName>Product_Change Change Owner Approval</fullName>
+                    <default>false</default>
+                    <label>Product Change Change Owner Approval</label>
+                </value>
+                <value>
+                    <fullName>Functional Task Change Due  Approval</fullName>
+                    <default>false</default>
+                    <label>Functional  Task Change Due  Approval</label>
+                </value>
+                <value>
+                    <fullName>Functional_Task Change Due Date</fullName>
+                    <default>false</default>
+                    <label>Functional Task Change Due Date</label>
+                </value>
+                <value>
+                    <fullName>Functional_Task Change Owner</fullName>
+                    <default>false</default>
+                    <label>Functional Task Change Owner</label>
+                </value>
+                <value>
+                    <fullName>Product_Change Change Owner</fullName>
+                    <default>false</default>
+                    <label>Product Change Change Owner</label>
+                </value>
+                <value>
+                    <fullName>Product_Change Change Due Date Approval</fullName>
+                    <default>false</default>
+                    <label>Product Change Change Due Date Approval</label>
+                </value>
+                <value>
+                    <fullName>Product Change Change Due  Approval</fullName>
+                    <default>false</default>
+                    <label>Product Change Change Due  Approval</label>
+                </value>
+                <value>
+                    <fullName>AdhocTask Reassign Approver</fullName>
+                    <default>false</default>
+                    <label>AdhocTask Reassign Approver</label>
+                </value>
+                <value>
+                    <fullName>AdhocTask - Task</fullName>
+                    <default>false</default>
+                    <label>AdhocTask - Task</label>
+                </value>
+                <value>
+                    <fullName>Product Change Collaboration Review Approval</fullName>
+                    <default>false</default>
+                    <label>Product Change Collaboration Review Approval</label>
+                </value>
+                <value>
+                    <fullName>Product Change Collaboration Review</fullName>
+                    <default>false</default>
+                    <label>Product Change Collaboration Review</label>
+                </value>
+                <value>
+                    <fullName>Product Change Collaboration Review Reassign Approver</fullName>
+                    <default>false</default>
+                    <label>Product Change Collaboration Review Reassign Approver</label>
+                </value>
+                <value>
+                    <fullName>Document Change Task</fullName>
+                    <default>false</default>
+                    <label>Document Change Task</label>
+                </value>
+                <value>
+                    <fullName>Product_Change Change Due Date</fullName>
+                    <default>false</default>
+                    <label>Product Change Change Due Date</label>
+                </value>
+                <value>
+                    <fullName>Functional_Task Change Owner Approval</fullName>
+                    <default>false</default>
+                    <label>Functional Task Change Owner Approval</label>
+                </value>
+                <value>
+                    <fullName>Functional_Task Change Due Date Approval</fullName>
+                    <default>false</default>
+                    <label>Functional Task Change Due Date Approval</label>
+                </value>
+                <value>
+                    <fullName>Action_Plan</fullName>
+                    <default>false</default>
+                    <label>Action  Plan</label>
+                </value>
+                <value>
+                    <fullName>Functional_Task Approval</fullName>
+                    <default>false</default>
+                    <label>Functional  Task Approval</label>
+                </value>
+                <value>
+                    <fullName>AdhocTask</fullName>
+                    <default>false</default>
+                    <label>AdhocTask</label>
+                </value>
+                <value>
+                    <fullName>Product_Change</fullName>
+                    <default>false</default>
+                    <label>Product  Change</label>
+                </value>
+                <value>
+                    <fullName>Closure</fullName>
+                    <default>false</default>
+                    <label>Closure</label>
+                </value>
+                <value>
+                    <fullName>Functional_Task</fullName>
+                    <default>false</default>
+                    <label>Functional  Task</label>
+                </value>
+                <value>
+                    <fullName>AdhocTask_Actions</fullName>
+                    <default>false</default>
+                    <label>AdhocTask  Actions</label>
+                </value>
+                <value>
+                    <fullName>CR Resolution</fullName>
+                    <default>false</default>
+                    <label>CR Resolution</label>
+                </value>
+                <value>
+                    <fullName>DocumentChange</fullName>
+                    <default>false</default>
+                    <label>DocumentChange</label>
+                </value>
+                <value>
+                    <fullName>DocumentInfo</fullName>
+                    <default>false</default>
+                    <label>DocumentInfo</label>
+                </value>
+                <value>
+                    <fullName>Product_Change Approval</fullName>
+                    <default>false</default>
+                    <label>Product Change  Approval</label>
+                </value>
+                <value>
+                    <fullName>Change Request</fullName>
+                    <default>false</default>
+                    <label>Change Request</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>QPMS__isCreated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>isCreated</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__isDeleted__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>isDeleted</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Change Management History</label>
+    <nameField>
+        <displayFormat>CMH-{0000}</displayFormat>
+        <label>Change Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Change Management Histories</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

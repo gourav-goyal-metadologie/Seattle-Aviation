@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Error --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Error --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Error --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Error --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Error --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Error --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Error --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Error --></value>
+    </caseValues>
+    <fields>
+        <help><!-- Context that generated the error, if known. --></help>
+        <label><!-- Context Type --></label>
+        <name>QPMS__Context_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date &amp; time the error occurred --></help>
+        <label><!-- Datetime --></label>
+        <name>QPMS__Datetime__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates whether an email notification has been sent regarding this error. --></help>
+        <label><!-- Email Sent --></label>
+        <name>QPMS__Email_Sent__c</name>
+    </fields>
+    <fields>
+        <label><!-- ErrorFields --></label>
+        <name>QPMS__ErrorFields__c</name>
+    </fields>
+    <fields>
+        <help><!-- Type of error that occurred --></help>
+        <label><!-- Error Type --></label>
+        <name>QPMS__Error_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Failed Record Ids --></label>
+        <name>QPMS__Failed_Record_Ids__c</name>
+    </fields>
+    <fields>
+        <help><!-- Full text of the error message --></help>
+        <label><!-- Full Message --></label>
+        <name>QPMS__Full_Message__c</name>
+    </fields>
+    <fields>
+        <help><!-- Type of object on which the error occurred, if known. --></help>
+        <label><!-- Object Type --></label>
+        <name>QPMS__Object_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates whether the error has been posted in Chatter. --></help>
+        <label><!-- Posted in Chatter --></label>
+        <name>QPMS__Posted_in_Chatter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Random Text --></label>
+        <name>QPMS__Random_Text__c</name>
+    </fields>
+    <fields>
+        <help><!-- A link to the record which caused the error, if available. --></help>
+        <label><!-- Record URL --></label>
+        <name>QPMS__Record_URL__c</name>
+    </fields>
+    <fields>
+        <help><!-- Stack trace for the thrown error, if available at runtime. --></help>
+        <label><!-- Stack Trace --></label>
+        <name>QPMS__Stack_Trace__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>QPMS__Type__c</name>
+        <picklistValues>
+            <masterLabel>GDPR</masterLabel>
+            <translation><!-- GDPR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NONE</masterLabel>
+            <translation><!-- NONE --></translation>
+        </picklistValues>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <layouts>
+        <layout>Error Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Error Number --></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Estimated Arrival Date per carrier --></help>
+        <label><!-- EAD --></label>
+        <name>EAD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ship Method --></label>
+        <name>Ship_Method__c</name>
+        <relationshipLabel><!-- ASN Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ZK EAD --></label>
+        <name>ZK_EAD__c</name>
+    </fields>
+    <fields>
+        <label><!-- ASN --></label>
+        <name>inscor__ASN__c</name>
+        <relationshipLabel><!-- ASN Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- AWB --></label>
+        <name>inscor__AWB__c</name>
+    </fields>
+    <fields>
+        <label><!-- PO Line --></label>
+        <name>inscor__PO_Line__c</name>
+        <relationshipLabel><!-- ASN Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- PO --></label>
+        <name>inscor__PO__c</name>
+        <relationshipLabel><!-- ASN Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Qty Shipped --></label>
+        <name>inscor__Qty_Shipped__c</name>
+    </fields>
+    <fields>
+        <label><!-- RO Line --></label>
+        <name>inscor__RO_Line__c</name>
+        <relationshipLabel><!-- ASN Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RO --></label>
+        <name>inscor__RO__c</name>
+        <relationshipLabel><!-- ASN Lines --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>ASN Line Layout</layout>
+        <sections>
+            <label><!-- ASN Line Information --></label>
+            <section>ASN Line Information</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

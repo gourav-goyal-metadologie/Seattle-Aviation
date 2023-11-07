@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- ATA Chapter --></label>
+        <name>inscor__ATA_Chapter__c</name>
+        <picklistValues>
+            <masterLabel>00 General</masterLabel>
+            <translation><!-- 00 General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>01 Maintenance Policy</masterLabel>
+            <translation><!-- 01 Maintenance Policy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>02 Operations</masterLabel>
+            <translation><!-- 02 Operations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03 Support</masterLabel>
+            <translation><!-- 03 Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04 Airline Use</masterLabel>
+            <translation><!-- 04 Airline Use --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>05 Time Limits/Maintenance Checks</masterLabel>
+            <translation><!-- 05 Time Limits/Maintenance Checks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>06 Dimensions and Areas</masterLabel>
+            <translation><!-- 06 Dimensions and Areas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>07 Lifting, Shoring and Jacking</masterLabel>
+            <translation><!-- 07 Lifting, Shoring and Jacking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>08 Leveling and Weighing.</masterLabel>
+            <translation><!-- 08 Leveling and Weighing. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>09 Towing and Taxi</masterLabel>
+            <translation><!-- 09 Towing and Taxi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10 Parking, Mooring, Storage, Return To Service</masterLabel>
+            <translation><!-- 10 Parking, Mooring, Storage, Return To Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11 Placards and Markings</masterLabel>
+            <translation><!-- 11 Placards and Markings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12 Servicing - Routine Maintenance</masterLabel>
+            <translation><!-- 12 Servicing - Routine Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14 Hardware</masterLabel>
+            <translation><!-- 14 Hardware --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18 Vibration and Noise Analysis (Helicopter Only)</masterLabel>
+            <translation><!-- 18 Vibration and Noise Analysis (Helicopter Only) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20 Standard Practices - Airframe</masterLabel>
+            <translation><!-- 20 Standard Practices - Airframe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>21 Air Conditioning &amp; Pressurization</masterLabel>
+            <translation><!-- 21 Air Conditioning &amp; Pressurization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>22 Auto Flight</masterLabel>
+            <translation><!-- 22 Auto Flight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>23 Communications</masterLabel>
+            <translation><!-- 23 Communications --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>24 Electrical Power</masterLabel>
+            <translation><!-- 24 Electrical Power --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25 Equipment / Furnishings</masterLabel>
+            <translation><!-- 25 Equipment / Furnishings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>26 Fire Protection</masterLabel>
+            <translation><!-- 26 Fire Protection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>27 Flight Controls</masterLabel>
+            <translation><!-- 27 Flight Controls --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>28 Fuel</masterLabel>
+            <translation><!-- 28 Fuel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>29 Hydraulic Power</masterLabel>
+            <translation><!-- 29 Hydraulic Power --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30 Ice and Rain Protection</masterLabel>
+            <translation><!-- 30 Ice and Rain Protection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>31 Indicating / Recording System</masterLabel>
+            <translation><!-- 31 Indicating / Recording System --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>32 Landing Gear</masterLabel>
+            <translation><!-- 32 Landing Gear --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>32-10 Main Gear and Doors</masterLabel>
+            <translation><!-- 32-10 Main Gear and Doors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>32-20 Nose Gear and Doors</masterLabel>
+            <translation><!-- 32-20 Nose Gear and Doors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>32-40 Wheels and Brakes</masterLabel>
+            <translation><!-- 32-40 Wheels and Brakes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>32-50 Steering</masterLabel>
+            <translation><!-- 32-50 Steering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>32-60 Position Indication and Warning</masterLabel>
+            <translation><!-- 32-60 Position Indication and Warning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>32-70 Supplementary Gear</masterLabel>
+            <translation><!-- 32-70 Supplementary Gear --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>33 Lights</masterLabel>
+            <translation><!-- 33 Lights --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>34 Navigation</masterLabel>
+            <translation><!-- 34 Navigation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>35 Oxygen</masterLabel>
+            <translation><!-- 35 Oxygen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>36 Pneumatic</masterLabel>
+            <translation><!-- 36 Pneumatic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>37 Vacuum</masterLabel>
+            <translation><!-- 37 Vacuum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>38 Water / Waste</masterLabel>
+            <translation><!-- 38 Water / Waste --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>39 Electrical-Electronic Panels, Multipurpose Components</masterLabel>
+            <translation><!-- 39 Electrical-Electronic Panels, Multipurpose Components --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40 Multisystem</masterLabel>
+            <translation><!-- 40 Multisystem --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>41 Water Ballast</masterLabel>
+            <translation><!-- 41 Water Ballast --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>42 Integrated Modular Avionics</masterLabel>
+            <translation><!-- 42 Integrated Modular Avionics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>44 Cabin Systems</masterLabel>
+            <translation><!-- 44 Cabin Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>45 Diagnostic and Maintenance System</masterLabel>
+            <translation><!-- 45 Diagnostic and Maintenance System --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>46 Information Systems</masterLabel>
+            <translation><!-- 46 Information Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>47 Nitrogen Generation System</masterLabel>
+            <translation><!-- 47 Nitrogen Generation System --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>48 In Flight Fuel Dispensing</masterLabel>
+            <translation><!-- 48 In Flight Fuel Dispensing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>49 Airborne Auxiliary Power</masterLabel>
+            <translation><!-- 49 Airborne Auxiliary Power --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50 Cargo and Accessory Compartments</masterLabel>
+            <translation><!-- 50 Cargo and Accessory Compartments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>51 Standard Practices and Structures-General</masterLabel>
+            <translation><!-- 51 Standard Practices and Structures-General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>52 Doors</masterLabel>
+            <translation><!-- 52 Doors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>53 Fuselage</masterLabel>
+            <translation><!-- 53 Fuselage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>54 Nacelles/Pylons</masterLabel>
+            <translation><!-- 54 Nacelles/Pylons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>55 Stabilizers</masterLabel>
+            <translation><!-- 55 Stabilizers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>56 Windows</masterLabel>
+            <translation><!-- 56 Windows --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>57 Wings</masterLabel>
+            <translation><!-- 57 Wings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60 Standard Practices - Propeller/Rotor</masterLabel>
+            <translation><!-- 60 Standard Practices - Propeller/Rotor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>61 Propellers</masterLabel>
+            <translation><!-- 61 Propellers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>62 Rotor(S)</masterLabel>
+            <translation><!-- 62 Rotor(S) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>63 Rotor Drive(S)</masterLabel>
+            <translation><!-- 63 Rotor Drive(S) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>64 Tail Rotor</masterLabel>
+            <translation><!-- 64 Tail Rotor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>65 Tail Rotor Drive</masterLabel>
+            <translation><!-- 65 Tail Rotor Drive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>66 Folding Blades/Pylon</masterLabel>
+            <translation><!-- 66 Folding Blades/Pylon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>67 Rotors Flight Control</masterLabel>
+            <translation><!-- 67 Rotors Flight Control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>70 Standard Practices Engine</masterLabel>
+            <translation><!-- 70 Standard Practices Engine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>71 Power Plant</masterLabel>
+            <translation><!-- 71 Power Plant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>72 Engine General</masterLabel>
+            <translation><!-- 72 Engine General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>73 Engine Fuel and Control</masterLabel>
+            <translation><!-- 73 Engine Fuel and Control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>74 Engine Ignition</masterLabel>
+            <translation><!-- 74 Engine Ignition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>75 Engine Bleed Air</masterLabel>
+            <translation><!-- 75 Engine Bleed Air --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>76 Engine Control</masterLabel>
+            <translation><!-- 76 Engine Control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>77 Engine Indicating</masterLabel>
+            <translation><!-- 77 Engine Indicating --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>78 Engine Exhaust System</masterLabel>
+            <translation><!-- 78 Engine Exhaust System --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>79 Engine Oil</masterLabel>
+            <translation><!-- 79 Engine Oil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>80 Engine Starting</masterLabel>
+            <translation><!-- 80 Engine Starting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>81 Turbines (Reciprocating Engines)</masterLabel>
+            <translation><!-- 81 Turbines (Reciprocating Engines) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>82 Water Injection</masterLabel>
+            <translation><!-- 82 Water Injection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>83 Accessory Gearboxes</masterLabel>
+            <translation><!-- 83 Accessory Gearboxes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>84 Propulsion Augmentation</masterLabel>
+            <translation><!-- 84 Propulsion Augmentation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>85 Fuel Cell Systems</masterLabel>
+            <translation><!-- 85 Fuel Cell Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>91 Charts</masterLabel>
+            <translation><!-- 91 Charts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>92 Electrical System Installation</masterLabel>
+            <translation><!-- 92 Electrical System Installation --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Applicability --></label>
+        <name>inscor__Applicability__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>inscor__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Export Control --></label>
+        <name>inscor__Export_Control__c</name>
+        <picklistValues>
+            <masterLabel>Export Control</masterLabel>
+            <translation><!-- Export Control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hide from Services --></label>
+        <name>inscor__Hide_from_Services__c</name>
+        <picklistValues>
+            <masterLabel>AeroXchange</masterLabel>
+            <translation><!-- AeroXchange --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ILS</masterLabel>
+            <translation><!-- ILS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OneAero</masterLabel>
+            <translation><!-- OneAero --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Internal Comments --></label>
+        <name>inscor__Internal_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword --></label>
+        <name>inscor__Keyword__c</name>
+    </fields>
+    <fields>
+        <label><!-- Life Limited? --></label>
+        <name>inscor__Life_Limited__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference ID --></label>
+        <name>inscor__Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Serialized? --></label>
+        <name>inscor__Serialized__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shelf Life Time --></label>
+        <name>inscor__Shelf_Life_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shelf Life? --></label>
+        <name>inscor__Shelf_Life__c</name>
+    </fields>
+    <fields>
+        <label><!-- UOM --></label>
+        <name>inscor__UOM__c</name>
+    </fields>
+    <layouts>
+        <layout>Part Number Layout</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- Part Master Details --></label>
+            <section>Part Master Details</section>
+        </sections>
+        <sections>
+            <label><!-- Part Master Information --></label>
+            <section>Part Master Information</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

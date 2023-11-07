@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Document Profile History --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Document Profile History --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Document Profile History --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Document Profile History --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Document Profile History --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Document Profile History --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Document Profile History --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Document Profile History --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- History_Fields --></label>
+        <name>QPMS__History_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QueryFields --></label>
+        <name>QPMS__QueryFields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Action --></label>
+        <name>QPMS__Action__c</name>
+        <picklistValues>
+            <masterLabel>Purged</masterLabel>
+            <translation><!-- Purged --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>QPMS__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Name --></label>
+        <name>QPMS__Document_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- FieldApiName --></label>
+        <name>QPMS__FieldApiName__c</name>
+    </fields>
+    <fields>
+        <label><!-- FieldName --></label>
+        <name>QPMS__FieldName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last ModifiedBy --></label>
+        <name>QPMS__Last_ModifiedBy__c</name>
+    </fields>
+    <fields>
+        <label><!-- NewValue --></label>
+        <name>QPMS__NewValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object --></label>
+        <name>QPMS__Object__c</name>
+    </fields>
+    <fields>
+        <label><!-- OldValue --></label>
+        <name>QPMS__OldValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent --></label>
+        <name>QPMS__Parent__c</name>
+        <relationshipLabel><!-- Document Profile Histories --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Revision --></label>
+        <name>QPMS__Revision__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub Parent --></label>
+        <name>QPMS__Sub_Parent__c</name>
+        <picklistValues>
+            <masterLabel>Approval</masterLabel>
+            <translation><!-- Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collaboration Review</masterLabel>
+            <translation><!-- Collaboration Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CollaborationReview</masterLabel>
+            <translation><!-- CollaborationReview --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CollaborationReview Approval</masterLabel>
+            <translation><!-- CollaborationReview Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document Approval</masterLabel>
+            <translation><!-- Document Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document Approval Reassign Approver</masterLabel>
+            <translation><!-- Document Approval Reassign Approver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document Current</masterLabel>
+            <translation><!-- Document Current --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document Details</masterLabel>
+            <translation><!-- Document Details --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document Profile</masterLabel>
+            <translation><!-- Document Profile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document Profile Change Owner</masterLabel>
+            <translation><!-- Document Profile Change Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document Profile Change Owner Approval</masterLabel>
+            <translation><!-- Document Profile Change Owner Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document Void</masterLabel>
+            <translation><!-- Document Void --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document change Owner Approval</masterLabel>
+            <translation><!-- Document change Owner Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DocumentDetails</masterLabel>
+            <translation><!-- DocumentDetails --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DocumentTraining</masterLabel>
+            <translation><!-- DocumentTraining --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document_Details</masterLabel>
+            <translation><!-- Document_Details --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Effectiveness Review</masterLabel>
+            <translation><!-- Effectiveness Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EffectivenessReview</masterLabel>
+            <translation><!-- EffectivenessReview --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EffectivenessReview Approval</masterLabel>
+            <translation><!-- EffectivenessReview Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EffectivenessReview Change Due Approval</masterLabel>
+            <translation><!-- EffectivenessReview Change Due Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EffectivenessReview Change Due Date</masterLabel>
+            <translation><!-- EffectivenessReview Change Due Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EffectivenessReview Change Due Date Approval</masterLabel>
+            <translation><!-- EffectivenessReview Change Due Date Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EffectivenessReview Change Owner</masterLabel>
+            <translation><!-- EffectivenessReview Change Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EffectivenessReview Change Owner Approval</masterLabel>
+            <translation><!-- EffectivenessReview Change Owner Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Init</masterLabel>
+            <translation><!-- Init --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reference</masterLabel>
+            <translation><!-- Reference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Security</masterLabel>
+            <translation><!-- Security --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TrainingUsers</masterLabel>
+            <translation><!-- TrainingUsers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>doc_Details</masterLabel>
+            <translation><!-- doc_Details --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>QPMS__Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- isCreated --></label>
+        <name>QPMS__isCreated__c</name>
+    </fields>
+    <fields>
+        <label><!-- isDeleted --></label>
+        <name>QPMS__isDeleted__c</name>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <layouts>
+        <layout>Document Profile History Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Document Profile History Name --></nameFieldLabel>
+</CustomObjectTranslation>

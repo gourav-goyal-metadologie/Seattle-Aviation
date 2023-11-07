@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Sub Change Management --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Sub Change Management --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Sub Change Management --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Sub Change Management --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Sub Change Management --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Sub Change Management --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Sub Change Management --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Sub Change Management --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Configuration --></label>
+        <name>QPMS__Configuration</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Sub Change Management Fields --></label>
+        <name>QPMS__Sub_Change_Management_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- docinfocontextualhelp --></label>
+        <name>QPMS__docinfocontextualhelp</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- docinfocontextualhelpphase2 --></label>
+        <name>QPMS__docinfocontextualhelpphase2</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- docinfomorinfocontextaulhelp --></label>
+        <name>QPMS__docinfomorinfocontextaulhelp</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- docinfomorinfocontextaulhelpphase2 --></label>
+        <name>QPMS__docinfomorinfocontextaulhelpphase2</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Action Plan Due Date --></label>
+        <name>QPMS__Action_Plan_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Amend Comments --></label>
+        <name>QPMS__Amend_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- AssignedOwner --></label>
+        <name>QPMS__AssignedOwner__c</name>
+    </fields>
+    <fields>
+        <help><!-- Change Management Status --></help>
+        <label><!-- Change Management Status --></label>
+        <name>QPMS__Change_Management_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Change Management --></label>
+        <name>QPMS__Change_Management__c</name>
+        <relationshipLabel><!-- Sub Change Management --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Change Managenent Owner Name --></label>
+        <name>QPMS__Change_Managenent_Owner_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created Document Name --></label>
+        <name>QPMS__Created_Document_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created Document Profile --></label>
+        <name>QPMS__Created_Document_Profile__c</name>
+        <relationshipLabel><!-- Sub Change Management (Created Document Profile) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Current Rev --></label>
+        <name>QPMS__Current_Rev__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Name --></label>
+        <name>QPMS__Document_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Profile --></label>
+        <name>QPMS__Document_Profile_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Profile Owner Name --></label>
+        <name>QPMS__Document_Profile_Owner_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Number --></label>
+        <name>QPMS__Document_Profile__c</name>
+        <relationshipLabel><!-- Sub Change Management --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Document Specific Changes --></label>
+        <name>QPMS__Document_Specific_Changes__c</name>
+    </fields>
+    <fields>
+        <label><!-- General Task Due Date --></label>
+        <name>QPMS__General_Task_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- General Task Record Type --></label>
+        <name>QPMS__General_Task_RecordType__c</name>
+    </fields>
+    <fields>
+        <label><!-- General Task --></label>
+        <name>QPMS__General_Task__c</name>
+        <relationshipLabel><!-- Sub Change Management --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- General Task status --></label>
+        <name>QPMS__General_Task_status__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Rev --></label>
+        <name>QPMS__New_Rev__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner --></label>
+        <name>QPMS__Owner__c</name>
+    </fields>
+    <fields>
+        <help><!-- Primary Document --></help>
+        <label><!-- Primary Document --></label>
+        <name>QPMS__Primary_Document__c</name>
+        <relationshipLabel><!-- Sub Change Management (Primary Document) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Relation --></label>
+        <name>QPMS__Relation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Revise Document --></label>
+        <name>QPMS__Revise_Document_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- RevisedDocumentId --></label>
+        <name>QPMS__RevisedDocumentId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Revised Document --></label>
+        <name>QPMS__Revised_Document__c</name>
+        <relationshipLabel><!-- Sub Change Management (Revised Document) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>QPMS__Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>QPMS__Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- isAmended --></label>
+        <name>QPMS__isAmended__c</name>
+    </fields>
+    <fields>
+        <label><!-- isCanceled --></label>
+        <name>QPMS__isCanceled__c</name>
+    </fields>
+    <fields>
+        <label><!-- isDocCreated --></label>
+        <name>QPMS__isDocCreated__c</name>
+    </fields>
+    <fields>
+        <label><!-- isExpired --></label>
+        <name>QPMS__isExpired__c</name>
+    </fields>
+    <fields>
+        <label><!-- isPrimary --></label>
+        <name>QPMS__isPrimary__c</name>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <layouts>
+        <layout>Sub Change Management Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Sub Change Management Name --></nameFieldLabel>
+</CustomObjectTranslation>

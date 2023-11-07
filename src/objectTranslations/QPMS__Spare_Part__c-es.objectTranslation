@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Spare Part --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Spare Part --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Inventory Information --></label>
+        <name>QPMS__Inventory_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SparePartInitFields --></label>
+        <name>QPMS__SparePartInitFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SparePartListView --></label>
+        <name>QPMS__SparePartListView</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Spare Part History --></label>
+        <name>QPMS__Spare_Part_History</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- assetSparePartInitFields --></label>
+        <name>QPMS__assetSparePartInitFields</name>
+    </fieldSets>
+    <fields>
+        <help><!-- Active --></help>
+        <label><!-- Active --></label>
+        <name>QPMS__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part Name --></label>
+        <name>QPMS__Part_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Product --></help>
+        <label><!-- Part --></label>
+        <name>QPMS__Part__c</name>
+        <relationshipLabel><!-- Spare Parts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity On Hand --></label>
+        <name>QPMS__Quantity_On_Hand__c</name>
+    </fields>
+    <fields>
+        <help><!-- Threshold Quantity --></help>
+        <label><!-- Threshold Quantity --></label>
+        <name>QPMS__Threshold_Quantity__c</name>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <layouts>
+        <layout>Spare Part Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Spare Part Name --></nameFieldLabel>
+</CustomObjectTranslation>

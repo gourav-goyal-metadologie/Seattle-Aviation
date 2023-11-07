@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Only Active Events will be displayed in the Payment Request Page --></help>
+        <label><!-- Active --></label>
+        <name>BillNPay__Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked, this field will appear on the Payment Request page --></help>
+        <label><!-- Color --></label>
+        <name>BillNPay__Color__c</name>
+    </fields>
+    <fields>
+        <help><!-- Optional --></help>
+        <label><!-- Date --></label>
+        <name>BillNPay__Event_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Item Price --></label>
+        <name>BillNPay__Event_Price__c</name>
+    </fields>
+    <fields>
+        <help><!-- Unit pricing will multiply quantity X price.  Fixed will use the price regardless of quantity --></help>
+        <label><!-- Pricing Rule --></label>
+        <name>BillNPay__Event_Pricing_Rule__c</name>
+        <picklistValues>
+            <masterLabel>Sender Entered</masterLabel>
+            <translation><!-- Sender Entered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit Pricing</masterLabel>
+            <translation><!-- Unit Pricing --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Item Type --></label>
+        <name>BillNPay__Event_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the message template to send to the recipient.  See Admin Guide for setup of message templates and notifications --></help>
+        <label><!-- Message Template --></label>
+        <name>BillNPay__Message_Template__c</name>
+        <relationshipLabel><!-- Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- How should Bill &amp; Pay populate the Payment Description field?  Should the sender of the payment request be required to type in a description, select from Event Item picklist, or just use the name of the Event --></help>
+        <label><!-- Payment Description Source --></label>
+        <name>BillNPay__Payment_Description_Source__c</name>
+        <picklistValues>
+            <masterLabel>Copy Event Name</masterLabel>
+            <translation><!-- Copy Event Name --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Process Builder</masterLabel>
+            <translation><!-- Process Builder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sender entered Description</masterLabel>
+            <translation><!-- Sender entered Description --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sender selected Event Item fills in Payment Description</masterLabel>
+            <translation><!-- Sender selected Event Item fills in Payment Description --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If checked, this field will appear on the Payment Request page --></help>
+        <label><!-- Quantity Purchased --></label>
+        <name>BillNPay__Quantity_Purchased__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked, this field will appear on the Payment Request page --></help>
+        <label><!-- Size --></label>
+        <name>BillNPay__Size__c</name>
+    </fields>
+</CustomObjectTranslation>

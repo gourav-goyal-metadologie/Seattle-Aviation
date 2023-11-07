@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Change Management --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Change Management --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Change Management --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Change Management --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Change Management --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Change Management --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Change Management --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Change Management --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Additional Fields --></label>
+        <name>QPMS__Additional_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CR Initiation Fields For Details --></label>
+        <name>QPMS__CR_Initiation_Fields_For_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CR Resolution Fields --></label>
+        <name>QPMS__CR_Resolution_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ChangeManagementHeaderForMobile --></label>
+        <name>QPMS__ChangeManagementHeaderForMobile</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ChangeManagement Custom Fields --></label>
+        <name>QPMS__ChangeManagement_Custom_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ChangeManagement Header --></label>
+        <name>QPMS__ChangeManagement_Header</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ChangeManagementmoreinfoconthelp --></label>
+        <name>QPMS__ChangeManagementmoreinfoconthelp</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ChangeManagementmoreinfoconthelpphase2 --></label>
+        <name>QPMS__ChangeManagementmoreinfoconthelpphase2</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Change Management Approvals Audit Trial --></label>
+        <name>QPMS__Change_Management_Approvals_Audit_Trial</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Change Management Fields --></label>
+        <name>QPMS__Change_Management_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Change Management Search Fields --></label>
+        <name>QPMS__Change_Management_Search_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Change Management View --></label>
+        <name>QPMS__Change_Management_View</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Change Request for Change Type --></label>
+        <name>QPMS__Change_Request_for_Change_Type</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Header Options --></label>
+        <name>QPMS__Header_Options</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Initiation Fields --></label>
+        <name>QPMS__Initiation_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- New Initiation Fields --></label>
+        <name>QPMS__New_Initiation_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QueryFields --></label>
+        <name>QPMS__QueryFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ResolutionFields --></label>
+        <name>QPMS__ResolutionFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Resolution Approval --></label>
+        <name>QPMS__Resolution_Approval</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Resolutionnotetoapproverconthelp --></label>
+        <name>QPMS__Resolutionnotetoapproverconthelp</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Resolutionnotetoapproverconthelpphase2 --></label>
+        <name>QPMS__Resolutionnotetoapproverconthelpphase2</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Risk Assesment --></label>
+        <name>QPMS__Risk_Assesment</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Source Related Fieldset --></label>
+        <name>QPMS__Source_Related_Fieldset</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- changemanagementconthelp --></label>
+        <name>QPMS__changemanagementconthelp</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- changemanagementconthelpphase2 --></label>
+        <name>QPMS__changemanagementconthelpphase2</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Age --></label>
+        <name>QPMS__Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allow Workflow Configuration --></label>
+        <name>QPMS__Allow_Workflow_Configuration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allowed Days --></label>
+        <name>QPMS__Allowed_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- ApprovalProcess --></label>
+        <name>QPMS__ApprovalProcess__c</name>
+        <picklistValues>
+            <masterLabel>Change DueDate</masterLabel>
+            <translation><!-- Change DueDate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Owner</masterLabel>
+            <translation><!-- Change Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Post Change Approval</masterLabel>
+            <translation><!-- Post Change Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre Change Approval</masterLabel>
+            <translation><!-- Pre Change Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolution Approval</masterLabel>
+            <translation><!-- Resolution Approval --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ApprovalStatus --></label>
+        <name>QPMS__ApprovalStatus__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recall</masterLabel>
+            <translation><!-- Recall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>pending</masterLabel>
+            <translation><!-- pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>rejected</masterLabel>
+            <translation><!-- rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- hold the value of approval group --></help>
+        <label><!-- Approval Group --></label>
+        <name>QPMS__Approval_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Required --></label>
+        <name>QPMS__Approval_Required__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ApproverSequence --></label>
+        <name>QPMS__ApproverSequence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approver 1 --></label>
+        <name>QPMS__Approver_1__c</name>
+        <relationshipLabel><!-- Change Management (Approver 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 2 --></label>
+        <name>QPMS__Approver_2__c</name>
+        <relationshipLabel><!-- Change Management (Approver 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 3 --></label>
+        <name>QPMS__Approver_3__c</name>
+        <relationshipLabel><!-- Change Management (Approver 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 4 --></label>
+        <name>QPMS__Approver_4__c</name>
+        <relationshipLabel><!-- Change Management (Approver 4) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 5 --></label>
+        <name>QPMS__Approver_5__c</name>
+        <relationshipLabel><!-- Change Management (Approver 5) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 6 --></label>
+        <name>QPMS__Approver_6__c</name>
+        <relationshipLabel><!-- Change Management (Approver 6) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 7 --></label>
+        <name>QPMS__Approver_7__c</name>
+        <relationshipLabel><!-- Change Management (Approver 7) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 8 --></label>
+        <name>QPMS__Approver_8__c</name>
+        <relationshipLabel><!-- Change Management (Approver 8) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 9 --></label>
+        <name>QPMS__Approver_9__c</name>
+        <relationshipLabel><!-- Change Management (Approver 9) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver Comments --></label>
+        <name>QPMS__Approver_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approver --></label>
+        <name>QPMS__Approver__c</name>
+        <relationshipLabel><!-- Change Management (Approver) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver process complete --></label>
+        <name>QPMS__Approver_process_complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Audit Number --></label>
+        <name>QPMS__AuditNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Audit Number --></label>
+        <name>QPMS__Audit_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Audit --></label>
+        <name>QPMS__Audit__c</name>
+        <relationshipLabel><!-- Change Management --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Business Unit --></label>
+        <name>QPMS__Business_Unit__c</name>
+        <picklistValues>
+            <masterLabel>UNIT 11</masterLabel>
+            <translation><!-- UNIT 11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit1</masterLabel>
+            <translation><!-- Unit1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit2</masterLabel>
+            <translation><!-- Unit2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit3</masterLabel>
+            <translation><!-- Unit3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit4</masterLabel>
+            <translation><!-- Unit4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit5</masterLabel>
+            <translation><!-- Unit5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CAPA Number --></label>
+        <name>QPMS__CAPA_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- CAPA Number --></label>
+        <name>QPMS__CAPA_Number__c</name>
+        <relationshipLabel><!-- Change Management --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CR Approval Required --></label>
+        <name>QPMS__CR_Approval_Required__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- captured the change management approval signed off details --></help>
+        <label><!-- Signed Off Details --></label>
+        <name>QPMS__CR_Approval_Signed_Off_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- CR Name --></label>
+        <name>QPMS__CR_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- CR Number --></label>
+        <name>QPMS__CR_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- ChangeFieldApprovalStatus --></label>
+        <name>QPMS__ChangeFieldApprovalStatus__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recall</masterLabel>
+            <translation><!-- Recall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Change Template --></label>
+        <name>QPMS__ChangeType__c</name>
+        <relationshipLabel><!-- Change Management --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Change Category --></label>
+        <name>QPMS__Change_Category__c</name>
+        <picklistValues>
+            <masterLabel>Permanent</masterLabel>
+            <translation><!-- Permanent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temporary</masterLabel>
+            <translation><!-- Temporary --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Change Duration --></label>
+        <name>QPMS__Change_Duration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Change Justification --></label>
+        <name>QPMS__Change_Justification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Change Request Scope --></label>
+        <name>QPMS__Change_Request_Scope__c</name>
+    </fields>
+    <fields>
+        <label><!-- Change Request Type --></label>
+        <name>QPMS__Change_Request_Type__c</name>
+        <picklistValues>
+            <masterLabel>Document</masterLabel>
+            <translation><!-- Document --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equipment</masterLabel>
+            <translation><!-- Equipment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facility</masterLabel>
+            <translation><!-- Facility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT</masterLabel>
+            <translation><!-- IT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infrastructure</masterLabel>
+            <translation><!-- Infrastructure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Organization</masterLabel>
+            <translation><!-- Organization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Process</masterLabel>
+            <translation><!-- Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation><!-- Product --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Change Type --></label>
+        <name>QPMS__Change_Type__c</name>
+        <picklistValues>
+            <masterLabel>Expire</masterLabel>
+            <translation><!-- Expire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revise</masterLabel>
+            <translation><!-- Revise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temp</masterLabel>
+            <translation><!-- Temp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Update</masterLabel>
+            <translation><!-- Update --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Closed Date --></label>
+        <name>QPMS__Closed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Closed --></label>
+        <name>QPMS__Closed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Complaint General Sub Task --></label>
+        <name>QPMS__Complaint_General_Sub_Task__c</name>
+        <relationshipLabel><!-- Change Management --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Complaint Number --></label>
+        <name>QPMS__Complaint_Number__c</name>
+        <relationshipLabel><!-- Change Management --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Record Created Date --></help>
+        <label><!-- Created Date --></label>
+        <name>QPMS__Created_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- CurrentApprovalSequenceNumber --></label>
+        <name>QPMS__CurrentApprovalSequenceNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Revision --></label>
+        <name>QPMS__Current_Revision__c</name>
+    </fields>
+    <fields>
+        <label><!-- Doc Change --></label>
+        <name>QPMS__Doc_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Number --></label>
+        <name>QPMS__Document_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Documents having child documents with Draft Revision/Temp will not display in Document Number field! --></help>
+        <label><!-- Document Number --></label>
+        <name>QPMS__Document_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Profile --></label>
+        <name>QPMS__Document_Profile__c</name>
+        <relationshipLabel><!-- Change Management --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Due Date --></label>
+        <name>QPMS__Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Emergency Change? --></label>
+        <name>QPMS__Emergency_Change__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Enable Document Information Section --></label>
+        <name>QPMS__Enable_Document_Information_Section__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Impact Assessment --></label>
+        <name>QPMS__Enable_Impact_Assessment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Risk Assessment --></label>
+        <name>QPMS__Enable_Risk_Assessment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Escalation Rule for Approval --></label>
+        <name>QPMS__Escalation_Rule_for_Approval__c</name>
+        <picklistValues>
+            <masterLabel>Default</masterLabel>
+            <translation><!-- Default --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NONE</masterLabel>
+            <translation><!-- NONE --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Escalation Rule for Task --></label>
+        <name>QPMS__Escalation_Rule_for_Task__c</name>
+        <picklistValues>
+            <masterLabel>Default</masterLabel>
+            <translation><!-- Default --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NONE</masterLabel>
+            <translation><!-- NONE --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- External Id --></help>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Followers --></label>
+        <name>QPMS__Followers__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Action Plan --></label>
+        <name>QPMS__General_Sub_Task__c</name>
+        <relationshipLabel><!-- Change Management --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Impact Assessment --></label>
+        <name>QPMS__Impact_Assesment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Impacted Sites --></label>
+        <name>QPMS__Impacted_Sites__c</name>
+    </fields>
+    <fields>
+        <label><!-- ImplementTaskStatus --></label>
+        <name>QPMS__ImplementTaskStatus__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Started</masterLabel>
+            <translation><!-- Started --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Initial Submitter --></label>
+        <name>QPMS__Initial_Submitter__c</name>
+        <relationshipLabel><!-- Change Management (Initial Submitter) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Initiating Site --></label>
+        <name>QPMS__Initiating_Site_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Stores the logged in user site public group --></help>
+        <label><!-- Initiating Site Security --></label>
+        <name>QPMS__Initiating_Site_Security__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initiating Site --></label>
+        <name>QPMS__Initiating_Site__c</name>
+        <relationshipLabel><!-- Change Management --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- IsRejected__c --></label>
+        <name>QPMS__IsRejected_c__c</name>
+    </fields>
+    <fields>
+        <label><!-- NC Number --></label>
+        <name>QPMS__NC_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- NC Number --></label>
+        <name>QPMS__NC_Number__c</name>
+        <relationshipLabel><!-- Change Management --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This field hold the record name as hyperlink and can be used in navigations where ever is required --></help>
+        <label><!-- Name --></label>
+        <name>QPMS__Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Due Date --></label>
+        <name>QPMS__New_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Owner --></label>
+        <name>QPMS__New_Owner__c</name>
+        <relationshipLabel><!-- Change Management (New Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Note To Approver Owner/DueDate --></label>
+        <name>QPMS__Note_To_Approver_Owner_DueDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Note To Reviewer --></label>
+        <name>QPMS__Note_To_Approver_Resolution__c</name>
+    </fields>
+    <fields>
+        <label><!-- Note To Approver --></label>
+        <name>QPMS__Note_To_Approver__c</name>
+    </fields>
+    <fields>
+        <label><!-- Occurrence --></label>
+        <name>QPMS__Occurrence__c</name>
+        <relationshipLabel><!-- Change Management --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Other --></label>
+        <name>QPMS__Other__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner --></label>
+        <name>QPMS__Owner_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- ParentOwner --></label>
+        <name>QPMS__ParentOwner__c</name>
+        <relationshipLabel><!-- Change Management (ParentOwner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Phase --></label>
+        <name>QPMS__Phase__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Review</masterLabel>
+            <translation><!-- Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workflow</masterLabel>
+            <translation><!-- Workflow --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- PostChangeApprovalStatus --></label>
+        <name>QPMS__PostChangeApprovalStatus__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recall</masterLabel>
+            <translation><!-- Recall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reject</masterLabel>
+            <translation><!-- Reject --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation><!-- Submitted --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Note To Approver --></label>
+        <name>QPMS__PostChangeNoteToApprover__c</name>
+    </fields>
+    <fields>
+        <label><!-- Post Change Approval --></label>
+        <name>QPMS__Post_Change_Approval__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signed Off Details --></label>
+        <name>QPMS__Post_Signed_Off_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- PreChangeApprovalStatus --></label>
+        <name>QPMS__PreChangeApprovalStatus__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recall</masterLabel>
+            <translation><!-- Recall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reject</masterLabel>
+            <translation><!-- Reject --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation><!-- Submitted --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Note To Approver --></label>
+        <name>QPMS__PreChangeNoteToApprover__c</name>
+    </fields>
+    <fields>
+        <label><!-- PreChangeStatus --></label>
+        <name>QPMS__PreChangeStatus__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Started</masterLabel>
+            <translation><!-- Started --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Pre Change Approval --></label>
+        <name>QPMS__Pre_Change_Approval__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signed Off Details --></label>
+        <name>QPMS__Pre_Signed_Off_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>QPMS__Priority__c</name>
+        <relationshipLabel><!-- Change Management --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Process --></label>
+        <name>QPMS__Process_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process --></label>
+        <name>QPMS__Process__c</name>
+        <relationshipLabel><!-- Change Management --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>QPMS__Product_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>QPMS__Product__c</name>
+        <relationshipLabel><!-- Change Management --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reason For Void --></label>
+        <name>QPMS__Reason_For_Void__c</name>
+    </fields>
+    <fields>
+        <label><!-- RecordTypeName --></label>
+        <name>QPMS__RecordTypeName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rejection Comments --></label>
+        <name>QPMS__Rejection_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Review Required --></label>
+        <name>QPMS__Resolution_Approval_Required__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Resolution Approval Status --></label>
+        <name>QPMS__Resolution_Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recall</masterLabel>
+            <translation><!-- Recall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reject</masterLabel>
+            <translation><!-- Reject --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation><!-- Submitted --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Resolution Closed Comment --></label>
+        <name>QPMS__Resolution_Closed_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolution Code --></label>
+        <name>QPMS__Resolution_Code__c</name>
+        <picklistValues>
+            <masterLabel>Change Workflow</masterLabel>
+            <translation><!-- Change Workflow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document Change Order</masterLabel>
+            <translation><!-- Document Change Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Action Required</masterLabel>
+            <translation><!-- No Action Required --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Risk Description --></label>
+        <name>QPMS__Risk_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sequence Position --></label>
+        <name>QPMS__Sequence_Position__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sequence --></label>
+        <name>QPMS__Sequence__c</name>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100</masterLabel>
+            <translation><!-- 100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation><!-- 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40</masterLabel>
+            <translation><!-- 40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50</masterLabel>
+            <translation><!-- 50 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60</masterLabel>
+            <translation><!-- 60 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>70</masterLabel>
+            <translation><!-- 70 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>80</masterLabel>
+            <translation><!-- 80 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>90</masterLabel>
+            <translation><!-- 90 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Severity --></label>
+        <name>QPMS__Severity__c</name>
+        <relationshipLabel><!-- Change Management --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Signed Off Details --></label>
+        <name>QPMS__Signed_Off_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source --></label>
+        <name>QPMS__Source__c</name>
+        <picklistValues>
+            <masterLabel>Audit</masterLabel>
+            <translation><!-- Audit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAPA</masterLabel>
+            <translation><!-- CAPA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complaint</masterLabel>
+            <translation><!-- Complaint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Continuous Improvement</masterLabel>
+            <translation><!-- Continuous Improvement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document</masterLabel>
+            <translation><!-- Document --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC</masterLabel>
+            <translation><!-- NC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Process</masterLabel>
+            <translation><!-- Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation><!-- Product --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>QPMS__Status__c</name>
+        <picklistValues>
+            <masterLabel>Change</masterLabel>
+            <translation><!-- Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Workflow</masterLabel>
+            <translation><!-- Change Workflow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document Change Order</masterLabel>
+            <translation><!-- Document Change Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review</masterLabel>
+            <translation><!-- In Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Review</masterLabel>
+            <translation><!-- Pending Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Under</masterLabel>
+            <translation><!-- Under --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Void</masterLabel>
+            <translation><!-- Void --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Target Implementation --></label>
+        <name>QPMS__Target_Implementation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>QPMS__Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valid Change Review Required --></label>
+        <name>QPMS__Valid_Change_Review_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- currenappSequenceNumber --></label>
+        <name>QPMS__currenappSequenceNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- isLocked --></label>
+        <name>QPMS__isLocked__c</name>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <layouts>
+        <layout>Change Management Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- CR Number --></nameFieldLabel>
+    <recordTypes>
+        <label><!-- Document --></label>
+        <name>QPMS__Document</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Process --></label>
+        <name>QPMS__Process</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Product --></label>
+        <name>QPMS__Product</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Allowed days is required --></errorMessage>
+        <name>QPMS__Allowed_days_is_required</name>
+    </validationRules>
+</CustomObjectTranslation>

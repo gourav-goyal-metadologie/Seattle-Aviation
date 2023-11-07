@@ -1,0 +1,14 @@
+Your release below is on Credit Hold
+
+Please see below for guidance:
+
+1. Customer is on Prepaid
+Please make sure the order is paid for, then contact both your Manager and Finance.
+
+2. Customer is on Terms
+Your Customer is over the credit limit. Please contact both your Manager and Finance.
+
+Release: {!inscor__Release__c.Name}
+Sales Order #: {!inscor__Release__c.inscor__Sales_Order__c}
+Customer: {!inscor__Release__c.inscor__Customer_Vendor__c}
+Release Value: {!inscor__Release__c.inscor__Release_Value__c}

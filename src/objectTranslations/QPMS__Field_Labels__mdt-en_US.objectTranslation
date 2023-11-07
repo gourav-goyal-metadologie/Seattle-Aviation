@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Label --></label>
+        <name>QPMS__Label__c</name>
+    </fields>
+    <fields>
+        <label><!-- Module --></label>
+        <name>QPMS__Module__c</name>
+    </fields>
+</CustomObjectTranslation>

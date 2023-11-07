@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Audit Trail --></label>
+        <name>QPMS__Audit_Trail</name>
+    </fieldSets>
+    <fields>
+        <help><!-- Allowed Days --></help>
+        <label><!-- Allowed Days --></label>
+        <name>QPMS__Allowed_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSMS General Task --></label>
+        <name>QPMS__CSMS_General_Task__c</name>
+        <relationshipLabel><!-- CSMS Approvers --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- CSMS Standard --></help>
+        <label><!-- CSMS Standard --></label>
+        <name>QPMS__CSMS_Standard__c</name>
+        <relationshipLabel><!-- CSMS Approvers --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Calibration --></help>
+        <label><!-- Calibration --></label>
+        <name>QPMS__Calibration__c</name>
+        <relationshipLabel><!-- CSMS Approvers --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Comments --></help>
+        <label><!-- Comments --></label>
+        <name>QPMS__Comments__c</name>
+    </fields>
+    <fields>
+        <help><!-- DueDate --></help>
+        <label><!-- Due Date --></label>
+        <name>QPMS__Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Maintenance --></help>
+        <label><!-- Maintenance --></label>
+        <name>QPMS__Maintenance__c</name>
+        <relationshipLabel><!-- CSMS Approvers --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Manager --></help>
+        <label><!-- Manager --></label>
+        <name>QPMS__Manager__c</name>
+        <relationshipLabel><!-- CSMS Approvers (Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Parent Owner --></help>
+        <label><!-- Parent Owner --></label>
+        <name>QPMS__Parent_Owner__c</name>
+        <relationshipLabel><!-- CSMS Approvers (Parent Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Sequence Position --></help>
+        <label><!-- Sequence Position --></label>
+        <name>QPMS__Sequence_Position__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sequence --></help>
+        <label><!-- Sequence --></label>
+        <name>QPMS__Sequence__c</name>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation><!-- 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40</masterLabel>
+            <translation><!-- 40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50</masterLabel>
+            <translation><!-- 50 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60</masterLabel>
+            <translation><!-- 60 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>70</masterLabel>
+            <translation><!-- 70 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>80</masterLabel>
+            <translation><!-- 80 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>90</masterLabel>
+            <translation><!-- 90 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Status --></help>
+        <label><!-- Status --></label>
+        <name>QPMS__Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Started</masterLabel>
+            <translation><!-- Not Started --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recalled</masterLabel>
+            <translation><!-- Recalled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Started</masterLabel>
+            <translation><!-- Started --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Task Record Type Name --></help>
+        <label><!-- Task Name --></label>
+        <name>QPMS__Task_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Task Parent Id (Calibration/Maintenance) --></help>
+        <label><!-- Task Parent Id --></label>
+        <name>QPMS__Task_Parent_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Task Parent Name --></help>
+        <label><!-- Task Parent Name --></label>
+        <name>QPMS__Task_Parent_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- User --></help>
+        <label><!-- User --></label>
+        <name>QPMS__User__c</name>
+        <relationshipLabel><!-- CSMS Approvers (User) --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

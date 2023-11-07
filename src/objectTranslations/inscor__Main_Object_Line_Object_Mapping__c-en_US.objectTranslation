@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Line Object --></label>
+        <name>inscor__Line_Object__c</name>
+    </fields>
+    <fields>
+        <label><!-- Main Object --></label>
+        <name>inscor__Main_Object__c</name>
+    </fields>
+    <fields>
+        <label><!-- Relationship Field Name --></label>
+        <name>inscor__Relationship_Field_Name__c</name>
+    </fields>
+</CustomObjectTranslation>

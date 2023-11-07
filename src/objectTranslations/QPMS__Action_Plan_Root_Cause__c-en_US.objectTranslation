@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Capa --></label>
+        <name>QPMS__Capa__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non-Conformance --></label>
+        <name>QPMS__Non_Conformance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Root Cause Cause Name --></label>
+        <name>QPMS__Root_Cause_Cause_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Action Plan --></label>
+        <name>QPMS__Task_Action_Plan__c</name>
+        <relationshipLabel><!-- Action Plans Root Causes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Root Cause --></label>
+        <name>QPMS__Task_Root_Cause__c</name>
+        <relationshipLabel><!-- Action Plans Root Causes (Root Cause) --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Action Plan Root Cause Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

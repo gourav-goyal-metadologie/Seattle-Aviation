@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Date Difference --></label>
+        <name>Date_Difference__c</name>
+    </fields>
+    <fields>
+        <label><!-- AWB Number --></label>
+        <name>inscor__AWB_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned To --></label>
+        <name>inscor__Assigned_To1__c</name>
+        <relationshipLabel><!-- Receipts (Assigned To) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Assigned To Email --></label>
+        <name>inscor__Assigned_To_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>inscor__Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company --></label>
+        <name>inscor__Company__c</name>
+        <relationshipLabel><!-- Receipts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Condition Code Received --></label>
+        <name>inscor__Condition_Code_Received__c</name>
+        <relationshipLabel><!-- Receipts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Create Date --></label>
+        <name>inscor__Create_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency Conversion Rate Date --></label>
+        <name>inscor__Currency_Conversion_Rate_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency Conversion Rate --></label>
+        <name>inscor__Currency_Conversion_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency Converted From --></label>
+        <name>inscor__Currency_Converted_From__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Exchange Summary --></label>
+        <name>inscor__Customer_Exchange_Summary__c</name>
+        <relationshipLabel><!-- Receipts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date Corrected --></label>
+        <name>inscor__Date_Corrected__c</name>
+    </fields>
+    <fields>
+        <label><!-- Doc Price --></label>
+        <name>inscor__Doc_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Owner --></label>
+        <name>inscor__Document_Owner__c</name>
+        <relationshipLabel><!-- Receipts (Document Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Document Type --></label>
+        <name>inscor__Document_Type__c</name>
+        <picklistValues>
+            <masterLabel>Exchange Order</masterLabel>
+            <translation><!-- Exchange Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Managed Repair</masterLabel>
+            <translation><!-- Managed Repair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase Order</masterLabel>
+            <translation><!-- Purchase Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RMA</masterLabel>
+            <translation><!-- RMA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair Order</masterLabel>
+            <translation><!-- Repair Order --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Exchange Type --></label>
+        <name>inscor__Exchange_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Finalize Date --></label>
+        <name>inscor__Finalize_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inventory Line ID --></label>
+        <name>inscor__Inventory_Line_ID__c</name>
+        <relationshipLabel><!-- Receipts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>inscor__Location__c</name>
+        <relationshipLabel><!-- Receipts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Manifest Line --></label>
+        <name>inscor__Manifest_Line__c</name>
+        <relationshipLabel><!-- Receipts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Manifest --></label>
+        <name>inscor__Manifest__c</name>
+        <relationshipLabel><!-- Receipts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Off Unit --></label>
+        <name>inscor__Off_Unit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Code --></label>
+        <name>inscor__Owner_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part Number Received --></label>
+        <name>inscor__Product_Received__c</name>
+        <relationshipLabel><!-- Receipts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Purchase Order Line --></label>
+        <name>inscor__Purchase_Order_Line__c</name>
+        <relationshipLabel><!-- Receipts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Purchase Order --></label>
+        <name>inscor__Purchase_Order__c</name>
+        <relationshipLabel><!-- Receipts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity Approved --></label>
+        <name>inscor__Quantity_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Corrected --></label>
+        <name>inscor__Quantity_Corrected__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Paid --></label>
+        <name>inscor__Quantity_Paid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Received --></label>
+        <name>inscor__Quantity_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Rejected --></label>
+        <name>inscor__Quantity_Rejected__c</name>
+    </fields>
+    <fields>
+        <label><!-- RMA Line --></label>
+        <name>inscor__RMA_Line__c</name>
+        <relationshipLabel><!-- Receipts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RMA --></label>
+        <name>inscor__RMA__c</name>
+        <relationshipLabel><!-- Receipts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Received By --></label>
+        <name>inscor__Received_By__c</name>
+        <relationshipLabel><!-- Receipts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reference ID --></label>
+        <name>inscor__Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference # --></label>
+        <name>inscor__Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rejection Reason --></label>
+        <name>inscor__Rejection_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rejection Status --></label>
+        <name>inscor__Rejection_Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolved</masterLabel>
+            <translation><!-- Resolved --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Repair Order Line --></label>
+        <name>inscor__Repair_Order_Line__c</name>
+        <relationshipLabel><!-- Receipts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Repair Order --></label>
+        <name>inscor__Repair_Order__c</name>
+        <relationshipLabel><!-- Receipts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sales Order Line --></label>
+        <name>inscor__Sales_Order_Line__c</name>
+        <relationshipLabel><!-- Receipts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Serial Number Received --></label>
+        <name>inscor__Serial_Number_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit Acquisition Cost --></label>
+        <name>inscor__Unit_Acquisition_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit Repair Cost --></label>
+        <name>inscor__Unit_Repair_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Order --></label>
+        <name>inscor__Work_Order__c</name>
+        <relationshipLabel><!-- Receipts --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Receipt Layout</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Document Information --></label>
+            <section>Document Information</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Information --></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label><!-- Multi Currency Information --></label>
+            <section>Multi Currency Information</section>
+        </sections>
+        <sections>
+            <label><!-- Owner &amp; Company Information --></label>
+            <section>Owner &amp; Company Information</section>
+        </sections>
+        <sections>
+            <label><!-- Part Information --></label>
+            <section>Part Information</section>
+        </sections>
+        <sections>
+            <label><!-- Receipt Information --></label>
+            <section>Receipt Information</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

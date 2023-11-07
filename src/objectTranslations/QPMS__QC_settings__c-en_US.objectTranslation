@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Action Plan RecordTypeId --></label>
+        <name>QPMS__Action_Plan_RecordTypeId__c</name>
+    </fields>
+    <fields>
+        <label><!-- AdhocTask Actions RecordTypeId --></label>
+        <name>QPMS__AdhocTask_Actions_RecordTypeId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Adverse event Optional when Product Problem is code is required --></help>
+        <label><!-- Adverse event Optional --></label>
+        <name>QPMS__Adverse_event_Optional__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allow Multiple CEM Type --></label>
+        <name>QPMS__Allow_Multiple_CEM_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allow Multiple Planned Audit on same day --></label>
+        <name>QPMS__Allow_Multiple_Planned_Audit_on_same_day__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allow Multiple SCR --></label>
+        <name>QPMS__Allow_Multiple_SCR__c</name>
+    </fields>
+    <fields>
+        <label><!-- AssessementQuestionTemplate --></label>
+        <name>QPMS__AssessementQuestionTemplate__c</name>
+    </fields>
+    <fields>
+        <label><!-- AuditTrailReportId --></label>
+        <name>QPMS__AuditTrailReportId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Audit Group Filter --></label>
+        <name>QPMS__Audit_Group_Filter__c</name>
+    </fields>
+    <fields>
+        <help><!-- Holds Audit Program Report Id --></help>
+        <label><!-- Audit Program Report Id --></label>
+        <name>QPMS__Audit_Program_Report_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Holds audit report id to be displayed on dashboard --></help>
+        <label><!-- Audit Report Id --></label>
+        <name>QPMS__Audit_Report_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auto Create Audits --></label>
+        <name>QPMS__Auto_Create_Audits__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auto Populate Default NC Rootcause --></label>
+        <name>QPMS__Auto_Populate_Default_NC_Rootcause__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is used in scheduler for batch execution except document module --></help>
+        <label><!-- Batch Size --></label>
+        <name>QPMS__Batch_Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disable CAPA Configurable Workflow Tasks --></label>
+        <name>QPMS__CAPA_Configurable_Workflow_Tasks__c</name>
+    </fields>
+    <fields>
+        <label><!-- CAPA Group Filter --></label>
+        <name>QPMS__CAPA_Group_Filter__c</name>
+    </fields>
+    <fields>
+        <label><!-- CAPA Report Id --></label>
+        <name>QPMS__CAPA_Report_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- For Complaints Report Id --></help>
+        <label><!-- CMP Report Id --></label>
+        <name>QPMS__CMP_Report_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- CR Group Filter --></label>
+        <name>QPMS__CR_Group_Filter__c</name>
+    </fields>
+    <fields>
+        <label><!-- CR Report Id --></label>
+        <name>QPMS__CR_Report_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSMS Group Filter --></label>
+        <name>QPMS__CSMS_Group_Filter__c</name>
+    </fields>
+    <fields>
+        <help><!-- CSMS Report Id --></help>
+        <label><!-- CSMS Report Id --></label>
+        <name>QPMS__CSMS_Report_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used to calculate Next Due Date for showing schedule record before mentioned days on dashboard for custodian. --></help>
+        <label><!-- CSMS Schedule Interval(In Days) --></label>
+        <name>QPMS__CSMS_Schedule_Interval__c</name>
+    </fields>
+    <fields>
+        <help><!-- Time to expire cache --></help>
+        <label><!-- Cache Expiry Time(In Hours) --></label>
+        <name>QPMS__Cache_Expiry_Time_In_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Certificate Review days --></label>
+        <name>QPMS__Certificate_Review_days__c</name>
+    </fields>
+    <fields>
+        <label><!-- ChecklistReport Color --></label>
+        <name>QPMS__ChecklistReport_Color__c</name>
+    </fields>
+    <fields>
+        <label><!-- ChecklistReport --></label>
+        <name>QPMS__ChecklistReport__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checklist Report Score --></label>
+        <name>QPMS__Checklist_Report_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checklist Report pass fail --></label>
+        <name>QPMS__Checklist_Report_pass_fail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Close NC when CAPA is closed --></label>
+        <name>QPMS__Close_NC_when_CAPA_is_closed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Community Portal User Profiles --></label>
+        <name>QPMS__Community_Portal_User_Profiles__c</name>
+    </fields>
+    <fields>
+        <help><!-- To Update Audit status to Complete --></help>
+        <label><!-- Complete Audit --></label>
+        <name>QPMS__Complete_Audit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Compliant Group Filter --></label>
+        <name>QPMS__Compliant_Group_Filter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Connected App consumer key --></label>
+        <name>QPMS__Connected_App_consumer_key__c</name>
+    </fields>
+    <fields>
+        <label><!-- Connected App consumer secret --></label>
+        <name>QPMS__Connected_App_consumer_secret__c</name>
+    </fields>
+    <fields>
+        <label><!-- Containment Action RecordTypeId --></label>
+        <name>QPMS__Containment_Action_RecordTypeId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Holdes logo id copied from document standard object from logos folder --></help>
+        <label><!-- CoverPageLogo --></label>
+        <name>QPMS__CoverPageLogo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Create Address --></label>
+        <name>QPMS__Create_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Create Contact --></label>
+        <name>QPMS__Create_Contact__c</name>
+    </fields>
+    <fields>
+        <help><!-- Page to include all customer-specific logics dynamically on top of managed package --></help>
+        <label><!-- Custom Page --></label>
+        <name>QPMS__Custom_Page__c</name>
+    </fields>
+    <fields>
+        <help><!-- To display the Document Profile reports grouped by Status --></help>
+        <label><!-- DOC Report Id --></label>
+        <name>QPMS__DOC_Report_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Default status of audit pas/ fail will set to fail in closure even one question is failed --></help>
+        <label><!-- Default Audit Pass Fail --></label>
+        <name>QPMS__Default_Audit_Pass_Fail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Display Comments to External User --></label>
+        <name>QPMS__Display_Comments_to_External_User__c</name>
+    </fields>
+    <fields>
+        <label><!-- Display Supplier Details As Expanded --></label>
+        <name>QPMS__Display_Supplier_Details_As_Expanded__c</name>
+    </fields>
+    <fields>
+        <label><!-- Display Training enabled documents --></label>
+        <name>QPMS__Display_Training_enabled_documents__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disposition Section RecordTypeId --></label>
+        <name>QPMS__Disposition_Section_RecordTypeId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Group Filter --></label>
+        <name>QPMS__Document_Group_Filter__c</name>
+    </fields>
+    <fields>
+        <label><!-- DocumentsReportList --></label>
+        <name>QPMS__DocumentsReportList__c</name>
+    </fields>
+    <fields>
+        <label><!-- Edit Address --></label>
+        <name>QPMS__Edit_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Edit Contact --></label>
+        <name>QPMS__Edit_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- EmailNotificationAfterSchedule --></label>
+        <name>QPMS__EmailNotificationAfterSchedule__c</name>
+    </fields>
+    <fields>
+        <help><!-- To filter the accounts based on the custom field(record type) --></help>
+        <label><!-- Enable Account lookup Filter --></label>
+        <name>QPMS__Enable_Account_lookup_Filter__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable Advance Change Management Flow (Includes Change Type Template) --></help>
+        <label><!-- Enable Advance Change Management --></label>
+        <name>QPMS__Enable_Advance_Change_Management__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Audit Trail --></label>
+        <name>QPMS__Enable_Audit_Trail__c</name>
+    </fields>
+    <fields>
+        <help><!-- Flag to Enable/Disable Audit Module --></help>
+        <label><!-- Enable Audit --></label>
+        <name>QPMS__Enable_Audit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable CAPA --></label>
+        <name>QPMS__Enable_CAPA__c</name>
+    </fields>
+    <fields>
+        <help><!-- Flag to Enable/Disable CSMS Module --></help>
+        <label><!-- Enable CSMS --></label>
+        <name>QPMS__Enable_CSMS__c</name>
+    </fields>
+    <fields>
+        <help><!-- To enable browser cache  for faster response --></help>
+        <label><!-- Enable Cache --></label>
+        <name>QPMS__Enable_Cache__c</name>
+    </fields>
+    <fields>
+        <help><!-- handle the chatter in collaboration review task of document profile --></help>
+        <label><!-- Enable Chatter --></label>
+        <name>QPMS__Enable_Chatter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Complaint --></label>
+        <name>QPMS__Enable_Complaint__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Createchecklist --></label>
+        <name>QPMS__Enable_Createchecklist__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable DOC --></label>
+        <name>QPMS__Enable_DOC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Date Format --></label>
+        <name>QPMS__Enable_Date_Format__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Document Print --></label>
+        <name>QPMS__Enable_Document_Print__c</name>
+    </fields>
+    <fields>
+        <help><!-- handling Document temp option from header drop down --></help>
+        <label><!-- Enable Document Temp --></label>
+        <name>QPMS__Enable_Document_Temp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Document Watermark --></label>
+        <name>QPMS__Enable_Document_Watermark__c</name>
+    </fields>
+    <fields>
+        <help><!-- Send Email to Participants when Course Session is Cancelled. --></help>
+        <label><!-- Enable Email Session Cancelled --></label>
+        <name>QPMS__Enable_Email_Session_Cancelled__c</name>
+    </fields>
+    <fields>
+        <help><!-- Send Email to Followers when Course Session is Created. --></help>
+        <label><!-- Enable Email Session Creation --></label>
+        <name>QPMS__Enable_Email_Session_Creation__c</name>
+    </fields>
+    <fields>
+        <help><!-- Send Email to Internal Trainers when Course Session is Cancelled. --></help>
+        <label><!-- Enable Email Session Is Cancelled --></label>
+        <name>QPMS__Enable_Email_Session_Is_Cancelled__c</name>
+    </fields>
+    <fields>
+        <help><!-- Send Email to Internal Trainers when Course Session is Completed. --></help>
+        <label><!-- Enable Email Session Is Completed --></label>
+        <name>QPMS__Enable_Email_Session_Is_Completed__c</name>
+    </fields>
+    <fields>
+        <help><!-- Send Email to Participants when Course Session is In Session. --></help>
+        <label><!-- Enable Email Session Is In Session --></label>
+        <name>QPMS__Enable_Email_Session_Is_In_Session__c</name>
+    </fields>
+    <fields>
+        <help><!-- Send Email to All Participants When Course Session is in Open Enrollment. --></help>
+        <label><!-- Enable Email Session Is Open Enrollment --></label>
+        <name>QPMS__Enable_Email_Session_Is_Open_Enrollment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Inspection Bypass --></label>
+        <name>QPMS__Enable_Inspection_Bypass__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Inspection --></label>
+        <name>QPMS__Enable_Inspection__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Email Service --></label>
+        <name>QPMS__Enable_NC_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable NC Template --></label>
+        <name>QPMS__Enable_NC_Template__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable NC --></label>
+        <name>QPMS__Enable_NC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable PO Numbering Scheme --></label>
+        <name>QPMS__Enable_PO_Numbering_Scheme__c</name>
+    </fields>
+    <fields>
+        <help><!-- If Enabled, You can create Person Profiles without Users --></help>
+        <label><!-- Enable PersonProfiles With Out Users --></label>
+        <name>QPMS__Enable_PersonProfiles_With_Out_Users__c</name>
+    </fields>
+    <fields>
+        <help><!-- To Enable Product  Registration --></help>
+        <label><!-- Enable Registration --></label>
+        <name>QPMS__Enable_Registration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Report Builder --></label>
+        <name>QPMS__Enable_Report_Builder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Response Field --></label>
+        <name>QPMS__Enable_Response_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Security Based On Initiating Site --></label>
+        <name>QPMS__Enable_Security_Based_On_Initiating_Site__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Supplier Qualification --></label>
+        <name>QPMS__Enable_Supplier_Qualification__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sync the Complaint record to Case Management record --></help>
+        <label><!-- Enable Sync Button --></label>
+        <name>QPMS__Enable_Sync_Button__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sync Button for CEM type page --></help>
+        <label><!-- Enable Sync Button for CEM Type --></label>
+        <name>QPMS__Enable_Sync_Button_for_CEM_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Training --></label>
+        <name>QPMS__Enable_Training__c</name>
+    </fields>
+    <fields>
+        <help><!-- End point URL of Case management --></help>
+        <label><!-- EndPointURL --></label>
+        <name>QPMS__EndPointURL__c</name>
+    </fields>
+    <fields>
+        <help><!-- URL to External Processing app minus the host name (e.g. If external app is https://qualityze-external-processing.herokuapp.com/api/3.0/process then this field should contain /api/3.0/process) --></help>
+        <label><!-- External Processing URL --></label>
+        <name>QPMS__External_Processing_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Response Required ? --></label>
+        <name>QPMS__External_Response_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- GDPRBatchSize --></label>
+        <name>QPMS__GDPRBatchSize__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hide Response Field --></label>
+        <name>QPMS__Hide_Response_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- History Objects --></label>
+        <name>QPMS__History_Objects__c</name>
+    </fields>
+    <fields>
+        <label><!-- INS Group Filter --></label>
+        <name>QPMS__INS_Group_Filter__c</name>
+    </fields>
+    <fields>
+        <label><!-- INS Report Id --></label>
+        <name>QPMS__INS_Report_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- ImportSessionBatchSize --></label>
+        <name>QPMS__ImportSessionBatchSize__c</name>
+    </fields>
+    <fields>
+        <help><!-- Salesforce instance name (e.g. na41, ap2, eu5, etc.) --></help>
+        <label><!-- Instance Name --></label>
+        <name>QPMS__Instance_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- InternalTrainer Validation Required --></label>
+        <name>QPMS__InternalTrainer_Validation_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Comment Required ? --></label>
+        <name>QPMS__Internal_Comment_Required__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used in audit summary records in audit junction --></help>
+        <label><!-- Interviewed Personnel RecordtypeId --></label>
+        <name>QPMS__Interviewed_Personnel_RecordtypeId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is CompleteChecklist Validation Required --></label>
+        <name>QPMS__Is_CompleteChecklist_Validation_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Complete Observations --></label>
+        <name>QPMS__Is_Complete_Observations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Digital Signature Needed --></label>
+        <name>QPMS__Is_Digital_Signature_Needed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Due Date Validation Needed --></label>
+        <name>QPMS__Is_Due_Date_Validation_Needed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is External System Capa Reference Needed --></label>
+        <name>QPMS__Is_External_System_Capa_Reference_Needed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Manager Approval required For Enroll --></label>
+        <name>QPMS__Is_Manager_Approval_required_For_Enroll__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Need Create Document --></label>
+        <name>QPMS__Is_Need_Create_Document__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is inprogress training deletion required --></label>
+        <name>QPMS__Is_inprogress_training_deletion_required__c</name>
+    </fields>
+    <fields>
+        <help><!-- Holdes logo id copied from document standard object from logos folder --></help>
+        <label><!-- LogoId --></label>
+        <name>QPMS__LogoId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Logo Style --></label>
+        <name>QPMS__Logo_Style__c</name>
+    </fields>
+    <fields>
+        <label><!-- Make Site Editable --></label>
+        <name>QPMS__Make_Site_Editable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Max Approvers --></label>
+        <name>QPMS__Max_Approvers__c</name>
+    </fields>
+    <fields>
+        <label><!-- NCReportId --></label>
+        <name>QPMS__NCReportId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disable NC Configurable Workflow Tasks --></label>
+        <name>QPMS__NC_Configurable_Workflow_Tasks__c</name>
+    </fields>
+    <fields>
+        <label><!-- NC Group Filter --></label>
+        <name>QPMS__NC_Group_Filter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Service Address --></label>
+        <name>QPMS__NC_Internal_Supplier_Email_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Need Additional Resolution Codes --></label>
+        <name>QPMS__Need_Additional_Resolution_Codes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Of Days For Alerts --></label>
+        <name>QPMS__Number_Of_Days_For_Alerts__c</name>
+    </fields>
+    <fields>
+        <label><!-- OauthURL --></label>
+        <name>QPMS__OauthURL__c</name>
+    </fields>
+    <fields>
+        <help><!-- Holds Observation Report Id --></help>
+        <label><!-- Observation Report Id --></label>
+        <name>QPMS__Observation_Report_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overdue Documents ReportId --></label>
+        <name>QPMS__Overdue_Documents_ReportId__c</name>
+    </fields>
+    <fields>
+        <label><!-- PersonProfilesRestrictedProfiles --></label>
+        <name>QPMS__PersonProfilesRestrictedProfiles__c</name>
+    </fields>
+    <fields>
+        <help><!-- Qualityze Tabid --></help>
+        <label><!-- Qualityze Tabid --></label>
+        <name>QPMS__Qualityze_Tabid__c</name>
+    </fields>
+    <fields>
+        <help><!-- Page to included in Registration page after package install --></help>
+        <label><!-- Registration Page Custom Include Page --></label>
+        <name>QPMS__Registration_Page_Custom_Include_Page__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is for Company Name in FDA XML Generation --></help>
+        <label><!-- Regulatory Submission Company Name --></label>
+        <name>QPMS__Regulatory_Submission_Company_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remoting Timeout --></label>
+        <name>QPMS__Remoting_Timeout__c</name>
+    </fields>
+    <fields>
+        <label><!-- Root Cause RecordTypeId --></label>
+        <name>QPMS__Root_Cause_RecordTypeId__c</name>
+    </fields>
+    <fields>
+        <label><!-- SQM Group Filter --></label>
+        <name>QPMS__SQM_Group_Filter__c</name>
+    </fields>
+    <fields>
+        <help><!-- Send Email to Internal Trainers when Course Session is Cancelled.(Email Template Name) --></help>
+        <label><!-- SessionCancelEmailForTrainer --></label>
+        <name>QPMS__SessionCancelEmailForTrainer__c</name>
+    </fields>
+    <fields>
+        <help><!-- Send Email to Participants when Course Session is Cancelled.(Email Template Name) --></help>
+        <label><!-- SessionCancelForParticipants --></label>
+        <name>QPMS__SessionCancelForParticipants__c</name>
+    </fields>
+    <fields>
+        <help><!-- Send Email to Internal Trainers when Course Session is Completed.(Email Template Name) --></help>
+        <label><!-- SessionCompletedEmailForTrainer --></label>
+        <name>QPMS__SessionCompletedEmailForTrainer__c</name>
+    </fields>
+    <fields>
+        <help><!-- Send Email to Followers when Course Session is Created.(Email Template Name) --></help>
+        <label><!-- SessionCreationEmailForFollowers --></label>
+        <name>QPMS__SessionCreationEmailForFollowers__c</name>
+    </fields>
+    <fields>
+        <help><!-- Send Email to Participants when Course Session is In Session.(Email Template Name) --></help>
+        <label><!-- SessionInsessionEmailForParticipants --></label>
+        <name>QPMS__SessionInsessionEmailForParticipants__c</name>
+    </fields>
+    <fields>
+        <help><!-- Send Email to All Participants When Course Session is in Open Enrollment.(Email Template Name) --></help>
+        <label><!-- SessionOpenEnrollmentEmailForParticipant --></label>
+        <name>QPMS__SessionOpenEnrollmentEmailForParticipant__c</name>
+    </fields>
+    <fields>
+        <help><!-- Restricted the users/groups to display in site security level --></help>
+        <label><!-- Show All Users/Groups In Site Security --></label>
+        <name>QPMS__Show_All_Users_Groups_In_Site_Security__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Copy Right --></label>
+        <name>QPMS__Show_Copy_Right__c</name>
+    </fields>
+    <fields>
+        <label><!-- Site Filter in Reference --></label>
+        <name>QPMS__Site_Filter_in_Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Standard Object Names --></label>
+        <name>QPMS__Standard_Object_Names__c</name>
+    </fields>
+    <fields>
+        <label><!-- StaticResource --></label>
+        <name>QPMS__StaticResource__c</name>
+    </fields>
+    <fields>
+        <help><!-- The name of the streaming channel (e.g. /u/QualityzeUserNotification) --></help>
+        <label><!-- Streaming Channel Name --></label>
+        <name>QPMS__Streaming_Channel_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier Record Type --></label>
+        <name>QPMS__Supplier_Record_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier Report Id --></label>
+        <name>QPMS__Supplier_Report_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- SystemAdminProfileID --></label>
+        <name>QPMS__SystemAdminProfileID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Task DueDate Validation On Current Date --></label>
+        <name>QPMS__Task_DueDate_Validation_On_Current_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training Batch size --></label>
+        <name>QPMS__Training_Batch_size__c</name>
+    </fields>
+    <fields>
+        <help><!-- Training Group Filter --></help>
+        <label><!-- Training Group Filter --></label>
+        <name>QPMS__Training_Group_Filter__c</name>
+    </fields>
+    <fields>
+        <help><!-- Batch update size for parent records from Job Function. --></help>
+        <label><!-- Training JF Parent Update Batch Size --></label>
+        <name>QPMS__Training_JF_Parent_Update_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help><!-- Batch size for Training Junctions from Job Function. --></help>
+        <label><!-- Training Junction Batch Size --></label>
+        <name>QPMS__Training_Junction_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training ReprotId --></label>
+        <name>QPMS__Training_ReprotId__c</name>
+    </fields>
+    <fields>
+        <label><!-- TrainingsDeletionFromSessionBatchSize --></label>
+        <name>QPMS__TrainingsDeletionFromSessionBatchSize__c</name>
+    </fields>
+    <fields>
+        <help><!-- To configure getting record details from trigger execution in commonutil class --></help>
+        <label><!-- TriggerFetchRecordDetails --></label>
+        <name>QPMS__TriggerFetchRecordDetails__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL --></label>
+        <name>QPMS__URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Verification Plan RecordTypeId --></label>
+        <name>QPMS__Verification_Plan_RecordTypeId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Where Clause Template for Registration page for Service Provider and Maintenance Provider fields. Enter question mark &quot;?&quot; where value should be replaced --></help>
+        <label><!-- WCT Registration Providers --></label>
+        <name>QPMS__WCT_Registration_Providers__c</name>
+    </fields>
+    <fields>
+        <help><!-- Flag for warm up to make page load faster --></help>
+        <label><!-- Warm-Up Needed --></label>
+        <name>QPMS__Warm_Up_Needed__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field holds time interval to perform warm up to make page load faster --></help>
+        <label><!-- Warm-Up Time interval(In Min.) --></label>
+        <name>QPMS__Warm_Up_Time_Interval__c</name>
+    </fields>
+    <fields>
+        <help><!-- To display the owner in approver list --></help>
+        <label><!-- isOwnerAsAppover --></label>
+        <name>QPMS__isOwnerAsAppover__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Aircraft Register --></label>
+        <name>inscor__Aircraft_Register__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSN at Installation --></label>
+        <name>inscor__CSN_at_Installation__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSN at Removal --></label>
+        <name>inscor__CSN_at_Removal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Charges Markup? --></label>
+        <name>inscor__Charges_Markup_Box__c</name>
+    </fields>
+    <fields>
+        <label><!-- Charges Markup % --></label>
+        <name>inscor__Charges_Markup__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Quantity --></label>
+        <name>inscor__Contract_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract --></label>
+        <name>inscor__Contract__c</name>
+        <relationshipLabel><!-- Contract Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Engine Installation --></label>
+        <name>inscor__Date_of_Engine_Installation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Removal --></label>
+        <name>inscor__Date_of_Removal__c</name>
+    </fields>
+    <fields>
+        <label><!-- ECSN at Installation --></label>
+        <name>inscor__ECSN_at_Installation__c</name>
+    </fields>
+    <fields>
+        <label><!-- ECSN at Removal --></label>
+        <name>inscor__ECSN_at_Removal__c</name>
+    </fields>
+    <fields>
+        <label><!-- ETSN at Installation --></label>
+        <name>inscor__ETSN_at_Installation__c</name>
+    </fields>
+    <fields>
+        <label><!-- ETSN at Removal --></label>
+        <name>inscor__ETSN_at_Removal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engine Position --></label>
+        <name>inscor__Engine_Position__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flat Rate --></label>
+        <name>inscor__Flat_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inventory --></label>
+        <name>inscor__Inventory__c</name>
+        <relationshipLabel><!-- Contract Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Labor Markup? --></label>
+        <name>inscor__Labor_Markup_Box__c</name>
+    </fields>
+    <fields>
+        <label><!-- Labor Markup % --></label>
+        <name>inscor__Labor_Markup__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part Number --></label>
+        <name>inscor__Part_Number__c</name>
+        <relationshipLabel><!-- Contract Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Parts Markup? --></label>
+        <name>inscor__Parts_Markup_Box__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parts Markup % --></label>
+        <name>inscor__Parts_Markup__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pricing Template --></label>
+        <name>inscor__Pricing_Template__c</name>
+        <relationshipLabel><!-- Contract Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Removal Reason --></label>
+        <name>inscor__Removal_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sequence Number --></label>
+        <name>inscor__Sequence_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Skill Rate --></label>
+        <name>inscor__Skill_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Skill --></label>
+        <name>inscor__Skill__c</name>
+        <relationshipLabel><!-- Contract Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- TSN at Installation --></label>
+        <name>inscor__TSN_at_Installation__c</name>
+    </fields>
+    <fields>
+        <label><!-- TSN at Removal --></label>
+        <name>inscor__TSN_at_Removal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Task --></label>
+        <name>inscor__Task__c</name>
+        <relationshipLabel><!-- Contract Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>inscor__Type__c</name>
+        <picklistValues>
+            <masterLabel>Pricing template</masterLabel>
+            <translation><!-- Pricing template --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skills</masterLabel>
+            <translation><!-- Skills --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Task</masterLabel>
+            <translation><!-- Task --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>AvSight Contract Line Layout</layout>
+        <sections>
+            <label><!-- Aircraft Time at Installation --></label>
+            <section>Aircraft Time at Installation</section>
+        </sections>
+        <sections>
+            <label><!-- Engine Information --></label>
+            <section>Engine Information</section>
+        </sections>
+        <sections>
+            <label><!-- Removal --></label>
+            <section>Removal</section>
+        </sections>
+        <sections>
+            <label><!-- Work Order Pricing --></label>
+            <section>Work Order Pricing</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Contract Quantity can not greater than Quantity Available of Inventory --></errorMessage>
+        <name>inscor__Qty_cannot_more_then_Inv_qty_available</name>
+    </validationRules>
+</CustomObjectTranslation>

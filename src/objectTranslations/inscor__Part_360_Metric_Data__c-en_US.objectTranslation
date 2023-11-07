@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Company --></label>
+        <name>inscor__Company__c</name>
+        <relationshipLabel><!-- Part 360 Metric Datas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Last Updated --></label>
+        <name>inscor__Last_Updated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part Number --></label>
+        <name>inscor__Part_Number__c</name>
+        <relationshipLabel><!-- Part 360 Metric Datas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quote-Avg 12 Month Price --></label>
+        <name>inscor__Quote_Avg_12_Month_Price__c</name>
+    </fields>
+</CustomObjectTranslation>

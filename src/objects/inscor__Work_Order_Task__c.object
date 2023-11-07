@@ -1,0 +1,1889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>inscor__Work_Order_Task_Compact</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>inscor__Work_Order_Task_Compact</fullName>
+        <fields>inscor__Task_Name__c</fields>
+        <fields>inscor__Work_Order__c</fields>
+        <fields>inscor__Task_Type__c</fields>
+        <fields>inscor__Percent_Complete__c</fields>
+        <fields>inscor__Milestone__c</fields>
+        <fields>inscor__Summary_Task__c</fields>
+        <label>Work Order Task Compact</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Work Order Task</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>false</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>false</enableSharing>
+    <enableStreamingApi>false</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>inscor__AMM_Reference__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>AMM Reference</label>
+        <length>10000</length>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__Approval_Status__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Approval Status</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pending Customer Approval</fullName>
+                    <default>false</default>
+                    <label>Pending Customer Approval</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>inscor__Assigned_To__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Assigned To</label>
+        <referenceTo>inscor__Employee__c</referenceTo>
+        <relationshipName>Work_Order_Tasks</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Comments_Findings__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Comments/Findings</label>
+        <length>10000</length>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__Company_Currency__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Company Currency</label>
+        <length>3</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Company_Default_Quoted_Amount__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>inscor__Quoted_Amount__c /  BLANKVALUE(inscor__Exchange_Rate__c, 1)</formula>
+        <label>Company Default Quoted Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Company_Flat_Rate_Price__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>inscor__Flat_Rate_Price__c /  BLANKVALUE(inscor__Exchange_Rate__c, 1)</formula>
+        <label>Company Flat Rate Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Company_Labor_Fixed_Rate__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>inscor__Labor_Fixed_Rate__c /  BLANKVALUE(inscor__Exchange_Rate__c, 1)</formula>
+        <label>Company Labor Fixed Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Company_Labor_Rate_NTE__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>inscor__Labor_Rate_NTE__c /  BLANKVALUE(inscor__Exchange_Rate__c, 1)</formula>
+        <label>Company Labor Rate NTE</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Company_Last_Quoted_Price__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>inscor__Last_Quoted_Price__c /  BLANKVALUE(inscor__Exchange_Rate__c, 1)</formula>
+        <label>Company Last Quoted Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Company_Misc_Fixed_Price__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>inscor__Misc_Fixed_Price__c /  BLANKVALUE(inscor__Exchange_Rate__c, 1)</formula>
+        <label>Company Misc Fixed Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Company_Misc_NTE__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>inscor__Misc_NTE__c /  BLANKVALUE(inscor__Exchange_Rate__c, 1)</formula>
+        <label>Company Misc NTE</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Company_Parts_Fixed_Price__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>inscor__Parts_Fixed_Price__c /  BLANKVALUE(inscor__Exchange_Rate__c, 1)</formula>
+        <label>Company Parts Fixed Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Company_Parts_NTE__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>inscor__Parts_NTE__c /  BLANKVALUE(inscor__Exchange_Rate__c, 1)</formula>
+        <label>Company Parts NTE</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Company_Planned_Labor_Cost__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>inscor__Planned_Labor_Cost__c / BLANKVALUE( inscor__Exchange_Rate__c, 1)</formula>
+        <label>Company Planned Labor Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Company_Rate_Billed__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>inscor__Rate_Billed__c /  BLANKVALUE(inscor__Exchange_Rate__c, 1)</formula>
+        <label>Company Rate Billed</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Company_Task_Price_Billed__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>inscor__Task_Price_Billed__c /  BLANKVALUE(inscor__Exchange_Rate__c, 1)</formula>
+        <label>Company Task Price Billed</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Company_Total_Cost_Invoiced__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Company Total Cost Invoiced</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Company_Total_Labor_Invoiced__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>inscor__Total_Labor_Invoiced__c /  BLANKVALUE(inscor__Exchange_Rate__c, 1)</formula>
+        <label>Company Total Labor Invoiced</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Company_Total_Misc_Billed__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>inscor__Total_Misc_Billed__c /  BLANKVALUE(inscor__Exchange_Rate__c, 1)</formula>
+        <label>Company Total Misc Billed</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Company_Total_Parts_Billed__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>inscor__Total_Parts_Billed__c /  BLANKVALUE(inscor__Exchange_Rate__c, 1)</formula>
+        <label>Company Total Parts Billed</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Company_Total_Price_Invoiced__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>inscor__Total_Price_Invoiced__c /  BLANKVALUE(inscor__Exchange_Rate__c, 1)</formula>
+        <label>Company Total Price Invoiced</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Company_Total_Price__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>inscor__Total_Price__c /  BLANKVALUE(inscor__Exchange_Rate__c, 1)</formula>
+        <label>Company Total Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Completed_By__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Completed By</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Work_Order_Tasks</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Completed_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Completed Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Conversion_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Conversion ID</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Corrective_Action__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Corrective Action</label>
+        <length>10000</length>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>131072</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__Duration__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Duration</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Exchange_Rate_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Exchange Rate Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Exchange_Rate__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Exchange Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__External_Comments__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>External Comments</label>
+        <length>10000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__External_Reference_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>true</externalId>
+        <label>External Reference ID</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Flat_Rate_Price__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Flat Rate Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Flat_Rate_Task__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this box for billing a single flat rate amount for entire task. No Parts, Labor or other charges will be billed.</inlineHelpText>
+        <label>Flat Rate Task?</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Generated_From__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Generated From</label>
+        <referenceTo>inscor__Work_Order_Task__c</referenceTo>
+        <relationshipName>Inharited_Tasks</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Hours_Billed__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Hours Billed</label>
+        <summarizedField>inscor__Labor_Entry__c.inscor__Hours_Billed__c</summarizedField>
+        <summaryForeignKey>inscor__Labor_Entry__c.inscor__Work_Order_Task__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Hours_Entered__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Hours Entered</label>
+        <summarizedField>inscor__Labor_Entry__c.inscor__Hours__c</summarizedField>
+        <summaryForeignKey>inscor__Labor_Entry__c.inscor__Work_Order_Task__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Inspect_Only__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Inspect Only?</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Inspected_By__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Inspected By</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Work_Order_Tasks_Inspected_By</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Inspected_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Inspected Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Inspection_Details__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Inspection Details</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__Inspection_Required__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Inspection Required?</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Inspection_Status__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Inspection Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Hold</fullName>
+                    <default>false</default>
+                    <label>Hold</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>inscor__Internal_Comments__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Internal Comments</label>
+        <length>10000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__Labor_Fixed_Hours__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter Labor Hours for Fixed Labor</inlineHelpText>
+        <label>Labor Fixed Hours</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Labor_Fixed_Rate__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter Labor Fixed Rate</inlineHelpText>
+        <label>Labor Fixed Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Labor_Hour_Billing_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Select Labor Hour Billing Type.</inlineHelpText>
+        <label>Labor Hour Billing Type</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>inscor__Flat_Rate_Task__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Fixed Hours</fullName>
+                    <default>false</default>
+                    <label>Fixed Hours</label>
+                </value>
+                <value>
+                    <fullName>Actual Hours</fullName>
+                    <default>false</default>
+                    <label>Actual Hours</label>
+                </value>
+                <value>
+                    <fullName>Actual Hrs-Over and Above</fullName>
+                    <default>false</default>
+                    <label>Actual Hrs-Over and Above</label>
+                </value>
+                <value>
+                    <fullName>Estimated Hours</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Estimated Hours</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>unchecked</controllingFieldValue>
+                <valueName>Fixed Hours</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>unchecked</controllingFieldValue>
+                <valueName>Actual Hours</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>unchecked</controllingFieldValue>
+                <controllingFieldValue>checked</controllingFieldValue>
+                <valueName>Actual Hrs-Over and Above</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>inscor__Labor_Hours_NTE__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Labor Hours Not To Exceed Qty</inlineHelpText>
+        <label>Labor Hours NTE</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Labor_Rate_Billing_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Select a Labor Rate Type. Burden Rate is the Skill Cost while Skill Rate is the Skill Price.</inlineHelpText>
+        <label>Labor Rate Billing Type</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>inscor__Flat_Rate_Task__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Fixed Rate</fullName>
+                    <default>false</default>
+                    <label>Fixed Rate</label>
+                </value>
+                <value>
+                    <fullName>Skill Burden Rate Markup+/Discount-</fullName>
+                    <default>false</default>
+                    <label>Skill Burden Rate Markup+/Discount-</label>
+                </value>
+                <value>
+                    <fullName>Skill Rate Markup+/Discount-</fullName>
+                    <default>false</default>
+                    <label>Skill Rate Markup+/Discount-</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>unchecked</controllingFieldValue>
+                <controllingFieldValue>checked</controllingFieldValue>
+                <valueName>Fixed Rate</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>unchecked</controllingFieldValue>
+                <controllingFieldValue>checked</controllingFieldValue>
+                <valueName>Skill Burden Rate Markup+/Discount-</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>unchecked</controllingFieldValue>
+                <controllingFieldValue>checked</controllingFieldValue>
+                <valueName>Skill Rate Markup+/Discount-</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>inscor__Labor_Rate_Markup_Discount__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter positive for a Markup (20%) or negative for a Discount (-20%) or 0% for none.</inlineHelpText>
+        <label>Labor Rate Markup+/Discount-</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Labor_Rate_NTE__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter Labor Rate Not To Exceed Amount</inlineHelpText>
+        <label>Labor Rate NTE</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Last_Quoted_Price__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Last Quoted Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>inscor__MPD_Reference__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>MPD Reference</label>
+        <length>10000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__Manual_Link__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Manual Link</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Milestone__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Milestone?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Misc_Charge_Billing_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Select Miscellaneous Charge Billing Method</inlineHelpText>
+        <label>Misc Charge Billing Type</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>inscor__Flat_Rate_Task__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Fixed Price</fullName>
+                    <default>false</default>
+                    <label>Fixed Price</label>
+                </value>
+                <value>
+                    <fullName>Cost Markup+/Discount-</fullName>
+                    <default>false</default>
+                    <label>Cost Markup+/Discount-</label>
+                </value>
+                <value>
+                    <fullName>Price Markup+/Discount-</fullName>
+                    <default>false</default>
+                    <label>Price Markup+/Discount-</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>unchecked</controllingFieldValue>
+                <valueName>Fixed Price</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>unchecked</controllingFieldValue>
+                <valueName>Cost Markup+/Discount-</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>unchecked</controllingFieldValue>
+                <valueName>Price Markup+/Discount-</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>inscor__Misc_Fixed_Price__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Misc Fixed Price Amount</inlineHelpText>
+        <label>Misc Fixed Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Misc_Markup_Discount__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter positive for a Markup (20%) or negative for a Discount (-20%) or 0% for none.</inlineHelpText>
+        <label>Misc Markup+/Discount-</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Misc_NTE__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter Miscellaneous Not To Exceed Amount</inlineHelpText>
+        <label>Misc NTE</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Output_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Controls the displaying of the Task and Parts/Charges/Labor in Quotes and Invoices. Summary only shows the Task, Detail Rollup will show all but roll up Prices to the Task line while Itemized will show the individual prices at the BOM/Labor/Misc.</inlineHelpText>
+        <label>Default Output Type</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Hidden</fullName>
+                    <default>false</default>
+                    <label>Hidden</label>
+                </value>
+                <value>
+                    <fullName>Summary</fullName>
+                    <default>false</default>
+                    <label>Summary</label>
+                </value>
+                <value>
+                    <fullName>Detail Rollup</fullName>
+                    <default>false</default>
+                    <label>Detail Rollup</label>
+                </value>
+                <value>
+                    <fullName>Detail Rollup Hidden Labor</fullName>
+                    <default>false</default>
+                    <label>Detail Rollup Hidden Labor</label>
+                </value>
+                <value>
+                    <fullName>Detail Itemized</fullName>
+                    <default>false</default>
+                    <label>Detail Itemized</label>
+                </value>
+                <value>
+                    <fullName>Detail Itemized Hidden Labor</fullName>
+                    <default>false</default>
+                    <label>Detail Itemized Hidden Labor</label>
+                </value>
+                <value>
+                    <fullName>Detail</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Detail</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>inscor__Over_Above_Threshold_Hours__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the threshold above which the labor hours must exceed before billing begins. Only those hours above the threshold will be applied for billing.</inlineHelpText>
+        <label>Over &amp; Above Threshold Hours</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Parent_Task__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Parent Task</label>
+        <referenceTo>inscor__Work_Order_Task__c</referenceTo>
+        <relationshipName>Work_Order_Tasks</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Parts_Billing_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Select Parts Billing Type.</inlineHelpText>
+        <label>Parts Billing Type</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>inscor__Flat_Rate_Task__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Fixed Price</fullName>
+                    <default>false</default>
+                    <label>Fixed Price</label>
+                </value>
+                <value>
+                    <fullName>Cost Markup+/Discount-</fullName>
+                    <default>false</default>
+                    <label>Cost Markup+/Discount-</label>
+                </value>
+                <value>
+                    <fullName>Price Markup+/Discount-</fullName>
+                    <default>false</default>
+                    <label>Price Markup+/Discount-</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>unchecked</controllingFieldValue>
+                <valueName>Fixed Price</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>unchecked</controllingFieldValue>
+                <valueName>Cost Markup+/Discount-</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>unchecked</controllingFieldValue>
+                <valueName>Price Markup+/Discount-</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>inscor__Parts_Fixed_Price__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Parts Fixed Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Parts_Markup_Discount__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter positive for a Markup (20%) or negative for a Discount (-20%) or 0% for none.</inlineHelpText>
+        <label>Parts Markup/Discount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Parts_NTE__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter Parts Not To Exceed Amount</inlineHelpText>
+        <label>Parts NTE</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Percent_Complete__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Percent Complete</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Planned_Labor_Cost__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Planned Labor Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Planned_Labor_Hours__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Planned Labor Hours</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Pricing_Template__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Pricing Template</label>
+        <referenceTo>inscor__Pricing_Template__c</referenceTo>
+        <relationshipName>Work_Order_Tasks</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Quoted_Amount__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Default Quoted Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Rate_Billed__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Rate Billed</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Reconciled_By__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Reconciled By</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Work_Order_Tasks1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Reconciled_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Reconciled Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Rejection_Comment__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Rejection Comment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Sequence__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Sequence</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Show_WO_Builder__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Show WO Builder?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Start_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Start Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Status__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>inscor__Status</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>inscor__Summary_Task__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Summary Task?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Task_Instructions__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Task Instructions</label>
+        <length>131072</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__Task_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Task Name</label>
+        <length>250</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Task_Price_Billed__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Task Price Billed</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Task_Total_Cost__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>inscor__Total_Parts_Cost__c +  inscor__Total_Labor_Cost__c +  inscor__Total_Misc_Charge_Cost__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Task Total Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Task_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Task Type</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Routine</fullName>
+                    <default>true</default>
+                    <label>Routine</label>
+                </value>
+                <value>
+                    <fullName>Non-Routine</fullName>
+                    <default>false</default>
+                    <label>Non-Routine</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>inscor__Template_Project__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>inscor__Work_Order__r.inscor__Template__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Template Project?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Tool_Assignment_With_Qty__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Tool Assignment With Qty</label>
+        <summaryFilterItems>
+            <field>inscor__Tool_Assignment1__c.inscor__Qty_Assigned__c</field>
+            <operation>greaterThan</operation>
+            <value>0</value>
+        </summaryFilterItems>
+        <summaryForeignKey>inscor__Tool_Assignment1__c.inscor__Work_Order_Task__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Total_Cost_Invoiced__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Total Cost Invoiced</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Total_Cost__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Total Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Total_Hours_Unbilled__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Total Hours Unbilled</label>
+        <summarizedField>inscor__Labor_Entry__c.inscor__Hours_Unbilled__c</summarizedField>
+        <summaryForeignKey>inscor__Labor_Entry__c.inscor__Work_Order_Task__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Total_Labor_Cost__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Total Labor Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Total_Labor_Hours_Billed__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Total Hours Billed. If NTE, this will show the not to exceed amount.</inlineHelpText>
+        <label>Total Labor Hours Billed</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Total_Labor_Invoiced__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Total Labor Invoiced</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Total_Misc_Billed__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Total Misc Billed</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Total_Misc_Charge_Cost__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Total Misc Charge Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Total_Parts_Billed__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Total Parts Billed</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Total_Parts_Cost__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Total Parts Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Total_Price_Invoiced__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Total Price Invoiced</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Total_Price__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Total Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Work_Instructions__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Work Instructions - RETIRED</label>
+        <length>10000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__Work_Order_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>inscor__Work_Order__r.inscor__Project_Name__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Work Order Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Work_Order_Status__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>TEXT(inscor__Work_Order__r.inscor__Status__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Work Order Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Work_Order__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Work Order</label>
+        <referenceTo>inscor__Work_Order__c</referenceTo>
+        <relationshipName>Work_Order_Tasks</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <label>Work Order Task</label>
+    <listViews>
+        <fullName>inscor__All</fullName>
+        <columns>NAME</columns>
+        <columns>inscor__Task_Name__c</columns>
+        <columns>inscor__Start_Date__c</columns>
+        <columns>inscor__Duration__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>inscor__All_Work_Order_Tasks</fullName>
+        <columns>NAME</columns>
+        <columns>inscor__Sequence__c</columns>
+        <columns>inscor__Task_Name__c</columns>
+        <columns>inscor__Assigned_To__c</columns>
+        <columns>inscor__Work_Order__c</columns>
+        <columns>inscor__Work_Order_Name__c</columns>
+        <columns>inscor__Task_Type__c</columns>
+        <columns>inscor__Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>inscor__Template_Project__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>All Work Order Tasks</label>
+    </listViews>
+    <listViews>
+        <fullName>inscor__Filtered_WO_Tasks</fullName>
+        <columns>NAME</columns>
+        <columns>inscor__Sequence__c</columns>
+        <columns>inscor__Task_Name__c</columns>
+        <columns>inscor__Output_Type__c</columns>
+        <columns>inscor__Flat_Rate_Task__c</columns>
+        <columns>inscor__Flat_Rate_Price__c</columns>
+        <columns>inscor__Parts_Billing_Type__c</columns>
+        <columns>inscor__Parts_Markup_Discount__c</columns>
+        <columns>inscor__Parts_Fixed_Price__c</columns>
+        <columns>inscor__Labor_Rate_Billing_Type__c</columns>
+        <columns>inscor__Labor_Rate_Markup_Discount__c</columns>
+        <columns>inscor__Labor_Hour_Billing_Type__c</columns>
+        <columns>inscor__Labor_Fixed_Hours__c</columns>
+        <columns>inscor__Over_Above_Threshold_Hours__c</columns>
+        <columns>inscor__Misc_Charge_Billing_Type__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>inscor__Work_Order__c</field>
+            <operation>equals</operation>
+            <value>WO-2</value>
+        </filters>
+        <label>Filtered WO Tasks</label>
+    </listViews>
+    <nameField>
+        <displayFormat>WOT-{0}</displayFormat>
+        <label>Work Order Task ID</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Work Order Tasks</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>inscor__Block_Cancel</fullName>
+        <active>true</active>
+        <errorConditionFormula>IF(ISPICKVAL(inscor__Status__c, &apos;Cancelled&apos;), OR( NOT(ISBLANK(inscor__Completed_By__c)), NOT(ISBLANK(inscor__Inspected_By__c ))), false)</errorConditionFormula>
+        <errorDisplayField>inscor__Status__c</errorDisplayField>
+        <errorMessage>Can&apos;t cancel a Task once Completed By or Inspected By is filled in</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Flat_Rate_Price_Required</fullName>
+        <active>true</active>
+        <description>When Flat Rate Task checkbox is checked, the Flat Rate Price will be required and used for billing of the Task. The entry can be 0.00 or greater.</description>
+        <errorConditionFormula>inscor__Flat_Rate_Task__c == True &amp;&amp; ( ISBLANK(inscor__Flat_Rate_Price__c) || inscor__Flat_Rate_Price__c &lt; 0)</errorConditionFormula>
+        <errorMessage>Flat Rate Price required when &apos;Flat Rate Task?&apos; is true.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Labor_Fixed_Hours_Required</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISPICKVAL( inscor__Labor_Hour_Billing_Type__c , &apos;Fixed Hours&apos;) &amp;&amp; (ISBLANK(inscor__Labor_Fixed_Hours__c) || inscor__Labor_Fixed_Hours__c &lt; 0)</errorConditionFormula>
+        <errorMessage>&apos;Labor Fixed Hours&apos; is require when &apos;Labor Hour Billing Type&apos; is &apos;Fixed Hours&apos;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Labor_Fixed_Rate_Required</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISPICKVAL( inscor__Labor_Rate_Billing_Type__c, &apos;Fixed Rate&apos;) &amp;&amp; ( ISBLANK(inscor__Labor_Fixed_Rate__c) || inscor__Labor_Fixed_Rate__c &lt; 0)</errorConditionFormula>
+        <errorMessage>&apos;Labor Fixed Rate&apos; is require when &apos;Labor Rate Billing Type&apos; is &apos;Fixed Rate&apos;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Labor_Rate_Markup_Discount_Required</fullName>
+        <active>true</active>
+        <errorConditionFormula>(ISPICKVAL( inscor__Labor_Rate_Billing_Type__c, &apos;Skill Burden Rate Markup+/Discount-&apos;) || ISPICKVAL( inscor__Labor_Rate_Billing_Type__c, &apos;Skill Rate Markup+/Discount-&apos;)) &amp;&amp;  ISBLANK(inscor__Labor_Rate_Markup_Discount__c)</errorConditionFormula>
+        <errorMessage>&apos;Labor Rate Markup/Discount&apos; is required for selected &apos;Labor Rate Billing Type&apos;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Misc_Fixed_Price_Required</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISPICKVAL(inscor__Misc_Charge_Billing_Type__c, &apos;Fixed Price&apos;) &amp;&amp; ( ISBLANK(inscor__Misc_Fixed_Price__c) || inscor__Misc_Fixed_Price__c  &lt; 0)</errorConditionFormula>
+        <errorMessage>&apos;Misc Fixed Price&apos; is require when &apos;Misc Billing Type&apos; is &apos;Fixed Price&apos;</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Misc_Markup_Discount_Required</fullName>
+        <active>true</active>
+        <errorConditionFormula>(ISPICKVAL( inscor__Misc_Charge_Billing_Type__c, &apos;Cost Markup+/Discount-&apos;) || ISPICKVAL( inscor__Misc_Charge_Billing_Type__c, &apos;	Price Markup+/Discount-&apos;) ) &amp;&amp;  ISBLANK(inscor__Misc_Markup_Discount__c)</errorConditionFormula>
+        <errorMessage>&apos;Misc Markup/Discount&apos; is require for selected &apos;Misc Billing Type&apos;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Over_and_Above_Threshold_Hours_Required</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISPICKVAL( inscor__Labor_Hour_Billing_Type__c , &apos;Actual Hrs-Over and Above&apos;) &amp;&amp; ISBLANK( inscor__Over_Above_Threshold_Hours__c)</errorConditionFormula>
+        <errorMessage>&apos;Over and Above Threshold Hours&apos; is require when &apos;Labor Hour Billing Type&apos; is &apos;Actual Hrs-Over and Above&apos;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Parts_Fixed_Price_Required</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISPICKVAL( inscor__Parts_Billing_Type__c , &apos;Fixed Price&apos;) &amp;&amp; ( ISBLANK(inscor__Parts_Fixed_Price__c) || inscor__Parts_Fixed_Price__c &lt; 0)</errorConditionFormula>
+        <errorMessage>&apos;Parts Fixed Price&apos; required when &apos;Parts Billing Type&apos; is &apos;Fixed Cost&apos;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Parts_Markup_Discount_Required</fullName>
+        <active>true</active>
+        <errorConditionFormula>(ISPICKVAL(inscor__Parts_Billing_Type__c, &apos;Cost Markup+/Discount-&apos;) || ISPICKVAL(inscor__Parts_Billing_Type__c, &apos;Price Markup+/Discount-&apos;)) &amp;&amp;  ISBLANK(inscor__Parts_Markup_Discount__c)</errorConditionFormula>
+        <errorMessage>Required Field &apos;Parts_Markup/Discount_Required&apos; for selected &apos;Parts Billing Type&apos;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Restrict_Billing_Method_On_Status</fullName>
+        <active>false</active>
+        <description>Billing methods cannot be changed once Task is in &quot;Invoiced, Reconciled, Complete&quot;.</description>
+        <errorConditionFormula>OR(
+ISPICKVAL(inscor__Status__c, &quot;Invoiced&quot;),
+ISPICKVAL(inscor__Status__c, &quot;Reconciled&quot;),
+ISPICKVAL(inscor__Status__c, &quot;Complete&quot;)
+)
+&amp;&amp; (ISCHANGED(inscor__Labor_Hour_Billing_Type__c) || ISCHANGED(inscor__Labor_Rate_Billing_Type__c) ||
+ISCHANGED(inscor__Misc_Charge_Billing_Type__c) ||
+ISCHANGED(inscor__Parts_Billing_Type__c))</errorConditionFormula>
+        <errorMessage>Billing methods cannot be changed once Task is in &quot;Invoiced, Reconciled, Complete&quot; status.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Restrict_Fields_If_Summary_Task_True</fullName>
+        <active>true</active>
+        <description>When Summary Task? = True do not allow any of the fields in Billing Setup section to be edited.</description>
+        <errorConditionFormula>inscor__Summary_Task__c == true &amp;&amp; ( 
+  ISCHANGED(inscor__Flat_Rate_Task__c)|| 
+  ISCHANGED(inscor__Flat_Rate_Price__c) || 
+  ISCHANGED(inscor__Parts_Billing_Type__c) || 
+  ISCHANGED(inscor__Parts_Fixed_Price__c) || 
+  ISCHANGED(inscor__Parts_Markup_Discount__c) || 
+  ISCHANGED(inscor__Parts_NTE__c) || 
+  ISCHANGED(inscor__Labor_Rate_Billing_Type__c) || 
+  ISCHANGED(inscor__Labor_Fixed_Rate__c) || 
+  ISCHANGED(inscor__Labor_Rate_Markup_Discount__c) || 
+  ISCHANGED(inscor__Labor_Rate_NTE__c) || 
+  ISCHANGED(inscor__Labor_Hour_Billing_Type__c) || 
+  ISCHANGED(inscor__Labor_Fixed_Hours__c) || 
+  ISCHANGED(inscor__Over_Above_Threshold_Hours__c) || 
+  ISCHANGED(inscor__Labor_Hours_NTE__c) || 
+  ISCHANGED(inscor__Misc_Charge_Billing_Type__c) || 
+  ISCHANGED(inscor__Misc_Fixed_Price__c) || 
+  ISCHANGED(inscor__Misc_Markup_Discount__c) || 
+  ISCHANGED(inscor__Misc_NTE__c) ||
+  ISCHANGED(inscor__Inspect_Only__c) ||
+  ISCHANGED(inscor__Comments_Findings__c) ||
+  ISCHANGED(inscor__Inspection_Required__c) ||
+  ISCHANGED(inscor__Corrective_Action__c ) ||
+  ISCHANGED(inscor__Inspection_Details__c) ||
+  ISCHANGED(inscor__Inspection_Status__c) ||
+  ISCHANGED(inscor__Inspected_By__c) ||
+  ISCHANGED(inscor__Inspected_Date__c)
+)</errorConditionFormula>
+        <errorMessage>Fields under Billing Setup &amp; Inspection and Findings cannot be updated for Summary Task.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Restrict_Inspection_Task_to_Complete</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( ISCHANGED( inscor__Status__c ), ISPICKVAL( inscor__Status__c, &apos;Complete&apos;), NOT(OR (ISPICKVAL(  inscor__Inspection_Status__c , &apos;Approved&apos;), ISPICKVAL(inscor__Inspection_Status__c ,&apos;Rejected&apos;))), inscor__Inspection_Required__c == true)</errorConditionFormula>
+        <errorMessage>Status Task Complete is not allowed as Inspection Required field is True.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Restrict_Once_Released</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(NOT(ISPICKVAL(inscor__Status__c, &apos;Pending&apos;)),ISCHANGED(inscor__Task_Name__c))</errorConditionFormula>
+        <errorDisplayField>inscor__Task_Name__c</errorDisplayField>
+        <errorMessage>Cannot change Task Name once task has been released.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Restrict_Status_Change_Once_Invoiced</fullName>
+        <active>true</active>
+        <description>Task Status cannot be changed once Invoiced.</description>
+        <errorConditionFormula>ISPICKVAL(PRIORVALUE(inscor__Status__c), &quot;Invoiced&quot;) &amp;&amp; ISCHANGED(inscor__Status__c)</errorConditionFormula>
+        <errorMessage>Task status can not be changed once Invoiced.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

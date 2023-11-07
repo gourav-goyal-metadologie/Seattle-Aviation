@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- ZK Packaging Type --></label>
+        <name>ZK_Packaging_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZK Preference --></label>
+        <name>ZK_Preference__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZK Service Type --></label>
+        <name>ZK_Service_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Number --></label>
+        <name>inscor__Account_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>inscor__Account__c</name>
+        <relationshipLabel><!-- Ship Methods --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Company --></label>
+        <name>inscor__Company__c</name>
+        <relationshipLabel><!-- Ship Methods --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ship Carrier --></label>
+        <name>inscor__Ship_Carrier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ship Method Description --></label>
+        <name>inscor__Ship_Method_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transit Time (In Days) --></label>
+        <name>inscor__Transit_Time_In_Days__c</name>
+    </fields>
+    <layouts>
+        <layout>Ship Method Layout</layout>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

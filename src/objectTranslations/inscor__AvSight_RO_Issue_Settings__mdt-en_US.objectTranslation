@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Allow ROLine CONS, issue from any LOT --></label>
+        <name>inscor__Allow_ROLine_CONS_issue_from_any_LOT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allow ROLine CONS, issue from any SPEC --></label>
+        <name>inscor__Allow_ROLine_CONS_issue_from_any_SPEC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allow ROLine CONS, issue from diff CONS --></label>
+        <name>inscor__Allow_ROLine_CONS_issue_from_diff_CONS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allow ROLine CONS, issue from same CONS --></label>
+        <name>inscor__Allow_ROLine_CONS_issue_from_same_CONS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allow ROLine LOT, issue from any CONS --></label>
+        <name>inscor__Allow_ROLine_LOT_issue_from_any_CONS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allow ROLine LOT, issue from any SPEC --></label>
+        <name>inscor__Allow_ROLine_LOT_issue_from_any_SPEC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allow ROLine LOT, issue from diff LOT --></label>
+        <name>inscor__Allow_ROLine_LOT_issue_from_diff_LOT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allow ROLine LOT, issue from same LOT --></label>
+        <name>inscor__Allow_ROLine_LOT_issue_from_same_LOT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allow ROLine SPEC, issue from any CONS --></label>
+        <name>inscor__Allow_ROLine_SPEC_issue_from_any_CONS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allow ROLine SPEC, issue from any LOT --></label>
+        <name>inscor__Allow_ROLine_SPEC_issue_from_any_LOT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allow ROLine SPEC, issue from diff SPEC --></label>
+        <name>inscor__Allow_ROLine_SPEC_issue_from_diff_SPEC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allow ROLine SPEC, issue from same SPEC --></label>
+        <name>inscor__Allow_ROLine_SPEC_issue_from_same_SPEC__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Canada Audit Trail --></label>
+        <name>QPMS__Canada_Audit_Trail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Canada Complainant Information --></label>
+        <name>QPMS__Canada_Complainant_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Canada Complainant is a --></label>
+        <name>QPMS__Canada_Complainant_is_a</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Canada QueryFields --></label>
+        <name>QPMS__Canada_QueryFields</name>
+    </fieldSets>
+    <fields>
+        <help><!-- Address --></help>
+        <label><!-- Address --></label>
+        <name>QPMS__Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- ComplaintId --></label>
+        <name>QPMS__ComplaintId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Consumer --></help>
+        <label><!-- Consumer --></label>
+        <name>QPMS__Consumer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Follow Up Number --></label>
+        <name>QPMS__Follow_Up_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Health professional --></help>
+        <label><!-- Health professional --></label>
+        <name>QPMS__Health_professional__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name of Complainant --></help>
+        <label><!-- Name of Complainant --></label>
+        <name>QPMS__Name_of_Complainant__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name of Health Care Facility (if applicable) --></help>
+        <label><!-- Name of Health Care Facility --></label>
+        <name>QPMS__Name_of_Health_Care_Facility__c</name>
+    </fields>
+    <fields>
+        <help><!-- Other --></help>
+        <label><!-- Other --></label>
+        <name>QPMS__Other__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regulatory Body --></label>
+        <name>QPMS__Regulatory_Body__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regulatory Report --></label>
+        <name>QPMS__Regulatory_Report__c</name>
+        <relationshipLabel><!-- Complainant Informations --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Telephone No. and/or E-mail Address --></help>
+        <label><!-- Telephone No. and/or E-mail Address --></label>
+        <name>QPMS__Telephone_No_and_or_E_mail_Address__c</name>
+    </fields>
+</CustomObjectTranslation>

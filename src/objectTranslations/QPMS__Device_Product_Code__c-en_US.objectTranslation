@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Active --></label>
+        <name>QPMS__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- C.F.R Section --></label>
+        <name>QPMS__C_F_R_Section__c</name>
+    </fields>
+    <fields>
+        <label><!-- Classification Panel --></label>
+        <name>QPMS__Classification_Panel__c</name>
+        <picklistValues>
+            <masterLabel>73 - ANESTHESIOLOGY</masterLabel>
+            <translation><!-- 73 - ANESTHESIOLOGY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>74 - CARDIOVASCULAR</masterLabel>
+            <translation><!-- 74 - CARDIOVASCULAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>75 - CLINICAL CHEMISTRY</masterLabel>
+            <translation><!-- 75 - CLINICAL CHEMISTRY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>76 - DENTAL</masterLabel>
+            <translation><!-- 76 - DENTAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>77 - EARS,NOSE AND THROAT</masterLabel>
+            <translation><!-- 77 - EARS,NOSE AND THROAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>78 - GASTROENTEROLOGY-UROLOGY</masterLabel>
+            <translation><!-- 78 - GASTROENTEROLOGY-UROLOGY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>79 - GENERAL AND PLASTIC SURGERY</masterLabel>
+            <translation><!-- 79 - GENERAL AND PLASTIC SURGERY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>80 - GENERAL HOSPITAL</masterLabel>
+            <translation><!-- 80 - GENERAL HOSPITAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>81 - HEMATOLOGY</masterLabel>
+            <translation><!-- 81 - HEMATOLOGY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>82 - IMMUNOLOGY</masterLabel>
+            <translation><!-- 82 - IMMUNOLOGY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>83 - MICROBIOLOGY</masterLabel>
+            <translation><!-- 83 - MICROBIOLOGY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>84 - NEUROLOGY</masterLabel>
+            <translation><!-- 84 - NEUROLOGY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>85 - OBSTETRICS AND GYNECOLOGY</masterLabel>
+            <translation><!-- 85 - OBSTETRICS AND GYNECOLOGY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>86 - OPHTHALMIC</masterLabel>
+            <translation><!-- 86 - OPHTHALMIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>87 - ORTHOPEDIC</masterLabel>
+            <translation><!-- 87 - ORTHOPEDIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>88 - PATHOLOGY</masterLabel>
+            <translation><!-- 88 - PATHOLOGY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>89 - PHYSICAL MEDICINE</masterLabel>
+            <translation><!-- 89 - PHYSICAL MEDICINE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>90 - RADIOLOGY</masterLabel>
+            <translation><!-- 90 - RADIOLOGY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>91 - CLINICAL TOXICOLOGY</masterLabel>
+            <translation><!-- 91 - CLINICAL TOXICOLOGY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RED HEALTH, NON-MEDICAL</masterLabel>
+            <translation><!-- RED HEALTH, NON-MEDICAL --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Device Class --></label>
+        <name>QPMS__Device_Class__c</name>
+        <picklistValues>
+            <masterLabel>3(513(f)(1))</masterLabel>
+            <translation><!-- 3(513(f)(1)) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Class I</masterLabel>
+            <translation><!-- Class I --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Class II</masterLabel>
+            <translation><!-- Class II --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Class III</masterLabel>
+            <translation><!-- Class III --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Classified</masterLabel>
+            <translation><!-- Not Classified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unclassified</masterLabel>
+            <translation><!-- Unclassified --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product Code Name --></label>
+        <name>QPMS__Product_Code_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Code --></label>
+        <name>QPMS__Product_Code__c</name>
+    </fields>
+</CustomObjectTranslation>

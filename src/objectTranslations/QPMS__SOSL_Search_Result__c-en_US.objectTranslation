@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- GDPR --></label>
+        <name>QPMS__GDPR__c</name>
+        <relationshipLabel><!-- Search Results --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Number of records found --></label>
+        <name>QPMS__Number_of_records_found__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Api Name --></label>
+        <name>QPMS__Object_Api_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Description --></label>
+        <name>QPMS__Object_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Field Api Names --></label>
+        <name>QPMS__Object_Field_Api_Names__c</name>
+    </fields>
+    <fields>
+        <label><!-- Search value --></label>
+        <name>QPMS__Search_value__c</name>
+    </fields>
+    <layouts>
+        <layout>Search Result Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

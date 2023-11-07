@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- US FDA Audit Trail --></label>
+        <name>QPMS__US_FDA_Audit_Trail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA Product Type --></label>
+        <name>QPMS__US_FDA_Product_Type</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA QueryFields --></label>
+        <name>QPMS__US_FDA_QueryFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA SuspectProduct --></label>
+        <name>QPMS__US_FDA_SuspectProduct</name>
+    </fieldSets>
+    <fields>
+        <help><!-- Biosimilar --></help>
+        <label><!-- Biosimilar --></label>
+        <name>QPMS__Biosimilar__c</name>
+    </fields>
+    <fields>
+        <label><!-- ComplaintId --></label>
+        <name>QPMS__ComplaintId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Compounded --></help>
+        <label><!-- Compounded --></label>
+        <name>QPMS__Compounded__c</name>
+    </fields>
+    <fields>
+        <label><!-- Diagnosis for Use --></label>
+        <name>QPMS__Diagnosis_for_Use__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dose Unit --></label>
+        <name>QPMS__Dose_Unit__c</name>
+        <picklistValues>
+            <masterLabel>% percent</masterLabel>
+            <translation><!-- % percent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bq becquerel(s)</masterLabel>
+            <translation><!-- Bq becquerel(s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ci curie(s)</masterLabel>
+            <translation><!-- Ci curie(s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DF dosage form</masterLabel>
+            <translation><!-- DF dosage form --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G Gram(S)</masterLabel>
+            <translation><!-- G Gram(S) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GBq gigabecquerel(s)</masterLabel>
+            <translation><!-- GBq gigabecquerel(s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gtt drop(s)</masterLabel>
+            <translation><!-- Gtt drop(s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iu international unit(s)</masterLabel>
+            <translation><!-- Iu international unit(s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kbq kilobecquerel(s)</masterLabel>
+            <translation><!-- Kbq kilobecquerel(s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kg Kilogram(S)</masterLabel>
+            <translation><!-- Kg Kilogram(S) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kiu iu(1000s)</masterLabel>
+            <translation><!-- Kiu iu(1000s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MBq megabecquerel(s)</masterLabel>
+            <translation><!-- MBq megabecquerel(s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MCi millicurie(s)</masterLabel>
+            <translation><!-- MCi millicurie(s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meq milliequivalent(s)</masterLabel>
+            <translation><!-- Meq milliequivalent(s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mg Milligram(S)</masterLabel>
+            <translation><!-- Mg Milligram(S) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Miu iu(1,000,000s)</masterLabel>
+            <translation><!-- Miu iu(1,000,000s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mmol millimole(s)</masterLabel>
+            <translation><!-- Mmol millimole(s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mol mole(s)</masterLabel>
+            <translation><!-- Mol mole(s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NCi nanocurie(s)</masterLabel>
+            <translation><!-- NCi nanocurie(s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iu/kg iu/kilogram</masterLabel>
+            <translation><!-- iu/kg iu/kilogram --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>l litre(s)</masterLabel>
+            <translation><!-- l litre(s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>mg/kg milligram(S)/kilogram</masterLabel>
+            <translation><!-- mg/kg milligram(S)/kilogram --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>mg/m2 milligram(s)/sq. meter</masterLabel>
+            <translation><!-- mg/m2 milligram(s)/sq. meter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ml millilitre(s)</masterLabel>
+            <translation><!-- ml millilitre(s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>mu Microgram(S)</masterLabel>
+            <translation><!-- mu Microgram(S) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ng Nanogram(S)</masterLabel>
+            <translation><!-- ng Nanogram(S) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>pg Picogram(S)</masterLabel>
+            <translation><!-- pg Picogram(S) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>μCi microcurie(s)</masterLabel>
+            <translation><!-- μCi microcurie(s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>μg/ m2 microgram(s)/ sq. meter</masterLabel>
+            <translation><!-- μg/ m2 microgram(s)/ sq. meter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>μg/kg microgram(s)/kilogram</masterLabel>
+            <translation><!-- μg/kg microgram(s)/kilogram --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>μl microlitre(s)</masterLabel>
+            <translation><!-- μl microlitre(s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>μmol micromole(s)</masterLabel>
+            <translation><!-- μmol micromole(s) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Dose --></help>
+        <label><!-- Dose --></label>
+        <name>QPMS__Dose__c</name>
+    </fields>
+    <fields>
+        <label><!-- Drug Sequence Number --></label>
+        <name>QPMS__Drug_Sequence_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter Approval Number --></help>
+        <label><!-- Enter Approval Number --></label>
+        <name>QPMS__Enter_Approval_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Abated --></label>
+        <name>QPMS__Event_Abated__c</name>
+        <picklistValues>
+            <masterLabel>Does not Apply</masterLabel>
+            <translation><!-- Does not Apply --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Event Reappeared After Reintroduction --></label>
+        <name>QPMS__Event_Reappeared_After_Reintroduction__c</name>
+        <picklistValues>
+            <masterLabel>Does not Apply</masterLabel>
+            <translation><!-- Does not Apply --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Expiration Date --></help>
+        <label><!-- Expiration Date --></label>
+        <name>QPMS__Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Follow Up Number --></label>
+        <name>QPMS__Follow_Up_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Frequency Unit (definition of the interval) --></help>
+        <label><!-- Frequency Unit (definition of interval) --></label>
+        <name>QPMS__Frequency_Unit_definition_of_interval__c</name>
+        <picklistValues>
+            <masterLabel>Days</masterLabel>
+            <translation><!-- Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hours</masterLabel>
+            <translation><!-- Hours --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minutes</masterLabel>
+            <translation><!-- Minutes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Months</masterLabel>
+            <translation><!-- Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weeks</masterLabel>
+            <translation><!-- Weeks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Years</masterLabel>
+            <translation><!-- Years --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Frequency (number of units in the interval) --></help>
+        <label><!-- Frequency (number of units in interval) --></label>
+        <name>QPMS__Frequency__c</name>
+    </fields>
+    <fields>
+        <help><!-- Generic --></help>
+        <label><!-- Generic --></label>
+        <name>QPMS__Generic__c</name>
+    </fields>
+    <fields>
+        <help><!-- If IND/Pre-ANDA, Give Protocol # --></help>
+        <label><!-- If IND/Pre-ANDA, Give Protocol # --></label>
+        <name>QPMS__If_IND_Pre_ANDA_Give_Protocol__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lot # --></label>
+        <name>QPMS__Lot__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer/Compounder --></label>
+        <name>QPMS__Manufacturer_Compounder__c</name>
+    </fields>
+    <fields>
+        <label><!-- NDC# or Unique ID --></label>
+        <name>QPMS__NDC_or_Unique_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name and Strength --></label>
+        <name>QPMS__Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of separate dosages --></help>
+        <label><!-- Number of separate dosages --></label>
+        <name>QPMS__Number_of_separate_dosages__c</name>
+    </fields>
+    <fields>
+        <help><!-- OTC --></help>
+        <label><!-- OTC --></label>
+        <name>QPMS__OTC__c</name>
+    </fields>
+    <fields>
+        <help><!-- Pre-1938 --></help>
+        <label><!-- Pre-1938 --></label>
+        <name>QPMS__Pre_1938__c</name>
+    </fields>
+    <fields>
+        <help><!-- Pre-ANDA --></help>
+        <label><!-- Pre-ANDA --></label>
+        <name>QPMS__Pre_ANDA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regulatory Body --></label>
+        <name>QPMS__Regulatory_Body__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regulatory Report --></label>
+        <name>QPMS__Regulatory_Report__c</name>
+        <relationshipLabel><!-- Suspect Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Rout Used --></help>
+        <label><!-- Rout Used --></label>
+        <name>QPMS__Rout_Used__c</name>
+        <picklistValues>
+            <masterLabel>Auricular (otic)</masterLabel>
+            <translation><!-- Auricular (otic) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Buccal</masterLabel>
+            <translation><!-- Buccal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cutaneous</masterLabel>
+            <translation><!-- Cutaneous --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dental</masterLabel>
+            <translation><!-- Dental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Endocervical</masterLabel>
+            <translation><!-- Endocervical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Endosinusial</masterLabel>
+            <translation><!-- Endosinusial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Endotracheal</masterLabel>
+            <translation><!-- Endotracheal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Epidural</masterLabel>
+            <translation><!-- Epidural --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Extra-amniotic</masterLabel>
+            <translation><!-- Extra-amniotic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hemodialysis</masterLabel>
+            <translation><!-- Hemodialysis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intra corpus cavernosum</masterLabel>
+            <translation><!-- Intra corpus cavernosum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intra-amniotic</masterLabel>
+            <translation><!-- Intra-amniotic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intra-arterial</masterLabel>
+            <translation><!-- Intra-arterial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intra-articular</masterLabel>
+            <translation><!-- Intra-articular --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intra-uterine</masterLabel>
+            <translation><!-- Intra-uterine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intracardiac</masterLabel>
+            <translation><!-- Intracardiac --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intracavernous</masterLabel>
+            <translation><!-- Intracavernous --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intracerebral</masterLabel>
+            <translation><!-- Intracerebral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intracervical</masterLabel>
+            <translation><!-- Intracervical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intracisternal</masterLabel>
+            <translation><!-- Intracisternal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intracorneal</masterLabel>
+            <translation><!-- Intracorneal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intracoronary</masterLabel>
+            <translation><!-- Intracoronary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intradermal</masterLabel>
+            <translation><!-- Intradermal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intradiscal (intraspinal)</masterLabel>
+            <translation><!-- Intradiscal (intraspinal) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intrahepatic</masterLabel>
+            <translation><!-- Intrahepatic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intralesional</masterLabel>
+            <translation><!-- Intralesional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intralymphatic</masterLabel>
+            <translation><!-- Intralymphatic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intramedullar (bone marrow)</masterLabel>
+            <translation><!-- Intramedullar (bone marrow) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intrameningeal</masterLabel>
+            <translation><!-- Intrameningeal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intramuscular</masterLabel>
+            <translation><!-- Intramuscular --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intraocular</masterLabel>
+            <translation><!-- Intraocular --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intrapericardial</masterLabel>
+            <translation><!-- Intrapericardial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intraperitoneal</masterLabel>
+            <translation><!-- Intraperitoneal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intrapleural</masterLabel>
+            <translation><!-- Intrapleural --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intrasynovial</masterLabel>
+            <translation><!-- Intrasynovial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intrathecal</masterLabel>
+            <translation><!-- Intrathecal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intrathoracic</masterLabel>
+            <translation><!-- Intrathoracic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intratracheal</masterLabel>
+            <translation><!-- Intratracheal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intratumor</masterLabel>
+            <translation><!-- Intratumor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intravenous (not otherwise specified)</masterLabel>
+            <translation><!-- Intravenous (not otherwise specified) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intravenous bolus</masterLabel>
+            <translation><!-- Intravenous bolus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intravenous drip</masterLabel>
+            <translation><!-- Intravenous drip --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intravesical</masterLabel>
+            <translation><!-- Intravesical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iontophoresis</masterLabel>
+            <translation><!-- Iontophoresis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nasal</masterLabel>
+            <translation><!-- Nasal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Occlusive dressing technique</masterLabel>
+            <translation><!-- Occlusive dressing technique --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ophthalmic</masterLabel>
+            <translation><!-- Ophthalmic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oral</masterLabel>
+            <translation><!-- Oral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oropharyngeal</masterLabel>
+            <translation><!-- Oropharyngeal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parenteral</masterLabel>
+            <translation><!-- Parenteral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Periarticular</masterLabel>
+            <translation><!-- Periarticular --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perineural</masterLabel>
+            <translation><!-- Perineural --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rectal</masterLabel>
+            <translation><!-- Rectal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Respiratory (inhalation)</masterLabel>
+            <translation><!-- Respiratory (inhalation) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retrobulbar</masterLabel>
+            <translation><!-- Retrobulbar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subcutaneous</masterLabel>
+            <translation><!-- Subcutaneous --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subdermal</masterLabel>
+            <translation><!-- Subdermal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sublingual</masterLabel>
+            <translation><!-- Sublingual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sunconjunctival</masterLabel>
+            <translation><!-- Sunconjunctival --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Topical</masterLabel>
+            <translation><!-- Topical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transdermal</masterLabel>
+            <translation><!-- Transdermal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transmammary</masterLabel>
+            <translation><!-- Transmammary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transplacental</masterLabel>
+            <translation><!-- Transplacental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Urethral</masterLabel>
+            <translation><!-- Urethral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vaginal</masterLabel>
+            <translation><!-- Vaginal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Select the drug type (if known) --></label>
+        <name>QPMS__Select_the_drug_type_if_known__c</name>
+        <picklistValues>
+            <masterLabel>ANDA</masterLabel>
+            <translation><!-- ANDA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BLA</masterLabel>
+            <translation><!-- BLA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IND</masterLabel>
+            <translation><!-- IND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NDA</masterLabel>
+            <translation><!-- NDA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Therapy Dates --></label>
+        <name>QPMS__Therapy_Dates__c</name>
+    </fields>
+    <fields>
+        <help><!-- Treatment Dates/Therapy Dates (give length of treatment (start/stop) or your best estimate) --></help>
+        <label><!-- To --></label>
+        <name>QPMS__To__c</name>
+    </fields>
+</CustomObjectTranslation>

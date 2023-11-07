@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>inscor__Copy_Billing_City</fullName>
+        <field>inscor__Billing_City__c</field>
+        <formula>inscor__Vendor__r.BillingCity</formula>
+        <name>Copy Billing City</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>inscor__Copy_Billing_Country</fullName>
+        <field>inscor__Billing_Country__c</field>
+        <formula>inscor__Vendor__r.BillingCountry</formula>
+        <name>Copy Billing Country</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>inscor__Copy_Billing_Postal_Code</fullName>
+        <field>inscor__Billing_Postal_Code__c</field>
+        <formula>inscor__Vendor__r.BillingPostalCode</formula>
+        <name>Copy Billing Postal Code</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>inscor__Copy_Billing_State</fullName>
+        <field>inscor__Billing_State__c</field>
+        <formula>inscor__Vendor__r.BillingState</formula>
+        <name>Copy Billing State</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>inscor__Copy_Billing_Street</fullName>
+        <field>inscor__Billing_Street__c</field>
+        <formula>inscor__Vendor__r.BillingStreet</formula>
+        <name>Copy Billing Street</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>inscor__Copy_Shipping_City</fullName>
+        <field>inscor__Shipping_City__c</field>
+        <formula>inscor__Vendor__r.ShippingCity</formula>
+        <name>Copy Shipping City</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>inscor__Copy_Shipping_Country</fullName>
+        <field>inscor__Shipping_Country__c</field>
+        <formula>inscor__Vendor__r.ShippingCountry</formula>
+        <name>Copy Shipping Country</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>inscor__Copy_Shipping_Postal_Code</fullName>
+        <field>inscor__Shipping_Postal_Code__c</field>
+        <formula>inscor__Vendor__r.ShippingPostalCode</formula>
+        <name>Copy Shipping Postal Code</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>inscor__Copy_Shipping_State</fullName>
+        <field>inscor__Shipping_State__c</field>
+        <formula>inscor__Vendor__r.ShippingState</formula>
+        <name>Copy Shipping State</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>inscor__Copy_shipping_Street</fullName>
+        <field>inscor__Shipping_Street__c</field>
+        <formula>inscor__Vendor__r.ShippingStreet</formula>
+        <name>Copy shipping Street</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>inscor__Copy Billing City</fullName>
+        <actions>
+            <name>inscor__Copy_Billing_City</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>inscor__Repair_Order__c.inscor__Billing_City__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>inscor__Copy Billing Country</fullName>
+        <actions>
+            <name>inscor__Copy_Billing_Country</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>inscor__Repair_Order__c.inscor__Billing_Country__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>inscor__Copy Billing Postal Code</fullName>
+        <actions>
+            <name>inscor__Copy_Billing_Postal_Code</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>inscor__Repair_Order__c.inscor__Billing_Postal_Code__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>inscor__Copy Billing State</fullName>
+        <actions>
+            <name>inscor__Copy_Billing_State</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>inscor__Repair_Order__c.inscor__Billing_State__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>inscor__Copy Billing Street</fullName>
+        <actions>
+            <name>inscor__Copy_Billing_Street</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>inscor__Repair_Order__c.inscor__Billing_Street__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>inscor__Copy Shipping City</fullName>
+        <actions>
+            <name>inscor__Copy_Shipping_City</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>inscor__Repair_Order__c.inscor__Shipping_City__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>inscor__Copy Shipping Country</fullName>
+        <actions>
+            <name>inscor__Copy_Shipping_Country</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>inscor__Repair_Order__c.inscor__Shipping_Country__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>inscor__Copy Shipping Postal Code</fullName>
+        <actions>
+            <name>inscor__Copy_Shipping_Postal_Code</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>inscor__Repair_Order__c.inscor__Shipping_Postal_Code__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>inscor__Copy Shipping State</fullName>
+        <actions>
+            <name>inscor__Copy_Shipping_State</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>inscor__Repair_Order__c.inscor__Shipping_State__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>inscor__Copy shipping Street</fullName>
+        <actions>
+            <name>inscor__Copy_shipping_Street</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>inscor__Repair_Order__c.inscor__Shipping_Street__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

@@ -1,0 +1,1181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Contentdetailscontextualhelp --></label>
+        <name>QPMS__Contentdetailscontextualhelp</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CourseProfileDocument --></label>
+        <name>QPMS__CourseProfileDocument</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Cover Page Section --></label>
+        <name>QPMS__Cover_Page_Section</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- DPcontextualhelpdocumentdetails --></label>
+        <name>QPMS__DPcontextualhelpdocumentdetails</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- DisplayDocuments --></label>
+        <name>QPMS__DisplayDocuments</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- DocInitWatermarkContextualHelp --></label>
+        <name>QPMS__DocInitWatermarkContextualHelp</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- DocProfileHeaderFieldsForPrint --></label>
+        <name>QPMS__DocProfileHeaderFieldsForPrint</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Doc Profile View In DocType --></label>
+        <name>QPMS__Doc_Profile_View_In_DocType</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Doc_user_fields --></label>
+        <name>QPMS__Doc_user_fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- DocumentEditLayout --></label>
+        <name>QPMS__DocumentEditLayout</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- DocumentProfile Header For Mobile --></label>
+        <name>QPMS__DocumentProfile_Header_For_Mobile</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- DocumentProfile Search Field --></label>
+        <name>QPMS__DocumentProfile_Search_Field</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- DocumentProfilecontextaulhelp --></label>
+        <name>QPMS__DocumentProfilecontextaulhelp</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- DocumentProfilecontextualhelpdocchange --></label>
+        <name>QPMS__DocumentProfilecontextualhelpdocchange</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Document_Approval --></label>
+        <name>QPMS__Document_Approval</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Document Approval Audit Trail --></label>
+        <name>QPMS__Document_Approval_Audit_Trail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Document Content --></label>
+        <name>QPMS__Document_Content</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Document Detail Fields --></label>
+        <name>QPMS__Document_Detail_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Document Menu --></label>
+        <name>QPMS__Document_Menu</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Document Profile Custom Fields --></label>
+        <name>QPMS__Document_Profile_Custom_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Document Profile Fields --></label>
+        <name>QPMS__Document_Profile_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Document Profile Save --></label>
+        <name>QPMS__Document_Profile_Save</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Document_Profile_View --></label>
+        <name>QPMS__Document_Profile_View</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Document Search List Fields --></label>
+        <name>QPMS__Document_Search_List_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Document Setup --></label>
+        <name>QPMS__Document_Setup</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Document Training --></label>
+        <name>QPMS__Document_Training</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- DocumentprofcontextuslhelpforCR --></label>
+        <name>QPMS__DocumentprofcontextuslhelpforCR</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Documentsetupmoreinfo --></label>
+        <name>QPMS__Documentsetupmoreinfo</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Documentsetupontextualhelp --></label>
+        <name>QPMS__Documentsetupontextualhelp</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- DouemntProfileHeader --></label>
+        <name>QPMS__DouemntProfileHeader</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Header Information --></label>
+        <name>QPMS__Header_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Initiation Fields --></label>
+        <name>QPMS__Initiation_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QueryFields --></label>
+        <name>QPMS__QueryFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Related Docs In Supplier Profile --></label>
+        <name>QPMS__Related_Docs_In_Supplier_Profile</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Security Fields --></label>
+        <name>QPMS__Security_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- TrainingUsers --></label>
+        <name>QPMS__TrainingUsers</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Filed Visibility --></label>
+        <name>QPMS__Watermark_Filed_Visibility</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Watermark Position --></label>
+        <name>QPMS__Watermark_Position</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Watermark Section --></label>
+        <name>QPMS__Watermark_Section</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- reviseOrTempDocument --></label>
+        <name>QPMS__reviseOrTempDocument</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- securitycontextualhelp --></label>
+        <name>QPMS__securitycontextualhelp</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Action Status --></label>
+        <name>QPMS__Action_Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Age --></label>
+        <name>QPMS__Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allowed Days --></label>
+        <name>QPMS__Allowed_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Applicable Regulations --></label>
+        <name>QPMS__Applicable_Regulations__c</name>
+        <picklistValues>
+            <masterLabel>AS9120</masterLabel>
+            <translation><!-- AS9120 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASA</masterLabel>
+            <translation><!-- ASA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EAR</masterLabel>
+            <translation><!-- EAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FAA</masterLabel>
+            <translation><!-- FAA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FCPA</masterLabel>
+            <translation><!-- FCPA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ITAR</masterLabel>
+            <translation><!-- ITAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OSHA</masterLabel>
+            <translation><!-- OSHA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ApprovalProcess --></label>
+        <name>QPMS__ApprovalProcess__c</name>
+        <picklistValues>
+            <masterLabel>Change Due Date</masterLabel>
+            <translation><!-- Change Due Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Owner</masterLabel>
+            <translation><!-- Change Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document Approval</masterLabel>
+            <translation><!-- Document Approval --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Holds the approves group API (DevelperName)name --></help>
+        <label><!-- Approval Group --></label>
+        <name>QPMS__Approval_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Process Complete --></label>
+        <name>QPMS__Approval_Process_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Required --></label>
+        <name>QPMS__Approval_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>QPMS__Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recall</masterLabel>
+            <translation><!-- Recall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approved Date --></label>
+        <name>QPMS__Approved_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approver 1 --></label>
+        <name>QPMS__Approver_1__c</name>
+        <relationshipLabel><!-- Document Profiles (Approver 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 2 --></label>
+        <name>QPMS__Approver_2__c</name>
+        <relationshipLabel><!-- Document Profiles (Approver 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 3 --></label>
+        <name>QPMS__Approver_3__c</name>
+        <relationshipLabel><!-- Document Profiles (Approver 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 4 --></label>
+        <name>QPMS__Approver_4__c</name>
+        <relationshipLabel><!-- Document Profiles (Approver 4) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 5 --></label>
+        <name>QPMS__Approver_5__c</name>
+        <relationshipLabel><!-- Document Profiles (Approver 5) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 6 --></label>
+        <name>QPMS__Approver_6__c</name>
+        <relationshipLabel><!-- Document Profiles (Approver 6) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 7 --></label>
+        <name>QPMS__Approver_7__c</name>
+        <relationshipLabel><!-- Document Profiles (Approver 7) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 8 --></label>
+        <name>QPMS__Approver_8__c</name>
+        <relationshipLabel><!-- Document Profiles (Approver 8) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 9 --></label>
+        <name>QPMS__Approver_9__c</name>
+        <relationshipLabel><!-- Document Profiles (Approver 9) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver --></label>
+        <name>QPMS__Approver__c</name>
+        <relationshipLabel><!-- Document Profiles (Approver) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Authorized Entity Group --></label>
+        <name>QPMS__Authorized_Entity_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Authorized Entity --></label>
+        <name>QPMS__Authorized_Entity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auto Expire --></label>
+        <name>QPMS__Auto_Expire__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auto Expire --></label>
+        <name>QPMS__Automatically_Expire_Previous_Revision__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Unit --></label>
+        <name>QPMS__Business_Unit__c</name>
+        <picklistValues>
+            <masterLabel>BU1</masterLabel>
+            <translation><!-- BU1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BU2</masterLabel>
+            <translation><!-- BU2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BU3</masterLabel>
+            <translation><!-- BU3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BU4</masterLabel>
+            <translation><!-- BU4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Categories --></label>
+        <name>QPMS__Categories__c</name>
+        <picklistValues>
+            <masterLabel>Category1</masterLabel>
+            <translation><!-- Category1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Category2</masterLabel>
+            <translation><!-- Category2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Category3</masterLabel>
+            <translation><!-- Category3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Category4</masterLabel>
+            <translation><!-- Category4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Category5</masterLabel>
+            <translation><!-- Category5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ChangeFieldApprovalStatus --></label>
+        <name>QPMS__ChangeFieldApprovalStatus__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recall</masterLabel>
+            <translation><!-- Recall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Change Management --></label>
+        <name>QPMS__Change_Management_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Change Management --></label>
+        <name>QPMS__Change_Management__c</name>
+        <relationshipLabel><!-- Document Profiles --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Closed Date --></label>
+        <name>QPMS__Closed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Collaboration Review --></label>
+        <name>QPMS__Collaboration_Review__c</name>
+    </fields>
+    <fields>
+        <help><!-- To Hold Primary Document Id --></help>
+        <label><!-- ContentDocumentId --></label>
+        <name>QPMS__ContentDocumentId__c</name>
+    </fields>
+    <fields>
+        <help><!-- To Hold Primary Content Version Id --></help>
+        <label><!-- ContentVersionId --></label>
+        <name>QPMS__ContentVersionId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Course Number --></label>
+        <name>QPMS__Course_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Course --></label>
+        <name>QPMS__Course__c</name>
+    </fields>
+    <fields>
+        <label><!-- CurrentApprovalSequenceNumber --></label>
+        <name>QPMS__CurrentApprovalSequenceNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Date --></label>
+        <name>QPMS__Current_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Rev --></label>
+        <name>QPMS__Current_Rev__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer --></label>
+        <name>QPMS__Customer_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer --></label>
+        <name>QPMS__Customer__c</name>
+        <relationshipLabel><!-- Document Profiles (Customer) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date of Purge --></label>
+        <name>QPMS__Date_of_Purge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Department --></label>
+        <name>QPMS__Department_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Department --></label>
+        <name>QPMS__Department__c</name>
+        <relationshipLabel><!-- Document Profiles --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>QPMS__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Doc Name Link --></label>
+        <name>QPMS__Doc_Name_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Name --></label>
+        <name>QPMS__Doc_Profile_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Name --></label>
+        <name>QPMS__Document_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Number --></label>
+        <name>QPMS__Document_Number_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Specific Changes --></label>
+        <name>QPMS__Document_Specific_Changes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Type --></label>
+        <name>QPMS__Document_Type_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>QPMS__Document_Type_Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Type --></label>
+        <name>QPMS__Document_Type__c</name>
+        <relationshipLabel><!-- Document Profiles --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Due Date --></label>
+        <name>QPMS__Due_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Edit Effective Date --></help>
+        <label><!-- Edit Effective Date --></label>
+        <name>QPMS__Edit_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Edit Expiration Date --></help>
+        <label><!-- Edit Expiration Date --></label>
+        <name>QPMS__Edit_Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Edit Pre Release Duration Date --></help>
+        <label><!-- Edit Pre Release Duration Date --></label>
+        <name>QPMS__Edit_Pre_Release_Duration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Date --></label>
+        <name>QPMS__Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effectiveness Review Date --></label>
+        <name>QPMS__Effectiveness_Review_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effectiveness Review In Advance(In days) --></label>
+        <name>QPMS__Effectiveness_Review_In_Advance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Security --></label>
+        <name>QPMS__Enable_Security__c</name>
+    </fields>
+    <fields>
+        <label><!-- Escalation Rule for Task --></label>
+        <name>QPMS__Escalation_Rule_for_Task__c</name>
+        <picklistValues>
+            <masterLabel>Default</masterLabel>
+            <translation><!-- Default --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NONE</masterLabel>
+            <translation><!-- NONE --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Expiration Date --></label>
+        <name>QPMS__Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expire After (In days) --></label>
+        <name>QPMS__Expire_After__c</name>
+    </fields>
+    <fields>
+        <help><!-- External Id --></help>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Followers --></label>
+        <name>QPMS__Followers__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Action Plan --></label>
+        <name>QPMS__General_Sub_Task__c</name>
+        <relationshipLabel><!-- Document Profiles --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Grace Days For Training --></label>
+        <name>QPMS__Grace_Days_for__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grace Period for Release (In days) --></label>
+        <name>QPMS__Grace_Period_for_Release__c</name>
+    </fields>
+    <fields>
+        <label><!-- Impacted Sites --></label>
+        <name>QPMS__Impacted_Sites__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Submitter --></label>
+        <name>QPMS__Initial_Submitter__c</name>
+        <relationshipLabel><!-- Document Profiles (Initial Submitter) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Initiating Site --></label>
+        <name>QPMS__Initiating_Site_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Stores the logged in user site public group --></help>
+        <label><!-- Initiating Site Security --></label>
+        <name>QPMS__Initiating_Site_Security__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initiating Site --></label>
+        <name>QPMS__Initiating_Site__c</name>
+        <relationshipLabel><!-- Document Profiles --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Holds the ids of associated job functions --></help>
+        <label><!-- Job Functions --></label>
+        <name>QPMS__Job_Functions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>QPMS__Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Expiration Date --></label>
+        <name>QPMS__New_Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Owner --></label>
+        <name>QPMS__New_Owner__c</name>
+        <relationshipLabel><!-- Document Profiles (New Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Previous Rev --></label>
+        <name>QPMS__New_Rev__c</name>
+    </fields>
+    <fields>
+        <label><!-- Note To Approver Owner/DueDate --></label>
+        <name>QPMS__Note_To_Approver_Owner_DueDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Note To Approver --></label>
+        <name>QPMS__Note_To_Approver__c</name>
+    </fields>
+    <fields>
+        <label><!-- Numbering Scheme --></label>
+        <name>QPMS__Numbering_Scheme__c</name>
+        <picklistValues>
+            <masterLabel>Scheme1</masterLabel>
+            <translation><!-- Scheme1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheme2</masterLabel>
+            <translation><!-- Scheme2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheme3</masterLabel>
+            <translation><!-- Scheme3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Owner --></label>
+        <name>QPMS__Owner_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent document --></label>
+        <name>QPMS__Parent_document__c</name>
+        <relationshipLabel><!-- Document Profiles --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Pre Release Duration Date --></label>
+        <name>QPMS__Pre_Release_Duration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary File Location --></label>
+        <name>QPMS__Primary_File_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary File Name --></label>
+        <name>QPMS__Primary_File_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process --></label>
+        <name>QPMS__Process_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process --></label>
+        <name>QPMS__Process__c</name>
+        <relationshipLabel><!-- Document Profiles --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>QPMS__Product_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>QPMS__Product__c</name>
+        <relationshipLabel><!-- Document Profiles --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Protected Draft --></label>
+        <name>QPMS__Protected_Draft__c</name>
+    </fields>
+    <fields>
+        <label><!-- Read and Sign Off --></label>
+        <name>QPMS__Read_and_Sign_Off__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason For Void --></label>
+        <name>QPMS__Reason_For_Void__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason --></label>
+        <name>QPMS__Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason for Change --></label>
+        <name>QPMS__Reason_for_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recent Revision Number --></label>
+        <name>QPMS__Recent_Revision_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Refresher Advance Notice(Days) --></label>
+        <name>QPMS__Refresher_Advance_Notice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Refresher Interval(Days) --></label>
+        <name>QPMS__Refresher_Interval__c</name>
+    </fields>
+    <fields>
+        <label><!-- Refresher Training Needed --></label>
+        <name>QPMS__Refresher_Training_Needed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>QPMS__Region__c</name>
+        <picklistValues>
+            <masterLabel>APAC</masterLabel>
+            <translation><!-- APAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>APJ</masterLabel>
+            <translation><!-- APJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA</masterLabel>
+            <translation><!-- EMEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Europe</masterLabel>
+            <translation><!-- Europe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GLOBAL</masterLabel>
+            <translation><!-- GLOBAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latin America</masterLabel>
+            <translation><!-- Latin America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NALA</masterLabel>
+            <translation><!-- NALA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North America</masterLabel>
+            <translation><!-- North America --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Relation --></label>
+        <name>QPMS__Relation__c</name>
+        <picklistValues>
+            <masterLabel>Master</masterLabel>
+            <translation><!-- Master --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Related</masterLabel>
+            <translation><!-- Related --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sub Document</masterLabel>
+            <translation><!-- Sub Document --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Release Date --></label>
+        <name>QPMS__Release_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Removed Training Groups --></label>
+        <name>QPMS__Removed_Training_Groups__c</name>
+    </fields>
+    <fields>
+        <label><!-- Removed Training Users --></label>
+        <name>QPMS__Removed_Training_Users__c</name>
+    </fields>
+    <fields>
+        <label><!-- Required Change --></label>
+        <name>QPMS__Required_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Retention Duration (In days) --></label>
+        <name>QPMS__Retention_Duration__c</name>
+    </fields>
+    <fields>
+        <help><!-- To Hold Secondary Document Id --></help>
+        <label><!-- SecondaryContentDocumentId --></label>
+        <name>QPMS__SecondaryContentDocumentId__c</name>
+    </fields>
+    <fields>
+        <help><!-- To Hold Secondary Content Version Id --></help>
+        <label><!-- SecondaryContentVersionId --></label>
+        <name>QPMS__SecondaryContentVersionId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Secondary File Name --></label>
+        <name>QPMS__Secondary_File_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Secondary Format --></label>
+        <name>QPMS__Secondary_Format__c</name>
+        <picklistValues>
+            <masterLabel>Auto Render</masterLabel>
+            <translation><!-- Auto Render --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual</masterLabel>
+            <translation><!-- Manual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sequence --></label>
+        <name>QPMS__Sequence__c</name>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation><!-- 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40</masterLabel>
+            <translation><!-- 40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50</masterLabel>
+            <translation><!-- 50 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60</masterLabel>
+            <translation><!-- 60 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>70</masterLabel>
+            <translation><!-- 70 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>80</masterLabel>
+            <translation><!-- 80 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>90</masterLabel>
+            <translation><!-- 90 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enabling/Disabling this field will not alter already selected Security(Users/Groups) and Training(Users/Job Function), Please do the changes manually --></help>
+        <label><!-- Show All Users/Groups --></label>
+        <name>QPMS__Show_All_Users_Groups__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signed Off Details --></label>
+        <name>QPMS__Signed_Off_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effectiveness Review In Advance --></label>
+        <name>QPMS__Start_Effectiveness_Review_In_Advance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>QPMS__Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Current</masterLabel>
+            <translation><!-- Current --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expired</masterLabel>
+            <translation><!-- Expired --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inworks</masterLabel>
+            <translation><!-- Inworks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Obsolete</masterLabel>
+            <translation><!-- Obsolete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preexpire</masterLabel>
+            <translation><!-- Preexpire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prerelease</masterLabel>
+            <translation><!-- Prerelease --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prereleased</masterLabel>
+            <translation><!-- Prereleased --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revised</masterLabel>
+            <translation><!-- Revised --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Void</masterLabel>
+            <translation><!-- Void --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Submit --></label>
+        <name>QPMS__Submit__c</name>
+        <picklistValues>
+            <masterLabel>Save</masterLabel>
+            <translation><!-- Save --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submit</masterLabel>
+            <translation><!-- Submit --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Submitted Date --></label>
+        <name>QPMS__Submitted_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supersede Previous Revision --></label>
+        <name>QPMS__Supersede_Previous_Revision__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier --></label>
+        <name>QPMS__Supplier__c</name>
+        <relationshipLabel><!-- Document Profiles (Supplier) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Take Assessment --></label>
+        <name>QPMS__Take_Assessment__c</name>
+    </fields>
+    <fields>
+        <label><!-- TempStop --></label>
+        <name>QPMS__TempStop__c</name>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>QPMS__Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training Group --></label>
+        <name>QPMS__Training_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training Hours --></label>
+        <name>QPMS__Training_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training Person Profiles --></label>
+        <name>QPMS__Training_Person_Profiles__c</name>
+    </fields>
+    <fields>
+        <help><!-- To Check training is required or not for the user on this document --></help>
+        <label><!-- Training Required --></label>
+        <name>QPMS__Training_Required__c</name>
+    </fields>
+    <fields>
+        <help><!-- Training Users Names --></help>
+        <label><!-- Training Users Names --></label>
+        <name>QPMS__Training_User_Names__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training Users --></label>
+        <name>QPMS__Training_Users__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>QPMS__Type__c</name>
+        <picklistValues>
+            <masterLabel>&amp;#60;script type&amp;#x3D;&amp;#34;text&amp;#x2F;javascript&amp;#34;&amp;#62;alert(&amp;#39;Test Value&amp;#39;);&amp;#60;&amp;#x2F;script&amp;#62;</masterLabel>
+            <translation><!-- &amp;#60;script type&amp;#x3D;&amp;#34;text&amp;#x2F;javascript&amp;#34;&amp;#62;alert(&amp;#39;Test Value&amp;#39;);&amp;#60;&amp;#x2F;script&amp;#62; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&lt;script type=&quot;text/javascript&quot;&gt;alert(&apos;Test Value&apos;);&lt;/script&gt;</masterLabel>
+            <translation><!-- &lt;script type=&quot;text/javascript&quot;&gt;alert(&apos;Test Value&apos;);&lt;/script&gt; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expire</masterLabel>
+            <translation><!-- Expire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revise</masterLabel>
+            <translation><!-- Revise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temp</masterLabel>
+            <translation><!-- Temp --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Combination of Document Number and Current Revision not allow duplicate documents. 
+It is updated with workflow not allow duplicate Document Number and Current Revision --></help>
+        <label><!-- Unique Document Number --></label>
+        <name>QPMS__Unique_Document_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- View Only Entity Group --></label>
+        <name>QPMS__View_Only_Entity_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- View Only Entity --></label>
+        <name>QPMS__View_Only_Entity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approvers --></label>
+        <name>QPMS__Watermark_Approvers__c</name>
+    </fields>
+    <fields>
+        <help><!-- Watermark Text Color Display. --></help>
+        <label><!-- Watermark Color --></label>
+        <name>QPMS__Watermark_Color__c</name>
+        <picklistValues>
+            <masterLabel>Blue</masterLabel>
+            <translation><!-- Blue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grey</masterLabel>
+            <translation><!-- Grey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red</masterLabel>
+            <translation><!-- Red --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Doc Owner --></label>
+        <name>QPMS__Watermark_Doc_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Doc Title --></label>
+        <name>QPMS__Watermark_Doc_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Number &amp; Revision --></label>
+        <name>QPMS__Watermark_Document_Number_Revision__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used to restrict the document status on cover page --></help>
+        <label><!-- Document Status --></label>
+        <name>QPMS__Watermark_Document_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Date --></label>
+        <name>QPMS__Watermark_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Cover Page --></label>
+        <name>QPMS__Watermark_Enable_Cover_Page__c</name>
+    </fields>
+    <fields>
+        <help><!-- When TRUE a watermark will be placed on a printed document. It will also make the secondary file required to ensure a file of format PDF is available for watermarking. --></help>
+        <label><!-- Enable Watermark --></label>
+        <name>QPMS__Watermark_Enabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expiration Date --></label>
+        <name>QPMS__Watermark_Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Footer --></label>
+        <name>QPMS__Watermark_Layout_Footer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Header --></label>
+        <name>QPMS__Watermark_Layout_Header__c</name>
+    </fields>
+    <fields>
+        <label><!-- Left (vertically) --></label>
+        <name>QPMS__Watermark_Layout_Left__c</name>
+    </fields>
+    <fields>
+        <label><!-- Right (vertically) --></label>
+        <name>QPMS__Watermark_Layout_Right__c</name>
+    </fields>
+    <fields>
+        <label><!-- Page Number --></label>
+        <name>QPMS__Watermark_Page_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Printed By --></label>
+        <name>QPMS__Watermark_Printed_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Printed Date --></label>
+        <name>QPMS__Watermark_Printed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference --></label>
+        <name>QPMS__Watermark_Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Display Diagonally --></label>
+        <name>QPMS__Watermark_Text_Also_Diagonal__c</name>
+    </fields>
+    <fields>
+        <help><!-- Text will be displayed on &quot;Printed&quot; documents that have been watermarked. Additional text will be appended containing dynamic information --></help>
+        <label><!-- Watermark Text --></label>
+        <name>QPMS__Watermark_Text__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of days a printed document can remain valid . If this value is set to 3 and the document is printed on 17-Jan-2019 the watermark will display &quot;Valid Until: 20-Jan-2019&quot; unless the document expires sooner in which case the watermark will display the --></help>
+        <label><!-- Valid Duration (Days) --></label>
+        <name>QPMS__Watermark_Valid_Duration__c</name>
+    </fields>
+    <fields>
+        <label><!-- isLocked --></label>
+        <name>QPMS__isLocked__c</name>
+    </fields>
+    <fields>
+        <label><!-- isRevise --></label>
+        <name>QPMS__isRevise__c</name>
+    </fields>
+    <fields>
+        <label><!-- isTempRevise --></label>
+        <name>QPMS__isTempRevise__c</name>
+    </fields>
+    <fields>
+        <label><!-- isTemp --></label>
+        <name>QPMS__isTemp__c</name>
+    </fields>
+    <layouts>
+        <layout>Document Profile Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- DocumentProfile --></label>
+        <name>QPMS__DocumentProfile</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Only one layout can be selected at one time --></errorMessage>
+        <name>QPMS__Allow_Only_One_Watermark_Layout</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Audit Junction --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Audit Junction --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- AuditInterviewdPersonnelHistory --></label>
+        <name>QPMS__AuditInterviewdPersonnelHistory</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- AuditJunctionFields --></label>
+        <name>QPMS__AuditJunctionFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- AuditJunctionFieldsForAuditProgram --></label>
+        <name>QPMS__AuditJunctionFieldsForAuditProgram</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- AuditJunctionFieldsforAudit --></label>
+        <name>QPMS__AuditJunctionFieldsforAudit</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Audit Interviewed Personnel --></label>
+        <name>QPMS__Audit_Interviewed_Personnel</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Audit Junction Fieldset --></label>
+        <name>QPMS__Audit_Junction_Fieldset</name>
+    </fieldSets>
+    <fields>
+        <help><!-- To Determine the access on  the record --></help>
+        <label><!-- Access Level --></label>
+        <name>QPMS__Access_Level__c</name>
+        <picklistValues>
+            <masterLabel>Edit</masterLabel>
+            <translation><!-- Edit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Read</masterLabel>
+            <translation><!-- Read --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AuditParent --></label>
+        <name>QPMS__AuditParent__c</name>
+        <relationshipLabel><!-- Audit_Junctions (AuditParent) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- AuditProgramName --></label>
+        <name>QPMS__AuditProgramName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Audit Child Name --></label>
+        <name>QPMS__Audit_Child_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Audit Child --></label>
+        <name>QPMS__Audit_Child__c</name>
+        <relationshipLabel><!-- Audit_Junctions (Audit Child) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Audit Name --></label>
+        <name>QPMS__Audit_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Audit Program Child --></label>
+        <name>QPMS__Audit_Program_Child__c</name>
+        <relationshipLabel><!-- Audit_Junctions (Audit Program Child) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Audit Program --></label>
+        <name>QPMS__Audit_Program__c</name>
+        <relationshipLabel><!-- Audit_Junctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Audit Question --></label>
+        <name>QPMS__Audit_Question__c</name>
+        <relationshipLabel><!-- Audit_Junctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Audit Type --></label>
+        <name>QPMS__Audit_Type__c</name>
+        <relationshipLabel><!-- Audit_Junctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Audit --></label>
+        <name>QPMS__Audit__c</name>
+        <relationshipLabel><!-- Audit_Junctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- To hold look up for business entity --></help>
+        <label><!-- Business Entity --></label>
+        <name>QPMS__Business_Entity__c</name>
+        <relationshipLabel><!-- Audit_Junctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CAPA --></label>
+        <name>QPMS__CAPA__c</name>
+        <relationshipLabel><!-- Audit_Junctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Checklist --></label>
+        <name>QPMS__Checklist__c</name>
+        <relationshipLabel><!-- Audit_Junction --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact Information --></label>
+        <name>QPMS__Contact_Information__c</name>
+    </fields>
+    <fields>
+        <label><!-- General Task --></label>
+        <name>QPMS__General_Task__c</name>
+        <relationshipLabel><!-- Audit_Junctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- to display group ids --></help>
+        <label><!-- Group --></label>
+        <name>QPMS__Group_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- To hold look up for Manufacturing Site --></help>
+        <label><!-- Manufacturing Site --></label>
+        <name>QPMS__Manufacturing_Site__c</name>
+        <relationshipLabel><!-- Audit_Junctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>QPMS__Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- NonConformanceName --></label>
+        <name>QPMS__NonConformanceName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non-Conformance --></label>
+        <name>QPMS__Non_Conformance__c</name>
+        <relationshipLabel><!-- Audit_Junctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Observation Name --></label>
+        <name>QPMS__Observation_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Observation --></label>
+        <name>QPMS__Observation__c</name>
+        <relationshipLabel><!-- Audit_Junctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Process --></label>
+        <name>QPMS__Process__c</name>
+        <relationshipLabel><!-- Audit_Junctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>QPMS__Product__c</name>
+        <relationshipLabel><!-- Audit_Junctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Question --></label>
+        <name>QPMS__Question__c</name>
+        <relationshipLabel><!-- Audit_Junction --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Section --></label>
+        <name>QPMS__Section__c</name>
+        <relationshipLabel><!-- Audit_Junction --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>QPMS__Title__c</name>
+    </fields>
+    <fields>
+        <help><!-- To Determine  The Security Entity is User or Group --></help>
+        <label><!-- Type --></label>
+        <name>QPMS__Type__c</name>
+        <picklistValues>
+            <masterLabel>Additional Auditors</masterLabel>
+            <translation><!-- Additional Auditors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Department</masterLabel>
+            <translation><!-- Department --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Group</masterLabel>
+            <translation><!-- Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal</masterLabel>
+            <translation><!-- Internal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Locations</masterLabel>
+            <translation><!-- Locations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sites</masterLabel>
+            <translation><!-- Sites --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sub Department</masterLabel>
+            <translation><!-- Sub Department --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User</masterLabel>
+            <translation><!-- User --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>QPMS__User__c</name>
+        <relationshipLabel><!-- Audit_Junctions --></relationshipLabel>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <nameFieldLabel><!-- Audit Junction Name --></nameFieldLabel>
+    <recordTypes>
+        <description><!-- This is  a Audit Audittype  record type. --></description>
+        <label><!-- AuditAuditType --></label>
+        <name>QPMS__AuditAuditType</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This is audit checklist  related record type. --></description>
+        <label><!-- AuditChecklist --></label>
+        <name>QPMS__AuditChecklist</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This is a audit process record type. --></description>
+        <label><!-- AuditProcess --></label>
+        <name>QPMS__AuditProcess</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This is a Audit product recordtype --></description>
+        <label><!-- AuditProduct --></label>
+        <name>QPMS__AuditProduct</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This is a Audit Question record type --></description>
+        <label><!-- AuditQuestion --></label>
+        <name>QPMS__AuditQuestion</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This is Audit Question Observation record type --></description>
+        <label><!-- AuditQuestionObservation --></label>
+        <name>QPMS__AuditQuestionObservation</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This is  a record type of AuditType_Checklist --></description>
+        <label><!-- AuditTypeChecklist --></label>
+        <name>QPMS__AuditTypeChecklist</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This is a ChecklistSection record type. --></description>
+        <label><!-- ChecklistSection --></label>
+        <name>QPMS__ChecklistSection</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Interviewed Personnel Record Type --></description>
+        <label><!-- Interviewed Personnel --></label>
+        <name>QPMS__Interviewed_Personnel</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This is Question Section record type. --></description>
+        <label><!-- QuestionSection --></label>
+        <name>QPMS__QuestionSection</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- SectionObservation --></label>
+        <name>QPMS__SectionObservation</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This is a Task checklist record type --></description>
+        <label><!-- TaskChecklist --></label>
+        <name>QPMS__TaskChecklist</name>
+    </recordTypes>
+</CustomObjectTranslation>

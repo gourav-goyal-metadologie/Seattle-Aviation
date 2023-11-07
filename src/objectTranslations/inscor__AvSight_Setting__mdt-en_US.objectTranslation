@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account Selected Metrics --></label>
+        <name>inscor__Account_Selected_Metrics__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allow PN Creation During Uploads? --></label>
+        <name>inscor__Allow_PN_Creation_During_Uploads__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allow PR customization? --></label>
+        <name>inscor__Allow_PR_customization__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allow Pay of PO Rejects --></label>
+        <name>inscor__Allow_Pay_of_PO_Rejects__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allow Pay of RO Rejects --></label>
+        <name>inscor__Allow_Pay_of_RO_Rejects__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allow Picking/QC of Release Holds? --></label>
+        <name>inscor__Allow_Picking_QC_of_Release_Holds__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allow RO Line to go backward --></label>
+        <name>inscor__Allow_RO_Line_to_go_backward__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allow RO Status to go backward --></label>
+        <name>inscor__Allow_RO_Status_to_go_backward__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allow line processing in Ops Queues --></label>
+        <name>inscor__Allow_line_processing_in_Ops_Queues__c</name>
+    </fields>
+    <fields>
+        <label><!-- Apply Same Month Voucher Variance? --></label>
+        <name>inscor__Apply_Same_Month_Voucher_Variance__c</name>
+    </fields>
+    <fields>
+        <label><!-- CQ Hyperlink Text --></label>
+        <name>inscor__CQ_Hyperlink_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Community URL --></label>
+        <name>inscor__Community_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Currency from Account to Docs --></label>
+        <name>inscor__Default_Currency_from_Account_to_Docs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disable Clocking into Multiple Tasks? --></label>
+        <name>inscor__Disable_Clocking_into_Multiple_Tasks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disable Clocking into Multiple WOs? --></label>
+        <name>inscor__Disable_Clocking_into_Multiple_WOs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Display Part Master Warnings --></label>
+        <name>inscor__Display_Part_Master_Warnings__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Barcoding in Operations Queues --></label>
+        <name>inscor__Enable_Barcoding_in_Operations_Queues__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Location Restrictions? --></label>
+        <name>inscor__Enable_Location_Restrictions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Multi Company Sharing --></label>
+        <name>inscor__Enable_Multi_Company_Sharing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable PO Issues? --></label>
+        <name>inscor__Enable_PO_Issues__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable RO Issues? --></label>
+        <name>inscor__Enable_RO_Issues__c</name>
+    </fields>
+    <fields>
+        <label><!-- Include Secondary in PR Summary? --></label>
+        <name>inscor__Include_Secondary_in_PR_Summary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lease Hyperlink Text --></label>
+        <name>inscor__Lease_Hyperlink_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line Tracking Header Fields --></label>
+        <name>inscor__Line_Tracking_Header_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- Max Margin Target --></label>
+        <name>inscor__Max_Margin_Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- Min Margin Target --></label>
+        <name>inscor__Min_Margin_Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- PO Hyperlink Text --></label>
+        <name>inscor__PO_Hyperlink_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- PS Flag Setting --></label>
+        <name>inscor__PS_Flag_Setting__c</name>
+    </fields>
+    <fields>
+        <label><!-- PS History Tab Column1 Setting --></label>
+        <name>inscor__PS_History_Tab_Column1_Setting__c</name>
+    </fields>
+    <fields>
+        <label><!-- PS History Tab Column2 Setting --></label>
+        <name>inscor__PS_History_Tab_Column2_Setting__c</name>
+    </fields>
+    <fields>
+        <label><!-- PS Inventory Tab Setting --></label>
+        <name>inscor__PS_Inventory_Tab_Setting__c</name>
+    </fields>
+    <fields>
+        <label><!-- PS Pricing Tab Setting --></label>
+        <name>inscor__PS_Pricing_Tab_Setting__c</name>
+    </fields>
+    <fields>
+        <label><!-- PS Research Tab Setting --></label>
+        <name>inscor__PS_Research_Tab_Setting__c</name>
+    </fields>
+    <fields>
+        <help><!-- Fill in with symbols allowed from this list of valid symbols: -_,.*&amp;^%$#@!:[]{}&quot;&apos;+()`~=|?&lt;&gt;;) --></help>
+        <label><!-- Part Master Symbols Allowed --></label>
+        <name>inscor__Part_Master_Symbols_Allowed__c</name>
+    </fields>
+    <fields>
+        <help><!-- Changes lower case to upper case and only allows ASCII characters. --></help>
+        <label><!-- Part Master Upper Case and Validation? --></label>
+        <name>inscor__Part_Master_Upper_Case_and_Validation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part Research Selected Metrics --></label>
+        <name>inscor__Part_Research_Selected_Metrics__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prevent Receiving RO with Missing Costs? --></label>
+        <name>inscor__Prevent_Receiving_RO_with_Missing_Costs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purchase Selected Metrics --></label>
+        <name>inscor__Purchase_Selected_Metrics__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q360 Inventory Tab Setting --></label>
+        <name>inscor__Q360_Inventory_Tab_Setting__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q360 Pricing Tab Setting --></label>
+        <name>inscor__Q360_Pricing_Tab_Setting__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Selected Metrics --></label>
+        <name>inscor__Quote_Selected_Metrics__c</name>
+    </fields>
+    <fields>
+        <label><!-- RFQ Selected Metrics --></label>
+        <name>inscor__RFQ_Selected_Metrics__c</name>
+    </fields>
+    <fields>
+        <label><!-- Repair Selected Metrics --></label>
+        <name>inscor__Repair_Selected_Metrics__c</name>
+    </fields>
+    <fields>
+        <label><!-- Require Account Approvals? --></label>
+        <name>inscor__Require_Account_Approvals__c</name>
+    </fields>
+    <fields>
+        <label><!-- Require Active? flag in Part Master --></label>
+        <name>inscor__Require_Active_flag_in_Part_Master__c</name>
+    </fields>
+    <fields>
+        <label><!-- Require PIN with Electronic Signature --></label>
+        <name>inscor__Require_PIN_with_Electronic_Signature__c</name>
+    </fields>
+    <fields>
+        <label><!-- Require Part Master Approvals --></label>
+        <name>inscor__Require_Part_Master_Approvals__c</name>
+    </fields>
+    <fields>
+        <label><!-- Restrict All Document Deletion --></label>
+        <name>inscor__Restrict_All_Document_Deletion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Restrict Electronic Signature Deletion --></label>
+        <name>inscor__Restrict_Electronic_Signature_Deletion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Selected Metrics --></label>
+        <name>inscor__Sales_Selected_Metrics__c</name>
+    </fields>
+    <fields>
+        <label><!-- Save Copy of Bulk Transfers as CSV files --></label>
+        <name>inscor__Save_Copy_of_Bulk_Transfers_as_CSV_files__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Cage Code on Quote Doc? --></label>
+        <name>inscor__Show_Cage_Code_on_Quote_Doc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Credit Warnings on CQ? --></label>
+        <name>inscor__Show_Credit_Warnings_on_CQ__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Credit Warnings on SO? --></label>
+        <name>inscor__Show_Credit_Warnings_on_SO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Docking in Receiving? --></label>
+        <name>inscor__Show_Docking_in_Receiving__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show HazMat warning in Operations --></label>
+        <name>inscor__Show_HazMat_warning_in_Operations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Inventory Grouping in Receiving? --></label>
+        <name>inscor__Show_Inventory_Grouping_in_Receiving__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Margin Calculator? --></label>
+        <name>inscor__Show_Margin_Calculator__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show NSN on Quote Doc? --></label>
+        <name>inscor__Show_NSN_on_Quote_Doc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show PN Comments on PR? --></label>
+        <name>inscor__Show_PN_Comments_on_PR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show RO breakout costs? --></label>
+        <name>inscor__Show_RO_breakout_costs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show WO Builder in Mobile Technician? --></label>
+        <name>inscor__Show_WO_Builder_in_Mobile_Technician__c</name>
+    </fields>
+    <fields>
+        <help><!-- WO Task - Require Different Inspector from Complete? --></help>
+        <label><!-- WOTask-Req diff Inspector from Complete --></label>
+        <name>inscor__WOTask_Req_diff_Inspector_from_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- WO Block for allocating Consignment Part --></label>
+        <name>inscor__WO_Block_for_allocating_Consignment_Part__c</name>
+    </fields>
+    <fields>
+        <label><!-- WO Block for allocating LOT Parts --></label>
+        <name>inscor__WO_Block_for_allocating_LOT_Parts__c</name>
+    </fields>
+    <fields>
+        <label><!-- WO validation for Inventory Expiration --></label>
+        <name>inscor__WO_validation_for_Inventory_Expiration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Warn on Margin Target? --></label>
+        <name>inscor__Warn_on_Margin_Target__c</name>
+    </fields>
+    <layouts>
+        <layout>AvSight Setting Layout</layout>
+        <sections>
+            <label><!-- Operations Settings --></label>
+            <section>Operations Settings</section>
+        </sections>
+        <sections>
+            <label><!-- Part Research Settings --></label>
+            <section>Part Research Settings</section>
+        </sections>
+        <sections>
+            <label><!-- Purchasing Settings --></label>
+            <section>Purchasing Settings</section>
+        </sections>
+        <sections>
+            <label><!-- Repairs Settings --></label>
+            <section>Repairs Settings</section>
+        </sections>
+        <sections>
+            <label><!-- Sales Settings --></label>
+            <section>Sales Settings</section>
+        </sections>
+        <sections>
+            <label><!-- Systemwide Settings --></label>
+            <section>Systemwide Settings</section>
+        </sections>
+        <sections>
+            <label><!-- Work Order Settings --></label>
+            <section>Work Order Settings</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

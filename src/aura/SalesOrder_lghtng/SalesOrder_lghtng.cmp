@@ -1,0 +1,26 @@
+<aura:component implements="flexipage:availableForAllPageTypes" controller="PartOrderController" access="global" >
+    <aura:attribute name="recordId" type="Id"/>
+    <aura:attribute name="tableData" type="List" />
+    <aura:attribute name="columns" type="Object[]" />
+    <aura:handler name="init" value="{! this }" action="{! c.doInit }" />
+    
+    <!-- Change from sales order to most parts ordered under SS-180-->
+    <lightning:card title="Most Parts Ordered">   
+        <aura:if isTrue="{!not(empty(v.tableData))}">
+            <lightning:datatable
+                                    aura:id="table"
+                                    columns="{! v.columns }"
+                                    data="{! v.tableData }"
+                                    hideCheckboxColumn="true"
+                                    keyField="Id" /> 
+            
+            <!-- Added under SS-203 by Vinod Kumar Sharma -->
+            <aura:set attribute="else">
+                <div style="text-align: center; margin-top: 4%;">
+                    <h1>No Records Found</h1>
+                </div>
+            </aura:set>
+        </aura:if>
+        
+    </lightning:card>    
+</aura:component>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- QueryFields --></label>
+        <name>QPMS__QueryFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- WebServiceResponse --></label>
+        <name>QPMS__WebServiceResponse</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Comment --></label>
+        <name>QPMS__Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Complaint --></label>
+        <name>QPMS__Complaint__c</name>
+        <relationshipLabel><!-- Complaint Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Created By --></label>
+        <name>QPMS__Created_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>QPMS__Type__c</name>
+        <picklistValues>
+            <masterLabel>Case Comment</masterLabel>
+            <translation><!-- Case Comment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complaint Comment</masterLabel>
+            <translation><!-- Complaint Comment --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

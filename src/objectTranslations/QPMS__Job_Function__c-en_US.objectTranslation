@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- ActiveDeactiveFields --></label>
+        <name>QPMS__ActiveDeactiveFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- DisplayJobFunction --></label>
+        <name>QPMS__DisplayJobFunction</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- JobFunctionDetail --></label>
+        <name>QPMS__JobFunctionDetail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- JobFunctionInit --></label>
+        <name>QPMS__JobFunctionInit</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- JobFunctionInitFields --></label>
+        <name>QPMS__JobFunctionInitFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- JobFunctionListView --></label>
+        <name>QPMS__JobFunctionListView</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- JobFunction Contextual Help --></label>
+        <name>QPMS__JobFunction_Contextual_Help</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- JobFunction_Header --></label>
+        <name>QPMS__JobFunction_Header</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- JobFunction View --></label>
+        <name>QPMS__JobFunction_View</name>
+    </fieldSets>
+    <fields>
+        <help><!-- This field holds allowdays for current approval of this record --></help>
+        <label><!-- Allowed Days --></label>
+        <name>QPMS__Allowed_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- ApprovalProcess --></label>
+        <name>QPMS__ApprovalProcess__c</name>
+        <picklistValues>
+            <masterLabel>JobApproval</masterLabel>
+            <translation><!-- JobApproval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JobFunction</masterLabel>
+            <translation><!-- JobFunction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JobFunctionStatusChange</masterLabel>
+            <translation><!-- JobFunctionStatusChange --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approval Group --></label>
+        <name>QPMS__Approval_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Process Complete --></label>
+        <name>QPMS__Approval_Process_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Required --></label>
+        <name>QPMS__Approval_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>QPMS__Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recall</masterLabel>
+            <translation><!-- Recall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approver 1 --></label>
+        <name>QPMS__Approver_1__c</name>
+        <relationshipLabel><!-- Job Functions (Approver 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 2 --></label>
+        <name>QPMS__Approver_2__c</name>
+        <relationshipLabel><!-- Job Functions (Approver 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 3 --></label>
+        <name>QPMS__Approver_3__c</name>
+        <relationshipLabel><!-- Job Functions (Approver 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 4 --></label>
+        <name>QPMS__Approver_4__c</name>
+        <relationshipLabel><!-- Job Functions (Approver 4) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 5 --></label>
+        <name>QPMS__Approver_5__c</name>
+        <relationshipLabel><!-- Job Functions (Approver 5) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 6 --></label>
+        <name>QPMS__Approver_6__c</name>
+        <relationshipLabel><!-- Job Functions (Approver 6) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 7 --></label>
+        <name>QPMS__Approver_7__c</name>
+        <relationshipLabel><!-- Job Functions (Approver 7) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 8 --></label>
+        <name>QPMS__Approver_8__c</name>
+        <relationshipLabel><!-- Job Functions (Approver 8) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 9 --></label>
+        <name>QPMS__Approver_9__c</name>
+        <relationshipLabel><!-- Job Functions (Approver 9) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver --></label>
+        <name>QPMS__Approver__c</name>
+        <relationshipLabel><!-- Job Functions (Approver) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Batch Status --></label>
+        <name>QPMS__Batch_Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inprocess</masterLabel>
+            <translation><!-- Inprocess --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Clone --></label>
+        <name>QPMS__Clone__c</name>
+    </fields>
+    <fields>
+        <label><!-- ClonedByJobFunction --></label>
+        <name>QPMS__ClonedByJobFunction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Courses --></label>
+        <name>QPMS__Courses__c</name>
+    </fields>
+    <fields>
+        <label><!-- Coursesession --></label>
+        <name>QPMS__Coursesession__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created By --></label>
+        <name>QPMS__Created_By__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field holds the sequence of the current approver who is supposed to approve the record --></help>
+        <label><!-- CurrentApprovalSequenceNumber --></label>
+        <name>QPMS__CurrentApprovalSequenceNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Detail --></label>
+        <name>QPMS__Detail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Documents --></label>
+        <name>QPMS__Documents__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Followers --></label>
+        <name>QPMS__Followers__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Allow Job Function for Non Licensed users --></help>
+        <label><!-- For Non-Licensed User --></label>
+        <name>QPMS__For_Non_Licensed_User__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Submitter --></label>
+        <name>QPMS__Initial_Submitter__c</name>
+        <relationshipLabel><!-- Job Functions (Initial Submitter) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Initiating Site --></label>
+        <name>QPMS__Initiating_Site_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Initiating Site Security --></help>
+        <label><!-- Initiating Site Security --></label>
+        <name>QPMS__Initiating_Site_Security__c</name>
+    </fields>
+    <fields>
+        <help><!-- Initiating Site --></help>
+        <label><!-- Initiating Site --></label>
+        <name>QPMS__Initiating_Site__c</name>
+        <relationshipLabel><!-- Job Functions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- JobFunction Approval Required --></label>
+        <name>QPMS__JobFunction_Approval_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Status --></label>
+        <name>QPMS__Job_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This field stores notes for approvers when this record submitted for approval --></help>
+        <label><!-- Note To Approver --></label>
+        <name>QPMS__Note_To_Approver__c</name>
+    </fields>
+    <fields>
+        <label><!-- PersonProfile --></label>
+        <name>QPMS__PersonProfile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason --></label>
+        <name>QPMS__Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- RecordCloneId --></label>
+        <name>QPMS__RecordCloneId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Holds the sequence values for approval of this record --></help>
+        <label><!-- Sequence --></label>
+        <name>QPMS__Sequence__c</name>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation><!-- 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40</masterLabel>
+            <translation><!-- 40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50</masterLabel>
+            <translation><!-- 50 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60</masterLabel>
+            <translation><!-- 60 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>70</masterLabel>
+            <translation><!-- 70 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>80</masterLabel>
+            <translation><!-- 80 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>90</masterLabel>
+            <translation><!-- 90 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Show All Users --></label>
+        <name>QPMS__Show_All_Users__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signed Off Details --></label>
+        <name>QPMS__Signed_Off_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>QPMS__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>InReview</masterLabel>
+            <translation><!-- InReview --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User cannot modify</masterLabel>
+            <translation><!-- User cannot modify --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>QPMS__Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>QPMS__Type__c</name>
+        <picklistValues>
+            <masterLabel>Course</masterLabel>
+            <translation><!-- Course --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document</masterLabel>
+            <translation><!-- Document --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- isDisabled --></label>
+        <name>QPMS__isDisabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- isLocked --></label>
+        <name>QPMS__isLocked__c</name>
+    </fields>
+    <layouts>
+        <layout>Job Function Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

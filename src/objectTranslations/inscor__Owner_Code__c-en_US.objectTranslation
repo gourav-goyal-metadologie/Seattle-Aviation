@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Accrued Cost --></label>
+        <name>inscor__Accrued_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Acquisition Cost --></label>
+        <name>inscor__Acquisition_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Acquisition Date --></label>
+        <name>inscor__Acquisition_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Adjustment Account --></label>
+        <name>inscor__Adjustment_Account__c</name>
+        <relationshipLabel><!-- Owner Codes (Adjustment Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Allow Negative Remaining Cost? --></label>
+        <name>inscor__Allow_Negative_Remaining_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Available for Sale? --></label>
+        <name>inscor__Available_for_Sale__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Category --></label>
+        <name>inscor__Business_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Chargeout Rate --></label>
+        <name>inscor__Chargeout_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company --></label>
+        <name>inscor__Company__c</name>
+        <relationshipLabel><!-- Owner Codes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Consignment Rate --></label>
+        <name>inscor__Consignment_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consignment? --></label>
+        <name>inscor__Consignment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consignor Payable Account --></label>
+        <name>inscor__Consignor_Payable_Account__c</name>
+        <relationshipLabel><!-- Owner Codes (Consignor Payable Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contract --></label>
+        <name>inscor__Contract__c</name>
+        <relationshipLabel><!-- Owner Codes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Consignor --></label>
+        <name>inscor__Default_Consignor__c</name>
+        <relationshipLabel><!-- Owner Codes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- MSN/ESN --></label>
+        <name>inscor__Engine_Serial_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exchange Core Repair Account --></label>
+        <name>inscor__Exchange_Core_Repair_Account__c</name>
+        <relationshipLabel><!-- Owner Codes (Exchange Core Repair Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Exchange Part Writedown % --></label>
+        <name>inscor__Exchange_Part_Writedown__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expense Account-Acq --></label>
+        <name>inscor__Expense_Account_Acq__c</name>
+        <relationshipLabel><!-- Owner Codes (Expense Account-Acq) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Expense Account-Rep --></label>
+        <name>inscor__Expense_Account_Rep__c</name>
+        <relationshipLabel><!-- Owner Codes (Expense Account-Rep) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hide from Services --></label>
+        <name>inscor__Hide_from_Services1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hide from Services - RETIRED --></label>
+        <name>inscor__Hide_from_Services__c</name>
+        <picklistValues>
+            <masterLabel>ILS</masterLabel>
+            <translation><!-- ILS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ILS Visible? - RETIRED --></label>
+        <name>inscor__ILS_Visible__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incident Related? --></label>
+        <name>inscor__Incident_Related__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Comments --></label>
+        <name>inscor__Internal_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inventory Account-Acq --></label>
+        <name>inscor__Inventory_Account_Acq__c</name>
+        <relationshipLabel><!-- Owner Codes (Inventory Account-Acq) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Inventory Account-Rep --></label>
+        <name>inscor__Inventory_Account_Rep__c</name>
+        <relationshipLabel><!-- Owner Codes (Inventory Account-Rep) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Use the Inv-ID for the Main Inventory Line for the LOT. Inv Line needs to be Protected, Qty=1, and PN should be from LOT PO line 1 if created already. Acq Cost of Inv will be kept in sync with the Remaining Cost on this Owner Code. --></help>
+        <label><!-- Lot Inv Id --></label>
+        <name>inscor__Lot_Inv_Id__c</name>
+        <relationshipLabel><!-- Owner Codes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Lot Code? --></label>
+        <name>inscor__Lot_Purchase__c</name>
+    </fields>
+    <fields>
+        <help><!-- When checked, repair costs will be added to the Accrued Cost instead of being added to the individual Inventory Lines. --></help>
+        <label><!-- Move Repair Cost to Accrual? --></label>
+        <name>inscor__Move_Repair_Cost_to_Accrual__c</name>
+    </fields>
+    <fields>
+        <help><!-- When checked, repair costs will be added to the LOT Remaining Cost instead of being added to the individual Inventory Lines. --></help>
+        <label><!-- Move Repair Cost to LOT? --></label>
+        <name>inscor__Move_Repair_Cost_to_LOT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Code Description --></label>
+        <name>inscor__Owner_Code_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Group --></label>
+        <name>inscor__Owner_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent LOT --></label>
+        <name>inscor__Parent_LOT__c</name>
+        <relationshipLabel><!-- Owner Codes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Line --></label>
+        <name>inscor__Product_Line__c</name>
+        <picklistValues>
+            <masterLabel>New Gen</masterLabel>
+            <translation><!-- New Gen --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Remaining Cost --></label>
+        <name>inscor__Remaining_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Revenue Account --></label>
+        <name>inscor__Revenue_Account__c</name>
+        <relationshipLabel><!-- Owner Codes (Revenue Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Total Sublot Cost --></label>
+        <name>inscor__Total_Sublot_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- GL Variable 1 --></label>
+        <name>inscoras__GL_Variable_1__c</name>
+        <relationshipLabel><!-- Owner Codes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- GL Variable 2 --></label>
+        <name>inscoras__GL_Variable_2__c</name>
+        <relationshipLabel><!-- Owner Codes (GL Variable 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- GL Variable 3 --></label>
+        <name>inscoras__GL_Variable_3__c</name>
+        <relationshipLabel><!-- Owner Codes (GL Variable 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- GL Variable 4 --></label>
+        <name>inscoras__GL_Variable_4__c</name>
+        <relationshipLabel><!-- Owner Codes (GL Variable 4) --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Owner Code Layout AS</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Company and Owner Information --></label>
+            <section>Company and Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- Consignment Information --></label>
+            <section>Consignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- GL Accounts --></label>
+            <section>GL Accounts</section>
+        </sections>
+        <sections>
+            <label><!-- Lot Information --></label>
+            <section>Lot Information</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Code Information --></label>
+            <section>Owner Code Information</section>
+        </sections>
+        <sections>
+            <label><!-- Sales Information --></label>
+            <section>Sales Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Owner Code Layout v2</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Company and Owner Information --></label>
+            <section>Company and Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- Consignment Information --></label>
+            <section>Consignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- GL Accounts --></label>
+            <section>GL Accounts</section>
+        </sections>
+        <sections>
+            <label><!-- Lot Information --></label>
+            <section>Lot Information</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Code Information --></label>
+            <section>Owner Code Information</section>
+        </sections>
+        <sections>
+            <label><!-- Sales Information --></label>
+            <section>Sales Information</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Acquisition Cost must be zero in Sublots. Acquisition Cost is stored at the Parent. --></errorMessage>
+        <name>inscor__Acquisition_Cost_In_Parent_LOT_Case</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Acquisition cost, Acquisition Date, Chargeout Rate, and Remaining Cost are not required for Consignment Owner Code. --></errorMessage>
+        <name>inscor__Consignment_Not_Requirements</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Consignment rate is required for Consignment Owner Codes --></errorMessage>
+        <name>inscor__Consignment_Requirements</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Consignment rate is not required for LOT Owner Codes --></errorMessage>
+        <name>inscor__Lot_Not_Requirements</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Acquisition Cost, Acquisition Date, Chargeout Rate, and Remaining Cost must all be filled in and cannot be left blank for LOT Owner Codes. --></errorMessage>
+        <name>inscor__Lot_Purchase_Requirements</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Owner code cannot be both Consignment and a LOT --></errorMessage>
+        <name>inscor__Not_Consignment_and_Lot</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only sublots are allowed to go negative in the remaining costs. --></errorMessage>
+        <name>inscor__Parent_Needed_for_Negative_Rem_Cost</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Move Repair Cost to Accrual? can only be true if Consignment is true. --></errorMessage>
+        <name>inscor__Repair_Cost_to_Accural_If_Consign_True</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Move Repair Cost to LOT? can only be true if Lot Code is true. --></errorMessage>
+        <name>inscor__Repair_Cost_to_Remaining_If_Lot_True</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Default Consignor is required when &quot;Consignment?&quot; is checked. --></errorMessage>
+        <name>inscor__Require_Default_Consignor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- For Cons Owner Codes, Inventory Accounts should be different. --></errorMessage>
+        <name>inscoras__Cons_GL_Account_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- For LOT Owner Codes, Inventory GL Accounts should be different. --></errorMessage>
+        <name>inscoras__LOT_GL_Account_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- For Spec Owner Codes, both Inventory and Expense GL Accounts should be the same. --></errorMessage>
+        <name>inscoras__SPEC_Owner_Code_validation</name>
+    </validationRules>
+</CustomObjectTranslation>

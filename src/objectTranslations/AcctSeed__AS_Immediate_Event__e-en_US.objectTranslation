@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Payload --></label>
+        <name>AcctSeed__Payload__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Id --></label>
+        <name>AcctSeed__Request_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>AcctSeed__Type__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- AuditInformation --></label>
+        <name>QPMS__AuditInformation</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Change Due Date --></label>
+        <name>QPMS__Change_Due_Date</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Change Owner --></label>
+        <name>QPMS__Change_Owner</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ListViewForQuickSearch --></label>
+        <name>QPMS__ListViewForQuickSearch</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ListViewInSpPlmTab --></label>
+        <name>QPMS__ListViewInSpPlmTab</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- OpenSupplierListForSideNvigation --></label>
+        <name>QPMS__OpenSupplierListForSideNvigation</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SCInitFields --></label>
+        <name>QPMS__SCInitFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SCRFieldsForDetail --></label>
+        <name>QPMS__SCRFieldsForDetail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SCRSecurityContextual --></label>
+        <name>QPMS__SCRSecurityContextual</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SC_Header_Fields --></label>
+        <name>QPMS__SC_Header_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SC Header Fields For Mobile --></label>
+        <name>QPMS__SC_Header_Fields_For_Mobile</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SC Header Fields For Print --></label>
+        <name>QPMS__SC_Header_Fields_For_Print</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SupplierAuditInformationForDetails --></label>
+        <name>QPMS__SupplierAuditInformationForDetails</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SupplierChangeAuditInfoContextualHelp --></label>
+        <name>QPMS__SupplierChangeAuditInfoContextualHelp</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SupplierChangeInitContextual --></label>
+        <name>QPMS__SupplierChangeInitContextual</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SupplierClosureContextualHelp --></label>
+        <name>QPMS__SupplierClosureContextualHelp</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Supplier Approval --></label>
+        <name>QPMS__Supplier_Approval</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Supplier Approval AuditTrial --></label>
+        <name>QPMS__Supplier_Approval_AuditTrial</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Supplier History --></label>
+        <name>QPMS__Supplier_History</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Supplier Security --></label>
+        <name>QPMS__Supplier_Security</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- changeDueDateFields --></label>
+        <name>QPMS__changeDueDateFields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Account Type --></label>
+        <name>QPMS__Account_Type__c</name>
+        <picklistValues>
+            <masterLabel>Customer</masterLabel>
+            <translation><!-- Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manufacturer</masterLabel>
+            <translation><!-- Manufacturer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manufacturer\Supplier</masterLabel>
+            <translation><!-- Manufacturer\Supplier --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Age --></label>
+        <name>QPMS__Age__c</name>
+    </fields>
+    <fields>
+        <help><!-- Approval Decision Comments --></help>
+        <label><!-- Approval Decision Comments --></label>
+        <name>QPMS__Approval_Decision_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Group --></label>
+        <name>QPMS__Approval_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Process --></label>
+        <name>QPMS__Approval_Process__c</name>
+        <picklistValues>
+            <masterLabel>Change Due Date</masterLabel>
+            <translation><!-- Change Due Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Owner</masterLabel>
+            <translation><!-- Change Owner --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approval Required --></label>
+        <name>QPMS__Approval_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>QPMS__Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recall</masterLabel>
+            <translation><!-- Recall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approver 1 --></label>
+        <name>QPMS__Approver_1__c</name>
+        <relationshipLabel><!-- Supplier Changes (Approver 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 2 --></label>
+        <name>QPMS__Approver_2__c</name>
+        <relationshipLabel><!-- Supplier Changes (Approver 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 3 --></label>
+        <name>QPMS__Approver_3__c</name>
+        <relationshipLabel><!-- Supplier Changes (Approver 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 4 --></label>
+        <name>QPMS__Approver_4__c</name>
+        <relationshipLabel><!-- Supplier Changes (Approver 4) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 5 --></label>
+        <name>QPMS__Approver_5__c</name>
+        <relationshipLabel><!-- Supplier Changes (Approver 5) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 6 --></label>
+        <name>QPMS__Approver_6__c</name>
+        <relationshipLabel><!-- Supplier Changes (Approver 6) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 7 --></label>
+        <name>QPMS__Approver_7__c</name>
+        <relationshipLabel><!-- Supplier Changes (Approver 7) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 8 --></label>
+        <name>QPMS__Approver_8__c</name>
+        <relationshipLabel><!-- Supplier Changes (Approver 8) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 9 --></label>
+        <name>QPMS__Approver_9__c</name>
+        <relationshipLabel><!-- Supplier Changes (Approver 9) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver --></label>
+        <name>QPMS__Approver__c</name>
+        <relationshipLabel><!-- Supplier Changes (Approver) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Audit Coordinator --></label>
+        <name>QPMS__AuditCoordinator__c</name>
+    </fields>
+    <fields>
+        <label><!-- Audit Coordinator --></label>
+        <name>QPMS__Audit_Coordinator__c</name>
+        <relationshipLabel><!-- Supplier Changes (Audit Coordinator) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Audit Required? --></label>
+        <name>QPMS__Audit_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Authorized Entity Group --></label>
+        <name>QPMS__Authorized_Entity_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Authorized Entity --></label>
+        <name>QPMS__Authorized_Entity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Unit --></label>
+        <name>QPMS__Business_Unit__c</name>
+        <picklistValues>
+            <masterLabel>BU 1</masterLabel>
+            <translation><!-- BU 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BU 2</masterLabel>
+            <translation><!-- BU 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BU 3</masterLabel>
+            <translation><!-- BU 3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>QPMS__Category__c</name>
+        <picklistValues>
+            <masterLabel>Category 1</masterLabel>
+            <translation><!-- Category 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Category 2</masterLabel>
+            <translation><!-- Category 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Category 3</masterLabel>
+            <translation><!-- Category 3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ChangeFieldApprovalStatus --></label>
+        <name>QPMS__ChangeFieldApprovalStatus__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recall</masterLabel>
+            <translation><!-- Recall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Change Field Approval Comments --></label>
+        <name>QPMS__Change_Field_Approval_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Closed Date --></label>
+        <name>QPMS__Closed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Closure Approval --></label>
+        <name>QPMS__Closure_Approval__c</name>
+    </fields>
+    <fields>
+        <label><!-- Review Comments --></label>
+        <name>QPMS__Closure_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commodity Code --></label>
+        <name>QPMS__Commodity_Code__c</name>
+        <relationshipLabel><!-- Supplier Changes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Created By --></label>
+        <name>QPMS__Created_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- CurrentApprovalSequenceNumber --></label>
+        <name>QPMS__CurrentApprovalSequenceNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Due Date --></label>
+        <name>QPMS__Due_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- To Store on/off value of security --></help>
+        <label><!-- Enable Security --></label>
+        <name>QPMS__Enable_Security__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- To hold followers for this record --></help>
+        <label><!-- Followers --></label>
+        <name>QPMS__Followers__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Initial Submitter --></label>
+        <name>QPMS__Initial_Submitter__c</name>
+        <relationshipLabel><!-- Supplier Changes (Initial Submitter) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Initiating Site Security --></label>
+        <name>QPMS__Initiating_Site_Security__c</name>
+    </fields>
+    <fields>
+        <help><!-- Initiation Site To Which user belongs to --></help>
+        <label><!-- Initiating Site --></label>
+        <name>QPMS__Initiating_Site__c</name>
+        <relationshipLabel><!-- Supplier Changes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>QPMS__Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Due Date --></label>
+        <name>QPMS__New_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Owner --></label>
+        <name>QPMS__New_Owner__c</name>
+        <relationshipLabel><!-- Supplier Changes (New Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Note To Approver DueDate --></label>
+        <name>QPMS__Note_To_Approver_DueDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Note To Approver Owner --></label>
+        <name>QPMS__Note_To_Approver_Owner_DueDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Note To Approver --></label>
+        <name>QPMS__Note_To_Approver__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner --></label>
+        <name>QPMS__Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pagelock --></label>
+        <name>QPMS__Pagelock__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Certificates --></label>
+        <name>QPMS__Parent_Certificates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Proposed Audit Date --></label>
+        <name>QPMS__Proposed_Audit_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purpose --></label>
+        <name>QPMS__Purpose__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question Process --></label>
+        <name>QPMS__Question_Process__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Started</masterLabel>
+            <translation><!-- Started --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>saved</masterLabel>
+            <translation><!-- saved --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ReOpned Date --></label>
+        <name>QPMS__ReOpned_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason --></label>
+        <name>QPMS__Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Risk Level --></label>
+        <name>QPMS__Risk_Level__c</name>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Risk 1</masterLabel>
+            <translation><!-- Risk 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Risk 2</masterLabel>
+            <translation><!-- Risk 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Risk 3</masterLabel>
+            <translation><!-- Risk 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Risk 4</masterLabel>
+            <translation><!-- Risk 4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sequence --></label>
+        <name>QPMS__Sequence__c</name>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation><!-- 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40</masterLabel>
+            <translation><!-- 40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50</masterLabel>
+            <translation><!-- 50 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60</masterLabel>
+            <translation><!-- 60 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>70</masterLabel>
+            <translation><!-- 70 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>80</masterLabel>
+            <translation><!-- 80 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>90</masterLabel>
+            <translation><!-- 90 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Signed Off Details --></label>
+        <name>QPMS__Signed_Off_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Site --></label>
+        <name>QPMS__Site__c</name>
+    </fields>
+    <fields>
+        <label><!-- Skip Questionnaire --></label>
+        <name>QPMS__Skip_Questionnaire__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>QPMS__Status__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review</masterLabel>
+            <translation><!-- In Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>InProgress</masterLabel>
+            <translation><!-- InProgress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Void</masterLabel>
+            <translation><!-- Void --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SupplierProfileAccountId --></label>
+        <name>QPMS__SupplierProfileAccountId__c</name>
+    </fields>
+    <fields>
+        <label><!-- SupplierProfileContacttId --></label>
+        <name>QPMS__SupplierProfileContacttId__c</name>
+    </fields>
+    <fields>
+        <label><!-- SupplierProfileName --></label>
+        <name>QPMS__SupplierProfileName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier Profile Number --></label>
+        <name>QPMS__SupplierProfileNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier Account --></label>
+        <name>QPMS__Supplier_Account__c</name>
+        <relationshipLabel><!-- Supplier Changes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Supplier Change Name --></label>
+        <name>QPMS__Supplier_Change_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier Change Number --></label>
+        <name>QPMS__Supplier_Change_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier Questionnaire --></label>
+        <name>QPMS__Supplier_Checklist__c</name>
+        <relationshipLabel><!-- Supplier Changes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Supplier Part Number --></label>
+        <name>QPMS__Supplier_Part_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier Profile Account Name --></label>
+        <name>QPMS__Supplier_Profile_Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier Profile Name --></label>
+        <name>QPMS__Supplier_Profile_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier Profile --></label>
+        <name>QPMS__Supplier_Profile__c</name>
+        <relationshipLabel><!-- Supplier Changes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>QPMS__Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>QPMS__Type__c</name>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Update</masterLabel>
+            <translation><!-- Update --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- View Only Entity Group --></label>
+        <name>QPMS__View_Only_Entity_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- View Only Entity --></label>
+        <name>QPMS__View_Only_Entity__c</name>
+    </fields>
+    <fields>
+        <label><!-- isEditable --></label>
+        <name>QPMS__isEditable__c</name>
+    </fields>
+    <fields>
+        <label><!-- isLocked --></label>
+        <name>QPMS__isLocked__c</name>
+    </fields>
+    <fields>
+        <label><!-- isQuestionniareCompleted --></label>
+        <name>QPMS__isQuestionniareCompleted__c</name>
+    </fields>
+    <fields>
+        <label><!-- isSubmit --></label>
+        <name>QPMS__isSubmit__c</name>
+    </fields>
+    <layouts>
+        <layout>Supplier Change Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

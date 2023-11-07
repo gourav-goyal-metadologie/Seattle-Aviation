@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- CAPAJunction --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- CAPAJunction --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Audit Program --></label>
+        <name>QPMS__Audit_Program__c</name>
+        <relationshipLabel><!-- CAPAJunctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Audit --></label>
+        <name>QPMS__Audit__c</name>
+        <relationshipLabel><!-- CAPAJunctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CAPAChild --></label>
+        <name>QPMS__CAPAChild__c</name>
+        <relationshipLabel><!-- CAPAJunctions (CAPAChild) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CAPAChild --></label>
+        <name>QPMS__CAPAChild_name__c</name>
+    </fields>
+    <fields>
+        <label><!-- CAPA Name --></label>
+        <name>QPMS__CAPAParent__c</name>
+        <relationshipLabel><!-- CAPAJunctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CapaParentName --></label>
+        <name>QPMS__CapaParentName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Observation --></label>
+        <name>QPMS__Observation__c</name>
+        <relationshipLabel><!-- CAPAJunctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sites Impacted --></label>
+        <name>QPMS__Sites_Impacted__c</name>
+        <relationshipLabel><!-- CAPAJunctions --></relationshipLabel>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <nameFieldLabel><!-- CAPAJunction Name --></nameFieldLabel>
+</CustomObjectTranslation>

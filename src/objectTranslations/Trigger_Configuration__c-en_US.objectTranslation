@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Trigger Configuration</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Trigger Configuration</value>
+    </caseValues>
+    <fields>
+        <help><!-- Account Trigger Disable --></help>
+        <label><!-- Account Trigger Disable --></label>
+        <name>Account_Trigger_Disable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Trigger Disable --></label>
+        <name>Billing_Trigger_Disable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Trigger Disabled --></label>
+        <name>Billing_Trigger_Disabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- CashReceipt Trigger Disable --></label>
+        <name>CashReceipt_Trigger_Disable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Trigger Disable --></label>
+        <name>Contact_Trigger_Disable__c</name>
+    </fields>
+    <fields>
+        <help><!-- Disable Customer Quote Line Trigger --></help>
+        <label><!-- Customer Quote Line Trigger Disable --></label>
+        <name>Customer_Quote_Line_Trigger_Disable__c</name>
+    </fields>
+    <fields>
+        <help><!-- Disable Customer Quote Trigger --></help>
+        <label><!-- Customer Quote Trigger Disable --></label>
+        <name>Customer_Quote_Trigger_Disable__c</name>
+    </fields>
+    <fields>
+        <help><!-- Disable Event Trigger --></help>
+        <label><!-- Event Trigger Disable --></label>
+        <name>Event_Trigger_Disable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Trigger Disable --></label>
+        <name>Invoice_Trigger_Disable__c</name>
+    </fields>
+    <fields>
+        <help><!-- Disable Lead Trigger --></help>
+        <label><!-- Lead Trigger Disable --></label>
+        <name>Lead_Trigger_Disable__c</name>
+    </fields>
+    <fields>
+        <help><!-- Product Trigger Disable --></help>
+        <label><!-- Product Trigger Disable --></label>
+        <name>Product_Trigger_Disable__c</name>
+    </fields>
+    <fields>
+        <help><!-- Disable Release Trigger Disable --></help>
+        <label><!-- Release Trigger Disable --></label>
+        <name>Release_Trigger_Disable__c</name>
+    </fields>
+    <fields>
+        <help><!-- Disable Sales Order Line Trigger --></help>
+        <label><!-- Sales Order Line Trigger Disable --></label>
+        <name>Sales_Order_Line_Trigger_Disable__c</name>
+    </fields>
+    <fields>
+        <help><!-- Disable Sales Order Trigger --></help>
+        <label><!-- Sales Order Trigger Disable --></label>
+        <name>Sales_Order_Trigger_Disable__c</name>
+    </fields>
+    <fields>
+        <help><!-- Disable Task Trigger --></help>
+        <label><!-- Task Trigger Disable --></label>
+        <name>Task_Trigger_Disable__c</name>
+    </fields>
+    <fields>
+        <label><!-- TransactionActivity Trigger Disable --></label>
+        <name>TransactionActivity_Trigger_Disable__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

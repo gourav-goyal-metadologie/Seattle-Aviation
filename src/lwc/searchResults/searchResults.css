@@ -1,0 +1,101 @@
+.layout-contiainer {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.aside-section {
+    flex: 1 0 20%;
+    max-width: 15rem;
+}
+
+.main-section {
+    flex: 1 0 80%;
+}
+
+.filters-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.filters-header .clear-all-button {
+    align-self: flex-end;
+}
+
+/* 
+    small form factor 
+    SLDS media query reference: https://www.lightningdesignsystem.com/design-tokens/#category-media-query
+*/
+@media only screen and (max-width: 47.9375em) {
+    .layout-contiainer {
+        flex-direction: column;
+    }
+
+    .aside-section {
+        max-width: 100%;
+    }
+}
+.slds-is-open {
+    background-color: rgb(255, 255, 255) !important;
+    border-radius: 0px;
+    color: var(--lwc-colorTextDefault);
+    border-color: rgb(212, 212, 212) !important;
+    border: unset !important;
+}
+.slds-box{
+    border: unset !important;
+}
+.slds-button{
+    border: unset !important;
+    border-radius: unset !important;
+}
+button.slds-button.slds-button_brand.slds-button_stretch {
+    border-radius: unset !important;
+}
+.layout-contiainer{
+    margin-bottom: 70px !important;
+    margin-top: 30px;
+}
+.products-perpage{
+    width: 200px;
+    float: right;
+    /* margin-left: 1px; */
+    margin-top: -61px;
+}
+.products-perpage label.slds-form-element__label{
+    font-size:14px !important;
+}
+.header-div{
+    margin-top: 20px;
+}
+@media(max-width:500px) {
+    .search-template-area .header-div {
+        display: inline-block;
+        width: 100%;
+    }
+    .products-perpage{
+        float: unset;
+        margin-top: 0px;
+    }
+}
+.productViewContainer{width:210px;float:right;margin-top:-3.7%;margin-right:10%;}
+@media(max-width:500px) {
+    .productViewContainer{margin-top:5.3%;margin-right:15%;}
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .productViewContainer{margin:6% 0 0 0;}
+}
+@media only screen and (min-width:600px) and (max-width:1024px) {
+    .productViewContainer{margin:-6.7% 19% 0 0;}
+}
+@media only screen and (min-width:800px) and (max-width:1280px) {
+    .productViewContainer{margin-top:-5.4%;margin-right:15%;}
+}
+@media only screen and (min-width:1240px) {
+    .productViewContainer{margin-top:-4%;margin-right:12%;}
+}

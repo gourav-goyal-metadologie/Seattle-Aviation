@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Europe Age of patient at the time of the incident --></label>
+        <name>QPMS__Europe_Age_of_patient_at_the_time_of_the</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe Audit Trail --></label>
+        <name>QPMS__Europe_Audit_Trail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe Initial reporter --></label>
+        <name>QPMS__Europe_Initial_reporter</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe Medical device problem information --></label>
+        <name>QPMS__Europe_Medical_device_problem_informatio</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe Nature of incident --></label>
+        <name>QPMS__Europe_Nature_of_incident</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe QueryFields --></label>
+        <name>QPMS__Europe_QueryFields</name>
+    </fieldSets>
+    <fields>
+        <help><!-- Address complement --></help>
+        <label><!-- Address complement --></label>
+        <name>QPMS__Address_complement_Initial_reporter__c</name>
+    </fields>
+    <fields>
+        <help><!-- If you think the incident is unique and a suitable IMDRF term is missing, briefly explain: --></help>
+        <label><!-- If you think the incident is unique --></label>
+        <name>QPMS__Annex_D_incident_is_unique__c</name>
+    </fields>
+    <fields>
+        <help><!-- Body weight (kg) --></help>
+        <label><!-- Body weight (kg) --></label>
+        <name>QPMS__Body_weight_kg__c</name>
+    </fields>
+    <fields>
+        <help><!-- City name --></help>
+        <label><!-- City name --></label>
+        <name>QPMS__City_name_Initial_reporter__c</name>
+    </fields>
+    <fields>
+        <label><!-- ComplaintId --></label>
+        <name>QPMS__ComplaintId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Contact’s first name --></help>
+        <label><!-- Contact’s first name --></label>
+        <name>QPMS__Contact_s_first_name_Initial_reporter__c</name>
+    </fields>
+    <fields>
+        <help><!-- Contact’s last name --></help>
+        <label><!-- Contact’s last name --></label>
+        <name>QPMS__Contact_s_last_name_initial_reporter__c</name>
+    </fields>
+    <fields>
+        <help><!-- Country --></help>
+        <label><!-- Country --></label>
+        <name>QPMS__Country_initial_reporter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current location of the device? --></label>
+        <name>QPMS__Current_location_of_the_device__c</name>
+        <picklistValues>
+            <masterLabel>Discarded</masterLabel>
+            <translation><!-- Discarded --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distributor</masterLabel>
+            <translation><!-- Distributor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Healthcare facility/carer</masterLabel>
+            <translation><!-- Healthcare facility/carer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In transit to manufacturer</masterLabel>
+            <translation><!-- In transit to manufacturer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manufacturer</masterLabel>
+            <translation><!-- Manufacturer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Patient/user</masterLabel>
+            <translation><!-- Patient/user --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remains implanted</masterLabel>
+            <translation><!-- Remains implanted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Other --></help>
+        <label><!-- Other --></label>
+        <name>QPMS__Current_location_other__c</name>
+    </fields>
+    <fields>
+        <help><!-- Email_initial_reporter --></help>
+        <label><!-- Email --></label>
+        <name>QPMS__Email_initial_reporter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Follow Up Number --></label>
+        <name>QPMS__Follow_Up_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Gender --></help>
+        <label><!-- Gender --></label>
+        <name>QPMS__Gender__c</name>
+        <picklistValues>
+            <masterLabel>Female</masterLabel>
+            <translation><!-- Female --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Male</masterLabel>
+            <translation><!-- Male --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not applicable</masterLabel>
+            <translation><!-- Not applicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Healthcare facility report number (if applicable) --></help>
+        <label><!-- Healthcare facility report number --></label>
+        <name>QPMS__Healthcare_facility_report_number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Incident Description --></help>
+        <label><!-- Incident Description --></label>
+        <name>QPMS__Incident_Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- List any of the patient&apos;s prior health --></help>
+        <label><!-- List any of the patient&apos;s prior health --></label>
+        <name>QPMS__List_any_of_the_patient_s_prior_health__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name of healthcare facility where incident occurred --></help>
+        <label><!-- Name of healthcare facility --></label>
+        <name>QPMS__Name_of_healthcare_facility__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of patients involved --></help>
+        <label><!-- Number of patients involved --></label>
+        <name>QPMS__Number_of_patients_involved__c</name>
+    </fields>
+    <fields>
+        <help><!-- Operator of device --></help>
+        <label><!-- Operator of device --></label>
+        <name>QPMS__Operator_of_device__c</name>
+        <picklistValues>
+            <masterLabel>Healthcare professional</masterLabel>
+            <translation><!-- Healthcare professional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Patient/lay user</masterLabel>
+            <translation><!-- Patient/lay user --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Operator_of_device_other --></help>
+        <label><!-- Other --></label>
+        <name>QPMS__Operator_of_device_other__c</name>
+    </fields>
+    <fields>
+        <help><!-- PO Box --></help>
+        <label><!-- PO Box --></label>
+        <name>QPMS__PO_Box_Initial_reporter__c</name>
+    </fields>
+    <fields>
+        <help><!-- Phone --></help>
+        <label><!-- Phone --></label>
+        <name>QPMS__Phone_initial_reporter__c</name>
+    </fields>
+    <fields>
+        <help><!-- Postal code --></help>
+        <label><!-- Postal code --></label>
+        <name>QPMS__Postal_code_Initial_reporter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regulatory Body --></label>
+        <name>QPMS__Regulatory_Body__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regulatory Report --></label>
+        <name>QPMS__Regulatory_Report__c</name>
+        <relationshipLabel><!-- Incident informations --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Remedial actions taken by healthcare --></help>
+        <label><!-- Remedial actions taken by healthcare --></label>
+        <name>QPMS__Remedial_actions_taken_by_healthcare__c</name>
+    </fields>
+    <fields>
+        <help><!-- Role of initial reporte --></help>
+        <label><!-- Role of initial reporter --></label>
+        <name>QPMS__Role_of_initial_reporter__c</name>
+        <picklistValues>
+            <masterLabel>Healthcare professional</masterLabel>
+            <translation><!-- Healthcare professional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lay user</masterLabel>
+            <translation><!-- Lay user --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other, please specify</masterLabel>
+            <translation><!-- Other, please specify --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Patient</masterLabel>
+            <translation><!-- Patient --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Other --></help>
+        <label><!-- Other --></label>
+        <name>QPMS__Role_of_initial_reporter_other__c</name>
+    </fields>
+    <fields>
+        <help><!-- Street --></help>
+        <label><!-- Street --></label>
+        <name>QPMS__Street_initial_reporter__c</name>
+    </fields>
+    <fields>
+        <help><!-- Street number --></help>
+        <label><!-- Street number --></label>
+        <name>QPMS__Street_number_Initial_reporter__c</name>
+    </fields>
+    <fields>
+        <help><!-- Usage of device (as intended) --></help>
+        <label><!-- Usage of device (as intended) --></label>
+        <name>QPMS__Usage_of_device_as_intended__c</name>
+        <picklistValues>
+            <masterLabel>Initial use</masterLabel>
+            <translation><!-- Initial use --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Problem noted prior use</masterLabel>
+            <translation><!-- Problem noted prior use --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Re-serviced/refurbished/fully refurbished</masterLabel>
+            <translation><!-- Re-serviced/refurbished/fully refurbished --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reuse of a reusable medical device</masterLabel>
+            <translation><!-- Reuse of a reusable medical device --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reuse of a single use medical device</masterLabel>
+            <translation><!-- Reuse of a single use medical device --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Other --></help>
+        <label><!-- Other --></label>
+        <name>QPMS__Usage_of_device_other__c</name>
+    </fields>
+    <fields>
+        <help><!-- days --></help>
+        <label><!-- days --></label>
+        <name>QPMS__days__c</name>
+    </fields>
+    <fields>
+        <help><!-- months --></help>
+        <label><!-- months --></label>
+        <name>QPMS__months__c</name>
+    </fields>
+    <fields>
+        <help><!-- years --></help>
+        <label><!-- years --></label>
+        <name>QPMS__years__c</name>
+    </fields>
+</CustomObjectTranslation>

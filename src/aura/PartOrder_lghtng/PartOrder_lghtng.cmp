@@ -1,0 +1,32 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" controller="PartOrderController"  access="global" >
+    <aura:attribute name="recordId" type="Id" />
+    <aura:handler name="init" value="{! this }" action="{! c.init }"/>
+    
+    <lightning:card class="slds-is-relative select_wrapper">
+        <div class="slds-p-horizontal_small slds-grid slds-wrap">
+            <div class="slds-size_1-of-2">
+                <div class="slds-box slds-box_x-small slds-text-align_center slds-m-around_x-small">
+                <c:CustomerQuotes_lghtng recordId="{!v.recordId}"></c:CustomerQuotes_lghtng>
+                </div>
+            </div>
+            <div class="slds-size_1-of-2">
+                <div class="slds-box slds-box_x-small slds-text-align_center slds-m-around_x-small">
+                <c:SalesOrder_lghtng recordId="{!v.recordId}"></c:SalesOrder_lghtng>
+                </div>
+            </div>
+            
+            <div class="slds-size_1-of-2">
+                <div class="slds-box slds-box_x-small slds-text-align_center slds-m-around_x-small">
+                <c:CustomerQuoteLineItem_lghtng recordId="{!v.recordId}"></c:CustomerQuoteLineItem_lghtng>
+                </div>
+            </div>
+            <div class="slds-size_1-of-2">
+                <div class="slds-box slds-box_x-small slds-text-align_center slds-m-around_x-small">
+                <c:SalesOrderLineItem_lghtng recordId="{!v.recordId}"></c:SalesOrderLineItem_lghtng>
+                </div>
+            </div>
+
+        </div>    
+    </lightning:card>   
+    
+</aura:component>

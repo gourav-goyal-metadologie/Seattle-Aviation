@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Business_EntityAuditTrail --></label>
+        <name>QPMS__Business_EntityAuditTrail</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Active --></label>
+        <name>QPMS__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code --></label>
+        <name>QPMS__Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Entity Head --></label>
+        <name>QPMS__Department_Head__c</name>
+        <relationshipLabel><!-- Business Entities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Head Name --></label>
+        <name>QPMS__Head_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Business Entity --></label>
+        <name>QPMS__Parent_Business_Entity__c</name>
+        <relationshipLabel><!-- Business Entities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>QPMS__Type__c</name>
+        <picklistValues>
+            <masterLabel>Department</masterLabel>
+            <translation><!-- Department --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sub Department</masterLabel>
+            <translation><!-- Sub Department --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- UDF --></label>
+        <name>QPMS__UDF__c</name>
+    </fields>
+    <layouts>
+        <layout>Business Entity Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Department Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Department --></label>
+        <name>QPMS__Department</name>
+    </recordTypes>
+</CustomObjectTranslation>

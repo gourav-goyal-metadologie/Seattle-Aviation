@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- CAGE Code --></label>
+        <name>inscor__CAGE_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>inscor__City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Name --></label>
+        <name>inscor__Company_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>inscor__Country__c</name>
+        <relationshipLabel><!-- Manufacturer Codes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Country of Origin --></label>
+        <name>inscor__Country_of_Origin__c</name>
+        <relationshipLabel><!-- Manufacturer Codes (Country of Origin) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Postal Code --></label>
+        <name>inscor__Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Retrieve Government Awards? --></label>
+        <name>inscor__Retrieve_Government_Awards__c</name>
+    </fields>
+    <fields>
+        <label><!-- Retrieve Government Solicitations? --></label>
+        <name>inscor__Retrieve_Government_Solicitations__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>inscor__State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status Code --></label>
+        <name>inscor__Status_Code__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E</masterLabel>
+            <translation><!-- E --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F</masterLabel>
+            <translation><!-- F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H</masterLabel>
+            <translation><!-- H --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>J</masterLabel>
+            <translation><!-- J --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K</masterLabel>
+            <translation><!-- K --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M</masterLabel>
+            <translation><!-- M --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N</masterLabel>
+            <translation><!-- N --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P</masterLabel>
+            <translation><!-- P --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R</masterLabel>
+            <translation><!-- R --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T</masterLabel>
+            <translation><!-- T --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U</masterLabel>
+            <translation><!-- U --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>W</masterLabel>
+            <translation><!-- W --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y</masterLabel>
+            <translation><!-- Y --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Street 1 --></label>
+        <name>inscor__Street_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Street 2 --></label>
+        <name>inscor__Street_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type Code --></label>
+        <name>inscor__Type_Code__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E</masterLabel>
+            <translation><!-- E --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F</masterLabel>
+            <translation><!-- F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G</masterLabel>
+            <translation><!-- G --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H</masterLabel>
+            <translation><!-- H --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I</masterLabel>
+            <translation><!-- I --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M</masterLabel>
+            <translation><!-- M --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Manufacturer Code Layout</layout>
+        <sections>
+            <label><!-- Company Information --></label>
+            <section>Company Information</section>
+        </sections>
+        <sections>
+            <label><!-- Manufacturer Code Information --></label>
+            <section>Manufacturer Code Information</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- You may have one Gateway Configuration record active for ACH and one for Card.  You may also use the same Gateway Configuration record for both AHC and Card. --></help>
+        <label><!-- Active --></label>
+        <name>BillNPay__Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- Configuration Description --></help>
+        <label><!-- Description --></label>
+        <name>BillNPay__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- When checked, a mock gateway is used.  Payments will NOT be processed.  Use for testing and troubleshooting --></help>
+        <label><!-- Test Mode --></label>
+        <name>BillNPay__Enable_Mock_Gateway__c</name>
+    </fields>
+    <fields>
+        <help><!-- On create or edit, we will validate your entered credentials to make sure you can connect to your gateway.  If you are having trouble, double check the credentials first, then call support --></help>
+        <label><!-- Gateway Validation Message --></label>
+        <name>BillNPay__Gateway_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gateway --></label>
+        <name>BillNPay__Gateway__c</name>
+        <picklistValues>
+            <masterLabel>Authorize.net</masterLabel>
+            <translation><!-- Authorize.net --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Avatas</masterLabel>
+            <translation><!-- Avatas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chase Orbital</masterLabel>
+            <translation><!-- Chase Orbital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DirectConnect</masterLabel>
+            <translation><!-- DirectConnect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elavon</masterLabel>
+            <translation><!-- Elavon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Evosnap</masterLabel>
+            <translation><!-- Evosnap --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First Data Card Connect</masterLabel>
+            <translation><!-- First Data Card Connect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nmi</masterLabel>
+            <translation><!-- Nmi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PayaConnect - ACH</masterLabel>
+            <translation><!-- PayaConnect - ACH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PayaConnect - Card</masterLabel>
+            <translation><!-- PayaConnect - Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repay</masterLabel>
+            <translation><!-- Repay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sage</masterLabel>
+            <translation><!-- Sage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sage - ACH</masterLabel>
+            <translation><!-- Sage - ACH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vantiv</masterLabel>
+            <translation><!-- Vantiv --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Lookup to Merchant record.  Merchant must be Active --></help>
+        <label><!-- Merchant --></label>
+        <name>BillNPay__Merchant__c</name>
+        <relationshipLabel><!-- Gateway --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- What types of payment methods are allowed --></help>
+        <label><!-- Payment Method --></label>
+        <name>BillNPay__Payment_Method_Configuration__c</name>
+        <picklistValues>
+            <masterLabel>ach</masterLabel>
+            <translation><!-- ach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>both</masterLabel>
+            <translation><!-- both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>credit-card</masterLabel>
+            <translation><!-- credit-card --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Gateway  Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- when making a Gateway Active, the Test Mode must be unchecked --></errorMessage>
+        <name>BillNPay__Activation_must_not_be_in_Test_Mode</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Before deactivating a Gateway, it must be set to Test Mode first.  That will clear out the Gateway credentials in preparation for a new Gateway to be activated.   Use caution in Production, this will stop payment processing. --></errorMessage>
+        <name>BillNPay__Deactivation_requires_mock_gateway_first</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Gateway_Wizard --></label>
+        <name>BillNPay__Gateway_Wizard</name>
+    </webLinks>
+</CustomObjectTranslation>

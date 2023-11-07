@@ -1,0 +1,371 @@
+<template>
+    <div class="body" style="margin-top: 18%;"> 
+        <div class="container">
+            <div class="slds-text-align_center slds-m-top_x-large">
+                <!-- <div class="slds-text-heading_large">Seattle Aviation Solutions LLC</div> -->
+                <!-- <img src={logoImg} alt="" width="50%"> -->
+                <div class="slds-text-heading_medium slds-m-top_medium">Exchange / Core Return Form</div>
+            </div>
+
+            <template if:true={noRecord}>
+                <div style="margin-left: 3%;" class="slds-m-top_medium slds-text-align_center">
+                    <p class="">No Record Found !!!!</p>
+                    <p class="">Please check the URL</p>
+                </div>
+            </template>
+            
+            <!-- Form Submit Response Section Start -->
+            <template if:true={formSuccess}>
+                <div style="margin-left: 3%;" class="slds-m-top_medium slds-text-align_center">
+                    <p class="">
+                        Your form has been submitted please print it.
+                    </p>
+                </div>
+                <div class="slds-align_absolute-center slds-p-around_medium">
+                    <lightning-button label="Save As PDF" class="slds-p-around_medium" variant="brand" onclick={handleSaveAsPdf}></lightning-button>
+                    <lightning-button label="Print" class="slds-p-around_medium" variant="brand" onclick={handlePrint} disabled={printButtonDisabled}></lightning-button>
+                </div>
+            </template>
+            <!-- Form Submit Response Section End -->
+
+            <!-- Form Already Submmited : Start -->
+            <template if:true={formAlreadySubmmited}>
+                <div style="" class="slds-m-top_medium slds-text-align_center">
+                    <p class="">
+                        This response is already submitted.
+                    </p>
+                </div>
+                <div class="slds-align_absolute-center slds-p-around_medium">
+                    <lightning-button label="Save As PDF" class="slds-p-around_medium" variant="brand" onclick={handleSaveAsPdf}></lightning-button>
+                    <lightning-button label="Print" class="slds-p-around_medium" variant="brand" onclick={handlePrint} disabled={printButtonDisabled}></lightning-button>
+                </div>
+            </template>
+            <!-- Form Already Submmited : End -->
+
+            <!-- Invalid link : Start -->
+            <template if:true={invalidLink}>
+                <div style="margin-left: 3%; color: red;" class="slds-m-top_medium slds-text-align_center">
+                    <p class="">
+                        Link has been disabled.
+                    </p>
+                </div>
+            </template>
+            <!-- Invalid Link : End -->
+            
+            <!-- Show Form : Start -->
+            <template if:true={showForm}>
+                <div data-name="informationMessage" class="slds-m-top_large slds-text-align_center">
+                    <i class="fa fa-info-circle slds-m-top_small" aria-hidden="true"></i>
+                    <span class="slds-m-left_small">
+                        {informationMessage}
+                    </span>
+                </div>
+                <div class="slds-card card-wrap slds-m-top_large">
+                    <div class="slds-grid">
+                        <div class="slds-col">
+                            <div class="">
+                                <lightning-input class="slds-p-around_small" type="text" name="CompanyName" title="Company Name" label="Company Name" value={exchangeRecord.CompanyName} disabled></lightning-input>
+                            </div>
+                        </div>
+                        <div class="slds-col">
+                            <div class="">
+                                <lightning-input class="slds-p-around_small" type="text" name="CustomerPO" title="Customer PO #" label="Customer PO #" value={exchangeRecord.CustomerPO} disabled></lightning-input>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slds-grid">
+                        <div class="slds-col">
+                            <div class="slds-p-around_small">
+                                <label class="slds-form-element__label">PN</label>
+                                <lightning-helptext content={pnHelpText} class="customIcon"> </lightning-helptext>
+                                <lightning-input class="" type="text" name="PN" title="PN" label="PN" value={exchangeRecord.PN} onchange={inputChangeHandler} variant="label-hidden" disabled></lightning-input>
+                            </div>
+                        </div>
+                        <div class="slds-col">
+                            <div  class="slds-p-around_small">
+                                <label class="slds-form-element__label">SN</label>
+                                <lightning-helptext content={snHelpText} class="customIcon"> </lightning-helptext>
+                                <lightning-input data-name="SN" type="text" name="SN" title="SN"  label="SN" value={exchangeRecord.SN} onchange={inputChangeHandler} variant="label-hidden"></lightning-input>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slds-grid">
+                        <div class="slds-col">
+                            <div class="slds-p-around_small">
+                                <label class="slds-form-element__label">TSO/TSN</label>
+                                <lightning-helptext content={tsoHelpText} class="customIcon"> </lightning-helptext>
+                                <template if:true={TSOPicklistValues.data}>
+                                    <lightning-combobox data-name="TSO"
+                                        class="" 
+                                        title="TSO/TSN" label="TSO/TSN" name="TSO"
+                                        value={exchangeRecord.TSO}
+                                        placeholder="Select TSO/TSN"
+                                        options={TSOPicklistValues.data.values}
+                                        onchange={inputChangeHandler} 
+                                        variant="label-hidden" style="color:rgb(116, 68, 68);">
+                                    </lightning-combobox>
+                                </template>
+                            </div>
+                        </div>
+                        <div class="slds-col">
+                            <div  class="slds-p-around_small">
+                                <label class="slds-form-element__label">CSO/CSN</label>
+                                <lightning-helptext content={csoHelpText} class="customIcon"> </lightning-helptext>
+                                <template if:true={CSOPicklistValues.data}>
+                                    <lightning-combobox data-name="CSO"
+                                        class="" 
+                                        title="CSO/CSN" label="CSO/CSN" name="CSO"
+                                        value={exchangeRecord.CSO}
+                                        placeholder="Select CSO/CSN"  
+                                        options={CSOPicklistValues.data.values}
+                                        onchange={inputChangeHandler}
+                                        variant="label-hidden"> 
+                                    </lightning-combobox>
+                                </template>    
+                            </div>
+                        </div>
+                    </div>
+
+                    <template if:true={showTSO_CSO}>
+                        <div class="slds-grid">
+                            <template if:true={showTSOTextbox}>
+                                <div class="slds-col">
+                                    <div class="slds-p-around_small">
+                                        <label class="slds-form-element__label">{TSO_TSN_Title}</label>
+                                        <lightning-helptext content={TSO_TSN_Title} class="customIcon"> </lightning-helptext>
+                                        <lightning-input class="" type="text" name="TSO_TSN" title={TSO_TSN_Title} label={TSO_TSN_Title} value={exchangeRecord.TSO_TSN} onchange={inputChangeHandler} variant="label-hidden"></lightning-input>
+                                    </div>
+                                </div>
+                                <template if:false={showCSOTextbox}>
+                                    <div class="slds-col">
+                                        <div class="slds-hidden slds-p-around_small">
+                                            <lightning-input class="" name="" type="text" title="" label=""></lightning-input>
+                                        </div>
+                                    </div>
+                                </template>
+                            </template>
+
+                            <template if:true={showCSOTextbox}>
+
+                                <template if:false={showTSOTextbox}>
+                                    <div class="slds-col">
+                                        <div class="slds-hidden slds-p-around_small">
+                                            <lightning-input class="" name="" type="text" title="" label=""></lightning-input>
+                                        </div>
+                                    </div>
+                                </template>
+                                
+                                <div class="slds-col">
+                                    <div class="slds-p-around_small">
+                                        <label class="slds-form-element__label">{CSO_CSN_Title}</label>
+                                        <lightning-helptext content={CSO_CSN_Title} class="customIcon"> </lightning-helptext>
+                                        <lightning-input class="" type="text" name="CSO_CSN" title={CSO_CSN_Title} label={CSO_CSN_Title} value={exchangeRecord.CSO_CSN} onchange={inputChangeHandler} variant="label-hidden"></lightning-input>
+                                    </div>
+                                </div>
+                            </template>
+                        </div>
+                    </template>
+
+
+                    <div class="slds-grid">
+                        <div  class="slds-col">
+                            <div class="">
+                                <lightning-input data-name="AircraftModel" class="slds-p-around_small" name="AircraftModel" type="text" title="Aircraft Model" label="Aircraft Model" value={exchangeRecord.AircraftModel} onchange={inputChangeHandler}></lightning-input>
+                            </div>
+                        </div>
+
+                        <div class="slds-col">
+                            <div class="slds-p-around_small">
+                                <label class="slds-form-element__label">Aircraft SN</label>
+                                <lightning-helptext content={aircraftSNHelpText} class="customIcon"> </lightning-helptext>
+                                <lightning-input data-name="AircraftSN"  name="AircraftSN" type="text" title="Aircraft SN" label="Aircraft SN" value={exchangeRecord.AircraftSN} onchange={inputChangeHandler} variant="label-hidden"></lightning-input>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="slds-grid">
+                        <div class="slds-col">
+                            <div class="slds-p-around_small">
+                                <label class="slds-form-element__label">Aircraft TSN</label>
+                                <lightning-helptext content={acTSNHelpText} class="customIcon"> </lightning-helptext>
+                                <lightning-input data-name="ACTSN"  name="ACTSN" type="text" title="AC TSN" label="AC TSN" value={exchangeRecord.ACTSN} onchange={inputChangeHandler} variant="label-hidden"></lightning-input>
+                            </div>
+                        </div>
+                        <div class="slds-col">
+                            <div class="slds-p-around_small">
+                                <label class="slds-form-element__label">Aircraft CSN</label>
+                                <lightning-helptext content={acCSNHelpText} class="customIcon"> </lightning-helptext>
+                                <lightning-input data-name="ACCSN"  name="ACCSN" type="text" title="AC CSN" label="AC CSN" value={exchangeRecord.ACCSN} onchange={inputChangeHandler} variant="label-hidden"></lightning-input>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slds-grid">
+                        <div class="slds-col">
+                            <div class="slds-p-around_small" style="width: 95.5%;">
+                                <label class="slds-form-element__label">Carrier</label>
+                                <template if:true={CarrierPicklistValues.data}>
+                                    <lightning-combobox data-name="Carrier" style="padding-right: 0px;"
+                                        class="" 
+                                        title="Carrier" label="Carrier" name="Carrier"
+                                        value={exchangeRecord.Carrier}
+                                        placeholder="Select Carrier"
+                                        options={CarrierPicklistValues.data.values}
+                                        onchange={inputChangeHandler}
+                                        variant="label-hidden">
+                                    </lightning-combobox>
+                                </template>
+                            </div>
+                        </div>
+                        <div class="slds-col">
+                            <div class="slds-p-around_small" style="padding-left: 0px;">
+                                <label class="slds-form-element__label">AWB</label>
+                                <lightning-helptext content={acCSNHelpText} class="customIcon"> </lightning-helptext>
+                                <lightning-input data-name="AWB" name="AWB" type="text" title="AWB" label="AWB" value={exchangeRecord.AWB} onchange={inputChangeHandler} variant="label-hidden"></lightning-input>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slds-grid">
+                        <div class="slds-col">
+                            <div class="slds-p-around_small" style="width: 96%;">
+                                <label class="slds-form-element__label">Reason for removal</label>
+                                <template if:true={ReasonForRemovalPicklistValues.data}>
+                                    <lightning-combobox data-name="ReasonForRemoval"
+                                        class="" 
+                                        title="Reason for removal" label="Reason for removal" name="ReasonForRemoval"
+                                        value={exchangeRecord.ReasonForRemoval}
+                                        placeholder="Select for Reason for removal"
+                                        options={ReasonForRemovalPicklistValues.data.values}
+                                        onchange={inputChangeHandler}
+                                        variant="label-hidden">
+                                    </lightning-combobox>
+                                </template>
+                            </div>
+                        </div>
+
+                        <div class="slds-col">
+                            <div class="slds-p-around_small">
+                                <span>
+                                    <strong>
+                                        Shipping Address
+                                    </strong>
+                                </span>
+                                <address>
+                                    Seattle Aviation Solutions<br>
+                                    18103 NE 68th St. #C200<br>
+                                    Redmond, WA 98052 USA<br>
+                                </address>
+                            </div>
+                        </div>
+                    </div>
+
+                    <template if:true={showRemovalComment}>
+                        <div class="slds-grid">
+                            <div class="slds-col">
+                                <div class="">
+                                    <lightning-textarea data-name="RemovalComment"
+                                        class="slds-p-around_small" 
+                                        name="RemovalComment" 
+                                        title="Reason for Removal" 
+                                        label="Reason for Removal" 
+                                        placeholder="type here..." 
+                                        value={exchangeRecord.RemovalComment} 
+                                        onchange={inputChangeHandler}>
+                                    </lightning-textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </template>
+
+
+
+                   
+                    <div class="slds-p-around_small">
+                        <lightning-input type="checkbox" class="slds-text-title_bold" name="AgreementToNonIncident"  data-name="AgreementToNonIncident"
+                            label="Non-Incident-Statement" value={exchangeRecord.AgreementToNonIncident} 
+                            onchange={inputChangeHandler}>
+                        </lightning-input>
+                        <!-- <p>
+                            <strong>
+                                Non-Incident-Statement
+                            </strong>
+                        </p> -->
+                        <p class="slds-m-top_medium">
+                            The following agreement attests that to best of our knowledge, 
+                        </p>
+                        <div class="slds-m-top_medium">
+                            <ol class="slds-list_ordered slds-list_vertical-space">
+                                <li>  
+                                    Neither the aircraft, nor any part installed have been;
+                                    <ol class="slds-is-nested">
+                                        <li style="list-style: lower-alpha;">
+                                            damaged during, or identified as the root cause of, a reportable incident or accident as defined by Annex 13 to the Chicago Convention,
+                                        </li>
+                                        <li style="list-style: lower-alpha;">
+                                            unless its airworthiness status was re-established by an approved maintenance organisation in accordance with the applicable airworthiness regulations and instructions of the type certificate holder and/or supplemental type certificate holder and/or OEM of the part, and supported by an authorised airworthiness release certificate.
+                                        </li>
+                                    </ol>
+                                </li>
+                                <li>
+                                    No part has been installed on the aircraft which was obtained from a military source or was previously fitted to a state aircraft as deemed by Article 3 of the Chicago Convention.
+                                </li>
+                            </ol>  
+                        </div>
+                    </div>
+                    
+                    <div class="">
+                        <div class="slds-p-around_small slds-grid">
+                            <label class="slds-form-element__label incident-label">Organization</label>
+                            <!-- <input class="slds-m-left_x-small custom-input-text" name="organization" value={exchangeRecord.CompanyName} type="text"/> -->
+                            <lightning-input data-name="CompanyName" class="slds-m-left_x-small custom-input-text" name="organization" type="text"  value={exchangeRecord.CompanyName} onchange={inputChangeHandler} variant="label-hidden"></lightning-input>
+                        </div>
+
+                        <!-- Commented under SS-213  -->
+                        <!-- <div class="slds-p-around_small slds-grid" style="margin-bottom: 20px;">
+                            <label class="slds-form-element__label incident-label">Address</label>
+                            <lightning-textarea 
+                                        class="slds-m-left_x-small custom-input-textArea" 
+                                        name="Address"
+                                        placeholder="type here..." 
+                                        value={exchangeRecord.Address} 
+                                        onchange={inputChangeHandler} variant="label-hidden">
+                            </lightning-textarea>
+                        </div> -->
+                        <div class="slds-p-around_small slds-grid" >
+                            <label class="slds-form-element__label incident-label">Name</label>
+                            <lightning-input data-name="CustomerName" class="slds-m-left_x-small custom-input-text" name="CustomerName" type="text"  value={exchangeRecord.CustomerName} onchange={inputChangeHandler} variant="label-hidden"></lightning-input>
+                            <!-- <input class="slds-m-left_x-small custom-input-text" value={exchangeRecord.CustomerName} onchange={inputChangeHandler} name="CustomerName" type="text"/> -->
+                        </div>
+                        <div class="slds-p-around_small slds-grid">
+                            <label class="slds-form-element__label incident-label">Position</label>
+                            <lightning-input data-name="Position" class="slds-m-left_x-small custom-input-text" name="Position" type="text"  value={exchangeRecord.Position} onchange={inputChangeHandler} variant="label-hidden"></lightning-input>
+                            <!-- <input class="slds-m-left_x-small custom-input-text" value={exchangeRecord.Position} onchange={inputChangeHandler} name="Position" type="text"/> -->
+                        </div>
+                        <div class="slds-p-around_small">
+                            <label class="slds-form-element__label incident-label">Date</label>
+                            <span class=".slds-text-body_regular">{today}</span>
+                        </div>
+                    </div>
+                        
+
+                    <!-- <div class="slds-p-around_small">
+                        <c-signature-panel record-id={coreExchangeRecordId}></c-signature-panel>
+                    </div> -->
+                    <div class="slds-align_absolute-center slds-p-around_medium">
+                        <lightning-button label="Submit" class="slds-p-around_medium" variant="brand" onclick={submitForm} disabled={locked}></lightning-button>
+                    </div>
+                </div>
+            </template>
+            <!-- Show Form : End -->
+            
+
+            <template if:true={isLoading}>
+                <lightning-spinner alternative-text="Loading"></lightning-spinner>
+            </template>
+        </div>
+    </div>
+</template>

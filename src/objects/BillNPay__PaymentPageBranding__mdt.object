@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Hosted Payment page at HPP Server</description>
+    <fields>
+        <fullName>BillNPay__Active__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Active</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__ButtonBackgroundColor__c</fullName>
+        <defaultValue>&quot;#449144&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Button Background Color</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__ButtonFontColor__c</fullName>
+        <defaultValue>&quot;#ffffff&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Button Font Color</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__FieldBorderColor__c</fullName>
+        <defaultValue>&quot;#1962af&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Field Border Color</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__FontColor__c</fullName>
+        <defaultValue>&quot;#000000&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Font Color</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__FontFamily__c</fullName>
+        <defaultValue>&quot;arial, helvetica, san-serif&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Some Font Families:
+Times, &quot;Times New Roman&quot;, serif;
+Helvetica, Arial, sans-serif; 
+serif; 
+sans-serif; 
+monospace; 
+cursive; 
+fantasy</inlineHelpText>
+        <label>Font-Family</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__FontSize__c</fullName>
+        <defaultValue>&quot;11pt&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enter as &quot;#pt&quot;   For example: &quot;12pt&quot;</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Font-Size</label>
+        <length>20</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__HeadingFontColor__c</fullName>
+        <defaultValue>&quot;#000000&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Heading Font Color</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__HeadingFontFamily__c</fullName>
+        <defaultValue>&quot;arial, helvetica, san-serif&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Heading Font Family</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__HeadingFontSize__c</fullName>
+        <defaultValue>&quot;10pt&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Enter as &quot;#pt&quot;   For example: &quot;12pt&quot;</inlineHelpText>
+        <label>Heading Font Size</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__HideCustomerNumber__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Hide Customer Number?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__HideInvoiceNumber__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Hide Invoice Number?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__HidePaymentDescription__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Hide Payment Description?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__LogoOff__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Suppress display of logo - used if HPP is running in an iFrame for example</inlineHelpText>
+        <label>Logo Off?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__PageBackgroundColor__c</fullName>
+        <defaultValue>&quot;#eeeeee&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Page Background Color</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__PaymentButtonLabel__c</fullName>
+        <defaultValue>&quot;Pay Now!&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Payment Button Label</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__PaymentHeaderTitle__c</fullName>
+        <defaultValue>&quot;Payment Due&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Payment Header Title</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__RedirectURLButtonLabel__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>RedirectURL Button Label</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__RedirectURL__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Put blank to hide this button</inlineHelpText>
+        <label>Redirect URL</label>
+        <required>false</required>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__SavePaymentMethodOption__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>If checked, user is shown an option to not save Payment Method on HPP. If users doesn&apos;t save Payment Method, they must reenter for each transaction.
+If Unchecked, Payment Method will always be saved (Recommended)</inlineHelpText>
+        <label>HPP-Save Payment Method Option</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__SectionBackgroundColor__c</fullName>
+        <defaultValue>&quot;#ffffff&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Section Background Color</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__SectionBorderOutlineColor__c</fullName>
+        <defaultValue>&quot;#cccccc&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Section Border Outline Color</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__ShowPaymentMethod__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>When checked, payer will see existing payment methods to select from. Unchecked requires payer to enter new method every time they return to HPP.</inlineHelpText>
+        <label>HPP-Show Payment Method</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__ShowRequestReceiptButton__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>When checked, the HPP payment confirmation page will have a &quot;Request Receipt&quot; button. If clicked by customer, this button sends a payment confirmation email from AuthVia (not Salesforce). Recommend: Unchecked</inlineHelpText>
+        <label>HPP-Request Receipt Button</label>
+        <type>Checkbox</type>
+    </fields>
+    <label>Payment Page Branding</label>
+    <listViews>
+        <fullName>BillNPay__All</fullName>
+        <columns>MasterLabel</columns>
+        <columns>DeveloperName</columns>
+        <columns>NamespacePrefix</columns>
+        <columns>BillNPay__Active__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <pluralLabel>Payment Page Branding</pluralLabel>
+    <validationRules>
+        <fullName>BillNPay__InvalidURL</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+    NOT(ISBLANK(BillNPay__RedirectURL__c)),
+    NOT(BEGINS(BillNPay__RedirectURL__c, &quot;https://&quot;)),
+    NOT(BEGINS(BillNPay__RedirectURL__c, &quot;http://&quot;))
+)</errorConditionFormula>
+        <errorDisplayField>BillNPay__RedirectURL__c</errorDisplayField>
+        <errorMessage>URL must be start with http or https</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>BillNPay__RedirectUrlAndLabel</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR(
+ AND(
+   NOT(ISBLANK(BillNPay__RedirectURL__c)),
+   ISBLANK(BillNPay__RedirectURLButtonLabel__c)
+ ),
+ AND(
+   NOT(ISBLANK(BillNPay__RedirectURLButtonLabel__c)),
+   ISBLANK(BillNPay__RedirectURL__c)
+ )
+)</errorConditionFormula>
+        <errorMessage>Redirect URL &amp; Redirect URL button Label both must be empty OR both must not empty</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

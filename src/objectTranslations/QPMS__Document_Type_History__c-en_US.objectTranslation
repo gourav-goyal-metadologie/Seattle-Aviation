@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- History Fields --></label>
+        <name>QPMS__History_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QueryFields --></label>
+        <name>QPMS__QueryFields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Action --></label>
+        <name>QPMS__Action__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>QPMS__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- FieldApiName --></label>
+        <name>QPMS__FieldApiName__c</name>
+    </fields>
+    <fields>
+        <label><!-- FieldName --></label>
+        <name>QPMS__FieldName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last ModifiedBy --></label>
+        <name>QPMS__Last_ModifiedBy__c</name>
+    </fields>
+    <fields>
+        <label><!-- NewValue --></label>
+        <name>QPMS__NewValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object --></label>
+        <name>QPMS__Object__c</name>
+    </fields>
+    <fields>
+        <label><!-- OldValue --></label>
+        <name>QPMS__OldValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent --></label>
+        <name>QPMS__Parent__c</name>
+        <relationshipLabel><!-- Document Type Histories --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sub Parent --></label>
+        <name>QPMS__Sub_Parent__c</name>
+        <picklistValues>
+            <masterLabel>Document Type</masterLabel>
+            <translation><!-- Document Type --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- isCreated --></label>
+        <name>QPMS__isCreated__c</name>
+    </fields>
+    <fields>
+        <label><!-- isDeleted --></label>
+        <name>QPMS__isDeleted__c</name>
+    </fields>
+</CustomObjectTranslation>

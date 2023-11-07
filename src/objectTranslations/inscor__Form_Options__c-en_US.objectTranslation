@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Selecting the additional fields will display on label when the parts are flagged as being Hazmat, LLP, or Shelf Life. --></help>
+        <label><!-- Additional Barcode Fields --></label>
+        <name>inscor__Additional_Barcode_Fields__c</name>
+        <picklistValues>
+            <masterLabel>Hazmat?</masterLabel>
+            <translation><!-- Hazmat? --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLP?</masterLabel>
+            <translation><!-- LLP? --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shelf Life?</masterLabel>
+            <translation><!-- Shelf Life? --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Setting between 50-75 --></help>
+        <label><!-- Barcode Height --></label>
+        <name>inscor__Barcode_Height__c</name>
+    </fields>
+    <fields>
+        <help><!-- Setting between 175-200 --></help>
+        <label><!-- Barcode Width --></label>
+        <name>inscor__Barcode_Width__c</name>
+    </fields>
+    <fields>
+        <help><!-- For Exchange Agreement Text Area above the Order/Part Number data fields. --></help>
+        <label><!-- Body 1 --></label>
+        <name>inscor__Body_1__c</name>
+    </fields>
+    <fields>
+        <help><!-- For Exchange Agreement Text Area below the Order/Part Number data fields. --></help>
+        <label><!-- Body 2 --></label>
+        <name>inscor__Body_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comment 10 --></label>
+        <name>inscor__Comment_10__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comment 1 --></label>
+        <name>inscor__Comment_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comment 2 --></label>
+        <name>inscor__Comment_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comment 3 --></label>
+        <name>inscor__Comment_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comment 4 --></label>
+        <name>inscor__Comment_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comment 5 --></label>
+        <name>inscor__Comment_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comment 6 --></label>
+        <name>inscor__Comment_6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comment 7 --></label>
+        <name>inscor__Comment_7__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comment 8 --></label>
+        <name>inscor__Comment_8__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comment 9 --></label>
+        <name>inscor__Comment_9__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company --></label>
+        <name>inscor__Company__c</name>
+        <relationshipLabel><!-- Form Options --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Footer --></label>
+        <name>inscor__Footer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Form Size --></label>
+        <name>inscor__Form_Size__c</name>
+        <picklistValues>
+            <masterLabel>A4</masterLabel>
+            <translation><!-- A4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Letter</masterLabel>
+            <translation><!-- Letter --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Form Type --></label>
+        <name>inscor__Form_Type__c</name>
+        <picklistValues>
+            <masterLabel>Barcode</masterLabel>
+            <translation><!-- Barcode --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Location Barcode</masterLabel>
+            <translation><!-- Location Barcode --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Used in WO docs to override the default address setup under Administration-&gt;Company page. Works on Closeout Paperwork, Traveler, EASA Form1,and 8130. --></help>
+        <label><!-- Letterhead --></label>
+        <name>inscor__Letterhead__c</name>
+    </fields>
+    <fields>
+        <label><!-- No of Barcode Copies --></label>
+        <name>inscor__No_of_Barcode_Copies__c</name>
+    </fields>
+    <fields>
+        <help><!-- If selected, will default to print on Material Cert --></help>
+        <label><!-- Show 13A Tag Ref --></label>
+        <name>inscor__Show_13A_Tag_Ref__c</name>
+    </fields>
+    <fields>
+        <help><!-- If selected, will default to print on Material Cert --></help>
+        <label><!-- Show 13A Trace --></label>
+        <name>inscor__Show_13A_Trace__c</name>
+    </fields>
+    <fields>
+        <help><!-- When selected, shows the Inventory MSN/ESN in Block 13 Remarks section of the Material Cert. --></help>
+        <label><!-- Show ESN on Mat Cert --></label>
+        <name>inscor__Show_ESN_on_Mat_Cert__c</name>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>inscor__Title__c</name>
+    </fields>
+    <fields>
+        <help><!-- Will make Comment 1 the default for the Material Certs in the Outbound QC Override screen --></help>
+        <label><!-- Use Comment 1 as Default? --></label>
+        <name>inscor__Use_Comment_1_as_Default__c</name>
+    </fields>
+    <fields>
+        <label><!-- VF Page Name --></label>
+        <name>inscor__VF_Reference__c</name>
+    </fields>
+    <layouts>
+        <layout>Form Options Layout v1</layout>
+        <sections>
+            <label><!-- Barcode Settings --></label>
+            <section>Barcode Settings</section>
+        </sections>
+        <sections>
+            <label><!-- Form Override Text Options --></label>
+            <section>Form Override Text Options</section>
+        </sections>
+        <sections>
+            <label><!-- Form Persistent Text --></label>
+            <section>Form Persistent Text</section>
+        </sections>
+        <sections>
+            <label><!-- Form Setup --></label>
+            <section>Form Setup</section>
+        </sections>
+        <sections>
+            <label><!-- Material Cert Settings --></label>
+            <section>Material Cert Settings</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

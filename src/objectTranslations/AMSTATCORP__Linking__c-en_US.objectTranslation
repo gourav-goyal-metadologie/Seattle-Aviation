@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- AMSTAT linked object ID --></help>
+        <label><!-- AMSTAT Id --></label>
+        <name>AMSTATCORP__AMSTAT_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- AMSTAT linked Object Name --></help>
+        <label><!-- AMSTAT Name --></label>
+        <name>AMSTATCORP__AMSTAT_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- AMSTAT Address ID --></help>
+        <label><!-- Address 1 --></label>
+        <name>AMSTATCORP__Address_1__c</name>
+    </fields>
+    <fields>
+        <help><!-- AMSTAT Address ID --></help>
+        <label><!-- Address 2 --></label>
+        <name>AMSTATCORP__Address_2__c</name>
+    </fields>
+    <fields>
+        <help><!-- Salesforce.com sObject Type name --></help>
+        <label><!-- Object Type Name --></label>
+        <name>AMSTATCORP__Object_Type_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- ID of associated parent record. For example the account id for a contact --></help>
+        <label><!-- Parent ID --></label>
+        <name>AMSTATCORP__Parent_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Salesforce.com sObject ID --></help>
+        <label><!-- SFDC ID --></label>
+        <name>AMSTATCORP__SFDC_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Salesforce.com sObject record Name --></help>
+        <label><!-- SFDC Name --></label>
+        <name>AMSTATCORP__SFDC_Name__c</name>
+    </fields>
+    <layouts>
+        <layout>Linking Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- CSMS General Task --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- CSMS General Task --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Action Taken --></label>
+        <name>QPMS__Action_Taken</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Audit Trail --></label>
+        <name>QPMS__Audit_Trail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CSMSAdhocContextual --></label>
+        <name>QPMS__CSMSAdhocContextual</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Calibrate Adhoc Fileds --></label>
+        <name>QPMS__Calibrate_Adhoc_Fileds</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CalibrationAdhocContextualHelp --></label>
+        <name>QPMS__CalibrationAdhocContextualHelp</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Calibration Nc Required For Details --></label>
+        <name>QPMS__Calibration_Nc_Required_For_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ClosureContextualHelp --></label>
+        <name>QPMS__ClosureContextualHelp</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Closure Display Fields --></label>
+        <name>QPMS__Closure_Display_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Condition As Received --></label>
+        <name>QPMS__Condition_As_Received</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- MaintenanceClosureContextualHelp --></label>
+        <name>QPMS__MaintenanceClosureContextualHelp</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- MaintenanceTask Display Fields --></label>
+        <name>QPMS__MaintenanceTask_Display_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Maintenance Adhoc Fields --></label>
+        <name>QPMS__Maintenance_Adhoc_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Maintenance Closure Display Fields --></label>
+        <name>QPMS__Maintenance_Closure_Display_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Maintenance NC Required --></label>
+        <name>QPMS__Maintenance_NC_Required</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Maintenance Nc Required For Details --></label>
+        <name>QPMS__Maintenance_Nc_Required_For_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- NC Required --></label>
+        <name>QPMS__NC_Required</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QueryFields --></label>
+        <name>QPMS__QueryFields</name>
+    </fieldSets>
+    <fields>
+        <help><!-- AdhocTask Title --></help>
+        <label><!-- AdhocTask Title --></label>
+        <name>QPMS__AdhocTask_Title__c</name>
+    </fields>
+    <fields>
+        <help><!-- Adhoc Tak Sequence --></help>
+        <label><!-- Adhoc Sequence --></label>
+        <name>QPMS__Adhoc_Sequence__c</name>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation><!-- 15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25</masterLabel>
+            <translation><!-- 25 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation><!-- 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>35</masterLabel>
+            <translation><!-- 35 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40</masterLabel>
+            <translation><!-- 40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>45</masterLabel>
+            <translation><!-- 45 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50</masterLabel>
+            <translation><!-- 50 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>55</masterLabel>
+            <translation><!-- 55 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60</masterLabel>
+            <translation><!-- 60 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>65</masterLabel>
+            <translation><!-- 65 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>70</masterLabel>
+            <translation><!-- 70 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>75</masterLabel>
+            <translation><!-- 75 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>80</masterLabel>
+            <translation><!-- 80 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>85</masterLabel>
+            <translation><!-- 85 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>90</masterLabel>
+            <translation><!-- 90 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>95</masterLabel>
+            <translation><!-- 95 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Age --></label>
+        <name>QPMS__Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allowed Days --></label>
+        <name>QPMS__Allowed_Days__c</name>
+    </fields>
+    <fields>
+        <help><!-- ApprovalProcess --></help>
+        <label><!-- ApprovalProcess --></label>
+        <name>QPMS__ApprovalProcess__c</name>
+        <picklistValues>
+            <masterLabel>Change Due Date</masterLabel>
+            <translation><!-- Change Due Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Owner</masterLabel>
+            <translation><!-- Change Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Task Approval</masterLabel>
+            <translation><!-- Task Approval --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Stores Task Approval group name --></help>
+        <label><!-- Approval Group --></label>
+        <name>QPMS__Approval_Group__c</name>
+    </fields>
+    <fields>
+        <help><!-- Approval Process Complete --></help>
+        <label><!-- Approval Process Complete --></label>
+        <name>QPMS__Approval_Process_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Required --></label>
+        <name>QPMS__Approval_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>QPMS__Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recall</masterLabel>
+            <translation><!-- Recall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approver 1 --></label>
+        <name>QPMS__Approver_1__c</name>
+        <relationshipLabel><!-- CSMS General Tasks (Approver 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 2 --></label>
+        <name>QPMS__Approver_2__c</name>
+        <relationshipLabel><!-- CSMS General Tasks (Approver 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 3 --></label>
+        <name>QPMS__Approver_3__c</name>
+        <relationshipLabel><!-- CSMS General Tasks (Approver 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 4 --></label>
+        <name>QPMS__Approver_4__c</name>
+        <relationshipLabel><!-- CSMS General Tasks (Approver 4) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 5 --></label>
+        <name>QPMS__Approver_5__c</name>
+        <relationshipLabel><!-- CSMS General Tasks (Approver 5) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 6 --></label>
+        <name>QPMS__Approver_6__c</name>
+        <relationshipLabel><!-- CSMS General Tasks (Approver 6) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 7 --></label>
+        <name>QPMS__Approver_7__c</name>
+        <relationshipLabel><!-- CSMS General Tasks (Approver 7) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 8 --></label>
+        <name>QPMS__Approver_8__c</name>
+        <relationshipLabel><!-- CSMS General Tasks (Approver 8) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 9 --></label>
+        <name>QPMS__Approver_9__c</name>
+        <relationshipLabel><!-- CSMS General Tasks (Approver 9) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver --></label>
+        <name>QPMS__Approver__c</name>
+        <relationshipLabel><!-- CSMS General Tasks (Approver) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- As Received --></help>
+        <label><!-- As Received --></label>
+        <name>QPMS__As_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asset Profile Name --></label>
+        <name>QPMS__Asset_Profile_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Asset Profile Value --></help>
+        <label><!-- Asset Profile --></label>
+        <name>QPMS__Asset_Profile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asset Status --></label>
+        <name>QPMS__Asset_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Decommissioned</masterLabel>
+            <translation><!-- Decommissioned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost</masterLabel>
+            <translation><!-- Lost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Calibrated</masterLabel>
+            <translation><!-- Not Calibrated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Out of Calibration</masterLabel>
+            <translation><!-- Out of Calibration --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Calibrate --></help>
+        <label><!-- Calibrate --></label>
+        <name>QPMS__Calibrate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Calibration ID --></label>
+        <name>QPMS__Calibration_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Calibration Result --></help>
+        <label><!-- Calibration Result --></label>
+        <name>QPMS__Calibration_Result__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Calibration --></help>
+        <label><!-- Calibration --></label>
+        <name>QPMS__Calibration__c</name>
+        <relationshipLabel><!-- CSMS General Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ChangeFieldApprovalStatus --></label>
+        <name>QPMS__ChangeFieldApprovalStatus__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recall</masterLabel>
+            <translation><!-- Recall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Comment --></help>
+        <label><!-- Comment --></label>
+        <name>QPMS__Comment__c</name>
+    </fields>
+    <fields>
+        <help><!-- Corrective Action Taken --></help>
+        <label><!-- Corrective Action Taken --></label>
+        <name>QPMS__Corrective_Action_Taken__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost Incurred (USD) --></label>
+        <name>QPMS__Cost_Incurred__c</name>
+    </fields>
+    <fields>
+        <help><!-- CurrentApprovalSequenceNumber --></help>
+        <label><!-- CurrentApprovalSequenceNumber --></label>
+        <name>QPMS__CurrentApprovalSequenceNumber__c</name>
+    </fields>
+    <fields>
+        <help><!-- Damaged --></help>
+        <label><!-- Damaged --></label>
+        <name>QPMS__Damaged__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Returned to Use --></label>
+        <name>QPMS__Date_Returned_to_Use__c</name>
+    </fields>
+    <fields>
+        <help><!-- Dirty --></help>
+        <label><!-- Dirty --></label>
+        <name>QPMS__Dirty__c</name>
+    </fields>
+    <fields>
+        <label><!-- Due Date --></label>
+        <name>QPMS__Due_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- In Tolerance --></help>
+        <label><!-- In Tolerance --></label>
+        <name>QPMS__In_Tolerance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Submitter --></label>
+        <name>QPMS__Initial_Submitter__c</name>
+        <relationshipLabel><!-- CSMS General Tasks (Initial Submitter) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Stores the logged in user site publc group --></help>
+        <label><!-- Initiating Site Security --></label>
+        <name>QPMS__Initiating_Site_Security__c</name>
+    </fields>
+    <fields>
+        <help><!-- Instructions --></help>
+        <label><!-- Instructions --></label>
+        <name>QPMS__Instructions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asset Status --></label>
+        <name>QPMS__Maintenance_Asset_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Damaged</masterLabel>
+            <translation><!-- Damaged --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Decommissioned</masterLabel>
+            <translation><!-- Decommissioned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sent for Repair</masterLabel>
+            <translation><!-- Sent for Repair --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Maintenance ID --></label>
+        <name>QPMS__Maintenance_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Maintenance Result --></label>
+        <name>QPMS__Maintenance_Result__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Maintenance --></label>
+        <name>QPMS__Maintenance__c</name>
+        <relationshipLabel><!-- CSMS General Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- NC Required --></help>
+        <label><!-- NC Required --></label>
+        <name>QPMS__NC_Required__c</name>
+    </fields>
+    <fields>
+        <help><!-- New Due Date --></help>
+        <label><!-- New Due Date --></label>
+        <name>QPMS__New_Due_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- New Owner --></help>
+        <label><!-- New Owner --></label>
+        <name>QPMS__New_Owner__c</name>
+        <relationshipLabel><!-- CSMS General Tasks (New Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Used in closure task of calibration, if schedule type is other than frequency this field will be available. --></help>
+        <label><!-- Next Calibration Date --></label>
+        <name>QPMS__Next_Calibration_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used in closure task of maintenance, if schedule type is other than frequency this field will be available. --></help>
+        <label><!-- Next Maintenance Date --></label>
+        <name>QPMS__Next_Maintenance_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Non Conformance Name --></help>
+        <label><!-- Non Conformance Number --></label>
+        <name>QPMS__Non_Conformance_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Non-Conformance --></help>
+        <label><!-- Non-Conformance --></label>
+        <name>QPMS__Non_Conformance__c</name>
+        <relationshipLabel><!-- CSMS General Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Note To Approver Owner/DueDate --></label>
+        <name>QPMS__Note_To_Approver_Owner_DueDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Note To Approver --></label>
+        <name>QPMS__Note_To_Approver__c</name>
+    </fields>
+    <fields>
+        <help><!-- Other --></help>
+        <label><!-- Other --></label>
+        <name>QPMS__Other__c</name>
+    </fields>
+    <fields>
+        <help><!-- Out of Tolerance --></help>
+        <label><!-- Out of Tolerance --></label>
+        <name>QPMS__Out_of_Tolerance__c</name>
+    </fields>
+    <fields>
+        <help><!-- Override NC --></help>
+        <label><!-- Override NC --></label>
+        <name>QPMS__Override_NC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner --></label>
+        <name>QPMS__Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Id --></label>
+        <name>QPMS__Parent_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Name --></label>
+        <name>QPMS__Parent_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Owner --></label>
+        <name>QPMS__Parent_Owner__c</name>
+    </fields>
+    <fields>
+        <help><!-- Reason For Reopen --></help>
+        <label><!-- Reason For Reopen --></label>
+        <name>QPMS__Reason_For_Reopen__c</name>
+    </fields>
+    <fields>
+        <help><!-- Reason For Void --></help>
+        <label><!-- Reason For Void --></label>
+        <name>QPMS__Reason_For_Void__c</name>
+    </fields>
+    <fields>
+        <help><!-- Remove From Use --></help>
+        <label><!-- Remove From Use --></label>
+        <name>QPMS__Remove_From_Use__c</name>
+    </fields>
+    <fields>
+        <help><!-- Repair --></help>
+        <label><!-- Repair --></label>
+        <name>QPMS__Repair__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sequence in which task should be performed. For example, if value is &apos;3&apos; then tasks with sequence numbers &apos;1&apos; and &apos;2&apos; should be performed first. --></help>
+        <label><!-- Sequence Position --></label>
+        <name>QPMS__Sequence_Position__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sequence --></label>
+        <name>QPMS__Sequence__c</name>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100</masterLabel>
+            <translation><!-- 100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation><!-- 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40</masterLabel>
+            <translation><!-- 40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50</masterLabel>
+            <translation><!-- 50 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60</masterLabel>
+            <translation><!-- 60 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>70</masterLabel>
+            <translation><!-- 70 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>80</masterLabel>
+            <translation><!-- 80 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>90</masterLabel>
+            <translation><!-- 90 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Signed Off Details --></label>
+        <name>QPMS__Signed_Off_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>QPMS__Status__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Created</masterLabel>
+            <translation><!-- Created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Void</masterLabel>
+            <translation><!-- Void --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Summary --></label>
+        <name>QPMS__Summary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time to Complete (Hrs) --></label>
+        <name>QPMS__Time_to_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Track Spare Part Inventory --></label>
+        <name>QPMS__Track_Spare_Part_Inventory__c</name>
+    </fields>
+    <fields>
+        <help><!-- UnRepairable --></help>
+        <label><!-- UnRepairable --></label>
+        <name>QPMS__UnRepairable__c</name>
+    </fields>
+    <fields>
+        <help><!-- Validate Against Inventory --></help>
+        <label><!-- Validate Against Inventory --></label>
+        <name>QPMS__Validate_Against_Inventory__c</name>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <layouts>
+        <layout>CSMS General Task Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- CSMS General Task Name --></nameFieldLabel>
+    <recordTypes>
+        <label><!-- Adhoc --></label>
+        <name>QPMS__Adhoc</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Calibrate --></description>
+        <label><!-- Calibrate --></label>
+        <name>QPMS__Calibrate</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Closure --></description>
+        <label><!-- Closure --></label>
+        <name>QPMS__Closure</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Maintenance --></label>
+        <name>QPMS__Maintenance</name>
+    </recordTypes>
+</CustomObjectTranslation>

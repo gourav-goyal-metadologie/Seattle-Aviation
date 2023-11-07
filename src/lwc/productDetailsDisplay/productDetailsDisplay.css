@@ -1,0 +1,120 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+lightning-breadcrumbs {
+    display: block;
+}
+
+.product-information {
+    display: flex;
+}
+
+figure {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+}
+
+img {
+    object-fit: contain;
+}
+
+.heading {
+    flex-grow: 1;
+}
+
+.details-area {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: stretch;
+    min-height: 400px;
+}
+
+.price {
+    align-self: end;
+}
+
+/* CSS Styling for narrow screens (e.g. phones) */
+@media only screen and (max-width: 48em) {
+    /* SLDS token: mqSmall */
+    .product-information {
+        flex-direction: column;
+    }
+
+    .details-area {
+        padding-top: var(--lwc-spacingSmall);
+    }
+
+    .image {
+        align-self: center;
+    }
+
+    figure {
+        width: 200px;
+        height: 200px;
+    }
+}
+.custom-btns button.slds-button {
+    border-radius: unset !important;
+}
+.custom-btns .slds-p-around_xx-small, .slds-p-around--xx-small{
+    padding:0 !important;
+    padding-left: 7px !important;
+}
+.product-title{
+    font-family: 'Roboto', sans-serif;
+    color:rgb(208, 28, 72);
+}
+.product-price{
+    font-weight: var(--lwc-fontWeightBold,700);
+}
+.no-price{
+    margin-top:25px;
+    font-size: 14px;
+}
+.common-btn .slds-button{
+    border-radius: 0 !important;
+}
+.common-btn button{
+    border-radius: 0 !important;
+}
+.hazmat{
+    color: white;
+    background-color: #E50000;
+    padding: 7px;
+    width: 8%;
+    margin-top: 5px;
+}
+
+ /* .slds-theme--success {
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(208, 28, 72) !important;
+}  */
+
+@media(max-width: 500px) {
+  .common-btn{
+        font-size: 9px !important;
+    }
+
+    .cc-codes{
+        width: 100% !important;
+    }
+    .common-btn .slds-button_brand{
+        border-radius: 0 !important;
+        padding: 0 10px !important;
+    }
+    .add-to-cart-item::after {
+        content: "\a\a";
+        white-space: pre;
+    }
+    .add-to-cart-cls{
+        width: 150px !important;
+        margin-left: 38px;
+    }
+}

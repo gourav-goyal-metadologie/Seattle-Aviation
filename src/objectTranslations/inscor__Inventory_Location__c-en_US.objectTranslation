@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Company Location --></label>
+        <name>inscor__Company_Location__c</name>
+        <relationshipLabel><!-- Inventory Locations --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Select which condition codes are allowed to reside in this location. Any conditions not selected will be blocked from this location. --></help>
+        <label><!-- Condition Codes Allowed --></label>
+        <name>inscor__Condition_Codes_Allowed__c</name>
+        <picklistValues>
+            <masterLabel>AR</masterLabel>
+            <translation><!-- AR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>All</masterLabel>
+            <translation><!-- All --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FN</masterLabel>
+            <translation><!-- FN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NS</masterLabel>
+            <translation><!-- NS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SV</masterLabel>
+            <translation><!-- SV --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>inscor__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- By marking inactive, it keeps it in history but prevents any further use of the location. --></help>
+        <label><!-- Inactive? --></label>
+        <name>inscor__Inactive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location Height --></label>
+        <name>inscor__Location_Height__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location Length --></label>
+        <name>inscor__Location_Length__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location Width --></label>
+        <name>inscor__Location_Width__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select which material types are allowed to reside in this location. If restrictions are required, normal locations should use &quot;All But Restricted&quot; together with any types that will not be restricted instead of using the &quot;All&quot; option. --></help>
+        <label><!-- Material Type Allowed --></label>
+        <name>inscor__Material_Type_Allowed__c</name>
+        <picklistValues>
+            <masterLabel>All</masterLabel>
+            <translation><!-- All --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>All But Restricted</masterLabel>
+            <translation><!-- All But Restricted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Export Controlled</masterLabel>
+            <translation><!-- Export Controlled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hazmat</masterLabel>
+            <translation><!-- Hazmat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLP</masterLabel>
+            <translation><!-- LLP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shelf Life</masterLabel>
+            <translation><!-- Shelf Life --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Select this option to block allocations from parts in this location, i.e. quarantine area for rejected parts and any other staging area where parts should be blocked from being sold. --></help>
+        <label><!-- Restrict Location From Sale --></label>
+        <name>inscor__Restrict_Location_From_Sale__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zone --></label>
+        <name>inscor__Zone__c</name>
+    </fields>
+    <layouts>
+        <layout>Location Layout</layout>
+        <sections>
+            <label><!-- Location Details --></label>
+            <section>Location Details</section>
+        </sections>
+        <sections>
+            <label><!-- Location Information --></label>
+            <section>Location Information</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

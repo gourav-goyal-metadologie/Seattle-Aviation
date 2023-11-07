@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Duplicate Check Duplicate --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Duplicate Check Duplicates --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Display --></label>
+        <name>dupcheck__Display__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error --></label>
+        <name>dupcheck__Error__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group --></label>
+        <name>dupcheck__Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has Error --></label>
+        <name>dupcheck__HasError__c</name>
+    </fields>
+    <fields>
+        <label><!-- Match Account --></label>
+        <name>dupcheck__MatchAccount__c</name>
+        <relationshipLabel><!-- Duplicate Check Duplicates (Match Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Match Case --></label>
+        <name>dupcheck__MatchCase__c</name>
+        <relationshipLabel><!-- Duplicate Check Duplicates (Match Case) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Match Contact --></label>
+        <name>dupcheck__MatchContact__c</name>
+        <relationshipLabel><!-- Duplicate Check Duplicates (Match Contact) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Match Filter Value --></label>
+        <name>dupcheck__MatchFilterValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Match Lead --></label>
+        <name>dupcheck__MatchLead__c</name>
+        <relationshipLabel><!-- Duplicate Check Duplicates (Match Lead) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Match Object --></label>
+        <name>dupcheck__MatchObject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Matched Opportunity --></label>
+        <name>dupcheck__MatchOpportunity2__c</name>
+        <relationshipLabel><!-- Duplicate Check Duplicates (Matched Opportunity) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- **DO NOT USE** --></label>
+        <name>dupcheck__MatchOpportunity__c</name>
+        <relationshipLabel><!-- Duplicate Check Duplicates (**DO NOT USE**) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Match Owner --></label>
+        <name>dupcheck__MatchOwner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Match Record Type --></label>
+        <name>dupcheck__MatchRecordType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scenario Scores --></label>
+        <name>dupcheck__ScenarioScore__c</name>
+    </fields>
+    <fields>
+        <label><!-- Score --></label>
+        <name>dupcheck__Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Account --></label>
+        <name>dupcheck__SourceAccount__c</name>
+        <relationshipLabel><!-- Duplicate Check Duplicates (Source Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Source Case --></label>
+        <name>dupcheck__SourceCase__c</name>
+        <relationshipLabel><!-- Duplicate Check Duplicates (Source Case) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Source Contact --></label>
+        <name>dupcheck__SourceContact__c</name>
+        <relationshipLabel><!-- Duplicate Check Duplicates (Source Contact) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Source Filter Value --></label>
+        <name>dupcheck__SourceFilterValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Lead --></label>
+        <name>dupcheck__SourceLead__c</name>
+        <relationshipLabel><!-- Duplicate Check Duplicates (Source Lead) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Source Object --></label>
+        <name>dupcheck__SourceObject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Opportunity --></label>
+        <name>dupcheck__SourceOpportunity2__c</name>
+        <relationshipLabel><!-- Duplicate Check Duplicates (Source Opportunity) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- **DO NOT USE** --></label>
+        <name>dupcheck__SourceOpportunity__c</name>
+        <relationshipLabel><!-- Duplicate Check Duplicates (**DO NOT USE**) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Source Owner --></label>
+        <name>dupcheck__SourceOwner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Record Type --></label>
+        <name>dupcheck__SourceRecordType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duplicate Check Group --></label>
+        <name>dupcheck__dcGroup__c</name>
+        <relationshipLabel><!-- Duplicate Check Duplicates --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Duplicate Check Job --></label>
+        <name>dupcheck__dcJob__c</name>
+        <relationshipLabel><!-- Duplicate Check Duplicates --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Do Not Count --></label>
+        <name>dupcheck__doNotCount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Handled --></label>
+        <name>dupcheck__handled__c</name>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <nameFieldLabel><!-- Duplicate Check Duplicate --></nameFieldLabel>
+</CustomObjectTranslation>

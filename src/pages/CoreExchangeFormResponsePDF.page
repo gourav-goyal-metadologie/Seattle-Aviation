@@ -1,0 +1,254 @@
+<apex:page controller="CoreExchangeFormResponsePDFCtrl" applyHtmlTag="false" renderAs="PDF" showHeader="false" cache="true">
+	<apex:includeScript value="/soap/ajax/36.0/connection.js"/>
+	<head>
+		<style type="text/CSS">
+            body{
+                font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;         
+            }
+
+            .center{
+                text-align:center;
+            }
+            .th{
+            	font-weight:bold;
+            }
+            
+            .small-text-size{
+            	text-size : 8px;
+            }
+
+            
+            @page {
+							size: letter;
+							margin: 25mm;
+							margin-top: 0.8cm;
+							
+							@bottom-center {
+								content: "Page " counter(page) " of " counter(pages);
+							}
+							
+						
+						}
+						
+						.page-break {
+							display:block;
+							page-break-after:always;
+						}
+						
+						body {
+							font-family: Arial Unicode MS;
+						}
+
+        </style>
+	</head>
+
+	<body>
+        <table>
+            <tr>
+                <td>
+                    <apex:image url="{!$Resource.SAS_LOGO }" width="200"/>
+                </td>
+                <td>
+                    <span style="padding-left:24px; font-size:24px;">Seattle Aviation Solutions LLC</span>
+                </td>
+            </tr>
+        </table>
+        <!--<div>
+            <apex:image url="{!$Resource.SAS_LOGO }" width="200"/>
+            <span style="padding-left:24px; font-size:24px;">Seattle Aviation Solutions LLC</span>
+        </div> -->
+        <div style="border : 1px solid black; text-align:center; margin-top:8px;">
+            <span style="padding : 4px; font-size: 20px;">Core Exchange Return Form</span>
+        </div>
+            <table style="margin-top:8px;">
+            <tr>
+                <td style="width:50%">
+                    <div style="width:40%;padding-left:8px;padding-top:8px;">
+                        <apex:image value="{!imageUrl}" style="border:0px;padding-bottom:0; margin-bottom:0;" title="test"/>
+                        <p style="margin-top:0; margin-left:24px;padding-top:0;padding-bottom:0; font-size:12px; font-weight:bold;">
+                            <strong>
+                                {!coreExchangeFormResponse.Customer_Exchange_Summary__r.inscor__Original_SO_ID__r.Name}
+                            </strong>
+                        </p>
+                    </div>
+                    
+                </td>
+                <td style="width:50%; padding-left:12px;">
+                    <div style="">
+                        <span style="font-size: 20px;">Return Address</span>
+                        <span style="font-size:12px; padding-left : 36px;">
+                            <br/>Seattle Aviation Solutions
+                            18103 NE 68th St. #C200
+                            Redmond, WA 98052 USA
+                        </span>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        
+        <!-- Customer Details Section -->      
+        <table style="border : 1px solid black; width : 100%; margin-top:8px; font-size: 14px;">
+            <tr style = "padding-top : 8px; padding-bottom:8px;">
+                <th style="font-weight:bold; width:30%">Customer PO:</th>
+                <td style="text-align:left">
+                        <span style="">{! coreExchangeFormResponse.Customer_Exchange_Summary__r.Customer_PO_Number__c} </span>
+                </td>
+            </tr>
+            <tr>
+                <th>Full Name:</th>
+                <td style="">
+                    <span style="">
+                        {!coreExchangeFormResponse.Customer_Name__c} 
+                    </span>
+                    <span style="margin-left:12px;"> </span>
+                </td>
+                
+            </tr>
+            <tr>
+                <th>Billing Address:</th>
+                <td>
+                    <span style="">{!coreExchangeFormResponse.Billing_Address__c} </span>
+                </td>
+                <td style="text-align : center;">
+                    
+                </td>
+            </tr>
+            <tr>
+                <th>SUBMITTING FOR:</th>
+                <td>
+                    <span style="">
+                        #Exchange Response Date : {!YEAR (TODAY())}/{!MONTH(TODAY())}/{!DAY (TODAY())}
+                    </span>
+                </td>
+            </tr>
+        </table>
+
+        
+        <!-- Non Incident Section -->
+        <table style="width : 100%; font-size: 12px; margin-top:8px; border:1px solid black;">
+            <tr style = "width:100%">
+                <td style="text-align:center;width:100%;">
+                    <div style="width:100%;">
+                        <span style="border-left:1px solid black; padding:4px; border-right:1px solid black;border-bottom:1px solid black;">Non-Incident Statement</span>
+                    </div>
+                </td>
+            </tr>
+            <tr style="">
+                <td style="">
+                    <div style="padding-left:4px;">
+                        The following agreement attests that to best of our knowledge,
+                        
+                        <ol>
+                            <li>
+                                Neither the aircraft, nor any part installed have been
+                                <ul>
+                                    <li>
+                                        Damaged during, or identified as the root cause of, 
+                                        a reportable incident or accident as defined by Annex 13 to the Chicago Convention,
+                                    </li>
+                                    <li>
+                                        unless its airworthiness status was re-established by an approved maintenance organisation in accordance with 
+                                        the applicable airworthiness regulations and instructions of the type certificate holder and/or supplemental 
+                                        type certificate holder and/or OEM of the part, and supported by an authorised airworthiness release certificate.
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>No part has been installed on the aircraft which was obtained from a military 
+                                source or was previously fitted to a state aircraft as deemed by Article 3 of the Chicago Convention.
+                            </li>
+                    	</ol>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        
+        <!-- Sales Order Lines -->
+        <table class="" style="border: 1px solid black; border-collapse:collapse; width:100%; font-size:12px; margin-top:8px;">
+            <tr>
+                <th style="border: 1px solid black; text-align:center;">Qty.</th>
+                <th style="border: 1px solid black; text-align:center;">Part Number</th>
+                <th style="border: 1px solid black; text-align:center;">Serial Number</th>
+                <th style="border: 1px solid black; text-align:center;">Condition Code</th>
+            </tr>
+            <apex:repeat value="{!salesOrderLines}" var="orderLine" id="theRepeat">
+                <tr>
+                    <td style="border: 1px solid black; text-align:center;">{!orderLine.inscor__Quantity_Ordered__c}</td>
+                    <td style="border: 1px solid black; text-align:center;">{!orderLine.inscor__Product__r.Name}</td>
+                    <td style="border: 1px solid black; text-align:center;">{!orderLine.inscor__Expected_Core_Serial_Number__c}</td>
+                    <td style="border: 1px solid black; text-align:center;">{!orderLine.inscor__Condition_Code__r.Name}</td>
+                </tr>
+            </apex:repeat>
+        </table>
+        
+        <!-- Response Deatils Section -->
+        <!--
+        <div class="page-break">
+            
+        </div>-->
+        
+        <center style="font-size:18px;font-weight:bold; margin-top:8px; font-size:16px;">Core Exchange Form Response Details</center>
+        <table style="border: 1px solid black; width:100%; font-size: 12px;">
+            
+            <tr>
+                <th>Aircraft Model:</th>
+                <td>
+                    <apex:outputText value="{!coreExchangeFormResponse.Aircraft_Model__c }"/>
+                </td>
+                <th>Aircraft SN:</th>
+                <td>
+                    <apex:outputText value="{!coreExchangeFormResponse.Aircraft_SN__c }"/>
+                </td>
+            </tr>
+            <tr>
+                <th>Carrier:</th>
+                <td>
+                    <apex:outputText value="{!coreExchangeFormResponse.Carrier__c }"/>
+                </td>
+                <th>AWB:</th>
+                <td>
+                    <apex:outputText value="{!coreExchangeFormResponse.AWB__c  }"/>
+                </td>
+            </tr>
+            <tr>
+                <th>Aircraft TSN:</th>
+                <td>
+                    <apex:outputText value="{!coreExchangeFormResponse.AC_TSN__c }"/>
+                </td>
+                <th>Aircraft CSN:</th>
+                <td>
+                    <apex:outputText value="{!coreExchangeFormResponse.AC_CSN__c  }"/>
+                </td>
+            </tr>
+            <tr>
+                
+                <th>{!IF(coreExchangeFormResponse.TSO__c != '', coreExchangeFormResponse.TSO__c + ':' , '')}</th>
+                <td>
+                    {! IF(coreExchangeFormResponse.TSO__c == 'TSO', coreExchangeFormResponse.TSO_Value__c, coreExchangeFormResponse.TSN_Value__c)}
+                </td>
+                <th>{!IF(coreExchangeFormResponse.CSO__c != '', coreExchangeFormResponse.CSO__c + ':' , '')}</th>
+                <td>
+                    {! IF(coreExchangeFormResponse.CSO__c  == 'CSO', coreExchangeFormResponse.CSO_Value__c, coreExchangeFormResponse.CSN_Value__c)}
+                </td>
+            </tr>
+            <tr>
+                <th>SN:</th>
+                <td>
+                    <apex:outputText value="{!coreExchangeFormResponse.SN__c }"/>
+                </td>
+                
+            </tr>
+        </table>
+        
+        <div style="width:60%; margin-top: 12px; background: #d8d6d6; font-size: 12px;">
+            <div style="padding-top : 12px;">
+                <span style="padding:4px;">Signed digitally by - </span>    
+            </div>
+            <div style="padding-top : 12px;">
+                <span style="padding:4px;">Full Name : {!coreExchangeFormResponse.Customer_Name__c} </span>
+            </div>
+            <div style="padding-top : 12px; padding-bottom:8px;">
+            	<span style="padding:4px;">{!ipAddress} {!Today()}</span>         
+            </div>
+        </div>
+	</body>
+</apex:page>

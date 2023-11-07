@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Business Category --></label>
+        <name>inscor__Business_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSN --></label>
+        <name>inscor__CSN__c</name>
+    </fields>
+    <fields>
+        <help><!-- Cycles since last overhaul. --></help>
+        <label><!-- CSO --></label>
+        <name>inscor__CSO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Condition Code --></label>
+        <name>inscor__Condition_Code__c</name>
+        <relationshipLabel><!-- Manifest Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cycle Limit --></label>
+        <name>inscor__Cycle_Limit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cycles Remaining --></label>
+        <name>inscor__Cycles_Remaining__c</name>
+    </fields>
+    <fields>
+        <label><!-- ESN --></label>
+        <name>inscor__ESN__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>inscor__Location__c</name>
+        <relationshipLabel><!-- Manifest Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- MFR Code --></label>
+        <name>inscor__MFR_Code__c</name>
+        <relationshipLabel><!-- Manifest Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Manifest --></label>
+        <name>inscor__Manifest__c</name>
+        <relationshipLabel><!-- Manifest Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Owner Code --></label>
+        <name>inscor__Owner_Code__c</name>
+        <relationshipLabel><!-- Manifest Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Part Master --></label>
+        <name>inscor__Part_Master__c</name>
+        <relationshipLabel><!-- Manifest Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Price Date --></label>
+        <name>inscor__Price_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price --></label>
+        <name>inscor__Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Accepted --></label>
+        <name>inscor__Quantity_Accepted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Received --></label>
+        <name>inscor__Quantity_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Rejected --></label>
+        <name>inscor__Quantity_Rejected__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Remaining --></label>
+        <name>inscor__Quantity_Remaining__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Scrapped --></label>
+        <name>inscor__Quantity_Scrapped__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity on Manifest --></label>
+        <name>inscor__Quantity_on_Manifest__c</name>
+    </fields>
+    <fields>
+        <label><!-- Serial Number --></label>
+        <name>inscor__Serial_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source --></label>
+        <name>inscor__Source__c</name>
+        <relationshipLabel><!-- Manifest Lines (Source) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>inscor__Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sub Location --></label>
+        <name>inscor__Sub_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- TSN --></label>
+        <name>inscor__TSN__c</name>
+    </fields>
+    <fields>
+        <help><!-- Time since last overhaul. --></help>
+        <label><!-- TSO --></label>
+        <name>inscor__TSO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tag Agency --></label>
+        <name>inscor__Tag_Agency__c</name>
+        <relationshipLabel><!-- Manifest Lines (Tag Agency) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tag Date --></label>
+        <name>inscor__Tag_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tag Reference --></label>
+        <name>inscor__Tag_Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Limit --></label>
+        <name>inscor__Time_Limit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Remaining --></label>
+        <name>inscor__Time_Remaining__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trace --></label>
+        <name>inscor__Trace__c</name>
+        <relationshipLabel><!-- Manifest Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>inscor__Type__c</name>
+        <picklistValues>
+            <masterLabel>Manifest</masterLabel>
+            <translation><!-- Manifest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receipt</masterLabel>
+            <translation><!-- Receipt --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Warehouse --></label>
+        <name>inscor__Warehouse__c</name>
+        <relationshipLabel><!-- Manifest Lines --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Manifest Line Layout</layout>
+        <sections>
+            <label><!-- Manifest Line Information --></label>
+            <section>Manifest Line Information</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- Part Information --></label>
+            <section>Part Information</section>
+        </sections>
+        <sections>
+            <label><!-- Technical Information --></label>
+            <section>Technical Information</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

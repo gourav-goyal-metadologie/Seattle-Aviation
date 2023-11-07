@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account --></label>
+        <name>inscor__Account__c</name>
+        <relationshipLabel><!-- Integration Account Setup --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CIC --></label>
+        <name>inscor__CIC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company --></label>
+        <name>inscor__Company__c</name>
+        <relationshipLabel><!-- Integration Account Setup --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Employee Assigned To The Message --></label>
+        <name>inscor__Employee_Assigned_To_The_Message__c</name>
+        <relationshipLabel><!-- Integration Account Setup --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

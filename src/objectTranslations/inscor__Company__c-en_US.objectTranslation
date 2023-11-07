@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- AEX Schedule --></label>
+        <name>inscor__AEX_Schedule__c</name>
+        <picklistValues>
+            <masterLabel>Nightly</masterLabel>
+            <translation><!-- Nightly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation><!-- Weekly --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AEX Supplier Code --></label>
+        <name>inscor__AEX_Supplier_Code__c</name>
+        <relationshipLabel><!-- Companies --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Account# Auto Number --></label>
+        <name>inscor__Account_Auto_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Default CQ Approved --></label>
+        <name>inscor__Account_Default_CQ_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Default Lease Approved --></label>
+        <name>inscor__Account_Default_Lease_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Default PO Approved --></label>
+        <name>inscor__Account_Default_PO_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Default RFQ Approved --></label>
+        <name>inscor__Account_Default_RFQ_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Default RO Approved --></label>
+        <name>inscor__Account_Default_RO_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Default SO Approved --></label>
+        <name>inscor__Account_Default_SO_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Default WO Approved --></label>
+        <name>inscor__Account_Default_WO_Approved__c</name>
+    </fields>
+    <fields>
+        <help><!-- This setting is for the Account Approvals and determines how often the job runs to check for expirations. --></help>
+        <label><!-- Account Unapproval Schedule --></label>
+        <name>inscor__Account_Unapproval_Schedule__c</name>
+        <picklistValues>
+            <masterLabel>Nightly</masterLabel>
+            <translation><!-- Nightly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation><!-- Weekly --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Address 1 --></label>
+        <name>inscor__Address_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address 2 --></label>
+        <name>inscor__Address_2__c</name>
+    </fields>
+    <fields>
+        <help><!-- Recipient for System Alerts and Errors --></help>
+        <label><!-- Admin Email --></label>
+        <name>inscor__Admin_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allow SN in receiving when not serialize --></label>
+        <name>inscor__Allow_SN_in_receiving_when_not_serialize__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auto Create PNs for Data Service Quotes? --></label>
+        <name>inscor__Auto_Create_PNs_for_Data_Service_Quotes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the Non-Inventory Part Master to be used for defaulting when using the Exchange Bill Core Outright feature --></help>
+        <label><!-- Bill Core/Outright --></label>
+        <name>inscor__Bill_Core_Outright__c</name>
+        <relationshipLabel><!-- Companies (Bill Core/Outright) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Select the Non-Inventory Part Master to be used for defaulting when using the Exchange Bill Core Repair feature --></help>
+        <label><!-- Bill Core Repair --></label>
+        <name>inscor__Bill_Core_Repair__c</name>
+        <relationshipLabel><!-- Companies --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cert SITA/Wire Code --></label>
+        <name>inscor__Cert_SITA_Wire_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cert Status --></label>
+        <name>inscor__Cert_Status__c</name>
+        <picklistValues>
+            <masterLabel>FAA Certificated Individual (State Type)</masterLabel>
+            <translation><!-- FAA Certificated Individual (State Type) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foreign Certificated Air Carrier</masterLabel>
+            <translation><!-- Foreign Certificated Air Carrier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foreign Manufacturer</masterLabel>
+            <translation><!-- Foreign Manufacturer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manufactured to an established U.S. Specification</masterLabel>
+            <translation><!-- Manufactured to an established U.S. Specification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Parts Distributor</masterLabel>
+            <translation><!-- New Parts Distributor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other (Specify)</masterLabel>
+            <translation><!-- Other (Specify) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parts Broker (New Used or Surplus Parts)</masterLabel>
+            <translation><!-- Parts Broker (New Used or Surplus Parts) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parts Manufacturing Authority</masterLabel>
+            <translation><!-- Parts Manufacturing Authority --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Production Certificate Holder</masterLabel>
+            <translation><!-- Production Certificate Holder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair Station (Domestic or Foreign)</masterLabel>
+            <translation><!-- Repair Station (Domestic or Foreign) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplemental Type Certificate Holder</masterLabel>
+            <translation><!-- Supplemental Type Certificate Holder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Surplus Parts Supplier</masterLabel>
+            <translation><!-- Surplus Parts Supplier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical Standard Order Holder</masterLabel>
+            <translation><!-- Technical Standard Order Holder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Type Certificate Holder</masterLabel>
+            <translation><!-- Type Certificate Holder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U.S. Certificated Air Carrier</masterLabel>
+            <translation><!-- U.S. Certificated Air Carrier --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>inscor__City__c</name>
+    </fields>
+    <fields>
+        <label><!-- TA Cleanup Setting --></label>
+        <name>inscor__Cleanup_Type__c</name>
+        <picklistValues>
+            <masterLabel>Delete all TA records older than X days</masterLabel>
+            <translation><!-- Delete all TA records older than X days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Don&apos;t delete anything</masterLabel>
+            <translation><!-- Don&apos;t delete anything --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Only delete completed records</masterLabel>
+            <translation><!-- Only delete completed records --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Company CAGE Code --></label>
+        <name>inscor__Company_CAGE_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Name --></label>
+        <name>inscor__Company_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Email for TA Archive Files --></label>
+        <name>inscor__Contact_Email_for_TA_Archive_Files__c</name>
+        <relationshipLabel><!-- Companies --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>inscor__Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Account 360 Metric Cache Age --></label>
+        <name>inscor__Default_Account_360_Metric_Cache_Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Accounts Payable Account --></label>
+        <name>inscor__Default_Accounts_Payable_Account__c</name>
+        <relationshipLabel><!-- Companies (Default Accounts Payable Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Default Accounts Receivable Account --></label>
+        <name>inscor__Default_Accounts_Receivable_Account__c</name>
+        <relationshipLabel><!-- Companies --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Default Adjustment Account --></label>
+        <name>inscor__Default_Adjustment_Account__c</name>
+        <relationshipLabel><!-- Companies (Default Adjustment Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Default Consignor Payable Account --></label>
+        <name>inscor__Default_Consignor_Payable_Account__c</name>
+        <relationshipLabel><!-- Companies (Default Consignor Payable Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Default Exchange Core Repair Account --></label>
+        <name>inscor__Default_Exchange_Core_Repair_Account__c</name>
+        <relationshipLabel><!-- Companies (Default Exchange Core Repair Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Default Expense Account-Acq --></label>
+        <name>inscor__Default_Expense_Account_Acq__c</name>
+        <relationshipLabel><!-- Companies (Default Expense Account-Acq) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Default Expense Account-Rep --></label>
+        <name>inscor__Default_Expense_Account_Rep__c</name>
+        <relationshipLabel><!-- Companies (Default Expense Account-Rep) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Default Freight Expense Account --></label>
+        <name>inscor__Default_Freight_Expense_Account__c</name>
+        <relationshipLabel><!-- Companies (Default Freight Expense Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Default Inventory Account-Acq --></label>
+        <name>inscor__Default_Inventory_Account_Acq__c</name>
+        <relationshipLabel><!-- Companies (Default Inventory Account-Acq) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Default Inventory Account-Rep --></label>
+        <name>inscor__Default_Inventory_Account_Rep__c</name>
+        <relationshipLabel><!-- Companies (Default Inventory Account-Rep) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Fill in default condition code to be used for representative inventory line to carry the LOT cost. --></help>
+        <label><!-- Default LOT Condition Code --></label>
+        <name>inscor__Default_LOT_Condition_Code__c</name>
+        <relationshipLabel><!-- Companies --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Fill in default location to be used for representative inventory line to carry the LOT cost. --></help>
+        <label><!-- Default LOT Location --></label>
+        <name>inscor__Default_LOT_Location__c</name>
+        <relationshipLabel><!-- Companies --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Fill in default part number to be used for representative inventory line to carry the LOT cost. --></help>
+        <label><!-- Default LOT PN --></label>
+        <name>inscor__Default_LOT_PN__c</name>
+        <relationshipLabel><!-- Companies (Default LOT PN) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Fill in default warehouse to be used for representative inventory line to carry the LOT cost. --></help>
+        <label><!-- Default LOT Warehouse --></label>
+        <name>inscor__Default_LOT_Warehouse__c</name>
+        <relationshipLabel><!-- Companies --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Default Lease COGS Account --></label>
+        <name>inscor__Default_Lease_COGS_Account__c</name>
+        <relationshipLabel><!-- Companies (Default Lease COGS Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Default Lease Part Writedown % --></label>
+        <name>inscor__Default_Lease_Part_Writedown__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Lease Revenue Account --></label>
+        <name>inscor__Default_Lease_Revenue_Account__c</name>
+        <relationshipLabel><!-- Companies (Default Lease Revenue Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This is the default number of days that the part 360 metrics will use the cached data rather than recalculate. Note: This setting can have a major impact on performance and transaction counts --></help>
+        <label><!-- Default Part 360 Metric Cache Age --></label>
+        <name>inscor__Default_Part_360_Metric_Cache_Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Revenue Account --></label>
+        <name>inscor__Default_Revenue_Account__c</name>
+        <relationshipLabel><!-- Companies (Default Revenue Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Default Unbilled Expense Account --></label>
+        <name>inscor__Default_Unbilled_Expense_Account__c</name>
+        <relationshipLabel><!-- Companies (Default Unbilled Expense Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Designate a GL Account to be used for variances during vouchering of Vendor Invoices --></help>
+        <label><!-- Default Voucher Variance Account --></label>
+        <name>inscor__Default_Voucher_Variance_Account__c</name>
+        <relationshipLabel><!-- Companies (Default Voucher Variance Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Default Vouchers Payable Account --></label>
+        <name>inscor__Default_Vouchers_Payable_Account__c</name>
+        <relationshipLabel><!-- Companies (Default Vouchers Payable Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Default WO COGS Account --></label>
+        <name>inscor__Default_WO_COGS_Account__c</name>
+        <relationshipLabel><!-- Companies (WO COGS Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Default WO Finished Goods Account --></label>
+        <name>inscor__Default_WO_Finished_Goods_Account__c</name>
+        <relationshipLabel><!-- Companies (WO Finished Goods Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Default WO Labor Account --></label>
+        <name>inscor__Default_WO_Labor_Account__c</name>
+        <relationshipLabel><!-- Companies (WO Labor Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Default WO Revenue Account --></label>
+        <name>inscor__Default_WO_Revenue_Account__c</name>
+        <relationshipLabel><!-- Companies (WO Revenue Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Default WO WIP Labor Account --></label>
+        <name>inscor__Default_WO_WIP_Labor_Account__c</name>
+        <relationshipLabel><!-- Companies (WO WIP Labor Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Default WO WIP Misc Charge Account --></label>
+        <name>inscor__Default_WO_WIP_Misc_Charge_Account__c</name>
+        <relationshipLabel><!-- Companies (WO WIP Misc Charge Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Default WO WIP Parts Account --></label>
+        <name>inscor__Default_WO_WIP_Parts_Account__c</name>
+        <relationshipLabel><!-- Companies (WO WIP Parts Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- EASA # --></label>
+        <name>inscor__EASA_Num__c</name>
+    </fields>
+    <fields>
+        <label><!-- Early Delivery Threshold --></label>
+        <name>inscor__Early_Delivery_Threshold__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Autoprice Flow for CQ? --></label>
+        <name>inscor__Enable_Autoprice_Flow_for_CQ__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Autoprice Flow for PO? --></label>
+        <name>inscor__Enable_Autoprice_Flow_for_PO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Early Delivery Warning --></label>
+        <name>inscor__Enable_Early_Delivery_Warning__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exchange Part Writedown % --></label>
+        <name>inscor__Exchange_Part_Writedown__c</name>
+    </fields>
+    <fields>
+        <label><!-- Export Control Logic --></label>
+        <name>inscor__Export_Control_Logic__c</name>
+        <picklistValues>
+            <masterLabel>All True</masterLabel>
+            <translation><!-- All True --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Any True</masterLabel>
+            <translation><!-- Any True --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used for creation of 8130-3 in WO module. --></help>
+        <label><!-- FAA CRS# --></label>
+        <name>inscor__FAA_CRS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address1 --></label>
+        <name>inscor__FO_Address1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address2 --></label>
+        <name>inscor__FO_Address2__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>inscor__FO_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Name --></label>
+        <name>inscor__FO_Company_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>inscor__FO_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fax --></label>
+        <name>inscor__FO_Fax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Logo --></label>
+        <name>inscor__FO_Logo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone --></label>
+        <name>inscor__FO_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>inscor__FO_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Website --></label>
+        <name>inscor__FO_Website__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zip Code --></label>
+        <name>inscor__FO_Zip_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fax Number --></label>
+        <name>inscor__Fax_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Govgistics Default Condition Code --></label>
+        <name>inscor__Govgistics_Default_Condition_Code__c</name>
+        <relationshipLabel><!-- Companies (Govgistics Default Condition Code) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Govgistics Frequency --></label>
+        <name>inscor__Govgistics_Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Daily</masterLabel>
+            <translation><!-- Daily --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Use &apos;White&apos; or &apos;Black&apos; to contrast Header Color or hex code will also be accepted. --></help>
+        <label><!-- Header Font Color --></label>
+        <name>inscor__Header_Font_Color__c</name>
+    </fields>
+    <fields>
+        <label><!-- ILS Client ID --></label>
+        <name>inscor__ILS_Client_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- ILS - Include Alternates --></label>
+        <name>inscor__ILS_Include_Alternates__c</name>
+    </fields>
+    <fields>
+        <label><!-- ILS RFQ Pull Schedule --></label>
+        <name>inscor__ILS_RFQ_Pull_Schedule__c</name>
+        <picklistValues>
+            <masterLabel>Every 15 Min</masterLabel>
+            <translation><!-- Every 15 Min --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Every Half Hour</masterLabel>
+            <translation><!-- Every Half Hour --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Every Hour</masterLabel>
+            <translation><!-- Every Hour --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ILS Schedule --></label>
+        <name>inscor__ILS_Schedule__c</name>
+        <picklistValues>
+            <masterLabel>Nightly</masterLabel>
+            <translation><!-- Nightly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation><!-- Weekly --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Include Secondary in PR Summary? --></label>
+        <name>inscor__Include_Secondary_in_PR_Summary__c</name>
+    </fields>
+    <fields>
+        <help><!-- Set the time for the invoices to be sent out --></help>
+        <label><!-- Invoice Auto Send Time --></label>
+        <name>inscor__Invoice_Auto_Send_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Issue Part Validation --></label>
+        <name>inscor__Issue_Part_Validation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Late Delivery Threshold --></label>
+        <name>inscor__Late_Delivery_Threshold__c</name>
+    </fields>
+    <fields>
+        <label><!-- Load Open Manifests --></label>
+        <name>inscor__Load_Open_Manifests__c</name>
+    </fields>
+    <fields>
+        <label><!-- Load Open PO&apos;s --></label>
+        <name>inscor__Load_Open_POs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Load Open RO&apos;s --></label>
+        <name>inscor__Load_Open_ROs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Load on Exchange --></label>
+        <name>inscor__Load_on_Exchange__c</name>
+    </fields>
+    <fields>
+        <label><!-- Logo --></label>
+        <name>inscor__Logo__c</name>
+    </fields>
+    <fields>
+        <help><!-- This setting limits the number of metrics calculated each time the process runs. The oldest metrics will run first. --></help>
+        <label><!-- Max # of Metrics calculated per day --></label>
+        <name>inscor__Max_of_Metrics_calculated_per_day__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nightly Data Load --></label>
+        <name>inscor__Nightly_Data_Load__c</name>
+        <picklistValues>
+            <masterLabel>ILS-Automatic</masterLabel>
+            <translation><!-- ILS-Automatic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ILS-Manual</masterLabel>
+            <translation><!-- ILS-Manual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partsbase-Automatic</masterLabel>
+            <translation><!-- Partsbase-Automatic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partsbase-Manual</masterLabel>
+            <translation><!-- Partsbase-Manual --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- When Deleting, Always Keep Last X Days --></label>
+        <name>inscor__Number_of_days__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN Default CQ Approved --></label>
+        <name>inscor__PN_Default_CQ_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN Default Lease Approved --></label>
+        <name>inscor__PN_Default_Lease_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN Default PO Approved --></label>
+        <name>inscor__PN_Default_PO_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN Default RFQ Approved --></label>
+        <name>inscor__PN_Default_RFQ_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN Default RO Approved --></label>
+        <name>inscor__PN_Default_RO_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN Default SO Approved --></label>
+        <name>inscor__PN_Default_SO_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN Default WO Approved --></label>
+        <name>inscor__PN_Default_WO_Approved__c</name>
+    </fields>
+    <fields>
+        <help><!-- This setting (in days) determines how often the Part360 metrics are calculated. --></help>
+        <label><!-- Part 360 Calculation Process Frequency --></label>
+        <name>inscor__Part_360_Calculation_Process_Frequency__c</name>
+    </fields>
+    <fields>
+        <label><!-- PartsBase Inv File Additional Fields --></label>
+        <name>inscor__PartsBase_Inv_File_Additional_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- PartsBase RFQ Pull Schedule --></label>
+        <name>inscor__PartsBase_RFQ_Pull_Schedule__c</name>
+        <picklistValues>
+            <masterLabel>Every 15 Min</masterLabel>
+            <translation><!-- Every 15 Min --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Every Half Hour</masterLabel>
+            <translation><!-- Every Half Hour --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Every Hour</masterLabel>
+            <translation><!-- Every Hour --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Partsbase Schedule --></label>
+        <name>inscor__Partsbase_Schedule__c</name>
+        <picklistValues>
+            <masterLabel>Nightly</masterLabel>
+            <translation><!-- Nightly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation><!-- Weekly --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Phone Number --></label>
+        <name>inscor__Phone_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Price Held Firm Time (in days) --></help>
+        <label><!-- Price Held Firm Time --></label>
+        <name>inscor__Price_Held_Firm_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Receiving TechData Fields --></label>
+        <name>inscor__Receiving_TechData_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- SO Tracking Default Enabled? --></label>
+        <name>inscor__SO_Tracking_Default_Enabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Freight --></label>
+        <name>inscor__Shipping_Freight__c</name>
+        <relationshipLabel><!-- Companies (Shipping Freight) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Show Conversion Tag Agency in Receiving? --></label>
+        <name>inscor__Show_Conversion_Tag_Agency_in_Receiving__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show PN Comments on PR? --></label>
+        <name>inscor__Show_PN_Comments_on_PR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Receiving Barcode Feature? --></label>
+        <name>inscor__Show_Receiving_Barcode_Feature__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>inscor__State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stock IQ Schedule --></label>
+        <name>inscor__Stock_IQ_Schedule__c</name>
+        <picklistValues>
+            <masterLabel>Nightly</masterLabel>
+            <translation><!-- Nightly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation><!-- Weekly --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Use Conversion Tag Agency on Certs? --></label>
+        <name>inscor__Use_Conversion_Tag_Agency_on_Certs__c</name>
+    </fields>
+    <fields>
+        <help><!-- Variance limits are normally for both increases and reductions, apply this setting if only increases should be validated and reduced invoices are allowed at any level. --></help>
+        <label><!-- Vouchering Variance-Increases Only? --></label>
+        <name>inscor__Vouchering_Variance_Increases_Only__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the maximum allowed total variance allowed by accounting for a PO or RO vendor invoice. Vouchering an invoice of a different amount is limited to the lesser of the maximum percentage or the maximum amount. --></help>
+        <label><!-- Vouchering Variance-Maximum Amount --></label>
+        <name>inscor__Vouchering_Variance_Maximum_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the maximum amount calculated by percentage of the total being paid for a PO or RO vendor invoice. Vouchering an invoice of a different amount is limited to the lesser of the maximum percentage or the maximum amount. --></help>
+        <label><!-- Vouchering Variance-Maximum % --></label>
+        <name>inscor__Vouchering_Variance_Maximum__c</name>
+    </fields>
+    <fields>
+        <label><!-- Website --></label>
+        <name>inscor__Website__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zip Code --></label>
+        <name>inscor__Zip_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- Use Hex Code for the background color to be used on the forms. --></help>
+        <label><!-- Header Color --></label>
+        <name>inscor__header_color__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auto Post --></label>
+        <name>inscoras__Auto_Post__c</name>
+        <picklistValues>
+            <masterLabel>Billings</masterLabel>
+            <translation><!-- Billings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Journal Entries</masterLabel>
+            <translation><!-- Journal Entries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payables</masterLabel>
+            <translation><!-- Payables --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Default GL Variable 1 --></label>
+        <name>inscoras__Default_GL_Variable_1__c</name>
+        <relationshipLabel><!-- Companies --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Default GL Variable 2 --></label>
+        <name>inscoras__Default_GL_Variable_2__c</name>
+        <relationshipLabel><!-- Companies (Default GL Variable 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Default GL Variable 3 --></label>
+        <name>inscoras__Default_GL_Variable_3__c</name>
+        <relationshipLabel><!-- Companies (Default GL Variable 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Default GL Variable 4 --></label>
+        <name>inscoras__Default_GL_Variable_4__c</name>
+        <relationshipLabel><!-- Companies (Default GL Variable 4) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Default Ledger --></label>
+        <name>inscoras__Default_Ledger__c</name>
+        <relationshipLabel><!-- Companies --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Company Layout v4</layout>
+        <sections>
+            <label><!-- AEX Defaults --></label>
+            <section>AEX Defaults</section>
+        </sections>
+        <sections>
+            <label><!-- Approval Settings --></label>
+            <section>Approval Settings</section>
+        </sections>
+        <sections>
+            <label><!-- Company Information --></label>
+            <section>Company Information</section>
+        </sections>
+        <sections>
+            <label><!-- Data Service Settings --></label>
+            <section>Data Service Settings</section>
+        </sections>
+        <sections>
+            <label><!-- Default Part Numbers --></label>
+            <section>Default Part Numbers</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Information --></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label><!-- Form Option Settings --></label>
+            <section>Form Option Settings</section>
+        </sections>
+        <sections>
+            <label><!-- GL Accounts --></label>
+            <section>GL Accounts</section>
+        </sections>
+        <sections>
+            <label><!-- Leasing Settings --></label>
+            <section>Leasing Settings</section>
+        </sections>
+        <sections>
+            <label><!-- Misc Settings --></label>
+            <section>Misc Settings</section>
+        </sections>
+        <sections>
+            <label><!-- Operations Settings --></label>
+            <section>Operations Settings</section>
+        </sections>
+        <sections>
+            <label><!-- Org Cleanup Settings --></label>
+            <section>Org Cleanup Settings</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- Part Metrics Settings --></label>
+            <section>Part Metrics Settings</section>
+        </sections>
+        <sections>
+            <label><!-- WO GL Accounts --></label>
+            <section>WO GL Accounts</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- “Vouchering Variance-Increases Only?” is only allowed when “Vouchering Variance-Maximum %” and “Vouchering Variance-Maximum Amount” entered. --></errorMessage>
+        <name>inscor__Allow_Vouchering_Variance_Increases_Only</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cancel Shipment needs TA records to exist to create the offsetting records so we can never delete recent records --></errorMessage>
+        <name>inscor__Keep_Last_x_Days_of_TAs_must_be_gt_30</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Data_Service_Setup --></label>
+        <name>inscor__Data_Service_Setup</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Recalculate_Sharing_Rule --></label>
+        <name>inscor__Recalculate_Sharing_Rule</name>
+    </webLinks>
+</CustomObjectTranslation>

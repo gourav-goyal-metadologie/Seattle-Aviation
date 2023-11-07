@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Related Customer or Vendor --></help>
+        <label><!-- Account --></label>
+        <name>AcctSeed__Account2__c</name>
+        <relationshipLabel><!-- Amortization Entries --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Reference to a related Payable. --></help>
+        <label><!-- Payable --></label>
+        <name>AcctSeed__Account_Payable__c</name>
+        <relationshipLabel><!-- Amortized Expense --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The account on the project associated with this record. --></help>
+        <label><!-- Project Account --></label>
+        <name>AcctSeed__Account__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used to specify accounting period for financial reporting. --></help>
+        <label><!-- Accounting  Period --></label>
+        <name>AcctSeed__Accounting_Period__c</name>
+        <relationshipLabel><!-- Amortization Entries --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Amount of Amortized Revenue or Expense. Currency field. Values should be positive. --></help>
+        <label><!-- Amount --></label>
+        <name>AcctSeed__Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Reference to a related Billing. --></help>
+        <label><!-- Billing --></label>
+        <name>AcctSeed__Billing__c</name>
+        <relationshipLabel><!-- Amortized Revenue --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Upon posting a credit entry will be made to this GL account. --></help>
+        <label><!-- Credit GL Account --></label>
+        <name>AcctSeed__Credit_GL_Account__c</name>
+        <relationshipLabel><!-- Amortization Entries (Credit GL Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Upon posting a debit entry will be made to this GL account. --></help>
+        <label><!-- Debit GL Account --></label>
+        <name>AcctSeed__Debit_GL_Account__c</name>
+        <relationshipLabel><!-- Amortization Entries (Debit GL Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Used to capture any external source document identifier or description. --></help>
+        <label><!-- Description --></label>
+        <name>AcctSeed__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Reference to a related Fixed Asset. --></help>
+        <label><!-- Fixed Asset --></label>
+        <name>AcctSeed__Fixed_Asset__c</name>
+        <relationshipLabel><!-- Amortization Entries --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- General Ledger segment used for reporting of a business unit such as division or department. --></help>
+        <label><!-- GL Variable 1 --></label>
+        <lookupFilter>
+            <errorMessage><!-- The Accounting Variable must have a Type of &quot;GL Account Variable 1&quot;. --></errorMessage>
+        </lookupFilter>
+        <name>AcctSeed__GL_Account_Variable_1__c</name>
+        <relationshipLabel><!-- Amortization Entries (GL Account Variable 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- General Ledger segment used for reporting of a business unit such as division or department. --></help>
+        <label><!-- GL Variable 2 --></label>
+        <lookupFilter>
+            <errorMessage><!-- The Accounting Variable must have a Type of &quot;GL Account Variable 2&quot;. --></errorMessage>
+        </lookupFilter>
+        <name>AcctSeed__GL_Account_Variable_2__c</name>
+        <relationshipLabel><!-- Amortization Entries (GL Account Variable 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- General Ledger segment used for reporting of a business unit such as division or department. --></help>
+        <label><!-- GL Variable 3 --></label>
+        <lookupFilter>
+            <errorMessage><!-- The Accounting Variable must have a Type of &quot;GL Account Variable 3&quot;. --></errorMessage>
+        </lookupFilter>
+        <name>AcctSeed__GL_Account_Variable_3__c</name>
+        <relationshipLabel><!-- Amortization Entries (GL Account Variable 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- General Ledger segment used for reporting of a business unit such as division or department. --></help>
+        <label><!-- GL Variable 4 --></label>
+        <name>AcctSeed__GL_Account_Variable_4__c</name>
+        <relationshipLabel><!-- Amortization Entries (GL Account Variable 4) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Denotes the associated ledger. --></help>
+        <label><!-- Ledger --></label>
+        <name>AcctSeed__Ledger__c</name>
+        <relationshipLabel><!-- Amortization Entries --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Related Product. --></help>
+        <label><!-- Product --></label>
+        <name>AcctSeed__Product__c</name>
+        <relationshipLabel><!-- Amortization Entries --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Used to track a detailed component of Project. --></help>
+        <label><!-- Project Task --></label>
+        <name>AcctSeed__Project_Task__c</name>
+        <relationshipLabel><!-- Amortization Entries --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Typically used to track customer engagements or events. --></help>
+        <label><!-- Project --></label>
+        <name>AcctSeed__Project__c</name>
+        <relationshipLabel><!-- Amortization Entries --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Quantity for Product Pricing, Hours for Service pricing or costing. --></help>
+        <label><!-- Quantity --></label>
+        <name>AcctSeed__Quantity__c</name>
+    </fields>
+    <fields>
+        <help><!-- A value of &quot;Posted&quot; indicates the record is final. --></help>
+        <label><!-- Posting Status --></label>
+        <name>AcctSeed__Status__c</name>
+        <picklistValues>
+            <masterLabel>Scheduled</masterLabel>
+            <translation><!-- Scheduled --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>SAS Amortization Entry Layout</layout>
+        <sections>
+            <label><!-- Accounting Information --></label>
+            <section>Accounting Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Related Transactions --></label>
+            <section>Related Transactions</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Scheduled Revenue Layout</layout>
+        <sections>
+            <label><!-- Accounting Information --></label>
+            <section>Accounting Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Related Transactions --></label>
+            <section>Related Transactions</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- The amount must be positive. --></errorMessage>
+        <name>AcctSeed__Amount_Must_be_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A Project Task is required if a Project is selected. --></errorMessage>
+        <name>AcctSeed__Project_Task_Required_With_Project</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Delete --></label>
+        <name>AcctSeed__Delete</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Post --></label>
+        <name>AcctSeed__Post</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Post_Detail --></label>
+        <name>AcctSeed__Post_Detail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Unpost --></label>
+        <name>AcctSeed__Unpost</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Unpost_Detail --></label>
+        <name>AcctSeed__Unpost_Detail</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- General Sub Task --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- General Sub Task --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- General Sub Task --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- General Sub Task --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- General Sub Task --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- General Sub Task --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- General Sub Task --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- General Sub Task --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Audit Adhoc Actions --></label>
+        <name>QPMS__Audit_Adhoc_Actions</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CAPA Adhoc --></label>
+        <name>QPMS__CAPA_Adhoc</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CAPA Implementation --></label>
+        <name>QPMS__CAPA_Implementation</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CAPA Implementation Sub Section --></label>
+        <name>QPMS__CAPA_Implementation_Sub_Section</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CAPA Investigation --></label>
+        <name>QPMS__CAPA_Investigation</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CAPA VerificationPlan --></label>
+        <name>QPMS__CAPA_VerificationPlan</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CR AdhocTask --></label>
+        <name>QPMS__CR_AdhocTask</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CR Functional Task --></label>
+        <name>QPMS__CR_Functional_Task</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Contextualhelp for NC functional task --></label>
+        <name>QPMS__Contextualhelp_for_NC_functional_task</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Dispositioncontextualhelp --></label>
+        <name>QPMS__Dispositioncontextualhelp</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Dispositionfieldscontextualhelp --></label>
+        <name>QPMS__Dispositionfieldscontextualhelp</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- GeneralSubTaskAudit --></label>
+        <name>QPMS__GeneralSubTaskAudit</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Implementation --></label>
+        <name>QPMS__Implementation</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Implementation Sub Section --></label>
+        <name>QPMS__Implementation_Sub_Section</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Investigationcontextualhelpdynamic --></label>
+        <name>QPMS__Investigationcontextualhelpdynamic</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- NC AdhocTask --></label>
+        <name>QPMS__NC_AdhocTask</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- NC Containment --></label>
+        <name>QPMS__NC_Containment</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- NC Functional Task --></label>
+        <name>QPMS__NC_Functional_Task</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- RootCause --></label>
+        <name>QPMS__NC_Investigation</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Observation ActionPlan --></label>
+        <name>QPMS__Observation_ActionPlan</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Observation ActionPlan Subsection --></label>
+        <name>QPMS__Observation_ActionPlan_Subsection</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Observation Adhoc Actions --></label>
+        <name>QPMS__Observation_Adhoc_Actions</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Observation ResponceTask --></label>
+        <name>QPMS__Observation_ResponceTask</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Observation RootCause --></label>
+        <name>QPMS__Observation_RootCause</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- adhocsubtaskcontextual --></label>
+        <name>QPMS__adhocsubtaskcontextual</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- contextualhelpcontainment --></label>
+        <name>QPMS__contextualhelpcontainment</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- effectivenesscontextualhelpplanstamnt --></label>
+        <name>QPMS__effectivenesscontextualhelpplanstamnt</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- implementationContextualhelp --></label>
+        <name>QPMS__implementationContextualhelp</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- investigationcontextualhelpmoreinfo --></label>
+        <name>QPMS__investigationcontextualhelpmoreinfo</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Action Plan Status --></label>
+        <name>QPMS__Action_Plan_Status__c</name>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skipped</masterLabel>
+            <translation><!-- Skipped --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Void</masterLabel>
+            <translation><!-- Void --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Against --></label>
+        <name>QPMS__Against__c</name>
+        <picklistValues>
+            <masterLabel>Process</masterLabel>
+            <translation><!-- Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation><!-- Product --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Age --></label>
+        <name>QPMS__Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Completed --></label>
+        <name>QPMS__Approval_Completed__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Assigned User --></label>
+        <name>QPMS__Assign_User__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Disposed Quantity --></label>
+        <name>QPMS__Assigned_Disposition_Qty__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned Role --></label>
+        <name>QPMS__Assigned_Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned User --></label>
+        <name>QPMS__Assigned_User__c</name>
+        <relationshipLabel><!-- General Sub Tasks (Assigned User) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Associated Root Cause Name --></label>
+        <name>QPMS__Associated_Root_Cause_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Associated Root Causes --></label>
+        <name>QPMS__Associated_Root_Causes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Audit --></label>
+        <name>QPMS__Audit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Capa --></label>
+        <name>QPMS__Capa__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cause Code Description --></label>
+        <name>QPMS__Cause_Code_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cause Code Name --></label>
+        <name>QPMS__Cause_Code_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cause Code Search --></label>
+        <name>QPMS__Cause_Code_Search__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cause Code --></label>
+        <name>QPMS__Cause_Code__c</name>
+        <relationshipLabel><!-- Root Causes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Change Management --></label>
+        <name>QPMS__Change_Management__c</name>
+    </fields>
+    <fields>
+        <label><!-- Closed Date --></label>
+        <name>QPMS__Closed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completed? --></label>
+        <name>QPMS__Complete__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Completed By --></label>
+        <name>QPMS__Completed_By_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completed By --></label>
+        <name>QPMS__Completed_By__c</name>
+        <relationshipLabel><!-- General Sub Tasks (Completed By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Completed Date --></label>
+        <name>QPMS__Completed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completed --></label>
+        <name>QPMS__Completed__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skipped</masterLabel>
+            <translation><!-- Skipped --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Completion Comment --></label>
+        <name>QPMS__Completion_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completion Comments --></label>
+        <name>QPMS__Completion_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Correction Statement --></label>
+        <name>QPMS__Correction_Statement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost --></label>
+        <name>QPMS__Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Defect Description --></label>
+        <name>QPMS__Defect_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Defect --></label>
+        <name>QPMS__Defect_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Defect --></label>
+        <name>QPMS__Defect__c</name>
+        <relationshipLabel><!-- Root Causes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>QPMS__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disposition Instruction --></label>
+        <name>QPMS__Disposition_Instruction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disposition Type Status --></label>
+        <name>QPMS__Disposition_Type_Status__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Void</masterLabel>
+            <translation><!-- Void --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Disposition Type --></label>
+        <name>QPMS__Disposition_Type__c</name>
+        <picklistValues>
+            <masterLabel>REWORK</masterLabel>
+            <translation><!-- REWORK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RTV</masterLabel>
+            <translation><!-- RTV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCRAP</masterLabel>
+            <translation><!-- SCRAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USE AS IS</masterLabel>
+            <translation><!-- USE AS IS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Due Date --></label>
+        <name>QPMS__Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- General Task Name --></label>
+        <name>QPMS__General_Task_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- General Task --></label>
+        <name>QPMS__General_Task__c</name>
+        <relationshipLabel><!-- General Sub Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Initiating Site --></label>
+        <name>QPMS__Initiating_Site__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non Conformance Number --></label>
+        <name>QPMS__Non_Conformance_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non Conformance Owner --></label>
+        <name>QPMS__Non_Conformance_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non-Conformance --></label>
+        <name>QPMS__Non_Conformance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Observation --></label>
+        <name>QPMS__Observation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Task --></label>
+        <name>QPMS__Parent_Task__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pend Save ActionPlan --></label>
+        <name>QPMS__Pend_Save_ActionPlan__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Plan Statement --></label>
+        <name>QPMS__Plan_Statement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process --></label>
+        <name>QPMS__Process_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process --></label>
+        <name>QPMS__Process__c</name>
+        <relationshipLabel><!-- Root Causes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>QPMS__Product_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>QPMS__Product__c</name>
+        <relationshipLabel><!-- Root Causes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Queue --></label>
+        <name>QPMS__Queue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Statement --></label>
+        <name>QPMS__Statement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Details --></label>
+        <name>QPMS__Sub_Task_Detail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submit WithOut Approval --></label>
+        <name>QPMS__Submit_WithOut_Approval__c</name>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>QPMS__Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>QPMS__Type__c</name>
+        <picklistValues>
+            <masterLabel>Correction</masterLabel>
+            <translation><!-- Correction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corrective</masterLabel>
+            <translation><!-- Corrective --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preventive</masterLabel>
+            <translation><!-- Preventive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Risk Based</masterLabel>
+            <translation><!-- Risk Based --></translation>
+        </picklistValues>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <layouts>
+        <layout>General Sub Task Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- General Sub Task Name --></nameFieldLabel>
+    <recordTypes>
+        <label><!-- Action Plan --></label>
+        <name>QPMS__Action_Plan</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- AdhocTask Actions --></label>
+        <name>QPMS__AdhocTask_Actions</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Child task for Containment --></description>
+        <label><!-- Containment Actions --></label>
+        <name>QPMS__Containment_Actions</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Disposition Section --></label>
+        <name>QPMS__Disposition_Section</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Root Cause --></label>
+        <name>QPMS__Root_Cause</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Verification Plans --></label>
+        <name>QPMS__Verification_Plans</name>
+    </recordTypes>
+</CustomObjectTranslation>

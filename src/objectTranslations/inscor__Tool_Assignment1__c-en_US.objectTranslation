@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Checked In --></label>
+        <name>inscor__Date_Checked_In__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Checked Out --></label>
+        <name>inscor__Date_Checked_Out__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee --></label>
+        <name>inscor__Employee__c</name>
+        <relationshipLabel><!-- Tool Assignments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inventory --></label>
+        <name>inscor__Inventory__c</name>
+        <relationshipLabel><!-- Tool Assignments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Last Calibration Date --></label>
+        <name>inscor__Last_Calibration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Inspection Date --></label>
+        <name>inscor__Last_Inspection_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Multiplies the Tool Assignment Quantity Requested by the quantity of the kits to be built when this template is applied to a Work Order. --></help>
+        <label><!-- Multiply by WO Qty? --></label>
+        <name>inscor__Multiply_by_WO_Qty__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Calibration Date --></label>
+        <name>inscor__Next_Calibration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Inspection Date --></label>
+        <name>inscor__Next_Inspection_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part Master --></label>
+        <lookupFilter>
+            <errorMessage><!-- Selected Part must be marked as Tool. --></errorMessage>
+        </lookupFilter>
+        <name>inscor__Part_Master__c</name>
+        <relationshipLabel><!-- Tool Assignments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Qty Assigned --></label>
+        <name>inscor__Qty_Assigned__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Requested --></label>
+        <name>inscor__Quantity_Requested__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Reserved --></label>
+        <name>inscor__Quantity_Reserved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Returned --></label>
+        <name>inscor__Quantity_Returned__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Order Task --></label>
+        <name>inscor__Work_Order_Task__c</name>
+        <relationshipLabel><!-- Tool Assignments --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>AvSight Tool Assignment Layout</layout>
+        <sections>
+            <label><!-- Calibration and Inspection --></label>
+            <section>Calibration and Inspection</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- Tool Assignment Information --></label>
+            <section>Tool Assignment Information</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Tool cannot be allocated as calibration date has passed. --></errorMessage>
+        <name>inscor__Restrict_For_Out_Of_Date_Calib</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Tool cannot be allocated as inspection date has passed. --></errorMessage>
+        <name>inscor__Restrict_For_Out_Of_Date_Insp</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Tool cannot be allocated as either inspection or calibration date has passed or &quot;tool?&quot; is not checked on the part master. --></errorMessage>
+        <name>inscor__Restrict_For_Out_Of_Date_Insp_Or_Calib</name>
+    </validationRules>
+</CustomObjectTranslation>

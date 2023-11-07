@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Activity Type --></label>
+        <name>inscor__Activity_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Currency --></label>
+        <name>inscor__Company_Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company --></label>
+        <name>inscor__Company__c</name>
+        <relationshipLabel><!-- Transaction Activity Posting --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Credit --></label>
+        <name>inscor__Credit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency Rate Date --></label>
+        <name>inscor__Currency_Rate_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency Rate --></label>
+        <name>inscor__Currency_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- D/C --></label>
+        <name>inscor__D_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Debit --></label>
+        <name>inscor__Debit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Doc Credit --></label>
+        <name>inscor__Doc_Credit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Doc Currency --></label>
+        <name>inscor__Doc_Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Doc D/C --></label>
+        <name>inscor__Doc_D_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Doc Debit --></label>
+        <name>inscor__Doc_Debit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Doc # --></label>
+        <name>inscor__Doc__c</name>
+    </fields>
+    <fields>
+        <label><!-- GL Account --></label>
+        <name>inscor__GL_Account__c</name>
+        <relationshipLabel><!-- Transaction Activity Posting --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Owner Code --></label>
+        <name>inscor__Owner_Code__c</name>
+        <relationshipLabel><!-- Transaction Activity Posting --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Transaction Activity ID --></label>
+        <name>inscor__Transaction_Activity_ID__c</name>
+        <relationshipLabel><!-- Transaction Activity Posting --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Transaction Activity Posting Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

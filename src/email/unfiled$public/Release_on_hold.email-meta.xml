@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Release On Hold Alert due to Credit Hold</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Release on hold</name>
+    <style>none</style>
+    <subject>Release On Hold {!inscor__Release__c.Name}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

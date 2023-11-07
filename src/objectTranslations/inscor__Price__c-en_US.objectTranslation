@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account Region --></label>
+        <name>inscor__Account_Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Type - RETIRED --></label>
+        <name>inscor__Account_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active? --></label>
+        <name>inscor__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company --></label>
+        <name>inscor__Company__c</name>
+        <relationshipLabel><!-- Prices --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Condition Code --></label>
+        <name>inscor__Condition_Code__c</name>
+        <relationshipLabel><!-- Prices --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Type --></label>
+        <name>inscor__Customer_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Date --></label>
+        <name>inscor__Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective? --></label>
+        <name>inscor__Effective__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead time --></label>
+        <name>inscor__Lead_time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Min Quantity --></label>
+        <name>inscor__Min_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part Master --></label>
+        <name>inscor__Part_Master__c</name>
+        <relationshipLabel><!-- Prices --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Price Type --></label>
+        <name>inscor__Price_Type__c</name>
+        <picklistValues>
+            <masterLabel>Cost Plus</masterLabel>
+            <translation><!-- Cost Plus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flat Rate w/OH Core</masterLabel>
+            <translation><!-- Flat Rate w/OH Core --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flat Rate w/Repairable Core</masterLabel>
+            <translation><!-- Flat Rate w/Repairable Core --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flat Rate w/SV Core</masterLabel>
+            <translation><!-- Flat Rate w/SV Core --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>List</masterLabel>
+            <translation><!-- List --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suggested</masterLabel>
+            <translation><!-- Suggested --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Price --></label>
+        <name>inscor__Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Line --></label>
+        <name>inscor__Product_Line__c</name>
+    </fields>
+    <fields>
+        <label><!-- Segment --></label>
+        <name>inscor__Segment__c</name>
+    </fields>
+    <layouts>
+        <layout>AvSight Price Layout</layout>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- Pricing Applicability --></label>
+            <section>Pricing Applicability</section>
+        </sections>
+        <sections>
+            <label><!-- Pricing Details --></label>
+            <section>Pricing Details</section>
+        </sections>
+        <sections>
+            <label><!-- Pricing Information --></label>
+            <section>Pricing Information</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

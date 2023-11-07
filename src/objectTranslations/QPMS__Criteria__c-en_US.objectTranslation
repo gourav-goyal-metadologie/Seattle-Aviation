@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Asset Profile Transfer Fields --></label>
+        <name>QPMS__Asset_Profile_Transfer_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CSMS Standard Transfer Fields --></label>
+        <name>QPMS__CSMS_Standard_Transfer_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Calibration Transfer Fields --></label>
+        <name>QPMS__Calibration_Transfer_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Criteria Fields --></label>
+        <name>QPMS__Criteria_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Criteria History Fields --></label>
+        <name>QPMS__Criteria_History_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Inspection Standard Transfer fields --></label>
+        <name>QPMS__Inspection_Standard_Transfer_fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Maintenance Transfer Fields --></label>
+        <name>QPMS__Maintenance_Transfer_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QueryFields --></label>
+        <name>QPMS__QueryFields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Active --></label>
+        <name>QPMS__Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- Criteria Type --></help>
+        <label><!-- Criteria Type --></label>
+        <name>QPMS__Criteria_Type__c</name>
+        <picklistValues>
+            <masterLabel>Attribute</masterLabel>
+            <translation><!-- Attribute --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Variable</masterLabel>
+            <translation><!-- Variable --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>QPMS__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Measurement --></help>
+        <label><!-- Measurement --></label>
+        <name>QPMS__Measurement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Severity --></label>
+        <name>QPMS__Severity__c</name>
+        <relationshipLabel><!-- Criterias --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Tolerance_Minus --></help>
+        <label><!-- Tolerance (-) --></label>
+        <name>QPMS__Tolerance_Minus__c</name>
+    </fields>
+    <fields>
+        <help><!-- Tolerance(+) --></help>
+        <label><!-- Tolerance(+) --></label>
+        <name>QPMS__Tolerance_Plus__c</name>
+    </fields>
+    <fields>
+        <help><!-- Unit Of Measurement --></help>
+        <label><!-- UOM --></label>
+        <name>QPMS__UOM__c</name>
+        <picklistValues>
+            <masterLabel>cm</masterLabel>
+            <translation><!-- cm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>g</masterLabel>
+            <translation><!-- g --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>inch</masterLabel>
+            <translation><!-- inch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>kg</masterLabel>
+            <translation><!-- kg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>lbs</masterLabel>
+            <translation><!-- lbs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>m</masterLabel>
+            <translation><!-- m --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>mm</masterLabel>
+            <translation><!-- mm --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Criteria Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Calibration --></description>
+        <label><!-- Calibration --></label>
+        <name>QPMS__Calibration</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Inspection --></description>
+        <label><!-- Inspection --></label>
+        <name>QPMS__Inspection</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Maintenance --></description>
+        <label><!-- Maintenance --></label>
+        <name>QPMS__Maintenance</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- If you want to save Criteria Type Variable For Maintenance you should have Show Maintenance Variable Custom permission. --></errorMessage>
+        <name>QPMS__Maintenance_Criteria_Variable_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Measurement and UOM are Required For Variable Type Criteria. --></errorMessage>
+        <name>QPMS__Measurement_and_UOM_are_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please do not enter + and - symbols for tolerance as it is already mentioned in Field Name --></errorMessage>
+        <name>QPMS__Tolerance_Special_Symbols</name>
+    </validationRules>
+</CustomObjectTranslation>

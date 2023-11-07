@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Assessment Options Template --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Assessment Options Template --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Assessment Options Template --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Assessment Options Template --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Assessment Options Template --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Assessment Options Template --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Assessment Options Template --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Assessment Options Template --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Option template extra fields --></label>
+        <name>QPMS__Option_template_extra_fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- OptionsTemplate --></label>
+        <name>QPMS__OptionsTemplate</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Correct Answer --></label>
+        <name>QPMS__Correct_Answer__c</name>
+        <picklistValues>
+            <masterLabel>Option1</masterLabel>
+            <translation><!-- Option1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Option2</masterLabel>
+            <translation><!-- Option2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Option3</masterLabel>
+            <translation><!-- Option3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Option4</masterLabel>
+            <translation><!-- Option4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Option5</masterLabel>
+            <translation><!-- Option5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ExternalId --></label>
+        <name>QPMS__ExternalId__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Option1 --></label>
+        <name>QPMS__Option1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Option2 --></label>
+        <name>QPMS__Option2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Option3 --></label>
+        <name>QPMS__Option3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Option4 --></label>
+        <name>QPMS__Option4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Option5 --></label>
+        <name>QPMS__Option5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question Number --></label>
+        <name>QPMS__Question_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assessment Questions Template --></label>
+        <name>QPMS__Question__c</name>
+        <relationshipLabel><!-- Assessment Options Templates --></relationshipLabel>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <nameFieldLabel><!-- Assessment Options Template Name --></nameFieldLabel>
+</CustomObjectTranslation>

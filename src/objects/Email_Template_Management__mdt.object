@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Email Template Configuration will be used to create between reference Email templates and Code reference.</description>
+    <fields>
+        <fullName>Email_Template_Name__c</fullName>
+        <description>Name of Email Template</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Name of Email Template</inlineHelpText>
+        <label>Email Template Name</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Email Template Management</label>
+    <pluralLabel>Email Template Management</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

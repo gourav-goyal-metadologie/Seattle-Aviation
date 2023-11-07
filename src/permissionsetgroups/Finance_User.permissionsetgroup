@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Finance User</label>
+    <permissionSets>AcctSeed__AS_View_Only</permissionSets>
+    <permissionSets>AcctSeed__Accounting_Manager</permissionSets>
+    <permissionSets>AcctSeed__Cash_In_Accountant</permissionSets>
+    <permissionSets>AcctSeed__Cash_In_View_Only</permissionSets>
+    <permissionSets>AcctSeed__Cash_Out_Banking</permissionSets>
+    <permissionSets>AvSight_Reporting_User</permissionSets>
+    <permissionSets>inscor__AvSight_AP_User</permissionSets>
+    <permissionSets>inscor__AvSight_AR_User</permissionSets>
+    <permissionSets>inscor__AvSight_Accounts_Basic</permissionSets>
+    <permissionSets>inscor__AvSight_Accounts_User</permissionSets>
+    <permissionSets>inscor__AvSight_RMA_User</permissionSets>
+    <permissionSets>inscor__AvSight_User</permissionSets>
+    <permissionSets>inscor__AvSight_User_Base_Read</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

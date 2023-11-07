@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account --></label>
+        <name>inscor__Account__c</name>
+        <relationshipLabel><!-- Account Engagements --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Company --></label>
+        <name>inscor__Company__c</name>
+        <relationshipLabel><!-- Account Engagements --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>inscor__Contact__c</name>
+        <relationshipLabel><!-- Account Engagements --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>inscor__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee --></label>
+        <name>inscor__Employee__c</name>
+        <relationshipLabel><!-- Account Engagements --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>inscor__End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Followup Actions --></label>
+        <name>inscor__Followup_Actions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purpose --></label>
+        <name>inscor__Purpose__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>inscor__Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Summary --></label>
+        <name>inscor__Summary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>inscor__Type__c</name>
+        <picklistValues>
+            <masterLabel>Communication</masterLabel>
+            <translation><!-- Communication --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conference</masterLabel>
+            <translation><!-- Conference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trip Report</masterLabel>
+            <translation><!-- Trip Report --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Account Engagement Layout</layout>
+        <sections>
+            <label><!-- Account Engagement Information --></label>
+            <section>Account Engagement Information</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

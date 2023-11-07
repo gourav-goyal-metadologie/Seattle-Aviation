@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Order Task --></label>
+        <name>inscor__Work_Order_Task__c</name>
+        <relationshipLabel><!-- Document Form Attachments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Work Order --></label>
+        <name>inscor__Work_Order__c</name>
+        <relationshipLabel><!-- Document Form Attachments --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

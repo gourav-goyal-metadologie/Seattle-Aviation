@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Used to add, subtract, multiply or divide columns. --></help>
+        <label><!-- Calculation --></label>
+        <name>AcctSeed__Calculation__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used when a cell has an intersection of both a column and a row with a calculation and your would like to display the column calculation rather than the row. --></help>
+        <label><!-- Column Override Row --></label>
+        <name>AcctSeed__Column_Overide_Row__c</name>
+    </fields>
+    <fields>
+        <label><!-- Financial Statement Definition --></label>
+        <name>AcctSeed__Financial_Report_Definition__c</name>
+        <relationshipLabel><!-- Financial Statement Columns --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Shows the period name or your own custom text. --></help>
+        <label><!-- Header 1 Value --></label>
+        <name>AcctSeed__Header_1_Value__c</name>
+        <picklistValues>
+            <masterLabel>Period Name</masterLabel>
+            <translation><!-- Period Name --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Text</masterLabel>
+            <translation><!-- Text --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Used to show your own custom text when this option is selected in Header Value 1. --></help>
+        <label><!-- Header 1 Text --></label>
+        <name>AcctSeed__Header_1__c</name>
+    </fields>
+    <fields>
+        <help><!-- Shows the period name or your own custom text below Header 1. --></help>
+        <label><!-- Header 2 Value --></label>
+        <name>AcctSeed__Header_2_Value__c</name>
+        <picklistValues>
+            <masterLabel>Period Name</masterLabel>
+            <translation><!-- Period Name --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Text</masterLabel>
+            <translation><!-- Text --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Used to show your own custom text when this option is selected in Header Value 2. --></help>
+        <label><!-- Header 2 Text --></label>
+        <name>AcctSeed__Header_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ledger --></label>
+        <name>AcctSeed__Ledger__c</name>
+        <relationshipLabel><!-- Financial Statement Columns --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Used when running comparative periods in a single report. Number of periods before or after period selected when running the report. Zero is the period selected. A negative value will show periods before, a positive value will show periods after. --></help>
+        <label><!-- Offset --></label>
+        <name>AcctSeed__Offset__c</name>
+    </fields>
+    <fields>
+        <help><!-- The position of the column from left to right. --></help>
+        <label><!-- Position --></label>
+        <name>AcctSeed__Position__c</name>
+    </fields>
+    <fields>
+        <help><!-- Suppress the print of the column. --></help>
+        <label><!-- Suppress Print --></label>
+        <name>AcctSeed__Suppress_Print__c</name>
+    </fields>
+    <fields>
+        <help><!-- The value to display in the column. --></help>
+        <label><!-- Type --></label>
+        <name>AcctSeed__Type__c</name>
+        <picklistValues>
+            <masterLabel>Calculation Number</masterLabel>
+            <translation><!-- Calculation Number --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calculation Percentage</masterLabel>
+            <translation><!-- Calculation Percentage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Current Period</masterLabel>
+            <translation><!-- Current Period --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Year To Date</masterLabel>
+            <translation><!-- Year To Date --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Financial Report Column Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Formatting Information --></label>
+            <section>Formatting Information</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

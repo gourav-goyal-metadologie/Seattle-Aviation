@@ -1,0 +1,41 @@
+div.ui-widget[c-final_quote_submit_final_quote_submit] {
+    margin-top: 20px;
+}
+/*.ui-widget{
+    margin-top: 20px;
+}*/
+
+.quote-cart-item {
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+    border: 1px solid #f3f2f2;
+    border-radius: 4px;
+    
+}
+
+.quote-item-list {
+    padding: 3% 5%;
+    border-bottom: 1px solid #f3f2f2;
+
+}
+    
+.quote-note {
+    /*color: #d01c48!important;*/
+    font-family: helvetica,sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.View-quote-button {
+    padding: 5px;
+    /*border: unset;*/
+    border-radius: 0px;
+    margin: 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(208, 28, 72);
+    color: rgb(208, 28, 72);
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}

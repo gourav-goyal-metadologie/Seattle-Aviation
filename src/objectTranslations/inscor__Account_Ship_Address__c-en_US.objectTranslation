@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Billing? --></label>
+        <name>Billing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remit? --></label>
+        <name>Remit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping? --></label>
+        <name>Shipping__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>inscor__Account__c</name>
+        <relationshipLabel><!-- Account Ship Addresses --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>inscor__City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>inscor__Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Export Control --></label>
+        <name>inscor__Export_Control__c</name>
+        <picklistValues>
+            <masterLabel>Export Control</masterLabel>
+            <translation><!-- Export Control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Postal Code --></label>
+        <name>inscor__Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>inscor__State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Street --></label>
+        <name>inscor__Street__c</name>
+    </fields>
+    <layouts>
+        <layout>Account Ship Address Layout</layout>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

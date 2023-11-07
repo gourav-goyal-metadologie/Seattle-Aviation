@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Don&apos;t allow delete? --></label>
+        <name>inscor__Don_t_allow_delete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Name --></label>
+        <name>inscor__Object_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>inscor__Status__c</name>
+    </fields>
+</CustomObjectTranslation>

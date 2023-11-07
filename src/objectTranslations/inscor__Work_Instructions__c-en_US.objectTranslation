@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- AMM Reference --></label>
+        <name>inscor__AMM_Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned To --></label>
+        <name>inscor__Assigned_To__c</name>
+        <relationshipLabel><!-- Work Instructions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Comments/Findings --></label>
+        <name>inscor__Comments_Findings__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completed By --></label>
+        <name>inscor__Completed_By__c</name>
+        <relationshipLabel><!-- Work Instructions (Completed By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Completed Date --></label>
+        <name>inscor__Completed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Corrective Action --></label>
+        <name>inscor__Corrective_Action__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Comments --></label>
+        <name>inscor__External_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inspect Only? --></label>
+        <name>inscor__Inspect_Only__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inspected By --></label>
+        <name>inscor__Inspected_By__c</name>
+        <relationshipLabel><!-- Work Instructions (Inspected By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Inspected Date --></label>
+        <name>inscor__Inspected_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inspection Details --></label>
+        <name>inscor__Inspection_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inspection Required --></label>
+        <name>inscor__Inspection_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inspection Status --></label>
+        <name>inscor__Inspection_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Instruction --></label>
+        <name>inscor__Instruction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Comments --></label>
+        <name>inscor__Internal_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- MPD Reference --></label>
+        <name>inscor__MPD_Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manual Link --></label>
+        <name>inscor__Manual_Link__c</name>
+    </fields>
+    <fields>
+        <help><!-- If sequence is left empty, 10 will be added to the last work instruction sequence for this task --></help>
+        <label><!-- Sequence --></label>
+        <name>inscor__Sequence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>inscor__Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Inspection</masterLabel>
+            <translation><!-- In Inspection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Released</masterLabel>
+            <translation><!-- Released --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Work Order Task --></label>
+        <name>inscor__Work_Order_Task__c</name>
+        <relationshipLabel><!-- Work Instructions --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Work Instruction Layout</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Inspection Information --></label>
+            <section>Inspection Information</section>
+        </sections>
+        <sections>
+            <label><!-- Instruction --></label>
+            <section>Instruction</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- References --></label>
+            <section>References</section>
+        </sections>
+        <sections>
+            <label><!-- Work Instruction Information --></label>
+            <section>Work Instruction Information</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

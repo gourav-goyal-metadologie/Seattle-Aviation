@@ -1,0 +1,144 @@
+<template>
+    <template if:true={isCartDisabled}>
+        <div class="slds-grid slds-notify slds-notify_alert slds-theme_alert-texture slds-theme_info cancel-checkout"><h2 class="cart-locked">Your cart's locked during checkout. You can wait here, step away, or cancel checkout. To return to checkout, click the cart icon, then click Proceed to Checkout.<a href="javascript:void(0);" onclick={cancelCheckout} class="slds-p-left_xx-small">Cancel Checkout</a></h2></div>
+    </template>
+    <ul class="single-cart-item">
+        <template for:each={displayItems} for:item="lineItem">
+            <li
+                key={lineItem.cartItem.cartItemId}
+                class="slds-p-vertical_medium single-cart-item-li"
+            >
+                <figure>
+                    <a
+                        tabindex="-1"
+                        href={lineItem.productUrl}
+                        data-productid={lineItem.cartItem.productDetails.productId}
+                        onclick={handleProductDetailNavigation}
+                    >
+                        <img
+                            src={lineItem.productImageUrl}
+                            alt={lineItem.productImageAlternativeText}
+                            data-productid={lineItem.cartItem.productDetails.productId}
+                        />
+                    </a>
+                </figure>
+                <div class="details slds-has-flexi-truncate">
+                    <h3
+                        class="item-name slds-text-heading_medium slds-p-bottom_small slds-truncate"
+                        title={lineItem.cartItem.productDetails.name}
+                    >
+                        <a
+                            href={lineItem.productUrl}
+                            data-productid={lineItem.cartItem.productDetails.productId}
+                            onclick={handleProductDetailNavigation}
+                            tabindex="0"
+                            class="product-title"
+                        >
+                            {lineItem.cartItem.productDetails.name}
+                        </a>
+                    </h3>
+                    <div class="slds-truncate">Condition code: {lineItem.cartItem.ConditionCode}</div>
+
+
+
+                    <div class="line-item-properties">
+                        <dl class="product-fields">
+                            <dt class="slds-truncate"></dt><br>
+                            <dd
+                                class="slds-truncate"
+                                title={lineItem.cartItem.ConditionCode}
+                            >
+                            <!-- {lineItem.cartItem.ConditionCode} -->
+                            <!-- <dt class="slds-truncate">SKU#</dt>
+                            <dd
+                                class="slds-truncate"
+                                title={lineItem.cartItem.productDetails.sku}
+                            >
+                                {lineItem.cartItem.productDetails.sku} -->
+                            </dd><br>
+                            <!-- <dt class="slds-truncate">Price Type</dt>
+                            <dd
+                                class="slds-truncate"
+                                title={lineItem.cartItem.PriceType}
+                            >
+                            {lineItem.cartItem.PriceType}
+                            </dd> -->
+                            <dt class="slds-truncate">Price per unit:</dt>
+                            <dd class="slds-truncate">
+                                <lightning-formatted-number
+                                    format-style="currency"
+                                    currency-code={currencyCode}
+                                    currency-display-as="symbol"
+                                    maximum-fraction-digits="2"
+                                    value={lineItem.cartItem.unitAdjustedPrice}
+                                ></lightning-formatted-number>
+                            </dd>
+                        </dl>
+                        <div class="quantity-price-remove">
+                            <div
+                                class="quantity-selector slds-grid slds-grid_vertical-align-center slds-text-title_caps"
+                            >
+                                <label
+                                    for={lineItem.cartItem.cartItemId}
+                                    class="selector-label slds-m-right_x-small"
+                                    >{labels.quantity}
+                                </label>
+                                <input
+                                    class="selector-input slds-p-horizontal_medium slds-p-vertical_x-small"
+                                    disabled={isCartDisabled}
+                                    id={lineItem.cartItem.cartItemId}
+                                    data-item-id={lineItem.cartItem.cartItemId}
+                                    max="100"
+                                    min="1"
+                                    step="1"
+                                    required
+                                    type="number"
+                                    value={lineItem.cartItem.quantity}
+                                    onblur={handleQuantitySelectorBlur}
+                                    onclick={handleQuantitySelectorClick}
+                                    onkeypress={allowNumbersOnly}
+                                />
+                            </div>
+                            
+                            <div
+                                class="price slds-p-horizontal_medium slds-has-flexi-truncate"
+                            >
+                                <!-- <lightning-formatted-number
+                                    aria-label={lineItem.originalPriceLabel}
+                                    format-style="currency"
+                                    currency-code={currencyCode}
+                                    class="original-price slds-truncate slds-text-heading_small"
+                                    currency-display-as="symbol"
+                                    maximum-fraction-digits="2"
+                                    value={lineItem.cartItem.totalListPrice}
+                                    disabled
+                                >
+                                </lightning-formatted-number> -->
+                                <lightning-formatted-number
+                                    format-style="currency"
+                                    currency-code={currencyCode}
+                                    class="negotiated-price slds-truncate slds-text-heading_large"
+                                    currency-display-as="symbol"
+                                    maximum-fraction-digits="2"
+                                    value={lineItem.cartItem.totalPrice}
+                                >
+                                </lightning-formatted-number>
+                            </div>
+                            <div class="slds-p-around_xx-small remove">
+                                <lightning-button-icon
+                                    icon-name="utility:close"
+                                    variant="bare"
+                                    alternative-text="remove"
+                                    onclick={handleDeleteCartItem}
+                                    data-cartitemid={lineItem.cartItem.cartItemId}
+                                    disabled={isCartDisabled}
+                                >
+                                </lightning-button-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </template>
+    </ul>
+</template>

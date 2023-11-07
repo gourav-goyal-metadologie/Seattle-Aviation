@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Related source record for the origin of the entry. --></help>
+        <label><!-- AP Disbursement --></label>
+        <name>AcctSeed__AP_Disbursement__c</name>
+        <relationshipLabel><!-- Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Related source record for the origin of the entry. --></help>
+        <label><!-- Payable Line --></label>
+        <name>AcctSeed__Account_Payable_Line__c</name>
+        <relationshipLabel><!-- Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Related source record for the origin of the entry. --></help>
+        <label><!-- Payable --></label>
+        <name>AcctSeed__Account_Payable__c</name>
+        <relationshipLabel><!-- Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This field is populated based on the transaction source record. The mapping is Journal Entry Line Account field, Billing Customer, Payable Payee field, Cash Receipt Account field, or Cash Disbursement Payee field. --></help>
+        <label><!-- Account --></label>
+        <name>AcctSeed__Account__c</name>
+        <relationshipLabel><!-- Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Used to specify accounting period for financial reporting. --></help>
+        <label><!-- Accounting Period --></label>
+        <name>AcctSeed__Accounting_Period__c</name>
+        <relationshipLabel><!-- Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Informational field used for grouping in reporting. --></help>
+        <label><!-- Accounting Year --></label>
+        <name>AcctSeed__Accounting_Year__c</name>
+    </fields>
+    <fields>
+        <help><!-- Debits are represented as positive amounts and credits are represented as negative amounts. --></help>
+        <label><!-- Amount --></label>
+        <name>AcctSeed__Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Related source record for the origin of the entry. --></help>
+        <label><!-- Billing Cash Receipt --></label>
+        <name>AcctSeed__Billing_Cash_Receipt__c</name>
+        <relationshipLabel><!-- Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Related source record for the origin of the entry. --></help>
+        <label><!-- Billing Line --></label>
+        <name>AcctSeed__Billing_Line__c</name>
+        <relationshipLabel><!-- Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Related source record for the origin of the entry. --></help>
+        <label><!-- Billing --></label>
+        <name>AcctSeed__Billing__c</name>
+        <relationshipLabel><!-- Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Related source record for the origin of the entry. --></help>
+        <label><!-- Cash Disbursement --></label>
+        <name>AcctSeed__Cash_Disbursement__c</name>
+        <relationshipLabel><!-- Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cash Flow Category --></label>
+        <name>AcctSeed__Cash_Flow_Category__c</name>
+        <relationshipLabel><!-- Transactions (Cash Flow Category) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Related source record for the origin of the entry. --></help>
+        <label><!-- Cash Receipt --></label>
+        <name>AcctSeed__Cash_Receipt__c</name>
+        <relationshipLabel><!-- Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This field is populated based on the transaction source record. The mapping is from the Cash Disbursement record. --></help>
+        <label><!-- Check Number --></label>
+        <name>AcctSeed__Check_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is populated based on the transaction source record. The mapping is Journal Entry Line Contact, Payable Contact or Cash Disbursement Contact field. --></help>
+        <label><!-- Contact --></label>
+        <name>AcctSeed__Contact__c</name>
+        <relationshipLabel><!-- Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The currency conversion rate for the currency. --></help>
+        <label><!-- Currency Conversion Rate --></label>
+        <name>AcctSeed__Currency_Conversion_Rate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Transaction Date. Primarily used in billing records and for reporting purposes. --></help>
+        <label><!-- Date --></label>
+        <name>AcctSeed__Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is populated based on the transaction source record. The mapping is from Description field on related Cash Receipt, Cash Disbursement or Journal Entry Line record. --></help>
+        <label><!-- Description --></label>
+        <name>AcctSeed__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Look up to Salesforce User --></help>
+        <label><!-- Employee --></label>
+        <name>AcctSeed__Employee__c</name>
+        <relationshipLabel><!-- Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The foreign amount associated with the source document if applicable. --></help>
+        <label><!-- Foreign Amount --></label>
+        <name>AcctSeed__Foreign_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- The source document foreign currency if applicable. --></help>
+        <label><!-- Foreign Currency --></label>
+        <name>AcctSeed__Foreign_Currency__c</name>
+    </fields>
+    <fields>
+        <help><!-- Formula Field used to facilitate reporting by GL Account Type on the Transactions object. --></help>
+        <label><!-- GL Account Type --></label>
+        <name>AcctSeed__GL_Account_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- General Ledger segment used for reporting of a business unit such as division or department. --></help>
+        <label><!-- GL Variable 1 --></label>
+        <lookupFilter>
+            <errorMessage><!-- The Accounting Variable must have a Type of &quot;GL Account Variable 1&quot;. --></errorMessage>
+        </lookupFilter>
+        <name>AcctSeed__GL_Account_Variable_1__c</name>
+        <relationshipLabel><!-- Transactions (GL Variable 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- General Ledger segment used for reporting of a business unit such as division or department. --></help>
+        <label><!-- GL Variable 2 --></label>
+        <lookupFilter>
+            <errorMessage><!-- The Accounting Variable must have a Type of &quot;GL Account Variable 2&quot;. --></errorMessage>
+        </lookupFilter>
+        <name>AcctSeed__GL_Account_Variable_2__c</name>
+        <relationshipLabel><!-- Transactions (GL Variable 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- General Ledger segment used for reporting of a business unit such as division or department. --></help>
+        <label><!-- GL Variable 3 --></label>
+        <lookupFilter>
+            <errorMessage><!-- The Accounting Variable must have a Type of &quot;GL Account Variable 3&quot;. --></errorMessage>
+        </lookupFilter>
+        <name>AcctSeed__GL_Account_Variable_3__c</name>
+        <relationshipLabel><!-- Transactions (GL Variable 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- General Ledger segment used for reporting of a business unit such as division or department. --></help>
+        <label><!-- GL Variable 4 --></label>
+        <lookupFilter>
+            <errorMessage><!-- The Accounting Variable must have a Type of &quot;GL Account Variable 4&quot;. --></errorMessage>
+        </lookupFilter>
+        <name>AcctSeed__GL_Account_Variable_4__c</name>
+        <relationshipLabel><!-- Transactions (GL Variable 4) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Major classification for financial reporting. --></help>
+        <label><!-- GL Account --></label>
+        <name>AcctSeed__GL_Account__c</name>
+        <relationshipLabel><!-- Transactions (GL Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Related source record for the origin of the entry. --></help>
+        <label><!-- Journal Entry Line --></label>
+        <name>AcctSeed__Journal_Entry_Line__c</name>
+        <relationshipLabel><!-- Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Denotes the associated ledger. --></help>
+        <label><!-- Ledger --></label>
+        <name>AcctSeed__Ledger__c</name>
+        <relationshipLabel><!-- Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This field is populated based on the transaction source record. The mapping is Payable Payee Reference, Cash Disbursement Check or Transaction Number, Billing Number, or Cash Receipt Customer Payment Reference. --></help>
+        <label><!-- Note --></label>
+        <name>AcctSeed__Note__c</name>
+    </fields>
+    <fields>
+        <help><!-- Related product. --></help>
+        <label><!-- Product --></label>
+        <name>AcctSeed__Product__c</name>
+        <relationshipLabel><!-- Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Work break down structure for projects, such as: Phases, Deliverables or Roles. --></help>
+        <label><!-- Project Task --></label>
+        <name>AcctSeed__Project_Task__c</name>
+        <relationshipLabel><!-- Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Related Project or Job for allocation of cost or revenue. --></help>
+        <label><!-- Project --></label>
+        <name>AcctSeed__Project__c</name>
+        <relationshipLabel><!-- Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Used in the management reporter. Asset and Revenue amounts will appear as positive. Liability, Equity and Expense amounts will appear as negative. --></help>
+        <label><!-- Report Amount --></label>
+        <name>AcctSeed__Report_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Related source record for the origin of the entry. --></help>
+        <label><!-- Amortization Entry --></label>
+        <name>AcctSeed__Scheduled_Revenue_Expense__c</name>
+        <relationshipLabel><!-- Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Related source record for the origin of the entry. --></help>
+        <label><!-- Time Card Day --></label>
+        <name>AcctSeed__Time_Card_Day__c</name>
+        <relationshipLabel><!-- Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Used to track additional information on Time Card Lines for services billings when more data is required than Project and Project Task. This is a global variable not specific to a single project. --></help>
+        <label><!-- Time Card Variable 1 --></label>
+        <lookupFilter>
+            <errorMessage><!-- The Accounting Variable must have a Type of &quot;Time Card Variable 1&quot;. --></errorMessage>
+        </lookupFilter>
+        <name>AcctSeed__Time_Card_Variable_1__c</name>
+        <relationshipLabel><!-- Transactions (Time Card Variable 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Used to track additional information on Time Card Lines for services billings when more data is required than Project and Project Task. This is a global variable not specific to a single project. --></help>
+        <label><!-- Time Card Variable 2 --></label>
+        <name>AcctSeed__Time_Card_Variable_2__c</name>
+        <relationshipLabel><!-- Transactions (Time Card Variable 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Quantity for Product or service sales as well as inventory movements. --></help>
+        <label><!-- Quantity --></label>
+        <name>AcctSeed__Units__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is a link to the record that generated this transaction record. --></help>
+        <label><!-- Related To --></label>
+        <name>RRC_Related_To_FP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related To - text --></label>
+        <name>RRC_Related_To_text_FP__c</name>
+    </fields>
+    <fields>
+        <help><!-- If source transaction is a Cash Disbursement, Cash Receipt or a Journal Entry Line, this is the value of the reference field on that object. --></help>
+        <label><!-- Source Reference --></label>
+        <name>RRC_Source_Reference__c</name>
+    </fields>
+    <fields>
+        <help><!-- AP=Accounts Payable Line, APD = AP Disbursement, BCR = Billing Cash Receipt, AR = Billing Line, CD = Cash Disbursement, CR = Cash Receipt, JE Journal Entry Line, AE = Amortization Entry --></help>
+        <label><!-- Transaction Source Type --></label>
+        <name>RRC_Transaction_Source_Type_FP__c</name>
+    </fields>
+    <layouts>
+        <layout>SAS Transaction Layout</layout>
+        <sections>
+            <label><!-- Accounting Information --></label>
+            <section>Accounting Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Related Transactions --></label>
+            <section>Related Transactions</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Transaction Layout</layout>
+        <sections>
+            <label><!-- Accounting Information --></label>
+            <section>Accounting Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Related Transactions --></label>
+            <section>Related Transactions</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

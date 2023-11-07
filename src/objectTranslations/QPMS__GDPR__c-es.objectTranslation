@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- GDPR --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- GDPR --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- History --></label>
+        <name>QPMS__History</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Main Fields --></label>
+        <name>QPMS__Main_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Search Text --></label>
+        <name>QPMS__Search_Text</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Search fields --></label>
+        <name>QPMS__Search_fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- confirmation --></label>
+        <name>QPMS__confirmation</name>
+    </fieldSets>
+    <fields>
+        <label><!-- BatchProcessId --></label>
+        <name>QPMS__BatchProcessId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comment --></label>
+        <name>QPMS__Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Masking --></label>
+        <name>QPMS__Date_of_Masking__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Percentage --></label>
+        <name>QPMS__Default_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exclude Audit Trail --></label>
+        <name>QPMS__Exclude_Audit_Trail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Objects For Result --></label>
+        <name>QPMS__Objects_For_Result__c</name>
+    </fields>
+    <fields>
+        <label><!-- Objects --></label>
+        <name>QPMS__Objects__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process Percentage --></label>
+        <name>QPMS__Process_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reassign / Mask --></label>
+        <name>QPMS__Reassign_Mask__c</name>
+        <picklistValues>
+            <masterLabel>Mask</masterLabel>
+            <translation><!-- Mask --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reassign</masterLabel>
+            <translation><!-- Reassign --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reassign User --></label>
+        <name>QPMS__Reassign_User__c</name>
+        <relationshipLabel><!-- GDPR (Reassign User) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reassign/mask Date --></label>
+        <name>QPMS__Reassign_mask_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Search Text --></label>
+        <name>QPMS__Search_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Search User --></label>
+        <name>QPMS__Search_User__c</name>
+        <relationshipLabel><!-- GDPR (Search User) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>QPMS__Type__c</name>
+        <picklistValues>
+            <masterLabel>Audit Trail</masterLabel>
+            <translation><!-- Audit Trail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mask</masterLabel>
+            <translation><!-- Mask --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User Batch</masterLabel>
+            <translation><!-- User Batch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>batch</masterLabel>
+            <translation><!-- batch --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- User Batch Completed --></label>
+        <name>QPMS__User_Batch_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Details --></label>
+        <name>QPMS__User_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Masking --></label>
+        <name>QPMS__maskedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Masked User --></label>
+        <name>QPMS__maskedUser__c</name>
+        <relationshipLabel><!-- GDPR (Masked User) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- masking completed ? --></label>
+        <name>QPMS__masking_completed__c</name>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <layouts>
+        <layout>GDPR Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Name --></nameFieldLabel>
+</CustomObjectTranslation>

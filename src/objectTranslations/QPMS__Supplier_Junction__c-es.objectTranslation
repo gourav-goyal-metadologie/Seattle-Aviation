@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Supplier Junction --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Supplier Junction --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- SupplierChangeInterviewdPersonnal --></label>
+        <name>QPMS__SupplierChangeInterviewdPersonnal</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Supplier Change Fields --></label>
+        <name>QPMS__Supplier_Change_Fields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Access Level --></label>
+        <name>QPMS__Access_Level__c</name>
+        <picklistValues>
+            <masterLabel>Edit</masterLabel>
+            <translation><!-- Edit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Read</masterLabel>
+            <translation><!-- Read --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>QPMS__Account__c</name>
+        <relationshipLabel><!-- Supplier Junctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>QPMS__Contact_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Information --></label>
+        <name>QPMS__Contact_Information__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone --></label>
+        <name>QPMS__Contact_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Status --></label>
+        <name>QPMS__Contact_Status__c</name>
+        <picklistValues>
+            <masterLabel>Cloned</masterLabel>
+            <translation><!-- Cloned --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>QPMS__Contact_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Name --></label>
+        <name>QPMS__First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group --></label>
+        <name>QPMS__Group_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Name --></label>
+        <name>QPMS__Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>QPMS__Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier Change --></label>
+        <name>QPMS__Supplier_Change__c</name>
+        <relationshipLabel><!-- Supplier Junctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Supplier Profile --></label>
+        <name>QPMS__Supplier_Profile__c</name>
+        <relationshipLabel><!-- Supplier Junctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>QPMS__Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>QPMS__Type__c</name>
+        <picklistValues>
+            <masterLabel>Group</masterLabel>
+            <translation><!-- Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User</masterLabel>
+            <translation><!-- User --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>QPMS__User__c</name>
+        <relationshipLabel><!-- Supplier Junctions --></relationshipLabel>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <nameFieldLabel><!-- Supplier Junction Name --></nameFieldLabel>
+    <recordTypes>
+        <label><!-- Address --></label>
+        <name>QPMS__Address</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Certificate --></label>
+        <name>QPMS__Certificate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Contact --></label>
+        <name>QPMS__Contact</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Interviewed Personnel --></label>
+        <name>QPMS__Interviewed_Personnel</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Part --></label>
+        <name>QPMS__Part</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Security --></label>
+        <name>QPMS__Security</name>
+    </recordTypes>
+</CustomObjectTranslation>

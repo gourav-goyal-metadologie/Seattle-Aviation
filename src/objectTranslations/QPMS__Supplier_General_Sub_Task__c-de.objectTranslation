@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Supplier General Sub Task --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Supplier General Sub Task --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Supplier General Sub Task --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Supplier General Sub Task --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Supplier General Sub Task --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Supplier General Sub Task --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Supplier General Sub Task --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Supplier General Sub Task --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- AdhocTask --></label>
+        <name>QPMS__AdhocTask</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Supplier_Adhoc_Actions --></label>
+        <name>QPMS__Supplier_Adhoc_Actions</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Age --></label>
+        <name>QPMS__Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Completed --></label>
+        <name>QPMS__Approval_Completed__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Assigned User --></label>
+        <name>QPMS__Assigned_User__c</name>
+        <relationshipLabel><!-- Supplier General Sub Tasks (Assigned User) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Closed Date --></label>
+        <name>QPMS__Closed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>QPMS__Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completed By --></label>
+        <name>QPMS__Completed_By__c</name>
+        <relationshipLabel><!-- Supplier General Sub Tasks (Completed By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Completed Date --></label>
+        <name>QPMS__Completed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completed --></label>
+        <name>QPMS__Completed__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>QPMS__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Details --></label>
+        <name>QPMS__Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Due Date --></label>
+        <name>QPMS__Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initiating Site Security --></label>
+        <name>QPMS__Initiating_Site_Security__c</name>
+    </fields>
+    <fields>
+        <label><!-- ParentRecordForAudittrail --></label>
+        <name>QPMS__ParentRecordForAudittrail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plan Statement --></label>
+        <name>QPMS__Plan_Statement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>QPMS__Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Details --></label>
+        <name>QPMS__Sub_Task_Detail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submit WithOut Approval --></label>
+        <name>QPMS__Submit_WithOut_Approval__c</name>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Supplier General Task --></label>
+        <name>QPMS__Supplier_General_Task__c</name>
+        <relationshipLabel><!-- Supplier General Sub Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>QPMS__Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>QPMS__Type__c</name>
+        <picklistValues>
+            <masterLabel>Correction</masterLabel>
+            <translation><!-- Correction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corrective</masterLabel>
+            <translation><!-- Corrective --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preventive</masterLabel>
+            <translation><!-- Preventive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Risk Based</masterLabel>
+            <translation><!-- Risk Based --></translation>
+        </picklistValues>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <nameFieldLabel><!-- Supplier General Sub Task Name --></nameFieldLabel>
+    <recordTypes>
+        <label><!-- AdhocTask Actions --></label>
+        <name>QPMS__AdhocTask_Actions</name>
+    </recordTypes>
+</CustomObjectTranslation>

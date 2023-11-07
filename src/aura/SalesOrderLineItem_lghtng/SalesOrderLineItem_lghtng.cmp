@@ -1,0 +1,89 @@
+<aura:component implements="flexipage:availableForAllPageTypes" controller="PartOrderController" access="global" >
+	<aura:attribute name="allData" type="List" />
+    <aura:attribute name="filteredData" type="List" />
+    <aura:attribute name="tableData" type="List" />
+    <aura:attribute name="columns" type="Object[]" />
+    <aura:attribute name="pageSize" type="Integer" default="10" />
+    <aura:attribute name="pageSizeOptions" type="Integer[]" default="10,20,50,100" />
+    <aura:attribute name="currentPageNumber" type="Integer" default="1" />
+    <aura:attribute name="totalPages" type="Integer" default="1" />
+    <aura:attribute name="searchPhrase" type="String" />
+    <aura:attribute name="isLoading" type="Boolean" default="false" />
+    <aura:attribute name="recordId" type="Id"/>
+ 
+    <aura:handler name="init" value="{! this }" action="{! c.doInit }" />
+ 
+    <aura:if isTrue="{! v.isLoading }">
+        <lightning:spinner alternativeText="Loading" />
+    </aura:if>
+    
+    <!-- Change title from Sales Orders Line to Parts Ordered -->
+    <lightning:card title="Parts Ordered">
+        <aura:if isTrue="{!not(empty(v.tableData))}">
+            
+            <div class="">
+                <div class="slds-form_horizontal">
+                    <lightning:select
+                        label="Records Count"
+                        value="{! v.pageSize }"
+                        onchange="{! c.onPageSizeChange }" variant="label-inline">
+                        <aura:iteration items="{! v.pageSizeOptions }" var="opt">
+                            <option text="{! opt }"></option>
+                        </aura:iteration>
+                    </lightning:select>
+                </div>
+            </div>
+            <div aura:id="tableDataDiv" >
+            <lightning:datatable
+                aura:id="table"
+                columns="{! v.columns }"
+                data="{! v.tableData }"
+                hideCheckboxColumn="true"
+                keyField="Id" />
+            </div>
+         
+                <div class="slds-grid slds-wrap" style="margin-top:3px; padding-top:16px;">
+                  <div class="slds-col slds-size_12-of-12">
+                    <lightning:button
+                        label="First"
+                        iconName="utility:left"
+                        iconPosition="left"
+                        onclick="{! c.onFirst }"
+                        disabled="{! v.currentPageNumber == 1 }" />
+                    <lightning:button
+                        label="Previous"
+                        iconName="utility:chevronleft"
+                        iconPosition="left"
+                        onclick="{! c.onPrev }"
+                        disabled="{! v.currentPageNumber == 1 }" />
+                    
+                    <lightning:button
+                        label="Next"
+                        iconName="utility:chevronright"
+                        iconPosition="right"
+                        onclick="{! c.onNext }"
+                        disabled="{! v.currentPageNumber == v.totalPages }" />
+                    <lightning:button
+                        label="Last"
+                        iconName="utility:right"
+                        iconPosition="right"
+                        onclick="{! c.onLast }"        
+                        disabled="{! v.currentPageNumber == v.totalPages }" />
+                    </div>
+                    <div class="slds-col slds-size_12-of-12">
+                     <span class="slds-var-p-horizontal_x-small">
+                        Page {! (v.currentPageNumber) } of {! (v.totalPages) }
+                    </span>
+                    </div>
+                </div>
+
+            
+            <!-- Added under SS-203 by Vinod Kumar Sharma -->
+            <aura:set attribute="else">
+                <div style="text-align: center; margin-top: 4%;">
+                    <h1>No Records Found</h1>
+                </div>
+            </aura:set>
+        </aura:if>
+    </lightning:card>
+</aura:component>

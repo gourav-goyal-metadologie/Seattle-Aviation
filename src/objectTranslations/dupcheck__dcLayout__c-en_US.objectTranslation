@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Order --></label>
+        <name>dupcheck__Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- layout --></label>
+        <name>dupcheck__layout__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Prefix --></label>
+        <name>dupcheck__prefix__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Type --></label>
+        <name>dupcheck__recordType__c</name>
+    </fields>
+</CustomObjectTranslation>

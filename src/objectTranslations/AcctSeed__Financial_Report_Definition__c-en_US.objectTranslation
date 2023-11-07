@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Description --></label>
+        <name>AcctSeed__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Columns --></label>
+        <name>AcctSeed__Number_of_Columns__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Rows --></label>
+        <name>AcctSeed__Number_of_Rows__c</name>
+    </fields>
+    <fields>
+        <help><!-- The amount of decimal places displayed in percentage fields. --></help>
+        <label><!-- Percentage Decimal Places --></label>
+        <name>AcctSeed__Percentage_Decimal_Places__c</name>
+    </fields>
+    <layouts>
+        <layout>Financial Report Definition Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label><!-- Report_Clone_Utility --></label>
+        <name>AcctSeed__Report_Clone_Utility</name>
+    </webLinks>
+</CustomObjectTranslation>

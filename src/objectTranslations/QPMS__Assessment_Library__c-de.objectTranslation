@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Assessment  Library --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Assessment  Library --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Assessment  Library --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Assessment  Library --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Assessment  Library --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Assessment  Library --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Assessment  Library --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Assessment  Library --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Allow re-test --></label>
+        <name>QPMS__Allow_re_test__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assessment Library Template --></label>
+        <name>QPMS__Assessment_Library_Template__c</name>
+        <relationshipLabel><!-- Assessment  Librarys --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Completed Date --></label>
+        <name>QPMS__Completed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Course Title --></label>
+        <name>QPMS__Course_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Course --></label>
+        <name>QPMS__Course__c</name>
+        <relationshipLabel><!-- Assessment  Librarys --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Final Message on final fail: --></label>
+        <name>QPMS__Final_Message_on_final_fail__c</name>
+    </fields>
+    <fields>
+        <help><!-- Inform Manager Continue With training --></help>
+        <label><!-- Inform Manager Continue With training --></label>
+        <name>QPMS__Inform_Manager_Continue_With_training__c</name>
+    </fields>
+    <fields>
+        <help><!-- Inform Manager Wait for approval --></help>
+        <label><!-- Inform Manager Wait for approval --></label>
+        <name>QPMS__Inform_Manager_Wait_for_approval__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manager --></label>
+        <name>QPMS__Manager__c</name>
+        <relationshipLabel><!-- Assessment  Librarys --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Minimum Passing % --></label>
+        <name>QPMS__Minimum_Passing_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- No Of Attempts --></label>
+        <name>QPMS__No_Of_Attempts__c</name>
+    </fields>
+    <fields>
+        <label><!-- ObtainedPercentage --></label>
+        <name>QPMS__ObtainedPercentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Participant Manager --></label>
+        <name>QPMS__Participant_Manager__c</name>
+    </fields>
+    <fields>
+        <label><!-- Participant --></label>
+        <name>QPMS__Participant__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remaining Attempts --></label>
+        <name>QPMS__Remaining_Attempts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reset Count --></label>
+        <name>QPMS__Reset_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Result --></label>
+        <name>QPMS__Result__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>QPMS__Status__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inprogress</masterLabel>
+            <translation><!-- Inprogress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total Attempts --></label>
+        <name>QPMS__Total_Attempts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training Junction --></label>
+        <name>QPMS__Training_Junction__c</name>
+        <relationshipLabel><!-- Assessment  Librarys --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Training Junction id --></label>
+        <name>QPMS__Training_Junction_id__c</name>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <layouts>
+        <layout>Assessment  Library Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Assessment  Library Name --></nameFieldLabel>
+</CustomObjectTranslation>

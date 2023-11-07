@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account --></label>
+        <name>QPMS__Account__c</name>
+        <relationshipLabel><!-- Audit Trail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Action --></label>
+        <name>QPMS__Action__c</name>
+        <picklistValues>
+            <masterLabel>Created</masterLabel>
+            <translation><!-- Created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deleted</masterLabel>
+            <translation><!-- Deleted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Updated</masterLabel>
+            <translation><!-- Updated --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Asset Family --></label>
+        <name>QPMS__Asset_Family__c</name>
+        <relationshipLabel><!-- Audit Trail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Business Entity --></label>
+        <name>QPMS__Business_Entity__c</name>
+        <relationshipLabel><!-- Audit Trail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cause --></label>
+        <name>QPMS__Cause__c</name>
+        <relationshipLabel><!-- Audit Trail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Complaint Defect --></label>
+        <name>QPMS__Complaint_Defect__c</name>
+        <relationshipLabel><!-- Audit Trail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>QPMS__Contact__c</name>
+        <relationshipLabel><!-- Audit Trail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Criteria --></label>
+        <name>QPMS__Criteria__c</name>
+        <relationshipLabel><!-- Audit Trail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Defect Cause --></label>
+        <name>QPMS__Defect_Cause__c</name>
+        <relationshipLabel><!-- Audit Trail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Defect --></label>
+        <name>QPMS__Defect__c</name>
+        <relationshipLabel><!-- Audit Trail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- FieldApiName --></label>
+        <name>QPMS__FieldApiName__c</name>
+    </fields>
+    <fields>
+        <label><!-- FieldName --></label>
+        <name>QPMS__FieldName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last ModifiedBy --></label>
+        <name>QPMS__Last_ModifiedBy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturing Site --></label>
+        <name>QPMS__Manufacturing_Site__c</name>
+        <relationshipLabel><!-- Audit Trail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- NewValue --></label>
+        <name>QPMS__NewValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Scheme --></label>
+        <name>QPMS__Number_Scheme__c</name>
+        <relationshipLabel><!-- Audit Trail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- OldValue --></label>
+        <name>QPMS__OldValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process Defect --></label>
+        <name>QPMS__Process_Defect__c</name>
+        <relationshipLabel><!-- Audit Trail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Process Relationship --></label>
+        <name>QPMS__Process_Relationship__c</name>
+        <relationshipLabel><!-- Audit Trail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Process --></label>
+        <name>QPMS__Process__c</name>
+        <relationshipLabel><!-- Audit Trail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Defect --></label>
+        <name>QPMS__Product_Defect__c</name>
+        <relationshipLabel><!-- Audit Trail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Relationship --></label>
+        <name>QPMS__Product_Relationship__c</name>
+        <relationshipLabel><!-- Audit Trail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>QPMS__Product__c</name>
+        <relationshipLabel><!-- Audit Trail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Risk Lookup --></label>
+        <name>QPMS__Risk_Lookup__c</name>
+        <relationshipLabel><!-- Audit Trail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Risk Occurrence --></label>
+        <name>QPMS__Risk_Occurrence__c</name>
+        <relationshipLabel><!-- Audit Trail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Risk Priority --></label>
+        <name>QPMS__Risk_Priority__c</name>
+        <relationshipLabel><!-- Audit Trail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Risk Severity --></label>
+        <name>QPMS__Risk_Severity__c</name>
+        <relationshipLabel><!-- Audit Trail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Spare Part --></label>
+        <name>QPMS__Spare_Part__c</name>
+        <relationshipLabel><!-- Audit Trail --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Audit Trail Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Product AuditTrail should not be editable --></errorMessage>
+        <name>QPMS__Product_Audit_Trail_Validation_rule</name>
+    </validationRules>
+</CustomObjectTranslation>

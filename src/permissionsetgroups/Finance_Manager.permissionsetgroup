@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Finance Manager (Upgrade Package 1)</label>
+    <permissionSets>AcctSeed__AS_Full_Admin</permissionSets>
+    <permissionSets>AcctSeed__Accounting_Seed_Financial_Suite_Administrator</permissionSets>
+    <permissionSets>AvSight_Reporting_Admin</permissionSets>
+    <permissionSets>inscor__AvSight_Admin_Finance</permissionSets>
+    <permissionSets>inscoras__AvSight_AS_Full_Admin</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

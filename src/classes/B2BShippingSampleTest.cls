@@ -1,0 +1,77 @@
+@isTest
+public class B2BShippingSampleTest {
+
+    @testSetup static void setup() {
+        inscor__Company__c objCompany = new inscor__Company__c(inscor__Address_1__c='Test',inscor__City__c='Test',inscor__Company_Name__c='Company',inscor__Zip_Code__c='123456');
+        insert objCompany;
+        inscor__Ship_Method__c shipMethod = new inscor__Ship_Method__c(Name='FeDex',inscor__Company__c = objCompany.Id);
+        insert shipMethod;
+        Account testAccount = new Account(Name='TestAccount',inscor__Preferred_Ship_Method__c =shipMethod.Id);
+        insert testAccount;
+        WebStore testWebStore = new WebStore(Name='TestWebStore', DefaultLanguage='en_US');
+        insert testWebStore;
+        
+        Account account = [SELECT Id FROM Account WHERE Name='TestAccount' LIMIT 1];
+        WebStore webStore = [SELECT Id FROM WebStore WHERE Name='TestWebStore' LIMIT 1];
+        WebCart cart = new WebCart(Name='Cart', WebStoreId=webStore.Id, AccountId=account.Id);
+        insert cart;
+        
+        CartDeliveryGroup cartDeliveryGroup = new CartDeliveryGroup(CartId=cart.Id, Name='Default Delivery 1');
+        insert cartDeliveryGroup;
+
+        CartItem cartItem = new CartItem(CartId=cart.Id, Type='Product', Name='TestProduct', CartDeliveryGroupId=cartDeliveryGroup.Id);
+        insert cartItem;
+
+    }
+    
+
+    @isTest static void testIntegrationRunsSuccessfully() {
+        // Because test methods don't support Web service callouts, we create a mock response based on a static resource.
+        // To create the static resource from the Developer Console, select File | New | Static Resource
+        StaticResourceCalloutMock mock = new StaticResourceCalloutMock();
+        mock.setStaticResource('GetDeliveryRatesResource');
+        mock.setStatusCode(200);
+        mock.setHeader('Content-Type', 'application/json;charset=UTF-8');
+        Test.startTest();
+        // Associate the callout with a mock response.
+        Test.setMock(HttpCalloutMock.class, mock);
+        
+        // Test: execute the integration for the test cart ID.
+        B2BShippingSample apexSample = new B2BShippingSample();
+        sfdc_checkout.IntegrationInfo integInfo = new sfdc_checkout.IntegrationInfo();
+        WebCart webCart = [SELECT Id FROM WebCart WHERE Name='Cart' LIMIT 1];
+        integInfo.jobId = null;
+        sfdc_checkout.IntegrationStatus integrationResult = apexSample.startCartProcessAsync(integInfo, webCart.Id);
+        // Verify: the integration executed successfully
+        //System.assertEquals(sfdc_checkout.IntegrationStatus.Status.SUCCESS, integrationResult.status);
+        Test.stopTest();
+    }
+    
+
+    @isTest static void testWhenExternalServiceCallFailsAFailedStatusIsReturnedAndACartValidationOutputEntryIsCreated() {
+        // Because test methods do not support Web service callouts, we create a mock response based on a static resource.
+        // To create the static resource from the the Developer Console, select File | New | Static Resource
+        StaticResourceCalloutMock mock = new StaticResourceCalloutMock();
+        mock.setStaticResource('GetDeliveryRatesResource');
+        // The web service call returns an error code.
+        mock.setStatusCode(404);
+        mock.setHeader('Content-Type', 'application/json;charset=UTF-8');
+        Test.startTest();
+        // Associate the callout with a mock response.
+        Test.setMock(HttpCalloutMock.class, mock);
+        
+        // Test: execute the integration for the test cart ID and integration info.
+        B2BShippingSample apexSample = new B2BShippingSample();
+        sfdc_checkout.IntegrationInfo integInfo = new sfdc_checkout.IntegrationInfo();
+        integInfo.jobId = null;
+        WebCart webCart = [SELECT Id FROM WebCart WHERE Name = 'Cart' LIMIT 1];
+        sfdc_checkout.IntegrationStatus integrationResult = apexSample.startCartProcessAsync(integInfo, webCart.Id);
+        
+        // Validate: IntegrationStatus.Status is FAILED
+        // and a new CartValidationOutput record with level 'Error' was created.
+        System.assertEquals(sfdc_checkout.IntegrationStatus.Status.FAILED, integrationResult.status);
+        List<CartValidationOutput> cartValidationOutputs = [SELECT Id FROM CartValidationOutput WHERE Level = 'Error'];
+        System.assertEquals(1, cartValidationOutputs.size());
+        Test.stopTest();
+    }
+}

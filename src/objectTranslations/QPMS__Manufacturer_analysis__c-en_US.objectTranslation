@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Europe Audit Trail --></label>
+        <name>QPMS__Europe_Audit_Trail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe Cause investigation and conclusion --></label>
+        <name>QPMS__Europe_Cause_investigation_and_conclusio</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe IMDRF Component codes Annex G --></label>
+        <name>QPMS__Europe_IMDRF_Component_codes_Annex_G</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe IMDRF Investigation conclusion Annex D --></label>
+        <name>QPMS__Europe_IMDRF_Investigation_conclusion</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe Manufacturer’s preliminary comments --></label>
+        <name>QPMS__Europe_Manufacturer_s_preliminary_commen</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe Number of similar incidents and devices --></label>
+        <name>QPMS__Europe_Number_of_similar_incidents_and_d</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe QueryFields --></label>
+        <name>QPMS__Europe_QueryFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe Similar Incidents --></label>
+        <name>QPMS__Europe_Similar_Incidents</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Europe Use of in-house terms/codes --></label>
+        <name>QPMS__Europe_Use_of_in_house_terms_codes</name>
+    </fieldSets>
+    <fields>
+        <help><!-- If you think the incident is unique and a suitable IMDRF term is missing, briefly explain --></help>
+        <label><!-- If you think incident unique, explain --></label>
+        <name>QPMS__Annex_D_incident_unique_explain__c</name>
+    </fields>
+    <fields>
+        <label><!-- If you think incident unique, explain --></label>
+        <name>QPMS__Annex_G_incident_unique_explain__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments on how similar incidents --></label>
+        <name>QPMS__Comments_on_how_similar_incidents__c</name>
+    </fields>
+    <fields>
+        <label><!-- ComplaintId --></label>
+        <name>QPMS__ComplaintId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country of incident --></label>
+        <name>QPMS__Country_of_incident_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country of incident --></label>
+        <name>QPMS__Country_of_incident_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country of incident --></label>
+        <name>QPMS__Country_of_incident_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country of incident --></label>
+        <name>QPMS__Country_of_incident_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country of incident --></label>
+        <name>QPMS__Country_of_incident_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country of incident --></label>
+        <name>QPMS__Country_of_incident_6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country of incident --></label>
+        <name>QPMS__Country_of_incident_7__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country of incident --></label>
+        <name>QPMS__Country_of_incident_8__c</name>
+    </fields>
+    <fields>
+        <help><!-- Description of remedial action/corrective action/preventive action/field safety corrective action (FSCA) (For a FSCA, fill in the FSCA form ) --></help>
+        <label><!-- Description of remedial action --></label>
+        <name>QPMS__Description_of_remedial_action__c</name>
+    </fields>
+    <fields>
+        <help><!-- Details of the selection made above --></help>
+        <label><!-- Details of the selection made above --></label>
+        <name>QPMS__Details_of_the_selection_made_above__c</name>
+    </fields>
+    <fields>
+        <label><!-- EEA + CH + TR --></label>
+        <name>QPMS__EEA_CH_TR_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- EEA + CH + TR --></label>
+        <name>QPMS__EEA_CH_TR_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- EEA + CH + TR --></label>
+        <name>QPMS__EEA_CH_TR_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- EEA + CH + TR --></label>
+        <name>QPMS__EEA_CH_TR_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- EEA + CH + TR --></label>
+        <name>QPMS__EEA_CH_TR_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- EEA + CH + TR --></label>
+        <name>QPMS__EEA_CH_TR_6__c</name>
+    </fields>
+    <fields>
+        <label><!-- EEA + CH + TR --></label>
+        <name>QPMS__EEA_CH_TR_7__c</name>
+    </fields>
+    <fields>
+        <label><!-- EEA + CH + TR --></label>
+        <name>QPMS__EEA_CH_TR_8__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>QPMS__End_Date_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>QPMS__End_Date_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>QPMS__End_Date_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>QPMS__End_Date_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enter description similar incidents --></label>
+        <name>QPMS__Enter_description_similar_incidents__c</name>
+    </fields>
+    <fields>
+        <help><!-- Final comments from the manufacturer on cause investigation and conclusion --></help>
+        <label><!-- Final comments from the manufacturer --></label>
+        <name>QPMS__Final_comments_from_the_manufacturer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Follow Up Number --></label>
+        <name>QPMS__Follow_Up_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- For Final (Non-reportable incident): Fill out rationale for why this is considered not reportable --></help>
+        <label><!-- For Final (Non-reportable incident) --></label>
+        <name>QPMS__For_Final_Non_reportable_incident__c</name>
+    </fields>
+    <fields>
+        <help><!-- For Final (Reportable incident): Description of the manufacturer’s evaluation concerning possible root causes/causative factors and conclusion --></help>
+        <label><!-- For Final (Reportable incident) --></label>
+        <name>QPMS__For_Final_Reportable_incident__c</name>
+    </fields>
+    <fields>
+        <help><!-- For initial and follow-up reports --></help>
+        <label><!-- For initial and follow-up reports --></label>
+        <name>QPMS__For_initial_and_follow_up_reports__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has the risk assessment been reviewed? --></label>
+        <name>QPMS__Has_the_risk_assessment_been_reviewed__c</name>
+        <picklistValues>
+            <masterLabel>No If (No, rationale for no review required)</masterLabel>
+            <translation><!-- No If (No, rationale for no review required) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If the risk assessment has been reviewed, is it still adequate? --></help>
+        <label><!-- If the risk assessment has been reviewed --></label>
+        <name>QPMS__If_the_risk_assessment_has_been_reviewed__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Implementation of the identified actions --></label>
+        <name>QPMS__Implementation_of_the_identified_actions__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicate on which basis similar incidents were identified regarding the device or device variant --></help>
+        <label><!-- Indicate on which basis similar incident --></label>
+        <name>QPMS__Indicate_on_which_basis_similar_incident__c</name>
+        <picklistValues>
+            <masterLabel>Lot/Batch</masterLabel>
+            <translation><!-- Lot/Batch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Model</masterLabel>
+            <translation><!-- Model --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other variant</masterLabel>
+            <translation><!-- Other variant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product platform</masterLabel>
+            <translation><!-- Product platform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Software</masterLabel>
+            <translation><!-- Software --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Initial actions --></help>
+        <label><!-- Initial actions --></label>
+        <name>QPMS__Initial_actions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Investigation finding (Annex C) Choose1 --></label>
+        <name>QPMS__Investigation_finding_Annex_C_Choose1__c</name>
+    </fields>
+    <fields>
+        <help><!-- Is root cause confirmed? --></help>
+        <label><!-- Is root cause confirmed? --></label>
+        <name>QPMS__Is_root_cause_confirmed__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- IMDRF code relating to most relevant &apos;Medical device problem&apos; (Annex A) Choose 1 --></help>
+        <label><!-- Medical device problem (Annex A) Choose1 --></label>
+        <name>QPMS__Medical_device_problem_Annex_A_Choose1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other --></label>
+        <name>QPMS__Other_Use_of_in_house_terms_codes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Other – enter description of what similar incidents are based on and the rationale why the above IMDRF codes were not used --></help>
+        <label><!-- Other –enter description of what similar --></label>
+        <name>QPMS__Other_enter_description_of_what_similar__c</name>
+    </fields>
+    <fields>
+        <help><!-- Rationale for no review required --></help>
+        <label><!-- Rationale for no review required --></label>
+        <name>QPMS__Rationale_for_no_review_required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regulatory Body --></label>
+        <name>QPMS__Regulatory_Body__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regulatory Report --></label>
+        <name>QPMS__Regulatory_Report__c</name>
+        <relationshipLabel><!-- Manufacturer analysis --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Results of the assessment --></help>
+        <label><!-- Results of the assessment --></label>
+        <name>QPMS__Results_of_the_assessment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code --></label>
+        <name>QPMS__Root_cause_evaluation_Choose_1_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Term --></label>
+        <name>QPMS__Root_cause_evaluation_Choose_1_Term__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>QPMS__Start_Date_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>QPMS__Start_Date_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>QPMS__Start_Date_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>QPMS__Start_Date_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other --></label>
+        <name>QPMS__Tick_the_most_appropriate_Other__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tick the most appropriate --></label>
+        <name>QPMS__Tick_the_most_appropriate__c</name>
+        <picklistValues>
+            <masterLabel>Active installed base</masterLabel>
+            <translation><!-- Active installed base --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Devices placed on the market or put into service</masterLabel>
+            <translation><!-- Devices placed on the market or put into service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Number of devices implanted</masterLabel>
+            <translation><!-- Number of devices implanted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Number of episodes of use (for reusable devices)</masterLabel>
+            <translation><!-- Number of episodes of use (for reusable devices) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Number of tests performed</masterLabel>
+            <translation><!-- Number of tests performed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other -describe</masterLabel>
+            <translation><!-- Other -describe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Units distributed from the date of declaration of conformity/CE mark approval to the end date of each time period</masterLabel>
+            <translation><!-- Units distributed from the date of declaration of conformity/CE mark approval to the end date of each time period --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Units distributed within each time period</masterLabel>
+            <translation><!-- Units distributed within each time period --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- What further investigations do you intend in view of reaching final conclusions? --></help>
+        <label><!-- What further investigations do you inten --></label>
+        <name>QPMS__What_further_investigations_do_you_inten__c</name>
+    </fields>
+    <fields>
+        <label><!-- World --></label>
+        <name>QPMS__World_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- World --></label>
+        <name>QPMS__World_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- World --></label>
+        <name>QPMS__World_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- World --></label>
+        <name>QPMS__World_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- World --></label>
+        <name>QPMS__World_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- World --></label>
+        <name>QPMS__World_6__c</name>
+    </fields>
+    <fields>
+        <label><!-- World --></label>
+        <name>QPMS__World_7__c</name>
+    </fields>
+    <fields>
+        <label><!-- World --></label>
+        <name>QPMS__World_8__c</name>
+    </fields>
+    <fields>
+        <label><!-- devices on the market (denominator data) --></label>
+        <name>QPMS__devices_on_the_market_denominator_data__c</name>
+    </fields>
+    <fields>
+        <help><!-- Code/term for most relevant medical device problem Choose 1 --></help>
+        <label><!-- Code --></label>
+        <name>QPMS__medical_device_problem_Choose_1_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Term --></label>
+        <name>QPMS__medical_device_problem_Choose_1_Term__c</name>
+    </fields>
+</CustomObjectTranslation>

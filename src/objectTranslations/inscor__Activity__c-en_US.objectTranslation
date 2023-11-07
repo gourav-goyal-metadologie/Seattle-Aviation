@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Accounts Payable Account --></label>
+        <name>inscor__Accounts_Payable_Account__c</name>
+        <relationshipLabel><!-- Transaction Activities (Accounts Payable Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Accounts Payable Amount --></label>
+        <name>inscor__Accounts_Payable_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Acquisition Cost --></label>
+        <name>inscor__Acquisition_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activity Type --></label>
+        <name>inscor__Activity_Type__c</name>
+        <picklistValues>
+            <masterLabel>ACQ Cost Change</masterLabel>
+            <translation><!-- ACQ Cost Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel Exchange</masterLabel>
+            <translation><!-- Cancel Exchange --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel Receipt</masterLabel>
+            <translation><!-- Cancel Receipt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel Shipment</masterLabel>
+            <translation><!-- Cancel Shipment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consignor Payable</masterLabel>
+            <translation><!-- Consignor Payable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Core Repair</masterLabel>
+            <translation><!-- Core Repair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expense Report</masterLabel>
+            <translation><!-- Expense Report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inventory Import</masterLabel>
+            <translation><!-- Inventory Import --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Issued Credit</masterLabel>
+            <translation><!-- Issued Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kits</masterLabel>
+            <translation><!-- Kits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Labor WIP</masterLabel>
+            <translation><!-- Labor WIP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lease Invoice</masterLabel>
+            <translation><!-- Lease Invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Material Issue WIP</masterLabel>
+            <translation><!-- Material Issue WIP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Material Return WIP</masterLabel>
+            <translation><!-- Material Return WIP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Misc Charge WIP</masterLabel>
+            <translation><!-- Misc Charge WIP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Inventory</masterLabel>
+            <translation><!-- New Inventory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Owner Adjustment</masterLabel>
+            <translation><!-- Owner Adjustment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment</masterLabel>
+            <translation><!-- Payment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qty Change</masterLabel>
+            <translation><!-- Qty Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receiving</masterLabel>
+            <translation><!-- Receiving --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receiving RMA</masterLabel>
+            <translation><!-- Receiving RMA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Release Protected Inventory</masterLabel>
+            <translation><!-- Release Protected Inventory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rep Cost Change</masterLabel>
+            <translation><!-- Rep Cost Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return Core</masterLabel>
+            <translation><!-- Return Core --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return EX Core</masterLabel>
+            <translation><!-- Return EX Core --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return Inventory</masterLabel>
+            <translation><!-- Return Inventory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Send Repaired</masterLabel>
+            <translation><!-- Send Repaired --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipping</masterLabel>
+            <translation><!-- Shipping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sublot Neg Cost</masterLabel>
+            <translation><!-- Sublot Neg Cost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Voucher</masterLabel>
+            <translation><!-- Voucher --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WIP Parts Reject</masterLabel>
+            <translation><!-- WIP Parts Reject --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WO Invoice</masterLabel>
+            <translation><!-- WO Invoice --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- After Acq Cost --></label>
+        <name>inscor__After_Acq_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- After Qty --></label>
+        <name>inscor__After_Qty__c</name>
+    </fields>
+    <fields>
+        <label><!-- After Repair Cost --></label>
+        <name>inscor__After_Repair_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- BOM --></label>
+        <name>inscor__BOM__c</name>
+        <relationshipLabel><!-- Transaction Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Before Acq Cost --></label>
+        <name>inscor__Before_Acq_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Before Inventory --></label>
+        <name>inscor__Before_Inventory__c</name>
+        <relationshipLabel><!-- Transaction Activities (Before Inventory) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Before Qty --></label>
+        <name>inscor__Before_Qty__c</name>
+    </fields>
+    <fields>
+        <label><!-- Before Repair Cost --></label>
+        <name>inscor__Before_Repair_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Category --></label>
+        <name>inscor__Business_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Acquisition Cost --></label>
+        <name>inscor__Company_Acquisition_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company After Acq Cost --></label>
+        <name>inscor__Company_After_Acq_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company After Repair Cost --></label>
+        <name>inscor__Company_After_Repair_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Before Acq Cost --></label>
+        <name>inscor__Company_Before_Acq_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Before Repair Cost --></label>
+        <name>inscor__Company_Before_Repair_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company EX Core Unit Repair Cost --></label>
+        <name>inscor__Company_EX_Core_Unit_Repair_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Extended Cost Change --></label>
+        <name>inscor__Company_Extended_Cost_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Labor Cost --></label>
+        <name>inscor__Company_Labor_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Repair Cost --></label>
+        <name>inscor__Company_Repair_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company --></label>
+        <name>inscor__Company__c</name>
+        <relationshipLabel><!-- Transaction Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cons Rate --></label>
+        <name>inscor__Cons_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consignment? --></label>
+        <name>inscor__Consignment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consignor Payable # --></label>
+        <name>inscor__Consignor_Payable_Number__c</name>
+        <relationshipLabel><!-- Transaction Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Consignor Payable --></label>
+        <name>inscor__Consignor_Payable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency Conversion Rate Date --></label>
+        <name>inscor__Currency_Conversion_Rate_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency Conversion Rate --></label>
+        <name>inscor__Currency_Conversion_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency From Inventory --></label>
+        <name>inscor__Currency_From_Inventory__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Exchange Summary --></label>
+        <name>inscor__Customer_Exchange_Summary__c</name>
+        <relationshipLabel><!-- Transaction Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Customer/Vendor --></label>
+        <name>inscor__Customer_Vendor__c</name>
+        <relationshipLabel><!-- Transaction Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Doc Type --></label>
+        <name>inscor__Doc_Type__c</name>
+        <picklistValues>
+            <masterLabel>EX</masterLabel>
+            <translation><!-- EX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INV</masterLabel>
+            <translation><!-- INV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LEASE</masterLabel>
+            <translation><!-- LEASE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PO</masterLabel>
+            <translation><!-- PO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RMA</masterLabel>
+            <translation><!-- RMA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RO</masterLabel>
+            <translation><!-- RO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SO</masterLabel>
+            <translation><!-- SO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WO</masterLabel>
+            <translation><!-- WO --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Doc # --></label>
+        <name>inscor__Doc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Due Date --></label>
+        <name>inscor__Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ex Core Unit Repair Cost --></label>
+        <name>inscor__Ex_Core_Unit_Repair_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exchange Type --></label>
+        <name>inscor__Exchange_Type__c</name>
+        <picklistValues>
+            <masterLabel>Cost Plus</masterLabel>
+            <translation><!-- Cost Plus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flat Rate w/OH Core</masterLabel>
+            <translation><!-- Flat Rate w/OH Core --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flat Rate w/Repairable Core</masterLabel>
+            <translation><!-- Flat Rate w/Repairable Core --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flat Rate w/SV Core</masterLabel>
+            <translation><!-- Flat Rate w/SV Core --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Expense Account-Acq --></label>
+        <name>inscor__Expense_Account_Acq__c</name>
+        <relationshipLabel><!-- Transaction Activities (Expense Account-Acq) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Expense Account-Rep --></label>
+        <name>inscor__Expense_Account_Rep__c</name>
+        <relationshipLabel><!-- Transaction Activities (Expense Account-Rep) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Expense Amount-Acq --></label>
+        <name>inscor__Expense_Amount_Acq__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expense Amount-Rep --></label>
+        <name>inscor__Expense_Amount_Rep__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extended Cost Change --></label>
+        <name>inscor__Extended_Cost_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Freight Amount --></label>
+        <name>inscor__Freight_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- INVC Date --></label>
+        <name>inscor__INVC_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- INVC Line --></label>
+        <name>inscor__INVC_Line__c</name>
+        <relationshipLabel><!-- Transaction Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- INVC # --></label>
+        <name>inscor__INVC__c</name>
+        <relationshipLabel><!-- Transaction Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Inventory Account-Acq --></label>
+        <name>inscor__Inventory_Account_Acq__c</name>
+        <relationshipLabel><!-- Transaction Activities (Inventory Account-Acq) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Inventory Account-Rep --></label>
+        <name>inscor__Inventory_Account_Rep__c</name>
+        <relationshipLabel><!-- Transaction Activities (Inventory Account-Rep) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Inventory Amount-Acq --></label>
+        <name>inscor__Inventory_Amount_Acq__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inventory Amount-Rep --></label>
+        <name>inscor__Inventory_Amount_Rep__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inventory --></label>
+        <name>inscor__Inventory__c</name>
+        <relationshipLabel><!-- Transaction Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Invoice Date --></label>
+        <name>inscor__Invoice_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice # --></label>
+        <name>inscor__Invoice_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- LOT Code? --></label>
+        <name>inscor__LOT_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- LOT Rate --></label>
+        <name>inscor__LOT_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Labor Cost --></label>
+        <name>inscor__Labor_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Labor Entry --></label>
+        <name>inscor__Labor_Entry__c</name>
+        <relationshipLabel><!-- Transaction Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Labor Hours --></label>
+        <name>inscor__Labor_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Labor Price --></label>
+        <name>inscor__Labor_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lease Line --></label>
+        <name>inscor__Lease_Line__c</name>
+        <relationshipLabel><!-- Transaction Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Line Type --></label>
+        <name>inscor__Line_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line Value --></label>
+        <name>inscor__Line_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line # --></label>
+        <name>inscor__Line__c</name>
+    </fields>
+    <fields>
+        <label><!-- Move Repair Cost to Accrual? --></label>
+        <name>inscor__Move_Repair_Cost_to_Accrual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Move Repair Cost to LOT? --></label>
+        <name>inscor__Move_Repair_Cost_to_LOT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non Inventory? --></label>
+        <name>inscor__Non_Inventory__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original TA --></label>
+        <name>inscor__Original_TA__c</name>
+        <relationshipLabel><!-- Transaction Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Owner Code Adjustment# --></label>
+        <name>inscor__Owner_Code_Adjustment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Code --></label>
+        <name>inscor__Owner_Code__c</name>
+        <relationshipLabel><!-- Transaction Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- PO Issue --></label>
+        <name>inscor__PO_Issue__c</name>
+        <relationshipLabel><!-- Transaction Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Part Number --></label>
+        <name>inscor__Part_Number__c</name>
+        <relationshipLabel><!-- Transaction Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Payment Voucher --></label>
+        <name>inscor__Payment_Voucher__c</name>
+        <relationshipLabel><!-- Transaction Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Price --></label>
+        <name>inscor__Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Processed --></label>
+        <name>inscor__Processed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purchase Order Line --></label>
+        <name>inscor__Purchase_Order_Line__c</name>
+        <relationshipLabel><!-- Transaction Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Purchase Order --></label>
+        <name>inscor__Purchase_Order__c</name>
+        <relationshipLabel><!-- Transaction Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>inscor__Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- RLS# --></label>
+        <name>inscor__RLS__c</name>
+        <relationshipLabel><!-- Transaction Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RMA --></label>
+        <name>inscor__RMA__c</name>
+        <relationshipLabel><!-- Transaction Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RO Issue --></label>
+        <name>inscor__RO_Issue__c</name>
+        <relationshipLabel><!-- Transaction Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Receipt --></label>
+        <name>inscor__Receipt__c</name>
+        <relationshipLabel><!-- Transaction Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Receivable Account --></label>
+        <name>inscor__Receivable_Account__c</name>
+        <relationshipLabel><!-- Transaction Activities (Receivable Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Receivable Amount --></label>
+        <name>inscor__Receivable_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Received Allocation? --></label>
+        <name>inscor__Received_Allocation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Release Line --></label>
+        <name>inscor__Release_Line__c</name>
+        <relationshipLabel><!-- Transaction Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Repair Cost --></label>
+        <name>inscor__Repair_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Repair Order Line --></label>
+        <name>inscor__Repair_Order_Line__c</name>
+        <relationshipLabel><!-- Transaction Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Repair Order --></label>
+        <name>inscor__Repair_Order__c</name>
+        <relationshipLabel><!-- Transaction Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Revenue Account --></label>
+        <name>inscor__Revenue_Account__c</name>
+        <relationshipLabel><!-- Transaction Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Revenue Amount --></label>
+        <name>inscor__Revenue_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Skill --></label>
+        <name>inscor__Skill__c</name>
+        <relationshipLabel><!-- Transaction Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Task Name --></label>
+        <name>inscor__Task_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Amount --></label>
+        <name>inscor__Tax_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Adjustments --></label>
+        <name>inscor__Total_Adjustments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vouchers Payable Account --></label>
+        <name>inscor__Vouchers_Payable_Account__c</name>
+        <relationshipLabel><!-- Transaction Activities (Payable Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Vouchers Payable Amount --></label>
+        <name>inscor__Vouchers_Payable_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- WO Labor Account --></label>
+        <name>inscor__WO_Labor_Account__c</name>
+        <relationshipLabel><!-- Transaction Activities (WO Labor Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- WO Labor Amount --></label>
+        <name>inscor__WO_Labor_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- WO WIP Labor Account --></label>
+        <name>inscor__WO_WIP_Labor_Account__c</name>
+        <relationshipLabel><!-- Transaction Activities (WIP Labor Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- WO WIP Labor Amount --></label>
+        <name>inscor__WO_WIP_Labor_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- WO WIP Misc Charge Account --></label>
+        <name>inscor__WO_WIP_Misc_Charge_Account__c</name>
+        <relationshipLabel><!-- Transaction Activities (WO WIP Misc Charge Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- WO WIP Misc Charge Amount --></label>
+        <name>inscor__WO_WIP_Misc_Charge_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- WO WIP Parts Account --></label>
+        <name>inscor__WO_WIP_Parts_Account__c</name>
+        <relationshipLabel><!-- Transaction Activities (WIP Parts Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- WO WIP Parts Amount --></label>
+        <name>inscor__WO_WIP_Parts_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Order Task --></label>
+        <name>inscor__Work_Order_Task__c</name>
+        <relationshipLabel><!-- Transaction Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Work Order --></label>
+        <name>inscor__Work_Order__c</name>
+        <relationshipLabel><!-- Transaction Activities --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>AvSight Transaction Activity Layout v3</layout>
+        <sections>
+            <label><!-- Before-After --></label>
+            <section>Before-After</section>
+        </sections>
+        <sections>
+            <label><!-- Exchange Information --></label>
+            <section>Exchange Information</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Information --></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label><!-- Multi Currency Information --></label>
+            <section>Multi Currency Information</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- Owner, Lot, and Consignment Information --></label>
+            <section>Owner, Lot, and Consignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Postings --></label>
+            <section>Postings</section>
+        </sections>
+        <sections>
+            <label><!-- Transaction Information --></label>
+            <section>Transaction Information</section>
+        </sections>
+        <sections>
+            <label><!-- Work Order Info --></label>
+            <section>Work Order Info</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

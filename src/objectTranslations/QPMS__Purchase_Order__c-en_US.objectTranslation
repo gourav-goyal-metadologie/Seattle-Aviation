@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Close Po --></label>
+        <name>QPMS__Close_Po</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Comment Field --></label>
+        <name>QPMS__Comment_Field</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- PurchaseOrderInitContextual --></label>
+        <name>QPMS__PurchaseOrderInitContextual</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- PurchaseOrder Header Fields --></label>
+        <name>QPMS__PurchaseOrder_Header_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- PurchaseOrder ListViewForQuickSearch --></label>
+        <name>QPMS__PurchaseOrder_ListViewForQuickSearch</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Purchase Order Detail Fields --></label>
+        <name>QPMS__Purchase_Order_Detail_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Purchase Order History --></label>
+        <name>QPMS__Purchase_Order_History</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Purchase Order Initiation Fields --></label>
+        <name>QPMS__Purchase_Order_Initiation_Fields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- All Materials included in the shipment --></label>
+        <name>QPMS__All_Materials_included_in_the_shipment__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approval Group --></label>
+        <name>QPMS__Approval_Group_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Group --></label>
+        <name>QPMS__Approval_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Required? --></label>
+        <name>QPMS__Approval_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>QPMS__Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recall</masterLabel>
+            <translation><!-- Recall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approver 1 --></label>
+        <name>QPMS__Approver_1__c</name>
+        <relationshipLabel><!-- Purchase Orders (Approver 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 2 --></label>
+        <name>QPMS__Approver_2__c</name>
+        <relationshipLabel><!-- Purchase Orders (Approver 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 3 --></label>
+        <name>QPMS__Approver_3__c</name>
+        <relationshipLabel><!-- Purchase Orders (Approver 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 4 --></label>
+        <name>QPMS__Approver_4__c</name>
+        <relationshipLabel><!-- Purchase Orders (Approver 4) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 5 --></label>
+        <name>QPMS__Approver_5__c</name>
+        <relationshipLabel><!-- Purchase Orders (Approver 5) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 6 --></label>
+        <name>QPMS__Approver_6__c</name>
+        <relationshipLabel><!-- Purchase Orders (Approver 6) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 7 --></label>
+        <name>QPMS__Approver_7__c</name>
+        <relationshipLabel><!-- Purchase Orders (Approver 7) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 8 --></label>
+        <name>QPMS__Approver_8__c</name>
+        <relationshipLabel><!-- Purchase Orders (Approver 8) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 9 --></label>
+        <name>QPMS__Approver_9__c</name>
+        <relationshipLabel><!-- Purchase Orders (Approver 9) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver --></label>
+        <name>QPMS__Approver__c</name>
+        <relationshipLabel><!-- Purchase Orders (Approver) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Business Unit --></label>
+        <name>QPMS__Business_Unit__c</name>
+        <picklistValues>
+            <masterLabel>Unit 1</masterLabel>
+            <translation><!-- Unit 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit 2</masterLabel>
+            <translation><!-- Unit 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit 3</masterLabel>
+            <translation><!-- Unit 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit 4</masterLabel>
+            <translation><!-- Unit 4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Comment --></label>
+        <name>QPMS__Closed_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comment --></label>
+        <name>QPMS__Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Create Inspection --></label>
+        <name>QPMS__Create_Inspection__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created By --></label>
+        <name>QPMS__Created_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- CurrentApprovalSequenceNumber --></label>
+        <name>QPMS__CurrentApprovalSequenceNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Received --></label>
+        <name>QPMS__Date_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Date --></label>
+        <name>QPMS__Est_Delivery_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Submitter --></label>
+        <name>QPMS__Initial_Submitter__c</name>
+        <relationshipLabel><!-- Purchase Orders (Initial Submitter) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Inspection Type --></label>
+        <name>QPMS__InspectionType__c</name>
+        <relationshipLabel><!-- Purchase Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Inspection Name --></label>
+        <name>QPMS__Inspection_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inspection Type Name --></label>
+        <name>QPMS__Inspection_Type_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inspection Type --></label>
+        <name>QPMS__Inspection_Type__c</name>
+        <picklistValues>
+            <masterLabel>Container Loading</masterLabel>
+            <translation><!-- Container Loading --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>During Production(DPI)</masterLabel>
+            <translation><!-- During Production(DPI) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Final</masterLabel>
+            <translation><!-- Final --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First Article(FAI)</masterLabel>
+            <translation><!-- First Article(FAI) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incoming</masterLabel>
+            <translation><!-- Incoming --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Shipment(PSI)</masterLabel>
+            <translation><!-- Pre-Shipment(PSI) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-production(PPI)</masterLabel>
+            <translation><!-- Pre-production(PPI) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Random</masterLabel>
+            <translation><!-- Random --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>QPMS__Location_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>QPMS__Location__c</name>
+        <relationshipLabel><!-- Purchase Orders (Location) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Materials included? --></label>
+        <name>QPMS__Materials_included__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Note To Approver --></label>
+        <name>QPMS__Note_To_Approver__c</name>
+    </fields>
+    <fields>
+        <label><!-- Numbering Scheme Assigned --></label>
+        <name>QPMS__Numbering_Scheme_Assigned__c</name>
+    </fields>
+    <fields>
+        <label><!-- PO Date --></label>
+        <name>QPMS__PO_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- PO Number --></label>
+        <name>QPMS__PO_Number_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- PO Number --></label>
+        <name>QPMS__PO_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purchase Order --></label>
+        <name>QPMS__Purchase_Order_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ready for Inspection --></label>
+        <name>QPMS__Ready_for_Inspection__c</name>
+    </fields>
+    <fields>
+        <label><!-- Receiving Status --></label>
+        <name>QPMS__Receiving_Status__c</name>
+        <picklistValues>
+            <masterLabel>Early</masterLabel>
+            <translation><!-- Early --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late</masterLabel>
+            <translation><!-- Late --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Time</masterLabel>
+            <translation><!-- On Time --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sequence --></label>
+        <name>QPMS__Sequence__c</name>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation><!-- 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40</masterLabel>
+            <translation><!-- 40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50</masterLabel>
+            <translation><!-- 50 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60</masterLabel>
+            <translation><!-- 60 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>70</masterLabel>
+            <translation><!-- 70 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Signed Off Details --></label>
+        <name>QPMS__Signed_Off_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Site --></label>
+        <name>QPMS__Site_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Site --></label>
+        <name>QPMS__Site__c</name>
+        <relationshipLabel><!-- Purchase Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>QPMS__Status__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>InReview</masterLabel>
+            <translation><!-- InReview --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inpsection Inprogress</masterLabel>
+            <translation><!-- Inpsection Inprogress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Inspection</masterLabel>
+            <translation><!-- Pending Inspection --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Supplier Number --></label>
+        <name>QPMS__Supplier_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier Name --></label>
+        <name>QPMS__Supplier_Number_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier --></label>
+        <name>QPMS__Supplier_Number__c</name>
+        <relationshipLabel><!-- Purchase Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Supplier Profile --></label>
+        <name>QPMS__Supplier_Profile__c</name>
+        <relationshipLabel><!-- Purchase Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- isLocked --></label>
+        <name>QPMS__isLocked__c</name>
+    </fields>
+    <fields>
+        <label><!-- isSubmit --></label>
+        <name>QPMS__isSubmit__c</name>
+    </fields>
+    <layouts>
+        <layout>Purchase Order Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

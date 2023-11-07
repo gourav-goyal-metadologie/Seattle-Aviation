@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account --></label>
+        <name>inscor__Account__c</name>
+        <relationshipLabel><!-- Account Approvals --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approval Date --></label>
+        <name>inscor__Approval_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the authorizing/controlling certification for this approval, i.e. ISO for PO or FAA for Repairs. --></help>
+        <label><!-- Approval Type --></label>
+        <name>inscor__Approval_Type1__c</name>
+        <picklistValues>
+            <masterLabel>ASA</masterLabel>
+            <translation><!-- ASA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accounting Approved</masterLabel>
+            <translation><!-- Accounting Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FAA</masterLabel>
+            <translation><!-- FAA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ISO</masterLabel>
+            <translation><!-- ISO --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Check this and any modules selected in the &quot;Unapprove Type&quot; will be automatically deactivated at the &quot;Expiration Date&quot;. Schedule must be turned on at the Company.Account Unapproval Schedule. --></help>
+        <label><!-- Auto Unapprove? --></label>
+        <name>inscor__Auto_Unapprove__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company --></label>
+        <name>inscor__Company__c</name>
+        <relationshipLabel><!-- Account Approvals --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the date when the &quot;Auto Unapprove&quot; will be triggered and remove the approvals for the selected Unapprove Types. --></help>
+        <label><!-- Expiration Date --></label>
+        <name>inscor__Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- An email will be sent when the Auto Unapprove conditions are met and the customer/vendor gets unapproved. --></help>
+        <label><!-- Notification Email --></label>
+        <name>inscor__Notification_Email__c</name>
+    </fields>
+    <fields>
+        <help><!-- If the Auto Unapprove option is set up, the items selected here will be automatically deactivated at Expiration Date. --></help>
+        <label><!-- Unapprove Type --></label>
+        <name>inscor__Unapprove_Type__c</name>
+        <picklistValues>
+            <masterLabel>CQ</masterLabel>
+            <translation><!-- CQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PO</masterLabel>
+            <translation><!-- PO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RFQ</masterLabel>
+            <translation><!-- RFQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RO</masterLabel>
+            <translation><!-- RO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SO</masterLabel>
+            <translation><!-- SO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WO</masterLabel>
+            <translation><!-- WO --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Date of the removal of the approval will be automatically filled in when conditions are met and unapproval has happened. --></help>
+        <label><!-- Unapproved Date --></label>
+        <name>inscor__Unapproved_Date__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Approval Date should be previous to Expiration Date --></errorMessage>
+        <name>inscor__Approval_Expiration_Relation</name>
+    </validationRules>
+</CustomObjectTranslation>

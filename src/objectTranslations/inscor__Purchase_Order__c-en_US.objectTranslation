@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Legacy Ship Method --></label>
+        <name>Legacy_Ship_Method__c</name>
+    </fields>
+    <fields>
+        <help><!-- If this field is left blank when changing Ship Method then the default Acct # will be filled in automatically. --></help>
+        <label><!-- Acct # --></label>
+        <name>inscor__Acct__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Queue Name --></label>
+        <name>inscor__Approval_Queue_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned To --></label>
+        <name>inscor__Assigned_To__c</name>
+        <relationshipLabel><!-- Purchase Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Billing City --></label>
+        <name>inscor__Billing_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Country --></label>
+        <name>inscor__Billing_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Postal Code --></label>
+        <name>inscor__Billing_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing State --></label>
+        <name>inscor__Billing_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Street --></label>
+        <name>inscor__Billing_Street__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Category Auto Update? --></label>
+        <name>inscor__Business_Category_Auto_Update__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Category --></label>
+        <name>inscor__Business_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier --></label>
+        <name>inscor__Carrier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Total Value --></label>
+        <name>inscor__Company_Total_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company --></label>
+        <name>inscor__Company__c</name>
+        <relationshipLabel><!-- Purchase Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>inscor__Contact__c</name>
+        <relationshipLabel><!-- Purchase Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Create Date --></label>
+        <name>inscor__Create_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created From Sales Order --></label>
+        <name>inscor__Created_From_Sales_Order__c</name>
+        <relationshipLabel><!-- Purchase Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- DropShip Email --></label>
+        <name>inscor__DropShip_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dropship ATTN --></label>
+        <name>inscor__Dropship_ATTN__c</name>
+        <relationshipLabel><!-- Purchase Orders (Dropship ATTN) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Dropship Site --></label>
+        <name>inscor__Dropship_Site__c</name>
+        <relationshipLabel><!-- Purchase Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Dropship to Account --></label>
+        <name>inscor__Dropship_to_Account__c</name>
+        <relationshipLabel><!-- Purchase Orders (Dropship to Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- External Comments Available --></label>
+        <name>inscor__External_Comments_Available__c</name>
+        <relationshipLabel><!-- Purchase Orders (External Comments Available) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- External Comments --></label>
+        <name>inscor__External_Comments_rt__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Port/Dest --></label>
+        <name>inscor__FOB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Generate PDF Selected Docs --></label>
+        <name>inscor__Generate_PDF_Selected_Docs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Generate PO Selected Docs --></label>
+        <name>inscor__Generate_PO_Selected_Docs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Comments Available --></label>
+        <name>inscor__Internal_Comments_Available__c</name>
+        <relationshipLabel><!-- Purchase Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Internal Comments --></label>
+        <name>inscor__Internal_Comments_rt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Load Address from Account - RETIRED --></label>
+        <name>inscor__Load_Address_from_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Lines --></label>
+        <name>inscor__Number_of_Lines__c</name>
+    </fields>
+    <fields>
+        <label><!-- PO Total Value --></label>
+        <name>inscor__PO_Total_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- PO Type --></label>
+        <name>inscor__PO_Type__c</name>
+        <picklistValues>
+            <masterLabel>Consignment</masterLabel>
+            <translation><!-- Consignment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lot</masterLabel>
+            <translation><!-- Lot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spec</masterLabel>
+            <translation><!-- Spec --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- RFQ Number --></label>
+        <name>inscor__RFQ_Number__c</name>
+        <relationshipLabel><!-- Purchase Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reference ID --></label>
+        <name>inscor__Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return PO City --></label>
+        <name>inscor__Return_PO_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return PO Country --></label>
+        <name>inscor__Return_PO_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return PO Postal Code --></label>
+        <name>inscor__Return_PO_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return PO State --></label>
+        <name>inscor__Return_PO_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return PO Street --></label>
+        <name>inscor__Return_PO_Street__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return PO Vendor Site --></label>
+        <name>inscor__Return_PO_Vendor_Site__c</name>
+        <relationshipLabel><!-- Purchase Orders (Return PO Vendor Site) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Revision# --></label>
+        <name>inscor__Revision__c</name>
+    </fields>
+    <fields>
+        <help><!-- If wanting to use the default Acct # when setting/changing Ship Method, make sure that Acct # is blank. If Acct # is filled in then it will not be automatically set. --></help>
+        <label><!-- Ship Method --></label>
+        <name>inscor__Ship_Method__c</name>
+        <relationshipLabel><!-- Purchase Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Ship Terms --></label>
+        <name>inscor__Ship_Terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ship To Address --></label>
+        <name>inscor__Ship_To_Address__c</name>
+        <relationshipLabel><!-- Purchase Orders (Ship To Address) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Ship To Location --></label>
+        <name>inscor__Ship_To_Location__c</name>
+        <relationshipLabel><!-- Purchase Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Shipping City --></label>
+        <name>inscor__Shipping_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Country --></label>
+        <name>inscor__Shipping_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Postal Code --></label>
+        <name>inscor__Shipping_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping State --></label>
+        <name>inscor__Shipping_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Street --></label>
+        <name>inscor__Shipping_Street__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>inscor__Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid</masterLabel>
+            <translation><!-- Paid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partially Received</masterLabel>
+            <translation><!-- Partially Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Received</masterLabel>
+            <translation><!-- Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sent to Vendor</masterLabel>
+            <translation><!-- Sent to Vendor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Terms --></label>
+        <name>inscor__Terms__c</name>
+        <relationshipLabel><!-- Purchase Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Urgency --></label>
+        <name>inscor__Urgency__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Routine</masterLabel>
+            <translation><!-- Routine --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Vendor --></label>
+        <name>inscor__Vendor__c</name>
+        <relationshipLabel><!-- Purchase Orders --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Community Purchase Order Layout</layout>
+        <sections>
+            <label><!-- Comments : Use the Quick Comments button at top for canned comments --></label>
+            <section>Comments : Use the Quick Comments button at top for canned comments</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- PO Information --></label>
+            <section>PO Information</section>
+        </sections>
+        <sections>
+            <label><!-- Return To Information --></label>
+            <section>Return To Information</section>
+        </sections>
+        <sections>
+            <label><!-- Shipping Information --></label>
+            <section>Shipping Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Purchase Order Layout</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Info --></label>
+            <section>Financial Info</section>
+        </sections>
+        <sections>
+            <label><!-- Owner &amp; Company Information --></label>
+            <section>Owner &amp; Company Information</section>
+        </sections>
+        <sections>
+            <label><!-- PO Information --></label>
+            <section>PO Information</section>
+        </sections>
+        <sections>
+            <label><!-- Return PO Address --></label>
+            <section>Return PO Address</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Auto Update Cannot be true when Business Category Selected. --></errorMessage>
+        <name>inscor__Business_Category_blank_Auto_Update</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Once cancelled, the PO cannot be reopened --></errorMessage>
+        <name>inscor__Cancelled_cannot_be_changed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Can not set &quot;Dropship to Account&quot; and &quot;Ship To Location&quot; together. --></errorMessage>
+        <name>inscor__Dropship_Site_And_Ship_To_Location</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- PO Type is Required --></errorMessage>
+        <name>inscor__PO_Type_is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Status cannot be changed to a previous status --></errorMessage>
+        <name>inscor__Status_cannot_be_previous</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- ZEN_Generate_Release --></label>
+        <name>avszen__ZEN_Generate_Release</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generate_Release --></label>
+        <name>inscor__Generate_Release</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Pay --></label>
+        <name>inscor__Pay</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Quick_Allocate --></label>
+        <name>inscor__Quick_Allocate</name>
+    </webLinks>
+</CustomObjectTranslation>

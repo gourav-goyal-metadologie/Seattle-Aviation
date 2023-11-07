@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- My Task --></label>
+        <name>My_Task__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reply Text --></label>
+        <name>Reply_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approved By --></label>
+        <name>inscor__Approved_By__c</name>
+        <relationshipLabel><!-- Requests (Approved By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Assigned To --></label>
+        <name>inscor__Assigned_To__c</name>
+        <relationshipLabel><!-- Requests (Assigned To) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CAGE Code --></label>
+        <name>inscor__CAGE_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company --></label>
+        <name>inscor__Company__c</name>
+        <relationshipLabel><!-- Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Condition Code --></label>
+        <name>inscor__Condition_Code__c</name>
+        <relationshipLabel><!-- Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Customer Quote Line --></label>
+        <name>inscor__Customer_Quote_Line__c</name>
+        <relationshipLabel><!-- Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Customer Quote --></label>
+        <name>inscor__Customer_Quote__c</name>
+        <relationshipLabel><!-- Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Customer --></label>
+        <name>inscor__Customer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Comments --></label>
+        <name>inscor__Internal_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line Type --></label>
+        <name>inscor__Line_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line# --></label>
+        <name>inscor__Line__c</name>
+    </fields>
+    <fields>
+        <label><!-- NSN --></label>
+        <name>inscor__NSN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Needed By --></label>
+        <name>inscor__Needed_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part Number --></label>
+        <name>inscor__Part_Number__c</name>
+        <relationshipLabel><!-- Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>inscor__Priority__c</name>
+        <picklistValues>
+            <masterLabel>Expedited</masterLabel>
+            <translation><!-- Expedited --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Normal</masterLabel>
+            <translation><!-- Normal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>inscor__Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reply By --></label>
+        <name>inscor__Reply_By__c</name>
+        <relationshipLabel><!-- Requests (Reply By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reply Condition --></label>
+        <name>inscor__Reply_Condition__c</name>
+        <relationshipLabel><!-- Requests (Reply Condition) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reply Date --></label>
+        <name>inscor__Reply_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reply Delivery (Days) --></label>
+        <name>inscor__Reply_Delivery_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reply Line Type --></label>
+        <name>inscor__Reply_Line_Type__c</name>
+        <picklistValues>
+            <masterLabel>Exchange</masterLabel>
+            <translation><!-- Exchange --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Quote</masterLabel>
+            <translation><!-- No Quote --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non Stock</masterLabel>
+            <translation><!-- Non Stock --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outright</masterLabel>
+            <translation><!-- Outright --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rental / Lease</masterLabel>
+            <translation><!-- Rental / Lease --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair</masterLabel>
+            <translation><!-- Repair --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reply Part Number --></label>
+        <name>inscor__Reply_Part_Number__c</name>
+        <relationshipLabel><!-- Requests (Reply Part Number) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reply Price --></label>
+        <name>inscor__Reply_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reply Quantity --></label>
+        <name>inscor__Reply_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reply Tag --></label>
+        <name>inscor__Reply_Tag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reply Trace --></label>
+        <name>inscor__Reply_Trace__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reply Validity (Days) --></label>
+        <name>inscor__Reply_Validity_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reply Warranty --></label>
+        <name>inscor__Reply_Warranty__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Type --></label>
+        <name>inscor__Request_Type__c</name>
+        <picklistValues>
+            <masterLabel>Account Approval</masterLabel>
+            <translation><!-- Account Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advise Alternate PN&apos;s</masterLabel>
+            <translation><!-- Advise Alternate PN&apos;s --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Buy to Stock</masterLabel>
+            <translation><!-- Buy to Stock --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Limit Increase</masterLabel>
+            <translation><!-- Credit Limit Increase --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Limit Request</masterLabel>
+            <translation><!-- Credit Limit Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expedite PO</masterLabel>
+            <translation><!-- Expedite PO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expedite SO</masterLabel>
+            <translation><!-- Expedite SO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Help sourcing PN</masterLabel>
+            <translation><!-- Help sourcing PN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Market Research for PN</masterLabel>
+            <translation><!-- Market Research for PN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Negotiate better pricing with Vendor</masterLabel>
+            <translation><!-- Negotiate better pricing with Vendor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order Cancellation</masterLabel>
+            <translation><!-- Order Cancellation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation><!-- Others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing a Stock PN</masterLabel>
+            <translation><!-- Pricing a Stock PN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase</masterLabel>
+            <translation><!-- Purchase --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RFQ</masterLabel>
+            <translation><!-- RFQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sale</masterLabel>
+            <translation><!-- Sale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Send for Repair for Customer</masterLabel>
+            <translation><!-- Send for Repair for Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Send for Repair from Stock</masterLabel>
+            <translation><!-- Send for Repair from Stock --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Requested By --></label>
+        <name>inscor__Requested_By__c</name>
+        <relationshipLabel><!-- Requests (Requested By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sales Order Line --></label>
+        <name>inscor__Sales_Order_Line__c</name>
+        <relationshipLabel><!-- Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sales Order --></label>
+        <name>inscor__Sales_Order__c</name>
+        <relationshipLabel><!-- Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>inscor__Status__c</name>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Replied</masterLabel>
+            <translation><!-- Replied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requested</masterLabel>
+            <translation><!-- Requested --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Urgency --></label>
+        <name>inscor__Urgency__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Routine</masterLabel>
+            <translation><!-- Routine --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Request Layout</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Document Information --></label>
+            <section>Document Information</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- Part Information --></label>
+            <section>Part Information</section>
+        </sections>
+        <sections>
+            <label><!-- Reply Information --></label>
+            <section>Reply Information</section>
+        </sections>
+        <sections>
+            <label><!-- Request Information --></label>
+            <section>Request Information</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

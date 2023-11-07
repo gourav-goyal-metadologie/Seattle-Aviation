@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Supplier Question --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Supplier Question --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Supplier Question --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Supplier Question --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Supplier Question --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Supplier Question --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Supplier Question --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Supplier Question --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- QuestionFieldsInAuditTrial --></label>
+        <name>QPMS__QuestionFieldsInAuditTrial</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Question Initiation fields --></label>
+        <name>QPMS__Question_Initiation_fields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Checklist Id --></label>
+        <name>QPMS__Checklist_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Color --></label>
+        <name>QPMS__Color__c</name>
+        <picklistValues>
+            <masterLabel>Green</masterLabel>
+            <translation><!-- Green --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red</masterLabel>
+            <translation><!-- Red --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yellow</masterLabel>
+            <translation><!-- Yellow --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Comment --></label>
+        <name>QPMS__Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>QPMS__Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>QPMS__External_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hint --></label>
+        <name>QPMS__Hint__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>QPMS__Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- ParentRecordId --></label>
+        <name>QPMS__ParentRecordId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pass/Fail --></label>
+        <name>QPMS__Pass_Fail__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NA</masterLabel>
+            <translation><!-- NA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Question Group --></label>
+        <name>QPMS__Question_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question In Group --></label>
+        <name>QPMS__Question_In_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question --></label>
+        <name>QPMS__Question__c</name>
+    </fields>
+    <fields>
+        <label><!-- Received Score --></label>
+        <name>QPMS__Received_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Score --></label>
+        <name>QPMS__Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Section Subsection --></label>
+        <name>QPMS__Section_Subsection__c</name>
+        <relationshipLabel><!-- Supplier Questions (Section Subsection) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Supplier Question --></label>
+        <name>QPMS__Supplier_Question__c</name>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <nameFieldLabel><!-- Supplier Questions Name --></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,162 @@
+<template>
+    <lightning-breadcrumbs class="slds-p-bottom_medium">
+        <template for:each={_resolvedCategoryPath} for:item="level">
+            <lightning-breadcrumb
+                key={level.name}
+                label={level.name}
+                href={level.url}
+            >
+            </lightning-breadcrumb>
+        </template>
+    </lightning-breadcrumbs>
+    <div class="product-information">
+        <div class="image slds-m-right_small">
+            <figure
+                class="slds-p-around_xx-small slds-border_top slds-border_right slds-border_bottom slds-border_left"
+            >
+                <img src={image.url} alt={image.alternativeText} />
+            </figure>
+        </div>
+        <div class="details-area" onload={expirationdatecheck}>
+            <div class="heading">
+                <h1 class="slds-text-heading_large product-title">{name}</h1>
+                <div class="slds-p-top_x-small">UOM: {uom}</div>
+                <template if:false={isexpirationdatecheck} ><div class="slds-p-top_x-small">Expiration Date: N/A</div></template>
+                    <template if:true={isexpirationdatecheck} > <div class="slds-p-top_x-small">Expiration Date: {expirationdate}<!--<lightning-formatted-date-time value={expirationdate}></lightning-formatted-date-time>--></div></template>
+                    <template if:true={hazmat} >
+                        <!--slds-text-heading_small<div class="hazmat slds-p-top_x-small">Hazmat</div> -->
+                        <img style="margin-top: 10px;" height="80" width="80" src="https://www.seattleav.com/seattle-storefront/images/dangerousnew.jpg">
+                    </template>
+                    <div class="slds-size_1-of-2 cc-codes" style="margin-top:10px;">
+                        <lightning-combobox placeholder="Select Condition Code" name="conditioncode"  label="Condition Code" value={conditionCodeKey} onchange={handleConditionCodeChange}  options={conditions}> </lightning-combobox>
+                    </div>
+                    <template if:true={hasPriceType} >
+                        <template if:true={conditionCodeHasPrice}>
+                            <template if:false={productAlreadyAddedIntoCart}>   
+                                <div style="margin-top: 5px;" class="slds-p-top_x-small negotiated-price value"><span class="product-price">Exchange Product</span></div>
+                            </template>
+                        </template> 
+                    </template>
+                    <template if:true={conditionCodeHasPrice}  >
+                        <template if:false={productAlreadyAddedIntoCart}>
+                            <div style="margin-top: 5px;" class="slds-p-top_x-small negotiated-price value">Price : <span class="product-price"> $<lightning-formatted-number value={conditionCodePrice}></lightning-formatted-number></span></div>
+                            <div class="slds-p-top_x-small negotiated-price value">Available Quantity : <span class="product-price"> {productAvailableQty}</span></div>
+                        </template>
+                    </template>
+                    <template if:true={conditionCodeHasPrice}>
+                        <template if:false={productAlreadyAddedIntoCart}>
+                            <template if:true={hasPriceType}  >
+                                    <!-- <div class="slds-p-top_x-small negotiated-price value">Exchange available for : <span class="product-price"> {priceType}</span></div> -->
+                                    <div class="slds-p-top_x-small negotiated-price value">Core Value : <span class="product-price"> $<lightning-formatted-number value={corev}></lightning-formatted-number></span></div>
+                                    <div class="slds-p-top_x-small negotiated-price value">Core Due : <span class="product-price">30 </span>Days</div>
+                            </template>
+                        </template>
+                    </template>
+                     <template if:false={conditionCodeHasPrice}>
+                        <template if:false={isConditionCodeSelected}>
+                            <div class="no-price">Please select condition code to check the product price and its availability.</div>
+                        </template>
+                    </template>
+                    <template if:true={productAlreadyAddedIntoCart}>
+                        <div class="no-price">This product already added into the cart with the <strong>{conditionCodeAlreadyAdded}</strong> condition code. You can not add this product with multiple condition codes into the cart.</div>
+                    </template> 
+                    <template if:false={productAlreadyAddedIntoCart}>
+                        <template if:false={conditionCodeHasPrice}>
+                            <template if:true={isConditionCodeSelected}>
+                                <div class="no-price">This product is not available for purchase. You can request a Quote.</div>
+                            </template>
+                        </template>
+                    </template>
+                    <div class="slds-p-bottom_medium">
+                        <template for:each={_displayableFields} for:item="field">
+                            <div   
+                                key={field.id}
+                                if:true={field.value}
+                                class="slds-grid slds-p-top_x-small">
+                                <p class="slds-m-right_xx-small">{field.name}:</p>
+                                <lightning-formatted-rich-text value={field.value}></lightning-formatted-rich-text>
+                            </div>
+                        </template>
+                    </div>
+            </div>
+            <div class="slds-p-vertical_small">
+                <lightning-layout vertical-align="end" class="product-btns">
+                    <lightning-layout-item size="1" class="add-to-cart-item">
+                        <lightning-input
+                            class="selector-input add-to-cart-cls"
+                            type="number"
+                            name="quantity"
+                            label="Qty"
+                            value="1"
+                            min="1"
+                            max="100"
+                            step="1"
+                            message-when-step-mismatch="Enter a whole number."
+                            oncommit={handleQuantityChange}
+                        >
+                        </lightning-input>
+                    </lightning-layout-item>
+                    <lightning-layout-item class="custom-btns">
+                        <lightning-button
+                            label="ADD TO CART"
+                            variant="brand"
+                            class="slds-m-left_x-small common-btn"
+                            disabled={showCartButton}
+                            onclick={notifyAddToCart}
+                        >
+                        </lightning-button>
+                    </lightning-layout-item>
+                    <lightning-layout-item class="custom-btns">
+                        <c-add-_-quote
+                        condition-code-label-quote={conditionCodeLabelQuote}
+                        condition-code-id-quote={conditionCodeIdQuote}
+                        >
+                        </c-add-_-quote>
+                    </lightning-layout-item>
+
+                    <lightning-layout-item class="custom-btns">
+                        <lightning-button
+                            label="ADD TO LIST"
+                            variant="brand"
+                            class="slds-m-left_x-small common-btn"
+                            onclick={notifyCreateAndAddToList}
+                        >
+                        </lightning-button>
+                    </lightning-layout-item>
+                </lightning-layout>
+            </div>
+            <lightning-accordion
+                active-section-name="description"
+                allow-multiple-sections-open
+            >
+                <lightning-accordion-section
+                    name="description"
+                    label="Product Information"
+                >
+                    <div class="slds-p-top_x-small">Description: {description}</div>
+                    <div class="slds-p-top_x-small">Keyword: {keywords}</div>
+                </lightning-accordion-section>
+            </lightning-accordion>
+        </div>
+    </div>
+    <template if:true={IsAddToCartPopUp}>
+        <div class="slds-modal slds-fade-in-open slds-backdrop">  
+            <div class="slds-modal__container">  
+              <!------HEADER Section-->  
+              <div class="slds-modal__header">  
+                <lightning-button-icon icon-name="utility:close" alternative-text="Close this window" size="large"  
+                  variant="bare-inverse" onclick={closeAddToCartPopUp} class="slds-modal__close">  
+                </lightning-button-icon>  
+                <h2 class="slds-text-heading_medium slds-m-bottom_xx-small">Item was added to cart</h2>  
+              </div>  
+              <!------Body Section-->  
+
+              <!------Footer Section-->  
+              <div class="view-quote slds-modal__footer"> 
+                <button onclick={navigateToCartPage} class="view_quote slds-button slds-button_neutral">View Cart</button> 
+                <button onclick={closeAddToCartPopUp} class="continueButtonStyle slds-button slds-button_brand">Continue Shopping</button> 
+              </div>  
+            </div>  
+        </div> 
+    </template>
+</template>

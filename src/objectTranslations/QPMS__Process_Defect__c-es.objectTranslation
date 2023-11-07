@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Process Defect --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Process Defect --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Process_DefectAuditTrail --></label>
+        <name>QPMS__Process_DefectAuditTrail</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Defect --></label>
+        <name>QPMS__Defect__c</name>
+        <relationshipLabel><!-- Process Defects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Process Defect Id --></label>
+        <name>QPMS__Process_Defect_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Standard Operational Process --></label>
+        <name>QPMS__Standard_Operational_Process__c</name>
+        <relationshipLabel><!-- Process Defects --></relationshipLabel>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <nameFieldLabel><!-- Process Defect Name --></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Calculated annual amount. --></help>
+        <label><!-- Annual Amount --></label>
+        <name>AcctSeed__Annual_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Monthly, Quarterly, Semi-Annual, Annual --></help>
+        <label><!-- Billing Frequency --></label>
+        <name>AcctSeed__Billing_Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Annual</masterLabel>
+            <translation><!-- Annual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Biweekly</masterLabel>
+            <translation><!-- Biweekly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation><!-- Monthly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation><!-- Quarterly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semi-annual</masterLabel>
+            <translation><!-- Semi-annual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation><!-- Weekly --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Customer --></label>
+        <name>AcctSeed__Customer__c</name>
+        <relationshipLabel><!-- Recurring Billings --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Leave this checkbox unchecked so Billings are created from this Recurring Billing when you have automation set up. Check it to exclude Billings from being automatically created. --></help>
+        <label><!-- Exclude From Automation --></label>
+        <name>AcctSeed__Exclude_From_Automation__c</name>
+    </fields>
+    <fields>
+        <help><!-- The last date a billing was created. --></help>
+        <label><!-- Last Billing Date --></label>
+        <name>AcctSeed__Last_Billing_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Denotes the associated ledger. --></help>
+        <label><!-- Ledger --></label>
+        <name>AcctSeed__Ledger__c</name>
+        <relationshipLabel><!-- Recurring Billings --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Number of recurring billing lines associated with this record. --></help>
+        <label><!-- Line Count --></label>
+        <name>AcctSeed__Line_Count__c</name>
+    </fields>
+    <fields>
+        <help><!-- Calculated monthly amount. --></help>
+        <label><!-- Monthly Amount --></label>
+        <name>AcctSeed__Monthly_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Time frame to create next billing. --></help>
+        <label><!-- Next Billing Create --></label>
+        <name>AcctSeed__Next_Billing_Create__c</name>
+    </fields>
+    <fields>
+        <help><!-- The next date a billing should be created. --></help>
+        <label><!-- Next Billing Date --></label>
+        <name>AcctSeed__Next_Billing_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>AcctSeed__Opportunity__c</name>
+        <relationshipLabel><!-- Recurring Billings --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Summary of the Recurring Billing Lines&apos; Tax Amount fields --></help>
+        <label><!-- Sales Tax --></label>
+        <name>AcctSeed__Sales_Tax__c</name>
+    </fields>
+    <fields>
+        <help><!-- Determines if the recurring billing should still be used. --></help>
+        <label><!-- Status --></label>
+        <name>AcctSeed__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Summary of all the Recurring Billing Lines&apos; Sub-Total fields --></help>
+        <label><!-- Sub-Total --></label>
+        <name>AcctSeed__Sub_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total --></label>
+        <name>AcctSeed__Total__c</name>
+    </fields>
+    <layouts>
+        <layout>Recurring Billing Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label><!-- Create_Billing --></label>
+        <name>AcctSeed__Create_Billing</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Billings --></label>
+        <name>AcctSeed__Create_Billings</name>
+    </webLinks>
+</CustomObjectTranslation>

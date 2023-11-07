@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- ExpenseReportEdit --></label>
+        <name>AcctSeed__ExpenseReportEdit</name>
+    </fieldSets>
+    <fields>
+        <help><!-- Reference to related Payable Line. Expenses are aggregated into Payable records for approval and payment. --></help>
+        <label><!-- Payable Line --></label>
+        <name>AcctSeed__Account_Payable_Line__c</name>
+        <relationshipLabel><!-- Expense Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>AcctSeed__Account__c</name>
+    </fields>
+    <fields>
+        <help><!-- Currency Field --></help>
+        <label><!-- Amount --></label>
+        <name>AcctSeed__Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used in the Time &amp; Material Billings process to help filter transactions in or out of the process. --></help>
+        <label><!-- Billable --></label>
+        <name>AcctSeed__Billable__c</name>
+    </fields>
+    <fields>
+        <help><!-- Denotes whether the expense has been billed --></help>
+        <label><!-- Billed --></label>
+        <name>AcctSeed__Billed__c</name>
+    </fields>
+    <fields>
+        <help><!-- Reference to related Billing Line. Expenses can be aggregated into Billing records for approval and billing. --></help>
+        <label><!-- Billing Line --></label>
+        <name>AcctSeed__Billing_Line__c</name>
+        <relationshipLabel><!-- Expense Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Denotes whether the expense line should be paid to a credit card vendor --></help>
+        <label><!-- Credit Card Vendor Payable --></label>
+        <name>AcctSeed__Credit_Card_Vendor_Payable__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is required if the expense is not to be reimbursed to the employee, but a corporate credit card. --></help>
+        <label><!-- Credit Card Vendor --></label>
+        <name>AcctSeed__Credit_Card_Vendor__c</name>
+        <relationshipLabel><!-- Expense Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Transaction date of when the expense was incurred. --></help>
+        <label><!-- Date --></label>
+        <name>AcctSeed__Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Denotes whether the employee should be reimbursed for the expense. --></help>
+        <label><!-- Employee Reimburse --></label>
+        <name>AcctSeed__Employee_Reimburse__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee --></label>
+        <name>AcctSeed__Employee__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field denotes how the Accounting Department will classify the expense on a profit &amp; loss statement for the project or company. --></help>
+        <label><!-- Expense GL Account --></label>
+        <name>AcctSeed__Expense_GL_Account__c</name>
+        <relationshipLabel><!-- Expense Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Expense Report --></label>
+        <name>AcctSeed__Expense_Report__c</name>
+        <relationshipLabel><!-- Expense Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- GL Variable 1 --></label>
+        <name>AcctSeed__GL_Account_Variable_1__c</name>
+        <relationshipLabel><!-- Expense Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- GL Variable 2 --></label>
+        <name>AcctSeed__GL_Account_Variable_2__c</name>
+        <relationshipLabel><!-- Expense Lines (GL Variable 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- GL Variable 3 --></label>
+        <name>AcctSeed__GL_Account_Variable_3__c</name>
+        <relationshipLabel><!-- Expense Lines (GL Variable 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- GL Variable 4 --></label>
+        <name>AcctSeed__GL_Account_Variable_4__c</name>
+        <relationshipLabel><!-- Expense Lines (GL Variable 4) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Used to record comments for internal communication within your organization. These comments are not seen by customers. --></help>
+        <label><!-- Internal Comment --></label>
+        <name>AcctSeed__Internal_Comment__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used to record comments for display on billings. These comments are seen by customers. --></help>
+        <label><!-- Invoice Comment --></label>
+        <name>AcctSeed__Invoice_Comment__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is required when completing an expense report for mileage. --></help>
+        <label><!-- Mileage Destination --></label>
+        <name>AcctSeed__Mileage_Destination__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is required when completing an expense report for mileage. --></help>
+        <label><!-- Mileage Origin --></label>
+        <name>AcctSeed__Mileage_Origin__c</name>
+    </fields>
+    <fields>
+        <help><!-- Mileage Rate is a calculated field. --></help>
+        <label><!-- Mileage Rate --></label>
+        <name>AcctSeed__Mileage_Rate__c</name>
+    </fields>
+    <fields>
+        <help><!-- The number of miles you are seeking reimbursement for. --></help>
+        <label><!-- Miles --></label>
+        <name>AcctSeed__Miles__c</name>
+    </fields>
+    <fields>
+        <help><!-- Work break down structure for projects, such as: Phases, Deliverables or Roles. --></help>
+        <label><!-- Project Task --></label>
+        <name>AcctSeed__Project_Task__c</name>
+        <relationshipLabel><!-- Expense Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Related Project or Job for allocation of cost. --></help>
+        <label><!-- Project --></label>
+        <name>AcctSeed__Project__c</name>
+        <relationshipLabel><!-- Expense Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>AcctSeed__Status__c</name>
+    </fields>
+    <fields>
+        <help><!-- Denotes whether the expense has been paid to a credit card vendor --></help>
+        <label><!-- Vendor/Employee Paid --></label>
+        <name>AcctSeed__Vendor_Employee_Paid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vendor/Employee Payable --></label>
+        <name>AcctSeed__Vendor_Employee_Payable__c</name>
+    </fields>
+    <layouts>
+        <layout>Expense Layout</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Mileage Information --></label>
+            <section>Mileage Information</section>
+        </sections>
+        <sections>
+            <label><!-- Project Information --></label>
+            <section>Project Information</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- The employee reimburse field and the credit card vendor field cannot both be populated. You can only select one. --></errorMessage>
+        <name>AcctSeed__Credit_Card_Vendor_Populated</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- An amount is required for an expense that is not a Mileage reimbursement. --></errorMessage>
+        <name>AcctSeed__Mandatory_Amount</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A mileage rate needs to be specified if the Expense type is a Mileage GL Account. --></errorMessage>
+        <name>AcctSeed__Mandatory_Mileage_Rate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- An expense line must contain a value for the project field. --></errorMessage>
+        <name>AcctSeed__Value_for_Project</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- An expense line must contain a value for the project task field. --></errorMessage>
+        <name>AcctSeed__Value_for_Project_Task</name>
+    </validationRules>
+</CustomObjectTranslation>

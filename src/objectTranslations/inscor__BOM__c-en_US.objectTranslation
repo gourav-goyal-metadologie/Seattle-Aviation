@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Allow Condition Ranking --></label>
+        <name>inscor__Allow_Condition_Ranking__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>inscor__Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Customer Approval</masterLabel>
+            <translation><!-- Pending Customer Approval --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Charge Category --></label>
+        <name>inscor__Charge_Category__c</name>
+        <picklistValues>
+            <masterLabel>Consulting</masterLabel>
+            <translation><!-- Consulting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Travel</masterLabel>
+            <translation><!-- Travel --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Company Currency --></label>
+        <name>inscor__Company_Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Total Misc Charge Cost --></label>
+        <name>inscor__Company_Total_Misc_Charge_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Condition Code --></label>
+        <name>inscor__Condition_Code__c</name>
+        <relationshipLabel><!-- BOM --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Create Date --></label>
+        <name>inscor__Create_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Supplied? --></label>
+        <name>inscor__Customer_Supplied__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Output Type --></label>
+        <name>inscor__Default_Output_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exchange Rate --></label>
+        <name>inscor__Exchange_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Comments --></label>
+        <name>inscor__External_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hours --></label>
+        <name>inscor__Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Comments --></label>
+        <name>inscor__Internal_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inventory --></label>
+        <name>inscor__Inventory__c</name>
+        <relationshipLabel><!-- BOM --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Invoice Line --></label>
+        <name>inscor__Invoice_Line__c</name>
+        <relationshipLabel><!-- BOM --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Keyword --></label>
+        <name>inscor__Keyword__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kit List --></label>
+        <name>inscor__Kit_List__c</name>
+        <relationshipLabel><!-- BOM --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Material Average Cost --></label>
+        <name>inscor__Material_Average_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Material Company Average Cost --></label>
+        <name>inscor__Material_Company_Average_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Material Company Price --></label>
+        <name>inscor__Material_Company_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Material Price --></label>
+        <name>inscor__Material_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Misc Charge Allowed --></label>
+        <name>inscor__Misc_Charge_Allowed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Misc Charge Source Cost --></label>
+        <name>inscor__Misc_Charge_Source_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Misc Charge Source Currency --></label>
+        <name>inscor__Misc_Charge_Source_Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Misc Charge Source Price --></label>
+        <name>inscor__Misc_Charge_Source_Price__c</name>
+    </fields>
+    <fields>
+        <help><!-- Multiplies the BOM Quantity Requested by the quantity of the kits to be built when this template is applied to a Work Order. Will not confirm the quantity has been issued when the kits are built. --></help>
+        <label><!-- Multiply by WO Qty? --></label>
+        <name>inscor__Multiply_by_WO_Qty__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part Master --></label>
+        <lookupFilter>
+            <errorMessage><!-- Part master should be non inventory when adding misc charge. --></errorMessage>
+        </lookupFilter>
+        <name>inscor__Product__c</name>
+        <relationshipLabel><!-- BOM --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Qty Remaining --></label>
+        <name>inscor__Qty_Remaining__c</name>
+    </fields>
+    <fields>
+        <label><!-- Qty Remaining to Issue --></label>
+        <name>inscor__Qty_Remaining_to_Issue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Allocated --></label>
+        <name>inscor__Quantity_Allocated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Consumed --></label>
+        <name>inscor__Quantity_Consumed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Invoiced --></label>
+        <name>inscor__Quantity_Invoiced__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Issued --></label>
+        <name>inscor__Quantity_Issued__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Removed --></label>
+        <name>inscor__Quantity_Removed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Requested --></label>
+        <name>inscor__Quantity_Requested__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Reserved --></label>
+        <name>inscor__Quantity_Reserved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Returned --></label>
+        <name>inscor__Quantity_Returned__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Unbilled --></label>
+        <name>inscor__Quantity_Unbilled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rate Date --></label>
+        <name>inscor__Rate_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rejection Comment --></label>
+        <name>inscor__Rejection_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Requested Reason --></label>
+        <name>inscor__Requested_Reason__c</name>
+        <picklistValues>
+            <masterLabel>AD Required</masterLabel>
+            <translation><!-- AD Required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Additional Damage Found</masterLabel>
+            <translation><!-- Additional Damage Found --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Broken Hardware</masterLabel>
+            <translation><!-- Broken Hardware --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missed In Evaluation</masterLabel>
+            <translation><!-- Missed In Evaluation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing Hardware</masterLabel>
+            <translation><!-- Missing Hardware --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Part Not On BOM List</masterLabel>
+            <translation><!-- Part Not On BOM List --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SB Required</masterLabel>
+            <translation><!-- SB Required --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Serial Number --></label>
+        <name>inscor__Serial_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Skill --></label>
+        <name>inscor__Skill__c</name>
+        <relationshipLabel><!-- BOM --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>inscor__Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requested</masterLabel>
+            <translation><!-- Requested --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting for Customer Approval</masterLabel>
+            <translation><!-- Waiting for Customer Approval --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Teardown Quantity --></label>
+        <name>inscor__Teardown_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>inscor__Type__c</name>
+        <picklistValues>
+            <masterLabel>Consumable</masterLabel>
+            <translation><!-- Consumable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inspect</masterLabel>
+            <translation><!-- Inspect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Misc Charge</masterLabel>
+            <translation><!-- Misc Charge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remove</masterLabel>
+            <translation><!-- Remove --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair</masterLabel>
+            <translation><!-- Repair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Replace</masterLabel>
+            <translation><!-- Replace --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Work Order Task --></label>
+        <name>inscor__Work_Order_Task__c</name>
+        <relationshipLabel><!-- BOM --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>AvSight BOM Layout</layout>
+        <sections>
+            <label><!-- Financial Information --></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- Part Information --></label>
+            <section>Part Information</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Can&apos;t create BOM of type Misc Charge. Please use &quot;Add Misc Charge&quot; button at Task page. --></errorMessage>
+        <name>inscor__Block_Misc_Charge_Type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please Enter Hours Billed. --></errorMessage>
+        <name>inscor__Hours_Billed_Required_If_Type_Labor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please Select a Material Price. --></errorMessage>
+        <name>inscor__Material_Price_Required_if_Type_Material</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please Select a Part Number. --></errorMessage>
+        <name>inscor__Part_Number_Required_if_Type_Material</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Quantity Reserved cannot be greater than the Quantity Requested --></errorMessage>
+        <name>inscor__Prevent_Reserved_from_surpassing_Request</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Quantity Requested cannot be less than the Quantity Issued minus the Quantity Returned. Please process a material return before reducing the Quantity Requested. --></errorMessage>
+        <name>inscor__Qty_Should_Greater_then_Issue_and_Return</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please Enter a Skill. --></errorMessage>
+        <name>inscor__Skill_Required_If_Type_Labor</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <description>Update Payment Schedules with a new method, when schedules and methods are defined by Account</description>
+    <interviewLabel>Update New Account Pay Method in Scheduled Payments {!$Flow.CurrentDateTime}</interviewLabel>
+    <isTemplate>true</isTemplate>
+    <label>Update New Account Pay Method in Scheduled Payments</label>
+    <loops>
+        <description>Loop through the selected schedule payments to get 1 record Id in each pass of loop</description>
+        <name>Loop_through_Scheduled_Payments</name>
+        <label>Loop_through_Scheduled_Payments</label>
+        <locationX>412</locationX>
+        <locationY>50</locationY>
+        <assignNextValueToReference>LoopVar_Scheduled_Payments</assignNextValueToReference>
+        <collectionReference>Collection_Scheduled_Payments</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Update_Payment_Method_in_Schedule</targetReference>
+        </nextValueConnector>
+    </loops>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <description>Get all schedules that match the new Payment Method&apos;s Account</description>
+        <name>Get_Scheduled_Payments</name>
+        <label>Get Scheduled Payments</label>
+        <locationX>237</locationX>
+        <locationY>49</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Loop_through_Scheduled_Payments</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>BillNPay__Account__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>VarAccount</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>BillNPay__Active__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <object>BillNPay__Scheduled_Payments__c</object>
+        <outputReference>Collection_Scheduled_Payments</outputReference>
+        <queriedFields>Id</queriedFields>
+    </recordLookups>
+    <recordUpdates>
+        <description>Enter or replace the Payment Method in each selected schedule</description>
+        <name>Update_Payment_Method_in_Schedule</name>
+        <label>Update Payment Method in Schedule</label>
+        <locationX>617</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>Loop_through_Scheduled_Payments</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>LoopVar_Scheduled_Payments.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>BillNPay__Payment_Method__c</field>
+            <value>
+                <elementReference>VarPaymentMethod</elementReference>
+            </value>
+        </inputAssignments>
+        <object>BillNPay__Scheduled_Payments__c</object>
+    </recordUpdates>
+    <startElementReference>Get_Scheduled_Payments</startElementReference>
+    <status>Active</status>
+    <variables>
+        <description>A collection of scheduled payment records</description>
+        <name>Collection_Scheduled_Payments</name>
+        <dataType>SObject</dataType>
+        <isCollection>true</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>BillNPay__Scheduled_Payments__c</objectType>
+    </variables>
+    <variables>
+        <description>Temporary storage for Scheduled Payment record selected in Loop</description>
+        <name>LoopVar_Scheduled_Payments</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>BillNPay__Scheduled_Payments__c</objectType>
+    </variables>
+    <variables>
+        <description>The Account record from the newly created Payment Method</description>
+        <name>VarAccount</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <description>The newly created payment method passed in from the PB</description>
+        <name>VarPaymentMethod</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+</Flow>

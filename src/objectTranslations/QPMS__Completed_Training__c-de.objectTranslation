@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Completed Training --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Completed Training --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Completed Training --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Completed Training --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Completed Training --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Completed Training --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Completed Training --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Completed Training --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- CertificateCommonFields --></label>
+        <name>QPMS__CertificateCommonFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CertificatePagefields --></label>
+        <name>QPMS__CertificatePagefields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Approval Process Complete --></label>
+        <name>QPMS__Approval_Process_Complete__c</name>
+    </fields>
+    <fields>
+        <help><!-- Approval Required --></help>
+        <label><!-- Approval Required --></label>
+        <name>QPMS__Approval_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>QPMS__Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recall</masterLabel>
+            <translation><!-- Recall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Approver 10 --></help>
+        <label><!-- Approver 10 --></label>
+        <name>QPMS__Approver_10__c</name>
+        <relationshipLabel><!-- Completed Trainings (Approver 10) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Approver 1 --></help>
+        <label><!-- Approver 1 --></label>
+        <name>QPMS__Approver_1__c</name>
+        <relationshipLabel><!-- Completed Trainings (Approver 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Approver 2 --></help>
+        <label><!-- Approver 2 --></label>
+        <name>QPMS__Approver_2__c</name>
+        <relationshipLabel><!-- Completed Trainings (Approver 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Approver 3 --></help>
+        <label><!-- Approver 3 --></label>
+        <name>QPMS__Approver_3__c</name>
+        <relationshipLabel><!-- Completed Trainings (Approver 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Approver 4 --></help>
+        <label><!-- Approver 4 --></label>
+        <name>QPMS__Approver_4__c</name>
+        <relationshipLabel><!-- Completed Trainings (Approver 4) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Approver 5 --></help>
+        <label><!-- Approver 5 --></label>
+        <name>QPMS__Approver_5__c</name>
+        <relationshipLabel><!-- Completed Trainings (Approver 5) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Approver 6 --></help>
+        <label><!-- Approver 6 --></label>
+        <name>QPMS__Approver_6__c</name>
+        <relationshipLabel><!-- Completed Trainings (Approver 6) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Approver 7 --></help>
+        <label><!-- Approver 7 --></label>
+        <name>QPMS__Approver_7__c</name>
+        <relationshipLabel><!-- Completed Trainings (Approver 7) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Approver 8 --></help>
+        <label><!-- Approver 8 --></label>
+        <name>QPMS__Approver_8__c</name>
+        <relationshipLabel><!-- Completed Trainings (Approver 8) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Approver 9 --></help>
+        <label><!-- Approver 9 --></label>
+        <name>QPMS__Approver_9__c</name>
+        <relationshipLabel><!-- Completed Trainings (Approver 9) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Approver --></help>
+        <label><!-- User --></label>
+        <name>QPMS__Approver__c</name>
+        <relationshipLabel><!-- Completed Trainings (User) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Assessment Required --></label>
+        <name>QPMS__AssessmentRequired__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attendance --></label>
+        <name>QPMS__Attendance__c</name>
+        <picklistValues>
+            <masterLabel>Absent</masterLabel>
+            <translation><!-- Absent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Status</masterLabel>
+            <translation><!-- No Status --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Present</masterLabel>
+            <translation><!-- Present --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Completed Date --></label>
+        <name>QPMS__Completed_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Completion Period --></help>
+        <label><!-- Completion Period --></label>
+        <name>QPMS__Completion_Period__c</name>
+    </fields>
+    <fields>
+        <help><!-- ContentVersionId --></help>
+        <label><!-- ContentVersionId --></label>
+        <name>QPMS__ContentVersionId__c</name>
+    </fields>
+    <fields>
+        <label><!-- CourseType --></label>
+        <name>QPMS__CourseType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Course Name --></label>
+        <name>QPMS__Course_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Course Owner --></label>
+        <name>QPMS__Course_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Course Session --></label>
+        <name>QPMS__Course_Session_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training Status --></label>
+        <name>QPMS__Course_Session_Status__c</name>
+        <picklistValues>
+            <masterLabel>Addressed Through Course</masterLabel>
+            <translation><!-- Addressed Through Course --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enrolled</masterLabel>
+            <translation><!-- Enrolled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Session</masterLabel>
+            <translation><!-- In Session --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incomplete</masterLabel>
+            <translation><!-- Incomplete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inprogress</masterLabel>
+            <translation><!-- Inprogress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Complete</masterLabel>
+            <translation><!-- Not Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Enrollment</masterLabel>
+            <translation><!-- Pending Enrollment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Void</masterLabel>
+            <translation><!-- Void --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Withdraw</masterLabel>
+            <translation><!-- Withdraw --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Course Sessions --></label>
+        <name>QPMS__Course_Sessions__c</name>
+        <relationshipLabel><!-- Completed Trainings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Course Title --></label>
+        <name>QPMS__Course_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Course --></label>
+        <name>QPMS__Course__c</name>
+        <relationshipLabel><!-- Completed Trainings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CreatedBy Training Junction --></label>
+        <name>QPMS__CreatedBy_Training_Junction__c</name>
+        <relationshipLabel><!-- Completed Trainings (CreatedBy Training Junction) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Created Date Training Junction --></label>
+        <name>QPMS__Created_Date_Training_Junction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created From --></label>
+        <name>QPMS__Created_From__c</name>
+        <picklistValues>
+            <masterLabel>Course</masterLabel>
+            <translation><!-- Course --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document</masterLabel>
+            <translation><!-- Document --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quicksearch</masterLabel>
+            <translation><!-- Quicksearch --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Doc status --></help>
+        <label><!-- Doc status --></label>
+        <name>QPMS__Doc_status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Viewed</masterLabel>
+            <translation><!-- Viewed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Document Name --></label>
+        <name>QPMS__Document_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Revision --></label>
+        <name>QPMS__Document_Revision__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Status --></label>
+        <name>QPMS__Document_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Title --></label>
+        <name>QPMS__Document_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document --></label>
+        <name>QPMS__Document__c</name>
+        <relationshipLabel><!-- Completed Trainings --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- DueDate --></help>
+        <label><!-- DueDate --></label>
+        <name>QPMS__DueDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duration --></label>
+        <name>QPMS__Duration__c</name>
+    </fields>
+    <fields>
+        <help><!-- End Date --></help>
+        <label><!-- End Date --></label>
+        <name>QPMS__End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Indexed Type --></label>
+        <name>QPMS__Indexed_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- Initial Submitter --></help>
+        <label><!-- Initial Submitter --></label>
+        <name>QPMS__Initial_Submitter__c</name>
+        <relationshipLabel><!-- Completed Trainings (Initial Submitter) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Internal Trainer --></label>
+        <name>QPMS__Internal_Trainer__c</name>
+    </fields>
+    <fields>
+        <help><!-- Is ReEnrolled --></help>
+        <label><!-- Is ReEnrolled --></label>
+        <name>QPMS__Is_ReEnrolled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Function Names --></label>
+        <name>QPMS__Job_Function_Names__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Function ids --></label>
+        <name>QPMS__Job_Function_ids__c</name>
+    </fields>
+    <fields>
+        <label><!-- LastModifiedBy_Training_Junction --></label>
+        <name>QPMS__LastModifiedBy_Training_Junction__c</name>
+        <relationshipLabel><!-- Completed Trainings (LastModifiedBy_Training_Junction) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- LastModified By Training Junction --></label>
+        <name>QPMS__LastModified_By_Training_Junction__c</name>
+        <relationshipLabel><!-- Completed Trainings (LastModified By Training Junction) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Lastmodified Date Training Junction --></label>
+        <name>QPMS__Lastmodified_Date_Training_Junction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Logged in users --></label>
+        <name>QPMS__Logged_in_users__c</name>
+    </fields>
+    <fields>
+        <label><!-- No Of jobfinctions --></label>
+        <name>QPMS__No_Of_jobfinctions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Obtained Percentage --></label>
+        <name>QPMS__ObtainedPercentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Id --></label>
+        <name>QPMS__Parent_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Person Profile Login --></label>
+        <name>QPMS__Person_Profile_Login__c</name>
+    </fields>
+    <fields>
+        <label><!-- Person Profile Name --></label>
+        <name>QPMS__Person_Profile_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Person Profile --></label>
+        <name>QPMS__Person_Profile__c</name>
+        <relationshipLabel><!-- Completed Trainings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Refresher Date --></label>
+        <name>QPMS__Refresher_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Refresher Period (Days) --></label>
+        <name>QPMS__Refresher_Period_Days__c</name>
+    </fields>
+    <fields>
+        <help><!-- Reports To --></help>
+        <label><!-- Reports To --></label>
+        <name>QPMS__Reports_To__c</name>
+        <relationshipLabel><!-- Completed Trainings (Reports To) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Reset Count --></help>
+        <label><!-- Reset Count --></label>
+        <name>QPMS__Reset_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Result --></label>
+        <name>QPMS__Result__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Session Name --></label>
+        <name>QPMS__Session_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Signed Off Details --></help>
+        <label><!-- Signed Off Details --></label>
+        <name>QPMS__Signed_Off_Details__c</name>
+    </fields>
+    <fields>
+        <help><!-- Start Date --></help>
+        <label><!-- Start Date --></label>
+        <name>QPMS__Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>QPMS__Type__c</name>
+        <picklistValues>
+            <masterLabel>CourseInJobFunction</masterLabel>
+            <translation><!-- CourseInJobFunction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CourseProfilePrerequisiteCourses</masterLabel>
+            <translation><!-- CourseProfilePrerequisiteCourses --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Department</masterLabel>
+            <translation><!-- Department --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EnrolledUser</masterLabel>
+            <translation><!-- EnrolledUser --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>InternalTrainer</masterLabel>
+            <translation><!-- InternalTrainer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JobFunctionCourse</masterLabel>
+            <translation><!-- JobFunctionCourse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JobFunctionCourseSession</masterLabel>
+            <translation><!-- JobFunctionCourseSession --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JobFunctionDocument</masterLabel>
+            <translation><!-- JobFunctionDocument --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Locations</masterLabel>
+            <translation><!-- Locations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PersonProfileCourse</masterLabel>
+            <translation><!-- PersonProfileCourse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PersonProfileCourseSession</masterLabel>
+            <translation><!-- PersonProfileCourseSession --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PersonProfileJobFunction</masterLabel>
+            <translation><!-- PersonProfileJobFunction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ReadAndSignoff</masterLabel>
+            <translation><!-- ReadAndSignoff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ReportTo</masterLabel>
+            <translation><!-- ReportTo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sites</masterLabel>
+            <translation><!-- Sites --></translation>
+        </picklistValues>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <layouts>
+        <layout>Completed Training Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Completed Training Name --></nameFieldLabel>
+</CustomObjectTranslation>

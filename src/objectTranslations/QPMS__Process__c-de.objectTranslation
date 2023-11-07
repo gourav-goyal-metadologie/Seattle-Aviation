@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Process --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Process --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Process --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Process --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Process --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Process --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Process --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Process --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- ProcessAuditTrail --></label>
+        <name>QPMS__ProcessAuditTrail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- WebServiceResponse --></label>
+        <name>QPMS__WebServiceResponse</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Active --></label>
+        <name>QPMS__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Unit --></label>
+        <name>QPMS__Business_Unit__c</name>
+        <picklistValues>
+            <masterLabel>Val1</masterLabel>
+            <translation><!-- Val1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Val2</masterLabel>
+            <translation><!-- Val2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Defect --></label>
+        <name>QPMS__Defect__c</name>
+        <relationshipLabel><!-- Processes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturing Site --></label>
+        <name>QPMS__Manufacturing_Site__c</name>
+        <relationshipLabel><!-- Processes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Process Classification --></label>
+        <name>QPMS__Process_Classification__c</name>
+        <picklistValues>
+            <masterLabel>Val1</masterLabel>
+            <translation><!-- Val1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Val2</masterLabel>
+            <translation><!-- Val2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Process Code --></label>
+        <name>QPMS__Process_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process Description --></label>
+        <name>QPMS__Process_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process Quality --></label>
+        <name>QPMS__Process_Quality__c</name>
+    </fields>
+    <fields>
+        <label><!-- Revision --></label>
+        <name>QPMS__Revision__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>QPMS__Type__c</name>
+        <picklistValues>
+            <masterLabel>Operational Process</masterLabel>
+            <translation><!-- Operational Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard Operational Process</masterLabel>
+            <translation><!-- Standard Operational Process --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- UDF --></label>
+        <name>QPMS__UDF__c</name>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <layouts>
+        <layout>Standard Operational Process Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Process Name --></nameFieldLabel>
+</CustomObjectTranslation>

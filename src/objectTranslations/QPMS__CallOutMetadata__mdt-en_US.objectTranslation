@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- EndPointURL --></label>
+        <name>QPMS__EndPointURL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Module Name --></label>
+        <name>QPMS__Module_Name__c</name>
+        <picklistValues>
+            <masterLabel>Complaint</masterLabel>
+            <translation><!-- Complaint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complaint Activity</masterLabel>
+            <translation><!-- Complaint Activity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Experience Type</masterLabel>
+            <translation><!-- Customer Experience Type --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non Conformance</masterLabel>
+            <translation><!-- Non Conformance --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Set Timeout --></label>
+        <name>QPMS__Set_Timeout__c</name>
+    </fields>
+    <layouts>
+        <layout>CallOutMetadata Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

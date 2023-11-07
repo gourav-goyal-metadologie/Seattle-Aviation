@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Condition Code Value --></label>
+        <name>Condition_Code_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Serial Number Value --></label>
+        <name>Serial_Number_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Acquisition Cost --></label>
+        <name>inscor__Acquisition_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- BOM --></label>
+        <name>inscor__BOM__c</name>
+        <relationshipLabel><!-- Invoice Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Business Category --></label>
+        <name>inscor__Business_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Acquisition Cost --></label>
+        <name>inscor__Company_Acquisition_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Extended Acquisition Cost --></label>
+        <name>inscor__Company_Extended_Acquisition_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Extended Repair Cost --></label>
+        <name>inscor__Company_Extended_Repair_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Extended Total Cost --></label>
+        <name>inscor__Company_Extended_Total_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Leasing Cost --></label>
+        <name>inscor__Company_Leasing_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Price --></label>
+        <name>inscor__Company_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Repair Cost --></label>
+        <name>inscor__Company_Repair_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Total Cost --></label>
+        <name>inscor__Company_Total_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company WO Cost --></label>
+        <name>inscor__Company_WO_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Condition Code --></label>
+        <name>inscor__Condition_Code__c</name>
+        <relationshipLabel><!-- Invoice Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Consignment Status --></label>
+        <name>inscor__Consignment_Status__c</name>
+        <picklistValues>
+            <masterLabel>Billed</masterLabel>
+            <translation><!-- Billed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid</masterLabel>
+            <translation><!-- Paid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processed</masterLabel>
+            <translation><!-- Processed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Consignor Payable --></label>
+        <name>inscor__Consignor_Payable__c</name>
+        <relationshipLabel><!-- Invoice Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contract Line --></label>
+        <name>inscor__Contract_Line__c</name>
+        <relationshipLabel><!-- Invoice Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Core Due (In Days) --></label>
+        <name>inscor__Core_Due__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost - RETIRED --></label>
+        <name>inscor__Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Create Date --></label>
+        <name>inscor__Create_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exchange Rate --></label>
+        <name>inscor__Exchange_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extended Acquisition Cost --></label>
+        <name>inscor__Extended_Acquisition_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extended Company Price --></label>
+        <name>inscor__Extended_Company_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extended Price --></label>
+        <name>inscor__Extended_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extended Repair Cost --></label>
+        <name>inscor__Extended_Repair_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extended Total Cost --></label>
+        <name>inscor__Extended_Total_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Comments --></label>
+        <name>inscor__External_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hours Billed --></label>
+        <name>inscor__Hours_Billed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Comments --></label>
+        <name>inscor__Internal_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inventory --></label>
+        <name>inscor__Inventory__c</name>
+        <relationshipLabel><!-- Invoice Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Invoice Paid --></label>
+        <name>inscor__Invoice_Paid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice --></label>
+        <name>inscor__Invoice__c</name>
+        <relationshipLabel><!-- Invoice Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Item --></label>
+        <name>inscor__Item__c</name>
+        <relationshipLabel><!-- Invoice Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Labor Entry --></label>
+        <name>inscor__Labor_Entry__c</name>
+        <relationshipLabel><!-- Invoice Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Lease Line --></label>
+        <name>inscor__Lease_Line__c</name>
+        <relationshipLabel><!-- Invoice Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Leasing Cost --></label>
+        <name>inscor__Leasing_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line Number --></label>
+        <name>inscor__Line_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line Type --></label>
+        <name>inscor__Line_Type__c</name>
+        <picklistValues>
+            <masterLabel>Labor</masterLabel>
+            <translation><!-- Labor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lease Overage</masterLabel>
+            <translation><!-- Lease Overage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lease Rate</masterLabel>
+            <translation><!-- Lease Rate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Materials</masterLabel>
+            <translation><!-- Materials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RMA</masterLabel>
+            <translation><!-- RMA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Order</masterLabel>
+            <translation><!-- Sales Order --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Margin % --></label>
+        <name>inscor__Margin_Percent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Margin $ --></label>
+        <name>inscor__Margin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Outright Company Price --></label>
+        <name>inscor__Outright_Company_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Outright Price --></label>
+        <name>inscor__Outright_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Code --></label>
+        <name>inscor__Owner_Code__c</name>
+        <relationshipLabel><!-- Invoice Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Part Type --></label>
+        <name>inscor__Part_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price --></label>
+        <name>inscor__Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Billed --></label>
+        <name>inscor__Quantity_Billed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>inscor__Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- RMA Line --></label>
+        <name>inscor__RMA_Line__c</name>
+        <relationshipLabel><!-- Invoice Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Release Line --></label>
+        <name>inscor__Release_Line__c</name>
+        <relationshipLabel><!-- Invoice Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Repair Cost --></label>
+        <name>inscor__Repair_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- SO Order Type --></label>
+        <name>inscor__SO_Order_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Order Line --></label>
+        <name>inscor__Sales_Order_Line__c</name>
+        <relationshipLabel><!-- Invoice Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Serial Number --></label>
+        <name>inscor__Serial_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Task --></label>
+        <name>inscor__Task__c</name>
+        <relationshipLabel><!-- Invoice Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Total Cost --></label>
+        <name>inscor__Total_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- UOM --></label>
+        <name>inscor__UOM__c</name>
+    </fields>
+    <fields>
+        <label><!-- WO Cost --></label>
+        <name>inscor__WO_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Order Material --></label>
+        <name>inscor__Work_Order_Material__c</name>
+        <relationshipLabel><!-- Invoice Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Work Order Task Skill --></label>
+        <name>inscor__Work_Order_Task_Skill__c</name>
+        <relationshipLabel><!-- Invoice Lines --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>AvSight Invoice Line Layout v3</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Consignment Information --></label>
+            <section>Consignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Costing --></label>
+            <section>Costing</section>
+        </sections>
+        <sections>
+            <label><!-- Invoice Line Details --></label>
+            <section>Invoice Line Details</section>
+        </sections>
+        <sections>
+            <label><!-- Invoice Line Information --></label>
+            <section>Invoice Line Information</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- Reference Information --></label>
+            <section>Reference Information</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Can not add additional Sales to Cancelled Payable. --></errorMessage>
+        <name>inscor__Cancelled_Payble_Not_Allowed</name>
+    </validationRules>
+</CustomObjectTranslation>

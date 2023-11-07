@@ -1,0 +1,77 @@
+<template>
+    <div class="body">
+        <template if:true={showForm}>
+            <div class="container">
+                <div class="slds-grid slds-wrap">
+                    
+                </div>
+
+                <div class="header">
+                    <div class="row justify-content-center">
+                        <div class="col-md-6 text-center">
+                            <h2 class="heading-section fs-28">Seattle Aviation Solutions LLC</h2>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-md-6 text-center mb-5">
+                            <h2 class="heading-section fs-24">Exchange / Core Return</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main">
+                    <div class="row justify-content-center">
+                        <div class="col-md-12">
+                            <div class="wrapper">
+                                <div class="row">
+                                    <div class="col-md-1">
+                                        <div class="dbox">
+                                            <div class="icon d-flex align-items-center justify-content-center">
+                                                <span class="fa fa-info"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-11">
+                                        <p class="mt-15">
+                                            Please kindly fill-in information listed below to the best of your knowledge and sign.
+                                        </p>
+                                        <!-- <p>
+                                            Please click Submit/Email button to have it sent to customersupport@seattleav.com.
+                                        </p> -->
+                                        
+                                    </div>
+                                </div>
+                                <lightning-card>
+                                    <div class="row no-gutters">
+                                        <div class="col-md-7">
+                                            <div class="contact-wrap w-100 p-md-5 p-4">
+                                                <div class="contactForm">
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            <lightning-input type="text" label="Company Name"></lightning-input>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <lightning-input type="text" label="Customer PO#"></lightning-input>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </lightning-card>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </template>
+
+        <template if:false={showForm}>
+            <div>
+                Thank you
+            </div>
+        </template>
+    </div>
+    
+    
+</template>

@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account --></label>
+        <name>BillNPay__Account__c</name>
+        <relationshipLabel><!-- Payments --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Amount added or subtracted from Transaction Amount (convenience fee, discount, late fee, etc.) --></help>
+        <label><!-- Adjustment Amount --></label>
+        <name>BillNPay__Adjustment_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- External ID used by our secure payment server.  Must be unique. --></help>
+        <label><!-- Authvia Payment ID --></label>
+        <name>BillNPay__Authvia_Payable_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this box if a customer has made a partial payment and you do not expect to receive additional payments.  This marks the Payment as complete and calculates the Write-Off amount --></help>
+        <label><!-- Balance Write-Off --></label>
+        <name>BillNPay__Balance_Write_Off__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used with Scheduled Payments --></help>
+        <label><!-- Batch Status --></label>
+        <name>BillNPay__BatchStatus__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IsProgress</masterLabel>
+            <translation><!-- IsProgress --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Used with Send Payment Request to provide a shortened URL linking to a Hosted Payment Page.   This link appears in text messages --></help>
+        <label><!-- Short Link to HPP --></label>
+        <name>BillNPay__Bitly_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cancelled --></label>
+        <name>BillNPay__Cancelled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case --></label>
+        <name>BillNPay__Case__c</name>
+        <relationshipLabel><!-- Payments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Chargeback Reason --></label>
+        <name>BillNPay__Chargeback_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Credit not processed</masterLabel>
+            <translation><!-- Credit not processed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate</masterLabel>
+            <translation><!-- Duplicate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fraudulent</masterLabel>
+            <translation><!-- Fraudulent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General</masterLabel>
+            <translation><!-- General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product not received</masterLabel>
+            <translation><!-- Product not received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product unacceptable</masterLabel>
+            <translation><!-- Product unacceptable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subscription canceled</masterLabel>
+            <translation><!-- Subscription canceled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unrecognized</masterLabel>
+            <translation><!-- Unrecognized --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Chargeback Status --></label>
+        <name>BillNPay__Chargeback_Status__c</name>
+        <picklistValues>
+            <masterLabel>Lost</masterLabel>
+            <translation><!-- Lost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Under Review</masterLabel>
+            <translation><!-- Under Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Won</masterLabel>
+            <translation><!-- Won --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Used with Volunteer Payment Request --></help>
+        <label><!-- Color --></label>
+        <name>BillNPay__Color__c</name>
+        <picklistValues>
+            <masterLabel>Black</masterLabel>
+            <translation><!-- Black --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue</masterLabel>
+            <translation><!-- Blue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Green</masterLabel>
+            <translation><!-- Green --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red</masterLabel>
+            <translation><!-- Red --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>White</masterLabel>
+            <translation><!-- White --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yellow</masterLabel>
+            <translation><!-- Yellow --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>BillNPay__Contact__c</name>
+        <relationshipLabel><!-- Payments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Currency --></label>
+        <name>BillNPay__Currency__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date/Time stamp when customer paid --></help>
+        <label><!-- Date Paid --></label>
+        <name>BillNPay__Date_Paid__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date payment request was sent --></help>
+        <label><!-- Date Sent --></label>
+        <name>BillNPay__Date_Sent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days Past Due --></label>
+        <name>BillNPay__Days_Past_Due__c</name>
+    </fields>
+    <fields>
+        <help><!-- Description displayed in message.  Ex. &quot;Invoice 1234 for 300 Red Widgets&quot;
+For SMS - keep short so message doesn&apos;t exceed the 160 character limit of SMS.  If msg &gt;160, user will get 2 texts. Testing recommended
+Email - up to 255 char may be used. --></help>
+        <label><!-- Description --></label>
+        <name>BillNPay__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Due date of payment --></help>
+        <label><!-- Due Date --></label>
+        <name>BillNPay__Due_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Email used with Send Payment Request --></help>
+        <label><!-- Email --></label>
+        <name>BillNPay__Email__c</name>
+    </fields>
+    <fields>
+        <help><!-- Type of error (not gateway dependant).  Use this field for reports and process builders --></help>
+        <label><!-- Error Type --></label>
+        <name>BillNPay__Error_Type__c</name>
+        <picklistValues>
+            <masterLabel>Declined</masterLabel>
+            <translation><!-- Declined --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate</masterLabel>
+            <translation><!-- Duplicate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expired</masterLabel>
+            <translation><!-- Expired --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hold - Misc</masterLabel>
+            <translation><!-- Hold - Misc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hold- Misc</masterLabel>
+            <translation><!-- Hold- Misc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insufficient funds</masterLabel>
+            <translation><!-- Insufficient funds --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invalid card Number</masterLabel>
+            <translation><!-- Invalid card Number --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost</masterLabel>
+            <translation><!-- Lost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Misc</masterLabel>
+            <translation><!-- Misc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not found</masterLabel>
+            <translation><!-- Not found --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment method not supported</masterLabel>
+            <translation><!-- Payment method not supported --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing error</masterLabel>
+            <translation><!-- Processing error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stolen</masterLabel>
+            <translation><!-- Stolen --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Used with Volunteer Payment Request
+For users to select from a drop down of descriptions to select from --></help>
+        <label><!-- Item --></label>
+        <name>BillNPay__Event_Item__c</name>
+        <picklistValues>
+            <masterLabel>Silent Auction #1: Round of Golf</masterLabel>
+            <translation><!-- Silent Auction #1: Round of Golf --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silent Auction #2: Ski pass at Squaw Valley</masterLabel>
+            <translation><!-- Silent Auction #2: Ski pass at Squaw Valley --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silent Auction #3: Dinner at Moodys</masterLabel>
+            <translation><!-- Silent Auction #3: Dinner at Moodys --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Used with Volunteer Payment Request --></help>
+        <label><!-- Item Name --></label>
+        <name>BillNPay__Event_Name__c</name>
+        <relationshipLabel><!-- Payments --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Used with Volunteer Payment Request --></help>
+        <label><!-- Item Price --></label>
+        <name>BillNPay__Event_Price__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used with Volunteer Payment Request --></help>
+        <label><!-- Item Type --></label>
+        <name>BillNPay__Event_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- Error, decline, or other message sent by gateway --></help>
+        <label><!-- Gateway Message --></label>
+        <name>BillNPay__Failure_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Name --></label>
+        <name>BillNPay__First_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- External ID for Contact or Account used in our secure payment server.  Reference only --></help>
+        <label><!-- Authvia User Id --></label>
+        <name>BillNPay__LP_User_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Last Name entered by payer.  May not be the same as Contact --></help>
+        <label><!-- Last Name --></label>
+        <name>BillNPay__Last_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select which template to use when sending a Payment Request --></help>
+        <label><!-- Message Template --></label>
+        <name>BillNPay__Message_Template__c</name>
+        <relationshipLabel><!-- Payments --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Name given by Payer.  May not be the same as Contact name --></help>
+        <label><!-- Payer Name --></label>
+        <name>BillNPay__Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>BillNPay__Opportunity__c</name>
+        <relationshipLabel><!-- Payments --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Indicates payment was paid offline.  Payer will no longer be able to make payment online --></help>
+        <label><!-- Paid Offline --></label>
+        <name>BillNPay__Paid_Offline__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Description Source --></label>
+        <name>BillNPay__Payment_Description_Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Method Name --></label>
+        <name>BillNPay__Payment_Method_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Method Type --></label>
+        <name>BillNPay__Payment_Method_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Method --></label>
+        <name>BillNPay__Payment_Method__c</name>
+        <relationshipLabel><!-- Payments --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Identifies which feature created this payment.  
+Used for reporting.
+Customer Initiated means the payment was created outside Salesforce in a Hosted or Embedded Payment Page and then posted into Salesforce via API. --></help>
+        <label><!-- Payment Source --></label>
+        <name>BillNPay__Payment_Source__c</name>
+    </fields>
+    <fields>
+        <help><!-- Removes phone formatting from the standard SF Phone field to support search queries.  It is not necessary to display on page layout --></help>
+        <label><!-- Mobile Unformatted --></label>
+        <name>BillNPay__Phone_Unformatted__c</name>
+    </fields>
+    <fields>
+        <help><!-- Mobile number to send text to --></help>
+        <label><!-- Mobile --></label>
+        <name>BillNPay__Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Purchased --></label>
+        <name>BillNPay__Quantity_Purchased__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation><!-- 9 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reference --></label>
+        <name>BillNPay__Reference__c</name>
+    </fields>
+    <fields>
+        <help><!-- When payment was created as a Send Payment Request, this field records how the payment request was sent, text, email, both --></help>
+        <label><!-- Request Sent by Method --></label>
+        <name>BillNPay__Request_Sent_by_Method__c</name>
+    </fields>
+    <fields>
+        <help><!-- The volunteer contact who sent this payment request to the donor/payer --></help>
+        <label><!-- Request Sent by User --></label>
+        <name>BillNPay__Request_Sent_by_User__c</name>
+        <relationshipLabel><!-- Payments (Pay Request Sent By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Return/Chargeback Comments --></label>
+        <name>BillNPay__Return_Chargeback_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return/Chargeback Requested --></label>
+        <name>BillNPay__Return_Chargeback_Requested__c</name>
+    </fields>
+    <fields>
+        <help><!-- Response from server confirming that the payment status has been updated --></help>
+        <label><!-- Return/Chargeback Response --></label>
+        <name>BillNPay__Return_Chargeback_Response__c</name>
+    </fields>
+    <fields>
+        <help><!-- Updated with status is changed to ACH Return or Chargeback --></help>
+        <label><!-- Return/Chargeback Timestamp --></label>
+        <name>BillNPay__Return_Chargeback_Timestamp__c</name>
+    </fields>
+    <fields>
+        <help><!-- This indicates that the Payment was generated from this Scheduled Payment record --></help>
+        <label><!-- Scheduled Payment --></label>
+        <name>BillNPay__Scheduled_Payment__c</name>
+        <relationshipLabel><!-- Payments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Size --></label>
+        <name>BillNPay__Size__c</name>
+        <picklistValues>
+            <masterLabel>10 ft</masterLabel>
+            <translation><!-- 10 ft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 ft</masterLabel>
+            <translation><!-- 3 ft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 ft</masterLabel>
+            <translation><!-- 4 ft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 ft</masterLabel>
+            <translation><!-- 5 ft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 ft</masterLabel>
+            <translation><!-- 6 ft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7 ft</masterLabel>
+            <translation><!-- 7 ft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8 ft</masterLabel>
+            <translation><!-- 8 ft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9 ft</masterLabel>
+            <translation><!-- 9 ft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Large</masterLabel>
+            <translation><!-- Large --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small</masterLabel>
+            <translation><!-- Small --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X-Large</masterLabel>
+            <translation><!-- X-Large --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X-Small</masterLabel>
+            <translation><!-- X-Small --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XX-Large</masterLabel>
+            <translation><!-- XX-Large --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XXX-Large</masterLabel>
+            <translation><!-- XXX-Large --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Envelopes display as green (not due, orange 0-30 days, red &gt; 30 days --></help>
+        <label><!-- Status Icon --></label>
+        <name>BillNPay__Status_Icon__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>BillNPay__Status__c</name>
+        <picklistValues>
+            <masterLabel>ACH Returned</masterLabel>
+            <translation><!-- ACH Returned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approved/Paid</masterLabel>
+            <translation><!-- Approved/Paid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chargeback</masterLabel>
+            <translation><!-- Chargeback --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Declined</masterLabel>
+            <translation><!-- Declined --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation><!-- Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Process</masterLabel>
+            <translation><!-- In Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Request Sent</masterLabel>
+            <translation><!-- Request Sent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User Lookup</masterLabel>
+            <translation><!-- User Lookup --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Void/Refund</masterLabel>
+            <translation><!-- Void/Refund --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Token --></label>
+        <name>BillNPay__Token__c</name>
+    </fields>
+    <fields>
+        <help><!-- Transaction Amount +/- Adjustment --></help>
+        <label><!-- Total Amount Due --></label>
+        <name>BillNPay__Total_Amount_Due__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Amount Paid --></label>
+        <name>BillNPay__Total_Amount_Paid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction Amount Payload --></label>
+        <name>BillNPay__Transaction_Amount_Payload__c</name>
+    </fields>
+    <fields>
+        <help><!-- The amount billed/invoiced/requested to be paid --></help>
+        <label><!-- Transaction Amount --></label>
+        <name>BillNPay__Transaction_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is your gateway&apos;s identifier (if provided by gateway) --></help>
+        <label><!-- Transaction ID --></label>
+        <name>BillNPay__Transaction_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Void/Refund Comment --></label>
+        <name>BillNPay__Void_Refund_Comment__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select a reason for the Void/Refund to be saved into the Payment record --></help>
+        <label><!-- Void/Refund Reason --></label>
+        <name>BillNPay__Void_Refund_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Customer changed mind</masterLabel>
+            <translation><!-- Customer changed mind --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation><!-- Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product defective</masterLabel>
+            <translation><!-- Product defective --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- When checked, the system will request void/refund from the gateway.  Once confirmed, the Payment Status will change to Void/Refund and the Void/Refund Response field will indicate whether a Void or a Refund was processed --></help>
+        <label><!-- Void/Refund Requsted --></label>
+        <name>BillNPay__Void_Refund_Requsted__c</name>
+    </fields>
+    <fields>
+        <help><!-- The gateway&apos;s response after submitting a payment for Void/Refund, --></help>
+        <label><!-- Void/Refund Response --></label>
+        <name>BillNPay__Void_Refund_Response__c</name>
+        <picklistValues>
+            <masterLabel>Refund Successful</masterLabel>
+            <translation><!-- Refund Successful --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Void Succesful</masterLabel>
+            <translation><!-- Void Succesful --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Void/Refund Failed</masterLabel>
+            <translation><!-- Void/Refund Failed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Time stamp when Void/Refund was submitted to gateway. --></help>
+        <label><!-- Void/Refund Time Stamp --></label>
+        <name>BillNPay__Void_Refund_Time_Stamp__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check Write-Off checkbox to indicate that balance due will not be paid/will be written off. --></help>
+        <label><!-- Write-Off Amount --></label>
+        <name>BillNPay__Write_Off_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- The difference between the amount due and paid.   Useful if partial payments is enabled --></help>
+        <label><!-- Remaining Due --></label>
+        <name>BillNPay__Write_Off_Due__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cash Receipt --></label>
+        <name>Cash_Receipt__c</name>
+        <relationshipLabel><!-- Payments --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- AVSight Sales Order --></help>
+        <label><!-- Sales Order --></label>
+        <name>Sales_Order__c</name>
+        <relationshipLabel><!-- Payments --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Payment Layout</layout>
+        <sections>
+            <label><!-- ACH Returns &amp; Chargebacks --></label>
+            <section>ACH Returns &amp; Chargebacks</section>
+        </sections>
+        <sections>
+            <label><!-- Additional Payment Data --></label>
+            <section>Additional Payment Data</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Gateway Response --></label>
+            <section>Gateway Response</section>
+        </sections>
+        <sections>
+            <label><!-- Parent Object Relationship --></label>
+            <section>Parent Object Relationship</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Method --></label>
+            <section>Payment Method</section>
+        </sections>
+        <sections>
+            <label><!-- Remaining Due and Write-Off --></label>
+            <section>Remaining Due and Write-Off</section>
+        </sections>
+        <sections>
+            <label><!-- Void/Refund --></label>
+            <section>Void/Refund</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- The Canceled Checkbox and Status are only available if the Payment was previously in &quot;New&quot;, &quot;In Process&quot; or &quot;Request Sent&quot; Status --></errorMessage>
+        <name>BillNPay__Canceled_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Invalid Status.  ACH Returned must be for a Payment Method of record type Bank Account with a prior status of Approved --></errorMessage>
+        <name>BillNPay__Status_Validation_ACH_Returned</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Invalid Status.  Approved/Paid must be preceded by Request Sent --></errorMessage>
+        <name>BillNPay__Status_Validation_ApprovedPaid</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Invalid Status.  Charge Back status must be for a Payment Method of record type &apos;Card&apos; with a prior status of Approved --></errorMessage>
+        <name>BillNPay__Status_Validation_Charge_Back</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Invalid Status.  Declined must be preceded by Request Sent --></errorMessage>
+        <name>BillNPay__Status_Validation_Declined</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Invalid Status.  You may only change a status to New if prior status = Error --></errorMessage>
+        <name>BillNPay__Status_Validation_New</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Invalid Status. You may only change a status to User Lookup if prior status = New --></errorMessage>
+        <name>BillNPay__Status_Validation_UserLookUp</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Invalid Status.  Void/Refund must be preceded by Request Sent, Approved/Paid, or Charge Back --></errorMessage>
+        <name>BillNPay__Status_Validation_VoidRefund</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Cancel_Payment --></label>
+        <name>BillNPay__Cancel_Payment</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Paid_Offline --></label>
+        <name>BillNPay__Paid_Offline</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Return_Chargeback --></label>
+        <name>BillNPay__Return_Chargeback</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Void_Refund --></label>
+        <name>BillNPay__Void_Refund</name>
+    </webLinks>
+</CustomObjectTranslation>

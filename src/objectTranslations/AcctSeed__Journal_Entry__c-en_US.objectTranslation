@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- MassAddEditRows --></label>
+        <name>AcctSeed__MassAddEditRows</name>
+    </fieldSets>
+    <fields>
+        <help><!-- Used to specify accounting period for financial reporting. --></help>
+        <label><!-- Accounting  Period --></label>
+        <name>AcctSeed__Accounting_Period__c</name>
+        <relationshipLabel><!-- Journal Entry --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Accounting Year --></label>
+        <name>AcctSeed__Accounting_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency Conversion Rate --></label>
+        <name>AcctSeed__Currency_Conversion_Rate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Informational field only to note date journal is created. --></help>
+        <label><!-- Journal Date --></label>
+        <name>AcctSeed__Journal_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ledger --></label>
+        <name>AcctSeed__Ledger__c</name>
+        <relationshipLabel><!-- Journal Entries --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Number of journal entry lines associated with this record. --></help>
+        <label><!-- Line Count --></label>
+        <name>AcctSeed__Line_Count__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total Debits - Total Credits. Shows the total amount a Journal Entry is Out of Balance. --></help>
+        <label><!-- Out of Balance --></label>
+        <name>AcctSeed__Out_of_Balance__c</name>
+    </fields>
+    <fields>
+        <help><!-- The associated recurring journal entry for this record. --></help>
+        <label><!-- Recurring Journal Entry --></label>
+        <name>AcctSeed__Recurring_Journal_Entry__c</name>
+        <relationshipLabel><!-- Journal Entries --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- A value of &quot;Posted&quot; indicates the record is final. --></help>
+        <label><!-- Posting Status --></label>
+        <name>AcctSeed__Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Process</masterLabel>
+            <translation><!-- In Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting for Approval</masterLabel>
+            <translation><!-- Waiting for Approval --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Total Debits from Journal entry Lines. Must equal Total Credits at time of posting. --></help>
+        <label><!-- Total Credits --></label>
+        <name>AcctSeed__Total_Credits__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total Debits from Journal entry Lines. Must equal Total Credits at time of posting. --></help>
+        <label><!-- Total Debits --></label>
+        <name>AcctSeed__Total_Debits__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing --></label>
+        <name>inscoras__Billing__c</name>
+        <relationshipLabel><!-- Journal Entries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Inventory --></label>
+        <name>inscoras__Inventory__c</name>
+        <relationshipLabel><!-- Journal Entries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Journal Entry Category --></label>
+        <name>inscoras__Journal_Entry_Category__c</name>
+        <picklistValues>
+            <masterLabel>Consignor Payable</masterLabel>
+            <translation><!-- Consignor Payable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inventory Update</masterLabel>
+            <translation><!-- Inventory Update --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Labor WIP</masterLabel>
+            <translation><!-- Labor WIP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lease Invoice</masterLabel>
+            <translation><!-- Lease Invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Material Issue WIP</masterLabel>
+            <translation><!-- Material Issue WIP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Material Return WIP</masterLabel>
+            <translation><!-- Material Return WIP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Misc Charge WIP</masterLabel>
+            <translation><!-- Misc Charge WIP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Owner Adjustment</masterLabel>
+            <translation><!-- Owner Adjustment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receiving</masterLabel>
+            <translation><!-- Receiving --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipping</masterLabel>
+            <translation><!-- Shipping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vendor Invoice</masterLabel>
+            <translation><!-- Vendor Invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WO Invoice</masterLabel>
+            <translation><!-- WO Invoice --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Purchase Order Line --></label>
+        <name>inscoras__Purchase_Order_Line__c</name>
+        <relationshipLabel><!-- Journal Entries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RMA Line --></label>
+        <name>inscoras__RMA_Line__c</name>
+        <relationshipLabel><!-- Journal Entries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RO Issue --></label>
+        <name>inscoras__RO_Issue__c</name>
+        <relationshipLabel><!-- Journal Entries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Receipt --></label>
+        <name>inscoras__Receipt__c</name>
+        <relationshipLabel><!-- Journal Entries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Release --></label>
+        <name>inscoras__Release__c</name>
+        <relationshipLabel><!-- Journal Entries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Repair Order Line --></label>
+        <name>inscoras__Repair_Order_Line__c</name>
+        <relationshipLabel><!-- Journal Entries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Transaction Activity --></label>
+        <name>inscoras__Transaction_Activity__c</name>
+        <relationshipLabel><!-- Journal Entries --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>AvSight Journal Entry Layout</layout>
+        <sections>
+            <label><!-- AvSight --></label>
+            <section>AvSight</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Journal Entry Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SAS Journal Entry Layout</layout>
+        <sections>
+            <label><!-- AvSight --></label>
+            <section>AvSight</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- You must enter a value --></errorMessage>
+        <name>AcctSeed__Accounting_Period_Is_Required</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Clone_With_Lines --></label>
+        <name>AcctSeed__Clone_With_Lines</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Post --></label>
+        <name>AcctSeed__Post</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Post_Journal_Entries --></label>
+        <name>AcctSeed__Post_Journal_Entries</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Reverse_Clone_With_Lines --></label>
+        <name>AcctSeed__Reverse_Clone_With_Lines</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Unpost --></label>
+        <name>AcctSeed__Unpost</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Unpost_Journal_Entries --></label>
+        <name>AcctSeed__Unpost_Journal_Entries</name>
+    </webLinks>
+</CustomObjectTranslation>

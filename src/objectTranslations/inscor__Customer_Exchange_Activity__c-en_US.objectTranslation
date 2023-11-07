@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Bill Outright Acq Cost --></label>
+        <name>inscor__Bill_Outright_Acq_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bill Outright Price --></label>
+        <name>inscor__Bill_Outright_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bill Outright Qty --></label>
+        <name>inscor__Bill_Outright_Qty__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bill Outright Rep Cost --></label>
+        <name>inscor__Bill_Outright_Rep_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bill Outright SO Line --></label>
+        <name>inscor__Bill_Outright_SO_Line__c</name>
+        <relationshipLabel><!-- Customer Exchange Activities (Bill Outright SO Line) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Company Bill Outright Acq Cost --></label>
+        <name>inscor__Company_Bill_Outright_Acq_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Bill Outright Repair Cost --></label>
+        <name>inscor__Company_Bill_Outright_Repair_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Core Receipt ID --></label>
+        <name>inscor__Core_Receipt_ID__c</name>
+        <relationshipLabel><!-- Customer_Exchange_Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Core Return INV-ID --></label>
+        <name>inscor__Core_Return_INV_ID__c</name>
+        <relationshipLabel><!-- Customer Exchange Activities (Core Return INV-ID) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Core Return SO Line --></label>
+        <name>inscor__Core_Return_SO_Line__c</name>
+        <relationshipLabel><!-- Customer Exchange Activities (Core Return SO Line) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Core Returned By --></label>
+        <name>inscor__Core_Returned_By__c</name>
+        <relationshipLabel><!-- Customer Exchange Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Customer Exchange Summary --></label>
+        <name>inscor__Customer_Exchange_Summary__c</name>
+        <relationshipLabel><!-- Customer_Exchange_Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date Received --></label>
+        <name>inscor__Date_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Shipped --></label>
+        <name>inscor__Date_Shipped__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Core Return --></label>
+        <name>inscor__Date_of_Core_Return__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exchange Sales Order Line ID --></label>
+        <name>inscor__Exchange_Sales_Order_Line_ID__c</name>
+        <relationshipLabel><!-- Customer_Exchange_Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Exchange Status --></label>
+        <name>inscor__Exchange_Status__c</name>
+        <picklistValues>
+            <masterLabel>Billed Charges</masterLabel>
+            <translation><!-- Billed Charges --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billed Core Repair</masterLabel>
+            <translation><!-- Billed Core Repair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billed Core/Outright</masterLabel>
+            <translation><!-- Billed Core/Outright --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Core Received</masterLabel>
+            <translation><!-- Core Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Core Repaired</masterLabel>
+            <translation><!-- Core Repaired --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Core at Repair</masterLabel>
+            <translation><!-- Core at Repair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Returned Core</masterLabel>
+            <translation><!-- Returned Core --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipped</masterLabel>
+            <translation><!-- Shipped --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipped to Exchange Vendor</masterLabel>
+            <translation><!-- Shipped to Exchange Vendor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stocked</masterLabel>
+            <translation><!-- Stocked --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Exchange Type --></label>
+        <name>inscor__Exchange_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fee Amount --></label>
+        <name>inscor__Fee_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fee Date --></label>
+        <name>inscor__Fee_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fee SO Line Status --></label>
+        <name>inscor__Fee_SO_Line_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fee SO Line --></label>
+        <name>inscor__Fee_SO_Line__c</name>
+        <relationshipLabel><!-- Customer Exchange Activities (Fee SO Line) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Fee Type --></label>
+        <name>inscor__Fee_Type_Id__c</name>
+        <relationshipLabel><!-- Customer Exchange Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Original Core Disposition --></label>
+        <name>inscor__Original_Core_Disposition__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Core Due Date --></label>
+        <name>inscor__Original_Core_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Core Due Days --></label>
+        <name>inscor__Original_Core_Due_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Line Type --></label>
+        <name>inscor__Original_Line_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Outright Price --></label>
+        <name>inscor__Original_Outright_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Price --></label>
+        <name>inscor__Original_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Quantity --></label>
+        <name>inscor__Original_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Serial --></label>
+        <name>inscor__Original_Serial__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Stock Disposition --></label>
+        <name>inscor__Original_Stock_Disposition__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Ordered --></label>
+        <name>inscor__Quantity_Ordered__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Shipped --></label>
+        <name>inscor__Quantity_Shipped__c</name>
+    </fields>
+    <fields>
+        <label><!-- RO Date Sent --></label>
+        <name>inscor__RO_Date_Sent__c</name>
+    </fields>
+    <fields>
+        <label><!-- RO Inventory Line ID Sent --></label>
+        <name>inscor__RO_Inventory_Line_ID_Sent__c</name>
+        <relationshipLabel><!-- Customer_Exchange_Activities (Inventory Line ID Sent) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RO Line Currency --></label>
+        <name>inscor__RO_Line_Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- RO Line ID Sent --></label>
+        <name>inscor__RO_Line_ID_Sent__c</name>
+        <relationshipLabel><!-- Customer_Exchange_Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Receipt ID Received --></label>
+        <name>inscor__Receipt_ID_Received__c</name>
+        <relationshipLabel><!-- Customer_Exchange_Activities (Receipt ID Received) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reference ID --></label>
+        <name>inscor__Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Release Line --></label>
+        <name>inscor__Release_Line__c</name>
+        <relationshipLabel><!-- Customer Exchange Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Repair Quantity --></label>
+        <name>inscor__Repair_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Order Line Type --></label>
+        <name>inscor__Sales_Order_Line_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sent Inventory Line ID --></label>
+        <name>inscor__Sent_Inventory_Line_ID__c</name>
+        <relationshipLabel><!-- Customer_Exchange_Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sequence --></label>
+        <name>inscor__Sequence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>inscor__Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit Repair Company Cost --></label>
+        <name>inscor__Unit_Repair_Company_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit Repair Cost --></label>
+        <name>inscor__Unit_Repair_Cost__c</name>
+    </fields>
+    <layouts>
+        <layout>AvSight - Customer Exchange Activity Layout v2</layout>
+        <sections>
+            <label><!-- Bill Core/Outright --></label>
+            <section>Bill Core/Outright</section>
+        </sections>
+        <sections>
+            <label><!-- Core Information --></label>
+            <section>Core Information</section>
+        </sections>
+        <sections>
+            <label><!-- Core Return Information --></label>
+            <section>Core Return Information</section>
+        </sections>
+        <sections>
+            <label><!-- Exchange Activity Information --></label>
+            <section>Exchange Activity Information</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Information --></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label><!-- Original Information --></label>
+            <section>Original Information</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- RO Information --></label>
+            <section>RO Information</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

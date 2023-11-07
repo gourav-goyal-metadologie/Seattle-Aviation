@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Active --></label>
+        <name>QPMS__Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- FDA Code / IMDRF Code + Term for audit trail purpose --></help>
+        <label><!-- Code Term --></label>
+        <name>QPMS__Code_Term__c</name>
+    </fields>
+    <fields>
+        <help><!-- Definition --></help>
+        <label><!-- Definition --></label>
+        <name>QPMS__Definition__c</name>
+    </fields>
+    <fields>
+        <help><!-- FDA Code --></help>
+        <label><!-- FDA Code --></label>
+        <name>QPMS__FDA_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- IMDRF Code --></label>
+        <name>QPMS__IMDRF_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- Regulatory Code --></help>
+        <label><!-- Regulatory Code --></label>
+        <name>QPMS__Regulatory_Code__c</name>
+        <relationshipLabel><!-- Regulatory Codes --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Term --></help>
+        <label><!-- Term --></label>
+        <name>QPMS__Term__c</name>
+    </fields>
+    <layouts>
+        <layout>Regulatory Code Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- EuropeClinical --></label>
+        <name>QPMS__EuropeClinical</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- EuropeComponentCodes --></description>
+        <label><!-- EuropeComponentCodes --></label>
+        <name>QPMS__EuropeComponentCodes</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- EuropeHealth --></label>
+        <name>QPMS__EuropeHealth</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- EuropeInvestigationConclusion --></description>
+        <label><!-- EuropeInvestigationConclusion --></label>
+        <name>QPMS__EuropeInvestigationConclusion</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- EuropeInvestigationFindings --></description>
+        <label><!-- EuropeInvestigationFindings --></label>
+        <name>QPMS__EuropeInvestigationFindings</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- EuropeMedical --></label>
+        <name>QPMS__EuropeMedical</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- EuropeTypeOfInvestigation --></description>
+        <label><!-- EuropeTypeOfInvestigation --></label>
+        <name>QPMS__EuropeTypeOfInvestigation</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- USComponent --></description>
+        <label><!-- USComponent --></label>
+        <name>QPMS__USComponent</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- USConclusion --></description>
+        <label><!-- USConclusion --></label>
+        <name>QPMS__USConclusion</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- USDevice --></label>
+        <name>QPMS__USDevice</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- USImpact --></description>
+        <label><!-- USImpact --></label>
+        <name>QPMS__USImpact</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- USMethod --></description>
+        <label><!-- USMethod --></label>
+        <name>QPMS__USMethod</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- USPatient --></label>
+        <name>QPMS__USPatient</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- USResult --></description>
+        <label><!-- USResult --></label>
+        <name>QPMS__USResult</name>
+    </recordTypes>
+</CustomObjectTranslation>

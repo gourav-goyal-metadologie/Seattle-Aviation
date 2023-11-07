@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account --></label>
+        <name>inscor__Account__c</name>
+        <relationshipLabel><!-- Account Warehouses --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Warehouse --></label>
+        <name>inscor__Warehouse__c</name>
+        <relationshipLabel><!-- Account Warehouses --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

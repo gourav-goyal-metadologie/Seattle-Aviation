@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Customer Exchange Summary Form Response</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Customer Exchange Summary Form Responses</value>
+    </caseValues>
+    <fields>
+        <help><!-- AC CSN --></help>
+        <label><!-- AC CSN --></label>
+        <name>AC_CSN__c</name>
+    </fields>
+    <fields>
+        <help><!-- AC TSN --></help>
+        <label><!-- AC TSN --></label>
+        <name>AC_TSN__c</name>
+    </fields>
+    <fields>
+        <help><!-- AWB --></help>
+        <label><!-- AWB --></label>
+        <name>AWB__c</name>
+    </fields>
+    <fields>
+        <help><!-- Field used to check which Exchange Summary response is active --></help>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address --></label>
+        <name>Address__c</name>
+    </fields>
+    <fields>
+        <help><!-- Agreement to Non-Incident-Statement --></help>
+        <label><!-- Agreement to Non-Incident-Statement --></label>
+        <name>Agreement_to_Non_Incident_Statement__c</name>
+    </fields>
+    <fields>
+        <help><!-- Aircraft Model --></help>
+        <label><!-- Aircraft Model --></label>
+        <name>Aircraft_Model__c</name>
+    </fields>
+    <fields>
+        <help><!-- Aircraft SN --></help>
+        <label><!-- Aircraft SN --></label>
+        <name>Aircraft_SN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Address --></label>
+        <name>Billing_Address__c</name>
+    </fields>
+    <fields>
+        <help><!-- CSN Value --></help>
+        <label><!-- CSN Value --></label>
+        <name>CSN_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- CSO Value --></help>
+        <label><!-- CSO Value --></label>
+        <name>CSO_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- CSO --></help>
+        <label><!-- CSO/CSN --></label>
+        <name>CSO__c</name>
+        <picklistValues>
+            <masterLabel>CSN</masterLabel>
+            <translation><!-- CSN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSO</masterLabel>
+            <translation><!-- CSO --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Carrier --></help>
+        <label><!-- Carrier --></label>
+        <name>Carrier__c</name>
+        <picklistValues>
+            <masterLabel>DHL</masterLabel>
+            <translation><!-- DHL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FedEx</masterLabel>
+            <translation><!-- FedEx --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation><!-- Others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS</masterLabel>
+            <translation><!-- UPS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Customer Exchange Summary --></help>
+        <label><!-- Customer Exchange Summary --></label>
+        <name>Customer_Exchange_Summary__c</name>
+        <relationshipLabel><!-- Customer Exchange Summary Form Responses --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Customer Name --></help>
+        <label><!-- Customer Name --></label>
+        <name>Customer_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Customer PO Number --></help>
+        <label><!-- Customer PO Number --></label>
+        <name>Customer_PO_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Field used to lock the response so customer will not able to fill the exchange form again --></help>
+        <label><!-- Locked --></label>
+        <name>Locked__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Original Part Number --></help>
+        <label><!-- PN --></label>
+        <name>PN__c</name>
+        <relationshipLabel><!-- Customer Exchange Summary Form Responses --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Parent Form Response --></help>
+        <label><!-- Parent Form Response --></label>
+        <name>Parent_Form_Response__c</name>
+        <relationshipLabel><!-- Customer Exchange Summary Form Responses --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Position --></label>
+        <name>Position__c</name>
+    </fields>
+    <fields>
+        <help><!-- Reason for Removal (Other) --></help>
+        <label><!-- Reason for Removal (Other) --></label>
+        <name>Reason_for_Removal_Comments__c</name>
+    </fields>
+    <fields>
+        <help><!-- Reason for Removal --></help>
+        <label><!-- Reason for Removal --></label>
+        <name>Reason_for_Removal__c</name>
+        <picklistValues>
+            <masterLabel>Failed Worn to Limit</masterLabel>
+            <translation><!-- Failed Worn to Limit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation><!-- Others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheduled</masterLabel>
+            <translation><!-- Scheduled --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- SN --></help>
+        <label><!-- SN --></label>
+        <name>SN__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sales Order --></help>
+        <label><!-- Sales Order --></label>
+        <name>Sales_Order__c</name>
+        <relationshipLabel><!-- Customer Exchange Summary Form Responses --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- TSN Value --></help>
+        <label><!-- TSN Value --></label>
+        <name>TSN_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- TSO Value --></help>
+        <label><!-- TSO Value --></label>
+        <name>TSO_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- TSO --></help>
+        <label><!-- TSO/TSN --></label>
+        <name>TSO__c</name>
+        <picklistValues>
+            <masterLabel>TSN</masterLabel>
+            <translation><!-- TSN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TSO</masterLabel>
+            <translation><!-- TSO --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Customer Exchange Summary Form Response Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

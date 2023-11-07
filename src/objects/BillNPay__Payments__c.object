@@ -1,0 +1,1959 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>BillNPay__Payment_Compact_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>BillNPay__Payment_Compact_Layout</fullName>
+        <fields>BillNPay__Description__c</fields>
+        <fields>Name</fields>
+        <fields>BillNPay__Payment_Method_Name__c</fields>
+        <fields>BillNPay__Transaction_Amount__c</fields>
+        <fields>BillNPay__Status__c</fields>
+        <fields>BillNPay__Status_Icon__c</fields>
+        <fields>BillNPay__Bitly_Link__c</fields>
+        <label>Payment Compact Layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>The primary record used in Bill &amp; Pay.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>BillNPay__Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Payments</relationshipLabel>
+        <relationshipName>LP_Payments</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Adjustment_Amount__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Amount added or subtracted from Transaction Amount (convenience fee, discount, late fee, etc.)</inlineHelpText>
+        <label>Adjustment Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Authvia_Payable_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>External ID used by our secure payment server.  Must be unique.</inlineHelpText>
+        <label>Authvia Payment ID</label>
+        <length>40</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Balance_Write_Off__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this box if a customer has made a partial payment and you do not expect to receive additional payments.  This marks the Payment as complete and calculates the Write-Off amount</inlineHelpText>
+        <label>Balance Write-Off</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__BatchStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Used with Scheduled Payments</inlineHelpText>
+        <label>Batch Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>IsProgress</fullName>
+                    <default>false</default>
+                    <label>IsProgress</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Bitly_Link__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Used with Send Payment Request to provide a shortened URL linking to a Hosted Payment Page.   This link appears in text messages</inlineHelpText>
+        <label>Short Link to HPP</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Cancelled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Cancelled</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Case__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Case</label>
+        <referenceTo>Case</referenceTo>
+        <relationshipLabel>Payments</relationshipLabel>
+        <relationshipName>Payments</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Chargeback_Reason__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Chargeback Reason</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Credit not processed</fullName>
+                    <default>false</default>
+                    <label>Credit not processed</label>
+                </value>
+                <value>
+                    <fullName>Duplicate</fullName>
+                    <default>false</default>
+                    <label>Duplicate</label>
+                </value>
+                <value>
+                    <fullName>Fraudulent</fullName>
+                    <default>false</default>
+                    <label>Fraudulent</label>
+                </value>
+                <value>
+                    <fullName>General</fullName>
+                    <default>false</default>
+                    <label>General</label>
+                </value>
+                <value>
+                    <fullName>Product not received</fullName>
+                    <default>false</default>
+                    <label>Product not received</label>
+                </value>
+                <value>
+                    <fullName>Product unacceptable</fullName>
+                    <default>false</default>
+                    <label>Product unacceptable</label>
+                </value>
+                <value>
+                    <fullName>Subscription canceled</fullName>
+                    <default>false</default>
+                    <label>Subscription canceled</label>
+                </value>
+                <value>
+                    <fullName>Unrecognized</fullName>
+                    <default>false</default>
+                    <label>Unrecognized</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Chargeback_Status__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Chargeback Status</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Under Review</fullName>
+                    <default>false</default>
+                    <label>Under Review</label>
+                </value>
+                <value>
+                    <fullName>Won</fullName>
+                    <default>false</default>
+                    <label>Won</label>
+                </value>
+                <value>
+                    <fullName>Lost</fullName>
+                    <default>false</default>
+                    <label>Lost</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Color__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Used with Volunteer Payment Request</inlineHelpText>
+        <label>Color</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>BillNPay__Event_Type__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Black</fullName>
+                    <default>false</default>
+                    <label>Black</label>
+                </value>
+                <value>
+                    <fullName>Blue</fullName>
+                    <default>false</default>
+                    <label>Blue</label>
+                </value>
+                <value>
+                    <fullName>Green</fullName>
+                    <default>false</default>
+                    <label>Green</label>
+                </value>
+                <value>
+                    <fullName>Red</fullName>
+                    <default>false</default>
+                    <label>Red</label>
+                </value>
+                <value>
+                    <fullName>White</fullName>
+                    <default>false</default>
+                    <label>White</label>
+                </value>
+                <value>
+                    <fullName>Yellow</fullName>
+                    <default>false</default>
+                    <label>Yellow</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>T-Shirt Sales</controllingFieldValue>
+                <valueName>Black</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>T-Shirt Sales</controllingFieldValue>
+                <valueName>Blue</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>T-Shirt Sales</controllingFieldValue>
+                <valueName>Green</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>T-Shirt Sales</controllingFieldValue>
+                <valueName>Red</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>T-Shirt Sales</controllingFieldValue>
+                <valueName>White</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>T-Shirt Sales</controllingFieldValue>
+                <valueName>Yellow</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Payments</relationshipLabel>
+        <relationshipName>LP_Payments</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Currency__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Currency</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>BillNPay__Currency</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Date_Paid__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Date/Time stamp when customer paid</inlineHelpText>
+        <label>Date Paid</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Date_Sent__c</fullName>
+        <defaultValue>now()</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Date payment request was sent</inlineHelpText>
+        <label>Date Sent</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Days_Past_Due__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BillNPay__Status__c , &quot;Request Sent&quot;),
+   IF(TODAY() &lt; BillNPay__Due_Date__c,0,
+   TODAY()- BillNPay__Due_Date__c
+   ),
+0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days Past Due</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Description displayed in message.  Ex. &quot;Invoice 1234 for 300 Red Widgets&quot;
+For SMS - keep short so message doesn&apos;t exceed the 160 character limit of SMS.  If msg &gt;160, user will get 2 texts. Testing recommended
+Email - up to 255 char may be used.</inlineHelpText>
+        <label>Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Due_Date__c</fullName>
+        <defaultValue>today()</defaultValue>
+        <deprecated>false</deprecated>
+        <description>For Pmt Button, set default using Payment Request Variables (map to a field, or use a formula such as TODAY().  Or populate when creating Payment record using Process Builder</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Due date of payment</inlineHelpText>
+        <label>Due Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Email__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Email used with Send Payment Request</inlineHelpText>
+        <label>Email</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Error_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Type of error (not gateway dependant).  Use this field for reports and process builders</inlineHelpText>
+        <label>Error Type</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Declined</fullName>
+                    <default>false</default>
+                    <label>Declined</label>
+                </value>
+                <value>
+                    <fullName>Duplicate</fullName>
+                    <default>false</default>
+                    <label>Duplicate</label>
+                </value>
+                <value>
+                    <fullName>Expired</fullName>
+                    <default>false</default>
+                    <label>Expired</label>
+                </value>
+                <value>
+                    <fullName>Hold - Misc</fullName>
+                    <default>false</default>
+                    <label>Hold - Misc</label>
+                </value>
+                <value>
+                    <fullName>Hold- Misc</fullName>
+                    <default>false</default>
+                    <label>Hold- Misc</label>
+                </value>
+                <value>
+                    <fullName>Insufficient funds</fullName>
+                    <default>false</default>
+                    <label>Insufficient funds</label>
+                </value>
+                <value>
+                    <fullName>Invalid card Number</fullName>
+                    <default>false</default>
+                    <label>Invalid card Number</label>
+                </value>
+                <value>
+                    <fullName>Lost</fullName>
+                    <default>false</default>
+                    <label>Lost</label>
+                </value>
+                <value>
+                    <fullName>Misc</fullName>
+                    <default>false</default>
+                    <label>Misc</label>
+                </value>
+                <value>
+                    <fullName>Not found</fullName>
+                    <default>false</default>
+                    <label>Not found</label>
+                </value>
+                <value>
+                    <fullName>Payment method not supported</fullName>
+                    <default>false</default>
+                    <label>Payment method not supported</label>
+                </value>
+                <value>
+                    <fullName>Processing error</fullName>
+                    <default>false</default>
+                    <label>Processing error</label>
+                </value>
+                <value>
+                    <fullName>Stolen</fullName>
+                    <default>false</default>
+                    <label>Stolen</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Event_Item__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Used with Volunteer Payment Request
+For users to select from a drop down of descriptions to select from</inlineHelpText>
+        <label>Item</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>BillNPay__Event_Type__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Silent Auction #1: Round of Golf</fullName>
+                    <default>false</default>
+                    <label>Silent Auction #1: Round of Golf</label>
+                </value>
+                <value>
+                    <fullName>Silent Auction #2: Ski pass at Squaw Valley</fullName>
+                    <default>false</default>
+                    <label>Silent Auction #2: Ski pass at Squaw Valley</label>
+                </value>
+                <value>
+                    <fullName>Silent Auction #3: Dinner at Moodys</fullName>
+                    <default>false</default>
+                    <label>Silent Auction #3: Dinner at Moodys</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Silent Auction</controllingFieldValue>
+                <controllingFieldValue>T-Shirt Sales</controllingFieldValue>
+                <valueName>Silent Auction #1: Round of Golf</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Silent Auction</controllingFieldValue>
+                <valueName>Silent Auction #2: Ski pass at Squaw Valley</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Silent Auction</controllingFieldValue>
+                <valueName>Silent Auction #3: Dinner at Moodys</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Event_Name__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Used with Volunteer Payment Request</inlineHelpText>
+        <label>Item Name</label>
+        <referenceTo>BillNPay__Event__c</referenceTo>
+        <relationshipLabel>Payments</relationshipLabel>
+        <relationshipName>Payments</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Event_Price__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>Text(BillNPay__Event_Name__r.BillNPay__Event_Pricing_Rule__c)&amp;
+IF(ISPICKVAL(BillNPay__Event_Name__r.BillNPay__Event_Pricing_Rule__c,&quot;Sender Entered&quot;),
+  &quot;&quot;,
+  &quot;: $&quot; &amp;  text(BillNPay__Event_Name__r.BillNPay__Event_Price__c)
+  )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Used with Volunteer Payment Request</inlineHelpText>
+        <label>Item Price</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Event_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Used with Volunteer Payment Request</inlineHelpText>
+        <label>Item Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>BillNPay__Event_Types</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Failure_Reason__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Error, decline, or other message sent by gateway</inlineHelpText>
+        <label>Gateway Message</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__First_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>First Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__LP_User_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>External ID for Contact or Account used in our secure payment server.  Reference only</inlineHelpText>
+        <label>Authvia User Id</label>
+        <length>40</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Last_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Last Name entered by payer.  May not be the same as Contact</inlineHelpText>
+        <label>Last Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Message_Template__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Select which template to use when sending a Payment Request</inlineHelpText>
+        <label>Message Template</label>
+        <referenceTo>BillNPay__Message_Templates__c</referenceTo>
+        <relationshipLabel>Payments</relationshipLabel>
+        <relationshipName>Payments</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Name given by Payer.  May not be the same as Contact name</inlineHelpText>
+        <label>Payer Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Payments</relationshipLabel>
+        <relationshipName>Payments</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Paid_Offline__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates payment was paid offline.  Payer will no longer be able to make payment online</inlineHelpText>
+        <label>Paid Offline</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Payment_Description_Source__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Used to conditionally trigger Process Builder to generate description</description>
+        <externalId>false</externalId>
+        <formula>TEXT( BillNPay__Event_Name__r.BillNPay__Payment_Description_Source__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Payment Description Source</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Payment_Method_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Friendly name to display on page</description>
+        <externalId>false</externalId>
+        <formula>if(BillNPay__Payment_Method__r.RecordType.Name = &quot;Card&quot;, 
+&quot;Card #: &quot; &amp; BillNPay__Payment_Method__r.BillNPay__Card_Number__c,
+BillNPay__Payment_Method__r.BillNPay__Bank_Name__c &amp;&quot; &quot;&amp; BillNPay__Payment_Method__r.BillNPay__Account_Type__c &amp; &quot;: &quot; &amp; BillNPay__Payment_Method__r.BillNPay__Bank_Account_Number__c  )</formula>
+        <label>Payment Method Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Payment_Method_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Used in flow</description>
+        <externalId>false</externalId>
+        <formula>BillNPay__Payment_Method__r.RecordType.DeveloperName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Payment Method Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Payment_Method__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Payment Method</label>
+        <referenceTo>BillNPay__Payment_Methods__c</referenceTo>
+        <relationshipLabel>Payments</relationshipLabel>
+        <relationshipName>Payments</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Payment_Source__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Identifies which feature created this payment.  
+Used for reporting.
+Customer Initiated means the payment was created outside Salesforce in a Hosted or Embedded Payment Page and then posted into Salesforce via API.</inlineHelpText>
+        <label>Payment Source</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>BillNPay__Payment_Source</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Phone_Unformatted__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Strips () and - out of phone numbers</description>
+        <externalId>false</externalId>
+        <formula>SUBSTITUTE(
+SUBSTITUTE(
+SUBSTITUTE(
+SUBSTITUTE(BillNPay__Phone__c, &quot;(&quot;, &quot;&quot;), &quot;)&quot;, &quot;&quot;), &quot; &quot;, &quot;&quot;), &quot;-&quot;, &quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Removes phone formatting from the standard SF Phone field to support search queries.  It is not necessary to display on page layout</inlineHelpText>
+        <label>Mobile Unformatted</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Phone__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Mobile number to send text to</inlineHelpText>
+        <label>Mobile</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Quantity_Purchased__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Quantity Purchased</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>BillNPay__Event_Type__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+                <value>
+                    <fullName>5</fullName>
+                    <default>false</default>
+                    <label>5</label>
+                </value>
+                <value>
+                    <fullName>6</fullName>
+                    <default>false</default>
+                    <label>6</label>
+                </value>
+                <value>
+                    <fullName>7</fullName>
+                    <default>false</default>
+                    <label>7</label>
+                </value>
+                <value>
+                    <fullName>8</fullName>
+                    <default>false</default>
+                    <label>8</label>
+                </value>
+                <value>
+                    <fullName>9</fullName>
+                    <default>false</default>
+                    <label>9</label>
+                </value>
+                <value>
+                    <fullName>10</fullName>
+                    <default>false</default>
+                    <label>10</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Ticket Sales</controllingFieldValue>
+                <controllingFieldValue>Merchandise Sales</controllingFieldValue>
+                <controllingFieldValue>T-Shirt Sales</controllingFieldValue>
+                <valueName>1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ticket Sales</controllingFieldValue>
+                <controllingFieldValue>Merchandise Sales</controllingFieldValue>
+                <controllingFieldValue>T-Shirt Sales</controllingFieldValue>
+                <valueName>2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ticket Sales</controllingFieldValue>
+                <controllingFieldValue>Merchandise Sales</controllingFieldValue>
+                <controllingFieldValue>T-Shirt Sales</controllingFieldValue>
+                <valueName>3</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ticket Sales</controllingFieldValue>
+                <controllingFieldValue>Merchandise Sales</controllingFieldValue>
+                <controllingFieldValue>T-Shirt Sales</controllingFieldValue>
+                <valueName>4</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ticket Sales</controllingFieldValue>
+                <controllingFieldValue>Merchandise Sales</controllingFieldValue>
+                <controllingFieldValue>T-Shirt Sales</controllingFieldValue>
+                <valueName>5</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ticket Sales</controllingFieldValue>
+                <controllingFieldValue>Merchandise Sales</controllingFieldValue>
+                <controllingFieldValue>T-Shirt Sales</controllingFieldValue>
+                <valueName>6</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ticket Sales</controllingFieldValue>
+                <controllingFieldValue>Merchandise Sales</controllingFieldValue>
+                <controllingFieldValue>T-Shirt Sales</controllingFieldValue>
+                <valueName>7</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ticket Sales</controllingFieldValue>
+                <controllingFieldValue>Merchandise Sales</controllingFieldValue>
+                <controllingFieldValue>T-Shirt Sales</controllingFieldValue>
+                <valueName>8</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ticket Sales</controllingFieldValue>
+                <controllingFieldValue>Merchandise Sales</controllingFieldValue>
+                <controllingFieldValue>T-Shirt Sales</controllingFieldValue>
+                <valueName>9</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ticket Sales</controllingFieldValue>
+                <controllingFieldValue>Merchandise Sales</controllingFieldValue>
+                <controllingFieldValue>T-Shirt Sales</controllingFieldValue>
+                <valueName>10</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Reference__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Reference</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Request_Sent_by_Method__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>When payment was created as a Send Payment Request, this field records how the payment request was sent, text, email, both</inlineHelpText>
+        <label>Request Sent by Method</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Request_Sent_by_User__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The volunteer contact who sent this payment request to the donor/payer</inlineHelpText>
+        <label>Request Sent by User</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Payments (Pay Request Sent By)</relationshipLabel>
+        <relationshipName>Payment_Request_Sent</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Return_Chargeback_Comments__c</fullName>
+        <deprecated>false</deprecated>
+        <description>User can enter when entering a manual return/chargeback from the button.</description>
+        <externalId>false</externalId>
+        <label>Return/Chargeback Comments</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Return_Chargeback_Requested__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Triggers API request to Gateway</description>
+        <externalId>false</externalId>
+        <label>Return/Chargeback Requested</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Return_Chargeback_Response__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Response from server confirming that the payment status has been updated</inlineHelpText>
+        <label>Return/Chargeback Response</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Return_Chargeback_Timestamp__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Updated with status is changed to ACH Return or Chargeback</inlineHelpText>
+        <label>Return/Chargeback Timestamp</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Scheduled_Payment__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>This indicates that the Payment was generated from this Scheduled Payment record</inlineHelpText>
+        <label>Scheduled Payment</label>
+        <referenceTo>BillNPay__Scheduled_Payments__c</referenceTo>
+        <relationshipLabel>Payments</relationshipLabel>
+        <relationshipName>Payments</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Size__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Used with Volunteer Payment Request</description>
+        <externalId>false</externalId>
+        <label>Size</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>BillNPay__Event_Type__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>X-Small</fullName>
+                    <default>false</default>
+                    <label>X-Small</label>
+                </value>
+                <value>
+                    <fullName>Small</fullName>
+                    <default>false</default>
+                    <label>Small</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>Large</fullName>
+                    <default>false</default>
+                    <label>Large</label>
+                </value>
+                <value>
+                    <fullName>X-Large</fullName>
+                    <default>false</default>
+                    <label>X-Large</label>
+                </value>
+                <value>
+                    <fullName>XX-Large</fullName>
+                    <default>false</default>
+                    <label>XX-Large</label>
+                </value>
+                <value>
+                    <fullName>XXX-Large</fullName>
+                    <default>false</default>
+                    <label>XXX-Large</label>
+                </value>
+                <value>
+                    <fullName>3 ft</fullName>
+                    <default>false</default>
+                    <label>3 ft</label>
+                </value>
+                <value>
+                    <fullName>4 ft</fullName>
+                    <default>false</default>
+                    <label>4 ft</label>
+                </value>
+                <value>
+                    <fullName>5 ft</fullName>
+                    <default>false</default>
+                    <label>5 ft</label>
+                </value>
+                <value>
+                    <fullName>6 ft</fullName>
+                    <default>false</default>
+                    <label>6 ft</label>
+                </value>
+                <value>
+                    <fullName>7 ft</fullName>
+                    <default>false</default>
+                    <label>7 ft</label>
+                </value>
+                <value>
+                    <fullName>8 ft</fullName>
+                    <default>false</default>
+                    <label>8 ft</label>
+                </value>
+                <value>
+                    <fullName>9 ft</fullName>
+                    <default>false</default>
+                    <label>9 ft</label>
+                </value>
+                <value>
+                    <fullName>10 ft</fullName>
+                    <default>false</default>
+                    <label>10 ft</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Merchandise Sales</controllingFieldValue>
+                <valueName>3 ft</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Merchandise Sales</controllingFieldValue>
+                <valueName>4 ft</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Merchandise Sales</controllingFieldValue>
+                <valueName>5 ft</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Merchandise Sales</controllingFieldValue>
+                <valueName>6 ft</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Merchandise Sales</controllingFieldValue>
+                <valueName>7 ft</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Merchandise Sales</controllingFieldValue>
+                <valueName>8 ft</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Merchandise Sales</controllingFieldValue>
+                <valueName>9 ft</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Merchandise Sales</controllingFieldValue>
+                <valueName>10 ft</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sponsorships</controllingFieldValue>
+                <controllingFieldValue>T-Shirt Sales</controllingFieldValue>
+                <valueName>X-Small</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sponsorships</controllingFieldValue>
+                <controllingFieldValue>T-Shirt Sales</controllingFieldValue>
+                <valueName>Small</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sponsorships</controllingFieldValue>
+                <controllingFieldValue>T-Shirt Sales</controllingFieldValue>
+                <valueName>Medium</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sponsorships</controllingFieldValue>
+                <controllingFieldValue>T-Shirt Sales</controllingFieldValue>
+                <valueName>Large</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sponsorships</controllingFieldValue>
+                <controllingFieldValue>T-Shirt Sales</controllingFieldValue>
+                <valueName>X-Large</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sponsorships</controllingFieldValue>
+                <controllingFieldValue>T-Shirt Sales</controllingFieldValue>
+                <valueName>XX-Large</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sponsorships</controllingFieldValue>
+                <controllingFieldValue>T-Shirt Sales</controllingFieldValue>
+                <valueName>XXX-Large</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Status_Icon__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BillNPay__Status__c , &quot;Request Sent&quot;),
+  IF(TODAY() &lt;= BillNPay__Due_Date__c, IMAGE(&apos;/resource/BillNPay__Pmt_Status_Request_Sent_Green&apos;,&apos;Sent Green&apos;,25,44),
+  IF(TODAY() &lt;= BillNPay__Due_Date__c+30, IMAGE(&apos;/resource/BillNPay__Pmt_Status_Request_Sent_Orange&apos;,&apos;Sent Orange&apos;,25,44),
+     IMAGE(&apos;/resource/BillNPay__Pmt_Status_Request_Sent_Red&apos;,&apos;Sent Red&apos;,25,44)
+  )),
+CASE( BillNPay__Status__c ,
+&quot;Approved/Paid&quot;,IMAGE(&apos;/resource/BillNPay__Pmt_Status_Paid&apos;,&apos;Paid&apos;,25,44),
+&quot;Declined&quot;,IMAGE(&apos;/resource/BillNPay__Pmt_Status_Decline&apos;,&apos;Declined&apos;,25,44),
+&quot;Void/Refund&quot;,IMAGE(&apos;/resource/BillNPay__Pmt_Status_Refund&apos;,&apos;Void/Refund&apos;,25,44),
+&quot;ACH Returned&quot;,IMAGE(&apos;/resource/BillNPay__Pmt_Status_Alert&apos;,&apos;Alert&apos;,25,44),
+&quot;Chargeback&quot;,IMAGE(&apos;/resource/BillNPay__Pmt_Status_Alert&apos;,&apos;Alert&apos;,25,44),
+&quot;Cancelled&quot;,IMAGE(&apos;/resource/BillNPay__Pmt_Status_Cancel&apos;,&apos;Cancelled&apos;,25,44),
+IMAGE(&apos;/resource/BillNPay__Pmt_Status_Error&apos;,&apos;Error&apos;,25,44)
+)
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Envelopes display as green (not due, orange 0-30 days, red &gt; 30 days</inlineHelpText>
+        <label>Status Icon</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Status__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New</fullName>
+                    <color>#66FFFF</color>
+                    <default>true</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>In Process</fullName>
+                    <color>#33CCFF</color>
+                    <default>false</default>
+                    <label>In Process</label>
+                </value>
+                <value>
+                    <fullName>User Lookup</fullName>
+                    <color>#3366FF</color>
+                    <default>false</default>
+                    <label>User Lookup</label>
+                </value>
+                <value>
+                    <fullName>Request Sent</fullName>
+                    <color>#3333FF</color>
+                    <default>false</default>
+                    <label>Request Sent</label>
+                </value>
+                <value>
+                    <fullName>Approved/Paid</fullName>
+                    <color>#33CC00</color>
+                    <default>false</default>
+                    <label>Approved/Paid</label>
+                </value>
+                <value>
+                    <fullName>Declined</fullName>
+                    <color>#FF0000</color>
+                    <default>false</default>
+                    <label>Declined</label>
+                </value>
+                <value>
+                    <fullName>Void/Refund</fullName>
+                    <color>#FF6600</color>
+                    <default>false</default>
+                    <label>Void/Refund</label>
+                </value>
+                <value>
+                    <fullName>ACH Returned</fullName>
+                    <color>#FFCC66</color>
+                    <default>false</default>
+                    <label>ACH Returned</label>
+                </value>
+                <value>
+                    <fullName>Chargeback</fullName>
+                    <color>#FFFF66</color>
+                    <default>false</default>
+                    <label>Chargeback</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <color>#333333</color>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+                <value>
+                    <fullName>Error</fullName>
+                    <default>false</default>
+                    <label>Error</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Token__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Token</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Total_Amount_Due__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>BillNPay__Transaction_Amount__c +  BillNPay__Adjustment_Amount__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Transaction Amount +/- Adjustment</inlineHelpText>
+        <label>Total Amount Due</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Total_Amount_Paid__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Total Amount Paid</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Transaction_Amount_Payload__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Used to format data for API Payload</description>
+        <externalId>false</externalId>
+        <formula>BillNPay__Transaction_Amount__c*100</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Transaction Amount Payload</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Transaction_Amount__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The amount billed/invoiced/requested to be paid</inlineHelpText>
+        <label>Transaction Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Transaction_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>This is your gateway&apos;s identifier (if provided by gateway)</inlineHelpText>
+        <label>Transaction ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Void_Refund_Comment__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Void/Refund Comment</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Void_Refund_Reason__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Select a reason for the Void/Refund to be saved into the Payment record</inlineHelpText>
+        <label>Void/Refund Reason</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Customer changed mind</fullName>
+                    <default>false</default>
+                    <label>Customer changed mind</label>
+                </value>
+                <value>
+                    <fullName>Product defective</fullName>
+                    <default>false</default>
+                    <label>Product defective</label>
+                </value>
+                <value>
+                    <fullName>Error</fullName>
+                    <default>false</default>
+                    <label>Error</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Void_Refund_Requsted__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, the system will request void/refund from the gateway.  Once confirmed, the Payment Status will change to Void/Refund and the Void/Refund Response field will indicate whether a Void or a Refund was processed</inlineHelpText>
+        <label>Void/Refund Requsted</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Void_Refund_Response__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The gateway&apos;s response after submitting a payment for Void/Refund,</inlineHelpText>
+        <label>Void/Refund Response</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Void Succesful</fullName>
+                    <default>false</default>
+                    <label>Void Succesful</label>
+                </value>
+                <value>
+                    <fullName>Refund Successful</fullName>
+                    <default>false</default>
+                    <label>Refund Successful</label>
+                </value>
+                <value>
+                    <fullName>Void/Refund Failed</fullName>
+                    <default>false</default>
+                    <label>Void/Refund Failed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Void_Refund_Time_Stamp__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Time stamp when Void/Refund was submitted to gateway.</inlineHelpText>
+        <label>Void/Refund Time Stamp</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Write_Off_Amount__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>if(BillNPay__Balance_Write_Off__c = true, BillNPay__Total_Amount_Due__c -  BillNPay__Total_Amount_Paid__c , Null)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Check Write-Off checkbox to indicate that balance due will not be paid/will be written off.</inlineHelpText>
+        <label>Write-Off Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Write_Off_Due__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>if(BillNPay__Balance_Write_Off__c = false, BillNPay__Total_Amount_Due__c -  BillNPay__Total_Amount_Paid__c , Null)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>The difference between the amount due and paid.   Useful if partial payments is enabled</inlineHelpText>
+        <label>Remaining Due</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Cash_Receipt__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Cash Receipt</label>
+        <referenceTo>AcctSeed__Cash_Receipt__c</referenceTo>
+        <relationshipLabel>Payments</relationshipLabel>
+        <relationshipName>Payments</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Sales_Order__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>AVSight Sales Order</inlineHelpText>
+        <label>Sales Order</label>
+        <referenceTo>inscor__Sales_Order__c</referenceTo>
+        <relationshipLabel>Payments</relationshipLabel>
+        <relationshipName>Authvia_Payments</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Payment</label>
+    <listViews>
+        <fullName>BillNPay__ACH_Returns</fullName>
+        <columns>NAME</columns>
+        <columns>BillNPay__Account__c</columns>
+        <columns>BillNPay__Opportunity__c</columns>
+        <columns>BillNPay__Description__c</columns>
+        <columns>BillNPay__Payment_Method_Type__c</columns>
+        <columns>BillNPay__Transaction_Amount__c</columns>
+        <columns>BillNPay__Date_Sent__c</columns>
+        <columns>BillNPay__Date_Paid__c</columns>
+        <columns>BillNPay__Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>BillNPay__Status__c</field>
+            <operation>equals</operation>
+            <value>ACH Returned</value>
+        </filters>
+        <label>ACH Returns</label>
+    </listViews>
+    <listViews>
+        <fullName>BillNPay__All</fullName>
+        <columns>NAME</columns>
+        <columns>BillNPay__Phone__c</columns>
+        <columns>BillNPay__Account__c</columns>
+        <columns>BillNPay__Contact__c</columns>
+        <columns>BillNPay__Payment_Method_Name__c</columns>
+        <columns>BillNPay__Transaction_Amount__c</columns>
+        <columns>BillNPay__Status__c</columns>
+        <columns>BillNPay__Status_Icon__c</columns>
+        <columns>BillNPay__Paid_Offline__c</columns>
+        <columns>BillNPay__Date_Sent__c</columns>
+        <columns>BillNPay__Date_Paid__c</columns>
+        <columns>BillNPay__Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>BillNPay__Charge_Backs</fullName>
+        <columns>NAME</columns>
+        <columns>BillNPay__Account__c</columns>
+        <columns>BillNPay__Opportunity__c</columns>
+        <columns>BillNPay__Description__c</columns>
+        <columns>BillNPay__Payment_Method_Type__c</columns>
+        <columns>BillNPay__Transaction_Amount__c</columns>
+        <columns>BillNPay__Date_Sent__c</columns>
+        <columns>BillNPay__Date_Paid__c</columns>
+        <columns>BillNPay__Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>BillNPay__Status__c</field>
+            <operation>equals</operation>
+            <value>Chargeback</value>
+        </filters>
+        <label>Charge Backs</label>
+    </listViews>
+    <listViews>
+        <fullName>BillNPay__Request_Sent</fullName>
+        <columns>NAME</columns>
+        <columns>BillNPay__Account__c</columns>
+        <columns>BillNPay__Contact__c</columns>
+        <columns>BillNPay__Description__c</columns>
+        <columns>BillNPay__Transaction_Amount__c</columns>
+        <columns>BillNPay__Date_Sent__c</columns>
+        <columns>BillNPay__Due_Date__c</columns>
+        <columns>BillNPay__Status_Icon__c</columns>
+        <columns>BillNPay__Days_Past_Due__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>BillNPay__Status__c</field>
+            <operation>equals</operation>
+            <value>Request Sent</value>
+        </filters>
+        <label>Request Sent</label>
+    </listViews>
+    <nameField>
+        <displayFormat>PAY-{000000}</displayFormat>
+        <label>Payment Id</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Payments</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>BillNPay__Contact__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>BillNPay__Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>BillNPay__Transaction_Amount__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>BillNPay__Due_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>BillNPay__Payment_Method__c</customTabListAdditionalFields>
+        <excludedStandardButtons>New</excludedStandardButtons>
+        <excludedStandardButtons>OpenListInQuip</excludedStandardButtons>
+        <excludedStandardButtons>MassChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <searchResultsAdditionalFields>BillNPay__Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>BillNPay__Payment_Method__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>BillNPay__Payment_Method_Name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>BillNPay__Due_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>BillNPay__Total_Amount_Due__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>BillNPay__Total_Amount_Paid__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>BillNPay__Canceled_Validation</fullName>
+        <active>true</active>
+        <description>Only records in Request Sent may be canceled</description>
+        <errorConditionFormula>BillNPay__Cancelled__c = TRUE &amp;&amp;
+ AND(
+   !ISPICKVAL( BillNPay__Status__c ,&quot;New&quot;),
+   !ISPICKVAL( BillNPay__Status__c ,&quot;In Process&quot;), 
+   !ISPICKVAL( BillNPay__Status__c ,&quot;Request Sent&quot;),  
+   !ISPICKVAL( BillNPay__Status__c ,&quot;Cancelled&quot;)  
+   )</errorConditionFormula>
+        <errorDisplayField>BillNPay__Status__c</errorDisplayField>
+        <errorMessage>The Canceled Checkbox and Status are only available if the Payment was previously in &quot;New&quot;, &quot;In Process&quot; or &quot;Request Sent&quot; Status</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>BillNPay__Status_Validation_ACH_Returned</fullName>
+        <active>false</active>
+        <errorConditionFormula>ISPICKVAL(BillNPay__Status__c,&apos;ACH Returned&apos;) &amp;&amp; BillNPay__Payment_Method__r.RecordType.DeveloperName = &quot;Card&quot; ||
+
+AND
+(
+ ISPICKVAL(BillNPay__Status__c,&apos;ACH Returned&apos;), 
+ NOT(CONTAINS(TEXT(PRIORVALUE(BillNPay__Status__c)),&apos;Approved/Paid&apos;))
+)</errorConditionFormula>
+        <errorDisplayField>BillNPay__Status__c</errorDisplayField>
+        <errorMessage>Invalid Status.  ACH Returned must be for a Payment Method of record type Bank Account with a prior status of Approved</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>BillNPay__Status_Validation_ApprovedPaid</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND
+(
+CONTAINS(TEXT(BillNPay__Status__c),&apos;Approved/Paid&apos;), TEXT(PRIORVALUE(BillNPay__Status__c))!=&apos;Request Sent&apos;
+)</errorConditionFormula>
+        <errorDisplayField>BillNPay__Status__c</errorDisplayField>
+        <errorMessage>Invalid Status.  Approved/Paid must be preceded by Request Sent</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>BillNPay__Status_Validation_Charge_Back</fullName>
+        <active>true</active>
+        <errorConditionFormula>CONTAINS(TEXT(BillNPay__Status__c),&apos;Card Charge Back&apos;) &amp;&amp; BillNPay__Payment_Method__r.RecordType.DeveloperName = &quot;Bank Account&quot; || 
+
+AND 
+( 
+ CONTAINS(TEXT(BillNPay__Status__c),&apos;Card Charge Back&apos;), 
+ AND(
+  NOT(CONTAINS(TEXT(PRIORVALUE(BillNPay__Status__c)),&apos;Approved&apos;)),
+  NOT(CONTAINS(TEXT(PRIORVALUE(BillNPay__Status__c)),&apos;Charge Back&apos;)) 
+  ) 
+)</errorConditionFormula>
+        <errorDisplayField>BillNPay__Status__c</errorDisplayField>
+        <errorMessage>Invalid Status.  Charge Back status must be for a Payment Method of record type &apos;Card&apos; with a prior status of Approved</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>BillNPay__Status_Validation_Declined</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND
+(
+ISPICKVAL(BillNPay__Status__c,&apos;Declined&apos;), TEXT(PRIORVALUE(BillNPay__Status__c))!=&apos;Request Sent&apos;
+)</errorConditionFormula>
+        <errorDisplayField>BillNPay__Status__c</errorDisplayField>
+        <errorMessage>Invalid Status.  Declined must be preceded by Request Sent</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>BillNPay__Status_Validation_New</fullName>
+        <active>false</active>
+        <errorConditionFormula>NOT(ISNEW()) &amp;&amp;
+
+AND
+(
+ISPICKVAL(BillNPay__Status__c,&apos;New&apos;), 
+TEXT(PRIORVALUE(BillNPay__Status__c)) &lt;&gt; &apos;Error&apos;
+)</errorConditionFormula>
+        <errorDisplayField>BillNPay__Status__c</errorDisplayField>
+        <errorMessage>Invalid Status.  You may only change a status to New if prior status = Error</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>BillNPay__Status_Validation_UserLookUp</fullName>
+        <active>false</active>
+        <errorConditionFormula>NOT(ISNEW()) &amp;&amp;
+
+AND
+(
+ISPICKVAL(BillNPay__Status__c,&apos;User Lookup&apos;), 
+TEXT(PRIORVALUE(BillNPay__Status__c)) &lt;&gt; &apos;New&apos;
+)</errorConditionFormula>
+        <errorMessage>Invalid Status. You may only change a status to User Lookup if prior status = New</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>BillNPay__Status_Validation_VoidRefund</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND
+(
+CONTAINS(TEXT(BillNPay__Status__c),&apos;Void/Refund&apos;),
+ TEXT(PRIORVALUE(BillNPay__Status__c))!=&apos;Request Sent&apos;,
+ TEXT(PRIORVALUE(BillNPay__Status__c))!=&apos;Error&apos;,
+ NOT(CONTAINS(TEXT(PRIORVALUE(BillNPay__Status__c)),&apos;Approved/Paid&apos;)),
+ NOT(CONTAINS(TEXT(PRIORVALUE(BillNPay__Status__c)),&apos;Charge Back&apos;))
+)</errorConditionFormula>
+        <errorDisplayField>BillNPay__Status__c</errorDisplayField>
+        <errorMessage>Invalid Status.  Void/Refund must be preceded by Request Sent, Approved/Paid, or Charge Back</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>BillNPay__Cancel_Payment</fullName>
+        <availability>online</availability>
+        <description>Button for Classic</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Cancel Payment</masterLabel>
+        <openType>newWindow</openType>
+        <position>topLeft</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/flow/BillNPay/Cancel_Payment?recordId={!BillNPay__Payments__c.Id}</url>
+        <width>600</width>
+    </webLinks>
+    <webLinks>
+        <fullName>BillNPay__Paid_Offline</fullName>
+        <availability>online</availability>
+        <description>For Classic.  Use to mark a payment as paid offline and prevent user from payment again online</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Paid Offline</masterLabel>
+        <openType>newWindow</openType>
+        <position>topLeft</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/flow/BillNPay/Paid_Off_Line?recordId={!BillNPay__Payments__c.Id}</url>
+        <width>600</width>
+    </webLinks>
+    <webLinks>
+        <fullName>BillNPay__Return_Chargeback</fullName>
+        <availability>online</availability>
+        <description>For Classic. Process an ACH Return or Card Chargeback</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Return/Chargeback</masterLabel>
+        <openType>newWindow</openType>
+        <position>topLeft</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/flow/BillNPay/Return_Chargeback?recordId={!BillNPay__Payments__c.Id}</url>
+        <width>600</width>
+    </webLinks>
+    <webLinks>
+        <fullName>BillNPay__Void_Refund</fullName>
+        <availability>online</availability>
+        <description>Button for Classic</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Refund</masterLabel>
+        <openType>newWindow</openType>
+        <position>topLeft</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/flow/BillNPay/Void_Refund?recordId={!BillNPay__Payments__c.Id}</url>
+        <width>600</width>
+    </webLinks>
+</CustomObject>

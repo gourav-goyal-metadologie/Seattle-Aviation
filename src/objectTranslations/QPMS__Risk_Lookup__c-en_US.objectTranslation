@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Risk_LookupAuditTrail --></label>
+        <name>QPMS__Risk_LookupAuditTrail</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Occurrence Probability --></label>
+        <name>QPMS__Occurrence_Probability__c</name>
+        <relationshipLabel><!-- Risk Lookups --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Past Occurrence --></label>
+        <name>QPMS__Past_Occurrence__c</name>
+        <relationshipLabel><!-- Risk Lookups (Past Occurrence) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Risk Priority --></label>
+        <name>QPMS__Risk_Priority__c</name>
+        <relationshipLabel><!-- Risk Lookups --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Severity Level --></label>
+        <name>QPMS__Severity_Level__c</name>
+        <relationshipLabel><!-- Risk Lookups --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Risk Lookup Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

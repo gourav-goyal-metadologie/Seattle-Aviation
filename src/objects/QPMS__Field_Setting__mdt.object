@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>QPMS__API_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>API Name</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__BelongsToSection__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>BelongsToSection</label>
+        <length>100</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Clearfix_After__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Clearfix After</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Customized_Colors__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Handling field display colors</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Handling field display colors</inlineHelpText>
+        <label>Customized Colors</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Data_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Holds the id of wiz multi</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Holds the id of wiz multi</inlineHelpText>
+        <label>Data Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Default_Checked__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Used for checked the filed by default</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Used for checked the filed by default</inlineHelpText>
+        <label>Default Checked</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Default_Date_As_Today__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Default Date As Today</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Disable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>to disable field by default through wiz_everything</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>to disable field by default through wiz_everything</inlineHelpText>
+        <label>Disable</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Display_As_Multi_Picklist__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>if set to true the field will be displayed as multi picklist. It is used mostly  with  text area fields which holds id of records.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>if set to true the field will be displayed as multi picklist. It is used mostly  with  text area fields which holds id of records.</inlineHelpText>
+        <label>Display As Multi Picklist</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Display_As__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Display As</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Picklist</fullName>
+                    <default>true</default>
+                    <label>Picklist</label>
+                </value>
+                <value>
+                    <fullName>Radioset</fullName>
+                    <default>false</default>
+                    <label>Radioset</label>
+                </value>
+                <value>
+                    <fullName>RichTextArea</fullName>
+                    <default>false</default>
+                    <label>RichTextArea</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>QPMS__Do_not_Allow_Future_Date__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Do not Allow Future Date</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Do_not_Allow_Past_Date__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Do not Allow Past Date</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Enable_Locale__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enable Locale</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Enable Locale</inlineHelpText>
+        <label>Enable Locale</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__FieldLink__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>To display change link besides fields</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>To display change link besides fields</inlineHelpText>
+        <label>FieldLink</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Field_Set__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Field Set</label>
+        <referenceTo>QPMS__Field_Set__mdt</referenceTo>
+        <relationshipLabel>Field Settings</relationshipLabel>
+        <relationshipName>Field_Settings</relationshipName>
+        <required>true</required>
+        <type>MetadataRelationship</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Filter_Value__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Filter value to query</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Filter value to query</inlineHelpText>
+        <label>Filter Value</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Filter__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Filter value for wiz multi</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Filter value for wiz multi</inlineHelpText>
+        <label>Filter</label>
+        <length>100</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Html_formatted__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Html formatted</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Init_Field_Value__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Display value for lookup</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Display value for lookup</inlineHelpText>
+        <label>Init Field Value</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__ModuleGroupFilter__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Module or group filter for wiz multi</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Module or group filter for wiz multi</inlineHelpText>
+        <label>ModuleGroupFilter</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Narrow__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Narrow</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Object_Name_For_Multi_Picklist__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Holds the object name to fetch the records for pick list if display as multi picklist field is set to true</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Holds the object name to fetch the records for pick list if display as multi picklist field is set to true</inlineHelpText>
+        <label>Object Name For Multi Picklist</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__OnChange__c</fullName>
+        <deprecated>false</deprecated>
+        <description>On Change function for this field</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>On Change function for this field</inlineHelpText>
+        <label>OnChange</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__OnCustomerChange__c</fullName>
+        <deprecated>false</deprecated>
+        <description>OnCustomerChange</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>OnCustomerChange</inlineHelpText>
+        <label>OnCustomerChange</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__PageName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field stores page name</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>PageName</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Placeholder__c</fullName>
+        <deprecated>false</deprecated>
+        <description>To display placeholder for a field</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>To display placeholder for a field</inlineHelpText>
+        <label>Placeholder</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Query_Fields__c</fullName>
+        <deprecated>false</deprecated>
+        <description>query fields to retrieve for wiz multi</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>query fields to retrieve for wiz multi</inlineHelpText>
+        <label>Query Fields</label>
+        <length>100</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Query_Orderby__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Query Orderby</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Type_Of_User__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Type Of User</label>
+        <length>200</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Type__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Type</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Wide__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Wide</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__additional_filter__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>additional filter</label>
+        <length>100</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__divClass__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>divClass</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__isGroup__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>isGroup</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__maxDate__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>maxDate</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__maxlength__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>maxlength</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__minDate__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>minDate</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__minValue__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>minValue</label>
+        <length>20</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Field Setting</label>
+    <pluralLabel>Field Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Observation --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Observation --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Observation --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Observation --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Observation --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Observation --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Observation --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Observation --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Addressed Through CAPA --></label>
+        <name>QPMS__Addressed_Through_CAPA</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- AuditObservation contextual --></label>
+        <name>QPMS__AuditObservation_contextual</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Closure contextual --></label>
+        <name>QPMS__Closure_contextual</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Completion Fields --></label>
+        <name>QPMS__Completion_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Finding Response --></label>
+        <name>QPMS__Finding_Response</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Follow up observation for Listview --></label>
+        <name>QPMS__Follow_up_observation_for_Listview</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Followup Observations --></label>
+        <name>QPMS__Followup_Observations</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Observation_Detail --></label>
+        <name>QPMS__Observation_Detail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Observation Details For Page --></label>
+        <name>QPMS__Observation_Details_For_Page</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Observation history --></label>
+        <name>QPMS__Observation_history</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Preliminary Assessment Fields --></label>
+        <name>QPMS__Preliminary_Assessment_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Resolution Code Fields --></label>
+        <name>QPMS__Resolution_Code_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Response Task contextual --></label>
+        <name>QPMS__Response_Task_contextual</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- observation Details for History --></label>
+        <name>QPMS__observation_Details_for_History</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Age --></label>
+        <name>QPMS__Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Required --></label>
+        <name>QPMS__Approval_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>QPMS__Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recall</masterLabel>
+            <translation><!-- Recall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approver 1 --></label>
+        <name>QPMS__Approver_1__c</name>
+        <relationshipLabel><!-- Observations (Approver 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 2 --></label>
+        <name>QPMS__Approver_2__c</name>
+        <relationshipLabel><!-- Observations (Approver 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 3 --></label>
+        <name>QPMS__Approver_3__c</name>
+        <relationshipLabel><!-- Observations (Approver 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 4 --></label>
+        <name>QPMS__Approver_4__c</name>
+        <relationshipLabel><!-- Observations (Approver 4) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 5 --></label>
+        <name>QPMS__Approver_5__c</name>
+        <relationshipLabel><!-- Observations (Approver 5) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 6 --></label>
+        <name>QPMS__Approver_6__c</name>
+        <relationshipLabel><!-- Observations (Approver 6) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 7 --></label>
+        <name>QPMS__Approver_7__c</name>
+        <relationshipLabel><!-- Observations (Approver 7) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 8 --></label>
+        <name>QPMS__Approver_8__c</name>
+        <relationshipLabel><!-- Observations (Approver 8) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 9 --></label>
+        <name>QPMS__Approver_9__c</name>
+        <relationshipLabel><!-- Observations (Approver 9) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver --></label>
+        <name>QPMS__Approver__c</name>
+        <relationshipLabel><!-- Observations (Approver) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Audit Junction --></label>
+        <name>QPMS__Audit_Junction__c</name>
+        <relationshipLabel><!-- Observations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Audit --></label>
+        <name>QPMS__Audit__c</name>
+        <relationshipLabel><!-- Observations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CAPA Number --></label>
+        <name>QPMS__CAPA_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- CAPA --></label>
+        <name>QPMS__CAPA__c</name>
+        <relationshipLabel><!-- Observations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ChangeFieldApprovalStatus --></label>
+        <name>QPMS__ChangeFieldApprovalStatus__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recall</masterLabel>
+            <translation><!-- Recall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Checklist Name --></label>
+        <name>QPMS__Checklist_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- To save audit checklist value for observation --></help>
+        <label><!-- Checklist --></label>
+        <name>QPMS__Checklist__c</name>
+        <relationshipLabel><!-- Observations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Completed By --></label>
+        <name>QPMS__Completed_By_Name__c</name>
+        <relationshipLabel><!-- Observations (Completed By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Completed Date --></label>
+        <name>QPMS__Completed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completed? --></label>
+        <name>QPMS__Completed__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Completion Comments --></label>
+        <name>QPMS__Completion_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>QPMS__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Due Date --></label>
+        <name>QPMS__Due_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable Security --></help>
+        <label><!-- Enable Security --></label>
+        <name>QPMS__Enable_Security__c</name>
+    </fields>
+    <fields>
+        <label><!-- Escalation Rule for Approval --></label>
+        <name>QPMS__Escalation_Rule_for_Approval__c</name>
+        <picklistValues>
+            <masterLabel>Default</masterLabel>
+            <translation><!-- Default --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NONE</masterLabel>
+            <translation><!-- NONE --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Escalation Rule for Task --></label>
+        <name>QPMS__Escalation_Rule_for_Task__c</name>
+        <picklistValues>
+            <masterLabel>Default</masterLabel>
+            <translation><!-- Default --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NONE</masterLabel>
+            <translation><!-- NONE --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Finding Category --></label>
+        <name>QPMS__Finding__c</name>
+        <picklistValues>
+            <masterLabel>Communication / Collaboration - Cisco External</masterLabel>
+            <translation><!-- Communication / Collaboration - Cisco External --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Communication / Collaboration - Cross Team</masterLabel>
+            <translation><!-- Communication / Collaboration - Cross Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Communication / Collaboration - Intra Team</masterLabel>
+            <translation><!-- Communication / Collaboration - Intra Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Info Mgmt - Action Item Management</masterLabel>
+            <translation><!-- Info Mgmt - Action Item Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Info Mgmt - Content Accuracy &amp; Completeness</masterLabel>
+            <translation><!-- Info Mgmt - Content Accuracy &amp; Completeness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Info Mgmt - Data Privacy &amp; Security</masterLabel>
+            <translation><!-- Info Mgmt - Data Privacy &amp; Security --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Info Mgmt - Review &amp; Approval Practices</masterLabel>
+            <translation><!-- Info Mgmt - Review &amp; Approval Practices --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Info Mgmt - Storage &amp; Retrieval Practices</masterLabel>
+            <translation><!-- Info Mgmt - Storage &amp; Retrieval Practices --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Management - Goal Setting &amp; Progress Reviews</masterLabel>
+            <translation><!-- Management - Goal Setting &amp; Progress Reviews --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Management - Governance &amp;/or Commitment</masterLabel>
+            <translation><!-- Management - Governance &amp;/or Commitment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Management - Operational Control</masterLabel>
+            <translation><!-- Management - Operational Control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Management - Project / Program Management</masterLabel>
+            <translation><!-- Management - Project / Program Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Management - Resourcing &amp; Support</masterLabel>
+            <translation><!-- Management - Resourcing &amp; Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Management - Risk Management</masterLabel>
+            <translation><!-- Management - Risk Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Management - Staff Training &amp; Development</masterLabel>
+            <translation><!-- Management - Staff Training &amp; Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Process - Change Management</masterLabel>
+            <translation><!-- Process - Change Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Process - Continual Improvement</masterLabel>
+            <translation><!-- Process - Continual Improvement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Process - Use of Templates</masterLabel>
+            <translation><!-- Process - Use of Templates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Process - Use of Tools</masterLabel>
+            <translation><!-- Process - Use of Tools --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Holds followers to this record --></help>
+        <label><!-- Followers --></label>
+        <name>QPMS__Followers__c</name>
+        <picklistValues>
+            <masterLabel>NONE</masterLabel>
+            <translation><!-- NONE --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Full Description --></label>
+        <name>QPMS__Full_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Immediate Action Taken --></label>
+        <name>QPMS__Immediate_Action_Taken__c</name>
+    </fields>
+    <fields>
+        <label><!-- Include In Follow up --></label>
+        <name>QPMS__Include_In_Follow_up__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Submitter --></label>
+        <name>QPMS__Initial_Submitter__c</name>
+        <relationshipLabel><!-- Observations (Initial Submitter) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Initiating Site Security --></label>
+        <name>QPMS__Initiating_Site_Security__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Capa Number --></label>
+        <name>QPMS__New_Capa_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Owner --></label>
+        <name>QPMS__New_Owner__c</name>
+        <relationshipLabel><!-- Observations (New Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Note To Approver Change Owner --></label>
+        <name>QPMS__Note_To_Approver_Change_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Observation Number --></label>
+        <name>QPMS__Observation_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Observation Owner --></label>
+        <name>QPMS__Observation_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Observation Type --></label>
+        <name>QPMS__Observation_Type__c</name>
+        <picklistValues>
+            <masterLabel>Best Practice</masterLabel>
+            <translation><!-- Best Practice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Findings</masterLabel>
+            <translation><!-- Findings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Positive Comment</masterLabel>
+            <translation><!-- Positive Comment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Positive Confirmation</masterLabel>
+            <translation><!-- Positive Confirmation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recommendation</masterLabel>
+            <translation><!-- Recommendation --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product Impact --></label>
+        <name>QPMS__Product_Impact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question --></label>
+        <name>QPMS__Question__c</name>
+    </fields>
+    <fields>
+        <label><!-- Repeat --></label>
+        <name>QPMS__Repeat_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Repeat --></label>
+        <name>QPMS__Repeat__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolution CAPA Comment --></label>
+        <name>QPMS__Resolution_CAPA_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolution Closed Comment --></label>
+        <name>QPMS__Resolution_Closed_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolution Code --></label>
+        <name>QPMS__Resolution_Code__c</name>
+        <picklistValues>
+            <masterLabel>Addressed through CAPA</masterLabel>
+            <translation><!-- Addressed through CAPA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Findings Workflow</masterLabel>
+            <translation><!-- Findings Workflow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Action Required</masterLabel>
+            <translation><!-- No Action Required --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Section Name --></label>
+        <name>QPMS__Section_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Section --></label>
+        <name>QPMS__Section__c</name>
+        <relationshipLabel><!-- Observations --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- used in audit observation section to show severity value instead of id --></help>
+        <label><!-- Severity --></label>
+        <name>QPMS__Severity_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Severity --></label>
+        <name>QPMS__Severity__c</name>
+        <relationshipLabel><!-- Observations --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Signed Off Details --></help>
+        <label><!-- Signed Off Details --></label>
+        <name>QPMS__Signed_Off_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>QPMS__Status__c</name>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Findings Workflow</masterLabel>
+            <translation><!-- Findings Workflow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Void</masterLabel>
+            <translation><!-- Void --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Supplier Name --></label>
+        <name>QPMS__Supplier_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Systemic --></label>
+        <name>QPMS__SystemicValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Systemic --></label>
+        <name>QPMS__Systemic__c</name>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <layouts>
+        <layout>Observation Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Observation Number --></nameFieldLabel>
+</CustomObjectTranslation>

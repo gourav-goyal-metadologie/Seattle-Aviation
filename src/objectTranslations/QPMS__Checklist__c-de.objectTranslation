@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Checklist --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Checklist --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Checklist --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Checklist --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Checklist --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Checklist --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Checklist --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Checklist --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Checklist --></label>
+        <name>QPMS__Checklist</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Checklist Detail --></label>
+        <name>QPMS__Checklist_Detail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Checklist View --></label>
+        <name>QPMS__Checklist_View</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Checklistcontextual --></label>
+        <name>QPMS__Checklistcontextual</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CompleteChecklst --></label>
+        <name>QPMS__CompleteChecklst</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- checklist fields --></label>
+        <name>QPMS__checklist_fields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Additional Auditors --></label>
+        <name>QPMS__Additional_Auditors__c</name>
+    </fields>
+    <fields>
+        <label><!-- ApprovalProcess --></label>
+        <name>QPMS__ApprovalProcess__c</name>
+        <picklistValues>
+            <masterLabel>Change Assigned To</masterLabel>
+            <translation><!-- Change Assigned To --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approval Required --></label>
+        <name>QPMS__Approval_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>QPMS__Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recall</masterLabel>
+            <translation><!-- Recall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approver_1 --></label>
+        <name>QPMS__Approver_1__c</name>
+        <relationshipLabel><!-- Checklists (Approver_1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver_2 --></label>
+        <name>QPMS__Approver_2__c</name>
+        <relationshipLabel><!-- Checklists (Approver_2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver_3 --></label>
+        <name>QPMS__Approver_3__c</name>
+        <relationshipLabel><!-- Checklists (Approver_3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver_4 --></label>
+        <name>QPMS__Approver_4__c</name>
+        <relationshipLabel><!-- Checklists (Approver_4) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver_5 --></label>
+        <name>QPMS__Approver_5__c</name>
+        <relationshipLabel><!-- Checklists (Approver_5) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver_6 --></label>
+        <name>QPMS__Approver_6__c</name>
+        <relationshipLabel><!-- Checklists (Approver_6) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver_7 --></label>
+        <name>QPMS__Approver_7__c</name>
+        <relationshipLabel><!-- Checklists (Approver_7) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver_8 --></label>
+        <name>QPMS__Approver_8__c</name>
+        <relationshipLabel><!-- Checklists (Approver_8) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver_9 --></label>
+        <name>QPMS__Approver_9__c</name>
+        <relationshipLabel><!-- Checklists (Approver_9) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver --></label>
+        <name>QPMS__Approver__c</name>
+        <relationshipLabel><!-- Checklists (Approver) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Assigned To --></label>
+        <name>QPMS__Assigned_To__c</name>
+        <relationshipLabel><!-- Checklists (Assigned To) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Attached --></label>
+        <name>QPMS__Attached__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Audit Program Id --></label>
+        <name>QPMS__Audit_Program_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Audit Program --></label>
+        <name>QPMS__Audit_Program__c</name>
+        <relationshipLabel><!-- Checklists --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Lookup to Audit Type record --></help>
+        <label><!-- Audit Type --></label>
+        <name>QPMS__Audit_Type__c</name>
+        <relationshipLabel><!-- Checklists --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Audit --></label>
+        <name>QPMS__Audit__c</name>
+        <relationshipLabel><!-- Checklists --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ChangeFieldApprovalStatus --></label>
+        <name>QPMS__ChangeFieldApprovalStatus__c</name>
+        <picklistValues>
+            <masterLabel>Approve</masterLabel>
+            <translation><!-- Approve --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recall</masterLabel>
+            <translation><!-- Recall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reject</masterLabel>
+            <translation><!-- Reject --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Checklist Number --></label>
+        <name>QPMS__Checklist_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checklist Questions --></label>
+        <name>QPMS__Checklist_Questions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checklist Type --></label>
+        <name>QPMS__Checklist_Type__c</name>
+        <relationshipLabel><!-- Checklists --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Complete Checklist --></label>
+        <name>QPMS__Complete_Checklist__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Created By --></label>
+        <name>QPMS__CreatedBy__c</name>
+    </fields>
+    <fields>
+        <label><!-- CurrentApprovalSequenceNumber --></label>
+        <name>QPMS__CurrentApprovalSequenceNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Detail --></label>
+        <name>QPMS__Detail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evaluation Type --></label>
+        <name>QPMS__Evaluationtype__c</name>
+        <picklistValues>
+            <masterLabel>Color</masterLabel>
+            <translation><!-- Color --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass/Fail</masterLabel>
+            <translation><!-- Pass/Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scoring</masterLabel>
+            <translation><!-- Scoring --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Exported By --></label>
+        <name>QPMS__Exported_By__c</name>
+        <relationshipLabel><!-- Checklists (Exported By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- External Id --></help>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Followers --></label>
+        <name>QPMS__Followers__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Initial_Submitter --></label>
+        <name>QPMS__Initial_Submitter__c</name>
+        <relationshipLabel><!-- Checklists (Initial_Submitter) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Initiating Site --></label>
+        <name>QPMS__Initiating_Site_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initiating Site Security --></label>
+        <name>QPMS__Initiating_Site_Security__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initiating Site --></label>
+        <name>QPMS__Initiating_Site__c</name>
+        <relationshipLabel><!-- Checklists --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>QPMS__Is_Active__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-Active</masterLabel>
+            <translation><!-- In-Active --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last Checkout Check in by --></label>
+        <name>QPMS__Last_Checkout_Check_in_by__c</name>
+        <picklistValues>
+            <masterLabel>Checked in by</masterLabel>
+            <translation><!-- Checked in by --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Checked out by</masterLabel>
+            <translation><!-- Checked out by --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Undo Checked out by</masterLabel>
+            <translation><!-- Undo Checked out by --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- New Assigned To --></label>
+        <name>QPMS__New_Assigned_To__c</name>
+        <relationshipLabel><!-- Checklists (New Assigned To) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Note_To_Approver_Owner_DueDate --></label>
+        <name>QPMS__Note_To_Approver_Owner_DueDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Note To Approver --></label>
+        <name>QPMS__Note_To_Approver__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Checklist Id --></label>
+        <name>QPMS__Old_Checklist_Id__c</name>
+        <relationshipLabel><!-- Checklists (Old Checklist Id) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Site Location --></help>
+        <label><!-- Site Location --></label>
+        <name>QPMS__Site_Location__c</name>
+        <relationshipLabel><!-- Checklists (Site Location) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Site Location Name for Print and Details --></help>
+        <label><!-- Site Locations --></label>
+        <name>QPMS__Site_Locations_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test_Date --></label>
+        <name>QPMS__Test_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test_checkbox --></label>
+        <name>QPMS__Test_checkbox__c</name>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>QPMS__Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Score Available --></label>
+        <name>QPMS__Total_Score_Available__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Score Received --></label>
+        <name>QPMS__Total_Score_Received__c</name>
+    </fields>
+    <fields>
+        <help><!-- Unique Name of section --></help>
+        <label><!-- UniqueName --></label>
+        <name>QPMS__UniqueName__c</name>
+    </fields>
+    <fields>
+        <label><!-- UpdateChecklistWorkflow --></label>
+        <name>QPMS__UpdateChecklistWorkflow__c</name>
+    </fields>
+    <fields>
+        <label><!-- isCheckedOut --></label>
+        <name>QPMS__isCheckedOut__c</name>
+    </fields>
+    <fields>
+        <label><!-- isLocked --></label>
+        <name>QPMS__isLocked__c</name>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <layouts>
+        <layout>Checklist Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Checklist Number --></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Active? --></label>
+        <name>inscor__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company --></label>
+        <name>inscor__Company__c</name>
+        <relationshipLabel><!-- Customer Contract Prices --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Condition Code --></label>
+        <name>inscor__Condition_Code__c</name>
+        <relationshipLabel><!-- Customer Contract Prices --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer --></label>
+        <name>inscor__Customer__c</name>
+        <relationshipLabel><!-- Customer Contract Prices --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Effective Date --></label>
+        <name>inscor__Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective? --></label>
+        <name>inscor__Effective__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword --></label>
+        <name>inscor__Keyword__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Time --></label>
+        <name>inscor__Lead_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Min Quantity --></label>
+        <name>inscor__Min_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price --></label>
+        <name>inscor__Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part Number --></label>
+        <name>inscor__Product__c</name>
+        <relationshipLabel><!-- Customer Contract Prices --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Customer Contract Price Layout</layout>
+        <sections>
+            <label><!-- Company &amp; Owner Information --></label>
+            <section>Company &amp; Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Contract Price Information --></label>
+            <section>Customer Contract Price Information</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Please Only Enter Whole Numbers --></errorMessage>
+        <name>inscor__Check_if_Round_Error</name>
+    </validationRules>
+</CustomObjectTranslation>

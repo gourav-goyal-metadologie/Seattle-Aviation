@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Assigned To --></label>
+        <name>inscor__Assigned_To__c</name>
+        <relationshipLabel><!-- Assistant Results --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Company --></label>
+        <name>inscor__Company__c</name>
+        <relationshipLabel><!-- Assistant Results --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Quote --></label>
+        <name>inscor__Customer_Quote__c</name>
+        <relationshipLabel><!-- Assistant Results --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inventory Line --></label>
+        <name>inscor__Inventory_Line__c</name>
+        <relationshipLabel><!-- Assistant Results --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>inscor__Product__c</name>
+        <relationshipLabel><!-- Assistant Results --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Purchase Order --></label>
+        <name>inscor__Purchase_Order__c</name>
+        <relationshipLabel><!-- Assistant Results --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RFQ --></label>
+        <name>inscor__RFQ__c</name>
+        <relationshipLabel><!-- Assistant Results --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Read? --></label>
+        <name>inscor__Read__c</name>
+    </fields>
+    <fields>
+        <label><!-- Release --></label>
+        <name>inscor__Release__c</name>
+        <relationshipLabel><!-- Assistant Results --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Repair Order --></label>
+        <name>inscor__Repair_Order__c</name>
+        <relationshipLabel><!-- Assistant Results --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Result Item --></label>
+        <name>inscor__Result_Item__c</name>
+        <picklistValues>
+            <masterLabel>Customer Quote</masterLabel>
+            <translation><!-- Customer Quote --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inventory line</masterLabel>
+            <translation><!-- Inventory line --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Part Number</masterLabel>
+            <translation><!-- Part Number --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase Order</masterLabel>
+            <translation><!-- Purchase Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RFQ</masterLabel>
+            <translation><!-- RFQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Release</masterLabel>
+            <translation><!-- Release --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair Order</masterLabel>
+            <translation><!-- Repair Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Order</masterLabel>
+            <translation><!-- Sales Order --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Result Reason --></label>
+        <name>inscor__Result_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Order --></label>
+        <name>inscor__Sales_Order__c</name>
+        <relationshipLabel><!-- Assistant Results --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Setting Triggered --></label>
+        <name>inscor__Setting_Triggered__c</name>
+        <relationshipLabel><!-- Assistant Results --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Silenced? --></label>
+        <name>inscor__Silenced__c</name>
+    </fields>
+</CustomObjectTranslation>

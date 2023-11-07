@@ -1,0 +1,46 @@
+<!-- sldsValidatorIgnore -->
+<template>
+    <div class="slds-var-p-around_xx-small slds-shrink-none slds-text-align_center">
+
+        <lightning-button class="slds-grid_align-center" 
+            variant="brand" 
+            label="New Address"  
+            onclick={show_Form}
+            disabled={View_Form}>
+        </lightning-button>
+    </div>
+    
+    <template if:true={showaddressForm}>
+        <div class="slds-modal slds-fade-in-open slds-backdrop">  
+            <div class="slds-modal__container">  
+              <!--HEADER Section-->  
+              <div class="slds-modal__header">  
+                <lightning-button-icon icon-name="utility:close" alternative-text="Close this window" size="large"  
+                variant="bare-inverse" onclick={close_Form} class="slds-modal__close"> </lightning-button-icon>
+                 <h2>Add New Address</h2>  
+              </div>  
+              <!---Body Section-->  
+              <div class="slds-modal__content slds-p-around_medium"> 
+              <!--<lightning-input-field field-name="AddressName" typ onchange={handleNameChange}></lightning-input-field>
+              <lightning-input-field field-name='AddressName' onchange={handleNameChange}>Address Name</lightning-input-field>-->
+              <lightning-input type="text" onchange={handleNameChange} label="Address Name"></lightning-input>
+              <lightning-input-address
+				        address-label="Address"
+				        street-label="Street"
+				        city-label="City"
+				        country-label="Country"
+                province-label="Province/State"
+				        postal-code-label="Zip/PostalCode"
+				        required
+				        onchange={handelchange}></lightning-input-address>
+                
+              </div>  
+              <!---Footer Section-->  
+              <div class="slds-modal__footer">  
+                <lightning-button label="Add" variant="brand" onclick={save_Form}>  
+                </lightning-button>
+              </div>  
+            </div>  
+        </div>  
+    </template>
+</template>

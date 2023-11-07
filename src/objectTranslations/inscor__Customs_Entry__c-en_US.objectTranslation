@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Company --></label>
+        <name>inscor__Company__c</name>
+        <relationshipLabel><!-- Customs Entries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Customs Value --></label>
+        <name>inscor__Customs_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Entry --></label>
+        <name>inscor__Date_of_Entry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Entry Commodity Code --></label>
+        <name>inscor__Entry_Commodity_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Entry Number --></label>
+        <name>inscor__Entry_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Entry Processing Unit Number --></label>
+        <name>inscor__Entry_Processing_Unit_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Entry Status --></label>
+        <name>inscor__Entry_Status__c</name>
+        <picklistValues>
+            <masterLabel>Customs Warehouse</masterLabel>
+            <translation><!-- Customs Warehouse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Free Circulation</masterLabel>
+            <translation><!-- Free Circulation --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Entry Type --></label>
+        <name>inscor__Entry_Type__c</name>
+        <picklistValues>
+            <masterLabel>Import Entry</masterLabel>
+            <translation><!-- Import Entry --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Inventory --></label>
+        <name>inscor__Inventory__c</name>
+        <relationshipLabel><!-- Customs Entries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Movement Reference Number --></label>
+        <name>inscor__Movement_Reference_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notes --></label>
+        <name>inscor__Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unique Consignment Reference --></label>
+        <name>inscor__Unique_Consignment_Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- VAT Value --></label>
+        <name>inscor__VAT_Value__c</name>
+    </fields>
+</CustomObjectTranslation>

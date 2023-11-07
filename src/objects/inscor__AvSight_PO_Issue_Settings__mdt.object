@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>inscor__Allow_PO_Line_SPEC_issue_from_Cons__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Allow PO Line SPEC issue from Cons</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Allow_PO_Line_SPEC_issue_from_LOT__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Allow PO Line SPEC issue from LOT</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Allow_PO_Line_SPEC_issue_from_Spec__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Allow PO Line SPEC issue from Spec</label>
+        <type>Checkbox</type>
+    </fields>
+    <label>AvSight PO Issue Settings</label>
+    <pluralLabel>AvSight PO Issue Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

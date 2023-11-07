@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>inscor__Part_Master_Compact</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>inscor__Part_Master_Compact</fullName>
+        <fields>Name</fields>
+        <fields>inscor__Keyword__c</fields>
+        <fields>inscor__Serialized__c</fields>
+        <fields>inscor__Life_Limited__c</fields>
+        <label>Part Master Compact</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>false</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>false</enableSharing>
+    <enableStreamingApi>false</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>inscor__ATA_Chapter__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>ATA Chapter</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>00 General</fullName>
+                    <default>false</default>
+                    <label>00 General</label>
+                </value>
+                <value>
+                    <fullName>01 Maintenance Policy</fullName>
+                    <default>false</default>
+                    <label>01 Maintenance Policy</label>
+                </value>
+                <value>
+                    <fullName>02 Operations</fullName>
+                    <default>false</default>
+                    <label>02 Operations</label>
+                </value>
+                <value>
+                    <fullName>03 Support</fullName>
+                    <default>false</default>
+                    <label>03 Support</label>
+                </value>
+                <value>
+                    <fullName>04 Airline Use</fullName>
+                    <default>false</default>
+                    <label>04 Airline Use</label>
+                </value>
+                <value>
+                    <fullName>05 Time Limits/Maintenance Checks</fullName>
+                    <default>false</default>
+                    <label>05 Time Limits/Maintenance Checks</label>
+                </value>
+                <value>
+                    <fullName>06 Dimensions and Areas</fullName>
+                    <default>false</default>
+                    <label>06 Dimensions and Areas</label>
+                </value>
+                <value>
+                    <fullName>07 Lifting, Shoring and Jacking</fullName>
+                    <default>false</default>
+                    <label>07 Lifting, Shoring and Jacking</label>
+                </value>
+                <value>
+                    <fullName>08 Leveling and Weighing.</fullName>
+                    <default>false</default>
+                    <label>08 Leveling and Weighing.</label>
+                </value>
+                <value>
+                    <fullName>09 Towing and Taxi</fullName>
+                    <default>false</default>
+                    <label>09 Towing and Taxi</label>
+                </value>
+                <value>
+                    <fullName>10 Parking, Mooring, Storage, Return To Service</fullName>
+                    <default>false</default>
+                    <label>10 Parking, Mooring, Storage, Return To Service</label>
+                </value>
+                <value>
+                    <fullName>11 Placards and Markings</fullName>
+                    <default>false</default>
+                    <label>11 Placards and Markings</label>
+                </value>
+                <value>
+                    <fullName>12 Servicing - Routine Maintenance</fullName>
+                    <default>false</default>
+                    <label>12 Servicing - Routine Maintenance</label>
+                </value>
+                <value>
+                    <fullName>14 Hardware</fullName>
+                    <default>false</default>
+                    <label>14 Hardware</label>
+                </value>
+                <value>
+                    <fullName>18 Vibration and Noise Analysis (Helicopter Only)</fullName>
+                    <default>false</default>
+                    <label>18 Vibration and Noise Analysis (Helicopter Only)</label>
+                </value>
+                <value>
+                    <fullName>20 Standard Practices - Airframe</fullName>
+                    <default>false</default>
+                    <label>20 Standard Practices - Airframe</label>
+                </value>
+                <value>
+                    <fullName>21 Air Conditioning &amp; Pressurization</fullName>
+                    <default>false</default>
+                    <label>21 Air Conditioning &amp; Pressurization</label>
+                </value>
+                <value>
+                    <fullName>22 Auto Flight</fullName>
+                    <default>false</default>
+                    <label>22 Auto Flight</label>
+                </value>
+                <value>
+                    <fullName>23 Communications</fullName>
+                    <default>false</default>
+                    <label>23 Communications</label>
+                </value>
+                <value>
+                    <fullName>24 Electrical Power</fullName>
+                    <default>false</default>
+                    <label>24 Electrical Power</label>
+                </value>
+                <value>
+                    <fullName>25 Equipment / Furnishings</fullName>
+                    <default>false</default>
+                    <label>25 Equipment / Furnishings</label>
+                </value>
+                <value>
+                    <fullName>26 Fire Protection</fullName>
+                    <default>false</default>
+                    <label>26 Fire Protection</label>
+                </value>
+                <value>
+                    <fullName>27 Flight Controls</fullName>
+                    <default>false</default>
+                    <label>27 Flight Controls</label>
+                </value>
+                <value>
+                    <fullName>28 Fuel</fullName>
+                    <default>false</default>
+                    <label>28 Fuel</label>
+                </value>
+                <value>
+                    <fullName>29 Hydraulic Power</fullName>
+                    <default>false</default>
+                    <label>29 Hydraulic Power</label>
+                </value>
+                <value>
+                    <fullName>30 Ice and Rain Protection</fullName>
+                    <default>false</default>
+                    <label>30 Ice and Rain Protection</label>
+                </value>
+                <value>
+                    <fullName>31 Indicating / Recording System</fullName>
+                    <default>false</default>
+                    <label>31 Indicating / Recording System</label>
+                </value>
+                <value>
+                    <fullName>32 Landing Gear</fullName>
+                    <default>false</default>
+                    <label>32 Landing Gear</label>
+                </value>
+                <value>
+                    <fullName>32-10 Main Gear and Doors</fullName>
+                    <default>false</default>
+                    <label>32-10 Main Gear and Doors</label>
+                </value>
+                <value>
+                    <fullName>32-20 Nose Gear and Doors</fullName>
+                    <default>false</default>
+                    <label>32-20 Nose Gear and Doors</label>
+                </value>
+                <value>
+                    <fullName>32-40 Wheels and Brakes</fullName>
+                    <default>false</default>
+                    <label>32-40 Wheels and Brakes</label>
+                </value>
+                <value>
+                    <fullName>32-50 Steering</fullName>
+                    <default>false</default>
+                    <label>32-50 Steering</label>
+                </value>
+                <value>
+                    <fullName>32-60 Position Indication and Warning</fullName>
+                    <default>false</default>
+                    <label>32-60 Position Indication and Warning</label>
+                </value>
+                <value>
+                    <fullName>32-70 Supplementary Gear</fullName>
+                    <default>false</default>
+                    <label>32-70 Supplementary Gear</label>
+                </value>
+                <value>
+                    <fullName>33 Lights</fullName>
+                    <default>false</default>
+                    <label>33 Lights</label>
+                </value>
+                <value>
+                    <fullName>34 Navigation</fullName>
+                    <default>false</default>
+                    <label>34 Navigation</label>
+                </value>
+                <value>
+                    <fullName>35 Oxygen</fullName>
+                    <default>false</default>
+                    <label>35 Oxygen</label>
+                </value>
+                <value>
+                    <fullName>36 Pneumatic</fullName>
+                    <default>false</default>
+                    <label>36 Pneumatic</label>
+                </value>
+                <value>
+                    <fullName>37 Vacuum</fullName>
+                    <default>false</default>
+                    <label>37 Vacuum</label>
+                </value>
+                <value>
+                    <fullName>38 Water / Waste</fullName>
+                    <default>false</default>
+                    <label>38 Water / Waste</label>
+                </value>
+                <value>
+                    <fullName>39 Electrical-Electronic Panels, Multipurpose Components</fullName>
+                    <default>false</default>
+                    <label>39 Electrical-Electronic Panels, Multipurpose Components</label>
+                </value>
+                <value>
+                    <fullName>40 Multisystem</fullName>
+                    <default>false</default>
+                    <label>40 Multisystem</label>
+                </value>
+                <value>
+                    <fullName>41 Water Ballast</fullName>
+                    <default>false</default>
+                    <label>41 Water Ballast</label>
+                </value>
+                <value>
+                    <fullName>42 Integrated Modular Avionics</fullName>
+                    <default>false</default>
+                    <label>42 Integrated Modular Avionics</label>
+                </value>
+                <value>
+                    <fullName>44 Cabin Systems</fullName>
+                    <default>false</default>
+                    <label>44 Cabin Systems</label>
+                </value>
+                <value>
+                    <fullName>45 Diagnostic and Maintenance System</fullName>
+                    <default>false</default>
+                    <label>45 Diagnostic and Maintenance System</label>
+                </value>
+                <value>
+                    <fullName>46 Information Systems</fullName>
+                    <default>false</default>
+                    <label>46 Information Systems</label>
+                </value>
+                <value>
+                    <fullName>47 Nitrogen Generation System</fullName>
+                    <default>false</default>
+                    <label>47 Nitrogen Generation System</label>
+                </value>
+                <value>
+                    <fullName>48 In Flight Fuel Dispensing</fullName>
+                    <default>false</default>
+                    <label>48 In Flight Fuel Dispensing</label>
+                </value>
+                <value>
+                    <fullName>49 Airborne Auxiliary Power</fullName>
+                    <default>false</default>
+                    <label>49 Airborne Auxiliary Power</label>
+                </value>
+                <value>
+                    <fullName>50 Cargo and Accessory Compartments</fullName>
+                    <default>false</default>
+                    <label>50 Cargo and Accessory Compartments</label>
+                </value>
+                <value>
+                    <fullName>51 Standard Practices and Structures-General</fullName>
+                    <default>false</default>
+                    <label>51 Standard Practices and Structures-General</label>
+                </value>
+                <value>
+                    <fullName>52 Doors</fullName>
+                    <default>false</default>
+                    <label>52 Doors</label>
+                </value>
+                <value>
+                    <fullName>53 Fuselage</fullName>
+                    <default>false</default>
+                    <label>53 Fuselage</label>
+                </value>
+                <value>
+                    <fullName>54 Nacelles/Pylons</fullName>
+                    <default>false</default>
+                    <label>54 Nacelles/Pylons</label>
+                </value>
+                <value>
+                    <fullName>55 Stabilizers</fullName>
+                    <default>false</default>
+                    <label>55 Stabilizers</label>
+                </value>
+                <value>
+                    <fullName>56 Windows</fullName>
+                    <default>false</default>
+                    <label>56 Windows</label>
+                </value>
+                <value>
+                    <fullName>57 Wings</fullName>
+                    <default>false</default>
+                    <label>57 Wings</label>
+                </value>
+                <value>
+                    <fullName>60 Standard Practices - Propeller/Rotor</fullName>
+                    <default>false</default>
+                    <label>60 Standard Practices - Propeller/Rotor</label>
+                </value>
+                <value>
+                    <fullName>61 Propellers</fullName>
+                    <default>false</default>
+                    <label>61 Propellers</label>
+                </value>
+                <value>
+                    <fullName>62 Rotor(S)</fullName>
+                    <default>false</default>
+                    <label>62 Rotor(S)</label>
+                </value>
+                <value>
+                    <fullName>63 Rotor Drive(S)</fullName>
+                    <default>false</default>
+                    <label>63 Rotor Drive(S)</label>
+                </value>
+                <value>
+                    <fullName>64 Tail Rotor</fullName>
+                    <default>false</default>
+                    <label>64 Tail Rotor</label>
+                </value>
+                <value>
+                    <fullName>65 Tail Rotor Drive</fullName>
+                    <default>false</default>
+                    <label>65 Tail Rotor Drive</label>
+                </value>
+                <value>
+                    <fullName>66 Folding Blades/Pylon</fullName>
+                    <default>false</default>
+                    <label>66 Folding Blades/Pylon</label>
+                </value>
+                <value>
+                    <fullName>67 Rotors Flight Control</fullName>
+                    <default>false</default>
+                    <label>67 Rotors Flight Control</label>
+                </value>
+                <value>
+                    <fullName>70 Standard Practices Engine</fullName>
+                    <default>false</default>
+                    <label>70 Standard Practices Engine</label>
+                </value>
+                <value>
+                    <fullName>71 Power Plant</fullName>
+                    <default>false</default>
+                    <label>71 Power Plant</label>
+                </value>
+                <value>
+                    <fullName>72 Engine General</fullName>
+                    <default>false</default>
+                    <label>72 Engine General</label>
+                </value>
+                <value>
+                    <fullName>73 Engine Fuel and Control</fullName>
+                    <default>false</default>
+                    <label>73 Engine Fuel and Control</label>
+                </value>
+                <value>
+                    <fullName>74 Engine Ignition</fullName>
+                    <default>false</default>
+                    <label>74 Engine Ignition</label>
+                </value>
+                <value>
+                    <fullName>75 Engine Bleed Air</fullName>
+                    <default>false</default>
+                    <label>75 Engine Bleed Air</label>
+                </value>
+                <value>
+                    <fullName>76 Engine Control</fullName>
+                    <default>false</default>
+                    <label>76 Engine Control</label>
+                </value>
+                <value>
+                    <fullName>77 Engine Indicating</fullName>
+                    <default>false</default>
+                    <label>77 Engine Indicating</label>
+                </value>
+                <value>
+                    <fullName>78 Engine Exhaust System</fullName>
+                    <default>false</default>
+                    <label>78 Engine Exhaust System</label>
+                </value>
+                <value>
+                    <fullName>79 Engine Oil</fullName>
+                    <default>false</default>
+                    <label>79 Engine Oil</label>
+                </value>
+                <value>
+                    <fullName>80 Engine Starting</fullName>
+                    <default>false</default>
+                    <label>80 Engine Starting</label>
+                </value>
+                <value>
+                    <fullName>81 Turbines (Reciprocating Engines)</fullName>
+                    <default>false</default>
+                    <label>81 Turbines (Reciprocating Engines)</label>
+                </value>
+                <value>
+                    <fullName>82 Water Injection</fullName>
+                    <default>false</default>
+                    <label>82 Water Injection</label>
+                </value>
+                <value>
+                    <fullName>83 Accessory Gearboxes</fullName>
+                    <default>false</default>
+                    <label>83 Accessory Gearboxes</label>
+                </value>
+                <value>
+                    <fullName>84 Propulsion Augmentation</fullName>
+                    <default>false</default>
+                    <label>84 Propulsion Augmentation</label>
+                </value>
+                <value>
+                    <fullName>85 Fuel Cell Systems</fullName>
+                    <default>false</default>
+                    <label>85 Fuel Cell Systems</label>
+                </value>
+                <value>
+                    <fullName>91 Charts</fullName>
+                    <default>false</default>
+                    <label>91 Charts</label>
+                </value>
+                <value>
+                    <fullName>92 Electrical System Installation</fullName>
+                    <default>false</default>
+                    <label>92 Electrical System Installation</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>inscor__Applicability__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Applicability</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>inscor__Applicability</valueSetName>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__Conversion_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Conversion ID</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>155</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Export_Control__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Export Control</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Export Control</fullName>
+                    <default>false</default>
+                    <label>Export Control</label>
+                </value>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                    <label>None</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>inscor__External_Reference_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <deprecated>false</deprecated>
+        <externalId>true</externalId>
+        <label>External Reference ID</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Hide_from_Services__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Hide from Services</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>None</fullName>
+                    <default>true</default>
+                    <label>None</label>
+                </value>
+                <value>
+                    <fullName>ILS</fullName>
+                    <default>false</default>
+                    <label>ILS</label>
+                </value>
+                <value>
+                    <fullName>AeroXchange</fullName>
+                    <default>false</default>
+                    <label>AeroXchange</label>
+                </value>
+                <value>
+                    <fullName>OneAero</fullName>
+                    <default>false</default>
+                    <label>OneAero</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__Internal_Comments__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Internal Comments</label>
+        <length>10000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__Keyword__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Keyword</label>
+        <length>25</length>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Life_Limited__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Life Limited?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Reference_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Reference ID</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Serialized__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Serialized?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Shelf_Life_Time__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Shelf Life Time</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Shelf_Life__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Shelf Life?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__UOM__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>UOM</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>inscor__UOM</valueSetName>
+        </valueSet>
+    </fields>
+    <label>Part Master - RETIRED</label>
+    <nameField>
+        <label>Part Number</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Part Master - RETIRED</pluralLabel>
+    <searchLayouts>
+        <lookupDialogsAdditionalFields>inscor__Description__c</lookupDialogsAdditionalFields>
+        <searchResultsAdditionalFields>inscor__Keyword__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>inscor__Serialized__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>inscor__Life_Limited__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

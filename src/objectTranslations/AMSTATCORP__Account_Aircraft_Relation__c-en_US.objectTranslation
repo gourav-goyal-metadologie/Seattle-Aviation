@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account --></label>
+        <name>AMSTATCORP__Account__c</name>
+        <relationshipLabel><!-- Account Aircraft Relation --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Role --></label>
+        <name>AMSTATCORP__Role__c</name>
+        <picklistValues>
+            <masterLabel>Airport</masterLabel>
+            <translation><!-- Airport --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Broker</masterLabel>
+            <translation><!-- Broker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Charter</masterLabel>
+            <translation><!-- Charter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fractional</masterLabel>
+            <translation><!-- Fractional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fractional Program Provider</masterLabel>
+            <translation><!-- Fractional Program Provider --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fractional Share</masterLabel>
+            <translation><!-- Fractional Share --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hangar Mailing</masterLabel>
+            <translation><!-- Hangar Mailing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hangar Physical</masterLabel>
+            <translation><!-- Hangar Physical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Management</masterLabel>
+            <translation><!-- Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operator</masterLabel>
+            <translation><!-- Operator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Owner</masterLabel>
+            <translation><!-- Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trust</masterLabel>
+            <translation><!-- Trust --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Aircraft --></label>
+        <name>Aircraft__c</name>
+        <relationshipLabel><!-- Account Aircraft Relations --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Account Aircraft Relation Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

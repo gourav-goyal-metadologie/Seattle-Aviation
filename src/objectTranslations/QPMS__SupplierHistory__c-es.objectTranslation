@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Supplier History</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Supplier History</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Chronology Fields --></label>
+        <name>QPMS__Chronology_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- History Fields --></label>
+        <name>QPMS__History_Fields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Account --></label>
+        <name>QPMS__Account__c</name>
+        <relationshipLabel><!-- Supplier History --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Action --></label>
+        <name>QPMS__ActionStatus__c</name>
+        <picklistValues>
+            <masterLabel>Created</masterLabel>
+            <translation><!-- Created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deleted</masterLabel>
+            <translation><!-- Deleted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Updated</masterLabel>
+            <translation><!-- Updated --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- to display the action values like Created,Updated,Deleted --></help>
+        <label><!-- Action --></label>
+        <name>QPMS__Action__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attachment --></label>
+        <name>QPMS__Attachment_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>QPMS__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- FieldApiName --></label>
+        <name>QPMS__FieldApiName__c</name>
+    </fields>
+    <fields>
+        <label><!-- FieldName --></label>
+        <name>QPMS__FieldName__c</name>
+    </fields>
+    <fields>
+        <label><!-- HistoryObject --></label>
+        <name>QPMS__HistoryObject__c</name>
+        <picklistValues>
+            <masterLabel>Supplier Change</masterLabel>
+            <translation><!-- Supplier Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplier Checklist</masterLabel>
+            <translation><!-- Supplier Checklist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplier Profile</masterLabel>
+            <translation><!-- Supplier Profile --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last ModifiedBy --></label>
+        <name>QPMS__Last_ModifiedBy__c</name>
+    </fields>
+    <fields>
+        <label><!-- NewValue --></label>
+        <name>QPMS__NewValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Value --></label>
+        <name>QPMS__New_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object --></label>
+        <name>QPMS__Object__c</name>
+    </fields>
+    <fields>
+        <label><!-- OldValue --></label>
+        <name>QPMS__OldValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Valiue --></label>
+        <name>QPMS__Old_Valiue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub Parent --></label>
+        <name>QPMS__Sub_Parent__c</name>
+        <picklistValues>
+            <masterLabel>AdhocTask</masterLabel>
+            <translation><!-- AdhocTask --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AuditInformation</masterLabel>
+            <translation><!-- AuditInformation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closure</masterLabel>
+            <translation><!-- Closure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Final Review</masterLabel>
+            <translation><!-- Final Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interviewed Personnel</masterLabel>
+            <translation><!-- Interviewed Personnel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QuestionnaireForSupplierChange</masterLabel>
+            <translation><!-- QuestionnaireForSupplierChange --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Security</masterLabel>
+            <translation><!-- Security --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplier Address</masterLabel>
+            <translation><!-- Supplier Address --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplier Approval</masterLabel>
+            <translation><!-- Supplier Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplier Change Duedate</masterLabel>
+            <translation><!-- Supplier Change Duedate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplier Change Owner</masterLabel>
+            <translation><!-- Supplier Change Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplier Contact</masterLabel>
+            <translation><!-- Supplier Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplier Init</masterLabel>
+            <translation><!-- Supplier Init --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplier Part or Service</masterLabel>
+            <translation><!-- Supplier Part or Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplier Profile</masterLabel>
+            <translation><!-- Supplier Profile --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Supplier Change --></label>
+        <name>QPMS__Supplier_Change__c</name>
+        <relationshipLabel><!-- Supplier History --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Supplier Checklist --></label>
+        <name>QPMS__Supplier_Checklist__c</name>
+        <relationshipLabel><!-- Supplier History --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Supplier Profile --></label>
+        <name>QPMS__Supplier_Profile__c</name>
+        <relationshipLabel><!-- Supplier History --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Action --></label>
+        <name>QPMS__isCreated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deleted --></label>
+        <name>QPMS__isDeleted__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nombre del proveedor</nameFieldLabel>
+</CustomObjectTranslation>

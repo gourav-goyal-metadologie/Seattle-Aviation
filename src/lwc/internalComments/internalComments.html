@@ -1,0 +1,50 @@
+<template>
+    <div if:true={hideinternalcomment}>
+    </div>
+    <div if:false={hideinternalcomment} style="background-color: #F1F1F1; margin:10px; margin-top:10px; width:100%;  margin-left: -1px;" class="slds-m-around_medium summaryCmp slds-p-vertical_xx-large b2b_buyer_builderCartSummary">
+        <h2 aria-hidden="true" class="slds-list_horizontal internalcomment">Internal Comments</h2>
+        <hr>
+        <div class="Internalcommentarea">
+    <!-- <lightning-textarea commerce_checkout-orderaddress_orderaddress="" id="deliveryInstructions-80" class="slds-form-element"> -->
+        <!-- <label for="input-84" class="slds-form-element__label slds-assistive-text">Internal Comments</label> -->
+        <div class="Internalcommentform">
+            <lightning-record-edit-form object-api-name="WebCart" onsuccess={handleSuccess}>
+                <!-- <lightning-input label="Cart Id" feild-name="Id" value={WebCartId} disabled=""></lightning-input> -->
+                <label class="label">Line Level Comment</label>
+                <lightning-input variant="label-hidden" type="text" id={QBQuestion} onkeypress={notallowNumbers}  onchange={handleChange} width="100%" placeholder="Write your comments here max upto 2000 words..."></lightning-input>
+                <label class="label">Order Level Comment</label>
+                <lightning-textarea variant="label-hidden" id={letterandspaces} name="Internal Comments" maxlength="2000" style="width:100%" placeholder="Write your internal comments here max upto 2000 words..." class=""  onchange={handleChangecomments}></lightning-textarea>
+        </lightning-record-edit-form>
+        </div>
+
+        </div>
+        <template if:false={disabled} > 
+            <button class="ICbutton" onclick={save_comment}> 
+            INSERT COMMENT 
+            </button>
+        </template>
+        <template if:true={disabled} > 
+            <button class="ICbutton" disabled onclick={save_comment}>  
+            INSERT COMMENT
+            </button>
+        </template>
+
+        </div>
+    <!-- </lightning-textarea> -->
+
+    <!-- <h2 aria-hidden="true" class="slds-m-around_medium internalcomment">Internal Comments</h2>
+    <lightning-record-edit-form object-api-name="WebCart" onsuccess={handleSuccess}>
+        <lightning-messages></lightning-messages>
+        <div class="slds-m-around_medium">
+            <lightning-input-field field-name='Id' value={WebCartId}></lightning-input-field>
+            <lightning-textarea id="input-84" name="Internal Comments" maxlength="2000" placeholder="Write your internal comments here max upto 2000 words..." class=""  onchange={handleChangecomments}></lightning-textarea>
+            <div class="slds-m-top_medium"> -->
+                <!-- <lightning-button variant="brand" type="submit" name="save" label="Insert comment" >
+                </lightning-button> -->
+                <!-- <lightning-button variant="brand" label="Insert comment" onclick={save_comment}>
+                </lightning-button>
+           </div>
+       </div>
+    </lightning-record-edit-form> -->
+
+</template>

@@ -1,0 +1,1575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- AccountAuditTrail --></label>
+        <name>QPMS__AccountAuditTrail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SupplierAuditTrial --></label>
+        <name>QPMS__SupplierAuditTrial</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SupplierProfileDetail --></label>
+        <name>QPMS__SupplierProfileDetail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Supplier_Change_Fields --></label>
+        <name>QPMS__Supplier_Change_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Supplier_Details --></label>
+        <name>QPMS__Supplier_Details</name>
+    </fieldSets>
+    <fields>
+        <help><!-- Used to calculate default Payable Due Date. --></help>
+        <label><!-- Payable Days Due --></label>
+        <name>AcctSeed__Account_Payable_Terms__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates account is eligible for use in accounting application. --></help>
+        <label><!-- Accounting Active --></label>
+        <name>AcctSeed__Accounting_Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used in filtered lookups for Payable and Billing screens. --></help>
+        <label><!-- Accounting Type --></label>
+        <name>AcctSeed__Accounting_Type__c</name>
+        <picklistValues>
+            <masterLabel>Customer</masterLabel>
+            <translation><!-- Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer and Vendor</masterLabel>
+            <translation><!-- Customer and Vendor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vendor</masterLabel>
+            <translation><!-- Vendor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Overrides the default Activity Statement defined in Accounting Settings for this specific Customer. --></help>
+        <label><!-- Activity Statement Format --></label>
+        <name>AcctSeed__Activity_Statement_Format__c</name>
+        <relationshipLabel><!-- Accounts (Activity Statement Format) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Used to denote alternate name on PDF statements and cash disbursements. --></help>
+        <label><!-- Alternate Account Name --></label>
+        <name>AcctSeed__Alternate_Payee_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Default for main contact in Accounting Seed Billing, Sales Orders, Payables, and Purchase Orders. --></help>
+        <label><!-- Billing Contact --></label>
+        <name>AcctSeed__Billing_Contact__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Used to calculate default Billing Due Date. --></help>
+        <label><!-- Billing Days Due --></label>
+        <name>AcctSeed__Billing_Days_Due__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used to calculate payment due date for a prompt payment discount on a billing. --></help>
+        <label><!-- Billing Discount Days Due --></label>
+        <name>AcctSeed__Billing_Discount_Days_Due__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used to determine the discount off the Billing Total if payment is received within Billing Discount Days Due. --></help>
+        <label><!-- Billing Discount % --></label>
+        <name>AcctSeed__Billing_Discount_Percent__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used to configure formatting and display of fields in Billing PDF. Overrides the default Billing Format defined in Accounting Settings. --></help>
+        <label><!-- Billing Format --></label>
+        <name>AcctSeed__Billing_Format__c</name>
+        <relationshipLabel><!-- Accounts (Billing Format) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The name of the billing terms as you would like them to appear on the invoice. --></help>
+        <label><!-- Billing Terms Name --></label>
+        <name>AcctSeed__Billing_Terms_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field denotes a credit card vendor. If checked this account will display in the credit card field filtered lookup on the expense object. --></help>
+        <label><!-- Credit Card Vendor --></label>
+        <name>AcctSeed__Credit_Card_Vendor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Informational field used on 1099 reports and file export. --></help>
+        <label><!-- Default 1099 Box --></label>
+        <name>AcctSeed__Default_1099_Box__c</name>
+        <picklistValues>
+            <masterLabel>1. Rents</masterLabel>
+            <translation><!-- 1. Rents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10. Crop Insurance</masterLabel>
+            <translation><!-- 10. Crop Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13. Golden Parachute</masterLabel>
+            <translation><!-- 13. Golden Parachute --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14. Attorney Proceeds</masterLabel>
+            <translation><!-- 14. Attorney Proceeds --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15a. Section 409A Deferrals</masterLabel>
+            <translation><!-- 15a. Section 409A Deferrals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15b. Section 409A Income</masterLabel>
+            <translation><!-- 15b. Section 409A Income --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16. State Tax Withheld</masterLabel>
+            <translation><!-- 16. State Tax Withheld --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2. Royalties</masterLabel>
+            <translation><!-- 2. Royalties --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3. Other Income</masterLabel>
+            <translation><!-- 3. Other Income --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4. Federal Tax Withheld</masterLabel>
+            <translation><!-- 4. Federal Tax Withheld --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5. Fishing Boat Proceeds</masterLabel>
+            <translation><!-- 5. Fishing Boat Proceeds --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6. Medical Payments</masterLabel>
+            <translation><!-- 6. Medical Payments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7. Nonemployee Compensation</masterLabel>
+            <translation><!-- 7. Nonemployee Compensation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8. Substitute Payments</masterLabel>
+            <translation><!-- 8. Substitute Payments --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Default Expense GL Account used for this Vendor when creating Payable records. --></help>
+        <label><!-- Default Expense GL Account --></label>
+        <name>AcctSeed__Default_Expense_GL_Account__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The default 1099 Form and 1099 Box category to associate with this payee’s cash disbursement payments. Each year review your defaults, and check for any new 1099 Form options to reflect changes by the IRS. Change by selecting Update 1099 Info button. --></help>
+        <label><!-- Default Form 1099 Box --></label>
+        <name>AcctSeed__Default_Form_1099_Box__c</name>
+    </fields>
+    <fields>
+        <help><!-- The DeveloperName to the default Form Category Id used for this account. This field should not be changed manually. --></help>
+        <label><!-- Default Form Category Id --></label>
+        <name>AcctSeed__Default_Form_Category_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used to calculate payment due date for a prompt payment discount on an Payable. --></help>
+        <label><!-- Payable Discount Days Due --></label>
+        <name>AcctSeed__Discount_Days_Due__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used to determine the discount off the Payable Total if payment is made within Payable Discount Days Due. --></help>
+        <label><!-- Payable Discount % --></label>
+        <name>AcctSeed__Discount_Percent__c</name>
+    </fields>
+    <fields>
+        <help><!-- To exempt an Account from Avalara tax calculation, this field&apos;s value should match the Entity Use code entered for this Account&apos;s exemption in Avalara. Use in conjunction with the Exemption Number field. --></help>
+        <label><!-- Entity Use Code --></label>
+        <name>AcctSeed__Entity_Use_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- To exempt an Account from Avalara tax calculation, this field&apos;s value should match the Exemption Number entered for this Account&apos;s exemption in Avalara. Use in conjunction with the Entity Use Code field. --></help>
+        <label><!-- Exemption Number --></label>
+        <name>AcctSeed__Exemption_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used to match the vendor account to a specific record in the Bank Direct Connect and Bank Import. --></help>
+        <label><!-- File Import Match Name --></label>
+        <name>AcctSeed__File_Import_Match_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- General Ledger segment used for reporting of a business unit such as division or department. --></help>
+        <label><!-- GL Variable 1 --></label>
+        <name>AcctSeed__GL_Account_Variable_1__c</name>
+        <relationshipLabel><!-- Accounts (GL Variable 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- General Ledger segment used for reporting of a business unit such as division or department. --></help>
+        <label><!-- GL Variable 2 --></label>
+        <name>AcctSeed__GL_Account_Variable_2__c</name>
+        <relationshipLabel><!-- Accounts (GL Variable 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- General Ledger segment used for reporting of a business unit such as division or department. --></help>
+        <label><!-- GL Variable 3 --></label>
+        <name>AcctSeed__GL_Account_Variable_3__c</name>
+        <relationshipLabel><!-- Accounts (GL Variable 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- General Ledger segment used for reporting of a business unit such as division or department. --></help>
+        <label><!-- GL Variable 4 --></label>
+        <name>AcctSeed__GL_Account_Variable_4__c</name>
+        <relationshipLabel><!-- Accounts (GL Variable 4) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Indicates when a statement was emailed either from the Account detail&apos;s Create Statement button or Account List View&apos;s Create Outstanding Statements button. --></help>
+        <label><!-- Last Statement Sent --></label>
+        <name>AcctSeed__Last_Statement_Sent__c</name>
+    </fields>
+    <fields>
+        <help><!-- Overrides the default Outstanding Statement defined in Accounting Settings for this specific Customer. --></help>
+        <label><!-- Outstanding Statement Format --></label>
+        <name>AcctSeed__Outstanding_Statement_Format__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Default for main shipping contact in Accounting Seed Billing, Sales Orders and Purchase Orders --></help>
+        <label><!-- Shipping Contact --></label>
+        <name>AcctSeed__Shipping_Contact__c</name>
+        <relationshipLabel><!-- Accounts (Shipping Contact) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- A value of &apos;Yes&apos; indicates that Billings have a balance due. This is set to &apos;No&apos; when statements have been emailed or when there are no Billings with a balance due. --></help>
+        <label><!-- Statement Needed --></label>
+        <name>AcctSeed__Statement_Needed__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- External identification tag of this customer record in Stripe. --></help>
+        <label><!-- Stripe Customer Id --></label>
+        <name>AcctSeed__Stripe_Customer_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Informational field used on 1099 reports and file export. --></help>
+        <label><!-- Taxpayer Identification Number --></label>
+        <name>AcctSeed__Taxpayer_Identification_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Informational field used for VAT customers when Avalara Tax calculation is enabled. The value entered here populates the Customer VAT Number field on the Avalara transaction. --></help>
+        <label><!-- VAT Business Identification Number --></label>
+        <name>AcctSeed__VAT_Business_Identification_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Includes disbursements made to this vendor on 1099 reports and file export. --></help>
+        <label><!-- 1099 Vendor --></label>
+        <name>AcctSeed__X1099_Vendor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ar Specialist --></label>
+        <name>Ar_Specialist__c</name>
+        <relationshipLabel><!-- Accounts (Ar Specialist) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Average Margin % --></label>
+        <name>Average_Margin__c</name>
+    </fields>
+    <fields>
+        <help><!-- Chose whether payment requests should go to a user via email or text message --></help>
+        <label><!-- AV Payment Request Method --></label>
+        <name>BillNPay__LP_Payment_Request_Method__c</name>
+    </fields>
+    <fields>
+        <help><!-- Removes mobile phone number formatting from the standard SF Phone field to support search queries.  It is not necessary to display on page layout --></help>
+        <label><!-- AV Mobile --></label>
+        <name>BillNPay__Phone__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates when Account has been registered as a Bill &amp; Pay user or has been Suspended.
+To mass activate Accounts, set multiple accounts to Batch Processing, then run batch job (see Admin Guide) --></help>
+        <label><!-- AV Status --></label>
+        <name>BillNPay__Status__c</name>
+        <picklistValues>
+            <masterLabel>Activated From Payments</masterLabel>
+            <translation><!-- Activated From Payments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch Processing</masterLabel>
+            <translation><!-- Batch Processing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suspend</masterLabel>
+            <translation><!-- Suspend --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- User has opted out of out of all Bill &amp; Pay text messages. --></help>
+        <label><!-- AV Text Message Opt Out --></label>
+        <name>BillNPay__T2P_Message_Opt_Out__c</name>
+    </fields>
+    <fields>
+        <help><!-- When using account as the Bill &amp; Pay User (paying consumer), this field may be used for email.  A custom field may also be used by entering the field API name in Payment Request Variables --></help>
+        <label><!-- AV Email --></label>
+        <name>BillNPay__T2P_email__c</name>
+    </fields>
+    <fields>
+        <help><!-- Use this field for special text messages to the contact.  Used in conjunction with the Text Trigger field --></help>
+        <label><!-- Text Message Body --></label>
+        <name>BillNPay__Text_Message_Body__c</name>
+    </fields>
+    <fields>
+        <help><!-- When changed, the content in the Text Body field are sent to the customer --></help>
+        <label><!-- Text Trigger --></label>
+        <name>BillNPay__Text_Trigger__c</name>
+    </fields>
+    <fields>
+        <help><!-- Unique identifier returned from Bill &amp; Pay Server --></help>
+        <label><!-- AV User ID --></label>
+        <name>BillNPay__authViaAccountId__c</name>
+    </fields>
+    <fields>
+        <help><!-- If Bill &amp; Pay is configured to require a verification code be send to a user&apos;s mobile, whereupon they enter that code into a web page, enter a 6 digit code here.    This works with the parameter verify-phone = TRUE --></help>
+        <label><!-- AV Authorization Code --></label>
+        <name>BillNPay__auth_code__c</name>
+    </fields>
+    <fields>
+        <help><!-- When Account is activated for Bill &amp; Pay, Should the user be sent a Opt In Text Message (see Admin Guide) --></help>
+        <label><!-- AV Send Opt In Text --></label>
+        <name>BillNPay__send_optin_text__c</name>
+    </fields>
+    <fields>
+        <help><!-- When Account is activated for Bill &amp; Pay, Should the user be sent a Welcome Email? (see Admin Guide) --></help>
+        <label><!-- AV Send Welcome Email --></label>
+        <name>BillNPay__send_welcome_email__c</name>
+    </fields>
+    <fields>
+        <help><!-- When Account is activated for Bill &amp; Pay, Should the user be sent a Welcome Text Message (see Admin Guide) --></help>
+        <label><!-- AV Send Welcome Text --></label>
+        <name>BillNPay__send_welcome_text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Quotes Lines Received Weightage --></label>
+        <name>Customer_Quotes_Lines_Received_Weightage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Quotes Lines Received --></label>
+        <name>Customer_Quotes_Lines_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Score --></label>
+        <name>Customer_Score_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Success Specialist --></label>
+        <name>Customer_Success_Specialist__c</name>
+        <relationshipLabel><!-- Accounts (Customer Success Specialist) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Delinquency Score (Raw) --></label>
+        <name>DNBI__CommercialCreditScore__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Delinquency Class --></label>
+        <name>DNBI__Commercial_Credit_Score_Class__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Delinquency Score --></label>
+        <name>DNBI__Commercial_Credit_Score_Percentiles__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Address --></label>
+        <name>DNBI__D_B_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Avg High Credit --></label>
+        <name>DNBI__D_B_Avg_High_Credit__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B City --></label>
+        <name>DNBI__D_B_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Country/Region --></label>
+        <name>DNBI__D_B_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B High Credit --></label>
+        <name>DNBI__D_B_High_Credit__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B State/Province --></label>
+        <name>DNBI__D_B_State_Province__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Zip/Postal Code --></label>
+        <name>DNBI__D_B_Zip_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Application Created Date --></label>
+        <name>DNBI__DnB_Application_Created_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Application ID --></label>
+        <name>DNBI__DnB_Application_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Application Modified Date --></label>
+        <name>DNBI__DnB_Application_Modified_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Company Name --></label>
+        <name>DNBI__DnB_Company_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recommended Credit Limit --></label>
+        <name>DNBI__DnB_Credit_Limit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Terms Status --></label>
+        <name>DNBI__DnB_Credit_Term_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B DUNS Number --></label>
+        <name>DNBI__DnB_DUNS_NO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Early Payment Discount --></label>
+        <name>DNBI__DnB_Early_Payment_Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Terms --></label>
+        <name>DNBI__DnB_Payment_Terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Requested Amount --></label>
+        <name>DNBI__DnB_Requested_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>DNBI__DnB_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Employees --></label>
+        <name>DNBI__Employees__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Failure Class --></label>
+        <name>DNBI__Financial_Stress_Score_Class__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Failure Score --></label>
+        <name>DNBI__Financial_Stress_Score_Percentile__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Failure Score (Raw) --></label>
+        <name>DNBI__Financial_Stress_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B PAYDEX --></label>
+        <name>DNBI__PAYDEX__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Primary NAICS --></label>
+        <name>DNBI__Primary_NAICS__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Primary SIC --></label>
+        <name>DNBI__Primary_SIC__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Rating --></label>
+        <name>DNBI__Rating__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Viability - Company Profile --></label>
+        <name>DNBI__Viability_Company_Profile__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Viability - Data Depth Indicator --></label>
+        <name>DNBI__Viability_Data_Depth_Indicator__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Viability - Portfolio Comparison --></label>
+        <name>DNBI__Viability_Portfolio_Comparison__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Viability Rating --></label>
+        <name>DNBI__Viability_Rating__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Viability - Viability Score --></label>
+        <name>DNBI__Viability_Viability_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Years in Business --></label>
+        <name>DNBI__Years_in_Business__c</name>
+    </fields>
+    <fields>
+        <label><!-- AOS DistID Cleared --></label>
+        <name>ECUSTOMS__AOS_DistID_Cleared__c</name>
+    </fields>
+    <fields>
+        <label><!-- AOS Error --></label>
+        <name>ECUSTOMS__AOS_Error__c</name>
+    </fields>
+    <fields>
+        <label><!-- AOS Results --></label>
+        <name>ECUSTOMS__AOS_Results__c</name>
+    </fields>
+    <fields>
+        <label><!-- AOS String --></label>
+        <name>ECUSTOMS__AOS_String__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address Resolution Date --></label>
+        <name>ECUSTOMS__Add_IM_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address Resolution Status --></label>
+        <name>ECUSTOMS__Add_IM_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address Risk Country Status --></label>
+        <name>ECUSTOMS__Address_Risk_Country_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address Screening Date --></label>
+        <name>ECUSTOMS__Address_Screening_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address Screening Status --></label>
+        <name>ECUSTOMS__Address_Screening_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Compliance History --></label>
+        <name>ECUSTOMS__Compliance_History__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distributed ID --></label>
+        <name>ECUSTOMS__Distributed_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Incident Manager Check Date --></help>
+        <label><!-- Resolution Date --></label>
+        <name>ECUSTOMS__IM_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Incident Manager Status --></help>
+        <label><!-- Resolution Status --></label>
+        <name>ECUSTOMS__IM_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- RPSString --></label>
+        <name>ECUSTOMS__RPSString__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date the Account was screened --></help>
+        <label><!-- Restricted Party Screening Date --></label>
+        <name>ECUSTOMS__RPS_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- RPS DistID Cleared --></label>
+        <name>ECUSTOMS__RPS_DistID_Cleared__c</name>
+    </fields>
+    <fields>
+        <label><!-- RPS Error --></label>
+        <name>ECUSTOMS__RPS_Error__c</name>
+    </fields>
+    <fields>
+        <label><!-- RPS Results --></label>
+        <name>ECUSTOMS__RPS_Results__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sanctioned or Embargoed Country Indicator --></help>
+        <label><!-- Risk Country Status --></label>
+        <name>ECUSTOMS__RPS_RiskCountry_Status__c</name>
+    </fields>
+    <fields>
+        <help><!-- Restricted Party Screening Status --></help>
+        <label><!-- Restricted Party Screening Status --></label>
+        <name>ECUSTOMS__RPS_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Screening Trigger --></label>
+        <name>ECUSTOMS__Screening_Trigger__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address Distributed IDs --></label>
+        <name>ECUSTOMS__add_DistributedID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extra Ship Methods --></label>
+        <name>Extra_Ship_Methods__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Processed --></label>
+        <name>Is_Processed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Legacy Preferred Ship Method --></label>
+        <name>Legacy_Preferred_Ship_Method__c</name>
+    </fields>
+    <fields>
+        <label><!-- Margin Weightage --></label>
+        <name>Margin_Weightage__c</name>
+    </fields>
+    <fields>
+        <label><!-- No Of Sales Order --></label>
+        <name>No_Of_Sales_Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Parts Ordered --></label>
+        <name>Number_of_Parts_Ordered__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Parts Requested --></label>
+        <name>Number_of_Parts_Requested__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Type --></label>
+        <name>QPMS__Account_Type__c</name>
+        <picklistValues>
+            <masterLabel>Customer</masterLabel>
+            <translation><!-- Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manufacturer</masterLabel>
+            <translation><!-- Manufacturer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manufacturer\Supplier</masterLabel>
+            <translation><!-- Manufacturer\Supplier --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>QPMS__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Adddress Line1 --></label>
+        <name>QPMS__Adddress_Line1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code --></label>
+        <name>QPMS__Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Owner Name --></label>
+        <name>QPMS__Contact_Owner_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Priority --></label>
+        <name>QPMS__CustomerPriority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Owner --></label>
+        <name>QPMS__New_Owner__c</name>
+        <relationshipLabel><!-- Accounts (New Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Number of Locations --></label>
+        <name>QPMS__NumberofLocations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner FullName --></label>
+        <name>QPMS__Owner_FullName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Contact Code --></label>
+        <name>QPMS__Primary_Contact_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Contact Name --></label>
+        <name>QPMS__Primary_Contact_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Expiration Date --></label>
+        <name>QPMS__SLAExpirationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Serial Number --></label>
+        <name>QPMS__SLASerialNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA --></label>
+        <name>QPMS__SLA__c</name>
+        <picklistValues>
+            <masterLabel>Bronze</masterLabel>
+            <translation><!-- Bronze --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation><!-- Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum</masterLabel>
+            <translation><!-- Platinum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation><!-- Silver --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Secondary Contact Code --></label>
+        <name>QPMS__Secondary_Contact_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Secondary Contact Name --></label>
+        <name>QPMS__Secondary_Contact_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier Number --></label>
+        <name>QPMS__Supplier_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier Profile --></label>
+        <name>QPMS__Supplier_Profile__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Suspect Enabled --></label>
+        <name>QPMS__Suspect_Enabled__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- UDF --></label>
+        <name>QPMS__UDF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Upsell Opportunity --></label>
+        <name>QPMS__UpsellOpportunity__c</name>
+        <picklistValues>
+            <masterLabel>Maybe</masterLabel>
+            <translation><!-- Maybe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Request --></label>
+        <name>Request__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sales Order Lines Received Weightage --></label>
+        <name>Sales_Order_Lines_Received_Weightage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Orders Lines Received --></label>
+        <name>Sales_Orders_Lines_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Specialist --></label>
+        <name>Sales_Specialist__c</name>
+        <relationshipLabel><!-- Accounts (Sales Specialist) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Total Sales Weightage --></label>
+        <name>Total_Sales_Weightage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Sales --></label>
+        <name>Total_Sales__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vendor Credit Limit --></label>
+        <name>Vendor_Credit_Limit__c</name>
+    </fields>
+    <fields>
+        <label><!-- YayPay Error Message --></label>
+        <name>YayPay_Error_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- YayPay Last Sync Date --></label>
+        <name>YayPay_Last_Sync_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disable Duplicate Check --></label>
+        <name>dupcheck__dc3DisableDuplicateCheck__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duplicate Check Index --></label>
+        <name>dupcheck__dc3Index__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account # --></label>
+        <name>inscor__Account_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Region --></label>
+        <name>inscor__Account_Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Terms --></label>
+        <name>inscor__Account_Terms__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Used for general categorization of the account. --></help>
+        <label><!-- Account Type --></label>
+        <name>inscor__Account_Type1__c</name>
+        <picklistValues>
+            <masterLabel>Airline</masterLabel>
+            <translation><!-- Airline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Broker</masterLabel>
+            <translation><!-- Broker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer</masterLabel>
+            <translation><!-- Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distributor</masterLabel>
+            <translation><!-- Distributor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee</masterLabel>
+            <translation><!-- Employee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>End-User</masterLabel>
+            <translation><!-- End-User --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mfg</masterLabel>
+            <translation><!-- Mfg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Parts Distributor</masterLabel>
+            <translation><!-- New Parts Distributor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OEM</masterLabel>
+            <translation><!-- OEM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other - Not Product Related</masterLabel>
+            <translation><!-- Other - Not Product Related --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMA Mfg</masterLabel>
+            <translation><!-- PMA Mfg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair Station</masterLabel>
+            <translation><!-- Repair Station --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Rep.</masterLabel>
+            <translation><!-- Sales Rep. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Surplus Supplier</masterLabel>
+            <translation><!-- Surplus Supplier --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Account Type - RETIRED --></label>
+        <name>inscor__Account_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- Required by most Financial Packages to determine whether a Customer and/or Vendor. --></help>
+        <label><!-- Accounting Type --></label>
+        <name>inscor__Accounting_Type__c</name>
+        <picklistValues>
+            <masterLabel>Customer</masterLabel>
+            <translation><!-- Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer and Vendor</masterLabel>
+            <translation><!-- Customer and Vendor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vendor</masterLabel>
+            <translation><!-- Vendor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>inscor__Active__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Auto Assign Account#? --></label>
+        <name>inscor__Auto_Assign_Account__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked, Invoices will be emailed to the Billing Contact selected above. --></help>
+        <label><!-- Auto Send Invoices? --></label>
+        <name>inscor__Auto_Send_Invoices__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Contact --></label>
+        <name>inscor__Billing_Contact__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Tax ID # --></help>
+        <label><!-- Business ID --></label>
+        <name>inscor__Business_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- CQ Approved - RETIRED --></label>
+        <name>inscor__CQ_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments - RETIRED --></label>
+        <name>inscor__Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Available --></label>
+        <name>inscor__Credit_Available__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Limit --></label>
+        <name>inscor__Credit_Limit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Priority --></label>
+        <name>inscor__CustomerPriority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Customer Class --></label>
+        <name>inscor__Customer_Class__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Customer Logo --></label>
+        <name>inscor__Customer_Logo__c</name>
+    </fields>
+    <fields>
+        <help><!-- To capture any customer requirements to be referenced by quality and shipping. --></help>
+        <label><!-- Customer Requirements --></label>
+        <name>inscor__Customer_Requirements__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used for categorizing the type of customer. --></help>
+        <label><!-- Customer Type --></label>
+        <name>inscor__Customer_Type1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Type - RETIRED --></label>
+        <name>inscor__Customer_Type__c</name>
+        <picklistValues>
+            <masterLabel>Airline</masterLabel>
+            <translation><!-- Airline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Broker</masterLabel>
+            <translation><!-- Broker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>End User</masterLabel>
+            <translation><!-- End User --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Default Incoterm requested by customer. --></help>
+        <label><!-- Default Incoterms --></label>
+        <name>inscor__Default_Incoterms__c</name>
+    </fields>
+    <fields>
+        <help><!-- The default port or destination for the incoterm selected. --></help>
+        <label><!-- Default Port/Dest --></label>
+        <name>inscor__Default_Port_Dest__c</name>
+    </fields>
+    <fields>
+        <help><!-- For recording if customer has supplied an acceptable End-Use Certificate. --></help>
+        <label><!-- End Use Certificate? --></label>
+        <name>inscor__End_Use_Certificate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Export Control --></label>
+        <name>inscor__Export_Control__c</name>
+        <picklistValues>
+            <masterLabel>Export Control</masterLabel>
+            <translation><!-- Export Control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is used to designate the email address that should be receiving notifications for credit issues --></help>
+        <label><!-- Finance Contact Email --></label>
+        <name>inscor__Finance_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hide from CQ --></label>
+        <name>inscor__Hide_from_CQ__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hide from Lease --></label>
+        <name>inscor__Hide_from_Lease__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hide from PO --></label>
+        <name>inscor__Hide_from_PO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hide from RFQ --></label>
+        <name>inscor__Hide_from_RFQ__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hide from RO --></label>
+        <name>inscor__Hide_from_RO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hide from SO --></label>
+        <name>inscor__Hide_from_SO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hide from WO --></label>
+        <name>inscor__Hide_from_WO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Major Region --></label>
+        <name>inscor__Major_Region__c</name>
+        <picklistValues>
+            <masterLabel>Africa</masterLabel>
+            <translation><!-- Africa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia</masterLabel>
+            <translation><!-- Asia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Europe</masterLabel>
+            <translation><!-- Europe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latin America and the Caribbean</masterLabel>
+            <translation><!-- Latin America and the Caribbean --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North America</masterLabel>
+            <translation><!-- North America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oceania</masterLabel>
+            <translation><!-- Oceania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Number of Locations --></label>
+        <name>inscor__NumberofLocations__c</name>
+    </fields>
+    <fields>
+        <label><!-- PO Approved - RETIRED --></label>
+        <name>inscor__PO_Approved__c</name>
+    </fields>
+    <fields>
+        <help><!-- To capture the preferred carrier for the customer. --></help>
+        <label><!-- Preferred Carrier --></label>
+        <name>inscor__Preferred_Carrier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preferred Ship Account # --></label>
+        <name>inscor__Preferred_Ship_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preferred Ship Method --></label>
+        <name>inscor__Preferred_Ship_Method__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- QTS Ratio --></label>
+        <name>inscor__QTS_Ratio__c</name>
+    </fields>
+    <fields>
+        <label><!-- RFQ Approved - RETIRED --></label>
+        <name>inscor__RFQ_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- RO Approved - RETIRED --></label>
+        <name>inscor__RO_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region - RETIRED --></label>
+        <name>inscor__Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remit To City --></label>
+        <name>inscor__Remit_To_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remit To Postal Code --></label>
+        <name>inscor__Remit_To_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remit To State --></label>
+        <name>inscor__Remit_To_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remit To Street --></label>
+        <name>inscor__Remit_To_Street__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remit to Country --></label>
+        <name>inscor__Remit_to_Country__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Resale Number --></label>
+        <name>inscor__Resale_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Risk Level --></label>
+        <name>inscor__Risk_Level__c</name>
+        <picklistValues>
+            <masterLabel>High Risk</masterLabel>
+            <translation><!-- High Risk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low Risk</masterLabel>
+            <translation><!-- Low Risk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moderate Risk</masterLabel>
+            <translation><!-- Moderate Risk --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SLA Expiration Date --></label>
+        <name>inscor__SLAExpirationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Serial Number --></label>
+        <name>inscor__SLASerialNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA --></label>
+        <name>inscor__SLA__c</name>
+        <picklistValues>
+            <masterLabel>Bronze</masterLabel>
+            <translation><!-- Bronze --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation><!-- Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum</masterLabel>
+            <translation><!-- Platinum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation><!-- Silver --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SO Approved - RETIRED --></label>
+        <name>inscor__SO_Approved__c</name>
+    </fields>
+    <fields>
+        <help><!-- Primary salesperson responsible for this Account. --></help>
+        <label><!-- Sales Agent --></label>
+        <name>inscor__Sales_Agent__c</name>
+        <relationshipLabel><!-- Accounts (Sales Agent) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Ship Terms --></label>
+        <name>inscor__Ship_Terms__c</name>
+    </fields>
+    <fields>
+        <help><!-- Account&apos;s default shipping instructions. --></help>
+        <label><!-- Shipping Instructions --></label>
+        <name>inscor__Shipping_Instructions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Terms --></label>
+        <name>inscor__Terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total A/R --></label>
+        <name>inscor__Total_A_R__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total value in open releases ready to ship. --></help>
+        <label><!-- Total Open Release Value --></label>
+        <name>inscor__Total_Open_Release_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Open Sales --></label>
+        <name>inscor__Total_Open_Sales__c</name>
+    </fields>
+    <fields>
+        <label><!-- Upsell Opportunity --></label>
+        <name>inscor__UpsellOpportunity__c</name>
+        <picklistValues>
+            <masterLabel>Maybe</masterLabel>
+            <translation><!-- Maybe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- For recording of the VAT Registration number. --></help>
+        <label><!-- VAT --></label>
+        <name>inscor__VAT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vendor Approval Expiration Date --></label>
+        <name>inscor__Vendor_Approval_Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vendor Terms --></label>
+        <name>inscor__Vendor_Terms__c</name>
+        <relationshipLabel><!-- Accounts (Vendor Terms) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- WO Approved - RETIRED --></label>
+        <name>inscor__WO_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1099 Tracking --></label>
+        <name>inscor__x1099_Tracking__c</name>
+    </fields>
+    <layouts>
+        <layout>Account (Accounting) Layout</layout>
+        <sections>
+            <label><!-- Accounting Information --></label>
+            <section>Accounting Information</section>
+        </sections>
+        <sections>
+            <label><!-- Billing Information --></label>
+            <section>Billing Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Payable Information --></label>
+            <section>Payable Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Account (Marketing) Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Account (Sales) Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Account (Support) Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Account - AvSight v3</layout>
+        <sections>
+            <label><!-- Accounting Seed --></label>
+            <section>Accounting Seed</section>
+        </sections>
+        <sections>
+            <label><!-- Accounting Settings --></label>
+            <section>Accounting Settings</section>
+        </sections>
+        <sections>
+            <label><!-- AvSight Billing Info --></label>
+            <section>AvSight Billing Info</section>
+        </sections>
+        <sections>
+            <label><!-- AvSight Payable Info --></label>
+            <section>AvSight Payable Info</section>
+        </sections>
+        <sections>
+            <label><!-- Avalara --></label>
+            <section>Avalara</section>
+        </sections>
+        <sections>
+            <label><!-- Credit Limit Info (USE ONLY) if Customer requested Terms - To apply --></label>
+            <section>Credit Limit Info (USE ONLY) if Customer requested Terms - To apply</section>
+        </sections>
+        <sections>
+            <label><!-- Operations Defaults --></label>
+            <section>Operations Defaults</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- Segmentation-Pricing --></label>
+            <section>Segmentation-Pricing</section>
+        </sections>
+        <sections>
+            <label><!-- YayPay --></label>
+            <section>YayPay</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Account AvSight - AS v1</layout>
+        <sections>
+            <label><!-- AS - Accounting Information --></label>
+            <section>AS - Accounting Information</section>
+        </sections>
+        <sections>
+            <label><!-- AvSight Additional Information --></label>
+            <section>AvSight Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- AvSight Billing Info --></label>
+            <section>AvSight Billing Info</section>
+        </sections>
+        <sections>
+            <label><!-- AvSight Payable Info --></label>
+            <section>AvSight Payable Info</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Operations Defaults --></label>
+            <section>Operations Defaults</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Account Layout</layout>
+        <sections>
+            <label><!-- AvSight Billing Info --></label>
+            <section>AvSight Billing Info</section>
+        </sections>
+        <sections>
+            <label><!-- AvSight Payable Info --></label>
+            <section>AvSight Payable Info</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Operations Defaults --></label>
+            <section>Operations Defaults</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BP Account Layout</layout>
+        <sections>
+            <label><!-- Authvia Fields --></label>
+            <section>Authvia Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Customer --></label>
+        <name>QPMS__Customer</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Manufacturer --></label>
+        <name>QPMS__Manufacturer</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Manufacturer\Supplier --></label>
+        <name>QPMS__Manufacturer_Supplier</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- The payable terms field must be a positive number. --></errorMessage>
+        <name>AcctSeed__Account_Payable_Terms_Positive_Value</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The discount days due field must be a positive number. --></errorMessage>
+        <name>AcctSeed__Discount_Days_Due_Positive_Value</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The discount % field must be a positive number. --></errorMessage>
+        <name>AcctSeed__Discount_Percent_Positive_Value</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Create_Outstanding_Statements --></label>
+        <name>AcctSeed__Create_Outstanding_Statements</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Payment --></label>
+        <name>AcctSeed__Create_Payment</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Statement --></label>
+        <name>AcctSeed__Create_Statement</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Manage_Payment_Methods --></label>
+        <name>AcctSeed__Manage_Payment_Methods</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Update_1099_Info --></label>
+        <name>AcctSeed__Update_1099_Info</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Update_1099_Info_Detail_Page --></label>
+        <name>AcctSeed__Update_1099_Info_Detail_Page</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Update_Statement_Status --></label>
+        <name>AcctSeed__Update_Statement_Status</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Validate_Address --></label>
+        <name>AcctSeed__Validate_Address</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- AltavistaNews --></label>
+        <name>AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- D_B_Application_Details --></label>
+        <name>DNBI__D_B_Application_Details</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- DnB_Decision --></label>
+        <name>DNBI__DnB_Decision</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HooversProfile --></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendEmailAccount --></label>
+        <name>MME__SendEmailAccount</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- dc3Check --></label>
+        <name>dupcheck__dc3Check</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- dc3Merge --></label>
+        <name>dupcheck__dc3Merge</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Billing --></label>
+        <name>inscor__Billing</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_to_Slack --></label>
+        <name>slackv2__Send_to_Slack</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Slack_Alerts --></label>
+        <name>slackv2__Slack_Alerts</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- AWB --></label>
+        <name>inscor__AWB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Doc Line # --></label>
+        <name>inscor__Doc_Line__c</name>
+    </fields>
+    <fields>
+        <label><!-- Docked By --></label>
+        <name>inscor__Docked_By__c</name>
+        <relationshipLabel><!-- Dockings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Docked Date --></label>
+        <name>inscor__Docked_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opened? --></label>
+        <name>inscor__Opened__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part Master --></label>
+        <name>inscor__Part_Master__c</name>
+        <relationshipLabel><!-- Dockings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Purchase Order Line --></label>
+        <name>inscor__Purchase_Order_Line__c</name>
+        <relationshipLabel><!-- Dockings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Purchase Order --></label>
+        <name>inscor__Purchase_Order__c</name>
+        <relationshipLabel><!-- Dockings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity Allocated --></label>
+        <name>inscor__Quantity_Allocated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Docked --></label>
+        <name>inscor__Quantity_Docked__c</name>
+    </fields>
+    <fields>
+        <label><!-- RMA Line --></label>
+        <name>inscor__RMA_Line__c</name>
+        <relationshipLabel><!-- Dockings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RMA --></label>
+        <name>inscor__RMA__c</name>
+        <relationshipLabel><!-- Dockings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Repair Order Line --></label>
+        <name>inscor__Repair_Order_Line__c</name>
+        <relationshipLabel><!-- Dockings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Repair Order --></label>
+        <name>inscor__Repair_Order__c</name>
+        <relationshipLabel><!-- Dockings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sales Order Line --></label>
+        <name>inscor__Sales_Order_Line__c</name>
+        <relationshipLabel><!-- Dockings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sales Order --></label>
+        <name>inscor__Sales_Order__c</name>
+        <relationshipLabel><!-- Dockings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Ship Method --></label>
+        <name>inscor__Ship_Method__c</name>
+        <relationshipLabel><!-- Dockings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Total Qty Allocated --></label>
+        <name>inscor__Total_Qty_Allocated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Qty Docked --></label>
+        <name>inscor__Total_Qty_Docked__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Order Line --></label>
+        <name>inscor__Work_Order_Line__c</name>
+        <relationshipLabel><!-- Dockings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Work Order --></label>
+        <name>inscor__Work_Order__c</name>
+        <relationshipLabel><!-- Dockings --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Asset Calibration RR Study Fields --></label>
+        <name>QPMS__Asset_Calibration_RR_Study_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Audit Trail --></label>
+        <name>QPMS__Audit_Trail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QueryFields --></label>
+        <name>QPMS__QueryFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- RR Study Fields List View --></label>
+        <name>QPMS__RR_Study_Fields_List_View</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- RR Study for Contextual --></label>
+        <name>QPMS__RR_Study_for_Contextual</name>
+    </fieldSets>
+    <fields>
+        <help><!-- Address --></help>
+        <label><!-- Address --></label>
+        <name>QPMS__Address__c</name>
+    </fields>
+    <fields>
+        <help><!-- Asset Profile Criteria --></help>
+        <label><!-- Asset Profile Criteria --></label>
+        <name>QPMS__Asset_Profile_Criteria__c</name>
+        <relationshipLabel><!-- R&amp;R  Study Profiles --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Asset Profile --></help>
+        <label><!-- Asset Profile --></label>
+        <name>QPMS__Asset_Profile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>QPMS__Contact__c</name>
+    </fields>
+    <fields>
+        <help><!-- Cost --></help>
+        <label><!-- Cost ($) --></label>
+        <name>QPMS__Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Criteria Name --></label>
+        <name>QPMS__Criteria_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Email --></help>
+        <label><!-- Email --></label>
+        <name>QPMS__Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Measurement from criteria --></help>
+        <label><!-- Measurement --></label>
+        <name>QPMS__Measurement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Performed By --></label>
+        <name>QPMS__Performed_By_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Performed By --></help>
+        <label><!-- Performed By --></label>
+        <name>QPMS__Performed_By__c</name>
+        <relationshipLabel><!-- R&amp;R  Study Profiles --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Performed Date --></help>
+        <label><!-- Performed Date --></label>
+        <name>QPMS__Performed_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Result --></help>
+        <label><!-- Result --></label>
+        <name>QPMS__Result__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Study Id --></label>
+        <name>QPMS__Study_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- Study Type --></help>
+        <label><!-- Study Type --></label>
+        <name>QPMS__Study_Type__c</name>
+        <picklistValues>
+            <masterLabel>Attribute Guage Study (Long Method),</masterLabel>
+            <translation><!-- Attribute Guage Study (Long Method), --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Attribute Guage Study (Short Method)</masterLabel>
+            <translation><!-- Attribute Guage Study (Short Method) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bias</masterLabel>
+            <translation><!-- Bias --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Linerarity</masterLabel>
+            <translation><!-- Linerarity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Variable Range Method</masterLabel>
+            <translation><!-- Variable Range Method --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Variable Range Method((Within Part Variation)</masterLabel>
+            <translation><!-- Variable Range Method((Within Part Variation) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Telephone --></help>
+        <label><!-- Telephone --></label>
+        <name>QPMS__Telephone__c</name>
+    </fields>
+    <fields>
+        <help><!-- Time To Complete --></help>
+        <label><!-- Time To Complete (In Hrs) --></label>
+        <name>QPMS__Time_To_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vendor Name --></label>
+        <name>QPMS__Vendor_Name__c</name>
+        <relationshipLabel><!-- R&amp;R  Study Profiles --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>R&amp;R  Study Profile Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Company --></label>
+        <name>inscor__Company__c</name>
+        <relationshipLabel><!-- Cycle Counts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Planned Start Date --></label>
+        <name>inscor__Planned_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Responsibility --></label>
+        <name>inscor__Responsibility__c</name>
+        <relationshipLabel><!-- Cycle Counts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>inscor__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Planning</masterLabel>
+            <translation><!-- In Planning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Reconciliation</masterLabel>
+            <translation><!-- In Reconciliation --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Cycle Count Layout</layout>
+        <sections>
+            <label><!-- Cycle Count Information --></label>
+            <section>Cycle Count Information</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label><!-- Add_Inventory --></label>
+        <name>inscor__Add_Inventory</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Enter_Counts --></label>
+        <name>inscor__Enter_Counts</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Change Management History --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Change Management History --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Change Management History --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Change Management History --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Change Management History --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Change Management History --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Change Management History --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Change Management History --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- History_Fields --></label>
+        <name>QPMS__History_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QueryFields --></label>
+        <name>QPMS__QueryFields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Action --></label>
+        <name>QPMS__Action__c</name>
+        <picklistValues>
+            <masterLabel>Created</masterLabel>
+            <translation><!-- Created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deleted</masterLabel>
+            <translation><!-- Deleted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Updated</masterLabel>
+            <translation><!-- Updated --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>QPMS__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- FieldApiName --></label>
+        <name>QPMS__FieldApiName__c</name>
+    </fields>
+    <fields>
+        <label><!-- FieldName --></label>
+        <name>QPMS__FieldName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last ModifiedBy --></label>
+        <name>QPMS__Last_ModifiedBy__c</name>
+    </fields>
+    <fields>
+        <label><!-- NewValue --></label>
+        <name>QPMS__NewValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Sub Parent --></label>
+        <name>QPMS__New_Sub_Parent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object --></label>
+        <name>QPMS__Object__c</name>
+    </fields>
+    <fields>
+        <label><!-- OldValue --></label>
+        <name>QPMS__OldValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent --></label>
+        <name>QPMS__Parent__c</name>
+        <relationshipLabel><!-- Change Management Histories --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sub Parent --></label>
+        <name>QPMS__Sub_Parent_Formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub Parent --></label>
+        <name>QPMS__Sub_Parent__c</name>
+        <picklistValues>
+            <masterLabel>Action  Plan</masterLabel>
+            <translation><!-- Action  Plan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdhocTask</masterLabel>
+            <translation><!-- AdhocTask --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdhocTask  Actions</masterLabel>
+            <translation><!-- AdhocTask  Actions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdhocTask - Task</masterLabel>
+            <translation><!-- AdhocTask - Task --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdhocTask Approval</masterLabel>
+            <translation><!-- AdhocTask Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdhocTask Change Due  Approval</masterLabel>
+            <translation><!-- AdhocTask Change Due  Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdhocTask Change Due Date</masterLabel>
+            <translation><!-- AdhocTask Change Due Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdhocTask Change Due Date Approval</masterLabel>
+            <translation><!-- AdhocTask Change Due Date Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdhocTask Change Owner</masterLabel>
+            <translation><!-- AdhocTask Change Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdhocTask Change Owner Approval</masterLabel>
+            <translation><!-- AdhocTask Change Owner Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdhocTask Reassign Approver</masterLabel>
+            <translation><!-- AdhocTask Reassign Approver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CR Adhoc</masterLabel>
+            <translation><!-- CR Adhoc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CR Approval</masterLabel>
+            <translation><!-- CR Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CR Change Owner</masterLabel>
+            <translation><!-- CR Change Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CR Change Owner Approval</masterLabel>
+            <translation><!-- CR Change Owner Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CR Init</masterLabel>
+            <translation><!-- CR Init --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CR Resolution</masterLabel>
+            <translation><!-- CR Resolution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CR Void</masterLabel>
+            <translation><!-- CR Void --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Management</masterLabel>
+            <translation><!-- Change Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Request</masterLabel>
+            <translation><!-- Change Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closure</masterLabel>
+            <translation><!-- Closure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closure Approval</masterLabel>
+            <translation><!-- Closure Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closure Change Due  Approval</masterLabel>
+            <translation><!-- Closure Change Due  Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closure Change Due Date</masterLabel>
+            <translation><!-- Closure Change Due Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closure Change Due Date Approval</masterLabel>
+            <translation><!-- Closure Change Due Date Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closure Change Owner</masterLabel>
+            <translation><!-- Closure Change Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closure Change Owner Approval</masterLabel>
+            <translation><!-- Closure Change Owner Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ClosureReassign Approver</masterLabel>
+            <translation><!-- ClosureReassign Approver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document Change</masterLabel>
+            <translation><!-- Document Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document Change Task</masterLabel>
+            <translation><!-- Document Change Task --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DocumentChange</masterLabel>
+            <translation><!-- DocumentChange --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DocumentChange Approval</masterLabel>
+            <translation><!-- DocumentChange Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DocumentChange Change Due  Approval</masterLabel>
+            <translation><!-- DocumentChange Change Due  Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DocumentChange Change Due Date</masterLabel>
+            <translation><!-- DocumentChange Change Due Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DocumentChange Change Due Date Approval</masterLabel>
+            <translation><!-- DocumentChange Change Due Date Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DocumentChange Change Owner</masterLabel>
+            <translation><!-- DocumentChange Change Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DocumentChange Change Owner Approval</masterLabel>
+            <translation><!-- DocumentChange Change Owner Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DocumentInfo</masterLabel>
+            <translation><!-- DocumentInfo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Functional  Task</masterLabel>
+            <translation><!-- Functional  Task --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Functional  Task Approval</masterLabel>
+            <translation><!-- Functional  Task Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Functional  Task Change Due  Approval</masterLabel>
+            <translation><!-- Functional  Task Change Due  Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Functional Task Change Due Date</masterLabel>
+            <translation><!-- Functional Task Change Due Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Functional Task Change Due Date Approval</masterLabel>
+            <translation><!-- Functional Task Change Due Date Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Functional Task Change Owner</masterLabel>
+            <translation><!-- Functional Task Change Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Functional Task Change Owner Approval</masterLabel>
+            <translation><!-- Functional Task Change Owner Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Post Change Approval</masterLabel>
+            <translation><!-- Post Change Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre Change Approval</masterLabel>
+            <translation><!-- Pre Change Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product  Change</masterLabel>
+            <translation><!-- Product  Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Change  Approval</masterLabel>
+            <translation><!-- Product Change  Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Change Change Due  Approval</masterLabel>
+            <translation><!-- Product Change Change Due  Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Change Change Due Date</masterLabel>
+            <translation><!-- Product Change Change Due Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Change Change Due Date Approval</masterLabel>
+            <translation><!-- Product Change Change Due Date Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Change Change Owner</masterLabel>
+            <translation><!-- Product Change Change Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Change Change Owner Approval</masterLabel>
+            <translation><!-- Product Change Change Owner Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Change Collaboration Review</masterLabel>
+            <translation><!-- Product Change Collaboration Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Change Collaboration Review Approval</masterLabel>
+            <translation><!-- Product Change Collaboration Review Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Change Collaboration Review Reassign Approver</masterLabel>
+            <translation><!-- Product Change Collaboration Review Reassign Approver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reference</masterLabel>
+            <translation><!-- Reference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolution</masterLabel>
+            <translation><!-- Resolution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolution Approval</masterLabel>
+            <translation><!-- Resolution Approval --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- isCreated --></label>
+        <name>QPMS__isCreated__c</name>
+    </fields>
+    <fields>
+        <label><!-- isDeleted --></label>
+        <name>QPMS__isDeleted__c</name>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <layouts>
+        <layout>Change Management History Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Change Name --></nameFieldLabel>
+</CustomObjectTranslation>

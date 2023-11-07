@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- US FDA Audit Trail --></label>
+        <name>QPMS__US_FDA_Audit_Trail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA QueryFields --></label>
+        <name>QPMS__US_FDA_QueryFields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- ComplaintId --></label>
+        <name>QPMS__ComplaintId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Device Component Code --></help>
+        <label><!-- Component Code --></label>
+        <name>QPMS__Component_Code__c</name>
+        <relationshipLabel><!-- Event Problem Codes (Component Code) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Device Code --></label>
+        <name>QPMS__Device_Code__c</name>
+        <relationshipLabel><!-- Event Problem Codes (Device Code) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Device Manufacturers Only --></label>
+        <name>QPMS__Device_Manufacturers_Only__c</name>
+        <relationshipLabel><!-- Event Problem Codes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Follow Up Number --></label>
+        <name>QPMS__Follow_Up_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- For use by User Facility/Importer --></label>
+        <name>QPMS__For_use_by_User_Facility_Importer__c</name>
+        <relationshipLabel><!-- Event Problem Codes --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Health Effect Impact Code --></help>
+        <label><!-- Impact Code --></label>
+        <name>QPMS__Impact_Code__c</name>
+        <relationshipLabel><!-- Event Problem Codes (Impact Code) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Patient Code --></label>
+        <name>QPMS__Patient_Code__c</name>
+        <relationshipLabel><!-- Event Problem Codes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Regulatory Body --></label>
+        <name>QPMS__Regulatory_Body__c</name>
+    </fields>
+</CustomObjectTranslation>

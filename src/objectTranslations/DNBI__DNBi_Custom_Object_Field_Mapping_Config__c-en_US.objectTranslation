@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Address --></label>
+        <name>DNBI__Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Application Created Date --></label>
+        <name>DNBI__Application_Created_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Application Modified Date --></label>
+        <name>DNBI__Application_Modified_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>DNBI__City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>DNBI__Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Decision History --></label>
+        <name>DNBI__Credit_Decision_History__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Decision Reasons and Variables --></label>
+        <name>DNBI__Credit_Decision_Reasons_and_Variables__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Requested Amount --></label>
+        <name>DNBI__Credit_Requested_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Term Status --></label>
+        <name>DNBI__Credit_Term_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Application ID --></label>
+        <name>DNBI__D_B_Application_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Avg High Credit --></label>
+        <name>DNBI__D_B_Avg_High_Credit__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Business Name --></label>
+        <name>DNBI__D_B_Business_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B City --></label>
+        <name>DNBI__D_B_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Commercial Credit Score Class --></label>
+        <name>DNBI__D_B_Commercial_Credit_Score_Class__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Commercial Credit Score Percentiles --></label>
+        <name>DNBI__D_B_Commercial_Credit_Score_Percentiles__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Commercial Credit Score --></label>
+        <name>DNBI__D_B_Commercial_Credit_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Company Name --></label>
+        <name>DNBI__D_B_Company_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Country --></label>
+        <name>DNBI__D_B_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B DUNS Number --></label>
+        <name>DNBI__D_B_DUNS_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Financial Stress Score Class --></label>
+        <name>DNBI__D_B_Financial_Stress_Score_Class__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Financial Stress Score Percentile --></label>
+        <name>DNBI__D_B_Financial_Stress_Score_Percentile__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Financial Stress Score --></label>
+        <name>DNBI__D_B_Financial_Stress_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B High Credit --></label>
+        <name>DNBI__D_B_High_Credit__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B PAYDEX --></label>
+        <name>DNBI__D_B_PAYDEX__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Postal Code --></label>
+        <name>DNBI__D_B_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Rating --></label>
+        <name>DNBI__D_B_Rating__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B State --></label>
+        <name>DNBI__D_B_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Street --></label>
+        <name>DNBI__D_B_Street__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Viability - Company Profile --></label>
+        <name>DNBI__D_B_Viability_Company_Profile__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Viability - Data Depth Indicator --></label>
+        <name>DNBI__D_B_Viability_Data_Depth_Indicator__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Viability - Portfolio Comparison --></label>
+        <name>DNBI__D_B_Viability_Portfolio_Comparison__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Viability Rating --></label>
+        <name>DNBI__D_B_Viability_Rating__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Viability - Viability Score --></label>
+        <name>DNBI__D_B_Viability_Viability_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Early Payment Discount --></label>
+        <name>DNBI__Early_Payment_Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employees - D&amp;B --></label>
+        <name>DNBI__Employees_D_B__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Terms --></label>
+        <name>DNBI__Payment_Terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary NAICS - D&amp;B --></label>
+        <name>DNBI__Primary_NAICS_D_B__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary SIC - D&amp;B --></label>
+        <name>DNBI__Primary_SIC_D_B__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recommended Credit Limit --></label>
+        <name>DNBI__Recommended_Credit_Limit__c</name>
+    </fields>
+    <fields>
+        <label><!-- State/Province --></label>
+        <name>DNBI__State_Province__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>DNBI__Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Years in Business - D&amp;B --></label>
+        <name>DNBI__Years_in_Business_D_B__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zip/Postal Code --></label>
+        <name>DNBI__Zip_Postal_Code__c</name>
+    </fields>
+</CustomObjectTranslation>

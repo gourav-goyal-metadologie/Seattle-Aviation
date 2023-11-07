@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- History_Fields --></label>
+        <name>QPMS__History_Fields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Action --></label>
+        <name>QPMS__ActionStatus__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Created</masterLabel>
+            <translation><!-- Created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deleted</masterLabel>
+            <translation><!-- Deleted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Updated</masterLabel>
+            <translation><!-- Updated --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Action --></label>
+        <name>QPMS__Action__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attendance --></label>
+        <name>QPMS__Attendance_del__c</name>
+        <picklistValues>
+            <masterLabel>Absent</masterLabel>
+            <translation><!-- Absent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Status</masterLabel>
+            <translation><!-- No Status --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Present</masterLabel>
+            <translation><!-- Present --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Course Sessions --></label>
+        <name>QPMS__Course_Sessions__c</name>
+        <relationshipLabel><!-- Training Historys --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Course --></label>
+        <name>QPMS__Course__c</name>
+        <relationshipLabel><!-- Training Historys --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>QPMS__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Profile --></label>
+        <name>QPMS__Document__c</name>
+        <relationshipLabel><!-- Training Historys --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- FieldApiName --></label>
+        <name>QPMS__FieldApiName__c</name>
+    </fields>
+    <fields>
+        <label><!-- FieldName --></label>
+        <name>QPMS__FieldName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Function --></label>
+        <name>QPMS__Job_Function__c</name>
+        <relationshipLabel><!-- Training Historys --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Last ModifiedBy --></label>
+        <name>QPMS__Last_ModifiedBy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Modified Date --></label>
+        <name>QPMS__Last_Modified__c</name>
+    </fields>
+    <fields>
+        <label><!-- NewValue --></label>
+        <name>QPMS__NewValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub Parent --></label>
+        <name>QPMS__New_Sub_Parent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object --></label>
+        <name>QPMS__Object__c</name>
+    </fields>
+    <fields>
+        <label><!-- OldValue --></label>
+        <name>QPMS__OldValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Participant Name --></label>
+        <name>QPMS__Participant_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Person Profile --></label>
+        <name>QPMS__Person_Profile__c</name>
+        <relationshipLabel><!-- Training Historys --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Preeequisite Courses --></label>
+        <name>QPMS__Prerequisite_Courses__c</name>
+        <relationshipLabel><!-- Training Historys (PreRequisite Courses) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sub Parent Old --></label>
+        <name>QPMS__Sub_Parent__c</name>
+        <picklistValues>
+            <masterLabel>Assessment</masterLabel>
+            <translation><!-- Assessment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Attendance</masterLabel>
+            <translation><!-- Attendance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cloned Job Function</masterLabel>
+            <translation><!-- Cloned Job Function --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Course</masterLabel>
+            <translation><!-- Course --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Course Applicable To</masterLabel>
+            <translation><!-- Course Applicable To --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Course Details</masterLabel>
+            <translation><!-- Course Details --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Course Init</masterLabel>
+            <translation><!-- Course Init --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CourseProfilejobFunction</masterLabel>
+            <translation><!-- CourseProfilejobFunction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document</masterLabel>
+            <translation><!-- Document --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Documents</masterLabel>
+            <translation><!-- Documents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Documents-DOC-002213-2019(1)</masterLabel>
+            <translation><!-- Documents-DOC-002213-2019(1) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Job Function</masterLabel>
+            <translation><!-- Job Function --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JobFunction Init</masterLabel>
+            <translation><!-- JobFunction Init --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Participants</masterLabel>
+            <translation><!-- Participants --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Person Profile Init</masterLabel>
+            <translation><!-- Person Profile Init --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PreRequisiteCourse</masterLabel>
+            <translation><!-- PreRequisiteCourse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reference</masterLabel>
+            <translation><!-- Reference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Session Details</masterLabel>
+            <translation><!-- Session Details --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Users</masterLabel>
+            <translation><!-- Users --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>QPMS__Type__c</name>
+        <picklistValues>
+            <masterLabel>PersonProfileCourseSession</masterLabel>
+            <translation><!-- PersonProfileCourseSession --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Action --></label>
+        <name>QPMS__isCreated__c</name>
+    </fields>
+    <layouts>
+        <layout>Training History Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

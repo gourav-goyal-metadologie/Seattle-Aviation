@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Look up to salesforce user --></help>
+        <label><!-- Employee --></label>
+        <name>AcctSeed__Employee__c</name>
+        <relationshipLabel><!-- Labor Cost Rates --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Used for hourly job costing or standard costing. Rates can include overhead or benefits burden if desired. Cost is not capped. Number of units times hourly cost will be what is recorded in the transaction. --></help>
+        <label><!-- Hourly Cost --></label>
+        <name>AcctSeed__Hourly_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overtime Hourly Cost --></label>
+        <name>AcctSeed__Overtime_Hourly_Cost__c</name>
+    </fields>
+    <fields>
+        <help><!-- Denotes a specific Project Task this cost rate is used for. --></help>
+        <label><!-- Project Task --></label>
+        <name>AcctSeed__Project_Task__c</name>
+        <relationshipLabel><!-- Labor Cost Rates --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Denotes a specific Project this cost rate is used for. --></help>
+        <label><!-- Project --></label>
+        <name>AcctSeed__Project__c</name>
+        <relationshipLabel><!-- Labor Cost Rates --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Used for actual job costing of salaried employees. Cost is capped and is derived by taking the weekly salaried amount divided by the number of hours an employee works. --></help>
+        <label><!-- Weekly Salary Cost --></label>
+        <name>AcctSeed__Weekly_Salary_Cost__c</name>
+    </fields>
+    <layouts>
+        <layout>Cost Rates Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- You can only enter an Hourly Cost or a Weekly Salary Cost but not both. --></errorMessage>
+        <name>AcctSeed__Not_Both_Hourly_Or_Weekly_Salary</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must enter either an Hourly Cost or a Weekly Salary Cost value. --></errorMessage>
+        <name>AcctSeed__Require_Hourly_Or_Weekly_Salary</name>
+    </validationRules>
+</CustomObjectTranslation>

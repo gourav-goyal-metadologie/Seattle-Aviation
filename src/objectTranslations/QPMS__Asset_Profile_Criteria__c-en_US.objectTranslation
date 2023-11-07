@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Asset Calibration Attribute ListView --></label>
+        <name>QPMS__Asset_Calibration_Attribute_ListView</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Asset Calibration Variable ListView --></label>
+        <name>QPMS__Asset_Calibration_Variable_ListView</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Asset Criteria List View --></label>
+        <name>QPMS__Asset_Criteria_List_View</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Asset Maintenance Attribute ListView --></label>
+        <name>QPMS__Asset_Maintenance_Attribute_ListView</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Asset Maintenance Variable ListView --></label>
+        <name>QPMS__Asset_Maintenance_Variable_ListView</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Audit Trail --></label>
+        <name>QPMS__Audit_Trail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QueryFields --></label>
+        <name>QPMS__QueryFields</name>
+    </fieldSets>
+    <fields>
+        <help><!-- Asset Profile --></help>
+        <label><!-- Asset Profile --></label>
+        <name>QPMS__Asset_Profile__c</name>
+        <relationshipLabel><!-- Asset Profile Criteria --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Criteria Name --></help>
+        <label><!-- Criteria Name --></label>
+        <name>QPMS__Criteria_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Criteria Type --></label>
+        <name>QPMS__Criteria_Type__c</name>
+        <picklistValues>
+            <masterLabel>Attribute</masterLabel>
+            <translation><!-- Attribute --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Variable</masterLabel>
+            <translation><!-- Variable --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Criteria --></help>
+        <label><!-- Criteria --></label>
+        <name>QPMS__Criteria__c</name>
+        <relationshipLabel><!-- Asset Profile Criteria --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Description --></help>
+        <label><!-- Description --></label>
+        <name>QPMS__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Measurement --></help>
+        <label><!-- Measurement --></label>
+        <name>QPMS__Measurement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Type --></label>
+        <name>QPMS__Record_Type__c</name>
+        <picklistValues>
+            <masterLabel>Calibration</masterLabel>
+            <translation><!-- Calibration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maintenance</masterLabel>
+            <translation><!-- Maintenance --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Tolerance_Minus --></help>
+        <label><!-- Tolerance (-) --></label>
+        <name>QPMS__Tolerance_Minus__c</name>
+    </fields>
+    <fields>
+        <help><!-- Tolerance_Plus --></help>
+        <label><!-- Tolerance(+) --></label>
+        <name>QPMS__Tolerance_Plus__c</name>
+    </fields>
+    <fields>
+        <help><!-- Criteria Record Type --></help>
+        <label><!-- Type --></label>
+        <name>QPMS__Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- Unit Of Measurement --></help>
+        <label><!-- UOM --></label>
+        <name>QPMS__UOM__c</name>
+        <picklistValues>
+            <masterLabel>cm</masterLabel>
+            <translation><!-- cm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>g</masterLabel>
+            <translation><!-- g --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>inch</masterLabel>
+            <translation><!-- inch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>kg</masterLabel>
+            <translation><!-- kg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>lbs</masterLabel>
+            <translation><!-- lbs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>m</masterLabel>
+            <translation><!-- m --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>mm</masterLabel>
+            <translation><!-- mm --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Asset Profile Criteria Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

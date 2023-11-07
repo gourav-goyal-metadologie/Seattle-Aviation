@@ -1,0 +1,8 @@
+Please find attached {!Opportunity.Customer_Quote__c}. <br>
+<br>
+Please feel free to contact me if you have any questions at all. <br>
+<br>
+Regards,<br>
+{!Opportunity.OwnerFullName}<br>
+ <br>
+{!Opportunity.OwnerEmail}

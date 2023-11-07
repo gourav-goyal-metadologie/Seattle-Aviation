@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Budgeted Expense for a Project Task. Amount should be a positive value. --></help>
+        <label><!-- Budgeted Expense --></label>
+        <name>AcctSeed__Budgeted_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Budget for Labor Hours. --></help>
+        <label><!-- Budgeted Hours --></label>
+        <name>AcctSeed__Budgeted_Hours__c</name>
+    </fields>
+    <fields>
+        <help><!-- Budgeted Revenue for a Project Task. Amount should be a positive value. --></help>
+        <label><!-- Budgeted Revenue --></label>
+        <name>AcctSeed__Budgeted_Revenue__c</name>
+    </fields>
+    <fields>
+        <help><!-- Informational denote main contact at client’s organization for this project task. --></help>
+        <label><!-- Client Contact --></label>
+        <name>AcctSeed__Client_Contact__c</name>
+        <relationshipLabel><!-- Project Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Check this field to enable the selection of this project task from the expense report and time card entry screen. --></help>
+        <label><!-- Display in Expense Report / Time Card --></label>
+        <name>AcctSeed__Display_in_Time_Card__c</name>
+    </fields>
+    <fields>
+        <help><!-- The number in days between the Start Date and End Date of a Project Task. --></help>
+        <label><!-- Duration --></label>
+        <name>AcctSeed__Duration__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date a project task ends on. --></help>
+        <label><!-- End Date --></label>
+        <name>AcctSeed__End_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- General Ledger segment used for reporting of a business unit such as division or department. --></help>
+        <label><!-- GL Variable 1 --></label>
+        <lookupFilter>
+            <errorMessage><!-- The Accounting Variable must have a Type of &quot;GL Account Variable 1&quot; and must have a status of Active. One or more of these conditions have not been met. --></errorMessage>
+        </lookupFilter>
+        <name>AcctSeed__GL_Account_Variable_1__c</name>
+        <relationshipLabel><!-- Project Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- General Ledger segment used for reporting of a business unit such as division or department. --></help>
+        <label><!-- GL Variable 2 --></label>
+        <lookupFilter>
+            <errorMessage><!-- The Accounting Variable must have a Type of &quot;GL Account Variable 2&quot; and must have a status of Active. One or more of these conditions have not been met. --></errorMessage>
+        </lookupFilter>
+        <name>AcctSeed__GL_Account_Variable_2__c</name>
+        <relationshipLabel><!-- Project Tasks (GL Account Variable 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- General Ledger segment used for reporting of a business unit such as division or department. --></help>
+        <label><!-- GL Variable 3 --></label>
+        <lookupFilter>
+            <errorMessage><!-- The Accounting Variable must have a Type of &quot;GL Account Variable 3&quot; and must have a status of Active. One or more of these conditions have not been met. --></errorMessage>
+        </lookupFilter>
+        <name>AcctSeed__GL_Account_Variable_3__c</name>
+        <relationshipLabel><!-- Project Tasks (GL Account Variable 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- General Ledger segment used for reporting of a business unit such as division or department. --></help>
+        <label><!-- GL Variable 4 --></label>
+        <name>AcctSeed__GL_Account_Variable_4__c</name>
+        <relationshipLabel><!-- Project Tasks (GL Account Variable 4) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Upon posting a Time Card. A debit entry will be made to this GL Account and a corresponding credit entry will be made to the Labor GL Account set in the Accounting Settings Tab for each Time Card Day. --></help>
+        <label><!-- Expense GL Account --></label>
+        <name>AcctSeed__Labor_GL_Account__c</name>
+        <relationshipLabel><!-- Project Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Project ID --></label>
+        <name>AcctSeed__Project_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Related Parent project --></help>
+        <label><!-- Project --></label>
+        <name>AcctSeed__Project__c</name>
+        <relationshipLabel><!-- Project Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Internally responsible employee used as an informational field --></help>
+        <label><!-- Responsibility --></label>
+        <name>AcctSeed__Responsibility__c</name>
+        <relationshipLabel><!-- Project Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Use this field to control the order by which project tasks appear in lists and reports. --></help>
+        <label><!-- Sort Order --></label>
+        <name>AcctSeed__Sort_Order__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date this Project Task is set to start on. --></help>
+        <label><!-- Start Date --></label>
+        <name>AcctSeed__Start_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used in filtered lookups to eliminate inactive and completed projects from selection. --></help>
+        <label><!-- Status --></label>
+        <name>AcctSeed__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Task Report Name --></label>
+        <name>AcctSeed__Task_Report_Name__c</name>
+    </fields>
+    <layouts>
+        <layout>Project Task Layout</layout>
+        <sections>
+            <label><!-- Accounting Information --></label>
+            <section>Accounting Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- A project task must contain a value for the labor gl account field. --></errorMessage>
+        <name>AcctSeed__Value_for_Labor_GL_Account</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A project task must contain a value for the project field. --></errorMessage>
+        <name>AcctSeed__Value_for_Project</name>
+    </validationRules>
+</CustomObjectTranslation>

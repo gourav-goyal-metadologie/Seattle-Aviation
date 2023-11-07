@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account --></label>
+        <name>AttentionMM__Account__c</name>
+        <relationshipLabel><!-- Meeting Minutes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Attendees --></label>
+        <name>AttentionMM__Attendees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>AttentionMM__Contact__c</name>
+        <relationshipLabel><!-- Meeting Minutes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date --></label>
+        <name>AttentionMM__Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Details --></label>
+        <name>AttentionMM__Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event ID --></label>
+        <name>AttentionMM__Event_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Comments --></label>
+        <name>AttentionMM__Internal_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead --></label>
+        <name>AttentionMM__Lead__c</name>
+        <relationshipLabel><!-- Meeting Minutes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Location Area --></label>
+        <name>AttentionMM__Location_Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>AttentionMM__Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>AttentionMM__Opportunity__c</name>
+        <relationshipLabel><!-- Meeting Minutes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Subject --></label>
+        <name>AttentionMM__Subject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Version --></label>
+        <name>AttentionMM__Version__c</name>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Final</masterLabel>
+            <translation><!-- Final --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Meeting Minutes Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Internal Comments --></label>
+            <section>Internal Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Meeting Minutes --></label>
+            <section>Meeting Minutes</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label><!-- Send_PDF --></label>
+        <name>AttentionMM__Send_PDF</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Word_Document --></label>
+        <name>AttentionMM__Send_Word_Document</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- View_PDF --></label>
+        <name>AttentionMM__View_PDF</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- View_Word_Document --></label>
+        <name>AttentionMM__View_Word_Document</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,1043 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Legacy Condition Code --></label>
+        <name>Legacy_Condition_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Accrued Repair Cost --></label>
+        <name>inscor__Accrued_Repair_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Acquisition Cost --></label>
+        <name>inscor__Acquisition_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Acquisition Date --></label>
+        <name>inscor__Acquisition_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Batch/LOT# --></label>
+        <name>inscor__Batch_LOT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Box Size --></label>
+        <name>inscor__Box_Size__c</name>
+        <picklistValues>
+            <masterLabel>12x2</masterLabel>
+            <translation><!-- 12x2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12x6</masterLabel>
+            <translation><!-- 12x6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4x4</masterLabel>
+            <translation><!-- 4x4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Business Category --></label>
+        <name>inscor__Business_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSN --></label>
+        <name>inscor__CSN__c</name>
+    </fields>
+    <fields>
+        <help><!-- Cycles since last overhaul. --></help>
+        <label><!-- CSO --></label>
+        <name>inscor__CSO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>inscor__Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company --></label>
+        <name>inscor__Company__c</name>
+        <relationshipLabel><!-- Inventory --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Condition Code --></label>
+        <name>inscor__Condition_Code__c</name>
+        <relationshipLabel><!-- Inventory --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Conversion Barcode ID 1 --></label>
+        <name>inscor__Conversion_Barcode_ID_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conversion Barcode ID 2 --></label>
+        <name>inscor__Conversion_Barcode_ID_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conversion Tag Agency --></label>
+        <name>inscor__Conversion_Tag_Agency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country of Origin --></label>
+        <name>inscor__Country_of_Origin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cycle Limit --></label>
+        <name>inscor__Cycle_Limit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cycles Remaining --></label>
+        <name>inscor__Cycles_Remaining__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is automatically populated based on the SN duplication definition as implemented in the Process Builder: &quot;Process Builder-Inventory-Duplicate Field Fill&quot;. Duplicate prevention is normally defined as a concatenation of PN+SN+Mfr Code when qty&gt;0. --></help>
+        <label><!-- Duplicate SN --></label>
+        <name>inscor__Duplicate_SN__c</name>
+    </fields>
+    <fields>
+        <label><!-- MSN/ESN --></label>
+        <name>inscor__ESN_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expiration Date --></label>
+        <name>inscor__Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extended Acquisition Cost --></label>
+        <name>inscor__Extended_Acquisition_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extended Cost --></label>
+        <name>inscor__Extended_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extended Repair Cost --></label>
+        <name>inscor__Extended_Repair_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grouping Enabled? --></label>
+        <name>inscor__Grouping_Enabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inspected By --></label>
+        <name>inscor__Inspected_By__c</name>
+        <relationshipLabel><!-- Inventory --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Inspected Date --></label>
+        <name>inscor__Inspected_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inspection Notes --></label>
+        <name>inscor__Inspection_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inventory Clasification --></label>
+        <name>inscor__Inventory_Clasification__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Inventory Grouping --></label>
+        <name>inscor__Inventory_Grouping__c</name>
+        <relationshipLabel><!-- Inventory --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- KIT Lot # --></label>
+        <name>inscor__KIT_Lot__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword --></label>
+        <name>inscor__Keyword__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kit Version --></label>
+        <name>inscor__Kit_Revision__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Calibration Date --></label>
+        <name>inscor__Last_Calibration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Inspection Date --></label>
+        <name>inscor__Last_Inspection_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Stock Check Date --></label>
+        <name>inscor__Last_Stock_Check_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>inscor__Location__c</name>
+        <relationshipLabel><!-- Inventory --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- MFG Name --></label>
+        <name>inscor__MFG_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- MFR Code --></label>
+        <name>inscor__MFR_Code__c</name>
+        <relationshipLabel><!-- Inventory --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- MFR Name --></label>
+        <name>inscor__MFR_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manifest --></label>
+        <name>inscor__Manifest__c</name>
+        <relationshipLabel><!-- Inventory --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Manufacture Date --></label>
+        <name>inscor__Manufacture_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Calibration Date --></label>
+        <name>inscor__Next_Calibration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Inspection Date --></label>
+        <name>inscor__Next_Inspection_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- OEM Packaging --></label>
+        <name>inscor__OEM_Packaging__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Inventory Line --></label>
+        <name>inscor__Original_Inventory_Line__c</name>
+        <relationshipLabel><!-- Inventory (Original Inventory Line) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Owned by Account --></label>
+        <name>inscor__Owned_by_Account__c</name>
+        <relationshipLabel><!-- Inventory (Owned by Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Owner Code --></label>
+        <name>inscor__Owner_Code__c</name>
+        <relationshipLabel><!-- Inventory --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Parent Inventory --></label>
+        <name>inscor__Parent_Inventory__c</name>
+        <relationshipLabel><!-- Inventory --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Price Date --></label>
+        <name>inscor__Price_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price --></label>
+        <name>inscor__Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part Number --></label>
+        <name>inscor__Product__c</name>
+        <relationshipLabel><!-- Inventory --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Protected Reason --></label>
+        <name>inscor__Protected_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Customer Property</masterLabel>
+            <translation><!-- Customer Property --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer RMA</masterLabel>
+            <translation><!-- Customer RMA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exchange Core</masterLabel>
+            <translation><!-- Exchange Core --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incident Related</masterLabel>
+            <translation><!-- Incident Related --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LOT Main</masterLabel>
+            <translation><!-- LOT Main --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Managed Repair</masterLabel>
+            <translation><!-- Managed Repair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tool</masterLabel>
+            <translation><!-- Tool --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WO Part</masterLabel>
+            <translation><!-- WO Part --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Protected --></label>
+        <name>inscor__Protected__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purchase Order --></label>
+        <name>inscor__Purchase_Order__c</name>
+        <relationshipLabel><!-- Inventory --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity Allocated --></label>
+        <name>inscor__Quantity_Allocated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Assigned --></label>
+        <name>inscor__Quantity_Assigned__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Available --></label>
+        <name>inscor__Quantity_Available__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Rejected --></label>
+        <name>inscor__Quantity_Rejected__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>inscor__Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity on Exchange --></label>
+        <name>inscor__Quantity_on_Exchange__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity on Lease --></label>
+        <name>inscor__Quantity_on_Lease__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity on RO Issued --></label>
+        <name>inscor__Quantity_on_RO_Issued__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity on Repair --></label>
+        <name>inscor__Quantity_on_Repair__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity on WO --></label>
+        <name>inscor__Quantity_on_WO__c</name>
+    </fields>
+    <fields>
+        <label><!-- RMA --></label>
+        <name>inscor__RMA__c</name>
+        <relationshipLabel><!-- Inventory --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reference ID --></label>
+        <name>inscor__Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rejection Reason --></label>
+        <name>inscor__Rejection_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Order-Mismatched Qty</masterLabel>
+            <translation><!-- Order-Mismatched Qty --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order-Packaging</masterLabel>
+            <translation><!-- Order-Packaging --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quality-Mismatched Cond.</masterLabel>
+            <translation><!-- Quality-Mismatched Cond. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quality-Mismatched PN</masterLabel>
+            <translation><!-- Quality-Mismatched PN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quality-Mismatched Ppwk</masterLabel>
+            <translation><!-- Quality-Mismatched Ppwk --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Repair Cost --></label>
+        <name>inscor__Repair_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Repair Order --></label>
+        <name>inscor__Repair_Order__c</name>
+        <relationshipLabel><!-- Inventory --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Repair Type --></label>
+        <name>inscor__Repair_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Serial Number --></label>
+        <name>inscor__Serial_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Serialized? --></label>
+        <name>inscor__Serialized__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source 2 --></label>
+        <name>inscor__Source_2__c</name>
+        <relationshipLabel><!-- Inventory (Source 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Specifies where the parts were obtained from and usually the vendor parts were purchased from. Used in Material Certifications for Obtained From information. --></help>
+        <label><!-- Source --></label>
+        <name>inscor__Source__c</name>
+        <relationshipLabel><!-- Inventory (Source) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sub Location --></label>
+        <name>inscor__Sub_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Suggested Location --></label>
+        <name>inscor__Suggested_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- TSN --></label>
+        <name>inscor__TSN__c</name>
+    </fields>
+    <fields>
+        <help><!-- Time since last overhaul. --></help>
+        <label><!-- TSO --></label>
+        <name>inscor__TSO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tag Agency 2 --></label>
+        <name>inscor__Tag_Agency_2__c</name>
+        <relationshipLabel><!-- Inventory (Tag Agency 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tag Agency --></label>
+        <name>inscor__Tag_Agency__c</name>
+        <relationshipLabel><!-- Inventory --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tag Date 2 --></label>
+        <name>inscor__Tag_Date_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tag Date --></label>
+        <name>inscor__Tag_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tag Reference --></label>
+        <name>inscor__Tag_Reference__c</name>
+    </fields>
+    <fields>
+        <help><!-- Part Certification or conformance document type, Certificate Tyoes. NOTE: used in SPEC2, CET field. --></help>
+        <label><!-- Tags --></label>
+        <name>inscor__Tags__c</name>
+        <picklistValues>
+            <masterLabel>--</masterLabel>
+            <translation><!-- - -  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>00001817</masterLabel>
+            <translation><!-- 00001817 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03/18 DUAL RELEASE</masterLabel>
+            <translation><!-- 03/18 DUAL RELEASE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11/12 MFG COC</masterLabel>
+            <translation><!-- 11/12 MFG COC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11/14 FAA 8130</masterLabel>
+            <translation><!-- 11/14 FAA 8130 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15521</masterLabel>
+            <translation><!-- 15521 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>163542</masterLabel>
+            <translation><!-- 163542 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2/18 DUAL RELEASE</masterLabel>
+            <translation><!-- 2/18 DUAL RELEASE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3/18 DUAL RELEASE</masterLabel>
+            <translation><!-- 3/18 DUAL RELEASE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3229896</masterLabel>
+            <translation><!-- 3229896 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3229898</masterLabel>
+            <translation><!-- 3229898 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4/18 DUAL RELEASE</masterLabel>
+            <translation><!-- 4/18 DUAL RELEASE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4/18 FAA 8130</masterLabel>
+            <translation><!-- 4/18 FAA 8130 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4/18 FAA 8130-3</masterLabel>
+            <translation><!-- 4/18 FAA 8130-3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5/16 FAA 8130-3</masterLabel>
+            <translation><!-- 5/16 FAA 8130-3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>810570874</masterLabel>
+            <translation><!-- 810570874 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>810570877</masterLabel>
+            <translation><!-- 810570877 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8130</masterLabel>
+            <translation><!-- 8130 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8130 + Full trace</masterLabel>
+            <translation><!-- 8130 + Full trace --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8130-3</masterLabel>
+            <translation><!-- 8130-3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AT106</masterLabel>
+            <translation><!-- AT106 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATA 106</masterLabel>
+            <translation><!-- ATA 106 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATA-106</masterLabel>
+            <translation><!-- ATA-106 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATA106</masterLabel>
+            <translation><!-- ATA106 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATA106 + Full trace</masterLabel>
+            <translation><!-- ATA106 + Full trace --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATA106 Only</masterLabel>
+            <translation><!-- ATA106 Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arjet</masterLabel>
+            <translation><!-- Arjet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BCAA</masterLabel>
+            <translation><!-- BCAA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C.O.C.</masterLabel>
+            <translation><!-- C.O.C. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAA Form 1</masterLabel>
+            <translation><!-- CAA Form 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAAC AAC-038</masterLabel>
+            <translation><!-- CAAC AAC-038 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CASA Form 1</masterLabel>
+            <translation><!-- CASA Form 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CERT</masterLabel>
+            <translation><!-- CERT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CERTS</masterLabel>
+            <translation><!-- CERTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COC,8130,TD REPORT</masterLabel>
+            <translation><!-- COC,8130,TD REPORT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calibration Cert</masterLabel>
+            <translation><!-- Calibration Cert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caplugs buffalo ny</masterLabel>
+            <translation><!-- Caplugs buffalo ny --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certificate of Conformance</masterLabel>
+            <translation><!-- Certificate of Conformance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certificate of Conformity</masterLabel>
+            <translation><!-- Certificate of Conformity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chem/physical test</masterLabel>
+            <translation><!-- Chem/physical test --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Documents</masterLabel>
+            <translation><!-- Customer Documents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DISTRIBUTOR COC</masterLabel>
+            <translation><!-- DISTRIBUTOR COC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DUAL RLS</masterLabel>
+            <translation><!-- DUAL RLS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Depot Mnt Work Reqmt</masterLabel>
+            <translation><!-- Depot Mnt Work Reqmt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dist COC</masterLabel>
+            <translation><!-- Dist COC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distributitor CoC</masterLabel>
+            <translation><!-- Distributitor CoC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distributor COC only</masterLabel>
+            <translation><!-- Distributor COC only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distributor Document</masterLabel>
+            <translation><!-- Distributor Document --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dual FAA 8130-3</masterLabel>
+            <translation><!-- Dual FAA 8130-3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dual Release</masterLabel>
+            <translation><!-- Dual Release --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dual Release + trace</masterLabel>
+            <translation><!-- Dual Release + trace --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dual Release only</masterLabel>
+            <translation><!-- Dual Release only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EASA + Full trace</masterLabel>
+            <translation><!-- EASA + Full trace --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EASA F1</masterLabel>
+            <translation><!-- EASA F1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EASA Form 1</masterLabel>
+            <translation><!-- EASA Form 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EASA Form 1 only</masterLabel>
+            <translation><!-- EASA Form 1 only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EASA Form1</masterLabel>
+            <translation><!-- EASA Form1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EASA From 1</masterLabel>
+            <translation><!-- EASA From 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EASA-1</masterLabel>
+            <translation><!-- EASA-1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EEASA FORM 1</masterLabel>
+            <translation><!-- EEASA FORM 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EUROCOPTER 8130</masterLabel>
+            <translation><!-- EUROCOPTER 8130 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Easa Form !</masterLabel>
+            <translation><!-- Easa Form ! --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F-100-01</masterLabel>
+            <translation><!-- F-100-01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FAA 1830-3</masterLabel>
+            <translation><!-- FAA 1830-3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FAA 60333</masterLabel>
+            <translation><!-- FAA 60333 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FAA 8130 Only</masterLabel>
+            <translation><!-- FAA 8130 Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FAA 8130, WO REPORT</masterLabel>
+            <translation><!-- FAA 8130, WO REPORT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FAA 8130-3</masterLabel>
+            <translation><!-- FAA 8130-3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FAA 8130nspection Re</masterLabel>
+            <translation><!-- FAA 8130nspection Re --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FAA Form 8130-3</masterLabel>
+            <translation><!-- FAA Form 8130-3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FAA8130</masterLabel>
+            <translation><!-- FAA8130 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Full trace + SDS</masterLabel>
+            <translation><!-- Full trace + SDS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Full trace + tests</masterLabel>
+            <translation><!-- Full trace + tests --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Full trace to mfg</masterLabel>
+            <translation><!-- Full trace to mfg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GACA 8130-3</masterLabel>
+            <translation><!-- GACA 8130-3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MATERIAL CERTS</masterLabel>
+            <translation><!-- MATERIAL CERTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MFG CERTS</masterLabel>
+            <translation><!-- MFG CERTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MFG COC</masterLabel>
+            <translation><!-- MFG COC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MFR CERTS</masterLabel>
+            <translation><!-- MFR CERTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MFR COC</masterLabel>
+            <translation><!-- MFR COC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MIA-2018/0842</masterLabel>
+            <translation><!-- MIA-2018/0842 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mfg/OEM COC</masterLabel>
+            <translation><!-- Mfg/OEM COC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mfg/OEM COC only</masterLabel>
+            <translation><!-- Mfg/OEM COC only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mfr CoC Required</masterLabel>
+            <translation><!-- Mfr CoC Required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None Supplied</masterLabel>
+            <translation><!-- None Supplied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Applicable</masterLabel>
+            <translation><!-- Not Applicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTI Technologies</masterLabel>
+            <translation><!-- PTI Technologies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Packing List 2948866</masterLabel>
+            <translation><!-- Packing List 2948866 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Packlist 03/2018</masterLabel>
+            <translation><!-- Packlist 03/2018 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Packlist 3229367</masterLabel>
+            <translation><!-- Packlist 3229367 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Packlist 384443</masterLabel>
+            <translation><!-- Packlist 384443 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Packlist 496/2017</masterLabel>
+            <translation><!-- Packlist 496/2017 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Part Tag</masterLabel>
+            <translation><!-- Part Tag --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Part Tag only</masterLabel>
+            <translation><!-- Part Tag only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REMOVAL TAG</masterLabel>
+            <translation><!-- REMOVAL TAG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REPAIR CERTS</masterLabel>
+            <translation><!-- REPAIR CERTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC00356098</masterLabel>
+            <translation><!-- SC00356098 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SUPPLIER DOCS</masterLabel>
+            <translation><!-- SUPPLIER DOCS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scrap Report</masterLabel>
+            <translation><!-- Scrap Report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplier Documeentat</masterLabel>
+            <translation><!-- Supplier Documeentat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplier Documents</masterLabel>
+            <translation><!-- Supplier Documents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TBA</masterLabel>
+            <translation><!-- TBA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TCAA-1</masterLabel>
+            <translation><!-- TCAA-1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TCCA</masterLabel>
+            <translation><!-- TCCA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TCCA + Full trace</masterLabel>
+            <translation><!-- TCCA + Full trace --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TCCA For 1</masterLabel>
+            <translation><!-- TCCA For 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TCCA Form</masterLabel>
+            <translation><!-- TCCA Form --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TCCA Form !</masterLabel>
+            <translation><!-- TCCA Form ! --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TCCA Form 1</masterLabel>
+            <translation><!-- TCCA Form 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TCCA Form 14261341-1</masterLabel>
+            <translation><!-- TCCA Form 14261341-1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TCCA Form1</masterLabel>
+            <translation><!-- TCCA Form1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TCCA form 1 only</masterLabel>
+            <translation><!-- TCCA form 1 only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TCCA-1</masterLabel>
+            <translation><!-- TCCA-1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TCCA-1426</masterLabel>
+            <translation><!-- TCCA-1426 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test Reports</masterLabel>
+            <translation><!-- Test Reports --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer Document</masterLabel>
+            <translation><!-- Transfer Document --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>tcaa</masterLabel>
+            <translation><!-- tcaa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>tcca form one</masterLabel>
+            <translation><!-- tcca form one --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Time Limit --></label>
+        <name>inscor__Time_Limit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Remaining --></label>
+        <name>inscor__Time_Remaining__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Cost --></label>
+        <name>inscor__Total_Cost__c</name>
+    </fields>
+    <fields>
+        <help><!-- Identifies the type for the Trace. Used in SPEC2K as SOR. --></help>
+        <label><!-- Trace Type --></label>
+        <name>inscor__Trace_Type__c</name>
+        <picklistValues>
+            <masterLabel>121</masterLabel>
+            <translation><!-- 121 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>129</masterLabel>
+            <translation><!-- 129 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OEM</masterLabel>
+            <translation><!-- OEM --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Specifies the company that the parts are officially traced to and synonymous with Last Operator unless traced to a 145. Used in SPEC2K as SRN field. --></help>
+        <label><!-- Trace --></label>
+        <name>inscor__Trace__c</name>
+        <relationshipLabel><!-- Inventory (Trace) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- UOM --></label>
+        <name>inscor__UOM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Warehouse --></label>
+        <name>inscor__Warehouse__c</name>
+        <relationshipLabel><!-- Inventory --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Work Order --></label>
+        <name>inscor__Work_Order__c</name>
+        <relationshipLabel><!-- Assembled Kits --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>AvSight Inventory Layout v1</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Inspection Information --></label>
+            <section>Inspection Information</section>
+        </sections>
+        <sections>
+            <label><!-- Inventory --></label>
+            <section>Inventory</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- Quantity --></label>
+            <section>Quantity</section>
+        </sections>
+        <sections>
+            <label><!-- Tag &amp; Trace --></label>
+            <section>Tag &amp; Trace</section>
+        </sections>
+        <sections>
+            <label><!-- Times &amp; Cycles --></label>
+            <section>Times &amp; Cycles</section>
+        </sections>
+        <sections>
+            <label><!-- Tool Information --></label>
+            <section>Tool Information</section>
+        </sections>
+        <sections>
+            <label><!-- Unit Cost --></label>
+            <section>Unit Cost</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Quantity Allocated cannot be Negative --></errorMessage>
+        <name>inscor__Can_not_be_Negative</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please Only Enter Whole Numbers. --></errorMessage>
+        <name>inscor__Check_round_of_Decimal</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot change from a non Lot/Cons Owner Code to a Lot/Cons Owner Code if there is an acquisition cost greater than $0 --></errorMessage>
+        <name>inscor__Lot_Owner_Code_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Quantity on hand cannot be less than quantity allocated. Please cancel the allocations before adjusting inventory quantity. --></errorMessage>
+        <name>inscor__Quantity_Allocation_Validation</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Create_RO --></label>
+        <name>inscor__Create_RO</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- US FDA Audit Trail --></label>
+        <name>QPMS__US_FDA_Audit_Trail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA InitialReporterContactDetails --></label>
+        <name>QPMS__US_FDA_InitialReporterContactDetails</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA Initial Reporter Personal Details --></label>
+        <name>QPMS__US_FDA_Initial_Reporter_Personal_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA QueryFields --></label>
+        <name>QPMS__US_FDA_QueryFields</name>
+    </fieldSets>
+    <fields>
+        <help><!-- Address-Line 1 --></help>
+        <label><!-- Address-Line 1 --></label>
+        <name>QPMS__Address_Line_1__c</name>
+    </fields>
+    <fields>
+        <help><!-- Address-Line 2 --></help>
+        <label><!-- Address-Line 2 --></label>
+        <name>QPMS__Address_Line_2__c</name>
+    </fields>
+    <fields>
+        <help><!-- City --></help>
+        <label><!-- City --></label>
+        <name>QPMS__City__c</name>
+    </fields>
+    <fields>
+        <label><!-- ComplaintId --></label>
+        <name>QPMS__ComplaintId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Email Address --></help>
+        <label><!-- Email Address --></label>
+        <name>QPMS__Email_Address__c</name>
+    </fields>
+    <fields>
+        <help><!-- Establishment Name --></help>
+        <label><!-- Establishment Name --></label>
+        <name>QPMS__Establishment_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- First/Given Name --></help>
+        <label><!-- First/Given Name --></label>
+        <name>QPMS__First_Given_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Follow Up Number --></label>
+        <name>QPMS__Follow_Up_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Health Professional? --></label>
+        <name>QPMS__Health_Professional__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>QPMS__Init_Country__c</name>
+        <picklistValues>
+            <masterLabel>America</masterLabel>
+            <translation><!-- America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Austria</masterLabel>
+            <translation><!-- Austria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation><!-- India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USA</masterLabel>
+            <translation><!-- USA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- State, Province, or Territory --></label>
+        <name>QPMS__Init_State_Province_or_Territory__c</name>
+        <picklistValues>
+            <masterLabel>FL</masterLabel>
+            <translation><!-- FL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Florida</masterLabel>
+            <translation><!-- Florida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Goa</masterLabel>
+            <translation><!-- Goa --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Initial Reporter Also Sent Report to FDA --></label>
+        <name>QPMS__Initial_Reporter_Also_Sent_Report_to_FDA__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Last Name --></help>
+        <label><!-- Last Name --></label>
+        <name>QPMS__Last_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Middle Name --></help>
+        <label><!-- Middle Name --></label>
+        <name>QPMS__Middle_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Occupation --></label>
+        <name>QPMS__Occupation__c</name>
+        <picklistValues>
+            <masterLabel>Nurse Practitioner</masterLabel>
+            <translation><!-- Nurse Practitioner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Health Care Professional</masterLabel>
+            <translation><!-- Other Health Care Professional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Patient/Consumer</masterLabel>
+            <translation><!-- Patient/Consumer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmacist</masterLabel>
+            <translation><!-- Pharmacist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Physician</masterLabel>
+            <translation><!-- Physician --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Physician Assistant</masterLabel>
+            <translation><!-- Physician Assistant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Risk Manager</masterLabel>
+            <translation><!-- Risk Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Third Party Servicer</masterLabel>
+            <translation><!-- Third Party Servicer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Phone # --></label>
+        <name>QPMS__Phone__c</name>
+    </fields>
+    <fields>
+        <help><!-- Post Office or Zip Code --></help>
+        <label><!-- Post Office or Zip Code --></label>
+        <name>QPMS__Post_Office_or_Zip_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regulatory Body --></label>
+        <name>QPMS__Regulatory_Body__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regulatory Report --></label>
+        <name>QPMS__Regulatory_Report__c</name>
+        <relationshipLabel><!-- Initial Reporter --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Title (e.g., Mr., Ms.) --></help>
+        <label><!-- Title (e.g., Mr., Ms.) --></label>
+        <name>QPMS__Reporter_Title__c</name>
+    </fields>
+</CustomObjectTranslation>

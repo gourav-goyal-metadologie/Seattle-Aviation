@@ -1,0 +1,130 @@
+<template>
+  <lightning-spinner
+        if:true={IsSpinnerOn}
+        class="slds-is-relative slds-align_absolute-center slds-m-around_large"
+        alternative-text="Adding Request Quote..."
+        size="medium"
+        variant="brand"
+    >
+    </lightning-spinner>
+    <template if:true={showaddButton}>
+      <div class="slds-shrink-none slds-text-align_center add-to-quote">
+          <lightning-button class="common-btn slds-grid_align-center common-btn" 
+              variant="brand" 
+              label="REQUEST QUOTE"
+              name="AddQuoteName" 
+              onclick={Addquote} 
+              disabled={add_quote}>
+          </lightning-button>    
+      </div> 
+    </template>
+    <template if:true={showRemoveButton}>
+      <div class="slds-shrink-none slds-text-align_center add-to-quote">
+          <lightning-button class="common-btn slds-grid_align-center common-btn" 
+              variant="brand" 
+              label="REMOVE REQUEST QUOTE"
+              name="RemoveQuoteName" 
+              onclick={deleteFromViewList} 
+              value=""
+              disabled={remove_quote} >
+          </lightning-button>     
+      </div>
+    </template>
+
+    <template if:true={showViewQuoteList}>
+        <div class="slds-modal slds-fade-in-open slds-backdrop">  
+            <div class="slds-modal__container">  
+              <!------HEADER Section-->  
+              <div class="slds-modal__header">  
+                <lightning-button-icon icon-name="utility:close" alternative-text="Close this window" size="large"  
+                  variant="bare-inverse" onclick={closeViewQuoteList} class="slds-modal__close">  
+                </lightning-button-icon>  
+                <h2 class="slds-text-heading_medium slds-m-bottom_xx-small">Item was added to Request Quote list</h2>  
+              </div>  
+              <!------Body Section-->  
+
+              <!------Footer Section-->  
+              <div class="view-quote slds-modal__footer"> 
+                <button onclick={viewQuote} class="view_quote slds-button slds-button_neutral">View Request Quote</button> 
+                <button onclick={closeViewQuoteList} class="continueButtonStyle slds-button slds-button_brand">Continue</button> 
+              </div>  
+            </div>  
+          </div>  
+    </template>
+
+    <template if:true={showQuoteList}>
+        <div class="slds-modal slds-fade-in-open slds-backdrop">  
+            <div class="slds-modal__container">  
+              <!------HEADER Section-->  
+              <div class="slds-modal__header">  
+                <lightning-button-icon icon-name="utility:close" alternative-text="Close this window" size="large"  
+                  variant="bare-inverse" onclick={closeViewList} class="slds-modal__close">  
+                </lightning-button-icon>  
+                <h2 class="slds-text-heading_medium slds-m-bottom_xx-small">Request Quote List</h2>  
+              </div>  
+              <!------Body Section-->  
+              <div class="slds-modal__content slds-p-around_medium">   
+                
+                <table class="customerQuoteTable slds-table slds-table_cell-buffer slds-table_bordered">
+                  <thead>
+                    <tr class="slds-line-height_reset">
+                      <th class="" scope="col">
+                        <div class="slds-truncate partnumber" title="Part Number">Part Number</div>
+                      </th>
+                      <th class="" scope="col">
+                        <div class="slds-truncate partnumber" title="quantity">Condition Code</div>
+                      </th>
+                      <th class="" scope="col">
+                        <div class="slds-truncate partnumber" title="quantity">Quantity</div>
+                      </th>
+                      <th class="" scope="col">
+                        <div class="slds-truncate partnumber" title="Action">Action</div>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <template for:each={JsonConvertProduct} for:item="prod"  for:index="key">
+                      <tr key={prod.key} class="slds-hint-parent">
+                          <th scope="row">
+                              <div class="slds-truncate" title={prod.value}>{prod.value}</div>
+                          </th>
+                          <th scope="row">
+                            <div class="slds-truncate" title={prod.code}>{prod.code}</div>
+                          </th>
+                          <th scope="row">
+                            <lightning-input 
+                                    type="number"
+                                    name={prod.key}
+                                    data-id={prod.code_id}
+                                    value={prod.qty}
+                                    min="1"
+                                    max="9999"
+                                    onkeyup={handleQuantityValidation} 
+                                    oncommit={handleQuantityChange} 
+                                    class="qtyclass">
+                            </lightning-input>
+                          </th>
+                          <th scope="row">
+                            <lightning-button-icon 
+                                    icon-name="utility:delete" 
+                                    alternative-text="Delete Product" size="large"  
+                                    variant="brand" 
+                                    onclick={deleteFromViewList} 
+                                    data-id={prod.code_id}
+                                    value={prod.key}
+                                    class="deleteactionclass">  
+                            </lightning-button-icon>
+                          </th>
+                      </tr>                    
+                    </template>  
+                  </tbody>
+                </table> 
+              </div>  
+              <!------Footer Section-->  
+              <div class="slds-modal__footer">  
+                <lightning-button label="Submit Request" variant="brand" onclick={saveViewList}></lightning-button>
+              </div>  
+            </div>  
+          </div>  
+    </template>
+</template>

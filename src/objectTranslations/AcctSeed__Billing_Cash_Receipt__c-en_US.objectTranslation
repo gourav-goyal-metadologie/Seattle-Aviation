@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Used to specify accounting period for financial reporting. --></help>
+        <label><!-- Applied Accounting Period --></label>
+        <lookupFilter>
+            <errorMessage><!-- The accounting period status must be &quot;Open&quot; --></errorMessage>
+            <informationalMessage><!-- The accounting period status must be open --></informationalMessage>
+        </lookupFilter>
+        <name>AcctSeed__Accounting_Period__c</name>
+        <relationshipLabel><!-- Billing Cash Receipts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Amount adjusted in the cash application process. Typically a write off of a billing balance or payment discount. --></help>
+        <label><!-- Adjustment Amount --></label>
+        <name>AcctSeed__Adjustment_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- GL accounts used to account for adjustments. --></help>
+        <label><!-- Adjustment GL Account --></label>
+        <name>AcctSeed__Adjustment_GL_Account__c</name>
+        <relationshipLabel><!-- Billing Cash Receipts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Amount of Cash Receipt Applied to this billing --></help>
+        <label><!-- Applied Amount --></label>
+        <name>AcctSeed__Applied_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used to specify the applied date for financial reporting. --></help>
+        <label><!-- Applied Date --></label>
+        <name>AcctSeed__Applied_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing --></label>
+        <name>AcctSeed__Billing__c</name>
+        <relationshipLabel><!-- Applied Cash Receipts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Amount adjusted in the cash application process. Typically a write off of a billing balance or payment discount. --></help>
+        <label><!-- Cash Receipt --></label>
+        <name>AcctSeed__Cash_Receipt__c</name>
+        <relationshipLabel><!-- Billings Applied To --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Period Applied --></label>
+        <name>AcctSeed__Period_Applied__c</name>
+    </fields>
+    <fields>
+        <label><!-- Posting Status --></label>
+        <name>AcctSeed__Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>AR Cash Receipt Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SAS Billing Cash Receipt Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SAS Cash Receipt Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- A billing cash receipt must contain a value for the accounting period field. --></errorMessage>
+        <name>AcctSeed__Accounting_Period_Is_Required</name>
+    </validationRules>
+</CustomObjectTranslation>

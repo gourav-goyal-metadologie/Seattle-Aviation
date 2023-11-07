@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>QPMS__Active__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Active</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__C_F_R_Section__c</fullName>
+        <deprecated>false</deprecated>
+        <description>C.F.R Section</description>
+        <externalId>false</externalId>
+        <label>C.F.R Section</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Classification_Panel__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Classification Panel</description>
+        <externalId>false</externalId>
+        <label>Classification Panel</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>73 - ANESTHESIOLOGY</fullName>
+                    <default>false</default>
+                    <label>73 - ANESTHESIOLOGY</label>
+                </value>
+                <value>
+                    <fullName>74 - CARDIOVASCULAR</fullName>
+                    <default>false</default>
+                    <label>74 - CARDIOVASCULAR</label>
+                </value>
+                <value>
+                    <fullName>75 - CLINICAL CHEMISTRY</fullName>
+                    <default>false</default>
+                    <label>75 - CLINICAL CHEMISTRY</label>
+                </value>
+                <value>
+                    <fullName>76 - DENTAL</fullName>
+                    <default>false</default>
+                    <label>76 - DENTAL</label>
+                </value>
+                <value>
+                    <fullName>77 - EARS,NOSE AND THROAT</fullName>
+                    <default>false</default>
+                    <label>77 - EARS,NOSE AND THROAT</label>
+                </value>
+                <value>
+                    <fullName>78 - GASTROENTEROLOGY-UROLOGY</fullName>
+                    <default>false</default>
+                    <label>78 - GASTROENTEROLOGY-UROLOGY</label>
+                </value>
+                <value>
+                    <fullName>79 - GENERAL AND PLASTIC SURGERY</fullName>
+                    <default>false</default>
+                    <label>79 - GENERAL AND PLASTIC SURGERY</label>
+                </value>
+                <value>
+                    <fullName>80 - GENERAL HOSPITAL</fullName>
+                    <default>false</default>
+                    <label>80 - GENERAL HOSPITAL</label>
+                </value>
+                <value>
+                    <fullName>81 - HEMATOLOGY</fullName>
+                    <default>false</default>
+                    <label>81 - HEMATOLOGY</label>
+                </value>
+                <value>
+                    <fullName>82 - IMMUNOLOGY</fullName>
+                    <default>false</default>
+                    <label>82 - IMMUNOLOGY</label>
+                </value>
+                <value>
+                    <fullName>83 - MICROBIOLOGY</fullName>
+                    <default>false</default>
+                    <label>83 - MICROBIOLOGY</label>
+                </value>
+                <value>
+                    <fullName>84 - NEUROLOGY</fullName>
+                    <default>false</default>
+                    <label>84 - NEUROLOGY</label>
+                </value>
+                <value>
+                    <fullName>85 - OBSTETRICS AND GYNECOLOGY</fullName>
+                    <default>false</default>
+                    <label>85 - OBSTETRICS AND GYNECOLOGY</label>
+                </value>
+                <value>
+                    <fullName>86 - OPHTHALMIC</fullName>
+                    <default>false</default>
+                    <label>86 - OPHTHALMIC</label>
+                </value>
+                <value>
+                    <fullName>87 - ORTHOPEDIC</fullName>
+                    <default>false</default>
+                    <label>87 - ORTHOPEDIC</label>
+                </value>
+                <value>
+                    <fullName>88 - PATHOLOGY</fullName>
+                    <default>false</default>
+                    <label>88 - PATHOLOGY</label>
+                </value>
+                <value>
+                    <fullName>89 - PHYSICAL MEDICINE</fullName>
+                    <default>false</default>
+                    <label>89 - PHYSICAL MEDICINE</label>
+                </value>
+                <value>
+                    <fullName>90 - RADIOLOGY</fullName>
+                    <default>false</default>
+                    <label>90 - RADIOLOGY</label>
+                </value>
+                <value>
+                    <fullName>91 - CLINICAL TOXICOLOGY</fullName>
+                    <default>false</default>
+                    <label>91 - CLINICAL TOXICOLOGY</label>
+                </value>
+                <value>
+                    <fullName>RED HEALTH, NON-MEDICAL</fullName>
+                    <default>false</default>
+                    <label>RED HEALTH, NON-MEDICAL</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>QPMS__Device_Class__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Device Class</description>
+        <externalId>false</externalId>
+        <label>Device Class</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Class I</fullName>
+                    <default>false</default>
+                    <label>Class I</label>
+                </value>
+                <value>
+                    <fullName>Class II</fullName>
+                    <default>false</default>
+                    <label>Class II</label>
+                </value>
+                <value>
+                    <fullName>Class III</fullName>
+                    <default>false</default>
+                    <label>Class III</label>
+                </value>
+                <value>
+                    <fullName>3(513(f)(1))</fullName>
+                    <default>false</default>
+                    <label>3(513(f)(1))</label>
+                </value>
+                <value>
+                    <fullName>Not Classified</fullName>
+                    <default>false</default>
+                    <label>Not Classified</label>
+                </value>
+                <value>
+                    <fullName>Unclassified</fullName>
+                    <default>false</default>
+                    <label>Unclassified</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>QPMS__Product_Code_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Product Code Name</description>
+        <externalId>false</externalId>
+        <label>Product Code Name</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Product_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Product Code</description>
+        <externalId>false</externalId>
+        <label>Product Code</label>
+        <length>3</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Device Product Code</label>
+    <nameField>
+        <displayFormat>DPC-{0000}</displayFormat>
+        <label>Device Product Code Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Device Product Codes</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

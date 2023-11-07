@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Decision Tree Questionnaire for Details --></label>
+        <name>QPMS__Decision_Tree_Questionnaire_for_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QueryFields --></label>
+        <name>QPMS__QueryFields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Answer --></label>
+        <name>QPMS__Answer__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Complaint --></label>
+        <name>QPMS__Complaint__c</name>
+    </fields>
+    <fields>
+        <label><!-- Decision Tree  Questionnaire --></label>
+        <name>QPMS__Decision_Tree_Questionnaire__c</name>
+        <relationshipLabel><!-- Decision Tree Questionnaires --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Decision Tree Template Questionnaire --></label>
+        <name>QPMS__Decision_Tree_Template_Questionnaire__c</name>
+        <relationshipLabel><!-- Decision Tree Questionnaires --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- InterPurpose Parent --></label>
+        <name>QPMS__InterPurpose_Parent__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Question Number --></label>
+        <name>QPMS__Question_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question --></label>
+        <name>QPMS__Question__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regulatory Assesment --></label>
+        <name>QPMS__Regulatory_Assesment__c</name>
+        <relationshipLabel><!-- Decision Tree Questionnaires --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Regulatory Body --></label>
+        <name>QPMS__Regulatory_Body__c</name>
+    </fields>
+    <fields>
+        <label><!-- height --></label>
+        <name>QPMS__height__c</name>
+    </fields>
+</CustomObjectTranslation>

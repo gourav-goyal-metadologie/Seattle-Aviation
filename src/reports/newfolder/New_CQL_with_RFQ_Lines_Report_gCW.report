@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>inscor__Customer_Quote_Line__c$Name</field>
+    </columns>
+    <columns>
+        <field>inscor__Customer_Quote_Line__c.inscor__RFQ_Lines__r$Name</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>inscor__Customer_Quote_Line__c.inscor__RFQ_Lines__r$inscor__Quantity_Quoted__c</field>
+    </columns>
+    <columns>
+        <field>inscor__Customer_Quote_Line__c$inscor__Product__c</field>
+    </columns>
+    <columns>
+        <field>inscor__Customer_Quote_Line__c$inscor__Condition_Code__c</field>
+    </columns>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>inscor__Customer_Quote_Line__c.inscor__RFQ_Lines__r$inscor__Product_Quoted__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>New CQL with RFQ Lines Report</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CQL_with_RFQ_Lines__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>inscor__Customer_Quote_Line__c$inscor__Core_Due_Date__c</dateColumn>
+        <interval>INTERVAL_CURRENT</interval>
+    </timeFrameFilter>
+</Report>

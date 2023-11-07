@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- ContactAuditTrail --></label>
+        <name>QPMS__ContactAuditTrail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ContactFieldSetUsedInTab --></label>
+        <name>QPMS__ContactFieldSetUsedInTab</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Supplier Change Fields --></label>
+        <name>QPMS__Supplier_Change_Fields</name>
+    </fieldSets>
+    <fields>
+        <help><!-- Alternate payee name which can be used to populate the payee field on a cash disbursement. --></help>
+        <label><!-- Alternate Payee Name --></label>
+        <name>AcctSeed__Alternate_Payee_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Marks default 1099 box for reporting cash disbursements to a 1099 vendor. --></help>
+        <label><!-- Default 1099 Box --></label>
+        <name>AcctSeed__Default_1099_Box__c</name>
+        <picklistValues>
+            <masterLabel>1. Rents</masterLabel>
+            <translation><!-- 1. Rents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10. Crop Insurance</masterLabel>
+            <translation><!-- 10. Crop Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13. Golden Parachute</masterLabel>
+            <translation><!-- 13. Golden Parachute --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14. Attorney Proceeds</masterLabel>
+            <translation><!-- 14. Attorney Proceeds --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15a. Section 409A Deferrals</masterLabel>
+            <translation><!-- 15a. Section 409A Deferrals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15b. Section 409A Income</masterLabel>
+            <translation><!-- 15b. Section 409A Income --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16. State Tax Withheld</masterLabel>
+            <translation><!-- 16. State Tax Withheld --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2. Royalties</masterLabel>
+            <translation><!-- 2. Royalties --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3. Other Income</masterLabel>
+            <translation><!-- 3. Other Income --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4. Federal Tax Withheld</masterLabel>
+            <translation><!-- 4. Federal Tax Withheld --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5. Fishing Boat Proceeds</masterLabel>
+            <translation><!-- 5. Fishing Boat Proceeds --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6. Medical Payments</masterLabel>
+            <translation><!-- 6. Medical Payments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7. Nonemployee Compensation</masterLabel>
+            <translation><!-- 7. Nonemployee Compensation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8. Substitute Payments</masterLabel>
+            <translation><!-- 8. Substitute Payments --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The default 1099 Form and 1099 Box category to associate with this payee’s cash disbursement payments. Each year review your defaults, and check for any new 1099 Form options to reflect changes by the IRS. Change by selecting Update 1099 Info button. --></help>
+        <label><!-- Default Form 1099 Box --></label>
+        <name>AcctSeed__Default_Form_1099_Box__c</name>
+    </fields>
+    <fields>
+        <help><!-- The DeveloperName to the default Form Category Id used for this account. This field should not be changed manually. --></help>
+        <label><!-- Default Form Category Id --></label>
+        <name>AcctSeed__Default_Form_Category_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Taxpayer Identification Number --></label>
+        <name>AcctSeed__Taxpayer_Identification_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Marks vendor to report cash disbursements on 1099-Misc form. --></help>
+        <label><!-- 1099 Vendor --></label>
+        <name>AcctSeed__X1099_Vendor__c</name>
+    </fields>
+    <fields>
+        <help><!-- To activate a contact with a non-US mobile number, check this box and make sure the Payment Request Method != Text --></help>
+        <label><!-- AV Shell User --></label>
+        <name>BillNPay__AV_Non_US_Mobile__c</name>
+    </fields>
+    <fields>
+        <help><!-- Displays message if an error occurs between Salesforce and Authvia while activating the Contact. --></help>
+        <label><!-- Activation Error Response --></label>
+        <name>BillNPay__Error_Response__c</name>
+    </fields>
+    <fields>
+        <help><!-- Chose whether payment requests should go to a user via email or text message --></help>
+        <label><!-- AV Payment Request Method --></label>
+        <name>BillNPay__LP_Payment_Request_Method__c</name>
+    </fields>
+    <fields>
+        <help><!-- Removes phone formatting from the standard SF Mobile field to support search queries.  It is not necessary to display on page layout --></help>
+        <label><!-- AV Mobile --></label>
+        <name>BillNPay__Mobile__c</name>
+    </fields>
+    <fields>
+        <help><!-- Removes phone formatting to support search queries.  It is not necessary to display on page layout --></help>
+        <label><!-- AV Phone --></label>
+        <name>BillNPay__Phone__c</name>
+    </fields>
+    <fields>
+        <help><!-- The status of this Contact in the Bill &amp; Pay system --></help>
+        <label><!-- AV Status --></label>
+        <name>BillNPay__Status__c</name>
+        <picklistValues>
+            <masterLabel>Activated From Payments</masterLabel>
+            <translation><!-- Activated From Payments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch Processing</masterLabel>
+            <translation><!-- Batch Processing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suspend</masterLabel>
+            <translation><!-- Suspend --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- When checked, the user will no longer receive text messages - even if a user tries to send one from the Send Payment Request button --></help>
+        <label><!-- AV Text Message Opt Out --></label>
+        <name>BillNPay__T2P_Message_Opt_Out__c</name>
+    </fields>
+    <fields>
+        <help><!-- Use this field for special text messages to the contact. Used in conjunction with the Text Trigger field --></help>
+        <label><!-- Text Message Body --></label>
+        <name>BillNPay__Text_Message_Body__c</name>
+    </fields>
+    <fields>
+        <label><!-- Text Trigger --></label>
+        <name>BillNPay__Text_Trigger__c</name>
+    </fields>
+    <fields>
+        <help><!-- External ID for this user in the Bill &amp; Pay system --></help>
+        <label><!-- AV User ID --></label>
+        <name>BillNPay__authViaAccountId__c</name>
+    </fields>
+    <fields>
+        <help><!-- An AuthVia External ID used with guest pay --></help>
+        <label><!-- AV Authorization Code --></label>
+        <name>BillNPay__auth_code__c</name>
+    </fields>
+    <fields>
+        <help><!-- When checked, the user will receive an Opt In Text when user is activated.  See Bill &amp; Pay Message Templates to format --></help>
+        <label><!-- AV Send Opt In Text --></label>
+        <name>BillNPay__send_optin_text__c</name>
+    </fields>
+    <fields>
+        <help><!-- When checked, the user will receive a Welcome Email when user is Activated.  See Bill &amp; Pay Message Templates to format (not a Salesforce Email Template) --></help>
+        <label><!-- AV Send Welcome Email --></label>
+        <name>BillNPay__send_welcome_email__c</name>
+    </fields>
+    <fields>
+        <help><!-- When checked, the user will receive a Welcome Text when user is Activated.  See Bill &amp; Pay Message Templates to format --></help>
+        <label><!-- AV Send Welcome Text --></label>
+        <name>BillNPay__send_welcome_text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Compliance Request --></label>
+        <name>Compliance_Request__c</name>
+    </fields>
+    <fields>
+        <label><!-- Compliance Response --></label>
+        <name>Compliance_Response__c</name>
+    </fields>
+    <fields>
+        <label><!-- Compliance Status --></label>
+        <name>Compliance_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- AOS DistID Cleared --></label>
+        <name>ECUSTOMS__AOS_DistID_Cleared__c</name>
+    </fields>
+    <fields>
+        <label><!-- AOS Error --></label>
+        <name>ECUSTOMS__AOS_Error__c</name>
+    </fields>
+    <fields>
+        <label><!-- AOS Results --></label>
+        <name>ECUSTOMS__AOS_Results__c</name>
+    </fields>
+    <fields>
+        <label><!-- AOS String --></label>
+        <name>ECUSTOMS__AOS_String__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address Resolution Date --></label>
+        <name>ECUSTOMS__Add_IM_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address Resolution Status --></label>
+        <name>ECUSTOMS__Add_IM_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address Risk Country Status --></label>
+        <name>ECUSTOMS__Address_Risk_Country_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address Screening Date --></label>
+        <name>ECUSTOMS__Address_Screening_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address Screening Status --></label>
+        <name>ECUSTOMS__Address_Screening_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Compliance History --></label>
+        <name>ECUSTOMS__Compliance_History__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distributed ID --></label>
+        <name>ECUSTOMS__Distributed_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Incident Manager Change Date --></help>
+        <label><!-- Resolution Date --></label>
+        <name>ECUSTOMS__IM_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Incident Manager Status --></help>
+        <label><!-- Resolution Status --></label>
+        <name>ECUSTOMS__IM_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- RPSString --></label>
+        <name>ECUSTOMS__RPSString__c</name>
+    </fields>
+    <fields>
+        <help><!-- Restricted Party Screening Date --></help>
+        <label><!-- Restricted Party Screening Date --></label>
+        <name>ECUSTOMS__RPS_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- RPS DistID Cleared --></label>
+        <name>ECUSTOMS__RPS_DistID_Cleared__c</name>
+    </fields>
+    <fields>
+        <label><!-- RPS Error --></label>
+        <name>ECUSTOMS__RPS_Error__c</name>
+    </fields>
+    <fields>
+        <label><!-- RPS Results --></label>
+        <name>ECUSTOMS__RPS_Results__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sanctioned or Embargoed Country Indicator --></help>
+        <label><!-- Risk Country Status --></label>
+        <name>ECUSTOMS__RPS_RiskCountry_Status__c</name>
+    </fields>
+    <fields>
+        <help><!-- Restricted Party Screening Status --></help>
+        <label><!-- Restricted Party Screening Status --></label>
+        <name>ECUSTOMS__RPS_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Screening Trigger --></label>
+        <name>ECUSTOMS__Screening_Trigger__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address Distributed IDs --></label>
+        <name>ECUSTOMS__add_DistributedIDs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Processed --></label>
+        <name>Is_Processed__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsAttached --></label>
+        <name>QPMS__IsAttached__c</name>
+    </fields>
+    <fields>
+        <label><!-- Languages --></label>
+        <name>QPMS__Languages__c</name>
+    </fields>
+    <fields>
+        <label><!-- Level --></label>
+        <name>QPMS__Level__c</name>
+        <picklistValues>
+            <masterLabel>Primary</masterLabel>
+            <translation><!-- Primary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secondary</masterLabel>
+            <translation><!-- Secondary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tertiary</masterLabel>
+            <translation><!-- Tertiary --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>QPMS__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cloned</masterLabel>
+            <translation><!-- Cloned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>InActive</masterLabel>
+            <translation><!-- InActive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Supplier Change --></label>
+        <name>QPMS__Supplier_Change__c</name>
+        <relationshipLabel><!-- Contacts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Supplier Profile --></label>
+        <name>QPMS__Supplier_Profile__c</name>
+        <relationshipLabel><!-- Contacts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- YayPay Last Sync Date --></label>
+        <name>YayPay_Last_Sync_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disable Duplicate Check --></label>
+        <name>dupcheck__dc3DisableDuplicateCheck__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duplicate Check Index --></label>
+        <name>dupcheck__dc3Index__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Shipping Address --></label>
+        <name>inscor__Account_Shipping_Address__c</name>
+        <relationshipLabel><!-- Contacts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Community Assigned Menu --></label>
+        <name>inscor__Community_Assigned_Menu__c</name>
+    </fields>
+    <fields>
+        <help><!-- Designates whether this contact is used for automations like receiving Invoices for this Account. --></help>
+        <label><!-- Contact Options --></label>
+        <name>inscor__Contact_Options__c</name>
+        <picklistValues>
+            <masterLabel>Receive Invoice</masterLabel>
+            <translation><!-- Receive Invoice --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contact Type --></label>
+        <name>inscor__Contact_Type__c</name>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation><!-- Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Main</masterLabel>
+            <translation><!-- Main --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchasing</masterLabel>
+            <translation><!-- Purchasing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quality</masterLabel>
+            <translation><!-- Quality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repairs</masterLabel>
+            <translation><!-- Repairs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation><!-- Sales --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Languages --></label>
+        <name>inscor__Languages__c</name>
+    </fields>
+    <fields>
+        <label><!-- Level --></label>
+        <name>inscor__Level__c</name>
+        <picklistValues>
+            <masterLabel>Primary</masterLabel>
+            <translation><!-- Primary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secondary</masterLabel>
+            <translation><!-- Secondary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tertiary</masterLabel>
+            <translation><!-- Tertiary --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Session Id --></label>
+        <name>inscor__Session_Id__c</name>
+    </fields>
+    <layouts>
+        <layout>BP Contact Layout</layout>
+        <sections>
+            <label><!-- Authvia Fields --></label>
+            <section>Authvia Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Contact (Accounting) Layout</layout>
+        <sections>
+            <label><!-- 1099 Information --></label>
+            <section>1099 Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Contact Layout (AvSight)</layout>
+        <sections>
+            <label><!-- Authvia --></label>
+            <section>Authvia</section>
+        </sections>
+        <sections>
+            <label><!-- AvSight --></label>
+            <section>AvSight</section>
+        </sections>
+        <sections>
+            <label><!-- Compliance --></label>
+            <section>Compliance</section>
+        </sections>
+        <sections>
+            <label><!-- YayPay --></label>
+            <section>YayPay</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Please enter a valid email in the field BP Email. If you have email in another field, ask your admin to automate copying the other email field to BP Email --></errorMessage>
+        <name>BillNPay__Pmt_Request_Method_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Text 2 Pay is only supported with valid US mobile numbers --></errorMessage>
+        <name>BillNPay__Text_2_Pay_not_supported</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Update_1099_Info --></label>
+        <name>AcctSeed__Update_1099_Info</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Update_1099_Info_Detail_Page --></label>
+        <name>AcctSeed__Update_1099_Info_Detail_Page</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Payment_Request --></label>
+        <name>BillNPay__Send_Payment_Request</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Virtual_Terminal --></label>
+        <name>BillNPay__Virtual_Terminal</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendEmailContact --></label>
+        <name>MME__SendEmailContact</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendGmail --></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooWeather --></label>
+        <name>YahooWeather</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- dc3Check --></label>
+        <name>dupcheck__dc3Check</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- dc3Merge --></label>
+        <name>dupcheck__dc3Merge</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_to_Slack --></label>
+        <name>slackv2__Send_to_Slack</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Slack_Alerts --></label>
+        <name>slackv2__Slack_Alerts</name>
+    </webLinks>
+</CustomObjectTranslation>

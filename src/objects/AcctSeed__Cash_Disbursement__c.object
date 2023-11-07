@@ -1,0 +1,1513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>AcctSeed__Cash_Disbursement_Compact_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>AcctSeed__Cash_Disbursement_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>AcctSeed__Disbursement_Date__c</fields>
+        <fields>AcctSeed__Accounting_Period__c</fields>
+        <fields>AcctSeed__Check_Number__c</fields>
+        <fields>AcctSeed__Status__c</fields>
+        <fields>AcctSeed__Amount__c</fields>
+        <fields>AcctSeed__Balance__c</fields>
+        <label>Cash Disbursement Compact Layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Used to document the payment made to an outside vendor, contact, or employee typically recorded as an payable. The aggregation of multiple cash disbursements constitute a cash disbursement batch.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fieldSets>
+        <fullName>AcctSeed__Pay_Batch_Screen</fullName>
+        <availableFields>
+            <field>AcctSeed__GL_Account_Variable_1__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>AcctSeed__GL_Account_Variable_2__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>AcctSeed__GL_Account_Variable_3__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>AcctSeed__GL_Account_Variable_4__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>AcctSeed__Project_Task__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>AcctSeed__Project__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>This field set is used for Payable Pay Batch screen</description>
+        <label>Pay Batch Screen</label>
+    </fieldSets>
+    <fields>
+        <fullName>AcctSeed__AP_Voucher_Count__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Counts the number of payable vouchers in the cash disbursement.</inlineHelpText>
+        <label>AP Voucher Count</label>
+        <summaryForeignKey>AcctSeed__AP_Disbursement__c.AcctSeed__Cash_Disbursement__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Accounting_Period__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Used to specify accounting period for financial reporting.</inlineHelpText>
+        <label>Accounting  Period</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>AcctSeed__Accounting_Period__c.AcctSeed__Status__c</field>
+                <operation>equals</operation>
+                <value>Open</value>
+            </filterItems>
+            <infoMessage>The accounting period status must be open</infoMessage>
+            <isOptional>true</isOptional>
+        </lookupFilter>
+        <referenceTo>AcctSeed__Accounting_Period__c</referenceTo>
+        <relationshipLabel>Cash Disbursements</relationshipLabel>
+        <relationshipName>Cash_Disbursements</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Accounting_Year__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>LEFT( AcctSeed__Accounting_Period__r.Name ,4)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Accounting Year</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Alternate_Payee_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Provides a means of manually denoting the name of the payee.</inlineHelpText>
+        <label>Alternate Payee Name</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Amount_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>AcctSeed__Amount__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Amount Number</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Amount__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The amount of money received in a check or electronic deposit.</inlineHelpText>
+        <label>Amount</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Amount_in_Words__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Amount In Words</label>
+        <length>32000</length>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Applied_Amount__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Applied Amount</label>
+        <summarizedField>AcctSeed__AP_Disbursement__c.AcctSeed__Paid_Amount__c</summarizedField>
+        <summaryForeignKey>AcctSeed__AP_Disbursement__c.AcctSeed__Cash_Disbursement__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Balance__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>AcctSeed__Amount__c -  AcctSeed__Applied_Amount__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Balance</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Bank_Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Upon posting a credit entry will be made to this GL account.</inlineHelpText>
+        <label>Bank Account</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>AcctSeed__GL_Account__c.AcctSeed__Bank__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>true</isOptional>
+        </lookupFilter>
+        <referenceTo>AcctSeed__GL_Account__c</referenceTo>
+        <relationshipLabel>Cash Disbursements</relationshipLabel>
+        <relationshipName>Cash_Disbursements</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Bank_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>true</externalId>
+        <label>Bank Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Bank_Reconciliation_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Associated Bank Reconciliation’s Statement Ending Date. Used by system’s query logic to determine which source records are uncleared as of a specific bank reconciliation’s statement ending date.</description>
+        <externalId>false</externalId>
+        <formula>AcctSeed__Bank_Reconciliation__r.AcctSeed__End_Date__c</formula>
+        <inlineHelpText>The Statement Ending Date of the associated Bank Reconciliation.</inlineHelpText>
+        <label>Bank Reconciliation Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Bank_Reconciliation__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The associated bank reconciliation this cash disbursement was cleared.</inlineHelpText>
+        <label>Bank Reconciliation</label>
+        <referenceTo>AcctSeed__Bank_Reconciliation2__c</referenceTo>
+        <relationshipLabel>Cash Disbursements</relationshipLabel>
+        <relationshipName>Cash_Disbursements</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Bank_Transaction__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Bank Transaction</label>
+        <referenceTo>AcctSeed__Bank_Transaction__c</referenceTo>
+        <relationshipLabel>Cash Disbursements</relationshipLabel>
+        <relationshipName>Cash_Disbursements</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Cash_Disbursement_Batch__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Cash Disbursement Batch</label>
+        <referenceTo>AcctSeed__Cash_Disbursement_Batch__c</referenceTo>
+        <relationshipLabel>Cash Disbursements</relationshipLabel>
+        <relationshipName>Cash_Disbursements</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Cash_Flow_Category__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Used to categorize records in Cash Flow Statement.</inlineHelpText>
+        <label>Cash Flow Category</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>AcctSeed__GL_Account__c.AcctSeed__Type__c</field>
+                <operation>equals</operation>
+                <value>Cash Flow</value>
+            </filterItems>
+            <isOptional>true</isOptional>
+        </lookupFilter>
+        <referenceTo>AcctSeed__GL_Account__c</referenceTo>
+        <relationshipLabel>Cash Disbursements (Cash Flow Category)</relationshipLabel>
+        <relationshipName>Cash_Disbursements2</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Check_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Check Number</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Cleared_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Records the date the transaction was processed by the bank or credit card. Populated from the associated bank transaction record.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date this cash disbursement was cleared in the associated bank reconciliation.</inlineHelpText>
+        <label>Cleared Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Contact__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>A Cash Disbursement can have either the Account (Vendor), Contact or User (Employee) as the Payee. One object must be chosen.</inlineHelpText>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Cash Disbursements</relationshipLabel>
+        <relationshipName>Cash_Disbursements</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Currency_Conversion_Rate__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The currency conversion rate for the currency.</inlineHelpText>
+        <label>Currency Conversion Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Debit_GL_Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Overrides the Payable Control GL Account set on Accounting Settings if populated.</inlineHelpText>
+        <label>Debit GL Account</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>1 OR 2 OR 3</booleanFilter>
+            <filterItems>
+                <field>AcctSeed__GL_Account__c.AcctSeed__Type__c</field>
+                <operation>equals</operation>
+                <value>Expense</value>
+            </filterItems>
+            <filterItems>
+                <field>AcctSeed__GL_Account__c.AcctSeed__Type__c</field>
+                <operation>equals</operation>
+                <value>Balance Sheet</value>
+            </filterItems>
+            <filterItems>
+                <field>AcctSeed__GL_Account__c.AcctSeed__Type__c</field>
+                <operation>equals</operation>
+                <value>Revenue</value>
+            </filterItems>
+            <isOptional>true</isOptional>
+        </lookupFilter>
+        <referenceTo>AcctSeed__GL_Account__c</referenceTo>
+        <relationshipLabel>Cash Disbursements (Refund GL Account)</relationshipLabel>
+        <relationshipName>Cash_Disbursements1</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Default_1099_Box__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(AND(NOT(ISBLANK(AcctSeed__Vendor__c)),AcctSeed__Vendor__r.AcctSeed__X1099_Vendor__c=True),Text(AcctSeed__Vendor__r.AcctSeed__Default_1099_Box__c), 
+IF(AND(NOT(ISBLANK(AcctSeed__Contact__c)),AcctSeed__Contact__r.AcctSeed__X1099_Vendor__c=True),Text(AcctSeed__Contact__r.AcctSeed__Default_1099_Box__c), 
+IF(AND(NOT(ISBLANK(AcctSeed__Employee__c)),AcctSeed__Employee__r.AcctSeed__X1099_Vendor__c=True),Text(AcctSeed__Employee__r.AcctSeed__Default_1099_Box__c), 
+&quot;&quot;)))</formula>
+        <inlineHelpText>Shows default 1099 box set on the account or contact if a payee is marked as a 1099 vendor.</inlineHelpText>
+        <label>Default 1099 Box</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Disbursement_Date__c</fullName>
+        <defaultValue>Today()</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The date cash was received.</inlineHelpText>
+        <label>Disbursement Date</label>
+        <required>true</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Employee__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>A Cash Disbursement can have either the Account (Vendor), Contact or User (Employee) as the Payee. One object must be chosen.</inlineHelpText>
+        <label>Employee</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Cash_Disbursements</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Form_1099_Box__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field should be set via the customized UI components. This field should be locked down for update or insert.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Cash disbursements will be classified in the 1099 Export File according to this Form 1099 Type and Box. Each year review your defaults, and check for any new 1099 Form options to reflect changes by the IRS. Change by selecting Update 1099 Info button.</inlineHelpText>
+        <label>Form 1099 Box</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Form_Category_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <description>External reference to the default Form Category used for this account. This field should not be changed manually.</description>
+        <externalId>true</externalId>
+        <inlineHelpText>External reference to the default Form Category used for this account. This field should not be changed manually.</inlineHelpText>
+        <label>Form Category Id</label>
+        <length>18</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Full_Remittance__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(AcctSeed__AP_Voucher_Count__c&gt;10, &quot;Yes&quot;, &quot; &quot;)</formula>
+        <inlineHelpText>Indicates if a Full Remittance should be printed.</inlineHelpText>
+        <label>Full Remittance</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__GL_Account_Variable_1__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>General Ledger segment used for reporting of a business unit such as division or department.</inlineHelpText>
+        <label>GL Variable 1</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>AcctSeed__Accounting_Variable__c.AcctSeed__Type__c</field>
+                <operation>equals</operation>
+                <value>GL Account Variable 1</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>AcctSeed__Accounting_Variable__c</referenceTo>
+        <relationshipLabel>Cash Disbursements</relationshipLabel>
+        <relationshipName>Cash_Disbursements</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__GL_Account_Variable_2__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>General Ledger segment used for reporting of a business unit such as division or department.</inlineHelpText>
+        <label>GL Variable 2</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>AcctSeed__Accounting_Variable__c.AcctSeed__Type__c</field>
+                <operation>equals</operation>
+                <value>GL Account Variable 2</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>AcctSeed__Accounting_Variable__c</referenceTo>
+        <relationshipLabel>Cash Disbursements (GL Account Variable 2)</relationshipLabel>
+        <relationshipName>Cash_Disbursements1</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__GL_Account_Variable_3__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>General Ledger segment used for reporting of a business unit such as division or department.</inlineHelpText>
+        <label>GL Variable 3</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>AcctSeed__Accounting_Variable__c.AcctSeed__Type__c</field>
+                <operation>equals</operation>
+                <value>GL Account Variable 3</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>AcctSeed__Accounting_Variable__c</referenceTo>
+        <relationshipLabel>Cash Disbursements (GL Account Variable 3)</relationshipLabel>
+        <relationshipName>Cash_Disbursements2</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__GL_Account_Variable_4__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>General Ledger segment used for reporting of a business unit such as division or department.</inlineHelpText>
+        <label>GL Variable 4</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>AcctSeed__Accounting_Variable__c.AcctSeed__Type__c</field>
+                <operation>equals</operation>
+                <value>GL Account Variable 4</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>AcctSeed__Accounting_Variable__c</referenceTo>
+        <relationshipLabel>Cash Disbursements (GL Account Variable 4)</relationshipLabel>
+        <relationshipName>Cash_Disbursements3</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Import_Vendor_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of Customer/Vendor from Bank Direct Connect or Import Financial File</inlineHelpText>
+        <label>Import Vendor Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Ledger_Amount__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK(AcctSeed__Currency_Conversion_Rate__c) || AcctSeed__Currency_Conversion_Rate__c = 0,AcctSeed__Amount__c,AcctSeed__Amount__c/AcctSeed__Currency_Conversion_Rate__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>The amount normalized to the base currency. This is Total divided by the Currency Conversion Rate.</inlineHelpText>
+        <label>Ledger Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Ledger__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Denotes the associated ledger.</description>
+        <externalId>false</externalId>
+        <label>Ledger</label>
+        <referenceTo>AcctSeed__Ledger__c</referenceTo>
+        <relationshipLabel>Cash Disbursements</relationshipLabel>
+        <relationshipName>Cash_Disbursements</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Memo__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Used to provide memo on printed check.</inlineHelpText>
+        <label>Memo</label>
+        <length>60</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Payee_City_State_Zip__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(NOT(ISBLANK(AcctSeed__Payee_City__c)) &amp;&amp; NOT(ISBLANK(AcctSeed__Payee_State__c)) &amp;&amp; NOT(ISBLANK(AcctSeed__Payee_Postal_Code__c)), AcctSeed__Payee_City__c &amp; &quot; &quot; &amp; AcctSeed__Payee_State__c &amp; &quot; &quot; &amp; AcctSeed__Payee_Postal_Code__c,
+IF(NOT(ISBLANK(AcctSeed__Vendor__c)), AcctSeed__Vendor__r.BillingCity &amp; &quot; &quot; &amp; AcctSeed__Vendor__r.BillingState &amp; &quot; &quot; &amp; AcctSeed__Vendor__r.BillingPostalCode,
+IF(NOT(ISBLANK(AcctSeed__Contact__c)), AcctSeed__Contact__r.MailingCity &amp; &quot; &quot; &amp; AcctSeed__Contact__r.MailingState &amp; &quot; &quot; &amp; AcctSeed__Contact__r.MailingPostalCode,
+IF(NOT(ISBLANK(AcctSeed__Employee__c)), AcctSeed__Employee__r.City &amp; &quot; &quot; &amp; AcctSeed__Employee__r.State &amp; &quot; &quot; &amp; AcctSeed__Employee__r.PostalCode, 
+&quot;&quot;))))</formula>
+        <inlineHelpText>City, State and postal code as it appears on the check.</inlineHelpText>
+        <label>Payee City State Zip</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Payee_City__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>City as it appears on the check.</inlineHelpText>
+        <label>Payee City</label>
+        <length>40</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Payee_Country2__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Country as it appears on the check.</inlineHelpText>
+        <label>Payee Country</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Payee_Country__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(NOT(ISBLANK(AcctSeed__Payee_Country2__c)), AcctSeed__Payee_Country2__c,
+IF(NOT(ISBLANK(AcctSeed__Vendor__c)), AcctSeed__Vendor__r.BillingCountry,
+IF(NOT(ISBLANK(AcctSeed__Contact__c)),AcctSeed__Contact__r.MailingCountry,
+IF(NOT(ISBLANK(AcctSeed__Employee__c)),AcctSeed__Employee__r.Country,
+&quot;&quot;))))</formula>
+        <inlineHelpText>Country as it appears on the check.</inlineHelpText>
+        <label>Payee Country</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Payee_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF( NOT(ISBLANK(AcctSeed__Vendor__c)) , AcctSeed__Vendor__c, 
+IF( NOT(ISBLANK(AcctSeed__Contact__c)) ,  AcctSeed__Contact__c,  
+IF( NOT(ISBLANK(AcctSeed__Employee__c)) ,   AcctSeed__Employee__c,  
+&quot;&quot; )))</formula>
+        <inlineHelpText>Lists either the vendor, contact or the employee as the Payee Id.</inlineHelpText>
+        <label>Payee</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Payee_Postal_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Postal Code as it appears on the check.</inlineHelpText>
+        <label>Payee Postal Code</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Payee_State__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>State as it appears on the check.</inlineHelpText>
+        <label>Payee State</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Payee_Street2__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Street Address as it appears on the check.</inlineHelpText>
+        <label>Payee Street</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Payee_Street__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(NOT(ISBLANK(AcctSeed__Payee_Street2__c)), AcctSeed__Payee_Street2__c,
+IF(NOT(ISBLANK(AcctSeed__Vendor__c)), AcctSeed__Vendor__r.BillingStreet,
+IF(NOT(ISBLANK(AcctSeed__Contact__c)), AcctSeed__Contact__r.MailingStreet,
+IF(NOT(ISBLANK(AcctSeed__Employee__c)), AcctSeed__Employee__r.Street,
+&quot;&quot;))))</formula>
+        <inlineHelpText>Street Address as it appears on the check.</inlineHelpText>
+        <label>Payee Street</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Payee__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF( NOT(ISBLANK(AcctSeed__Alternate_Payee_Name__c)), AcctSeed__Alternate_Payee_Name__c,
+IF( NOT(ISBLANK(AcctSeed__Vendor__c)) , AcctSeed__Vendor__r.Name,
+IF( NOT(ISBLANK(AcctSeed__Contact__c)) , AcctSeed__Contact__r.FirstName &amp; &quot; &quot; &amp; AcctSeed__Contact__r.LastName, 
+IF( NOT(ISBLANK(AcctSeed__Employee__c)) , AcctSeed__Employee__r.FirstName &amp; &quot; &quot; &amp; AcctSeed__Employee__r.LastName, 
+&quot;&quot; ))))</formula>
+        <inlineHelpText>Lists either the vendor, contact or the employee as the Payee. Used in reporting and as a convenient reference to the source record for the Payee.</inlineHelpText>
+        <label>Payee</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Payment_Status__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Shows a status of paid or void.</inlineHelpText>
+        <label>Payment Status</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Paid</fullName>
+                    <default>true</default>
+                    <label>Paid</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Product__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Product</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Cash Disbursements</relationshipLabel>
+        <relationshipName>Cash_Disbursements</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Project_Task__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Used to track a detailed component of Project.</inlineHelpText>
+        <label>Project Task</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>$Source.AcctSeed__Project__c</field>
+                <operation>equals</operation>
+                <valueField>AcctSeed__Project_Task__c.AcctSeed__Project__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>AcctSeed__Project_Task__c</referenceTo>
+        <relationshipLabel>Cash Disbursements</relationshipLabel>
+        <relationshipName>Cash_Disbursements</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Project__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Typically used to track customer engagements or events.</inlineHelpText>
+        <label>Project</label>
+        <referenceTo>AcctSeed__Project__c</referenceTo>
+        <relationshipLabel>Cash Disbursements</relationshipLabel>
+        <relationshipName>Cash_Disbursements</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Reference__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Customer check number or electronic transaction reference.</inlineHelpText>
+        <label>Reference</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Source__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Denotes the source of the cash disbursement either &quot;Manual&quot; or &quot;Payable&quot;.</inlineHelpText>
+        <label>Source</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Manual</fullName>
+                    <default>true</default>
+                    <label>Manual</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Status__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>A value of &quot;Posted&quot; indicates the record is final.</inlineHelpText>
+        <label>Posting Status</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>In Process</fullName>
+                    <default>true</default>
+                    <label>In Process</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Type__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Check or Electronic.</inlineHelpText>
+        <label>Type</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Check</fullName>
+                    <default>false</default>
+                    <label>Check</label>
+                </value>
+                <value>
+                    <fullName>ACH</fullName>
+                    <default>true</default>
+                    <label>ACH</label>
+                </value>
+                <value>
+                    <fullName>Authorize.net</fullName>
+                    <default>false</default>
+                    <label>Authorize.net</label>
+                </value>
+                <value>
+                    <fullName>Credit Card</fullName>
+                    <default>false</default>
+                    <label>Credit Card</label>
+                </value>
+                <value>
+                    <fullName>Wire</fullName>
+                    <default>false</default>
+                    <label>Wire</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Vendor__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>A Cash Disbursement can have either the Account (Vendor), Contact or User (Employee) as the Payee. One object must be chosen.</inlineHelpText>
+        <label>Vendor</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Account.AcctSeed__Accounting_Type__c</field>
+                <operation>contains</operation>
+                <value>Vendor, Customer and Vendor</value>
+            </filterItems>
+            <filterItems>
+                <field>Account.AcctSeed__Accounting_Active__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>true</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Cash Disbursements</relationshipLabel>
+        <relationshipName>Cash_Disbursements</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Void_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Void Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__Void_Description__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Void Description</label>
+        <length>131072</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__X1099_Vendor__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(AND(NOT(ISBLANK(AcctSeed__Vendor__c)),AcctSeed__Vendor__r.AcctSeed__X1099_Vendor__c=True),&quot;Yes&quot;,
+IF(AND(NOT(ISBLANK(AcctSeed__Contact__c)),AcctSeed__Contact__r.AcctSeed__X1099_Vendor__c=True),&quot;Yes&quot;,
+IF(AND(NOT(ISBLANK(AcctSeed__Employee__c)),AcctSeed__Employee__r.AcctSeed__X1099_Vendor__c=True),&quot;Yes&quot;,
+&quot;No&quot;)))</formula>
+        <inlineHelpText>Indicates in Payee is marked as a 1099 vendor.</inlineHelpText>
+        <label>1099 Vendor</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AcctSeed__X1099_Year__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>TEXT(YEAR(AcctSeed__Disbursement_Date__c ))</formula>
+        <inlineHelpText>Records the calendar year a cash disbursement was made based on the disbursement date.</inlineHelpText>
+        <label>1099 Year</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Cash Disbursement</label>
+    <listViews>
+        <fullName>AcctSeed__All</fullName>
+        <columns>NAME</columns>
+        <columns>AcctSeed__Payee__c</columns>
+        <columns>AcctSeed__Accounting_Period__c</columns>
+        <columns>AcctSeed__Disbursement_Date__c</columns>
+        <columns>AcctSeed__Status__c</columns>
+        <columns>AcctSeed__Payment_Status__c</columns>
+        <columns>AcctSeed__Type__c</columns>
+        <columns>AcctSeed__Amount__c</columns>
+        <columns>AcctSeed__Reference__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>AcctSeed__Payee__c</field>
+            <operation>contains</operation>
+            <value>Textr</value>
+        </filters>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>AcctSeed__All1</fullName>
+        <columns>NAME</columns>
+        <columns>AcctSeed__Payee__c</columns>
+        <columns>AcctSeed__Accounting_Period__c</columns>
+        <columns>AcctSeed__Disbursement_Date__c</columns>
+        <columns>AcctSeed__Status__c</columns>
+        <columns>AcctSeed__Payment_Status__c</columns>
+        <columns>AcctSeed__Type__c</columns>
+        <columns>AcctSeed__Amount__c</columns>
+        <columns>AcctSeed__Reference__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>AcctSeed__Payment_Status__c</field>
+            <operation>equals</operation>
+            <value>Paid</value>
+        </filters>
+        <label>Paid</label>
+    </listViews>
+    <listViews>
+        <fullName>AcctSeed__Unposted</fullName>
+        <columns>NAME</columns>
+        <columns>AcctSeed__Payee__c</columns>
+        <columns>AcctSeed__Accounting_Period__c</columns>
+        <columns>AcctSeed__Disbursement_Date__c</columns>
+        <columns>AcctSeed__Status__c</columns>
+        <columns>AcctSeed__Payment_Status__c</columns>
+        <columns>AcctSeed__Type__c</columns>
+        <columns>AcctSeed__Amount__c</columns>
+        <columns>AcctSeed__Reference__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>AcctSeed__Status__c</field>
+            <operation>notEqual</operation>
+            <value>Posted</value>
+        </filters>
+        <label>Unposted</label>
+    </listViews>
+    <listViews>
+        <fullName>AcctSeed__Void</fullName>
+        <columns>NAME</columns>
+        <columns>AcctSeed__Payee__c</columns>
+        <columns>AcctSeed__Accounting_Period__c</columns>
+        <columns>AcctSeed__Disbursement_Date__c</columns>
+        <columns>AcctSeed__Status__c</columns>
+        <columns>AcctSeed__Payment_Status__c</columns>
+        <columns>AcctSeed__Type__c</columns>
+        <columns>AcctSeed__Amount__c</columns>
+        <columns>AcctSeed__Reference__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>AcctSeed__Payment_Status__c</field>
+            <operation>notEqual</operation>
+            <value>Paid</value>
+        </filters>
+        <filters>
+            <field>AcctSeed__Payment_Status__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <label>Void</label>
+    </listViews>
+    <listViews>
+        <fullName>Prepayments</fullName>
+        <columns>NAME</columns>
+        <columns>AcctSeed__Payee__c</columns>
+        <columns>AcctSeed__Accounting_Period__c</columns>
+        <columns>AcctSeed__Disbursement_Date__c</columns>
+        <columns>AcctSeed__Status__c</columns>
+        <columns>AcctSeed__Payment_Status__c</columns>
+        <columns>AcctSeed__Type__c</columns>
+        <columns>AcctSeed__Amount__c</columns>
+        <columns>AcctSeed__Reference__c</columns>
+        <columns>AcctSeed__Applied_Amount__c</columns>
+        <columns>AcctSeed__Balance__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>AcctSeed__Balance__c</field>
+            <operation>greaterThan</operation>
+            <value>0</value>
+        </filters>
+        <label>Prepayments</label>
+    </listViews>
+    <nameField>
+        <displayFormat>CD-{00000}</displayFormat>
+        <label>Cash Disbursement Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Cash Disbursements</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>AcctSeed__Payee__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>AcctSeed__Accounting_Period__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>AcctSeed__Disbursement_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>AcctSeed__Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>AcctSeed__Payment_Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>AcctSeed__Type__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>AcctSeed__Amount__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>AcctSeed__Reference__c</customTabListAdditionalFields>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <listViewButtons>AcctSeed__Create_1099_File</listViewButtons>
+        <lookupDialogsAdditionalFields>AcctSeed__Payee__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>AcctSeed__Accounting_Period__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>AcctSeed__Disbursement_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>AcctSeed__Status__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>AcctSeed__Payment_Status__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>AcctSeed__Type__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>AcctSeed__Amount__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>AcctSeed__Reference__c</lookupDialogsAdditionalFields>
+        <lookupFilterFields>AcctSeed__Check_Number__c</lookupFilterFields>
+        <lookupFilterFields>AcctSeed__Accounting_Period__c</lookupFilterFields>
+        <lookupFilterFields>AcctSeed__Payee__c</lookupFilterFields>
+        <lookupFilterFields>AcctSeed__Status__c</lookupFilterFields>
+        <lookupFilterFields>AcctSeed__Payment_Status__c</lookupFilterFields>
+        <lookupFilterFields>AcctSeed__Type__c</lookupFilterFields>
+        <lookupPhoneDialogsAdditionalFields>AcctSeed__Payee__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>AcctSeed__Accounting_Period__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>AcctSeed__Disbursement_Date__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>AcctSeed__Status__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>AcctSeed__Payment_Status__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>AcctSeed__Type__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>AcctSeed__Amount__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>AcctSeed__Reference__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>AcctSeed__Check_Number__c</searchFilterFields>
+        <searchFilterFields>AcctSeed__Payee__c</searchFilterFields>
+        <searchFilterFields>AcctSeed__Accounting_Period__c</searchFilterFields>
+        <searchFilterFields>AcctSeed__Status__c</searchFilterFields>
+        <searchFilterFields>AcctSeed__Payment_Status__c</searchFilterFields>
+        <searchFilterFields>AcctSeed__Type__c</searchFilterFields>
+        <searchResultsAdditionalFields>AcctSeed__Payee__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>AcctSeed__Accounting_Period__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>AcctSeed__Disbursement_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>AcctSeed__Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>AcctSeed__Payment_Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>AcctSeed__Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>AcctSeed__Amount__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>AcctSeed__Reference__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>AcctSeed__Cash_Disbursement_must_be_positive</fullName>
+        <active>true</active>
+        <errorConditionFormula>AcctSeed__Amount__c &lt;0</errorConditionFormula>
+        <errorDisplayField>AcctSeed__Amount__c</errorDisplayField>
+        <errorMessage>A cash disbursement cannot be a negative amount.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>AcctSeed__GL_Account_Variable_3_Correct_Type</fullName>
+        <active>false</active>
+        <description>Ensures the GL Variable 4 field is of type GL Variable 3</description>
+        <errorConditionFormula>NOT(ISBLANK( AcctSeed__GL_Account_Variable_3__c )) &amp;&amp; TEXT(AcctSeed__GL_Account_Variable_3__r.AcctSeed__Type__c) != &quot;GL Account Variable 3&quot;</errorConditionFormula>
+        <errorDisplayField>AcctSeed__GL_Account_Variable_3__c</errorDisplayField>
+        <errorMessage>The GL Variable must have a Type of &quot;GL Account Variable 3&quot;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>AcctSeed__GL_Account_Variable_4_Correct_Type</fullName>
+        <active>false</active>
+        <description>Ensures the GL Variable 4 field is of type GL Variable 4</description>
+        <errorConditionFormula>NOT(ISBLANK( AcctSeed__GL_Account_Variable_4__c )) &amp;&amp; TEXT(AcctSeed__GL_Account_Variable_4__r.AcctSeed__Type__c) != &quot;GL Account Variable 4&quot;</errorConditionFormula>
+        <errorDisplayField>AcctSeed__GL_Account_Variable_4__c</errorDisplayField>
+        <errorMessage>The GL Variable must have a Type of &quot;GL Account Variable 4&quot;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>AcctSeed__Project_Task_Required_With_Project</fullName>
+        <active>true</active>
+        <description>Rule ensures a Project Task is Required if the Project field is used.</description>
+        <errorConditionFormula>NOT(ISBLANK(AcctSeed__Project__c)) &amp;&amp; ISBLANK(AcctSeed__Project_Task__c)</errorConditionFormula>
+        <errorDisplayField>AcctSeed__Project_Task__c</errorDisplayField>
+        <errorMessage>A project task is required if a project is selected.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>AcctSeed__SameBankGLAccountAndDebitGLAccount</fullName>
+        <active>true</active>
+        <description>The Bank GL Account and the Debit GL Account cannot be set to the same GL Account. Disabling this validation rule can lead to balance discrepancies in your Bank Reconciliation. Accounting Seed recommends this validation rule is not disabled.</description>
+        <errorConditionFormula>AcctSeed__Bank_Account__c = AcctSeed__Debit_GL_Account__c</errorConditionFormula>
+        <errorMessage>You cannot set the Bank GL Account and the Debit GL Account fields to the same GL Account.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>AcctSeed__Apply</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Apply</masterLabel>
+        <openType>sidebar</openType>
+        <page>AcctSeed__CashDisbursementApplyAccountPayable</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>AcctSeed__Apply_Unapply</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Apply/Unapply</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <url>/lightning/cmp/AcctSeed__CashDisbursementApplyNavProxy?AcctSeed__recordId={!AcctSeed__Cash_Disbursement__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>AcctSeed__Create_1099_File</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Create 1099 File</masterLabel>
+        <openType>sidebar</openType>
+        <page>AcctSeed__X1099File</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+    <webLinks>
+        <fullName>AcctSeed__Post</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Post</masterLabel>
+        <openType>sidebar</openType>
+        <page>AcctSeed__CashDisbursementPost</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>AcctSeed__Print_Check</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>page</linkType>
+        <masterLabel>Print Check</masterLabel>
+        <openType>newWindow</openType>
+        <page>AcctSeed__Printcheck</page>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+    </webLinks>
+    <webLinks>
+        <fullName>AcctSeed__Print_Full_Remittance</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>page</linkType>
+        <masterLabel>Print Full Remittance</masterLabel>
+        <openType>newWindow</openType>
+        <page>AcctSeed__CashDisbursementRemittance</page>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+    </webLinks>
+    <webLinks>
+        <fullName>AcctSeed__Unpost</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Unpost</masterLabel>
+        <openType>sidebar</openType>
+        <page>AcctSeed__CashDisbursementUnpost</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>AcctSeed__Update_1099_Info</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>page</linkType>
+        <masterLabel>Update 1099 Info</masterLabel>
+        <openType>replace</openType>
+        <page>AcctSeed__CashDisbursementUpdate1099Info</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+    <webLinks>
+        <fullName>AcctSeed__Update_1099_Info_Detail_Page</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Update 1099 Info</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <url>/apex/AcctSeed__CashDisbursementUpdate1099Info?ids={!AcctSeed__Cash_Disbursement__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>AcctSeed__Void</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Void</masterLabel>
+        <openType>sidebar</openType>
+        <page>AcctSeed__CashDisbursementVoid</page>
+        <protected>false</protected>
+    </webLinks>
+</CustomObject>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Complaint Approver --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Complaint Approver --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Complaint Approver --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Complaint Approver --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Complaint Approver --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Complaint Approver --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Complaint Approver --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Complaint Approver --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- ComplaintApprover_AuditTrail --></label>
+        <name>QPMS__ComplaintApprover_AuditTrail</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Allowed Days --></label>
+        <name>QPMS__Allowed_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Process --></label>
+        <name>QPMS__Approval_Process__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regulatory Assessment</masterLabel>
+            <translation><!-- Regulatory Assessment --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approver --></label>
+        <name>QPMS__Approver_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>QPMS__Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Complaint --></label>
+        <name>QPMS__Complaint_GT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Complaint General Task --></label>
+        <name>QPMS__Complaint_General_Task__c</name>
+        <relationshipLabel><!-- Complaint Approvers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Complaint --></label>
+        <name>QPMS__Complaint__c</name>
+        <relationshipLabel><!-- Complaint Approvers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Customer Experience Type --></label>
+        <name>QPMS__Customer_Experience_Type__c</name>
+        <relationshipLabel><!-- Complaint Approvers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Due Date --></label>
+        <name>QPMS__Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manager --></label>
+        <name>QPMS__Manager__c</name>
+        <relationshipLabel><!-- Complaint Approvers (Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Parent Owner --></label>
+        <name>QPMS__Parent_Owner__c</name>
+        <relationshipLabel><!-- Complaint Approvers (Parent Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RegReport Complaint Id --></label>
+        <name>QPMS__RegReport_Complaint_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- RegReport FollowUpNumber --></label>
+        <name>QPMS__RegReport_FollowUpNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- RegReport Reg Body --></label>
+        <name>QPMS__RegReport_Reg_Body__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regulatory Assessment --></label>
+        <name>QPMS__Regulatory_Assesment__c</name>
+        <relationshipLabel><!-- Complaint Approvers (Regulatory Assessment) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Regulatory Assessment Complaint Id --></label>
+        <name>QPMS__Regulatory_Assessment_Complaint_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regulatory Assessment Regulatory Body --></label>
+        <name>QPMS__Regulatory_Assessment_Regulatory_Body__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regulatory Report --></label>
+        <name>QPMS__Regulatory_Report__c</name>
+        <relationshipLabel><!-- Complaint Approvers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sequence Position --></label>
+        <name>QPMS__Sequence_Position__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sequence --></label>
+        <name>QPMS__Sequence__c</name>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation><!-- 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40</masterLabel>
+            <translation><!-- 40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50</masterLabel>
+            <translation><!-- 50 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60</masterLabel>
+            <translation><!-- 60 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>70</masterLabel>
+            <translation><!-- 70 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>80</masterLabel>
+            <translation><!-- 80 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>90</masterLabel>
+            <translation><!-- 90 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status Updated --></label>
+        <name>QPMS__Status_Updated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>QPMS__Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Started</masterLabel>
+            <translation><!-- Not Started --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recalled</masterLabel>
+            <translation><!-- Recalled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Started</masterLabel>
+            <translation><!-- Started --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Task --></label>
+        <name>QPMS__Task__c</name>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>QPMS__User__c</name>
+        <relationshipLabel><!-- Complaint Approvers (User) --></relationshipLabel>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <nameFieldLabel><!-- Complaint Approver Name --></nameFieldLabel>
+</CustomObjectTranslation>

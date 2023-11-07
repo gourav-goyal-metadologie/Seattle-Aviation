@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Condition Code --></label>
+        <name>inscor__Condition_Code__c</name>
+        <relationshipLabel><!-- Work Order Materials --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inventory --></label>
+        <name>inscor__Inventory__c</name>
+        <relationshipLabel><!-- Work Order Materials --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Invoice Line --></label>
+        <name>inscor__Invoice_Line__c</name>
+        <relationshipLabel><!-- Work Order Materials --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Material Type --></label>
+        <name>inscor__Material_Type__c</name>
+        <picklistValues>
+            <masterLabel>Expendable</masterLabel>
+            <translation><!-- Expendable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair</masterLabel>
+            <translation><!-- Repair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rotable</masterLabel>
+            <translation><!-- Rotable --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Part Number --></label>
+        <name>inscor__Part_Number__c</name>
+        <relationshipLabel><!-- Work Order Materials --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Price --></label>
+        <name>inscor__Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Allocated --></label>
+        <name>inscor__Quantity_Allocated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Invoiced --></label>
+        <name>inscor__Quantity_Invoiced__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Issued --></label>
+        <name>inscor__Quantity_Issued__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Order Task --></label>
+        <name>inscor__Work_Order_Task__c</name>
+        <relationshipLabel><!-- Work Order Materials --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>AvSight Work Order Material Layout</layout>
+        <sections>
+            <label><!-- Quantity --></label>
+            <section>Quantity</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Quantity Allocated cannot be Negative --></errorMessage>
+        <name>inscor__Can_not_be_Negative</name>
+    </validationRules>
+</CustomObjectTranslation>

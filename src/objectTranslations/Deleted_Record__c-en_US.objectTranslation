@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Deleted Record</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Deleted Records</value>
+    </caseValues>
+    <fields>
+        <label><!-- Deleted Record Id --></label>
+        <name>Deleted_Record_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Error --></label>
+        <name>Is_Error__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Processed --></label>
+        <name>Is_Processed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Type --></label>
+        <name>Object_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- YayPay Last Sync Date --></label>
+        <name>YayPay_Last_Sync_Date__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

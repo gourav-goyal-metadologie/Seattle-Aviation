@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Burden Rate --></label>
+        <name>inscor__Burden_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Currency --></label>
+        <name>inscor__Company_Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Skill Rate --></label>
+        <name>inscor__Company_Skill_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Hours --></label>
+        <name>inscor__Estimated_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exchange Rate --></label>
+        <name>inscor__Exchange_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Multiplies the Task Skill Estimated Hours by the quantity of the kits to be built when this template is applied to a Work Order. --></help>
+        <label><!-- Multiply by WO Qty? --></label>
+        <name>inscor__Multiply_by_WO_Qty__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rate Date --></label>
+        <name>inscor__Rate_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Skill Rate --></label>
+        <name>inscor__Skill_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Skill --></label>
+        <name>inscor__Skill__c</name>
+        <relationshipLabel><!-- Work Order Task Skills --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Work Order Task --></label>
+        <name>inscor__Work_Order_Task__c</name>
+        <relationshipLabel><!-- Work Order Task Skills --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Work Order Task Skill Layout</layout>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- Task Skill Information --></label>
+            <section>Task Skill Information</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

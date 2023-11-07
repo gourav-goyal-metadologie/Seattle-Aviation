@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account --></label>
+        <name>DNBI__Account__c</name>
+        <relationshipLabel><!-- Credit Decision History --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contract --></label>
+        <name>DNBI__Contract__c</name>
+        <relationshipLabel><!-- Credit Decision History --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Application Created Date --></label>
+        <name>DNBI__DnB_Application_Created_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Application ID --></label>
+        <name>DNBI__DnB_Application_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Application Modified Date --></label>
+        <name>DNBI__DnB_Application_Modified_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Company Name --></label>
+        <name>DNBI__DnB_Company_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recommended Credit Limit --></label>
+        <name>DNBI__DnB_Credit_Limit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Terms --></label>
+        <name>DNBI__DnB_Credit_Term_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Early Payment Discount --></label>
+        <name>DNBI__DnB_Early_Payment_Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Terms --></label>
+        <name>DNBI__DnB_Payment_Terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Requested Amount --></label>
+        <name>DNBI__DnB_Requested_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>DNBI__DnB_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead --></label>
+        <name>DNBI__Lead__c</name>
+        <relationshipLabel><!-- Credit Decision History --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>DNBI__Opportunity__c</name>
+        <relationshipLabel><!-- Credit Decision History --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Credit Decision History Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

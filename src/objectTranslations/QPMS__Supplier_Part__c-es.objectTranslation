@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Supplier Part</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Supplier Parts</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- PartFieldsForSupplierChangeRequest --></label>
+        <name>QPMS__PartFieldsForSupplierChangeRequest</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- PartFieldsForSupplierChangeRequestDetailFields --></label>
+        <name>QPMS__PartFieldsForSupplierChangeRequestDetail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- PartFieldsForSupplierChangeRequestEdit --></label>
+        <name>QPMS__PartFieldsForSupplierChangeRequestEdit</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- PartInSupplierProfile4SCR --></label>
+        <name>QPMS__PartInSupplierProfile4SCR</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SupplierPartFieldsInAuditTrial --></label>
+        <name>QPMS__SupplierPartFieldsInAuditTrial</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SupplierPartForContextualHelp --></label>
+        <name>QPMS__SupplierPartForContextualHelp</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SupplierPartTabFiledset --></label>
+        <name>QPMS__SupplierPartTabFiledset</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Business Unit --></label>
+        <name>QPMS__Business_Unit__c</name>
+        <picklistValues>
+            <masterLabel>BU 1</masterLabel>
+            <translation><!-- BU 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BU 2</masterLabel>
+            <translation><!-- BU 2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>QPMS__Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commodity Code --></label>
+        <name>QPMS__CommodityCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commodity Code --></label>
+        <name>QPMS__Commodity_Code__c</name>
+        <relationshipLabel><!-- Supplier Parts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Distributor --></label>
+        <name>QPMS__Distributor_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distributor --></label>
+        <name>QPMS__Distributor__c</name>
+        <relationshipLabel><!-- Supplier Parts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Do you have distributor? --></label>
+        <name>QPMS__Do_you_have_distributorv2__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initiating Site Security --></label>
+        <name>QPMS__Initiating_Site_Security__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>QPMS__LocationName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Locations --></label>
+        <name>QPMS__Locations__c</name>
+        <relationshipLabel><!-- Supplier Parts (Locations) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Material Number --></label>
+        <name>QPMS__Material_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Supplier Part --></label>
+        <name>QPMS__Parent_Supplier_Part__c</name>
+        <relationshipLabel><!-- Supplier Parts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Part --></label>
+        <name>QPMS__PartName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part --></label>
+        <name>QPMS__Product__c</name>
+        <relationshipLabel><!-- Supplier Parts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Proposed Status --></label>
+        <name>QPMS__Proposed_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>InActive</masterLabel>
+            <translation><!-- InActive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Part Risk Level --></label>
+        <name>QPMS__Risk_Level__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Site --></label>
+        <name>QPMS__SiteName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Site --></label>
+        <name>QPMS__Site__c</name>
+        <relationshipLabel><!-- Supplier Parts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>QPMS__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cloned</masterLabel>
+            <translation><!-- Cloned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>InActive</masterLabel>
+            <translation><!-- InActive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SupplierChange Type --></label>
+        <name>QPMS__SupplierChange_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier Change --></label>
+        <name>QPMS__SupplierChange__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier Change --></label>
+        <name>QPMS__Supplier_Change__c</name>
+        <relationshipLabel><!-- Supplier Parts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Supplier Part Number --></label>
+        <name>QPMS__Supplier_Part_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier Profile --></label>
+        <name>QPMS__Supplier_Profile__c</name>
+    </fields>
+    <fields>
+        <label><!-- isCloned --></label>
+        <name>QPMS__isCloned__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- site security --></label>
+        <name>QPMS__site_security__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Supplier Part Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Número de pieza del proveedor</nameFieldLabel>
+</CustomObjectTranslation>

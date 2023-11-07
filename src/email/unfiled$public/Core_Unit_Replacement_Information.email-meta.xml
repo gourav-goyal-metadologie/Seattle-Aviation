@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Core Unit Replacement Information</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Core Unit Replacement Information</name>
+    <style>none</style>
+    <subject>{!inscor__Customer_Exchange_Summary__c.Core_Unit_Replacement_Information__c}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

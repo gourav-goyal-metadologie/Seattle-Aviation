@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- CashDisbursementApply --></label>
+        <name>AcctSeed__CashDisbursementApply</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CreditMemoApply --></label>
+        <name>AcctSeed__CreditMemoApply</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- MassAddEditRows --></label>
+        <name>AcctSeed__MassAddEditRows</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Applied Cash Disbursement Count --></label>
+        <name>AcctSeed__AP_Disbursement_Count__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used to specify accounting period for financial reporting. Accounting period status must be open. --></help>
+        <label><!-- Accounting  Period --></label>
+        <name>AcctSeed__Accounting_Period__c</name>
+        <relationshipLabel><!-- Payables (Accounting  Period) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Accounting Year --></label>
+        <name>AcctSeed__Accounting_Year__c</name>
+    </fields>
+    <fields>
+        <help><!-- Aging Category based on Due Date. --></help>
+        <label><!-- Age --></label>
+        <name>AcctSeed__Age__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total - Paid Amount - Credit Memo Applied Amount --></help>
+        <label><!-- Balance Minus Discount --></label>
+        <name>AcctSeed__Balance_Minus_Discount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Remainder of amount to pay via cash disbursement(s). This is Net Amount minus Paid Amount and Credit Memo Applied Amount --></help>
+        <label><!-- Balance --></label>
+        <name>AcctSeed__Balance__c</name>
+    </fields>
+    <fields>
+        <help><!-- The accounting period in which the payable reached a zero balance. Used in generating AP aging history records. This field should never be manually updated. --></help>
+        <label><!-- Closed Accounting  Period --></label>
+        <name>AcctSeed__Closed_Accounting_Period__c</name>
+        <relationshipLabel><!-- Payables (Closed Accounting  Period) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- An Payable can have either the Account (Vendor), Contact or User (Employee) as the Payee. One object must be chosen. --></help>
+        <label><!-- Contact --></label>
+        <name>AcctSeed__Contact__c</name>
+        <relationshipLabel><!-- Payables --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The amount applied to this payable from credit memos. --></help>
+        <label><!-- Credit Memo Applied Amount --></label>
+        <name>AcctSeed__Credit_Memo_Applied_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- The currency conversion rate for the currency. --></help>
+        <label><!-- Currency Conversion Rate --></label>
+        <name>AcctSeed__Currency_Conversion_Rate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used to record vendor invoice or credit memo date. --></help>
+        <label><!-- Issue Date --></label>
+        <name>AcctSeed__Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- The amount taken as a discount in the cash disbursements cycle if the invoice is paid within the number of days specified in the discount days field from the Invoice date. --></help>
+        <label><!-- Discount Amount --></label>
+        <name>AcctSeed__Discount_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date payment is due to the vendor for this invoice. --></help>
+        <label><!-- Due Date --></label>
+        <name>AcctSeed__Due_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- An Payable can have either the Account (Vendor), Contact or User (Employee) as the Payee.  One object must be chosen. --></help>
+        <label><!-- Employee --></label>
+        <name>AcctSeed__Employee__c</name>
+        <relationshipLabel><!-- Payables --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Populate Fixed Asset name to relate Payable. --></help>
+        <label><!-- Fixed Asset --></label>
+        <name>AcctSeed__Fixed_Asset__c</name>
+        <relationshipLabel><!-- Payables --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The total normalized to the base currency. This is Total divided by the Currency Conversion Rate. --></help>
+        <label><!-- Ledger Amount --></label>
+        <name>AcctSeed__Ledger_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ledger --></label>
+        <name>AcctSeed__Ledger__c</name>
+        <relationshipLabel><!-- Payables --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Number of payable lines associated with this record. --></help>
+        <label><!-- Line Count --></label>
+        <name>AcctSeed__Line_Count__c</name>
+    </fields>
+    <fields>
+        <help><!-- Invoice Total - Discount Amount. --></help>
+        <label><!-- Net Amount --></label>
+        <name>AcctSeed__Net_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sum of amount paid on all associated cash disbursements --></help>
+        <label><!-- Paid Amount --></label>
+        <name>AcctSeed__Paid_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Formula field that lists either the vendor, contact or the employee as the Payee Id. --></help>
+        <label><!-- Payee Id --></label>
+        <name>AcctSeed__Payee_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used for Vendor Invoice Number or Expense processing date if payable is generated from expenses. --></help>
+        <label><!-- Payee Reference --></label>
+        <name>AcctSeed__Payee_Reference__c</name>
+    </fields>
+    <fields>
+        <help><!-- Formula field that lists either the vendor, contact or the employee as the Payee. Used in reporting and as a convenient reference to the source record for the Payee. --></help>
+        <label><!-- Payee --></label>
+        <name>AcctSeed__Payee__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is read only for the user. Unpaid means the Payable has not been selected for payment. Paid means a related Cash Disbursement record has been created for this Payable. --></help>
+        <label><!-- Payment Status --></label>
+        <name>AcctSeed__Payment_Status__c</name>
+        <picklistValues>
+            <masterLabel>Unpaid</masterLabel>
+            <translation><!-- Unpaid --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Used for Payable numbering outside of standard Salesforce autonumber. --></help>
+        <label><!-- Proprietary Payable Number --></label>
+        <name>AcctSeed__Proprietary_Payable_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total Purchase Tax amount --></help>
+        <label><!-- Purchase Tax --></label>
+        <name>AcctSeed__Purchase_Tax2__c</name>
+    </fields>
+    <fields>
+        <help><!-- Summary of the Payable Lines&apos; Tax Amount fields --></help>
+        <label><!-- Purchase Tax --></label>
+        <name>AcctSeed__Purchase_Tax3__c</name>
+    </fields>
+    <fields>
+        <help><!-- The associated recurring payable for this record. --></help>
+        <label><!-- Recurring Payable --></label>
+        <name>AcctSeed__Recurring_Account_Payable__c</name>
+        <relationshipLabel><!-- Payables --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reverse-Charge Count --></label>
+        <name>AcctSeed__Reverse_Charge_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reverse-Charge --></label>
+        <name>AcctSeed__Reverse_Charge__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used in approvals and invoices that are in process of being finalized. A posted status indicates the invoice is final and no further changes are to be made. --></help>
+        <label><!-- Posting Status --></label>
+        <name>AcctSeed__Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Process</masterLabel>
+            <translation><!-- In Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting for Approval</masterLabel>
+            <translation><!-- Waiting for Approval --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Summary of all the Payable Lines&apos; Sub-Total fields --></help>
+        <label><!-- Sub-Total --></label>
+        <name>AcctSeed__Sub_Total__c</name>
+    </fields>
+    <fields>
+        <help><!-- The total of all Payable Lines before a discount has been applied. --></help>
+        <label><!-- Total --></label>
+        <name>AcctSeed__Total__c</name>
+    </fields>
+    <fields>
+        <help><!-- Automatically determined by the sum of the Payable Lines. If total Payable lines are negative the document is a Credit Memo. If Positive then it is an Invoice. --></help>
+        <label><!-- Type --></label>
+        <name>AcctSeed__Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- Count of payable lines that are marked as Is VAT Related = true --></help>
+        <label><!-- VAT Line Count --></label>
+        <name>AcctSeed__VAT_Line_Count__c</name>
+    </fields>
+    <fields>
+        <help><!-- An Payable can have either the Account (Vendor), Contact or User (Employee) as the Payee.  One object must be chosen. --></help>
+        <label><!-- Vendor --></label>
+        <name>AcctSeed__Vendor__c</name>
+        <relationshipLabel><!-- Payables --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Vendor Term --></label>
+        <name>Vendor_Term__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Code --></label>
+        <name>inscoras__Owner_Code__c</name>
+        <relationshipLabel><!-- Payables --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Purchase Order --></label>
+        <name>inscoras__Purchase_Order__c</name>
+        <relationshipLabel><!-- Payables --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Repair Order --></label>
+        <name>inscoras__Repair_Order__c</name>
+        <relationshipLabel><!-- Payables --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Transaction Activity --></label>
+        <name>inscoras__Transaction_Activity__c</name>
+        <relationshipLabel><!-- Payables --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Account Payable Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Date Information --></label>
+            <section>Date Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payee Information --></label>
+            <section>Payee Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>AvSight - Account Payable Layout</layout>
+        <sections>
+            <label><!-- AvSight --></label>
+            <section>AvSight</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Date Information --></label>
+            <section>Date Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payee Information --></label>
+            <section>Payee Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SAS Payable Layout</layout>
+        <sections>
+            <label><!-- AvSight --></label>
+            <section>AvSight</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Date Information --></label>
+            <section>Date Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payee Information --></label>
+            <section>Payee Information</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- The accounting period must be open to create a record --></errorMessage>
+        <name>AcctSeed__Accounting_Period_Open_New_Record</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The due date can not be earlier then the issue date --></errorMessage>
+        <name>AcctSeed__Due_Date_Before_Date</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Apply_Credit_Memo --></label>
+        <name>AcctSeed__Apply_Credit_Memo</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Apply_Unapply_Credit_Memo --></label>
+        <name>AcctSeed__Apply_Unapply_Credit_Memo</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Calc_Tax --></label>
+        <name>AcctSeed__Calc_Tax</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Clone_With_Lines --></label>
+        <name>AcctSeed__Clone_With_Lines</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Pay --></label>
+        <name>AcctSeed__Pay</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Pay_Batch --></label>
+        <name>AcctSeed__Pay_Batch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Post --></label>
+        <name>AcctSeed__Post</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Post_Account_Payables --></label>
+        <name>AcctSeed__Post_Account_Payables</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- RecognizeExpense --></label>
+        <name>AcctSeed__RecognizeExpense</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Unpost --></label>
+        <name>AcctSeed__Unpost</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Unpost_Account_Payables --></label>
+        <name>AcctSeed__Unpost_Account_Payables</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,1193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Message to send when condition is true</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>BillNPay__Message_Template__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the Message Template to send when the condition is met</inlineHelpText>
+        <label>Message Template</label>
+        <referenceTo>BillNPay__Message_Templates__c</referenceTo>
+        <relationshipLabel>Notification Messages</relationshipLabel>
+        <relationshipName>Notification_Messages</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Notification_Condition__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Notification Condition</label>
+        <referenceTo>BillNPay__Notifications__c</referenceTo>
+        <relationshipLabel>Notification Messages</relationshipLabel>
+        <relationshipName>Notification_Messages</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Send_the_Message__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>When condition is met, when should the message be sent</inlineHelpText>
+        <label>Send the Message</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Now</fullName>
+                    <default>false</default>
+                    <label>Now</label>
+                </value>
+                <value>
+                    <fullName>Send Tomorrow</fullName>
+                    <default>false</default>
+                    <label>Send Tomorrow</label>
+                </value>
+                <value>
+                    <fullName>As Soon As Possible</fullName>
+                    <default>false</default>
+                    <label>As Soon As Possible</label>
+                </value>
+                <value>
+                    <fullName>On Next Day of Month</fullName>
+                    <default>false</default>
+                    <label>On Next Day of Month</label>
+                </value>
+                <value>
+                    <fullName>On Next Day of Week</fullName>
+                    <default>false</default>
+                    <label>On Next Day of Week</label>
+                </value>
+                <value>
+                    <fullName>Days Before Due Date</fullName>
+                    <default>false</default>
+                    <label>Days Before Due Date</label>
+                </value>
+                <value>
+                    <fullName>Days After Due Date</fullName>
+                    <default>false</default>
+                    <label>Days After Due Date</label>
+                </value>
+                <value>
+                    <fullName>On Due Date</fullName>
+                    <default>false</default>
+                    <label>On Due Date</label>
+                </value>
+                <value>
+                    <fullName>Days From Invoice Creation</fullName>
+                    <default>false</default>
+                    <label>Days From Invoice Creation</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BillNPay__Value__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Value</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>BillNPay__Send_the_Message__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0</fullName>
+                    <default>false</default>
+                    <label>0</label>
+                </value>
+                <value>
+                    <fullName>Monday</fullName>
+                    <default>false</default>
+                    <label>Monday</label>
+                </value>
+                <value>
+                    <fullName>Tuesday</fullName>
+                    <default>false</default>
+                    <label>Tuesday</label>
+                </value>
+                <value>
+                    <fullName>Wednesday</fullName>
+                    <default>false</default>
+                    <label>Wednesday</label>
+                </value>
+                <value>
+                    <fullName>Thursday</fullName>
+                    <default>false</default>
+                    <label>Thursday</label>
+                </value>
+                <value>
+                    <fullName>Friday</fullName>
+                    <default>false</default>
+                    <label>Friday</label>
+                </value>
+                <value>
+                    <fullName>Saturday</fullName>
+                    <default>false</default>
+                    <label>Saturday</label>
+                </value>
+                <value>
+                    <fullName>Sunday</fullName>
+                    <default>false</default>
+                    <label>Sunday</label>
+                </value>
+                <value>
+                    <fullName>Day 1</fullName>
+                    <default>false</default>
+                    <label>Day 1</label>
+                </value>
+                <value>
+                    <fullName>Day 2</fullName>
+                    <default>false</default>
+                    <label>Day 2</label>
+                </value>
+                <value>
+                    <fullName>Day 3</fullName>
+                    <default>false</default>
+                    <label>Day 3</label>
+                </value>
+                <value>
+                    <fullName>Day 4</fullName>
+                    <default>false</default>
+                    <label>Day 4</label>
+                </value>
+                <value>
+                    <fullName>Day 5</fullName>
+                    <default>false</default>
+                    <label>Day 5</label>
+                </value>
+                <value>
+                    <fullName>Day 6</fullName>
+                    <default>false</default>
+                    <label>Day 6</label>
+                </value>
+                <value>
+                    <fullName>Day 7</fullName>
+                    <default>false</default>
+                    <label>Day 7</label>
+                </value>
+                <value>
+                    <fullName>Day 8</fullName>
+                    <default>false</default>
+                    <label>Day 8</label>
+                </value>
+                <value>
+                    <fullName>Day 9</fullName>
+                    <default>false</default>
+                    <label>Day 9</label>
+                </value>
+                <value>
+                    <fullName>Day 10</fullName>
+                    <default>false</default>
+                    <label>Day 10</label>
+                </value>
+                <value>
+                    <fullName>Day 11</fullName>
+                    <default>false</default>
+                    <label>Day 11</label>
+                </value>
+                <value>
+                    <fullName>Day 12</fullName>
+                    <default>false</default>
+                    <label>Day 12</label>
+                </value>
+                <value>
+                    <fullName>Day 13</fullName>
+                    <default>false</default>
+                    <label>Day 13</label>
+                </value>
+                <value>
+                    <fullName>Day 14</fullName>
+                    <default>false</default>
+                    <label>Day 14</label>
+                </value>
+                <value>
+                    <fullName>Day 15</fullName>
+                    <default>false</default>
+                    <label>Day 15</label>
+                </value>
+                <value>
+                    <fullName>Day 16</fullName>
+                    <default>false</default>
+                    <label>Day 16</label>
+                </value>
+                <value>
+                    <fullName>Day 17</fullName>
+                    <default>false</default>
+                    <label>Day 17</label>
+                </value>
+                <value>
+                    <fullName>Day 18</fullName>
+                    <default>false</default>
+                    <label>Day 18</label>
+                </value>
+                <value>
+                    <fullName>Day 19</fullName>
+                    <default>false</default>
+                    <label>Day 19</label>
+                </value>
+                <value>
+                    <fullName>Day 20</fullName>
+                    <default>false</default>
+                    <label>Day 20</label>
+                </value>
+                <value>
+                    <fullName>Day 21</fullName>
+                    <default>false</default>
+                    <label>Day 21</label>
+                </value>
+                <value>
+                    <fullName>Day 22</fullName>
+                    <default>false</default>
+                    <label>Day 22</label>
+                </value>
+                <value>
+                    <fullName>Day 23</fullName>
+                    <default>false</default>
+                    <label>Day 23</label>
+                </value>
+                <value>
+                    <fullName>Day 24</fullName>
+                    <default>false</default>
+                    <label>Day 24</label>
+                </value>
+                <value>
+                    <fullName>Day 25</fullName>
+                    <default>false</default>
+                    <label>Day 25</label>
+                </value>
+                <value>
+                    <fullName>Day 26</fullName>
+                    <default>false</default>
+                    <label>Day 26</label>
+                </value>
+                <value>
+                    <fullName>Day 27</fullName>
+                    <default>false</default>
+                    <label>Day 27</label>
+                </value>
+                <value>
+                    <fullName>Day 28</fullName>
+                    <default>false</default>
+                    <label>Day 28</label>
+                </value>
+                <value>
+                    <fullName>Day 29</fullName>
+                    <default>false</default>
+                    <label>Day 29</label>
+                </value>
+                <value>
+                    <fullName>Day 30</fullName>
+                    <default>false</default>
+                    <label>Day 30</label>
+                </value>
+                <value>
+                    <fullName>1 Day Before</fullName>
+                    <default>false</default>
+                    <label>1 Day Before</label>
+                </value>
+                <value>
+                    <fullName>2 Day Before</fullName>
+                    <default>false</default>
+                    <label>2 Day Before</label>
+                </value>
+                <value>
+                    <fullName>3 Day Before</fullName>
+                    <default>false</default>
+                    <label>3 Day Before</label>
+                </value>
+                <value>
+                    <fullName>4 Day Before</fullName>
+                    <default>false</default>
+                    <label>4 Day Before</label>
+                </value>
+                <value>
+                    <fullName>5 Day Before</fullName>
+                    <default>false</default>
+                    <label>5 Day Before</label>
+                </value>
+                <value>
+                    <fullName>6 Day Before</fullName>
+                    <default>false</default>
+                    <label>6 Day Before</label>
+                </value>
+                <value>
+                    <fullName>7 Day Before</fullName>
+                    <default>false</default>
+                    <label>7 Day Before</label>
+                </value>
+                <value>
+                    <fullName>8 Day Before</fullName>
+                    <default>false</default>
+                    <label>8 Day Before</label>
+                </value>
+                <value>
+                    <fullName>9 Day Before</fullName>
+                    <default>false</default>
+                    <label>9 Day Before</label>
+                </value>
+                <value>
+                    <fullName>10 Day Before</fullName>
+                    <default>false</default>
+                    <label>10 Day Before</label>
+                </value>
+                <value>
+                    <fullName>11 Day Before</fullName>
+                    <default>false</default>
+                    <label>11 Day Before</label>
+                </value>
+                <value>
+                    <fullName>12 Day Before</fullName>
+                    <default>false</default>
+                    <label>12 Day Before</label>
+                </value>
+                <value>
+                    <fullName>13 Day Before</fullName>
+                    <default>false</default>
+                    <label>13 Day Before</label>
+                </value>
+                <value>
+                    <fullName>14 Day Before</fullName>
+                    <default>false</default>
+                    <label>14 Day Before</label>
+                </value>
+                <value>
+                    <fullName>15 Day Before</fullName>
+                    <default>false</default>
+                    <label>15 Day Before</label>
+                </value>
+                <value>
+                    <fullName>16 Day Before</fullName>
+                    <default>false</default>
+                    <label>16 Day Before</label>
+                </value>
+                <value>
+                    <fullName>17 Day Before</fullName>
+                    <default>false</default>
+                    <label>17 Day Before</label>
+                </value>
+                <value>
+                    <fullName>18 Day Before</fullName>
+                    <default>false</default>
+                    <label>18 Day Before</label>
+                </value>
+                <value>
+                    <fullName>19 Day Before</fullName>
+                    <default>false</default>
+                    <label>19 Day Before</label>
+                </value>
+                <value>
+                    <fullName>20 Day Before</fullName>
+                    <default>false</default>
+                    <label>20 Day Before</label>
+                </value>
+                <value>
+                    <fullName>21 Day Before</fullName>
+                    <default>false</default>
+                    <label>21 Day Before</label>
+                </value>
+                <value>
+                    <fullName>22 Day Before</fullName>
+                    <default>false</default>
+                    <label>22 Day Before</label>
+                </value>
+                <value>
+                    <fullName>23 Day Before</fullName>
+                    <default>false</default>
+                    <label>23 Day Before</label>
+                </value>
+                <value>
+                    <fullName>24 Day Before</fullName>
+                    <default>false</default>
+                    <label>24 Day Before</label>
+                </value>
+                <value>
+                    <fullName>25 Day Before</fullName>
+                    <default>false</default>
+                    <label>25 Day Before</label>
+                </value>
+                <value>
+                    <fullName>26 Day Before</fullName>
+                    <default>false</default>
+                    <label>26 Day Before</label>
+                </value>
+                <value>
+                    <fullName>27 Day Before</fullName>
+                    <default>false</default>
+                    <label>27 Day Before</label>
+                </value>
+                <value>
+                    <fullName>28 Day Before</fullName>
+                    <default>false</default>
+                    <label>28 Day Before</label>
+                </value>
+                <value>
+                    <fullName>29 Day Before</fullName>
+                    <default>false</default>
+                    <label>29 Day Before</label>
+                </value>
+                <value>
+                    <fullName>30 Day Before</fullName>
+                    <default>false</default>
+                    <label>30 Day Before</label>
+                </value>
+                <value>
+                    <fullName>1 Day After</fullName>
+                    <default>false</default>
+                    <label>1 Day After</label>
+                </value>
+                <value>
+                    <fullName>2 Day After</fullName>
+                    <default>false</default>
+                    <label>2 Day After</label>
+                </value>
+                <value>
+                    <fullName>3 Day After</fullName>
+                    <default>false</default>
+                    <label>3 Day After</label>
+                </value>
+                <value>
+                    <fullName>4 Day After</fullName>
+                    <default>false</default>
+                    <label>4 Day After</label>
+                </value>
+                <value>
+                    <fullName>5 Day After</fullName>
+                    <default>false</default>
+                    <label>5 Day After</label>
+                </value>
+                <value>
+                    <fullName>6 Day After</fullName>
+                    <default>false</default>
+                    <label>6 Day After</label>
+                </value>
+                <value>
+                    <fullName>7 Day After</fullName>
+                    <default>false</default>
+                    <label>7 Day After</label>
+                </value>
+                <value>
+                    <fullName>8 Day After</fullName>
+                    <default>false</default>
+                    <label>8 Day After</label>
+                </value>
+                <value>
+                    <fullName>9 Day After</fullName>
+                    <default>false</default>
+                    <label>9 Day After</label>
+                </value>
+                <value>
+                    <fullName>10 Day After</fullName>
+                    <default>false</default>
+                    <label>10 Day After</label>
+                </value>
+                <value>
+                    <fullName>11 Day After</fullName>
+                    <default>false</default>
+                    <label>11 Day After</label>
+                </value>
+                <value>
+                    <fullName>12 Day After</fullName>
+                    <default>false</default>
+                    <label>12 Day After</label>
+                </value>
+                <value>
+                    <fullName>13 Day After</fullName>
+                    <default>false</default>
+                    <label>13 Day After</label>
+                </value>
+                <value>
+                    <fullName>14 Day After</fullName>
+                    <default>false</default>
+                    <label>14 Day After</label>
+                </value>
+                <value>
+                    <fullName>15 Day After</fullName>
+                    <default>false</default>
+                    <label>15 Day After</label>
+                </value>
+                <value>
+                    <fullName>16 Day After</fullName>
+                    <default>false</default>
+                    <label>16 Day After</label>
+                </value>
+                <value>
+                    <fullName>17 Day After</fullName>
+                    <default>false</default>
+                    <label>17 Day After</label>
+                </value>
+                <value>
+                    <fullName>18 Day After</fullName>
+                    <default>false</default>
+                    <label>18 Day After</label>
+                </value>
+                <value>
+                    <fullName>19 Day After</fullName>
+                    <default>false</default>
+                    <label>19 Day After</label>
+                </value>
+                <value>
+                    <fullName>20 Day After</fullName>
+                    <default>false</default>
+                    <label>20 Day After</label>
+                </value>
+                <value>
+                    <fullName>21 Day After</fullName>
+                    <default>false</default>
+                    <label>21 Day After</label>
+                </value>
+                <value>
+                    <fullName>22 Day After</fullName>
+                    <default>false</default>
+                    <label>22 Day After</label>
+                </value>
+                <value>
+                    <fullName>23 Day After</fullName>
+                    <default>false</default>
+                    <label>23 Day After</label>
+                </value>
+                <value>
+                    <fullName>24 Day After</fullName>
+                    <default>false</default>
+                    <label>24 Day After</label>
+                </value>
+                <value>
+                    <fullName>25 Day After</fullName>
+                    <default>false</default>
+                    <label>25 Day After</label>
+                </value>
+                <value>
+                    <fullName>26 Day After</fullName>
+                    <default>false</default>
+                    <label>26 Day After</label>
+                </value>
+                <value>
+                    <fullName>27 Day After</fullName>
+                    <default>false</default>
+                    <label>27 Day After</label>
+                </value>
+                <value>
+                    <fullName>28 Day After</fullName>
+                    <default>false</default>
+                    <label>28 Day After</label>
+                </value>
+                <value>
+                    <fullName>29 Day After</fullName>
+                    <default>false</default>
+                    <label>29 Day After</label>
+                </value>
+                <value>
+                    <fullName>30 Day After</fullName>
+                    <default>false</default>
+                    <label>30 Day After</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Now</controllingFieldValue>
+                <controllingFieldValue>Send Tomorrow</controllingFieldValue>
+                <controllingFieldValue>As Soon As Possible</controllingFieldValue>
+                <controllingFieldValue>On Due Date</controllingFieldValue>
+                <valueName>0</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>On Next Day of Month</controllingFieldValue>
+                <valueName>Day 1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>On Next Day of Month</controllingFieldValue>
+                <valueName>Day 2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>On Next Day of Month</controllingFieldValue>
+                <valueName>Day 3</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>On Next Day of Month</controllingFieldValue>
+                <valueName>Day 4</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>On Next Day of Month</controllingFieldValue>
+                <valueName>Day 5</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>On Next Day of Month</controllingFieldValue>
+                <valueName>Day 6</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>On Next Day of Month</controllingFieldValue>
+                <valueName>Day 7</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>On Next Day of Month</controllingFieldValue>
+                <valueName>Day 8</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>On Next Day of Month</controllingFieldValue>
+                <valueName>Day 9</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>On Next Day of Month</controllingFieldValue>
+                <valueName>Day 10</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>On Next Day of Month</controllingFieldValue>
+                <valueName>Day 11</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>On Next Day of Month</controllingFieldValue>
+                <valueName>Day 12</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>On Next Day of Month</controllingFieldValue>
+                <valueName>Day 13</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>On Next Day of Month</controllingFieldValue>
+                <valueName>Day 14</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>On Next Day of Month</controllingFieldValue>
+                <valueName>Day 15</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>On Next Day of Month</controllingFieldValue>
+                <valueName>Day 16</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>On Next Day of Month</controllingFieldValue>
+                <valueName>Day 17</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>On Next Day of Month</controllingFieldValue>
+                <valueName>Day 18</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>On Next Day of Month</controllingFieldValue>
+                <valueName>Day 19</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>On Next Day of Month</controllingFieldValue>
+                <valueName>Day 20</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>On Next Day of Month</controllingFieldValue>
+                <valueName>Day 21</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>On Next Day of Month</controllingFieldValue>
+                <valueName>Day 22</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>On Next Day of Month</controllingFieldValue>
+                <valueName>Day 23</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>On Next Day of Month</controllingFieldValue>
+                <valueName>Day 24</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>On Next Day of Month</controllingFieldValue>
+                <valueName>Day 25</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>On Next Day of Month</controllingFieldValue>
+                <valueName>Day 26</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>On Next Day of Month</controllingFieldValue>
+                <valueName>Day 27</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>On Next Day of Month</controllingFieldValue>
+                <valueName>Day 28</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>On Next Day of Month</controllingFieldValue>
+                <valueName>Day 29</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>On Next Day of Month</controllingFieldValue>
+                <valueName>Day 30</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>On Next Day of Week</controllingFieldValue>
+                <valueName>Monday</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>On Next Day of Week</controllingFieldValue>
+                <valueName>Tuesday</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>On Next Day of Week</controllingFieldValue>
+                <valueName>Wednesday</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>On Next Day of Week</controllingFieldValue>
+                <valueName>Thursday</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>On Next Day of Week</controllingFieldValue>
+                <valueName>Friday</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>On Next Day of Week</controllingFieldValue>
+                <valueName>Saturday</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>On Next Day of Week</controllingFieldValue>
+                <valueName>Sunday</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days Before Due Date</controllingFieldValue>
+                <valueName>1 Day Before</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days Before Due Date</controllingFieldValue>
+                <valueName>2 Day Before</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days Before Due Date</controllingFieldValue>
+                <valueName>3 Day Before</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days Before Due Date</controllingFieldValue>
+                <valueName>4 Day Before</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days Before Due Date</controllingFieldValue>
+                <valueName>5 Day Before</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days Before Due Date</controllingFieldValue>
+                <valueName>6 Day Before</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days Before Due Date</controllingFieldValue>
+                <valueName>7 Day Before</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days Before Due Date</controllingFieldValue>
+                <valueName>8 Day Before</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days Before Due Date</controllingFieldValue>
+                <valueName>9 Day Before</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days Before Due Date</controllingFieldValue>
+                <valueName>10 Day Before</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days Before Due Date</controllingFieldValue>
+                <valueName>11 Day Before</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days Before Due Date</controllingFieldValue>
+                <valueName>12 Day Before</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days Before Due Date</controllingFieldValue>
+                <valueName>13 Day Before</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days Before Due Date</controllingFieldValue>
+                <valueName>14 Day Before</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days Before Due Date</controllingFieldValue>
+                <valueName>15 Day Before</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days Before Due Date</controllingFieldValue>
+                <valueName>16 Day Before</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days Before Due Date</controllingFieldValue>
+                <valueName>17 Day Before</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days Before Due Date</controllingFieldValue>
+                <valueName>18 Day Before</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days Before Due Date</controllingFieldValue>
+                <valueName>19 Day Before</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days Before Due Date</controllingFieldValue>
+                <valueName>20 Day Before</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days Before Due Date</controllingFieldValue>
+                <valueName>21 Day Before</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days Before Due Date</controllingFieldValue>
+                <valueName>22 Day Before</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days Before Due Date</controllingFieldValue>
+                <valueName>23 Day Before</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days Before Due Date</controllingFieldValue>
+                <valueName>24 Day Before</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days Before Due Date</controllingFieldValue>
+                <valueName>25 Day Before</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days Before Due Date</controllingFieldValue>
+                <valueName>26 Day Before</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days Before Due Date</controllingFieldValue>
+                <valueName>27 Day Before</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days Before Due Date</controllingFieldValue>
+                <valueName>28 Day Before</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days Before Due Date</controllingFieldValue>
+                <valueName>29 Day Before</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days Before Due Date</controllingFieldValue>
+                <valueName>30 Day Before</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days After Due Date</controllingFieldValue>
+                <controllingFieldValue>Days From Invoice Creation</controllingFieldValue>
+                <valueName>1 Day After</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days After Due Date</controllingFieldValue>
+                <controllingFieldValue>Days From Invoice Creation</controllingFieldValue>
+                <valueName>2 Day After</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days After Due Date</controllingFieldValue>
+                <controllingFieldValue>Days From Invoice Creation</controllingFieldValue>
+                <valueName>3 Day After</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days After Due Date</controllingFieldValue>
+                <controllingFieldValue>Days From Invoice Creation</controllingFieldValue>
+                <valueName>4 Day After</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days After Due Date</controllingFieldValue>
+                <controllingFieldValue>Days From Invoice Creation</controllingFieldValue>
+                <valueName>5 Day After</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days After Due Date</controllingFieldValue>
+                <controllingFieldValue>Days From Invoice Creation</controllingFieldValue>
+                <valueName>6 Day After</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days After Due Date</controllingFieldValue>
+                <controllingFieldValue>Days From Invoice Creation</controllingFieldValue>
+                <valueName>7 Day After</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days After Due Date</controllingFieldValue>
+                <controllingFieldValue>Days From Invoice Creation</controllingFieldValue>
+                <valueName>8 Day After</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days After Due Date</controllingFieldValue>
+                <controllingFieldValue>Days From Invoice Creation</controllingFieldValue>
+                <valueName>9 Day After</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days After Due Date</controllingFieldValue>
+                <controllingFieldValue>Days From Invoice Creation</controllingFieldValue>
+                <valueName>10 Day After</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days After Due Date</controllingFieldValue>
+                <controllingFieldValue>Days From Invoice Creation</controllingFieldValue>
+                <valueName>11 Day After</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days After Due Date</controllingFieldValue>
+                <controllingFieldValue>Days From Invoice Creation</controllingFieldValue>
+                <valueName>12 Day After</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days After Due Date</controllingFieldValue>
+                <controllingFieldValue>Days From Invoice Creation</controllingFieldValue>
+                <valueName>13 Day After</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days After Due Date</controllingFieldValue>
+                <controllingFieldValue>Days From Invoice Creation</controllingFieldValue>
+                <valueName>14 Day After</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days After Due Date</controllingFieldValue>
+                <controllingFieldValue>Days From Invoice Creation</controllingFieldValue>
+                <valueName>15 Day After</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days After Due Date</controllingFieldValue>
+                <controllingFieldValue>Days From Invoice Creation</controllingFieldValue>
+                <valueName>16 Day After</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days After Due Date</controllingFieldValue>
+                <controllingFieldValue>Days From Invoice Creation</controllingFieldValue>
+                <valueName>17 Day After</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days After Due Date</controllingFieldValue>
+                <controllingFieldValue>Days From Invoice Creation</controllingFieldValue>
+                <valueName>18 Day After</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days After Due Date</controllingFieldValue>
+                <controllingFieldValue>Days From Invoice Creation</controllingFieldValue>
+                <valueName>19 Day After</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days After Due Date</controllingFieldValue>
+                <controllingFieldValue>Days From Invoice Creation</controllingFieldValue>
+                <valueName>20 Day After</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days After Due Date</controllingFieldValue>
+                <controllingFieldValue>Days From Invoice Creation</controllingFieldValue>
+                <valueName>21 Day After</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days After Due Date</controllingFieldValue>
+                <controllingFieldValue>Days From Invoice Creation</controllingFieldValue>
+                <valueName>22 Day After</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days After Due Date</controllingFieldValue>
+                <controllingFieldValue>Days From Invoice Creation</controllingFieldValue>
+                <valueName>23 Day After</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days After Due Date</controllingFieldValue>
+                <controllingFieldValue>Days From Invoice Creation</controllingFieldValue>
+                <valueName>24 Day After</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days After Due Date</controllingFieldValue>
+                <controllingFieldValue>Days From Invoice Creation</controllingFieldValue>
+                <valueName>25 Day After</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days After Due Date</controllingFieldValue>
+                <controllingFieldValue>Days From Invoice Creation</controllingFieldValue>
+                <valueName>26 Day After</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days After Due Date</controllingFieldValue>
+                <controllingFieldValue>Days From Invoice Creation</controllingFieldValue>
+                <valueName>27 Day After</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days After Due Date</controllingFieldValue>
+                <controllingFieldValue>Days From Invoice Creation</controllingFieldValue>
+                <valueName>28 Day After</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days After Due Date</controllingFieldValue>
+                <controllingFieldValue>Days From Invoice Creation</controllingFieldValue>
+                <valueName>29 Day After</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Days After Due Date</controllingFieldValue>
+                <controllingFieldValue>Days From Invoice Creation</controllingFieldValue>
+                <valueName>30 Day After</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <label>Notification Message</label>
+    <listViews>
+        <fullName>BillNPay__All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>NM-{000}</displayFormat>
+        <label>Notification Message Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Notification Messages</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

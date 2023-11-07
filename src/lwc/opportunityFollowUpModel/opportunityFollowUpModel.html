@@ -1,0 +1,33 @@
+<template>
+    <!-- used to get record id -->
+    <div style="display: none;">
+        {recordId}
+    </div>
+
+    <template if:true={isLoading}>
+      <lightning-spinner></lightning-spinner>
+    </template>
+    <!-- sldsValidatorIgnoreNextLine -->
+    <lightning-quick-action-panel header="Follow Up Email">
+        <!-- Email Body -->
+        <div class="">
+            <template if:true={isEmailBodyReady}>
+              <lightning-input class="slds-p-around_small" type="text" name="Subject" title="Subject" label="Subject" value={emailbody.Subject} onchange={inputChangeHandler}></lightning-input>
+              <lightning-input-rich-text class="slds-p-around_small" name="TextBody" title="Text Body" label="Text Body" value={emailbody.TextBody} onchange={inputChangeHandler}></lightning-input-rich-text>  
+            </template>
+        </div>
+        
+        <div if:true={showPdf} class="slds-p-around_small">
+          <iframe frameborder="0" src={generateQuoteUrl} width="100%" height="500px;"></iframe>
+        </div>
+
+        <!-- Footer Section -->
+        <div slot="footer">
+          <div class="slds-align_absolute-center">
+            <lightning-button variant="neutral" class="slds-p-around_small" label="Cancel" onclick={closeAction}></lightning-button>
+            <lightning-button variant="brand" class="slds-p-around_small" label="Send Email"  onclick={sendEmail}></lightning-button>
+          </div>
+        </div>
+      </lightning-quick-action-panel>
+    
+</template>

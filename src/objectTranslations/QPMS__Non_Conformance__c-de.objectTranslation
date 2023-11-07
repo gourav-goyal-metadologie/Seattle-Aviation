@@ -1,0 +1,1294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Non-Conformance --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Non-Conformance --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Non-Conformance --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Non-Conformance --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Non-Conformance --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Non-Conformance --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Non-Conformance --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Non-Conformance --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Additional Information --></label>
+        <name>QPMS__Additional_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Addressed Through Capa --></label>
+        <name>QPMS__Addressed_Through_Capa</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ContextualHelpForAdditionalInformation --></label>
+        <name>QPMS__ContextualHelpForAdditionalInformation</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Contextualhelp for new NC initiation --></label>
+        <name>QPMS__Contextualhelp_for_new_NC_initiation</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Contextualhelp for reporter information --></label>
+        <name>QPMS__Contextualhelp_for_reporter_information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Contextualhelp for user information --></label>
+        <name>QPMS__Contextualhelp_for_user_information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Contextualhelpmoreinforesolution --></label>
+        <name>QPMS__Contextualhelpmoreinforesolution</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- DynamicContextualhelp --></label>
+        <name>QPMS__DynamicContextualhelp</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- DynamicContextualhelpforresolution --></label>
+        <name>QPMS__DynamicContextualhelpforresolution</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Email Fields --></label>
+        <name>QPMS__Email_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- FieldsetforDynamicContextualhelp --></label>
+        <name>QPMS__FieldsetforDynamicContextualhelp</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- NC Approval --></label>
+        <name>QPMS__NC_Approval_Audit_Trail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- NC CustomFields --></label>
+        <name>QPMS__NC_CustomFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- NC Header --></label>
+        <name>QPMS__NC_Header</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- NC Header For Mobile --></label>
+        <name>QPMS__NC_Header_For_Mobile</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- NC Initiation --></label>
+        <name>QPMS__NC_Initiation</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- NC Initiation --></label>
+        <name>QPMS__NC_Initiation_With_Type</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- NC Initiation with NC Type --></label>
+        <name>QPMS__NC_Initiation_with_NC_Type</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- NC Request for NC Type --></label>
+        <name>QPMS__NC_Request_for_NC_Type</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- NC Search List Fields --></label>
+        <name>QPMS__NC_Search_List_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Void NC --></label>
+        <name>QPMS__NC_Void</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- NC Workflow --></label>
+        <name>QPMS__NC_Workflow</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Nc Save --></label>
+        <name>QPMS__Nc_Save</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- NonConformance View --></label>
+        <name>QPMS__NonConformance_View</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Non-Conformance --></label>
+        <name>QPMS__Non_Conformance_fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QueryFields --></label>
+        <name>QPMS__QueryFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Used in Reporter Information Tab NC Init --></label>
+        <name>QPMS__Repoter_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Resolution --></label>
+        <name>QPMS__ResolutionFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Resolution Approval --></label>
+        <name>QPMS__Resolution_Approval</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Resolution Fields --></label>
+        <name>QPMS__Resolution_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Risk Assessment --></label>
+        <name>QPMS__Risk_Assessment</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Risk Assessment Pannel --></label>
+        <name>QPMS__Risk_Assessment_Pannel</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SQM_NCListInSP --></label>
+        <name>QPMS__SQM_NCListInSP</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UserInformation --></label>
+        <name>QPMS__UserInformation</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- WebServiceResponse --></label>
+        <name>QPMS__WebServiceResponse</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- dynamiccontextualhelpContainment --></label>
+        <name>QPMS__dynamiccontextualhelpContainment</name>
+    </fieldSets>
+    <fields>
+        <label><!-- AddCapaRequest --></label>
+        <name>QPMS__AddCapaRequest__c</name>
+    </fields>
+    <fields>
+        <label><!-- Age --></label>
+        <name>QPMS__Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Age for Reporting --></label>
+        <name>QPMS__Age_for_Reporting__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allow Workflow Configuration --></label>
+        <name>QPMS__Allow_Workflow_Configuration__c</name>
+    </fields>
+    <fields>
+        <label><!-- ApprovalProcess --></label>
+        <name>QPMS__ApprovalProcess__c</name>
+        <picklistValues>
+            <masterLabel>Change Owner</masterLabel>
+            <translation>Besitzer wechseln</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolution</masterLabel>
+            <translation>Auflösung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Void NC</masterLabel>
+            <translation>Nichtig NC</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>QPMS__ApprovalStatus__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>Genehmigt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation>Genehmigung ausstehend</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recalled</masterLabel>
+            <translation>Zurückgerufen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>Abgelehnt</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approval Group --></label>
+        <name>QPMS__Approval_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Required --></label>
+        <name>QPMS__Approval_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approver 1 --></label>
+        <name>QPMS__Approver_1__c</name>
+        <relationshipLabel><!-- Non-Conformances (Approver 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 2 --></label>
+        <name>QPMS__Approver_2__c</name>
+        <relationshipLabel><!-- Non-Conformances (Approver 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 3 --></label>
+        <name>QPMS__Approver_3__c</name>
+        <relationshipLabel><!-- Non-Conformances (Approver 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 4 --></label>
+        <name>QPMS__Approver_4__c</name>
+        <relationshipLabel><!-- Non-Conformances (Approver 4) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 5 --></label>
+        <name>QPMS__Approver_5__c</name>
+        <relationshipLabel><!-- Non-Conformances (Approver 5) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 6 --></label>
+        <name>QPMS__Approver_6__c</name>
+        <relationshipLabel><!-- Non-Conformances (Approver 6) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 7 --></label>
+        <name>QPMS__Approver_7__c</name>
+        <relationshipLabel><!-- Non-Conformances (Approver 7) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 8 --></label>
+        <name>QPMS__Approver_8__c</name>
+        <relationshipLabel><!-- Non-Conformances (Approver 8) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 9 --></label>
+        <name>QPMS__Approver_9__c</name>
+        <relationshipLabel><!-- Non-Conformances (Approver 9) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver --></label>
+        <name>QPMS__Approver__c</name>
+        <relationshipLabel><!-- Non-Conformances (Approver) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Audit Number --></label>
+        <name>QPMS__Audit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Unit --></label>
+        <name>QPMS__BusinessUnit__c</name>
+        <picklistValues>
+            <masterLabel>Unit 1</masterLabel>
+            <translation>Einheit 1</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit 4</masterLabel>
+            <translation>Einheit 4</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>unit2</masterLabel>
+            <translation>Einheit 2</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>unit3</masterLabel>
+            <translation>Einheit 3</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CAPA Number --></label>
+        <name>QPMS__CAPA_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- CAPA Required --></label>
+        <name>QPMS__CAPA_Required__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation>Nein</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>Ja</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CAPA --></label>
+        <name>QPMS__CAPA__c</name>
+        <relationshipLabel><!-- Non-Conformances --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Case --></label>
+        <name>QPMS__Case__c</name>
+        <relationshipLabel><!-- Non-Conformances --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ChangeFieldApprovalStatus --></label>
+        <name>QPMS__ChangeFieldApprovalStatus__c</name>
+        <picklistValues>
+            <masterLabel>Approve</masterLabel>
+            <translation><!-- Approve --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recall</masterLabel>
+            <translation><!-- Recall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reject</masterLabel>
+            <translation><!-- Reject --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Checkbox --></label>
+        <name>QPMS__Checkbox__c</name>
+    </fields>
+    <fields>
+        <label><!-- Closed --></label>
+        <name>QPMS__Closed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Closure Auto Approval Submission --></label>
+        <name>QPMS__Closure_Auto_Approval_Submission__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Email --></label>
+        <name>QPMS__Contact_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact MailingCity --></label>
+        <name>QPMS__Contact_MailingCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact MailingCountry --></label>
+        <name>QPMS__Contact_MailingCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact MailingState --></label>
+        <name>QPMS__Contact_MailingState__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact MailingStreet --></label>
+        <name>QPMS__Contact_MailingStreet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Phone --></label>
+        <name>QPMS__Contact_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Containment --></label>
+        <name>QPMS__Containment__c</name>
+    </fields>
+    <fields>
+        <label><!-- CurrentApprovalSequenceNumber --></label>
+        <name>QPMS__CurrentApprovalSequenceNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Contact --></label>
+        <name>QPMS__Customer_Contact__c</name>
+        <relationshipLabel><!-- Non-Conformances --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Customer --></label>
+        <name>QPMS__Customer_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer --></label>
+        <name>QPMS__Customer__c</name>
+        <relationshipLabel><!-- Customer Non-Conformances --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Defect --></label>
+        <name>QPMS__Defect_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Defect --></label>
+        <name>QPMS__Defect__c</name>
+        <relationshipLabel><!-- Non-Conformances --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Department --></label>
+        <name>QPMS__Department_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Department --></label>
+        <name>QPMS__Department__c</name>
+        <relationshipLabel><!-- Non-Conformances --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Disposition --></label>
+        <name>QPMS__Disposition__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Delivered ? --></label>
+        <name>QPMS__Email_Delivered__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Risk Assessment --></label>
+        <name>QPMS__Enable_Risk_Assessment__c</name>
+    </fields>
+    <fields>
+        <help><!-- Equipment --></help>
+        <label><!-- Equipment --></label>
+        <name>QPMS__Equipment__c</name>
+        <relationshipLabel><!-- Non-Conformances --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Escalation Rule for Approval --></label>
+        <name>QPMS__Escalation_Rule_for_Approval__c</name>
+        <picklistValues>
+            <masterLabel>Default</masterLabel>
+            <translation>Standard</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NONE</masterLabel>
+            <translation>Keiner</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Escalation Rule for Task --></label>
+        <name>QPMS__Escalation_Rule_for_Task__c</name>
+        <picklistValues>
+            <masterLabel>Default</masterLabel>
+            <translation>Standard</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NONE</masterLabel>
+            <translation>Keiner</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Followers --></label>
+        <name>QPMS__Followers__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Defect Statement --></label>
+        <name>QPMS__Full_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter Address --></label>
+        <name>QPMS__IR_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter City --></label>
+        <name>QPMS__IR_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter Country --></label>
+        <name>QPMS__IR_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter Email Address --></label>
+        <name>QPMS__IR_Email_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter First Name --></label>
+        <name>QPMS__IR_First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter Last Name --></label>
+        <name>QPMS__IR_Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter Phone --></label>
+        <name>QPMS__IR_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter Zip Code --></label>
+        <name>QPMS__IR_PostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter State --></label>
+        <name>QPMS__IR_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Submitter --></label>
+        <name>QPMS__Initial_Submitter__c</name>
+        <relationshipLabel><!-- Non-Conformances (Initial Submitter) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Initiating Site --></label>
+        <name>QPMS__Initiating_Site_Security__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initiating Site --></label>
+        <name>QPMS__Initiating_Site__c</name>
+        <relationshipLabel><!-- Non-Conformances (Initiating Site) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Initiating Site --></label>
+        <name>QPMS__Initiating_Site_name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Integration Status --></label>
+        <name>QPMS__Integration_Status__c</name>
+        <picklistValues>
+            <masterLabel>Sync Failed</masterLabel>
+            <translation><!-- Sync Failed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sync Successful</masterLabel>
+            <translation><!-- Sync Successful --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Justification for CAPA/no CAPA --></label>
+        <name>QPMS__Justification_for_CAPA_no_CAPA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Sync Time --></label>
+        <name>QPMS__Last_Sync_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Logged In user --></label>
+        <name>QPMS__Logged_In_user__c</name>
+    </fields>
+    <fields>
+        <label><!-- MPN Number --></label>
+        <name>QPMS__MPN_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer / Supplier --></label>
+        <name>QPMS__Manufacturer_Supplier_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer / Supplier --></label>
+        <name>QPMS__Manufacturer_Supplier__c</name>
+        <relationshipLabel><!-- Manufactuer / Supplier Non-Conformances --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- My Text Field --></label>
+        <name>QPMS__My_Text_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- NC Closed Date --></label>
+        <name>QPMS__NC_Closed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- NC Owner --></label>
+        <name>QPMS__NC_Owner_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- NC Owner --></label>
+        <name>QPMS__NC_Owner__c</name>
+        <relationshipLabel><!-- Non-Conformances (NC Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- NC Resolution Code --></label>
+        <name>QPMS__NC_Resolution_Code__c</name>
+        <picklistValues>
+            <masterLabel>Addressed through CAPA</masterLabel>
+            <translation>Ansprache über CAPA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discarded</masterLabel>
+            <translation>Verworfen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC Workflow</masterLabel>
+            <translation>NC-Workflow</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Action Required</masterLabel>
+            <translation>Keine Aktion erforderlich</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- NC Source --></label>
+        <name>QPMS__NC_Source__c</name>
+        <picklistValues>
+            <masterLabel>Audit</masterLabel>
+            <translation>Prüfung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer</masterLabel>
+            <translation>Kundin / Kunde</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal</masterLabel>
+            <translation>Intern</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manufacturer</masterLabel>
+            <translation>Herstellung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Andere</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplier</masterLabel>
+            <translation>Lieferant</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- NC Status --></label>
+        <name>QPMS__NC_Status__c</name>
+        <picklistValues>
+            <masterLabel>Attached</masterLabel>
+            <translation><!-- Attached --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation>Geschlossen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review</masterLabel>
+            <translation>Im Rückblick</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC Workflow</masterLabel>
+            <translation>NC-Workflow</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation>Öffnen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation>Genehmigung ausstehend</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reopened</masterLabel>
+            <translation>Wiedereröffnet</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Void</masterLabel>
+            <translation>Leere</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- 選擇產品或過程進行分類的事件。基於此字段中，“選擇產品”或顯示“選擇處理”字段。 --></help>
+        <label><!-- NC Type --></label>
+        <name>QPMS__NC_Type__c</name>
+        <picklistValues>
+            <masterLabel>Process</masterLabel>
+            <translation><!-- Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation><!-- Product --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- NC Workflow Status --></label>
+        <name>QPMS__NC_Workflow_Status__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation>Geschlossen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review</masterLabel>
+            <translation>Im Rückblick</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation>Öffnen</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This field hold the record name as hyperlink and can be used in navigations where ever is required --></help>
+        <label><!-- Name --></label>
+        <name>QPMS__Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- NewQueue --></label>
+        <name>QPMS__NewQueue__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Capa Number --></label>
+        <name>QPMS__New_Capa_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Owner --></label>
+        <name>QPMS__New_Owner__c</name>
+        <relationshipLabel><!-- Non-Conformances (New Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Non-Conformance --></label>
+        <name>QPMS__Non_Conformance_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Template --></label>
+        <name>QPMS__Non_Conformance_Type__c</name>
+        <relationshipLabel><!-- Non-Conformances (Non Conformance Type) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Non-Conformance --></label>
+        <name>QPMS__Non_Conformance_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Note To Approver Owner --></label>
+        <name>QPMS__Note_To_Approver_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Note To Approver --></label>
+        <name>QPMS__Note_To_Approver_Void__c</name>
+    </fields>
+    <fields>
+        <label><!-- Note To Approver --></label>
+        <name>QPMS__Note_To_Approver__c</name>
+    </fields>
+    <fields>
+        <label><!-- Occurrence Date --></label>
+        <name>QPMS__Occurance_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Occurrence Date GMT --></label>
+        <name>QPMS__Occurrence_Date_GMT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other NC Against --></label>
+        <name>QPMS__Other_NC_Against__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Source --></label>
+        <name>QPMS__Other_Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Name --></label>
+        <name>QPMS__Owner_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- PO Number --></label>
+        <name>QPMS__PO_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Past Occurrence --></label>
+        <name>QPMS__Past_Occurrence__c</name>
+        <relationshipLabel><!-- Non-Conformances (Past Occurrence) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Previous Status --></label>
+        <name>QPMS__Previous_Status__c</name>
+        <picklistValues>
+            <masterLabel>Attached</masterLabel>
+            <translation><!-- Attached --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review</masterLabel>
+            <translation><!-- In Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC Workflow</masterLabel>
+            <translation><!-- NC Workflow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reopened</masterLabel>
+            <translation><!-- Reopened --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Void</masterLabel>
+            <translation><!-- Void --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>QPMS__Priority2__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation>Hoch</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation>Niedrig</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation>Mittel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Urgent</masterLabel>
+            <translation>Dringend</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>QPMS__Priority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation>Hoch</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation>Niedrig</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation>Mittel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Urgent</masterLabel>
+            <translation>Dringend</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Process --></label>
+        <name>QPMS__Process_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process --></label>
+        <name>QPMS__Process__c</name>
+        <relationshipLabel><!-- Non-Conformances --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Information --></label>
+        <name>QPMS__Product_Information__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>QPMS__Product_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>QPMS__Product__c</name>
+        <relationshipLabel><!-- Non-Conformances --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reason For Closed --></label>
+        <name>QPMS__Reason_For_Closed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason For Reopen --></label>
+        <name>QPMS__Reason_For_Reopen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason For Void --></label>
+        <name>QPMS__Reason_For_Void__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reopen By --></label>
+        <name>QPMS__Reopen_By__c</name>
+        <relationshipLabel><!-- Non-Conformances (Reopen By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reopen Date --></label>
+        <name>QPMS__Reopen_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reported_Date_GMT --></label>
+        <name>QPMS__Reported_Date_GMT__c</name>
+    </fields>
+    <fields>
+        <help><!-- Reported date Should not be future date and should not be less than Occurrence Date. --></help>
+        <label><!-- Reported Date --></label>
+        <name>QPMS__Reported_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter Info Same As User Info --></label>
+        <name>QPMS__Reporter_Info_Same_As_User_Info__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter Information --></label>
+        <name>QPMS__Reporter_Information__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter --></label>
+        <name>QPMS__Reporter_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter --></label>
+        <name>QPMS__Reporter__c</name>
+        <relationshipLabel><!-- Non-Conformances (Reporter) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Resolution Approval Mandatory --></label>
+        <name>QPMS__Resolution_Approval_Mandatory__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter comments regarding the CAPA here. --></help>
+        <label><!-- Resolution CAPA Comment --></label>
+        <name>QPMS__Resolution_CAPA_Comment__c</name>
+    </fields>
+    <fields>
+        <help><!-- Couldn&apos;t help but notice that you&apos;re not going to do anything about this issue.  May I ask why? --></help>
+        <label><!-- Resolution Closed Comment --></label>
+        <name>QPMS__Resolution_Closed_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Risk Assessment Required --></label>
+        <name>QPMS__Risk_Assessment_Required__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation>Nein</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>Ja</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Risk Description --></label>
+        <name>QPMS__Risk_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Risk Occurrence --></label>
+        <name>QPMS__Risk_Occurrence_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Risk Occurrence --></label>
+        <name>QPMS__Risk_Occurrence__c</name>
+        <relationshipLabel><!-- Non-Conformances --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Risk Priority --></label>
+        <name>QPMS__Risk_Priority__c</name>
+        <relationshipLabel><!-- Non-Conformances --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Risk Severity --></label>
+        <name>QPMS__Risk_Severity__c</name>
+        <relationshipLabel><!-- Non-Conformances --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sequence --></label>
+        <name>QPMS__Sequence__c</name>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation><!-- 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40</masterLabel>
+            <translation><!-- 40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50</masterLabel>
+            <translation><!-- 50 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60</masterLabel>
+            <translation><!-- 60 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>70</masterLabel>
+            <translation><!-- 70 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>80</masterLabel>
+            <translation><!-- 80 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>90</masterLabel>
+            <translation><!-- 90 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Signed Off Details --></label>
+        <name>QPMS__Signed_Off_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Site Location --></label>
+        <name>QPMS__Site_Location__c</name>
+        <relationshipLabel><!-- Non-Conformances (Site Location) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This filed is used to save source id like Calibration id or Maintenance Id --></help>
+        <label><!-- Source Id --></label>
+        <name>QPMS__Source_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- This filed is used to save source Name like Calibration Name or Maintenance Name --></help>
+        <label><!-- Source Name --></label>
+        <name>QPMS__Source_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source --></label>
+        <name>QPMS__Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status Is Open --></label>
+        <name>QPMS__Status_Is_Open__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub Department --></label>
+        <name>QPMS__Sub_Department__c</name>
+        <relationshipLabel><!-- Non-Conformances (Sub Department) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Supplier Contact --></label>
+        <name>QPMS__Supplier_Contact__c</name>
+        <relationshipLabel><!-- Non-Conformances (Supplier Contact) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Supplier / Manufacturer Part # --></label>
+        <name>QPMS__Supplier_Manufacturer_Part__c</name>
+    </fields>
+    <fields>
+        <label><!-- UD_Date10 --></label>
+        <name>QPMS__UD_Date10__c</name>
+    </fields>
+    <fields>
+        <label><!-- UD_Date9 --></label>
+        <name>QPMS__UD_Date9__c</name>
+    </fields>
+    <fields>
+        <label><!-- UD_Long_Text_Area7 --></label>
+        <name>QPMS__UD_Long_Text_Area7__c</name>
+    </fields>
+    <fields>
+        <label><!-- UD_Long_Text_Area8 --></label>
+        <name>QPMS__UD_Long_Text_Area8__c</name>
+    </fields>
+    <fields>
+        <label><!-- UD_Picklist3 --></label>
+        <name>QPMS__UD_Picklist3__c</name>
+        <picklistValues>
+            <masterLabel>FPV1</masterLabel>
+            <translation><!-- FPV1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FPV2</masterLabel>
+            <translation><!-- FPV2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FPV3</masterLabel>
+            <translation><!-- FPV3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- UD_Picklist4 --></label>
+        <name>QPMS__UD_Picklist4__c</name>
+        <picklistValues>
+            <masterLabel>SPV1</masterLabel>
+            <translation><!-- SPV1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPV2</masterLabel>
+            <translation><!-- SPV2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPV3</masterLabel>
+            <translation><!-- SPV3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPV4</masterLabel>
+            <translation><!-- SPV4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- UD_Text1 --></label>
+        <name>QPMS__UD_Text1__c</name>
+    </fields>
+    <fields>
+        <label><!-- UD_Text2 --></label>
+        <name>QPMS__UD_Text2__c</name>
+    </fields>
+    <fields>
+        <label><!-- UD_Text_Area5 --></label>
+        <name>QPMS__UD_Text_Area5__c</name>
+    </fields>
+    <fields>
+        <label><!-- UD_Text_Area6 --></label>
+        <name>QPMS__UD_Text_Area6__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Address --></label>
+        <name>QPMS__UI_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- User City --></label>
+        <name>QPMS__UI_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Country --></label>
+        <name>QPMS__UI_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Email Address --></label>
+        <name>QPMS__UI_Email_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- User First Name --></label>
+        <name>QPMS__UI_First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Last Name --></label>
+        <name>QPMS__UI_Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Phone --></label>
+        <name>QPMS__UI_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Zip Code --></label>
+        <name>QPMS__UI_PostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- User State --></label>
+        <name>QPMS__UI_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Information --></label>
+        <name>QPMS__User_Information__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Required --></label>
+        <name>QPMS__Void_Approval_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Void Approval Status --></label>
+        <name>QPMS__Void_Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>Genehmigt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation>Bestätigung ausstehend</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recalled</masterLabel>
+            <translation>Zurückgerufen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>Abgelehnt</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Workflow --></label>
+        <name>QPMS__Workflow__c</name>
+    </fields>
+    <fields>
+        <label><!-- checkbox --></label>
+        <name>QPMS__checkbox1__c</name>
+    </fields>
+    <fields>
+        <label><!-- isLocked --></label>
+        <name>QPMS__isLocked__c</name>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <layouts>
+        <layout>Non-Conformance Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Non-Conformance --></nameFieldLabel>
+    <recordTypes>
+        <label><!-- Non-Conformance --></label>
+        <name>QPMS__Non_Conformance</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Defect Statement is required. --></errorMessage>
+        <name>QPMS__Defect_Statement_is_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Defect is required. --></errorMessage>
+        <name>QPMS__Defect_is_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- NC Source is required. --></errorMessage>
+        <name>QPMS__NC_Source_is_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- NC Type is required. --></errorMessage>
+        <name>QPMS__NC_Type_is_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Occurance Date Required --></errorMessage>
+        <name>QPMS__Occurance_Date_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Occurrence Date cannot be a future date. --></errorMessage>
+        <name>QPMS__Occurance_Date_not_future</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Occurrence Date cannot be greater than the Reported Date --></errorMessage>
+        <name>QPMS__Occurence_Date_greater_than_Reported</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Other Source field is required because NC Source value is Other. --></errorMessage>
+        <name>QPMS__Other_Source_is_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Process is required as NC type is Process. --></errorMessage>
+        <name>QPMS__Process_is_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Product is required as NC type is product. --></errorMessage>
+        <name>QPMS__Product_is_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Reporter Required --></errorMessage>
+        <name>QPMS__Reported_By_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Reported Date cannot be a future date --></errorMessage>
+        <name>QPMS__Reported_Date_Not_Future</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Reported Date Required --></errorMessage>
+        <name>QPMS__Reported_Date_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Reported Date cannot be less than Occurrence Date --></errorMessage>
+        <name>QPMS__Reported_Date_cannot_be_before_Occurance</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Risk Description is required. --></errorMessage>
+        <name>QPMS__Risk_Description_required</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Edit_Standard --></label>
+        <name>QPMS__Edit_Standard</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Edit_version_1 --></label>
+        <name>QPMS__Edit_version_1</name>
+    </webLinks>
+</CustomObjectTranslation>

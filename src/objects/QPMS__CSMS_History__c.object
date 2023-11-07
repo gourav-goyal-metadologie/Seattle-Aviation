@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Captures Calibration Audit Trail</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fieldSets>
+        <fullName>QPMS__History_Fields</fullName>
+        <availableFields>
+            <field>QPMS__CSMS_Standard__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>QPMS__Calibration__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>CreatedById</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>CreatedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>QPMS__Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>QPMS__External_Id__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>QPMS__FieldAPIName__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>QPMS__HistoryObject__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Id</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>LastModifiedById</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>QPMS__Maintenance__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>OwnerId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>Used in audit trail list view.</description>
+        <displayedFields>
+            <field>LastModifiedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__Sub_Parent__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__FieldName__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__Action__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__OldValue__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__NewValue__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__Last_ModifiedBy__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>History Fields</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>QPMS__QueryFields</fullName>
+        <availableFields>
+            <field>Id</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>QueryFields</description>
+        <displayedFields>
+            <field>QPMS__CSMS_Standard__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__Action__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__Asset_Profile__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>CreatedBy.Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__Calibration__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>CreatedById</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>CreatedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__External_Id__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__FieldAPIName__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__FieldName__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__HistoryObject__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__Last_ModifiedBy__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LastModifiedById</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LastModifiedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__Maintenance__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__NewValue__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__OldValue__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OwnerId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__Sub_Parent__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>QueryFields</label>
+    </fieldSets>
+    <fields>
+        <fullName>QPMS__Action__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Captures the action on the record i.e Created,Updated and Deleted</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Captures the action on the record i.e Created,Updated and Deleted</inlineHelpText>
+        <label>Action</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Created</fullName>
+                    <default>false</default>
+                    <label>Created</label>
+                </value>
+                <value>
+                    <fullName>Updated</fullName>
+                    <default>false</default>
+                    <label>Updated</label>
+                </value>
+                <value>
+                    <fullName>Deleted</fullName>
+                    <default>false</default>
+                    <label>Deleted</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>QPMS__Asset_Profile__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Lookup to Asset Profile</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Lookup to Asset Profile</inlineHelpText>
+        <label>Asset Profile</label>
+        <referenceTo>QPMS__Asset_Profile__c</referenceTo>
+        <relationshipLabel>CSMS Histories</relationshipLabel>
+        <relationshipName>CSMS_Histories</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__CSMS_Standard__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>CSMS Standard</label>
+        <referenceTo>QPMS__CSMS_Standard__c</referenceTo>
+        <relationshipLabel>CSMS Histories</relationshipLabel>
+        <relationshipName>CSMS_Histories</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Calibration__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Lookup to Calibration</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Lookup to Calibration</inlineHelpText>
+        <label>Calibration</label>
+        <referenceTo>QPMS__Calibration__c</referenceTo>
+        <relationshipName>Calibration_Histories</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>10000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>QPMS__External_Id__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <deprecated>false</deprecated>
+        <externalId>true</externalId>
+        <label>External Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__FieldAPIName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Captures the field API name in audit trail</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Captures the field API name in audit trail</inlineHelpText>
+        <label>FieldAPIName</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__FieldName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Captures the field name for audit trail</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Captures the field name for audit trail</inlineHelpText>
+        <label>FieldName</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__HistoryObject__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Captures the object which is being audit trailed</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Captures the object which is being audit trailed</inlineHelpText>
+        <label>HistoryObject</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Calibration__c</fullName>
+                    <default>false</default>
+                    <label>Calibration__c</label>
+                </value>
+                <value>
+                    <fullName>Maintenance__c</fullName>
+                    <default>false</default>
+                    <label>Maintenance__c</label>
+                </value>
+                <value>
+                    <fullName>CSMS_General_Task__c</fullName>
+                    <default>false</default>
+                    <label>CSMS_General_Task__c</label>
+                </value>
+                <value>
+                    <fullName>Calibration_Criteria__c</fullName>
+                    <default>false</default>
+                    <label>Calibration_Criteria__c</label>
+                </value>
+                <value>
+                    <fullName>CSMS_General_Sub_Task__c</fullName>
+                    <default>false</default>
+                    <label>CSMS_General_Sub_Task__c</label>
+                </value>
+                <value>
+                    <fullName>Maintenance_Spare_Part__c</fullName>
+                    <default>false</default>
+                    <label>Maintenance_Spare_Part__c</label>
+                </value>
+                <value>
+                    <fullName>Asset_Profile__c</fullName>
+                    <default>false</default>
+                    <label>Asset_Profile__c</label>
+                </value>
+                <value>
+                    <fullName>Calibrate</fullName>
+                    <default>false</default>
+                    <label>Calibrate</label>
+                </value>
+                <value>
+                    <fullName>Closure</fullName>
+                    <default>false</default>
+                    <label>Closure</label>
+                </value>
+                <value>
+                    <fullName>Adhoc</fullName>
+                    <default>false</default>
+                    <label>Adhoc</label>
+                </value>
+                <value>
+                    <fullName>CSMS_Approver__c</fullName>
+                    <default>false</default>
+                    <label>CSMS_Approver__c</label>
+                </value>
+                <value>
+                    <fullName>Asset_Profile_Criteria__c</fullName>
+                    <default>false</default>
+                    <label>Asset_Profile_Criteria__c</label>
+                </value>
+                <value>
+                    <fullName>Schedule__c</fullName>
+                    <default>false</default>
+                    <label>Schedule__c</label>
+                </value>
+                <value>
+                    <fullName>Maintenance_Criteria__c</fullName>
+                    <default>false</default>
+                    <label>Maintenance_Criteria__c</label>
+                </value>
+                <value>
+                    <fullName>R_R_Study_Profile__c</fullName>
+                    <default>false</default>
+                    <label>R_R_Study_Profile__c</label>
+                </value>
+                <value>
+                    <fullName>CSMS_Standard__c</fullName>
+                    <default>false</default>
+                    <label>CSMS_Standard__c</label>
+                </value>
+                <value>
+                    <fullName>CSMS_Standard_Asset__c</fullName>
+                    <default>false</default>
+                    <label>CSMS_Standard_Asset__c</label>
+                </value>
+                <value>
+                    <fullName>CSMS_Standard_Criteria__c</fullName>
+                    <default>false</default>
+                    <label>CSMS_Standard_Criteria__c</label>
+                </value>
+                <value>
+                    <fullName>CSMS_Standard_General_Task__c</fullName>
+                    <default>false</default>
+                    <label>CSMS_Standard_General_Task__c</label>
+                </value>
+                <value>
+                    <fullName>Variable_Data__c</fullName>
+                    <default>false</default>
+                    <label>Variable_Data__c</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>QPMS__Last_ModifiedBy__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>CreatedBy.FirstName + &apos; &apos; + CreatedBy.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Last ModifiedBy</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Maintenance__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Maintenance</label>
+        <referenceTo>QPMS__Maintenance__c</referenceTo>
+        <relationshipName>Calibration_Histories</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__NewValue__c</fullName>
+        <deprecated>false</deprecated>
+        <description>New Value of the record</description>
+        <externalId>false</externalId>
+        <inlineHelpText>New Value of the record</inlineHelpText>
+        <label>NewValue</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>QPMS__OldValue__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Old Value</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Old Value</inlineHelpText>
+        <label>OldValue</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>QPMS__Sub_Parent__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Captures the section of  audit trail</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Captures the section of  audit trail</inlineHelpText>
+        <label>Sub Parent</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Calibration Init</fullName>
+                    <default>false</default>
+                    <label>Calibration Init</label>
+                </value>
+                <value>
+                    <fullName>Security</fullName>
+                    <default>false</default>
+                    <label>Security</label>
+                </value>
+                <value>
+                    <fullName>Reference</fullName>
+                    <default>false</default>
+                    <label>Reference</label>
+                </value>
+                <value>
+                    <fullName>Maintenance Init</fullName>
+                    <default>false</default>
+                    <label>Maintenance Init</label>
+                </value>
+                <value>
+                    <fullName>Calibrate</fullName>
+                    <default>false</default>
+                    <label>Calibrate</label>
+                </value>
+                <value>
+                    <fullName>Closure</fullName>
+                    <default>false</default>
+                    <label>Closure</label>
+                </value>
+                <value>
+                    <fullName>Calibration Details</fullName>
+                    <default>false</default>
+                    <label>Calibration Details</label>
+                </value>
+                <value>
+                    <fullName>Adhoc</fullName>
+                    <default>false</default>
+                    <label>Adhoc</label>
+                </value>
+                <value>
+                    <fullName>Adhoc Action</fullName>
+                    <default>false</default>
+                    <label>Adhoc Action</label>
+                </value>
+                <value>
+                    <fullName>Maintenance</fullName>
+                    <default>false</default>
+                    <label>Maintenance</label>
+                </value>
+                <value>
+                    <fullName>Calibration Void</fullName>
+                    <default>false</default>
+                    <label>Calibration Void</label>
+                </value>
+                <value>
+                    <fullName>Maintenance Void</fullName>
+                    <default>false</default>
+                    <label>Maintenance Void</label>
+                </value>
+                <value>
+                    <fullName>Spare Part Details</fullName>
+                    <default>false</default>
+                    <label>Spare Part Details</label>
+                </value>
+                <value>
+                    <fullName>Calibration Criteria</fullName>
+                    <default>false</default>
+                    <label>Calibration Criteria</label>
+                </value>
+                <value>
+                    <fullName>Asset Details</fullName>
+                    <default>false</default>
+                    <label>Asset Details</label>
+                </value>
+                <value>
+                    <fullName>Calibration Approval</fullName>
+                    <default>false</default>
+                    <label>Calibration Approval</label>
+                </value>
+                <value>
+                    <fullName>Maintenance Approval</fullName>
+                    <default>false</default>
+                    <label>Maintenance Approval</label>
+                </value>
+                <value>
+                    <fullName>Calibrate Approval</fullName>
+                    <default>false</default>
+                    <label>Calibrate Approval</label>
+                </value>
+                <value>
+                    <fullName>Closure Approval</fullName>
+                    <default>false</default>
+                    <label>Closure Approval</label>
+                </value>
+                <value>
+                    <fullName>Adhoc Approval</fullName>
+                    <default>false</default>
+                    <label>Adhoc Approval</label>
+                </value>
+                <value>
+                    <fullName>Calibration Change Owner Approval</fullName>
+                    <default>false</default>
+                    <label>Calibration Change Owner Approval</label>
+                </value>
+                <value>
+                    <fullName>Calibration Change Due Date Approval</fullName>
+                    <default>false</default>
+                    <label>Calibration Change Due Date Approval</label>
+                </value>
+                <value>
+                    <fullName>Calibrate Change Owner Approval</fullName>
+                    <default>false</default>
+                    <label>Calibrate Change Owner Approval</label>
+                </value>
+                <value>
+                    <fullName>Calibrate Change Due Date Approval</fullName>
+                    <default>false</default>
+                    <label>Calibrate Change Due Date Approval</label>
+                </value>
+                <value>
+                    <fullName>Closure Change Owner Approval</fullName>
+                    <default>false</default>
+                    <label>Closure Change Owner Approval</label>
+                </value>
+                <value>
+                    <fullName>Closure Change Due Date Approval</fullName>
+                    <default>false</default>
+                    <label>Closure Change Due Date Approval</label>
+                </value>
+                <value>
+                    <fullName>Adhoc Change Owner Approval</fullName>
+                    <default>false</default>
+                    <label>Adhoc Change Owner Approval</label>
+                </value>
+                <value>
+                    <fullName>Adhoc Change Due Date Approval</fullName>
+                    <default>false</default>
+                    <label>Adhoc Change Due Date Approval</label>
+                </value>
+                <value>
+                    <fullName>Asset Profile Criteria</fullName>
+                    <default>false</default>
+                    <label>Asset Profile Criteria</label>
+                </value>
+                <value>
+                    <fullName>Asset Schedule</fullName>
+                    <default>false</default>
+                    <label>Asset Schedule</label>
+                </value>
+                <value>
+                    <fullName>Calibration Schedule</fullName>
+                    <default>false</default>
+                    <label>Calibration Schedule</label>
+                </value>
+                <value>
+                    <fullName>Maintenance Schedule</fullName>
+                    <default>false</default>
+                    <label>Maintenance Schedule</label>
+                </value>
+                <value>
+                    <fullName>Maintenance Criteria</fullName>
+                    <default>false</default>
+                    <label>Maintenance Criteria</label>
+                </value>
+                <value>
+                    <fullName>Calibration Change Owner</fullName>
+                    <default>false</default>
+                    <label>Calibration Change Owner</label>
+                </value>
+                <value>
+                    <fullName>Calibration Change Due Date</fullName>
+                    <default>false</default>
+                    <label>Calibration Change Due Date</label>
+                </value>
+                <value>
+                    <fullName>Calibrate Change Owner</fullName>
+                    <default>false</default>
+                    <label>Calibrate Change Owner</label>
+                </value>
+                <value>
+                    <fullName>Calibrate Change Due Date</fullName>
+                    <default>false</default>
+                    <label>Calibrate Change Due Date</label>
+                </value>
+                <value>
+                    <fullName>Adhoc Change Owner</fullName>
+                    <default>false</default>
+                    <label>Adhoc Change Owner</label>
+                </value>
+                <value>
+                    <fullName>Adhoc Change Due Date</fullName>
+                    <default>false</default>
+                    <label>Adhoc Change Due Date</label>
+                </value>
+                <value>
+                    <fullName>Closure Change Owner</fullName>
+                    <default>false</default>
+                    <label>Closure Change Owner</label>
+                </value>
+                <value>
+                    <fullName>Closure Change Due Date</fullName>
+                    <default>false</default>
+                    <label>Closure Change Due Date</label>
+                </value>
+                <value>
+                    <fullName>Maintenance Change Owner</fullName>
+                    <default>false</default>
+                    <label>Maintenance Change Owner</label>
+                </value>
+                <value>
+                    <fullName>Maintenance Change Due Date</fullName>
+                    <default>false</default>
+                    <label>Maintenance Change Due Date</label>
+                </value>
+                <value>
+                    <fullName>Maintenance Change Owner Approval</fullName>
+                    <default>false</default>
+                    <label>Maintenance Change Owner Approval</label>
+                </value>
+                <value>
+                    <fullName>Maintenance Change Due Date Approval</fullName>
+                    <default>false</default>
+                    <label>Maintenance Change Due Date Approval</label>
+                </value>
+                <value>
+                    <fullName>Calibration Reassign Approver</fullName>
+                    <default>false</default>
+                    <label>Calibration Reassign Approver</label>
+                </value>
+                <value>
+                    <fullName>Calibrate Reassign Approver</fullName>
+                    <default>false</default>
+                    <label>Calibrate Reassign Approver</label>
+                </value>
+                <value>
+                    <fullName>Closure Reassign Approver</fullName>
+                    <default>false</default>
+                    <label>Closure Reassign Approver</label>
+                </value>
+                <value>
+                    <fullName>Adhoc Reassign Approver</fullName>
+                    <default>false</default>
+                    <label>Adhoc Reassign Approver</label>
+                </value>
+                <value>
+                    <fullName>Maintenance Reassign Approver</fullName>
+                    <default>false</default>
+                    <label>Maintenance Reassign Approver</label>
+                </value>
+                <value>
+                    <fullName>R&amp;R Study Profile</fullName>
+                    <default>false</default>
+                    <label>R&amp;R Study Profile</label>
+                </value>
+                <value>
+                    <fullName>CSMS Standard Init</fullName>
+                    <default>false</default>
+                    <label>CSMS Standard Init</label>
+                </value>
+                <value>
+                    <fullName>CSMS Standard Approval</fullName>
+                    <default>false</default>
+                    <label>CSMS Standard Approval</label>
+                </value>
+                <value>
+                    <fullName>CSMS Standard Criteria</fullName>
+                    <default>false</default>
+                    <label>CSMS Standard Criteria</label>
+                </value>
+                <value>
+                    <fullName>Adhoc Task</fullName>
+                    <default>false</default>
+                    <label>Adhoc Task</label>
+                </value>
+                <value>
+                    <fullName>CSMS Standard Status Change Approval</fullName>
+                    <default>false</default>
+                    <label>CSMS Standard Status Change Approval</label>
+                </value>
+                <value>
+                    <fullName>CSMS Standard Change Owner Approval</fullName>
+                    <default>false</default>
+                    <label>CSMS Standard Change Owner Approval</label>
+                </value>
+                <value>
+                    <fullName>Variable Data</fullName>
+                    <default>false</default>
+                    <label>Variable Data</label>
+                </value>
+                <value>
+                    <fullName>CSMS Standard Reassign Approver</fullName>
+                    <default>false</default>
+                    <label>CSMS Standard Reassign Approver</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>CSMS History</label>
+    <nameField>
+        <displayFormat>CalbrationHistory - {0000}</displayFormat>
+        <label>CSMS History Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>CSMS Histories</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

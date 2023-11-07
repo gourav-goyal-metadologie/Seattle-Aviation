@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Defect_CauseAuditTrail --></label>
+        <name>QPMS__Defect_CauseAuditTrail</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Cause --></label>
+        <name>QPMS__Cause__c</name>
+        <relationshipLabel><!-- Defect Causes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Defect Cause id --></label>
+        <name>QPMS__Defect_Cause_id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Defect --></label>
+        <name>QPMS__Defect__c</name>
+        <relationshipLabel><!-- Defect Causes --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

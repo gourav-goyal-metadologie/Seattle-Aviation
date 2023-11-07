@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- AMSTAT Value of Make --></help>
+        <label><!-- AMSTAT Make --></label>
+        <name>AMSTATCORP__AMSTAT_Make__c</name>
+    </fields>
+    <fields>
+        <help><!-- AMSTAT Value of Model --></help>
+        <label><!-- AMSTAT Model --></label>
+        <name>AMSTATCORP__AMSTAT_Model__c</name>
+    </fields>
+    <fields>
+        <help><!-- Local Make value to map the AMSTAT Value on --></help>
+        <label><!-- Mapped Make --></label>
+        <name>AMSTATCORP__Mapped_Make__c</name>
+    </fields>
+    <fields>
+        <help><!-- Local Model value to map the AMSTAT Value on --></help>
+        <label><!-- Mapped Model --></label>
+        <name>AMSTATCORP__Mapped_Model__c</name>
+    </fields>
+    <layouts>
+        <layout>Aircraft Type Mapping Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

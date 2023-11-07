@@ -1,0 +1,73 @@
+.body {
+    background: #fff!important;
+    width:100%;
+    margin:0;
+    padding:0;
+    color: #666!important;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width : 50%;
+    margin :auto;
+}
+
+.card-wrap {
+    
+    /* background: rgb(247, 242, 242)!important; */
+    background-color: rgba(247, 249, 251, 1);
+}
+.custom-input-text{
+    border:0;
+    background: #fff;
+    border-bottom: 1px solid #D4D4D4;
+    min-width: 50%;
+    height: 30px;
+    width:fit-content;
+    box-shadow: var(--sds-c-input-shadow);
+}
+.custom-input-textArea{ 
+    border:0;
+    background: #fff;
+    min-width: 50%;
+    min-height: 30px;
+    width:fit-content;
+    box-shadow: var(--sds-c-input-shadow);
+}
+
+.custom-input-text:focus,.slds-input:active, .custom-input-textArea:focus {
+    border-color: var(--sds-c-input-color-border-focus, var(--lwc-colorBorderInputActive,rgb(27, 150, 255)));
+    background-color: var(--sds-c-input-color-background-focus, var(--sds-c-input-color-background, var(--lwc-colorBackgroundInputActive,rgb(255, 255, 255))));
+    color: var(--sds-c-input-text-color-focus);
+    box-shadow: var(--sds-c-input-shadow-focus, 0 0 3px var(--lwc-brandAccessible,#2574A9));
+    outline: 0
+}
+
+.redBorder{
+    border: 1px solid red;
+}
+
+
+
+.display-table {
+    display: table;
+    table-layout: fixed;
+}
+.table-row {
+    display:table-row;
+}
+.table-cell{
+    display: table-cell;
+    table-layout: fixed;
+}
+
+.incident-label{
+    width:160px;
+    word-wrap: break-word;
+}
+
+input[aria-readonly="true"][lightning-baseCombobox_baseCombobox]::placeholder{
+    color:red !important;
+}

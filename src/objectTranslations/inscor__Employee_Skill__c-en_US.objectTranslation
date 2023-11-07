@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee --></label>
+        <name>inscor__Employee__c</name>
+        <relationshipLabel><!-- Employee Skills --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Skill --></label>
+        <name>inscor__Skill__c</name>
+        <relationshipLabel><!-- Employee Skills --></relationshipLabel>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Employee and Skill should be from same company. --></errorMessage>
+        <name>inscor__Company_Different</name>
+    </validationRules>
+</CustomObjectTranslation>

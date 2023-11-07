@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- CAPA Name --></label>
+        <name>QPMS__CAPA_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- CAPA --></label>
+        <name>QPMS__CAPA__c</name>
+        <relationshipLabel><!-- NC CAPAs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- NC Name --></label>
+        <name>QPMS__NC_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non-Conformance --></label>
+        <name>QPMS__Non_Conformance__c</name>
+        <relationshipLabel><!-- NC CAPAs --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

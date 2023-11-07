@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Award Date --></label>
+        <name>inscor__Award_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- CAGE Code --></label>
+        <name>inscor__CAGE_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company --></label>
+        <name>inscor__Company__c</name>
+        <relationshipLabel><!-- Government Awards --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ContractNoAndNSN --></label>
+        <name>inscor__ContractNoAndNSN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract No --></label>
+        <name>inscor__Contract_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Pricing --></label>
+        <name>inscor__Contract_Pricing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Government Solicitation --></label>
+        <name>inscor__Government_Solicitation__c</name>
+        <relationshipLabel><!-- Government Awards --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Link to Attachments --></label>
+        <name>inscor__Link_to_Attachments__c</name>
+    </fields>
+    <fields>
+        <label><!-- NSN --></label>
+        <name>inscor__NSN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nomenclature --></label>
+        <name>inscor__Nomenclature__c</name>
+    </fields>
+    <fields>
+        <label><!-- Posted (Date) --></label>
+        <name>inscor__Posted_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>inscor__Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOS --></label>
+        <name>inscor__SOS__c</name>
+    </fields>
+    <fields>
+        <label><!-- UOM --></label>
+        <name>inscor__UOM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit Price --></label>
+        <name>inscor__Unit_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vendor --></label>
+        <name>inscor__Vendor__c</name>
+    </fields>
+    <layouts>
+        <layout>Government Award Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

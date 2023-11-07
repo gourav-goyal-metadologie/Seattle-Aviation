@@ -1,0 +1,1380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>This Object is used to store the completed training junction records.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fieldSets>
+        <fullName>QPMS__CertificateCommonFields</fullName>
+        <description>CertificateCommonFields</description>
+        <displayedFields>
+            <field>QPMS__Document_Name__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__Person_Profile_Name__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__Document_Title__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__Course_Title__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__Course_Name__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__CourseType__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__Completed_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>CertificateCommonFields</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>QPMS__CertificatePagefields</fullName>
+        <description>CertificatePagefields</description>
+        <displayedFields>
+            <field>QPMS__Internal_Trainer__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__Result__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QPMS__ObtainedPercentage__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>CertificatePagefields</label>
+    </fieldSets>
+    <fields>
+        <fullName>QPMS__Approval_Process_Complete__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Approval Process Complete</description>
+        <externalId>false</externalId>
+        <label>Approval Process Complete</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Approval_Required__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Approval Required</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Approval Required</inlineHelpText>
+        <label>Approval Required</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Approval_Status__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Approval Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+                <value>
+                    <fullName>Recall</fullName>
+                    <default>false</default>
+                    <label>Recall</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Pending Approval</fullName>
+                    <default>false</default>
+                    <label>Pending Approval</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>QPMS__Approver_10__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Approver 10</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Approver 10</inlineHelpText>
+        <label>Approver 10</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Completed_Trainings7</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Approver_1__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Approver 1</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Approver 1</inlineHelpText>
+        <label>Approver 1</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Completed_Trainings6</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Approver_2__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Approver 2</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Approver 2</inlineHelpText>
+        <label>Approver 2</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Completed_Trainings9</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Approver_3__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Approver 3</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Approver 3</inlineHelpText>
+        <label>Approver 3</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Completed_TrainingsILwv</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Approver_4__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Approver 4</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Approver 4</inlineHelpText>
+        <label>Approver 4</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Completed_TrainingsILxZ</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Approver_5__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Approver 5</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Approver 5</inlineHelpText>
+        <label>Approver 5</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Completed_TrainingsILxP</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Approver_6__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Approver 6</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Approver 6</inlineHelpText>
+        <label>Approver 6</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Completed_TrainingsILxF</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Approver_7__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Approver 7</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Approver 7</inlineHelpText>
+        <label>Approver 7</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Completed_TrainingsILx0</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Approver_8__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Approver 8</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Approver 8</inlineHelpText>
+        <label>Approver 8</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Completed_Trainings10</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Approver_9__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Approver 9</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Approver 9</inlineHelpText>
+        <label>Approver 9</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Completed_Trainings8</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Approver__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Approver</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Approver</inlineHelpText>
+        <label>User</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Completed_Trainings5</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__AssessmentRequired__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>QPMS__Course__r.QPMS__Assessment_Required__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Assessment Required</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Attendance__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field is used to store the Attendance</description>
+        <externalId>false</externalId>
+        <label>Attendance</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Present</fullName>
+                    <default>false</default>
+                    <label>Present</label>
+                </value>
+                <value>
+                    <fullName>Absent</fullName>
+                    <default>false</default>
+                    <label>Absent</label>
+                </value>
+                <value>
+                    <fullName>No Status</fullName>
+                    <default>false</default>
+                    <label>No Status</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>QPMS__Completed_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field is used to store completed date value.</description>
+        <externalId>false</externalId>
+        <label>Completed Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Completion_Period__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Completion Period</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Completion Period</inlineHelpText>
+        <label>Completion Period</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__ContentVersionId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ContentVersionId</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ContentVersionId</inlineHelpText>
+        <label>ContentVersionId</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__CourseType__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>Text(QPMS__Course_Sessions__r.QPMS__Course__r.QPMS__Course_Type__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CourseType</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Course_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>QPMS__Course__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Course Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Course_Owner__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF( NOT(ISBLANK( QPMS__Course__c )) , QPMS__Course__r.Owner:User.FirstName+&apos; &apos;+ QPMS__Course__r.Owner:User.LastName ,&apos;&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Course Owner</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Course_Session_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>QPMS__Course_Sessions__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Course Session</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Course_Session_Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field is used to store the course session status value</description>
+        <externalId>false</externalId>
+        <label>Training Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Enrolled</fullName>
+                    <default>false</default>
+                    <label>Enrolled</label>
+                </value>
+                <value>
+                    <fullName>Withdraw</fullName>
+                    <default>false</default>
+                    <label>Withdraw</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+                <value>
+                    <fullName>Inprogress</fullName>
+                    <default>false</default>
+                    <label>Inprogress</label>
+                </value>
+                <value>
+                    <fullName>In Session</fullName>
+                    <default>false</default>
+                    <label>In Session</label>
+                </value>
+                <value>
+                    <fullName>Incomplete</fullName>
+                    <default>false</default>
+                    <label>Incomplete</label>
+                </value>
+                <value>
+                    <fullName>Closed</fullName>
+                    <default>false</default>
+                    <label>Closed</label>
+                </value>
+                <value>
+                    <fullName>Pending Enrollment</fullName>
+                    <default>false</default>
+                    <label>Pending Enrollment</label>
+                </value>
+                <value>
+                    <fullName>Not Complete</fullName>
+                    <default>false</default>
+                    <label>Not Complete</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+                <value>
+                    <fullName>Pending Approval</fullName>
+                    <default>false</default>
+                    <label>Pending Approval</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+                <value>
+                    <fullName>Void</fullName>
+                    <default>false</default>
+                    <label>Void</label>
+                </value>
+                <value>
+                    <fullName>Addressed Through Course</fullName>
+                    <default>false</default>
+                    <label>Addressed Through Course</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>QPMS__Course_Sessions__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>This fields is used to store course session value</description>
+        <externalId>false</externalId>
+        <label>Course Sessions</label>
+        <referenceTo>QPMS__Course_Sessions__c</referenceTo>
+        <relationshipLabel>Completed Trainings</relationshipLabel>
+        <relationshipName>Completed_Trainings</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Course_Title__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>QPMS__Course__r.QPMS__Course_Title__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Course Title</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Course__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>This field is used to store course  value</description>
+        <externalId>false</externalId>
+        <label>Course</label>
+        <referenceTo>QPMS__Course__c</referenceTo>
+        <relationshipLabel>Completed Trainings</relationshipLabel>
+        <relationshipName>Completed_Trainings</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__CreatedBy_Training_Junction__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>CreatedBy Training Junction</description>
+        <externalId>false</externalId>
+        <label>CreatedBy Training Junction</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Completed_Trainings1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Created_Date_Training_Junction__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Created Date Training Junction</description>
+        <externalId>false</externalId>
+        <label>Created Date Training Junction</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Created_From__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Created From</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Document</fullName>
+                    <default>false</default>
+                    <label>Document</label>
+                </value>
+                <value>
+                    <fullName>Quicksearch</fullName>
+                    <default>false</default>
+                    <label>Quicksearch</label>
+                </value>
+                <value>
+                    <fullName>Course</fullName>
+                    <default>false</default>
+                    <label>Course</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>QPMS__Doc_status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Doc status</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Doc status</inlineHelpText>
+        <label>Doc status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Viewed</fullName>
+                    <default>false</default>
+                    <label>Viewed</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                    <label>None</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>QPMS__Document_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(QPMS__Document__r.Name==&apos;&apos;, &apos;N/A&apos;, QPMS__Document__r.Name+&apos;(&apos; + QPMS__Document__r.QPMS__Current_Rev__c +&apos;)&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Document Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Document_Revision__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>QPMS__Document__r.QPMS__Current_Rev__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Document Revision</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Document_Status__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(Text(QPMS__Type__c)==&apos;Readandsignoff&apos;  , TEXT(QPMS__Document__r.QPMS__Status__c), IF(Text(QPMS__Type__c)==&apos;PersonprofileCoursesession&apos;,  TEXT(QPMS__Course__r.QPMS__Document_Profile__r.QPMS__Status__c) , &apos;&apos;) )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Document Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Document_Title__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>QPMS__Document__r.QPMS__Title__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Document Title</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Document__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>This field is used to store document value</description>
+        <externalId>false</externalId>
+        <label>Document</label>
+        <referenceTo>QPMS__Document_Profile__c</referenceTo>
+        <relationshipLabel>Completed Trainings</relationshipLabel>
+        <relationshipName>Completed_Trainings</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__DueDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>DueDate</description>
+        <externalId>false</externalId>
+        <inlineHelpText>DueDate</inlineHelpText>
+        <label>DueDate</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Duration__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field is used to store duration value</description>
+        <externalId>false</externalId>
+        <label>Duration</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__End_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>End Date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>End Date</inlineHelpText>
+        <label>End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__External_Id__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <deprecated>false</deprecated>
+        <description>To make junction record unqiue</description>
+        <externalId>true</externalId>
+        <label>External Id</label>
+        <length>180</length>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Indexed_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field is used to store the type value</description>
+        <externalId>true</externalId>
+        <label>Indexed Type</label>
+        <length>55</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Initial_Submitter__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Initial Submitter</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Initial Submitter</inlineHelpText>
+        <label>Initial Submitter</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Completed_Trainings4</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Internal_Trainer__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field is used to store the user ids</description>
+        <externalId>false</externalId>
+        <label>Internal Trainer</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>QPMS__Is_ReEnrolled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Is ReEnrolled</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Is ReEnrolled</inlineHelpText>
+        <label>Is ReEnrolled</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Job_Function_Names__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Job Function Names</description>
+        <externalId>false</externalId>
+        <label>Job Function Names</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>QPMS__Job_Function_ids__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Job Function ids</description>
+        <externalId>false</externalId>
+        <label>Job Function ids</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>QPMS__LastModifiedBy_Training_Junction__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>LastModifiedBy_Training_Junction</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Completed_Trainings2</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__LastModified_By_Training_Junction__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>LastModified By Training Junction</description>
+        <externalId>false</externalId>
+        <label>LastModified By Training Junction</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Completed_Trainings</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Lastmodified_Date_Training_Junction__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Lastmodified Date Training Junction</description>
+        <externalId>false</externalId>
+        <label>Lastmodified Date Training Junction</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Logged_in_users__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(QPMS__Person_Profile__r.QPMS__Reports_To__r.Id  = $User.Id , 1 , 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Logged in users</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__No_Of_jobfinctions__c</fullName>
+        <deprecated>false</deprecated>
+        <description>No Of jobfinctions</description>
+        <externalId>false</externalId>
+        <label>No Of jobfinctions</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__ObtainedPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ObtainedPercentage</description>
+        <externalId>false</externalId>
+        <label>Obtained Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Parent_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field is used to store training junction id</description>
+        <externalId>false</externalId>
+        <label>Parent Id</label>
+        <length>180</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Person_Profile_Login__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>QPMS__Person_Profile__r.QPMS__Person_Profile_Login__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Person Profile Login</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Person_Profile_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>QPMS__Person_Profile__r.QPMS__First_Name__c &amp; &quot; &quot; &amp; QPMS__Person_Profile__r.QPMS__Last_Name__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Person Profile Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Person_Profile__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Person Profile</label>
+        <referenceTo>QPMS__Person_Profile__c</referenceTo>
+        <relationshipLabel>Completed Trainings</relationshipLabel>
+        <relationshipName>Completed_Trainings</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Refresher_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Refresher date to create refresher records</description>
+        <externalId>false</externalId>
+        <label>Refresher Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Refresher_Period_Days__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF( ISPICKVAL(QPMS__Type__c,&apos;ReadAndSignoff&apos;) , QPMS__Document__r.QPMS__Refresher_Interval__c , QPMS__Course__r.QPMS__Refresher_Period_Days__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Refresher Period (Days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Reports_To__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Reports To</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Reports To</inlineHelpText>
+        <label>Reports To</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Completed_Trainings3</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Reset_Count__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Reset Count</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Reset Count</inlineHelpText>
+        <label>Reset Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Result__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field is used to store the result</description>
+        <externalId>false</externalId>
+        <label>Result</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pass</fullName>
+                    <default>false</default>
+                    <label>Pass</label>
+                </value>
+                <value>
+                    <fullName>Fail</fullName>
+                    <default>false</default>
+                    <label>Fail</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+                <value>
+                    <fullName>Closed</fullName>
+                    <default>false</default>
+                    <label>Closed</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                    <label>None</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>QPMS__Session_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Session Name</description>
+        <externalId>false</externalId>
+        <label>Session Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Signed_Off_Details__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Signed Off Details</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Signed Off Details</inlineHelpText>
+        <label>Signed Off Details</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Start_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Start Date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Start Date</inlineHelpText>
+        <label>Start Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field is used to store the type</description>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>PersonProfileCourse</fullName>
+                    <default>false</default>
+                    <label>PersonProfileCourse</label>
+                </value>
+                <value>
+                    <fullName>PersonProfileJobFunction</fullName>
+                    <default>false</default>
+                    <label>PersonProfileJobFunction</label>
+                </value>
+                <value>
+                    <fullName>JobFunctionCourse</fullName>
+                    <default>false</default>
+                    <label>JobFunctionCourse</label>
+                </value>
+                <value>
+                    <fullName>PersonProfileCourseSession</fullName>
+                    <default>false</default>
+                    <label>PersonProfileCourseSession</label>
+                </value>
+                <value>
+                    <fullName>Department</fullName>
+                    <default>false</default>
+                    <label>Department</label>
+                </value>
+                <value>
+                    <fullName>EnrolledUser</fullName>
+                    <default>false</default>
+                    <label>EnrolledUser</label>
+                </value>
+                <value>
+                    <fullName>InternalTrainer</fullName>
+                    <default>false</default>
+                    <label>InternalTrainer</label>
+                </value>
+                <value>
+                    <fullName>Locations</fullName>
+                    <default>false</default>
+                    <label>Locations</label>
+                </value>
+                <value>
+                    <fullName>Sites</fullName>
+                    <default>false</default>
+                    <label>Sites</label>
+                </value>
+                <value>
+                    <fullName>ReportTo</fullName>
+                    <default>false</default>
+                    <label>ReportTo</label>
+                </value>
+                <value>
+                    <fullName>CourseInJobFunction</fullName>
+                    <default>false</default>
+                    <label>CourseInJobFunction</label>
+                </value>
+                <value>
+                    <fullName>JobFunctionCourseSession</fullName>
+                    <default>false</default>
+                    <label>JobFunctionCourseSession</label>
+                </value>
+                <value>
+                    <fullName>CourseProfilePrerequisiteCourses</fullName>
+                    <default>false</default>
+                    <label>CourseProfilePrerequisiteCourses</label>
+                </value>
+                <value>
+                    <fullName>JobFunctionDocument</fullName>
+                    <default>false</default>
+                    <label>JobFunctionDocument</label>
+                </value>
+                <value>
+                    <fullName>ReadAndSignoff</fullName>
+                    <default>false</default>
+                    <label>ReadAndSignoff</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Completed Training</label>
+    <listViews>
+        <fullName>QPMS__All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>CTJ-{00000}</displayFormat>
+        <label>Completed Training Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Completed Trainings</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

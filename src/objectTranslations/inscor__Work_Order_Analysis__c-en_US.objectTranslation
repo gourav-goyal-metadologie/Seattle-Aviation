@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Analysis Date --></label>
+        <name>inscor__Analysis_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Margin --></label>
+        <name>inscor__Current_Margin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Remaining Labor --></label>
+        <name>inscor__Estimated_Remaining_Labor__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percent Tasks Completed --></label>
+        <name>inscor__Percent_Tasks_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scheduled End --></label>
+        <name>inscor__Scheduled_End__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scheduled Start --></label>
+        <name>inscor__Scheduled_Start__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Cost --></label>
+        <name>inscor__Total_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Invoiced --></label>
+        <name>inscor__Total_Invoiced__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Labor Invoiced --></label>
+        <name>inscor__Total_Labor_Invoiced__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Labor Reserved --></label>
+        <name>inscor__Total_Labor_Reserved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Material Allocated --></label>
+        <name>inscor__Total_Material_Allocated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Material Invoiced --></label>
+        <name>inscor__Total_Material_Invoiced__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Material Issued --></label>
+        <name>inscor__Total_Material_Issued__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Misc Charges --></label>
+        <name>inscor__Total_Misc_Charges__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Open Tools --></label>
+        <name>inscor__Total_Open_Tools__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Parts Allocated --></label>
+        <name>inscor__Total_Parts_Allocated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Parts Due In --></label>
+        <name>inscor__Total_Parts_Due_In__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Tasks Completed --></label>
+        <name>inscor__Total_Tasks_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Tasks Open --></label>
+        <name>inscor__Total_Tasks_Open__c</name>
+    </fields>
+    <fields>
+        <label><!-- Turnaround Time --></label>
+        <name>inscor__Turnaround_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Order --></label>
+        <name>inscor__Work_Order__c</name>
+        <relationshipLabel><!-- Work Order Analysis --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Work Order Analysis Layout</layout>
+        <sections>
+            <label><!-- Financial --></label>
+            <section>Financial</section>
+        </sections>
+        <sections>
+            <label><!-- Labor &amp; Tools --></label>
+            <section>Labor &amp; Tools</section>
+        </sections>
+        <sections>
+            <label><!-- Material --></label>
+            <section>Material</section>
+        </sections>
+        <sections>
+            <label><!-- Project --></label>
+            <section>Project</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

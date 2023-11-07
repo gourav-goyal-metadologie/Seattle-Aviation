@@ -1,0 +1,11 @@
+:host {
+    display: flex;
+    flex-direction: column;
+}
+.slds-button {
+    border-radius: unset !important;
+}
+.custom-btns .slds-p-around_xx-small, .slds-p-around--xx-small{
+    padding:0 !important;
+    padding-left: 7px !important;
+}

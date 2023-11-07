@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- ObjectName --></label>
+        <name>QPMS__ObjectName__c</name>
+    </fields>
+    <fields>
+        <label><!-- QueryFields --></label>
+        <name>QPMS__QueryFields__c</name>
+    </fields>
+    <fields>
+        <label><!-- QueryValue --></label>
+        <name>QPMS__QueryValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>QPMS__Type__c</name>
+    </fields>
+</CustomObjectTranslation>

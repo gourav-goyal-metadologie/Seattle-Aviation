@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- ASQLTPD History --></label>
+        <name>QPMS__ASQLTPD_History</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QueryFields --></label>
+        <name>QPMS__QueryFields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- AQL/LTPD --></label>
+        <name>QPMS__AQL_LTPD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Accept --></label>
+        <name>QPMS__Accept__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inspection Level --></label>
+        <name>QPMS__Inspection_Level__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inspection State --></label>
+        <name>QPMS__Inspection_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lot size(Max) --></label>
+        <name>QPMS__Lot_size_Max__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lot size(Min) --></label>
+        <name>QPMS__Lot_size_Min__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reject --></label>
+        <name>QPMS__Reject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sample No --></label>
+        <name>QPMS__Sample_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sample Size --></label>
+        <name>QPMS__Sample_Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>QPMS__Type__c</name>
+        <picklistValues>
+            <masterLabel>AQL</masterLabel>
+            <translation><!-- AQL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LTPD</masterLabel>
+            <translation><!-- LTPD --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>ASQ/LTPD Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

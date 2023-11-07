@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Compliance Configuration</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Compliance Configuration</value>
+    </caseValues>
+    <fields>
+        <label><!-- Company Code --></label>
+        <name>Company_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- ContactType --></label>
+        <name>ContactType__c</name>
+    </fields>
+    <fields>
+        <label><!-- DFM Code --></label>
+        <name>DFM_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- EIMType --></label>
+        <name>EIMType__c</name>
+    </fields>
+    <fields>
+        <label><!-- EndPoint --></label>
+        <name>EndPoint__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exporter TPID --></label>
+        <name>Exporter_TPID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exporter TPName --></label>
+        <name>Exporter_TPName__c</name>
+    </fields>
+    <fields>
+        <label><!-- FreightChargesFor --></label>
+        <name>FreightChargesFor__c</name>
+    </fields>
+    <fields>
+        <label><!-- FreightPrepaidCollect --></label>
+        <name>FreightPrepaidCollect__c</name>
+    </fields>
+    <fields>
+        <label><!-- HSCode --></label>
+        <name>HSCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Integration Enable --></label>
+        <name>Is_Integration_Enable__c</name>
+    </fields>
+    <fields>
+        <label><!-- LineQuantityUnit --></label>
+        <name>LineQuantityUnit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mode of Transport Code --></label>
+        <name>Mode_of_Transport_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- OriginCountry --></label>
+        <name>OriginCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- OriginState --></label>
+        <name>OriginState__c</name>
+    </fields>
+    <fields>
+        <label><!-- Password --></label>
+        <name>Password__c</name>
+    </fields>
+    <fields>
+        <label><!-- Place of Loading --></label>
+        <name>Place_of_Loading__c</name>
+    </fields>
+    <fields>
+        <label><!-- PortofExit --></label>
+        <name>PortofExit__c</name>
+    </fields>
+    <fields>
+        <label><!-- ReasonForExport --></label>
+        <name>ReasonForExport__c</name>
+    </fields>
+    <fields>
+        <label><!-- ShipFrom TPID --></label>
+        <name>ShipFrom_TPID__c</name>
+    </fields>
+    <fields>
+        <label><!-- ShipFrom TPName --></label>
+        <name>ShipFrom_TPName__c</name>
+    </fields>
+    <fields>
+        <label><!-- ShipmentCurrency --></label>
+        <name>ShipmentCurrency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipment Line Unit Price Currency --></label>
+        <name>Shipment_Line_Unit_Price_Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipment Status Action --></label>
+        <name>Shipment_Status_Action__c</name>
+    </fields>
+    <fields>
+        <label><!-- Singed by --></label>
+        <name>Singed_by__c</name>
+    </fields>
+    <fields>
+        <label><!-- SubmissionEnvironment --></label>
+        <name>SubmissionEnvironment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Upload File Action --></label>
+        <name>Upload_File_Action__c</name>
+    </fields>
+    <fields>
+        <label><!-- Username --></label>
+        <name>Username__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>Trigger Configuration will be used for maintaining trigger toggle for its execution.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Account_Trigger_Disable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Account Trigger Disable</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Account Trigger Disable</inlineHelpText>
+        <label>Account Trigger Disable</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Billing_Trigger_Disable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Billing Trigger Disable</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Billing_Trigger_Disabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Billing Trigger Disabled</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CashReceipt_Trigger_Disable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>CashReceipt Trigger Disable</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Contact_Trigger_Disable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Contact Trigger Disable</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Customer_Quote_Line_Trigger_Disable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Disable Customer Quote Line Trigger</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Disable Customer Quote Line Trigger</inlineHelpText>
+        <label>Customer Quote Line Trigger Disable</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Customer_Quote_Trigger_Disable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Disable Customer Quote Trigger</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Disable Customer Quote Trigger</inlineHelpText>
+        <label>Customer Quote Trigger Disable</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Event_Trigger_Disable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Disable Event Trigger</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Disable Event Trigger</inlineHelpText>
+        <label>Event Trigger Disable</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Invoice_Trigger_Disable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Invoice Trigger Disable</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Lead_Trigger_Disable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Disable Lead Trigger</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Disable Lead Trigger</inlineHelpText>
+        <label>Lead Trigger Disable</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Product_Trigger_Disable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Product Trigger Disable</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Product Trigger Disable</inlineHelpText>
+        <label>Product Trigger Disable</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Release_Trigger_Disable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Disable Release Trigger Disable</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Disable Release Trigger Disable</inlineHelpText>
+        <label>Release Trigger Disable</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Sales_Order_Line_Trigger_Disable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Disable Sales Order Line Trigger</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Disable Sales Order Line Trigger</inlineHelpText>
+        <label>Sales Order Line Trigger Disable</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Sales_Order_Trigger_Disable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Disable Sales Order Trigger</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Disable Sales Order Trigger</inlineHelpText>
+        <label>Sales Order Trigger Disable</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Task_Trigger_Disable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Disable Task Trigger</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Disable Task Trigger</inlineHelpText>
+        <label>Task Trigger Disable</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TransactionActivity_Trigger_Disable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>TransactionActivity Trigger Disable</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Trigger Configuration</label>
+    <visibility>Public</visibility>
+</CustomObject>

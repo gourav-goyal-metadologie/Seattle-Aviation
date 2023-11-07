@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Customer Quote --></label>
+        <name>inscor__Customer_Quote__c</name>
+        <relationshipLabel><!-- Integration Messages --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Error Message --></label>
+        <name>inscor__Error_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice --></label>
+        <name>inscor__Invoice__c</name>
+        <relationshipLabel><!-- Integration Messages --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Message ID --></label>
+        <name>inscor__Message_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Message Type --></label>
+        <name>inscor__Message_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Processed? --></label>
+        <name>inscor__Processed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purchase Order --></label>
+        <name>inscor__Purchase_Order__c</name>
+        <relationshipLabel><!-- Integration Messages --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Response Text 1 --></label>
+        <name>inscor__Response_Text_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Text 2 --></label>
+        <name>inscor__Response_Text_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- SO Action Name --></label>
+        <name>inscor__SO_Action_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- SO Action --></label>
+        <name>inscor__SO_Action__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Order --></label>
+        <name>inscor__Sales_Order__c</name>
+        <relationshipLabel><!-- Integration Messages --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Service --></label>
+        <name>inscor__Service__c</name>
+        <picklistValues>
+            <masterLabel>Aeroxchange</masterLabel>
+            <translation><!-- Aeroxchange --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ILS</masterLabel>
+            <translation><!-- ILS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partsbase</masterLabel>
+            <translation><!-- Partsbase --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPEC2000</masterLabel>
+            <translation><!-- SPEC2000 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>inscor__Status__c</name>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation><!-- Failed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation><!-- Success --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

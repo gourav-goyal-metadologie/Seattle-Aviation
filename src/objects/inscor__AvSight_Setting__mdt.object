@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>inscor__Account_Selected_Metrics__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Account Selected Metrics</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__Allow_PN_Creation_During_Uploads__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Allow PN Creation During Uploads?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Allow_PR_customization__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Allow PR customization?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Allow_Pay_of_PO_Rejects__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Allow Pay of PO Rejects</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Allow_Pay_of_RO_Rejects__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Allow Pay of RO Rejects</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Allow_Picking_QC_of_Release_Holds__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Allow Picking/QC of Release Holds?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Allow_RO_Line_to_go_backward__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Allow RO Line to go backward</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Allow_RO_Status_to_go_backward__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Allow RO Status to go backward</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Allow_line_processing_in_Ops_Queues__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Allow line processing in Ops Queues</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Apply_Same_Month_Voucher_Variance__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Apply Same Month Voucher Variance?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__CQ_Hyperlink_Text__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>CQ Hyperlink Text</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Community_URL__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Community URL</label>
+        <required>false</required>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Default_Currency_from_Account_to_Docs__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Default Currency from Account to Docs</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Disable_Clocking_into_Multiple_Tasks__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Disable Clocking into Multiple Tasks?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Disable_Clocking_into_Multiple_WOs__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Disable Clocking into Multiple WOs?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Display_Part_Master_Warnings__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Display Part Master Warnings</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Enable_Barcoding_in_Operations_Queues__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Enable Barcoding in Operations Queues</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Enable_Location_Restrictions__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Enable Location Restrictions?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Enable_Multi_Company_Sharing__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Enable Multi Company Sharing</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Enable_PO_Issues__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Enable PO Issues?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Enable_RO_Issues__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Enable RO Issues?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Include_Secondary_in_PR_Summary__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Include Secondary in PR Summary?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Lease_Hyperlink_Text__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Lease Hyperlink Text</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Line_Tracking_Header_Fields__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Line Tracking Header Fields</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__Max_Margin_Target__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Max Margin Target</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Min_Margin_Target__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Min Margin Target</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>inscor__PO_Hyperlink_Text__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>PO Hyperlink Text</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__PS_Flag_Setting__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>PS Flag Setting</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__PS_History_Tab_Column1_Setting__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>PS History Tab Column1 Setting</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__PS_History_Tab_Column2_Setting__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>PS History Tab Column2 Setting</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__PS_Inventory_Tab_Setting__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>PS Inventory Tab Setting</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__PS_Pricing_Tab_Setting__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>PS Pricing Tab Setting</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__PS_Research_Tab_Setting__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>PS Research Tab Setting</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__Part_Master_Symbols_Allowed__c</fullName>
+        <defaultValue>&apos;-/ \\.()&apos;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Fill in with symbols allowed from this list of valid symbols: -_,.*&amp;^%$#@!:[]{}&quot;&apos;+()`~=|?&lt;&gt;;)</inlineHelpText>
+        <label>Part Master Symbols Allowed</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Part_Master_Upper_Case_and_Validation__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Changes lower case to upper case and only allows ASCII characters.</inlineHelpText>
+        <label>Part Master Upper Case and Validation?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Part_Research_Selected_Metrics__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Part Research Selected Metrics</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__Prevent_Receiving_RO_with_Missing_Costs__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Prevent Receiving RO with Missing Costs?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Purchase_Selected_Metrics__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Purchase Selected Metrics</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__Q360_Inventory_Tab_Setting__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Q360 Inventory Tab Setting</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__Q360_Pricing_Tab_Setting__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Q360 Pricing Tab Setting</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__Quote_Selected_Metrics__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Quote Selected Metrics</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__RFQ_Selected_Metrics__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>RFQ Selected Metrics</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__Repair_Selected_Metrics__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Repair Selected Metrics</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__Require_Account_Approvals__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Require Account Approvals?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Require_Active_flag_in_Part_Master__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Require Active? flag in Part Master</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Require_PIN_with_Electronic_Signature__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Require PIN with Electronic Signature</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Require_Part_Master_Approvals__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Require Part Master Approvals</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Restrict_All_Document_Deletion__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Restrict All Document Deletion</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Restrict_Electronic_Signature_Deletion__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Restrict Electronic Signature Deletion</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Sales_Selected_Metrics__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Sales Selected Metrics</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__Save_Copy_of_Bulk_Transfers_as_CSV_files__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Save Copy of Bulk Transfers as CSV files</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Show_Cage_Code_on_Quote_Doc__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Show Cage Code on Quote Doc?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Show_Credit_Warnings_on_CQ__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Show Credit Warnings on CQ?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Show_Credit_Warnings_on_SO__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Show Credit Warnings on SO?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Show_Docking_in_Receiving__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Show Docking in Receiving?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Show_HazMat_warning_in_Operations__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Show HazMat warning in Operations</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Show_Inventory_Grouping_in_Receiving__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Show Inventory Grouping in Receiving?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Show_Margin_Calculator__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Show Margin Calculator?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Show_NSN_on_Quote_Doc__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Show NSN on Quote Doc?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Show_PN_Comments_on_PR__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Show PN Comments on PR?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Show_RO_breakout_costs__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Show RO breakout costs?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Show_WO_Builder_in_Mobile_Technician__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Show WO Builder in Mobile Technician?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__WOTask_Req_diff_Inspector_from_Complete__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>WO Task - Require Different Inspector from Complete?</inlineHelpText>
+        <label>WOTask-Req diff Inspector from Complete</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__WO_Block_for_allocating_Consignment_Part__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>WO Block for allocating Consignment Part</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__WO_Block_for_allocating_LOT_Parts__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>WO Block for allocating LOT Parts</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__WO_validation_for_Inventory_Expiration__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>WO validation for Inventory Expiration</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Warn_on_Margin_Target__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Warn on Margin Target?</label>
+        <type>Checkbox</type>
+    </fields>
+    <label>AvSight Setting</label>
+    <pluralLabel>AvSight Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

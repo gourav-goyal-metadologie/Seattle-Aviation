@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Customer Score Factor</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Customer Score Factors</value>
+    </caseValues>
+    <fields>
+        <label><!-- Ending Number --></label>
+        <name>Ending_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Starting Number --></label>
+        <name>Starting_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Customer Quotes Lines Received</masterLabel>
+            <translation><!-- Customer Quotes Lines Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Margin</masterLabel>
+            <translation><!-- Margin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Orders Lines Received</masterLabel>
+            <translation><!-- Sales Orders Lines Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total Sales</masterLabel>
+            <translation><!-- Total Sales --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Weightage --></label>
+        <name>Weightage__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

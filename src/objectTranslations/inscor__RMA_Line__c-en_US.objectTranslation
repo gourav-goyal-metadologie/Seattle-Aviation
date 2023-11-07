@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Business Category --></label>
+        <name>inscor__Business_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Create Date --></label>
+        <name>inscor__Create_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Exchange Summary --></label>
+        <name>inscor__Customer_Exchange_Summary__c</name>
+        <relationshipLabel><!-- RMA Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date Replacement Created --></label>
+        <name>inscor__Date_Replacement_Created__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Comments --></label>
+        <name>inscor__External_Comments_rt__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Comments --></label>
+        <name>inscor__Internal_Comments_rt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line Number --></label>
+        <name>inscor__Line_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Exchange Status --></label>
+        <name>inscor__Original_Exchange_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Exchange Type --></label>
+        <name>inscor__Original_Exchange_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Line Type --></label>
+        <name>inscor__Original_Line_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Code --></label>
+        <name>inscor__Owner_Code__c</name>
+        <relationshipLabel><!-- RMA Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Part Number --></label>
+        <name>inscor__Part_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price --></label>
+        <name>inscor__Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Credited --></label>
+        <name>inscor__Quantity_Credited__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Received --></label>
+        <name>inscor__Quantity_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Repaired --></label>
+        <name>inscor__Quantity_Repaired__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity To Return --></label>
+        <name>inscor__Quantity_To_Return__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity on Release Line --></label>
+        <name>inscor__Quantity_on_Release_Line__c</name>
+    </fields>
+    <fields>
+        <label><!-- RMA --></label>
+        <name>inscor__RMA__c</name>
+        <relationshipLabel><!-- RMA Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Release Line --></label>
+        <name>inscor__Release_Line__c</name>
+        <relationshipLabel><!-- RMA Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Replacement Quantity --></label>
+        <name>inscor__Replacement_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Replacement SO Line --></label>
+        <name>inscor__Replacement_SO_Line__c</name>
+        <relationshipLabel><!-- RMA Lines (Replacement SO Line) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Replacement Shipped --></label>
+        <name>inscor__Replacement_Shipped__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Order Line --></label>
+        <name>inscor__Sales_Order_Line__c</name>
+        <relationshipLabel><!-- RMA Lines (Sales Order Line) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Serial Number --></label>
+        <name>inscor__Serial_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>inscor__Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credited</masterLabel>
+            <translation><!-- Credited --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Received</masterLabel>
+            <translation><!-- Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repaired</masterLabel>
+            <translation><!-- Repaired --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Warehouse --></label>
+        <name>inscor__Warehouse__c</name>
+        <relationshipLabel><!-- RMA Lines --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>RMA Line Layout AvSight v2</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Exchange Information --></label>
+            <section>Exchange Information</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- RMA Line Information --></label>
+            <section>RMA Line Information</section>
+        </sections>
+        <sections>
+            <label><!-- Replacement Information --></label>
+            <section>Replacement Information</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Quantity To Return can not be less than Quantity Received --></errorMessage>
+        <name>inscor__Qty_Return_less_than_Qty_Received</name>
+    </validationRules>
+</CustomObjectTranslation>

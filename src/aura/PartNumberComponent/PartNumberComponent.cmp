@@ -1,0 +1,74 @@
+<aura:component controller="PartNumberController" implements="flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+	<aura:attribute name="recordId" type="Id" />
+	<aura:attribute name="customerLines" type="List" />
+	
+	<aura:attribute name="searchKey" type="String"/>
+	
+	<aura:attribute name="data" type="Object"/>
+    <aura:attribute name="columns" type="List"/>
+    <aura:attribute name="pageNumber" type="Integer" default="1"/>
+    <aura:attribute name="pageSize" type="Integer" default="5"/>
+    <aura:attribute name="isLastPage" type="Boolean" default="false"/>
+    <aura:attribute name="dataSize" type="Integer" default="0"/> 
+    
+    <aura:attribute name="spinner" type="boolean" default="FALSE"/>
+    
+	<aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    
+    <div class="slds-is-relative slds-card slds-p-around_xx-small slds">
+        
+        <aura:if isTrue="{!v.spinner}">
+            <div aura:id="spinnerId" class="slds-spinner_container">
+               <div class="slds-spinner--brand  slds-spinner slds-spinner--small slds-is-relative" role="alert">
+                 <span class="slds-assistive-text">Loading</span>
+                 <div class="slds-spinner__dot-a"></div>
+                 <div class="slds-spinner__dot-b"></div>
+               </div>
+            </div>
+        </aura:if>
+    <aura:if isTrue="{!v.data.length != 0}">
+    	<div class="slds-clearfix slds-p-around_medium" >
+    	    <lightning:layout>
+                <lightning:layoutItem size="6" flexibility="auto">
+                    <div class="custom-box"><lightning:input type="text" name="searchKey" class="radiusInput" label="Enter" value="{!v.searchKey}" variant="label-hidden" aura:id="searchKey" placeholder="Search Part Number" />  </div>
+                </lightning:layoutItem>
+                <lightning:layoutItem size="2" alignmentBump="left">
+                    <div class="custom-box"><lightning:button variant="brand" class="radiusBtn" label="Search" title="Search" onclick="{! c.getCustomerLines }" /></div>
+                </lightning:layoutItem>
+                <lightning:layoutItem size="3">
+                </lightning:layoutItem>
+            </lightning:layout>
+        </div>
+            
+        <lightning:datatable aura:id = "accDT"
+                         columns = "{!v.columns}"
+                         data = "{!v.data}"
+                         keyField = "Id"
+                         hideCheckboxColumn="true"
+                         onrowaction="{!c.handleRowAction}"/>
+        
+                 <div class="slds-clearfix">
+                    <div class="slds-page-header slds-card slds-clearfix" role="banner">
+                        <div class="slds-float_left">
+                            <lightning:select name="select1" label="" variant="label-hidden" value="{!v.pageSize}" class="labelHidden" onchange="{! c.getCustomerLines }">
+                                <option value="5">5</option>
+                                <option value="10">10</option>
+                                <option value="15">15</option>
+                            </lightning:select>
+                        </div>
+                        <div class="slds-float_right">   
+                            <lightning:buttonIcon iconName="utility:chevronleft" variant="border-filled" alternativeText="Previos" title="Previos" disabled="{! v.pageNumber == 1}" onclick="{!c.handlePrev}"/>
+                            <span style="font-weight:bold"> &nbsp; {!v.pageNumber} &nbsp; </span>
+                            <lightning:buttonIcon iconName="utility:chevronright" variant="border-filled" alternativeText="Previos" title="Previos" disabled="{! v.isLastPage }" onclick="{!c.handleNext}"/>
+                        </div>
+                    </div>
+                </div>
+        <aura:set attribute="else">
+            <div class="slds-p-around_medium" style="text-align: center;">
+                <b>No Records to Display</b>
+            </div>
+        </aura:set>
+        </aura:if>
+
+    </div>
+</aura:component>

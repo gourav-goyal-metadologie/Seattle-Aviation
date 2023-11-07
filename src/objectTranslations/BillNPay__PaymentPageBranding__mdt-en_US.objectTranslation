@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Active --></label>
+        <name>BillNPay__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Button Background Color --></label>
+        <name>BillNPay__ButtonBackgroundColor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Button Font Color --></label>
+        <name>BillNPay__ButtonFontColor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Border Color --></label>
+        <name>BillNPay__FieldBorderColor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Font Color --></label>
+        <name>BillNPay__FontColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Some Font Families:
+Times, &quot;Times New Roman&quot;, serif;
+Helvetica, Arial, sans-serif; 
+serif; 
+sans-serif; 
+monospace; 
+cursive; 
+fantasy --></help>
+        <label><!-- Font-Family --></label>
+        <name>BillNPay__FontFamily__c</name>
+    </fields>
+    <fields>
+        <label><!-- Font-Size --></label>
+        <name>BillNPay__FontSize__c</name>
+    </fields>
+    <fields>
+        <label><!-- Heading Font Color --></label>
+        <name>BillNPay__HeadingFontColor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Heading Font Family --></label>
+        <name>BillNPay__HeadingFontFamily__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter as &quot;#pt&quot;   For example: &quot;12pt&quot; --></help>
+        <label><!-- Heading Font Size --></label>
+        <name>BillNPay__HeadingFontSize__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hide Customer Number? --></label>
+        <name>BillNPay__HideCustomerNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hide Invoice Number? --></label>
+        <name>BillNPay__HideInvoiceNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hide Payment Description? --></label>
+        <name>BillNPay__HidePaymentDescription__c</name>
+    </fields>
+    <fields>
+        <help><!-- Suppress display of logo - used if HPP is running in an iFrame for example --></help>
+        <label><!-- Logo Off? --></label>
+        <name>BillNPay__LogoOff__c</name>
+    </fields>
+    <fields>
+        <label><!-- Page Background Color --></label>
+        <name>BillNPay__PageBackgroundColor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Button Label --></label>
+        <name>BillNPay__PaymentButtonLabel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Header Title --></label>
+        <name>BillNPay__PaymentHeaderTitle__c</name>
+    </fields>
+    <fields>
+        <label><!-- RedirectURL Button Label --></label>
+        <name>BillNPay__RedirectURLButtonLabel__c</name>
+    </fields>
+    <fields>
+        <help><!-- Put blank to hide this button --></help>
+        <label><!-- Redirect URL --></label>
+        <name>BillNPay__RedirectURL__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked, user is shown an option to not save Payment Method on HPP. If users doesn&apos;t save Payment Method, they must reenter for each transaction.
+If Unchecked, Payment Method will always be saved (Recommended) --></help>
+        <label><!-- HPP-Save Payment Method Option --></label>
+        <name>BillNPay__SavePaymentMethodOption__c</name>
+    </fields>
+    <fields>
+        <label><!-- Section Background Color --></label>
+        <name>BillNPay__SectionBackgroundColor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Section Border Outline Color --></label>
+        <name>BillNPay__SectionBorderOutlineColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- When checked, payer will see existing payment methods to select from. Unchecked requires payer to enter new method every time they return to HPP. --></help>
+        <label><!-- HPP-Show Payment Method --></label>
+        <name>BillNPay__ShowPaymentMethod__c</name>
+    </fields>
+    <fields>
+        <help><!-- When checked, the HPP payment confirmation page will have a &quot;Request Receipt&quot; button. If clicked by customer, this button sends a payment confirmation email from AuthVia (not Salesforce). Recommend: Unchecked --></help>
+        <label><!-- HPP-Request Receipt Button --></label>
+        <name>BillNPay__ShowRequestReceiptButton__c</name>
+    </fields>
+    <layouts>
+        <layout>Branding Layout</layout>
+        <sections>
+            <label><!-- Behavior Settings --></label>
+            <section>Behavior Settings</section>
+        </sections>
+        <sections>
+            <label><!-- Button Setting --></label>
+            <section>Button Setting</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Header Settings --></label>
+            <section>Header Settings</section>
+        </sections>
+        <sections>
+            <label><!-- Page Body Setting --></label>
+            <section>Page Body Setting</section>
+        </sections>
+        <sections>
+            <label><!-- Section Setting --></label>
+            <section>Section Setting</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- URL must be start with http or https --></errorMessage>
+        <name>BillNPay__InvalidURL</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Redirect URL &amp; Redirect URL button Label both must be empty OR both must not empty --></errorMessage>
+        <name>BillNPay__RedirectUrlAndLabel</name>
+    </validationRules>
+</CustomObjectTranslation>

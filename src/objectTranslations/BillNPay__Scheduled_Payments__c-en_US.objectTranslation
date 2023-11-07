@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account --></label>
+        <name>BillNPay__Account__c</name>
+        <relationshipLabel><!-- Scheduled Payments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>BillNPay__Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Payment ID (sometimes known as Order Number by some gateways) is used for reconciling payments in your gateway/processors reports (ex: Invoice or Order#) Enter a formula.  BillNPay__Account__r.BillNPay__authViaAccountId__c&amp;&quot;-&quot;&amp;Text(NOW()) --></help>
+        <label><!-- Authvia Payment Id --></label>
+        <name>BillNPay__Authvia_Payment_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>BillNPay__Contact__c</name>
+        <relationshipLabel><!-- Scheduled Payments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contract --></label>
+        <name>BillNPay__Contract__c</name>
+        <relationshipLabel><!-- Scheduled Payments --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Weekly: Day of Week (1=Monday)
+Monthly: If 29,30,31, pmt will be last day of month if month has a fewer days
+Bi-Weekly: 1st pmt day. Next pmt 2 weeks later
+Bi-Monthly: 1st pmt day. Next pmt 14 days later or EOM (Value must be &lt;18) --></help>
+        <label><!-- Debit Day --></label>
+        <name>BillNPay__Debit_Day__c</name>
+    </fields>
+    <fields>
+        <help><!-- Copies to the Payment Description field --></help>
+        <label><!-- Description --></label>
+        <name>BillNPay__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- If entered, a different amount will be charged for the first payment --></help>
+        <label><!-- Different Initial Amount --></label>
+        <name>BillNPay__Different_Initial_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Customize how this is set based on your business rules. Typically, Next Transaction Date + Due Days = Next Due Date, but you can add your own logic such as &quot;Next Business Day, End of Month, etc.  Use a Process Builder to populate. --></help>
+        <label><!-- Next Due Date --></label>
+        <name>BillNPay__Due_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of days between date sent and date due. --></help>
+        <label><!-- Due Days --></label>
+        <name>BillNPay__Due_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last of the month --></label>
+        <name>BillNPay__Last_of_the_month__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Transaction Date --></label>
+        <name>BillNPay__Next_Transaction_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Rollup of Payments completed for this schedule.  Only approved/cleared payments that have not been reversed or charged back are considered --></help>
+        <label><!-- No. of Payments Made --></label>
+        <name>BillNPay__No_of_Payments_Made__c</name>
+    </fields>
+    <fields>
+        <help><!-- Instead of End Date, enter the number of recurring payments to schedule --></help>
+        <label><!-- No. of Payments to Make --></label>
+        <name>BillNPay__No_of_Payments_to_Make__c</name>
+    </fields>
+    <fields>
+        <help><!-- How many times should the system retry the payment after a failure.  Payment will be retried daily --></help>
+        <label><!-- Number of Retry Attempts --></label>
+        <name>BillNPay__Number_of_Retry_Attempts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>BillNPay__Opportunity__c</name>
+        <relationshipLabel><!-- Scheduled Payments --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Bi-Weekly: Payments posted every other week starting from the first Next Payment Date (26/yr)
+Bi-Monthly: Payment posted every other month starting from the first Next Payment Date (6/yr)
+Semi-Monthly; Payment posted on 1st and 15th (24/yr) --></help>
+        <label><!-- Payment Frequency --></label>
+        <name>BillNPay__Payment_Frequency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Method Description --></label>
+        <name>BillNPay__Payment_Method_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Method Status --></label>
+        <name>BillNPay__Payment_Method_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Method --></label>
+        <lookupFilter>
+            <errorMessage><!-- Payment Method should belong to the same Contact or Account used in the Schedule.  Method must be Active --></errorMessage>
+            <informationalMessage><!-- Normally a Payment Method should belong to the same Account or Contact as used in the Schedule.  Methods must be Active --></informationalMessage>
+        </lookupFilter>
+        <name>BillNPay__Payment_Method__c</name>
+        <relationshipLabel><!-- Scheduled Payments --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Select when a payment declined for R01 Insufficient Funds should be retried. --></help>
+        <label><!-- R01 Insufficient Funds --></label>
+        <name>BillNPay__R01_Insufficient_Funds__c</name>
+    </fields>
+    <fields>
+        <label><!-- R09 Uncollected Funds --></label>
+        <name>BillNPay__R09_Uncollected_Funds__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recurring End Date --></label>
+        <name>BillNPay__Recurring_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recurring Start Date --></label>
+        <name>BillNPay__Recurring_Start_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- The system counts how many retries have been attempted --></help>
+        <label><!-- Retry Count --></label>
+        <name>BillNPay__Retry_Count__c</name>
+    </fields>
+    <fields>
+        <help><!-- If enabled, a failed payment will be retried --></help>
+        <label><!-- Retry Logic --></label>
+        <name>BillNPay__Retry_Logic__c</name>
+        <picklistValues>
+            <masterLabel>Disabled</masterLabel>
+            <translation><!-- Disabled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enabled</masterLabel>
+            <translation><!-- Enabled --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Retry Pending --></label>
+        <name>BillNPay__Retry_Pending__c</name>
+    </fields>
+    <fields>
+        <help><!-- Automatic process the payment without notifying consumer.  Semi-automatic sends a text or email requiring the user to approve the payment. --></help>
+        <label><!-- Scheduled Payment Type --></label>
+        <name>BillNPay__Scheduled_Payment_Type__c</name>
+        <picklistValues>
+            <masterLabel>Automatic</masterLabel>
+            <translation><!-- Automatic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semi Automatic</masterLabel>
+            <translation><!-- Semi Automatic --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Transaction Amount --></label>
+        <name>BillNPay__Transaction_Amount__c</name>
+    </fields>
+    <layouts>
+        <layout>Scheduled Payment Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Dates &amp; Amounts --></label>
+            <section>Dates &amp; Amounts</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Method --></label>
+            <section>Payment Method</section>
+        </sections>
+        <sections>
+            <label><!-- Recurring Fields --></label>
+            <section>Recurring Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Related Objects --></label>
+            <section>Related Objects</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Payment will be generated once and then this record will become inactive --></description>
+        <label><!-- One-Time --></label>
+        <name>BillNPay__One_Time</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Payment will be generated more than once --></description>
+        <label><!-- Recurring --></label>
+        <name>BillNPay__Recurring</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Use either End Date or No. of Payments to Make to control when schedule should end, but not both --></errorMessage>
+        <name>BillNPay__Schedule_with_dates_or_count</name>
+    </validationRules>
+</CustomObjectTranslation>

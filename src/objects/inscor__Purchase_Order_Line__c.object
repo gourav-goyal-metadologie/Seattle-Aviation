@@ -1,0 +1,1123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>inscor__PO_Line_Compact</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>inscor__PO_Line_Compact</fullName>
+        <fields>Name</fields>
+        <fields>inscor__Line_Number__c</fields>
+        <fields>inscor__Part_Description__c</fields>
+        <fields>inscor__Quantity__c</fields>
+        <fields>inscor__Price__c</fields>
+        <label>PO Line Compact</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>false</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>false</enableSharing>
+    <enableStreamingApi>false</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fieldSets>
+        <fullName>inscor__SidebarFields</fullName>
+        <description>Sidebar Lightning Component</description>
+        <displayedFields>
+            <field>inscor__Line_Number__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>inscor__Part_Number_formula__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>inscor__Part_Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>inscor__Quantity__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>SidebarFields</label>
+    </fieldSets>
+    <fields>
+        <fullName>inscor__Business_Category__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Business Category</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>inscor__Business_Category</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>inscor__Company_Currency__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Company Currency</label>
+        <length>3</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Company_Line_Total__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>inscor__Quantity__c *  inscor__Company_Price__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Company Line Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Company_Price__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>inscor__Price__c / BLANKVALUE(inscor__Exchange_Rate__c, 1)</formula>
+        <label>Company Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Condition_Code__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Condition Code</label>
+        <referenceTo>inscor__Condition_Code__c</referenceTo>
+        <relationshipName>Purchase_Order_Lines</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Conversion_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Conversion ID</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Core_Disposition__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Core Disposition</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Overhaul</fullName>
+                    <default>false</default>
+                    <label>Overhaul</label>
+                </value>
+                <value>
+                    <fullName>Serviceable</fullName>
+                    <default>false</default>
+                    <label>Serviceable</label>
+                </value>
+                <value>
+                    <fullName>Return &apos;As Is&apos;</fullName>
+                    <default>false</default>
+                    <label>Return &apos;As Is&apos;</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>inscor__Core_Due_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Core Due Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Core_Due_In_Days__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Core Due (In Days)</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Create_Date__c</fullName>
+        <defaultValue>NOW()</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Create Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Created_From_RFQ__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Created From RFQ</label>
+        <referenceTo>inscor__RFQ_Line__c</referenceTo>
+        <relationshipLabel>Purchase Order Lines</relationshipLabel>
+        <relationshipName>Purchase_Order_Lines1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Created_From_SO_Line__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Created From SO Line</label>
+        <referenceTo>inscor__Sales_Order_Line__c</referenceTo>
+        <relationshipName>Purchase_Order_Lines2</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Exchange_Rate_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Exchange Rate Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Exchange_Rate__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Exchange Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Exchange_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Exchange Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>inscor__Exchange_Type</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>inscor__Expected_Delivery__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Expected Delivery</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>inscor__External_Comments_rt__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>External Comments</label>
+        <length>131072</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__External_Reference_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <deprecated>false</deprecated>
+        <externalId>true</externalId>
+        <label>External Reference ID</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Initial_Promise_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Initial Promise Date</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Internal_Comments_rt__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Internal Comments</label>
+        <length>131072</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__Inventory_Line__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Inventory Line</label>
+        <referenceTo>inscor__Inventory_Line__c</referenceTo>
+        <relationshipName>Purchase_Order_Lines</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Line_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>If renumbering the lines, please be cognizant of existing Releases, Receipts, Allocations, Payment Vouchers, and other related lines as they may continue referencing the original line number. You will need to edit those as well.</inlineHelpText>
+        <label>Line Number</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Line_Total__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>inscor__Price__c *  inscor__Quantity__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Line Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Non_Inventory_Item__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>inscor__Product__r.inscor__Non_Inventory_Item__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Non Inventory Item</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Other_Amount__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Other Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Outright_Price__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Outright Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Owner_Code__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Owner Code</label>
+        <referenceTo>inscor__Owner_Code__c</referenceTo>
+        <relationshipName>Purchase_Order_Lines</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__PO_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>PO Number</label>
+        <referenceTo>inscor__Purchase_Order__c</referenceTo>
+        <relationshipName>Purchase_Order_Lines</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>inscor__Part_Description__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>inscor__Product__r.inscor__Keyword__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Part Description</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Part_Number_formula__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>inscor__Product__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Part Number</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Price__c</fullName>
+        <defaultValue>0.00</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Product__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Part Number</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipName>Purchase_Order_Lines</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Purchase_UOM__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Purchase UOM</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>inscor__UOM</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>inscor__Quantity_Allocated__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Quantity Allocated</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Quantity_Available__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(inscor__Quantity__c &lt; 0,
+0,
+inscor__Quantity__c -  (inscor__Quantity_Allocated__c +  inscor__Quantity_Received__c +  inscor__Quantity_Rejected__c )
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Quantity Available</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Quantity_Paid__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Quantity Paid</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Quantity_Received__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Quantity Received</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Quantity_Rejected__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Quantity Rejected</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Quantity_Shipped__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Quantity Shipped</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Quantity__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Reference_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Reference ID</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Shelf_Life__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Shelf Life?</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>inscor__Shipping_Amount__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Shipping Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Status__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Open</fullName>
+                    <default>true</default>
+                    <label>Open</label>
+                </value>
+                <value>
+                    <fullName>Sent To Vendor</fullName>
+                    <default>false</default>
+                    <label>Sent To Vendor</label>
+                </value>
+                <value>
+                    <fullName>Partially Received</fullName>
+                    <default>false</default>
+                    <label>Partially Received</label>
+                </value>
+                <value>
+                    <fullName>Received</fullName>
+                    <default>false</default>
+                    <label>Received</label>
+                </value>
+                <value>
+                    <fullName>Vouchered</fullName>
+                    <default>false</default>
+                    <label>Vouchered</label>
+                </value>
+                <value>
+                    <fullName>Released</fullName>
+                    <default>false</default>
+                    <label>Released</label>
+                </value>
+                <value>
+                    <fullName>Shipped</fullName>
+                    <default>false</default>
+                    <label>Shipped</label>
+                </value>
+                <value>
+                    <fullName>Credited</fullName>
+                    <default>false</default>
+                    <label>Credited</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>inscor__Tax_Amount__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Tax Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Type_Quoted__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Line Type</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Outright</fullName>
+                    <default>false</default>
+                    <label>Outright</label>
+                </value>
+                <value>
+                    <fullName>Exchange</fullName>
+                    <default>false</default>
+                    <label>Exchange</label>
+                </value>
+                <value>
+                    <fullName>Return Inventory</fullName>
+                    <default>false</default>
+                    <label>Return Inventory</label>
+                </value>
+                <value>
+                    <fullName>Return EX Core</fullName>
+                    <default>false</default>
+                    <label>Return EX Core</label>
+                </value>
+                <value>
+                    <fullName>Core Charge</fullName>
+                    <default>false</default>
+                    <label>Core Charge</label>
+                </value>
+                <value>
+                    <fullName>Non Stock</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Non Stock</label>
+                </value>
+                <value>
+                    <fullName>Rental / Lease</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Rental / Lease</label>
+                </value>
+                <value>
+                    <fullName>Repair</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Repair</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>inscor__UOM_Purchase_Price__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>UOM Purchase Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>inscor__UOM_Purchase_Quantity__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>UOM Purchase Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__UOM__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>UOM</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>inscor__UOM</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>inscor__Update_Promise_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Update Promise Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Warehouse__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Warehouse</label>
+        <referenceTo>inscor__Warehouse__c</referenceTo>
+        <relationshipName>Purchase_Order_Lines</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Purchase Order Line</label>
+    <nameField>
+        <displayFormat>POL-{0}</displayFormat>
+        <label>PO Line ID</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Purchase Order Lines</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>inscor__Line_Number__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>inscor__Line_Number__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>inscor__Part_Description__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>inscor__Line_Number__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>inscor__Line_Number__c</searchFilterFields>
+        <searchFilterFields>inscor__Part_Description__c</searchFilterFields>
+        <searchResultsAdditionalFields>inscor__Line_Number__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>inscor__Condition_Code_is_required</fullName>
+        <active>false</active>
+        <errorConditionFormula>inscor__Non_Inventory_Item__c == false &amp;&amp; ISBLANK( inscor__Condition_Code__c)</errorConditionFormula>
+        <errorDisplayField>inscor__Condition_Code__c</errorDisplayField>
+        <errorMessage>Condition Code is required</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Cons_Owner_for_Cons_Purchases</fullName>
+        <active>true</active>
+        <description>Check that Owner Codes used on Consignment POs are Consignment Owners</description>
+        <errorConditionFormula>AND (inscor__Owner_Code__r.inscor__Consignment__c &lt;&gt; True, 
+(ISPICKVAL(inscor__PO_Number__r.inscor__PO_Type__c , &apos;Consignment&apos;)))</errorConditionFormula>
+        <errorMessage>You must use a Consignment Owner Code when PO Header Type = Consignment.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Consignment_lines_cannot_have_price</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(  inscor__Owner_Code__r.inscor__Consignment__c  = true,  inscor__Price__c &gt;0)</errorConditionFormula>
+        <errorMessage>PO Lines for consignment owner codes should be $0</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Expected_delivery_cannot_be_previous</fullName>
+        <active>false</active>
+        <errorConditionFormula>inscor__Expected_Delivery__c &lt;  TODAY()</errorConditionFormula>
+        <errorMessage>Expected Delivery date cannot be prior to today</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Initial_Promise_date_cannot_be_previous</fullName>
+        <active>false</active>
+        <errorConditionFormula>inscor__Initial_Promise_Date__c &lt;  TODAY()</errorConditionFormula>
+        <errorMessage>Initial promise date cannot be prior to today</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__LOT_Owner_for_LOT_Purchases</fullName>
+        <active>true</active>
+        <description>Check that Owner Codes used on LOT POs are LOT Owners</description>
+        <errorConditionFormula>AND (inscor__Owner_Code__r.inscor__Lot_Purchase__c  &lt;&gt; True, 
+(ISPICKVAL(inscor__PO_Number__r.inscor__PO_Type__c , &apos;Lot&apos;)))</errorConditionFormula>
+        <errorMessage>You must use a LOT Owner Code when PO Header Type = LOT.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Lot_lines_cannot_have_price</fullName>
+        <active>true</active>
+        <description>No Longer Needed.</description>
+        <errorConditionFormula>AND( inscor__Owner_Code__r.inscor__Lot_Purchase__c = true,  inscor__Price__c &gt;0)</errorConditionFormula>
+        <errorMessage>PO Lines for Lot owner codes should be $0</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Non_Cons_Owner_for_Non_Cons_PO_Header</fullName>
+        <active>true</active>
+        <description>Check to ensure Consignment owners are not used on non Consignment PO Headers</description>
+        <errorConditionFormula>AND(inscor__Owner_Code__r.inscor__Consignment__c = True, 
+NOT(ISPICKVAL(inscor__PO_Number__r.inscor__PO_Type__c , &apos;Consignment&apos;)))</errorConditionFormula>
+        <errorMessage>You cannot use a Consignment Owner Code when PO Header is not a Consignment.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Non_LOT_Owner_for_Non_LOT_PO_Header</fullName>
+        <active>true</active>
+        <description>Check to ensure LOT owners are not used on non LOT PO Headers</description>
+        <errorConditionFormula>AND(inscor__Owner_Code__r.inscor__Lot_Purchase__c  = True, 
+NOT(ISPICKVAL(inscor__PO_Number__r.inscor__PO_Type__c , &apos;Lot&apos;)))</errorConditionFormula>
+        <errorMessage>You cannot use a LOT Owner Code when PO Header is not a LOT.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Owner_Code_is_required</fullName>
+        <active>false</active>
+        <errorConditionFormula>ISNEW() = FALSE  &amp;&amp;  ISBLANK( inscor__Owner_Code__c )</errorConditionFormula>
+        <errorDisplayField>inscor__Owner_Code__c</errorDisplayField>
+        <errorMessage>Owner Code is required</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Owner_Code_or_Non_Inventory_Part_Require</fullName>
+        <active>true</active>
+        <errorConditionFormula>inscor__Product__r.inscor__Non_Inventory_Item__c == false &amp;&amp;   ISBLANK(inscor__Owner_Code__c)</errorConditionFormula>
+        <errorMessage>Owner code missing.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Part_Number_Required</fullName>
+        <active>false</active>
+        <errorConditionFormula>inscor__Product__c == null</errorConditionFormula>
+        <errorMessage>Part Number is required</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Partial_Receive_Price_Change</fullName>
+        <active>true</active>
+        <description>Do not allow price changes on PO lines in partially received status.</description>
+        <errorConditionFormula>AND(ISPICKVAL( inscor__Status__c , &apos;Sent To Vendor&apos;),  inscor__Quantity_Received__c &gt; 0, 
+inscor__Quantity_Received__c &lt; inscor__Quantity__c, 
+ISCHANGED( inscor__Price__c ))</errorConditionFormula>
+        <errorMessage>Price change not allowed due to partially rec&apos;d status. Contact your Accounts Payable Dept.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Price_Cannot_Change_After_Paid</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISCHANGED(inscor__Price__c) &amp;&amp;  NOT( ISCHANGED(inscor__Quantity_Paid__c))  &amp;&amp;  inscor__Quantity__c ==  inscor__Quantity_Paid__c</errorConditionFormula>
+        <errorDisplayField>inscor__Price__c</errorDisplayField>
+        <errorMessage>Price can not change after paid.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Price_is_required</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISNEW() = FALSE  &amp;&amp;  ISBLANK( inscor__Price__c )  &amp;&amp;  (inscor__Owner_Code__r.inscor__Consignment__c = FALSE &amp;&amp;  inscor__Owner_Code__r.inscor__Lot_Purchase__c = FALSE)</errorConditionFormula>
+        <errorDisplayField>inscor__Price__c</errorDisplayField>
+        <errorMessage>Price cannot be left blank.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Qty_Ordered_less_than_Qty_Received</fullName>
+        <active>true</active>
+        <description>Validates the qty amount that is allowed.</description>
+        <errorConditionFormula>IF(
+OR(ISPICKVAL(inscor__Type_Quoted__c,&apos;Return Inventory&apos;),ISPICKVAL(inscor__Type_Quoted__c, &apos;Return EX Core&apos;)),
+false,
+inscor__Quantity__c  &lt;  ( BLANKVALUE(inscor__Quantity_Received__c, 0) + BLANKVALUE(inscor__Quantity_Allocated__c,0) )
+)</errorConditionFormula>
+        <errorDisplayField>inscor__Quantity__c</errorDisplayField>
+        <errorMessage>Qty Ordered cannot be less than Qty Received plus Qty Allocated.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Quantity_Check</fullName>
+        <active>false</active>
+        <errorConditionFormula>inscor__Quantity__c &lt; 0</errorConditionFormula>
+        <errorMessage>Negative values not allowed for Prices and Quantity fields.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Restrict_Shelf_Life_Updation</fullName>
+        <active>false</active>
+        <errorConditionFormula>ISCHANGED(inscor__Shelf_Life__c)</errorConditionFormula>
+        <errorDisplayField>inscor__Shelf_Life__c</errorDisplayField>
+        <errorMessage>cannot change Shelf life, it will be copied from Part Number !!</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Type_Purchase_Required</fullName>
+        <active>true</active>
+        <description>Makes the Type Purchase field required for PO Lines</description>
+        <errorConditionFormula>ISBLANK( TEXT(inscor__Type_Quoted__c) )</errorConditionFormula>
+        <errorMessage>Type Purchase is required</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Warehouse_Code_is_required</fullName>
+        <active>false</active>
+        <errorConditionFormula>inscor__Product__r.inscor__Non_Inventory_Item__c == false &amp;&amp; ISBLANK(  inscor__Warehouse__c  )</errorConditionFormula>
+        <errorDisplayField>inscor__Warehouse__c</errorDisplayField>
+        <errorMessage>Warehouse Code is required</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

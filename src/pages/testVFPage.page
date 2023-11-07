@@ -1,0 +1,4 @@
+<apex:page >
+    {!$Site.Name}
+    {!$Site.Domain}
+</apex:page>

@@ -1,0 +1,21 @@
+.massUpload {
+    border: 1px solid #D9D9D9;
+    background-color: rgb(241, 241, 241);
+}
+.massUploadHomePage {
+    padding: 10px;
+    border: unset;
+    border-radius: 0px;
+    margin: 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: rgb(208, 28, 72);
+    border-color: rgb(208, 28, 72);
+    color: rgb(255, 255, 255);
+    padding-top: var(--lwc-spacingXxSmall,0.25rem);
+    padding-bottom: var(--lwc-spacingXxSmall,0.25rem);
+}
+a.massUploadHomePage:hover {
+    text-decoration: unset;
+}

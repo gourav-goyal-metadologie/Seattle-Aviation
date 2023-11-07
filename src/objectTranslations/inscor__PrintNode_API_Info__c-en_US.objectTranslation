@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- API Key Description --></label>
+        <name>inscor__API_Key_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- API Key --></label>
+        <name>inscor__API_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- API URL --></label>
+        <name>inscor__API_URL__c</name>
+    </fields>
+</CustomObjectTranslation>

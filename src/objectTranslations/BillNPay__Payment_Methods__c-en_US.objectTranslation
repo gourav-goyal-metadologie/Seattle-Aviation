@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Checking/Savings --></label>
+        <name>BillNPay__Account_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>BillNPay__Account__c</name>
+        <relationshipLabel><!-- Payment Methods --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Is method currently inactive --></help>
+        <label><!-- Active --></label>
+        <name>BillNPay__Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- Address used in verification --></help>
+        <label><!-- Address --></label>
+        <name>BillNPay__Address__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field may only record the final digits of the Bank Account number for security purposes --></help>
+        <label><!-- Bank Account Number --></label>
+        <name>BillNPay__Bank_Account_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Name --></label>
+        <name>BillNPay__Bank_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Portion of payer&apos;s card number for reference --></help>
+        <label><!-- Card Number --></label>
+        <name>BillNPay__Card_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Personal/Business --></label>
+        <name>BillNPay__Check_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>BillNPay__Contact__c</name>
+        <relationshipLabel><!-- Payment Methods --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Default currency for this method --></help>
+        <label><!-- Currency --></label>
+        <name>BillNPay__Currency__c</name>
+    </fields>
+    <fields>
+        <help><!-- Checked when a payment method is captured for a customer without mobile # and/or email.  Indicates this payment method cannot be used for text or automatic scheduled payments --></help>
+        <label><!-- Customer without Mobile # --></label>
+        <name>BillNPay__Customer_without_Mobile_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exp Month --></label>
+        <name>BillNPay__Exp_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exp Year --></label>
+        <name>BillNPay__Exp_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expired --></label>
+        <name>BillNPay__Expired__c</name>
+    </fields>
+    <fields>
+        <help><!-- Customer name provided by card issuer or bank --></help>
+        <label><!-- Name on Account/Card --></label>
+        <name>BillNPay__Name_on_Account__c</name>
+    </fields>
+    <fields>
+        <help><!-- Assign a nickname to your payment method --></help>
+        <label><!-- Nickname --></label>
+        <name>BillNPay__Nickname__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Type --></label>
+        <name>BillNPay__Payment_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- Postal code used in payment verification --></help>
+        <label><!-- Postal Code --></label>
+        <name>BillNPay__Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Routing Number --></label>
+        <name>BillNPay__Routing_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- External reference number --></help>
+        <label><!-- Payment Method ID --></label>
+        <name>BillNPay__T2P_PaymentMethod_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Provided by your Gateway --></help>
+        <label><!-- Token --></label>
+        <name>BillNPay__Token__c</name>
+    </fields>
+    <fields>
+        <label><!-- Update --></label>
+        <name>BillNPay__Update__c</name>
+    </fields>
+    <layouts>
+        <layout>Bank Account Layout</layout>
+        <sections>
+            <label><!-- Bank/ACH Info --></label>
+            <section>Bank/ACH Info</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Card Layout</layout>
+        <sections>
+            <label><!-- Card Info --></label>
+            <section>Card Info</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Used for ACH --></description>
+        <label><!-- Bank Account --></label>
+        <name>BillNPay__Bank_Account</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Credit &amp; Debit Card --></description>
+        <label><!-- Card --></label>
+        <name>BillNPay__Card</name>
+    </recordTypes>
+</CustomObjectTranslation>

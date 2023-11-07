@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- NC Enable Section --></label>
+        <name>QPMS__NC_Enable_Section</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- NC Type AuditTrial --></label>
+        <name>QPMS__NC_Type_AuditTrial</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- NC Type Header --></label>
+        <name>QPMS__NC_Type_Header</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- NC Type Init --></label>
+        <name>QPMS__NC_Type_Init</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Non Conformance Type Contextual_Help --></label>
+        <name>QPMS__Non_Conformance_Type_Contextual_Help</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- NC Type Details --></label>
+        <name>QPMS__Non_Conformance_Type_Details</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Active --></label>
+        <name>QPMS__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allow Workflow Configuration --></label>
+        <name>QPMS__Allow_Workflow_Configuration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Group --></label>
+        <name>QPMS__Approval_Group_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Group --></label>
+        <name>QPMS__Approval_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Closure Auto Approval Submission --></label>
+        <name>QPMS__Closure_Auto_Approval_Submission__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Risk Assessment --></label>
+        <name>QPMS__Enable_Risk_Assessment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initiating Site Security --></label>
+        <name>QPMS__Initiating_Site_Security__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initiating Site --></label>
+        <name>QPMS__Initiating_Site__c</name>
+        <relationshipLabel><!-- NC Template Types --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Number Scheme --></label>
+        <name>QPMS__Number_Scheme__c</name>
+        <relationshipLabel><!-- NC Template Types --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Owner Name --></label>
+        <name>QPMS__Owner_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Information --></label>
+        <name>QPMS__Product_Information__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purpose --></label>
+        <name>QPMS__Purpose__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason --></label>
+        <name>QPMS__Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter Information --></label>
+        <name>QPMS__Reporter_Information__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolution Approval Mandatory --></label>
+        <name>QPMS__Resolution_Approval_Mandatory__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signed Off Details --></label>
+        <name>QPMS__Signed_Off_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>QPMS__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-Review</masterLabel>
+            <translation><!-- In-Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>QPMS__Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>QPMS__Type_Text__c</name>
+    </fields>
+    <fields>
+        <help><!-- 選擇產品或過程進行分類的事件。基於此字段中，“選擇產品”或顯示“選擇處理”字段。 --></help>
+        <label><!-- Type --></label>
+        <name>QPMS__Type__c</name>
+        <picklistValues>
+            <masterLabel>OOT</masterLabel>
+            <translation><!-- OOT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Process</masterLabel>
+            <translation><!-- Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation><!-- Product --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- User Information --></label>
+        <name>QPMS__User_Information__c</name>
+    </fields>
+</CustomObjectTranslation>

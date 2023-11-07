@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Course Session Name --></label>
+        <name>QPMS__Course_Session_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Apex Class --></label>
+        <name>QPMS__JobApexClass__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Created Date --></label>
+        <name>QPMS__JobCreatedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- BatchErrors --></label>
+        <name>QPMS__JobErrors__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Id --></label>
+        <name>QPMS__JobId__c</name>
+    </fields>
+    <fields>
+        <label><!-- JobItemsProcessed --></label>
+        <name>QPMS__JobItemsProcessed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Function Name --></label>
+        <name>QPMS__Job_Function_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Module --></label>
+        <name>QPMS__Module__c</name>
+        <picklistValues>
+            <masterLabel>Document</masterLabel>
+            <translation><!-- Document --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- NumberOfErrors --></label>
+        <name>QPMS__NumberOfErrors__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent --></label>
+        <name>QPMS__Parent__c</name>
+        <relationshipLabel><!-- Batch Apex Error Logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RecordId --></label>
+        <name>QPMS__RecordId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>QPMS__Status__c</name>
+        <picklistValues>
+            <masterLabel>Aborted</masterLabel>
+            <translation><!-- Aborted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation><!-- Failed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Holding</masterLabel>
+            <translation><!-- Holding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preparing</masterLabel>
+            <translation><!-- Preparing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing</masterLabel>
+            <translation><!-- Processing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Queued</masterLabel>
+            <translation><!-- Queued --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- TotalFailedRecords --></label>
+        <name>QPMS__TotalFailedRecords__c</name>
+    </fields>
+    <fields>
+        <label><!-- TotalJobItems --></label>
+        <name>QPMS__TotalJobItems__c</name>
+    </fields>
+    <fields>
+        <label><!-- TotalProcessedRecords --></label>
+        <name>QPMS__TotalProcessedRecords__c</name>
+    </fields>
+    <layouts>
+        <layout>Batch Apex Error Log Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

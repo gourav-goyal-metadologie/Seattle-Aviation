@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Used to specify a reference point on the page layout when adding Fields or Sections. --></help>
+        <label><!-- AnchorField --></label>
+        <name>inscor__AnchorField__c</name>
+    </fields>
+    <fields>
+        <label><!-- AnchorType --></label>
+        <name>inscor__AnchorType__c</name>
+        <picklistValues>
+            <masterLabel>Anchor_Type_After</masterLabel>
+            <translation><!-- Anchor_Type_After --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anchor_Type_Before</masterLabel>
+            <translation><!-- Anchor_Type_Before --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anchor_Type_End</masterLabel>
+            <translation><!-- Anchor_Type_End --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anchor_Type_Right</masterLabel>
+            <translation><!-- Anchor_Type_Right --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anchor_Type_Start</masterLabel>
+            <translation><!-- Anchor_Type_Start --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Button Name --></label>
+        <name>inscor__Button_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Button Order --></label>
+        <name>inscor__Button_Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Button Type --></label>
+        <name>inscor__Button_Type__c</name>
+        <picklistValues>
+            <masterLabel>ActionLink</masterLabel>
+            <translation><!-- ActionLink --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CustomButton</masterLabel>
+            <translation><!-- CustomButton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>InvocableAction</masterLabel>
+            <translation><!-- InvocableAction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ProductivityAction</masterLabel>
+            <translation><!-- ProductivityAction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QuickAction</masterLabel>
+            <translation><!-- QuickAction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>StandardButton</masterLabel>
+            <translation><!-- StandardButton --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Used to specify which type of page layout change is being made. --></help>
+        <label><!-- Change Type --></label>
+        <name>inscor__Change_Type__c</name>
+        <picklistValues>
+            <masterLabel>Button</masterLabel>
+            <translation><!-- Button --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field</masterLabel>
+            <translation><!-- Field --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Section</masterLabel>
+            <translation><!-- Section --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Used to describe what change is being made by this record. --></help>
+        <label><!-- Description --></label>
+        <name>inscor__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Behavior --></label>
+        <name>inscor__Field_Behavior__c</name>
+        <picklistValues>
+            <masterLabel>Behaviour_Edit</masterLabel>
+            <translation><!-- Behaviour_Edit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Behaviour_Readonly</masterLabel>
+            <translation><!-- Behaviour_Readonly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Behaviour_Required</masterLabel>
+            <translation><!-- Behaviour_Required --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The API name of the field being added/removed from page layout. Do not include namespace. --></help>
+        <label><!-- Field Name --></label>
+        <name>inscor__Field_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name of the layout can be found in Object Manager. --></help>
+        <label><!-- Layout Name --></label>
+        <name>inscor__Layout_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Use the API name without the namespace. --></help>
+        <label><!-- Object --></label>
+        <name>inscor__Object__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operation --></label>
+        <name>inscor__Operation__c</name>
+        <picklistValues>
+            <masterLabel>Operation_Add</masterLabel>
+            <translation><!-- Operation_Add --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operation_Remove</masterLabel>
+            <translation><!-- Operation_Remove --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Section --></label>
+        <name>inscor__Section__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sequence --></label>
+        <name>inscor__Sequence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>inscor__Status1__c</name>
+        <picklistValues>
+            <masterLabel>Done</masterLabel>
+            <translation><!-- Done --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Done</masterLabel>
+            <translation><!-- Not Done --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status (RETIRED) --></label>
+        <name>inscor__Status__c</name>
+        <picklistValues>
+            <masterLabel>Done</masterLabel>
+            <translation><!-- Done --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation><!-- Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Done</masterLabel>
+            <translation><!-- Not Done --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- TestCase --></label>
+        <name>inscor__TestCase__c</name>
+    </fields>
+    <fields>
+        <label><!-- Version --></label>
+        <name>inscor__Version__c</name>
+    </fields>
+    <layouts>
+        <layout>Default</layout>
+        <sections>
+            <label><!-- Button --></label>
+            <section>Button</section>
+        </sections>
+        <sections>
+            <label><!-- Default --></label>
+            <section>Default</section>
+        </sections>
+        <sections>
+            <label><!-- Field --></label>
+            <section>Field</section>
+        </sections>
+        <sections>
+            <label><!-- Options --></label>
+            <section>Options</section>
+        </sections>
+        <sections>
+            <label><!-- Section --></label>
+            <section>Section</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Button Name is required when Change Type is Button --></errorMessage>
+        <name>inscor__Require_Button_Name_on_Type_Button</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Field Name required when Change Type is Field --></errorMessage>
+        <name>inscor__Require_Field_Name_on_Type_Field</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Section is required when Change Type is Section --></errorMessage>
+        <name>inscor__Require_Section_on_Type_Section</name>
+    </validationRules>
+</CustomObjectTranslation>

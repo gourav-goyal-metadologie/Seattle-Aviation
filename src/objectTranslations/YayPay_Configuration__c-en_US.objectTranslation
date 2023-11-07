@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>YayPay Configuration</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>YayPay Configuration</value>
+    </caseValues>
+    <fields>
+        <label><!-- Batch Interval Minutes --></label>
+        <name>Batch_Interval_Minutes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Key --></label>
+        <name>Client_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Secret --></label>
+        <name>Client_Secret__c</name>
+    </fields>
+    <fields>
+        <label><!-- Due Date Time Instance --></label>
+        <name>Due_Date_Time_Instance__c</name>
+    </fields>
+    <fields>
+        <label><!-- EndPoint --></label>
+        <name>EndPoint__c</name>
+    </fields>
+    <fields>
+        <label><!-- File Name Prefix Invoice --></label>
+        <name>File_Name_Prefix_Invoice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Integration Enable --></label>
+        <name>Is_Integration_Enable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Records To Query Batch --></label>
+        <name>Records_To_Query_Batch__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction End Time --></label>
+        <name>Transaction_End_Time__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

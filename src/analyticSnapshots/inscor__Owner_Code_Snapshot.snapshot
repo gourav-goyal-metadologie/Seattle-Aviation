@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnalyticSnapshot xmlns="http://soap.sforce.com/2006/04/metadata">
+    <mappings>
+        <sourceField>CUST_NAME</sourceField>
+        <sourceType>tabular</sourceType>
+        <targetField>inscor__Snapshot_Analytics__c.inscor__Owner_Code__c</targetField>
+    </mappings>
+    <mappings>
+        <sourceField>inscor__Owner_Code__c.inscor__Acquisition_Cost__c</sourceField>
+        <sourceType>tabular</sourceType>
+        <targetField>inscor__Snapshot_Analytics__c.inscor__Owner_Acquisition_Cost__c</targetField>
+    </mappings>
+    <name>Owner Code Snapshot</name>
+    <runningUser>03346000000cvmqaak@00d8f0000008ameuai</runningUser>
+    <sourceReport>inscor__AvSight_Snapshots/inscor__Snapshot_Owner_Codes_n2m</sourceReport>
+    <targetObject>inscor__Snapshot_Analytics__c</targetObject>
+</AnalyticSnapshot>

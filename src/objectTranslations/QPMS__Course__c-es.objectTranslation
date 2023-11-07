@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Course</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Courses</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- ActiveDeactiveFields --></label>
+        <name>QPMS__ActiveDeactiveFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Assessment fields --></label>
+        <name>QPMS__Assessment_fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CourseDetail --></label>
+        <name>QPMS__CourseDetail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CourseDetailsPrint --></label>
+        <name>QPMS__CourseDetailsPrint</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CourseProfileApplicableTo --></label>
+        <name>QPMS__CourseProfileApplicableTo</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CourseProfileAssessment --></label>
+        <name>QPMS__CourseProfileAssessment</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CourseProfileHeader --></label>
+        <name>QPMS__CourseProfileHeader</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CourseProfileListView --></label>
+        <name>QPMS__CourseProfileListView</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CourseProfile Contextual Help --></label>
+        <name>QPMS__CourseProfile_Contextual_Help</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Course Search List Fields --></label>
+        <name>QPMS__Course_Search_List_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Cousre Details In Session --></label>
+        <name>QPMS__Cousre_Details_In_Session</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- DisplayCourse --></label>
+        <name>QPMS__DisplayCourse</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- DisplayCourses --></label>
+        <name>QPMS__DisplayCourses</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- JobCourses --></label>
+        <name>QPMS__JobCourses</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- PrerequsiteCourseInCourse --></label>
+        <name>QPMS__PrerequsiteCourseInCourse</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- TrainingDetais --></label>
+        <name>QPMS__TrainingDetais</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Training History --></label>
+        <name>QPMS__Training_History</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UsersGroups --></label>
+        <name>QPMS__UsersGroups</name>
+    </fieldSets>
+    <fields>
+        <label><!-- All Users From Doc --></label>
+        <name>QPMS__All_Users_From_Doc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allow re-test --></label>
+        <name>QPMS__Allow_re_test__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allowed Days --></label>
+        <name>QPMS__Allowed_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- ApprovalProcess --></label>
+        <name>QPMS__ApprovalProcess__c</name>
+        <picklistValues>
+            <masterLabel>Course</masterLabel>
+            <translation><!-- Course --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CourseApproval</masterLabel>
+            <translation><!-- CourseApproval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CourseStatusChange</masterLabel>
+            <translation><!-- CourseStatusChange --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approval Group --></label>
+        <name>QPMS__Approval_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Process Complete --></label>
+        <name>QPMS__Approval_Process_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Required --></label>
+        <name>QPMS__Approval_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>QPMS__Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recall</masterLabel>
+            <translation><!-- Recall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approver 1 --></label>
+        <name>QPMS__Approver_1__c</name>
+        <relationshipLabel><!-- Courses (Approver 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 2 --></label>
+        <name>QPMS__Approver_2__c</name>
+        <relationshipLabel><!-- Courses (Approver 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 3 --></label>
+        <name>QPMS__Approver_3__c</name>
+        <relationshipLabel><!-- Courses (Approver 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 4 --></label>
+        <name>QPMS__Approver_4__c</name>
+        <relationshipLabel><!-- Courses (Approver 4) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 5 --></label>
+        <name>QPMS__Approver_5__c</name>
+        <relationshipLabel><!-- Courses (Approver 5) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 6 --></label>
+        <name>QPMS__Approver_6__c</name>
+        <relationshipLabel><!-- Courses (Approver 6) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 7 --></label>
+        <name>QPMS__Approver_7__c</name>
+        <relationshipLabel><!-- Courses (Approver 7) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 8 --></label>
+        <name>QPMS__Approver_8__c</name>
+        <relationshipLabel><!-- Courses (Approver 8) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 9 --></label>
+        <name>QPMS__Approver_9__c</name>
+        <relationshipLabel><!-- Courses (Approver 9) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver --></label>
+        <name>QPMS__Approver__c</name>
+        <relationshipLabel><!-- Courses (Approver) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Assessment Questions --></label>
+        <name>QPMS__Assessment_Questions__c</name>
+        <picklistValues>
+            <masterLabel>Add another</masterLabel>
+            <translation><!-- Add another --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Choices</masterLabel>
+            <translation><!-- Choices --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correct Answer</masterLabel>
+            <translation><!-- Correct Answer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Question</masterLabel>
+            <translation><!-- Question --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Assessment Required? --></label>
+        <name>QPMS__Assessment_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Unit --></label>
+        <name>QPMS__Business_Unit__c</name>
+        <picklistValues>
+            <masterLabel>Business_Unit</masterLabel>
+            <translation><!-- Business_Unit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engineering</masterLabel>
+            <translation><!-- Engineering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services</masterLabel>
+            <translation><!-- Services --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Completion Period (Days) --></label>
+        <name>QPMS__Completion_Period_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- ContentVersionId --></label>
+        <name>QPMS__ContentVersionId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost ($) --></label>
+        <name>QPMS__Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Course Description --></label>
+        <name>QPMS__Course_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Course From Doc --></label>
+        <name>QPMS__Course_From_Doc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Course Name --></label>
+        <name>QPMS__Course_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Course Not Related To Job Function --></label>
+        <name>QPMS__Course_Not_Related_To_Job_Function__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner --></label>
+        <name>QPMS__Course_Profile_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Course Status --></label>
+        <name>QPMS__Course_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- this is course title --></help>
+        <label><!-- Course Title --></label>
+        <name>QPMS__Course_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Course Type --></label>
+        <name>QPMS__Course_Type__c</name>
+        <picklistValues>
+            <masterLabel>Document</masterLabel>
+            <translation><!-- Document --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Instructor Led</masterLabel>
+            <translation><!-- Instructor Led --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Course from CourseProfile --></label>
+        <name>QPMS__Course_from_CourseProfile__c</name>
+        <picklistValues>
+            <masterLabel>Enrolled</masterLabel>
+            <translation><!-- Enrolled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Withdraw</masterLabel>
+            <translation><!-- Withdraw --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CreateCourseSession --></label>
+        <name>QPMS__CreateCourseSession__c</name>
+    </fields>
+    <fields>
+        <label><!-- CurrentApprovalSequenceNumber --></label>
+        <name>QPMS__CurrentApprovalSequenceNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Departments --></label>
+        <name>QPMS__Departments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Doc security --></label>
+        <name>QPMS__Doc_security__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Profile --></label>
+        <name>QPMS__Document_Profile__c</name>
+        <relationshipLabel><!-- Courses --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Document Status --></label>
+        <name>QPMS__Document_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duration --></label>
+        <name>QPMS__Duration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Security --></label>
+        <name>QPMS__Enable_Security__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>QPMS__End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enrollment Max --></label>
+        <name>QPMS__Enrollment_Max__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expiration Date --></label>
+        <name>QPMS__Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Trainer(s) --></label>
+        <name>QPMS__External_Trainer_s__c</name>
+    </fields>
+    <fields>
+        <label><!-- FilterConditionForCourseInPersonProfile --></label>
+        <name>QPMS__FilterConditionForCourseInPersonProfile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Final Message on final fail --></label>
+        <name>QPMS__Final_Message_on_final_fail__c</name>
+    </fields>
+    <fields>
+        <help><!-- To hold followers for this record --></help>
+        <label><!-- Followers --></label>
+        <name>QPMS__Followers__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Grace period for Review --></label>
+        <name>QPMS__Grace_period_for_Review__c</name>
+    </fields>
+    <fields>
+        <label><!-- Groups From Course --></label>
+        <name>QPMS__Groups_From_Course__c</name>
+    </fields>
+    <fields>
+        <help><!-- Inform Manager &amp; Continue With training --></help>
+        <label><!-- Inform Manager &amp; Continue With training --></label>
+        <name>QPMS__Inform_Manager_Continue_With_training__c</name>
+    </fields>
+    <fields>
+        <help><!-- Inform Manager &amp; Wait for approval --></help>
+        <label><!-- Inform Manager &amp; Wait for approval --></label>
+        <name>QPMS__Inform_Manager_Wait_for_approval__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Submitter --></label>
+        <name>QPMS__Initial_Submitter__c</name>
+        <relationshipLabel><!-- Courses (Initial Submitter) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Initiating Site --></label>
+        <name>QPMS__InitiatingSite_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initiating Site Security --></label>
+        <name>QPMS__Initiating_Site_Security__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initiating Site --></label>
+        <name>QPMS__Initiating_Site__c</name>
+        <relationshipLabel><!-- Courses --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Internal Trainer(s) --></label>
+        <name>QPMS__Internal_Trainer_s__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Trainers --></label>
+        <name>QPMS__Internal_Trainers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Created From Document --></label>
+        <name>QPMS__Is_Created_From_Document__c</name>
+    </fields>
+    <fields>
+        <label><!-- Refresher Training Needed --></label>
+        <name>QPMS__Is_Refresher__c</name>
+    </fields>
+    <fields>
+        <label><!-- JobFunction --></label>
+        <name>QPMS__JobFunction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Locations --></label>
+        <name>QPMS__Locations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manager Approval Required For Enroll --></label>
+        <name>QPMS__Manager_Approval_Required_For_Enroll__c</name>
+    </fields>
+    <fields>
+        <label><!-- Minimum Passing Score --></label>
+        <name>QPMS__Minimum_Passing_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- No Of Attempts --></label>
+        <name>QPMS__No_Of_Attempts__c</name>
+    </fields>
+    <fields>
+        <label><!-- No Of Questions --></label>
+        <name>QPMS__No_Of_Questions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Note To Approver --></label>
+        <name>QPMS__Note_To_Approver__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Scheme --></label>
+        <name>QPMS__Number_Scheme__c</name>
+        <relationshipLabel><!-- Courses --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Pre-requisite Courses --></label>
+        <name>QPMS__Pre_requisite_Courses__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prerequisite Courses --></label>
+        <name>QPMS__Prerequisite_Courses__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process --></label>
+        <name>QPMS__Process__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>QPMS__Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purpose --></label>
+        <name>QPMS__Purpose__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason --></label>
+        <name>QPMS__Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason for uncheck TakeAssessment --></label>
+        <name>QPMS__Reason_for_uncheck_Takeassessment__c</name>
+    </fields>
+    <fields>
+        <label><!-- RecordCloneId --></label>
+        <name>QPMS__RecordCloneId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Refresher Advance Notice(Days) --></label>
+        <name>QPMS__Refresher_Advance_Notice_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Refresher Date --></label>
+        <name>QPMS__Refresher_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Refresher Period (Days) --></label>
+        <name>QPMS__Refresher_Period_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sequence --></label>
+        <name>QPMS__Sequence__c</name>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation><!-- 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40</masterLabel>
+            <translation><!-- 40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50</masterLabel>
+            <translation><!-- 50 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60</masterLabel>
+            <translation><!-- 60 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>70</masterLabel>
+            <translation><!-- 70 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>80</masterLabel>
+            <translation><!-- 80 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>90</masterLabel>
+            <translation><!-- 90 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Show All Users --></label>
+        <name>QPMS__Show_All_Users__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signed Off Details --></label>
+        <name>QPMS__Signed_Off_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sites --></label>
+        <name>QPMS__Sites__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>QPMS__Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>QPMS__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>InReview</masterLabel>
+            <translation><!-- InReview --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Supported Regulations --></label>
+        <name>QPMS__Supported_Regulations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training Group --></label>
+        <name>QPMS__Training_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training Materials --></label>
+        <name>QPMS__Training_Materials__c</name>
+    </fields>
+    <fields>
+        <label><!-- UOM --></label>
+        <name>QPMS__UOM__c</name>
+        <picklistValues>
+            <masterLabel>Days</masterLabel>
+            <translation><!-- Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Month</masterLabel>
+            <translation><!-- Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Week</masterLabel>
+            <translation><!-- Week --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Year</masterLabel>
+            <translation><!-- Year --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Users From Course --></label>
+        <name>QPMS__Users_From_Course__c</name>
+    </fields>
+    <fields>
+        <label><!-- Users From Training --></label>
+        <name>QPMS__Users_From_Training__c</name>
+    </fields>
+    <fields>
+        <label><!-- Users Not Allowed To Self Enroll --></label>
+        <name>QPMS__Users_Not_Allowed_To_Self_Enroll__c</name>
+    </fields>
+    <fields>
+        <label><!-- isDisabled --></label>
+        <name>QPMS__isDisabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- isLocked --></label>
+        <name>QPMS__isLocked__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Course Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Numero de curso</nameFieldLabel>
+    <recordTypes>
+        <label><!-- Prerequisite Courses --></label>
+        <name>QPMS__Prerequisite_Courses</name>
+    </recordTypes>
+</CustomObjectTranslation>

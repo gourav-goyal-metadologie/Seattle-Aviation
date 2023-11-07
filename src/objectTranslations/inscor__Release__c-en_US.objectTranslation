@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Compliance Request --></label>
+        <name>Compliance_Request__c</name>
+    </fields>
+    <fields>
+        <label><!-- Compliance Response --></label>
+        <name>Compliance_Response__c</name>
+    </fields>
+    <fields>
+        <label><!-- Compliance Status --></label>
+        <name>Compliance_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- GUID --></label>
+        <name>GUID__c</name>
+    </fields>
+    <fields>
+        <label><!-- International Transaction Number --></label>
+        <name>International_Transaction_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Legacy Ship Method --></label>
+        <name>Legacy_Ship_Method__c</name>
+    </fields>
+    <fields>
+        <help><!-- Receiver&apos;s Email --></help>
+        <label><!-- Receiver&apos;s Email --></label>
+        <name>Receivers_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Release Invoice Date For Email --></label>
+        <name>Release_Invoice_Date_For_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Release Invoice Date --></label>
+        <name>Release_Invoice_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remarks --></label>
+        <name>Remarks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipment Response --></label>
+        <name>Shipment_Response__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZK CI Template ID --></label>
+        <name>ZK_CI_Template_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZK DHL Decl1 --></label>
+        <name>ZK_DHL_Decl1__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZK DHL Decl2 --></label>
+        <name>ZK_DHL_Decl2__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZK DHL Decl3 --></label>
+        <name>ZK_DHL_Decl3__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZK DHL Signature Name --></label>
+        <name>ZK_DHL_Signature_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZK Vendor --></label>
+        <name>ZK_Vendor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Child Releases --></label>
+        <name>avszen__Child_Releases__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Type Name --></label>
+        <name>avszen__Service_Type_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipment --></label>
+        <name>avszen__Shipment__c</name>
+        <relationshipLabel><!-- Releases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ZK Package Type --></label>
+        <name>avszen__ZK_Package_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZK Service Type --></label>
+        <name>avszen__ZK_Service_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- AOG? --></label>
+        <name>inscor__AOG__c</name>
+    </fields>
+    <fields>
+        <label><!-- AWB --></label>
+        <name>inscor__AWB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Ship Address Name --></label>
+        <name>inscor__Account_Ship_Address_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Terms --></label>
+        <name>inscor__Account_Terms__c</name>
+        <relationshipLabel><!-- Releases --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- If this field is left blank when changing Ship Method then the default Acct # will be filled in automatically. --></help>
+        <label><!-- Acct # --></label>
+        <name>inscor__Acct__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bill Freight Via --></label>
+        <name>inscor__Bill_Freight_Via__c</name>
+        <picklistValues>
+            <masterLabel>On 3rd Party Acct</masterLabel>
+            <translation><!-- On 3rd Party Acct --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Cust Acct</masterLabel>
+            <translation><!-- On Cust Acct --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Cust Invoice</masterLabel>
+            <translation><!-- On Cust Invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Our Acct</masterLabel>
+            <translation><!-- On Our Acct --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Bill Freight? --></label>
+        <name>inscor__Bill_Freight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing City --></label>
+        <name>inscor__Billing_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Contact --></label>
+        <name>inscor__Billing_Contact__c</name>
+        <relationshipLabel><!-- Releases (Billing Contact) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Billing Country --></label>
+        <name>inscor__Billing_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Postal Code --></label>
+        <name>inscor__Billing_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing State --></label>
+        <name>inscor__Billing_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Street --></label>
+        <name>inscor__Billing_Street__c</name>
+    </fields>
+    <fields>
+        <label><!-- Changed After Release? --></label>
+        <name>inscor__Changed_After_Release__c</name>
+    </fields>
+    <fields>
+        <label><!-- Changed Reason --></label>
+        <name>inscor__Changed_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Address Change</masterLabel>
+            <translation><!-- Address Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Release Line Change</masterLabel>
+            <translation><!-- Release Line Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ship Method Change</masterLabel>
+            <translation><!-- Ship Method Change --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>inscor__City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Freight Charge --></label>
+        <name>inscor__Company_Freight_Charge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Freight Cost --></label>
+        <name>inscor__Company_Freight_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Location --></label>
+        <name>inscor__Company_Location__c</name>
+        <relationshipLabel><!-- Releases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact Phone --></label>
+        <name>inscor__Contact_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>inscor__Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Status --></label>
+        <name>inscor__Credit_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Hold</masterLabel>
+            <translation><!-- No Hold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Hold</masterLabel>
+            <translation><!-- On Hold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Customer/Vendor --></label>
+        <name>inscor__Customer_Vendor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Shipped --></label>
+        <name>inscor__Date_Shipped__c</name>
+    </fields>
+    <fields>
+        <label><!-- DropShip Email --></label>
+        <name>inscor__DropShip_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Drop Off Location --></label>
+        <name>inscor__Drop_Off_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dropship ATTN --></label>
+        <name>inscor__Dropship_ATTN__c</name>
+        <relationshipLabel><!-- Releases (Dropship ATTN) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Dropship Site --></label>
+        <name>inscor__Dropship_Site__c</name>
+        <relationshipLabel><!-- Releases (Dropship Site) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Dropship to Account --></label>
+        <name>inscor__Dropship_to_Account__c</name>
+        <relationshipLabel><!-- Releases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Export Status --></label>
+        <name>inscor__Export_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Hold</masterLabel>
+            <translation><!-- No Hold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Hold</masterLabel>
+            <translation><!-- On Hold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- External Comments --></label>
+        <name>inscor__External_Comments_rt__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Freight Charge --></label>
+        <name>inscor__Freight_Charge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Freight Cost --></label>
+        <name>inscor__Freight_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Generated Document --></label>
+        <name>inscor__Generated_Document__c</name>
+        <picklistValues>
+            <masterLabel>Invoice</masterLabel>
+            <translation><!-- Invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Packing Slip</masterLabel>
+            <translation><!-- Packing Slip --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Select the reason you are putting this release on hold. To remove a hold code, &quot;Ctrl&quot; click the selected code. --></help>
+        <label><!-- Hold Code --></label>
+        <name>inscor__Hold_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hold? --></label>
+        <name>inscor__Hold__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incoterms --></label>
+        <name>inscor__Incoterms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Comments --></label>
+        <name>inscor__Internal_Comments_rt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Instructions --></label>
+        <name>inscor__Internal_Instructions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Comments --></label>
+        <name>inscor__Invoice_Comments_rt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Date --></label>
+        <name>inscor__Invoice_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Emailed --></label>
+        <name>inscor__Invoice_Emailed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Number --></label>
+        <name>inscor__Invoice_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice --></label>
+        <name>inscor__Invoice__c</name>
+        <relationshipLabel><!-- Releases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- OPS Last User --></label>
+        <name>inscor__OPS_Last_User__c</name>
+        <relationshipLabel><!-- Releases (OPS Last User) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Packed By --></label>
+        <name>inscor__Packed_By__c</name>
+        <relationshipLabel><!-- Releases (Packed By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Packing Slip Comments --></label>
+        <name>inscor__Packing_Slip_Comments_rt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Paperwork Only? --></label>
+        <name>inscor__Paperwork_Only__c</name>
+    </fields>
+    <fields>
+        <label><!-- Port/Dest --></label>
+        <name>inscor__Port_Dest__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purchase Order --></label>
+        <name>inscor__Purchase_Order__c</name>
+        <relationshipLabel><!-- Releases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RMA --></label>
+        <name>inscor__RMA__c</name>
+        <relationshipLabel><!-- Releases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reference ID --></label>
+        <name>inscor__Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rejected --></label>
+        <name>inscor__Rejected__c</name>
+    </fields>
+    <fields>
+        <label><!-- Release Company Value --></label>
+        <name>inscor__Release_Company_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Release Date --></label>
+        <name>inscor__Release_DateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Release Date --></label>
+        <name>inscor__Release_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Release Type --></label>
+        <name>inscor__Release_Type__c</name>
+        <picklistValues>
+            <masterLabel>Credit</masterLabel>
+            <translation><!-- Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase Order</masterLabel>
+            <translation><!-- Purchase Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair Order</masterLabel>
+            <translation><!-- Repair Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Order</masterLabel>
+            <translation><!-- Sales Order --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Release Value --></label>
+        <name>inscor__Release_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Repair Order --></label>
+        <name>inscor__Repair_Order__c</name>
+        <relationshipLabel><!-- Releases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Requested Ship Date --></label>
+        <name>inscor__Requested_Ship_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Order --></label>
+        <name>inscor__Sales_Order__c</name>
+        <relationshipLabel><!-- Releases --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- If wanting to use the default Acct # when setting/changing Ship Method, make sure that Acct # is blank. If Acct # is filled in then it will not be automatically set. --></help>
+        <label><!-- Ship Method --></label>
+        <name>inscor__Ship_Method__c</name>
+        <relationshipLabel><!-- Releases (Ship Method) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Ship Terms --></label>
+        <name>inscor__Ship_Terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ship To Address --></label>
+        <name>inscor__Ship_To_Address__c</name>
+        <relationshipLabel><!-- Releases (Ship To Address) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Shipped By --></label>
+        <name>inscor__Shipped_By__c</name>
+        <relationshipLabel><!-- Releases (Shipped By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Shipped Method --></label>
+        <name>inscor__Shipped_Method__c</name>
+        <relationshipLabel><!-- Releases (Shipped Method) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Shipping Comments --></label>
+        <name>inscor__Shipping_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Instructions --></label>
+        <name>inscor__Shipping_Instructions__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>inscor__State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>inscor__Status__c</name>
+        <picklistValues>
+            <masterLabel>In Picking</masterLabel>
+            <translation><!-- In Picking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In QC</masterLabel>
+            <translation><!-- In QC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Shipping</masterLabel>
+            <translation><!-- In Shipping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoiced</masterLabel>
+            <translation><!-- Invoiced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Picked</masterLabel>
+            <translation><!-- Picked --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QCd</masterLabel>
+            <translation><!-- QCd --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Released</masterLabel>
+            <translation><!-- Released --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipped</masterLabel>
+            <translation><!-- Shipped --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Street --></label>
+        <name>inscor__Street__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Charge --></label>
+        <name>inscor__Tax_Charge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Weight --></label>
+        <name>inscor__Total_Weight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Urgency --></label>
+        <name>inscor__Urgency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Order --></label>
+        <name>inscor__Work_Order__c</name>
+        <relationshipLabel><!-- Releases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Zip Code --></label>
+        <name>inscor__Zip_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Pieces --></label>
+        <name>inscor__of_Pieces__c</name>
+    </fields>
+    <layouts>
+        <layout>Release Layout</layout>
+        <sections>
+            <label><!-- Billing and Shipping Address --></label>
+            <section>Billing and Shipping Address</section>
+        </sections>
+        <sections>
+            <label><!-- Compliance --></label>
+            <section>Compliance</section>
+        </sections>
+        <sections>
+            <label><!-- Instructions --></label>
+            <section>Instructions</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- Release Information --></label>
+            <section>Release Information</section>
+        </sections>
+        <sections>
+            <label><!-- Release Options --></label>
+            <section>Release Options</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Can not set &quot;Dropship to Account&quot; and &quot;Ship To Address&quot; together. --></errorMessage>
+        <name>inscor__Dropship_Site_And_Ship_To_Address</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A hold code must be specified when setting Hold? - true --></errorMessage>
+        <name>inscor__Hold_cannot_be_true_if_no_hold_codes</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Hold codes must be empty when release is not on hold. --></errorMessage>
+        <name>inscor__Hold_code_must_be_blank_if_not_on_hold</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Requested Ship date cannot be a previous date --></errorMessage>
+        <name>inscor__Requested_Ship_Date_cannot_be_previous</name>
+    </validationRules>
+</CustomObjectTranslation>

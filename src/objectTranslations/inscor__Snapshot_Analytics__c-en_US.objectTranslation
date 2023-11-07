@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Entry Date --></label>
+        <name>inscor__Entry_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inventory Acquisition Value --></label>
+        <name>inscor__Inventory_Acquisition_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inventory Repair Value --></label>
+        <name>inscor__Inventory_Repair_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inventory Total Value --></label>
+        <name>inscor__Inventory_Total_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Acquisition Cost --></label>
+        <name>inscor__Owner_Acquisition_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Code --></label>
+        <name>inscor__Owner_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purchase Order Value --></label>
+        <name>inscor__Purchase_Order_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Repair Order Value --></label>
+        <name>inscor__Repair_Order_Value__c</name>
+    </fields>
+</CustomObjectTranslation>

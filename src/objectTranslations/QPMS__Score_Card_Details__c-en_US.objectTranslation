@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Audit Score --></label>
+        <name>QPMS__Audit_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Capa Score --></label>
+        <name>QPMS__Capa_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inspection Score --></label>
+        <name>QPMS__Inspection_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- NC Score --></label>
+        <name>QPMS__NC_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Record Found(Audit) --></label>
+        <name>QPMS__Number_of_Record_Found_Audit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Record Found(CAPA) --></label>
+        <name>QPMS__Number_of_Record_Found_CAPA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Record Found(Inspection) --></label>
+        <name>QPMS__Number_of_Record_Found_Inspection__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Record Found(NC) --></label>
+        <name>QPMS__Number_of_Record_Found_NC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Record Found(Observation) --></label>
+        <name>QPMS__Number_of_Record_Found_Observation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Observation Score --></label>
+        <name>QPMS__Observation_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percentage --></label>
+        <name>QPMS__Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Score Card --></label>
+        <name>QPMS__Score_Card__c</name>
+        <relationshipLabel><!-- Score Card Details --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Supplier --></label>
+        <name>QPMS__Supplier__c</name>
+        <relationshipLabel><!-- Score Card Details --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Total Score --></label>
+        <name>QPMS__Total_Score__c</name>
+    </fields>
+</CustomObjectTranslation>

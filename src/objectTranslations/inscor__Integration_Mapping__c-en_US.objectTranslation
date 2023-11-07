@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- AvSight Value --></label>
+        <name>inscor__AvSight_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Type --></label>
+        <name>inscor__Data_Type__c</name>
+        <picklistValues>
+            <masterLabel>CET</masterLabel>
+            <translation><!-- CET --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Condition Code</masterLabel>
+            <translation><!-- Condition Code --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Service Value --></label>
+        <name>inscor__Service_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service --></label>
+        <name>inscor__Service__c</name>
+        <picklistValues>
+            <masterLabel>Aeroxchange</masterLabel>
+            <translation><!-- Aeroxchange --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ILS</masterLabel>
+            <translation><!-- ILS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partsbase</masterLabel>
+            <translation><!-- Partsbase --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPEC2000</masterLabel>
+            <translation><!-- SPEC2000 --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

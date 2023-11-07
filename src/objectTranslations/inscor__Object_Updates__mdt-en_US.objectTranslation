@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Change Description --></label>
+        <name>inscor__Change_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Change Title --></label>
+        <name>inscor__Change_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Method Name --></label>
+        <name>inscor__Method_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>inscor__Status__c</name>
+        <picklistValues>
+            <masterLabel>Done</masterLabel>
+            <translation><!-- Done --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Done</masterLabel>
+            <translation><!-- Not Done --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Object Changes</layout>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

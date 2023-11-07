@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- US FDA Audit Trail --></label>
+        <name>QPMS__US_FDA_Audit_Trail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA Audit Trail Manufacturer --></label>
+        <name>QPMS__US_FDA_Audit_Trail_Manufacturer</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA Audit Trail Reprocessor --></label>
+        <name>QPMS__US_FDA_Audit_Trail_Reprocessor</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA Concomitant Medical Products and Therapy --></label>
+        <name>QPMS__US_FDA_Concomitant_Medical_Products</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA Device Available And Returned to Manufacturer --></label>
+        <name>QPMS__US_FDA_Device_Available_And_Returned_to</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA Manufacturer Details --></label>
+        <name>QPMS__US_FDA_Manufacturer_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA Operator Of Device --></label>
+        <name>QPMS__US_FDA_Operator_Of_Device</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA Planted Dates --></label>
+        <name>QPMS__US_FDA_Planted_Dates</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA QueryFields --></label>
+        <name>QPMS__US_FDA_QueryFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA SuspectMedDeviceNames --></label>
+        <name>QPMS__US_FDA_SuspectMedDeviceNames</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA Suspect Medical Device Details --></label>
+        <name>QPMS__US_FDA_Suspect_Medical_Device_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA Suspect Single Use Device --></label>
+        <name>QPMS__US_FDA_Suspect_Single_Use_Device</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA Suspect Single Use Device Text --></label>
+        <name>QPMS__US_FDA_Suspect_Single_Use_Device_Text</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA Type of Device --></label>
+        <name>QPMS__US_FDA_Type_of_Device</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Address - Line 1 --></label>
+        <name>QPMS__Address_Line_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address - Line 2 --></label>
+        <name>QPMS__Address_Line_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- D1. Brand Name --></label>
+        <name>QPMS__Brand_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Catalog Number --></label>
+        <name>QPMS__Catalog__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>QPMS__City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Common Device Name --></label>
+        <name>QPMS__Common_Device_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- ComplaintId --></label>
+        <name>QPMS__ComplaintId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Concomitant Medical Products --></label>
+        <name>QPMS__Concomitant_Medical_Products__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>QPMS__Country__c</name>
+        <picklistValues>
+            <masterLabel>Argentina</masterLabel>
+            <translation><!-- Argentina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Armenia</masterLabel>
+            <translation><!-- Armenia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Austria</masterLabel>
+            <translation><!-- Austria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation><!-- India --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Device Available for Evaluation? --></label>
+        <name>QPMS__Device_Available_for_Evaluation__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Division Name --></label>
+        <name>QPMS__Division_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Address --></label>
+        <name>QPMS__Email_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Establishment Name --></label>
+        <name>QPMS__Establishment_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expiration Date --></label>
+        <name>QPMS__Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Fax Number --></help>
+        <label><!-- Fax Number --></label>
+        <name>QPMS__Fax_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Follow Up Number --></label>
+        <name>QPMS__Follow_Up_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- D6b. If Explanted, Give Date --></label>
+        <name>QPMS__If_Explanted_Give_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- D6a. If Implanted, Give Date --></label>
+        <name>QPMS__If_Implanted_Give_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- D7a. Is this a Single-use Device --></label>
+        <name>QPMS__Is_this_a_Single_use_Device__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Is this a Single-use Device --></label>
+        <name>QPMS__Is_this_a_single_use_Device_text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lot Number --></label>
+        <name>QPMS__Lot__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address - Line 1 --></label>
+        <name>QPMS__Manufacturer_Address_Line_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address - Line 2 --></label>
+        <name>QPMS__Manufacturer_Address_Line_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>QPMS__Manufacturer_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>QPMS__Manufacturer_Country__c</name>
+        <picklistValues>
+            <masterLabel>America</masterLabel>
+            <translation><!-- America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation><!-- India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SA</masterLabel>
+            <translation><!-- SA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USA</masterLabel>
+            <translation><!-- USA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Email Address --></label>
+        <name>QPMS__Manufacturer_Email_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Establishment Name --></label>
+        <name>QPMS__Manufacturer_Establishment_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Fax Number --></help>
+        <label><!-- Fax Number --></label>
+        <name>QPMS__Manufacturer_Fax_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone Number --></label>
+        <name>QPMS__Manufacturer_Phone_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Post Office Or Zip Code --></label>
+        <name>QPMS__Manufacturer_Post_Office_Or_Zip_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- State, Province, or Territory --></label>
+        <name>QPMS__Manufacturer_State_Province_or_Territory__c</name>
+        <picklistValues>
+            <masterLabel>Andra</masterLabel>
+            <translation><!-- Andra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Goa</masterLabel>
+            <translation><!-- Goa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Odissa</masterLabel>
+            <translation><!-- Odissa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>florida</masterLabel>
+            <translation><!-- florida --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Model Number --></label>
+        <name>QPMS__Model__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operator Of Device --></label>
+        <name>QPMS__Operator_Of_Device__c</name>
+        <picklistValues>
+            <masterLabel>Health Professional</masterLabel>
+            <translation><!-- Health Professional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Patient/Consumer</masterLabel>
+            <translation><!-- Patient/Consumer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Others --></label>
+        <name>QPMS__Others_OOD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone Number --></label>
+        <name>QPMS__Phone_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Post Office Or Zip Code --></label>
+        <name>QPMS__Post_Office_Or_Zip_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Code --></label>
+        <name>QPMS__Product_Code_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Device Product code --></help>
+        <label><!-- Product Code --></label>
+        <name>QPMS__Product_Code__c</name>
+        <relationshipLabel><!-- Suspect Medical Devices --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Regulatory Body --></label>
+        <name>QPMS__Regulatory_Body__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regulatory Report --></label>
+        <name>QPMS__Regulatory_Report__c</name>
+        <relationshipLabel><!-- Suspect Medical Devices --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Return To Manufacturer --></label>
+        <name>QPMS__Return_To_Manufacturer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Returned to Manufacturer Date --></label>
+        <name>QPMS__Returned_to_Manufacturer_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Serial Number --></label>
+        <name>QPMS__Serial__c</name>
+    </fields>
+    <fields>
+        <label><!-- State, Province, or Territory --></label>
+        <name>QPMS__State_Province_or_Territory__c</name>
+        <picklistValues>
+            <masterLabel>Andhra</masterLabel>
+            <translation><!-- Andhra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Florida</masterLabel>
+            <translation><!-- Florida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Goa</masterLabel>
+            <translation><!-- Goa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Odissa</masterLabel>
+            <translation><!-- Odissa --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Therapy Date --></help>
+        <label><!-- Therapy Date --></label>
+        <name>QPMS__Therapy_Date_Concomitant__c</name>
+    </fields>
+    <fields>
+        <help><!-- Unique Identifier (UDI) Number --></help>
+        <label><!-- Unique Identifier (UDI) Number --></label>
+        <name>QPMS__Unique_Identifier_UDI_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Was this Device Serviced by Third Party? --></help>
+        <label><!-- Was this Device Serviced by Third Party? --></label>
+        <name>QPMS__Was_this_Device_Serviced_by_Third_Party__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Active --></label>
+        <name>inscor__Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- Insert the blended cost of labor for this skill. Used when a task is billed based on a percentage of labor cost. --></help>
+        <label><!-- Default Burden Rate --></label>
+        <name>inscor__Burden_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company --></label>
+        <name>inscor__Company__c</name>
+        <relationshipLabel><!-- Skills --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this box if this skill is allowed to sign off the Inspection Complete on a Task. --></help>
+        <label><!-- Inspection Approved? --></label>
+        <name>inscor__Inspection_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Skill Rate --></label>
+        <name>inscor__Skill_Rate__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is not the WIP Labor Account. This is the Labor Recovery Account that is credited when capturing labor in the WO. --></help>
+        <label><!-- WO Labor Account --></label>
+        <name>inscor__WO_Labor_Account__c</name>
+        <relationshipLabel><!-- Skills --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>AvSight Skill Layout</layout>
+        <sections>
+            <label><!-- Financial Information --></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label><!-- GL Accounts --></label>
+            <section>GL Accounts</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- Skill Information --></label>
+            <section>Skill Information</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

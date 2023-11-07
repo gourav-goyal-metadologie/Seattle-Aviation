@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Aircraft</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Aircraft</value>
+    </caseValues>
+    <fields>
+        <label><!-- ADS-B Compliance --></label>
+        <name>Adsb__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aircraft ID --></label>
+        <name>AircraftId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Airport Code --></label>
+        <name>AirportCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- APU Maintenance Plan --></label>
+        <name>ApuPlan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Apu Type --></label>
+        <name>ApuType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asking Price(Text) --></label>
+        <name>AskingPriceText__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asking Price(Value) --></label>
+        <name>AskingPriceValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Certification Date --></label>
+        <name>CertificationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Certification --></label>
+        <name>Certification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engine 1 Serial Number --></label>
+        <name>Engine1SN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engine 2 Serial Number --></label>
+        <name>Engine2SN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engine 3 Serial Number --></label>
+        <name>Engine3SN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engine 4 Serial Number --></label>
+        <name>Engine4SN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engine Make &amp; Model --></label>
+        <name>EngineMakeModel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engine Program --></label>
+        <name>EngineProgram__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exterior Date --></label>
+        <name>ExteriorDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Finance Provider --></label>
+        <name>FinanceProvider__c</name>
+    </fields>
+    <fields>
+        <label><!-- Finance Start Date --></label>
+        <name>FinanceStartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Finance Type --></label>
+        <name>FinanceType__c</name>
+    </fields>
+    <fields>
+        <label><!-- For Sale Status --></label>
+        <name>ForSaleStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fractional Program --></label>
+        <name>FractionalProgram__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interior Date --></label>
+        <name>InteriorDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interior --></label>
+        <name>Interior__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fixed Wing? --></label>
+        <name>IsFixedWing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fractional? --></label>
+        <name>IsFractional__c</name>
+    </fields>
+    <fields>
+        <label><!-- Landings --></label>
+        <name>Landings__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lien Status --></label>
+        <name>LienStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Maintenance Program --></label>
+        <name>MaintenanceProgram__c</name>
+    </fields>
+    <fields>
+        <label><!-- Make --></label>
+        <name>Make__c</name>
+    </fields>
+    <fields>
+        <label><!-- Model --></label>
+        <name>Model__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Engines --></label>
+        <name>NumberOfEngines__c</name>
+    </fields>
+    <fields>
+        <label><!-- Passengers --></label>
+        <name>Passengers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Registration Number --></label>
+        <name>RegistrationNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Serial Number --></label>
+        <name>SerialNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction Code --></label>
+        <name>TransactionCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction Date --></label>
+        <name>TransactionDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Since New (Engine 1) --></label>
+        <name>TsN1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Since New (Engine 2) --></label>
+        <name>TsN2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Since New (Engine 3) --></label>
+        <name>TsN3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Since New (Engine 4) --></label>
+        <name>TsN4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Since Overhaul (Engine 1) --></label>
+        <name>TsoH1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Since Overhaul (Engine 2) --></label>
+        <name>TsoH2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Since Overhaul (Engine 3) --></label>
+        <name>TsoH3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Since Overhaul (Engine 4) --></label>
+        <name>TsoH4__c</name>
+    </fields>
+    <fields>
+        <label><!-- TTAF --></label>
+        <name>Ttaf__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Till Overhaul (Engine 1) --></label>
+        <name>TtoH1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Till Overhaul (Engine 2) --></label>
+        <name>TtoH2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Till Overhaul (Engine 3) --></label>
+        <name>TtoH3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Till Overhaul (Engine 4) --></label>
+        <name>TtoH4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year --></label>
+        <name>Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- Years In Fleet --></label>
+        <name>YearsInFleet__c</name>
+    </fields>
+    <layouts>
+        <layout>AMSTAT_Aircraft_Default Layout</layout>
+        <sections>
+            <label><!-- Aircraft details --></label>
+            <section>Aircraft details</section>
+        </sections>
+        <sections>
+            <label><!-- Contacts --></label>
+            <section>Contacts</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Financial --></label>
+            <section>Financial</section>
+        </sections>
+        <sections>
+            <label><!-- General --></label>
+            <section>General</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

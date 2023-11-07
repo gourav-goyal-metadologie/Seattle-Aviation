@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Manufacturing Site --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Manufacturing Site --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Manufacturing Site --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Manufacturing Site --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Manufacturing Site --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Manufacturing Site --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Manufacturing Site --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Manufacturing Site --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Manufacturing_SiteAuditTrail --></label>
+        <name>QPMS__Manufacturing_SiteAuditTrail</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Active --></label>
+        <name>QPMS__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>QPMS__City1__c</name>
+        <picklistValues>
+            <masterLabel>City</masterLabel>
+            <translation><!-- City --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Code --></label>
+        <name>QPMS__Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- Parent Site to which locations can be assigned --></help>
+        <label><!-- Parent Site --></label>
+        <name>QPMS__Parent_Site__c</name>
+        <relationshipLabel><!-- Manufacturing Sites --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>QPMS__Region__c</name>
+        <picklistValues>
+            <masterLabel>ASIA-PAC</masterLabel>
+            <translation><!-- ASIA-PAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA</masterLabel>
+            <translation><!-- EMEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NORTH AMERICA</masterLabel>
+            <translation><!-- NORTH AMERICA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Site Head --></label>
+        <name>QPMS__Site_Head__c</name>
+        <relationshipLabel><!-- Manufacturing Sites --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>QPMS__State1__c</name>
+        <picklistValues>
+            <masterLabel>State1</masterLabel>
+            <translation><!-- State1 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- To distinguish site or location --></help>
+        <label><!-- Type --></label>
+        <name>QPMS__Type__c</name>
+        <picklistValues>
+            <masterLabel>Location</masterLabel>
+            <translation><!-- Location --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- UDF --></label>
+        <name>QPMS__UDF__c</name>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <layouts>
+        <layout>Site Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Site Name --></nameFieldLabel>
+</CustomObjectTranslation>

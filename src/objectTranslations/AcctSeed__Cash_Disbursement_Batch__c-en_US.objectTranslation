@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- The grand total of this cash disbursement batch --></help>
+        <label><!-- Batch Amount --></label>
+        <name>AcctSeed__Batch_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line Count --></label>
+        <name>AcctSeed__Line_Count__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of cash disbursements posted in the cash disbursement batch. --></help>
+        <label><!-- Posted Cash Disbursements --></label>
+        <name>AcctSeed__Posted_Cash_Disbursements__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used to number checks sequentially in the Cash Disbursement Batch. --></help>
+        <label><!-- Starting Check Number --></label>
+        <name>AcctSeed__Starting_Check_Number__c</name>
+    </fields>
+    <layouts>
+        <layout>Cash Disbursement Batch Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label><!-- Batch_Post --></label>
+        <name>AcctSeed__Batch_Post</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Batch_Unpost --></label>
+        <name>AcctSeed__Batch_Unpost</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Print_Checks --></label>
+        <name>AcctSeed__Print_Checks</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Print_Full_Remittance --></label>
+        <name>AcctSeed__Print_Full_Remittance</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Renumber --></label>
+        <name>AcctSeed__Renumber</name>
+    </webLinks>
+</CustomObjectTranslation>

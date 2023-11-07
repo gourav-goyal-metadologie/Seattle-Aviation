@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- The accounting period offset is when the task is being performed compared to when the accounting period ends. So a June task for a May accounting period would have an offset of -1. --></help>
+        <label><!-- Accounting Period Offset --></label>
+        <name>AcctSeed__Accounting_Period_Offset__c</name>
+        <picklistValues>
+            <masterLabel>-1</masterLabel>
+            <translation><!-- -1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>-10</masterLabel>
+            <translation><!-- -10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>-11</masterLabel>
+            <translation><!-- -11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>-12</masterLabel>
+            <translation><!-- -12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>-2</masterLabel>
+            <translation><!-- -2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>-3</masterLabel>
+            <translation><!-- -3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>-4</masterLabel>
+            <translation><!-- -4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>-5</masterLabel>
+            <translation><!-- -5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>-6</masterLabel>
+            <translation><!-- -6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>-7</masterLabel>
+            <translation><!-- -7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>-8</masterLabel>
+            <translation><!-- -8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>-9</masterLabel>
+            <translation><!-- -9 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11</masterLabel>
+            <translation><!-- 11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12</masterLabel>
+            <translation><!-- 12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation><!-- 9 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>AcctSeed__Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- Person who will accomplish the task. --></help>
+        <label><!-- Assignee --></label>
+        <name>AcctSeed__Assignee__c</name>
+        <relationshipLabel><!-- Accounting Period Recurring Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>AcctSeed__Comments__c</name>
+    </fields>
+    <fields>
+        <help><!-- When the task is created in reference to the due date. --></help>
+        <label><!-- Create Date --></label>
+        <name>AcctSeed__Create_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Due date is used to calculate the number of days between the Create Date and the Due Date. A task created on the 10th of the month and the Due Date is 5 days later, the task due date is the 15th. However, this may vary at the end of the month. --></help>
+        <label><!-- Due Date --></label>
+        <name>AcctSeed__Due_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date when this task will no longer be generated.  Setting a task to end on 12/31 will cause this task to only run this year. --></help>
+        <label><!-- End Date --></label>
+        <name>AcctSeed__End_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- How long the task will continue to be scheduled. --></help>
+        <label><!-- Ends On --></label>
+        <name>AcctSeed__Ends_On__c</name>
+        <picklistValues>
+            <masterLabel>End Date</masterLabel>
+            <translation><!-- End Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Never</masterLabel>
+            <translation><!-- Never --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Number of Occurrences</masterLabel>
+            <translation><!-- Number of Occurrences --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Exclude this task from Automation so it will not be automatically generated. --></help>
+        <label><!-- Exclude from Automation --></label>
+        <name>AcctSeed__Exclude_from_Automation__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number used for the frequency. Repeat this task every 2 weeks starting today for example. --></help>
+        <label><!-- Repeat Every --></label>
+        <name>AcctSeed__Frequency_Num__c</name>
+    </fields>
+    <fields>
+        <label><!-- Frequency Type --></label>
+        <name>AcctSeed__Frequency_Type__c</name>
+        <picklistValues>
+            <masterLabel>Days</masterLabel>
+            <translation><!-- Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Months</masterLabel>
+            <translation><!-- Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weeks</masterLabel>
+            <translation><!-- Weeks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Years</masterLabel>
+            <translation><!-- Years --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last Accounting Period Task Create Date --></label>
+        <name>AcctSeed__Last_Accounting_Period_Task_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Accounting Period Task Due Date --></label>
+        <name>AcctSeed__Last_Accounting_Period_Task_Due_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select ledger that task is associated with. --></help>
+        <label><!-- Ledger --></label>
+        <name>AcctSeed__Ledger__c</name>
+        <relationshipLabel><!-- Accounting Period Recurring Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The task will continue to be scheduled. --></help>
+        <label><!-- Never --></label>
+        <name>AcctSeed__Never__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Accounting Period Task Create Date --></label>
+        <name>AcctSeed__Next_Accounting_Period_Task_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Accounting Period Task Due Date --></label>
+        <name>AcctSeed__Next_Accounting_Period_Task_Due_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- The number of times this task will get scheduled. --></help>
+        <label><!-- Number of Occurrences --></label>
+        <name>AcctSeed__Number_of_Occurrences__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used for determining when to stop creating tasks. --></help>
+        <label><!-- Occurrences --></label>
+        <name>AcctSeed__Occurrences__c</name>
+    </fields>
+    <fields>
+        <help><!-- The priority of the task --></help>
+        <label><!-- Priority --></label>
+        <name>AcctSeed__Priority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Normal</masterLabel>
+            <translation><!-- Normal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Where in the current list, the task should be ordered. --></help>
+        <label><!-- Sort Order --></label>
+        <name>AcctSeed__Sort_Order__c</name>
+    </fields>
+    <fields>
+        <help><!-- The status can be: Not started, In Progress, Waiting on Someone, Completed, or Deferred. --></help>
+        <label><!-- Status --></label>
+        <name>AcctSeed__Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deferred</masterLabel>
+            <translation><!-- Deferred --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Started</masterLabel>
+            <translation><!-- Not Started --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting on Someone Else</masterLabel>
+            <translation><!-- Waiting on Someone Else --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Period Task Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Frequency and Automation Information --></label>
+            <section>Frequency and Automation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Schedule Information --></label>
+            <section>Schedule Information</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Please select an end date. --></errorMessage>
+        <name>AcctSeed__End_Date_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter the number of occurrences. --></errorMessage>
+        <name>AcctSeed__Occurrences_Required</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Create_Tasks --></label>
+        <name>AcctSeed__Create_Tasks</name>
+    </webLinks>
+</CustomObjectTranslation>

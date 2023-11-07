@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- SidebarFields --></label>
+        <name>inscor__SidebarFields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Exchange PPW Sent --></label>
+        <name>Exchange_PPW_Sent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exp PN for Ex Agreement --></label>
+        <name>Exp_PN_for_Ex_Agreement__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN Copy --></label>
+        <name>PN_Copy__c</name>
+    </fields>
+    <fields>
+        <label><!-- exchange type lockup --></label>
+        <name>exchange_type_lockup__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Category --></label>
+        <name>inscor__Business_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Currency --></label>
+        <name>inscor__Company_Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Line Total --></label>
+        <name>inscor__Company_Line_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Price --></label>
+        <name>inscor__Company_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Condition Code --></label>
+        <name>inscor__Condition_Code__c</name>
+        <relationshipLabel><!-- Sales Order Lines (Condition Code) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Core Disposition --></label>
+        <name>inscor__Core_Disposition__c</name>
+        <picklistValues>
+            <masterLabel>Overhaul</masterLabel>
+            <translation><!-- Overhaul --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receive ‘As Is’</masterLabel>
+            <translation><!-- Receive ‘As Is’ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Serviceable</masterLabel>
+            <translation><!-- Serviceable --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Core Due Date --></label>
+        <name>inscor__Core_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Core Due (In Days) --></label>
+        <name>inscor__Core_Due__c</name>
+    </fields>
+    <fields>
+        <label><!-- Create Date --></label>
+        <name>inscor__Create_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Reference Line --></label>
+        <name>inscor__Customer_Reference_Line__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Reference Number --></label>
+        <name>inscor__Customer_Reference_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Due at Customer --></help>
+        <label><!-- Due Date --></label>
+        <name>inscor__Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exchange Rate --></label>
+        <name>inscor__Exchange_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exchange Type --></label>
+        <name>inscor__Exchange_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expected Core Condition Code --></label>
+        <name>inscor__Expected_Core_Condition_Code__c</name>
+        <relationshipLabel><!-- Sales Order Lines (Expected Core Condition Code) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Expected Core PN --></label>
+        <name>inscor__Expected_Core_PN__c</name>
+        <relationshipLabel><!-- Sales Order Lines (Expected Core PN) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Expected Core Serial Number --></label>
+        <name>inscor__Expected_Core_Serial_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Our best guess of the date we will ship. --></help>
+        <label><!-- Expected Ship Date --></label>
+        <name>inscor__Expected_Ship_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Comments --></label>
+        <name>inscor__External_Comments_rt__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date when sales order line was fully allocated --></help>
+        <label><!-- Fully Allocated Date --></label>
+        <name>inscor__Fully_Allocated_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Comments --></label>
+        <name>inscor__Internal_Comments_rt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword --></label>
+        <name>inscor__Keyword__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kit List --></label>
+        <name>inscor__Kit_List__c</name>
+        <relationshipLabel><!-- Sales Order Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- If renumbering the lines, please be cognizant of existing Releases, Receipts, Allocations, Invoices, and other related lines as they may continue referencing the original line number. You will need to edit those as well. --></help>
+        <label><!-- Line Number --></label>
+        <name>inscor__Line_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line Total --></label>
+        <name>inscor__Line_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Managed Repair Owner Code --></label>
+        <lookupFilter>
+            <errorMessage><!-- Only Spec Owner code allowed --></errorMessage>
+        </lookupFilter>
+        <name>inscor__Managed_Repair_Owner_Code__c</name>
+        <relationshipLabel><!-- Sales Order Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Managed Repair Status --></label>
+        <name>inscor__Managed_Repair_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Type --></label>
+        <name>inscor__Order_Type__c</name>
+        <picklistValues>
+            <masterLabel>Core Repair</masterLabel>
+            <translation><!-- Core Repair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit</masterLabel>
+            <translation><!-- Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exchange</masterLabel>
+            <translation><!-- Exchange --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Managed Repair</masterLabel>
+            <translation><!-- Managed Repair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outright</masterLabel>
+            <translation><!-- Outright --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return Core</masterLabel>
+            <translation><!-- Return Core --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return Part</masterLabel>
+            <translation><!-- Return Part --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Send Repaired</masterLabel>
+            <translation><!-- Send Repaired --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>inscor__Order__c</name>
+        <relationshipLabel><!-- Sales Order Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Outright Company Price --></label>
+        <name>inscor__Outright_Company_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Outright Price --></label>
+        <name>inscor__Outright_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Line --></label>
+        <name>inscor__Parent_Line__c</name>
+        <relationshipLabel><!-- Sales Order Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Price Type --></label>
+        <name>inscor__Price_Type__c</name>
+        <picklistValues>
+            <masterLabel>Estimate</masterLabel>
+            <translation><!-- Estimate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flat Rate</masterLabel>
+            <translation><!-- Flat Rate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NTE</masterLabel>
+            <translation><!-- NTE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Time &amp; Material</masterLabel>
+            <translation><!-- Time &amp; Material --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Price --></label>
+        <name>inscor__Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part Number --></label>
+        <name>inscor__Product__c</name>
+        <relationshipLabel><!-- Sales Order Lines (Part Number) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Date calculated from quoted delivery --></help>
+        <label><!-- Promised Date --></label>
+        <name>inscor__Promised_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Allocated --></label>
+        <name>inscor__Quantity_Allocated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Invoiced --></label>
+        <name>inscor__Quantity_Invoiced__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Open --></label>
+        <name>inscor__Quantity_Open__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Ordered --></label>
+        <name>inscor__Quantity_Ordered__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Returned --></label>
+        <name>inscor__Quantity_Returned1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Shipped --></label>
+        <name>inscor__Quantity_Shipped__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity on RMA --></label>
+        <name>inscor__Quantity_on_RMAs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Line Number --></label>
+        <name>inscor__Quote_Line_Number__c</name>
+        <relationshipLabel><!-- Sales Order Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quoted Inventory --></label>
+        <name>inscor__Quoted_Inventory__c</name>
+        <relationshipLabel><!-- Sales Order Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Turn around time in days. --></help>
+        <label><!-- Quoted TAT --></label>
+        <name>inscor__Quoted_TAT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rate Date --></label>
+        <name>inscor__Rate_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference ID --></label>
+        <name>inscor__Reference_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date to ship out from warehouse --></help>
+        <label><!-- Requested Ship Date --></label>
+        <name>inscor__Requested_Ship_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>inscor__Status__c</name>
+        <picklistValues>
+            <masterLabel>Allocated</masterLabel>
+            <translation><!-- Allocated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoiced</masterLabel>
+            <translation><!-- Invoiced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partially Allocated</masterLabel>
+            <translation><!-- Partially Allocated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Released</masterLabel>
+            <translation><!-- Released --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipped</masterLabel>
+            <translation><!-- Shipped --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Stock Disposition --></label>
+        <name>inscor__Stock_Disposition__c</name>
+        <picklistValues>
+            <masterLabel>Return to Exchange Vendor</masterLabel>
+            <translation><!-- Return to Exchange Vendor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return to Stock</masterLabel>
+            <translation><!-- Return to Stock --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Warehouse --></label>
+        <name>inscor__Warehouse__c</name>
+        <relationshipLabel><!-- Sales Order Lines --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Order Line Layout</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Financial --></label>
+            <section>Financial</section>
+        </sections>
+        <sections>
+            <label><!-- Owner --></label>
+            <section>Owner</section>
+        </sections>
+        <sections>
+            <label><!-- Part Information --></label>
+            <section>Part Information</section>
+        </sections>
+        <sections>
+            <label><!-- SO Line Information --></label>
+            <section>SO Line Information</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- You can not change status to cancelled, if sum of Quantity Allocated, Quantity Shipped and Quantity Invoiced is greater than 0 --></errorMessage>
+        <name>inscor__Cancelled_Status_Restriction</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cannot change Condition Code once allocated --></errorMessage>
+        <name>inscor__Cannot_change_CC_once_allocated</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cannot change Part Number once allocated --></errorMessage>
+        <name>inscor__Cannot_change_Part_Number_once_allocated</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cannot change quantity ordered to less than allocated amount --></errorMessage>
+        <name>inscor__Cannot_change_quantity_less_than_alloc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Quantity Ordered cannot be less than Quantity Shipped + Quantity Allocated --></errorMessage>
+        <name>inscor__Check_Quantity_on_Update</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can only set status to closed when Quantity Ordered = Quantity Shipped --></errorMessage>
+        <name>inscor__Closed_Status_Restriction</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- For Exchange orders, Outright price, Core Due, Core Disposition, and Stock Disposition are required --></errorMessage>
+        <name>inscor__Exchange_fields_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Part Number is required --></errorMessage>
+        <name>inscor__Part_Number_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Can&apos;t change Order Type once line is Shipped. --></errorMessage>
+        <name>inscor__Prevent_Changing_Order_Type_Once_Shipped</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Negative values not allowed for Quantity Ordered. --></errorMessage>
+        <name>inscor__Quantity_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Part Number is restricted from sale in the selected condition code. --></errorMessage>
+        <name>inscor__Restrict_Sales_by_Condition_Code</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Send_to_Slack --></label>
+        <name>Send_to_Slack</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Slack_Alerts --></label>
+        <name>Slack_Alerts</name>
+    </webLinks>
+</CustomObjectTranslation>

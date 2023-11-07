@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Service Provider --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Service Provider --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- CMP Service Provider Help --></label>
+        <name>QPMS__CMP_Service_Provider_Help</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QueryFields --></label>
+        <name>QPMS__QueryFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ServiceProviders_AuditTrail --></label>
+        <name>QPMS__ServiceProviders_AuditTrail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Service Providers --></label>
+        <name>QPMS__Service_Providers</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Facility --></label>
+        <name>QPMS__Account__c</name>
+        <relationshipLabel><!-- Service Providers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Complaint --></label>
+        <name>QPMS__Complaint__c</name>
+        <relationshipLabel><!-- Service Providers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Service --></label>
+        <name>QPMS__Contact__c</name>
+        <relationshipLabel><!-- Service Providers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- First Name --></label>
+        <name>QPMS__FirstName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Name --></label>
+        <name>QPMS__LastName__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>QPMS__MailingCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>QPMS__MailingCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zip Code --></label>
+        <name>QPMS__MailingPostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address --></label>
+        <name>QPMS__MailingStreet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Middle Initial --></label>
+        <name>QPMS__MiddleName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone --></label>
+        <name>QPMS__Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- specialty --></label>
+        <name>QPMS__Speciality__c</name>
+        <picklistValues>
+            <masterLabel>SPL1</masterLabel>
+            <translation><!-- SPL1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPL2</masterLabel>
+            <translation><!-- SPL2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>QPMS__Type__c</name>
+        <picklistValues>
+            <masterLabel>Type1</masterLabel>
+            <translation><!-- Type1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Type2</masterLabel>
+            <translation><!-- Type2 --></translation>
+        </picklistValues>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <nameFieldLabel><!-- Service Provider Name --></nameFieldLabel>
+</CustomObjectTranslation>

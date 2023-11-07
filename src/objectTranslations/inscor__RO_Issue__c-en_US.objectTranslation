@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Date Issued --></label>
+        <name>inscor__Date_Issued__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Restocked --></label>
+        <name>inscor__Date_Restocked__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inventory Line --></label>
+        <name>inscor__Inventory_Line__c</name>
+        <relationshipLabel><!-- RO Issues --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Market Value --></label>
+        <name>inscor__Market_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part Number --></label>
+        <name>inscor__Part_Number__c</name>
+        <relationshipLabel><!-- RO Issues --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity Issued --></label>
+        <name>inscor__Quantity_Issued__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Not Issued --></label>
+        <name>inscor__Quantity_Not_Issued__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Restocked --></label>
+        <name>inscor__Quantity_Restocked__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity to Issue --></label>
+        <name>inscor__Quantity_to_Issue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity to Restock --></label>
+        <name>inscor__Quantity_to_Restock__c</name>
+    </fields>
+    <fields>
+        <label><!-- Release Line --></label>
+        <name>inscor__Release_Line__c</name>
+        <relationshipLabel><!-- RO Issues --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Repair Order Line --></label>
+        <name>inscor__Repair_Order_Line__c</name>
+        <relationshipLabel><!-- RO Issues --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Repair Order --></label>
+        <name>inscor__Repair_Order__c</name>
+        <relationshipLabel><!-- RO Issues --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>inscor__Status__c</name>
+        <picklistValues>
+            <masterLabel>In Picking</masterLabel>
+            <translation><!-- In Picking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In QC</masterLabel>
+            <translation><!-- In QC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Shipping</masterLabel>
+            <translation><!-- In Shipping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoiced</masterLabel>
+            <translation><!-- Invoiced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Issued</masterLabel>
+            <translation><!-- Issued --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Picked</masterLabel>
+            <translation><!-- Picked --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QCd</masterLabel>
+            <translation><!-- QCd --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Released</masterLabel>
+            <translation><!-- Released --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reserved</masterLabel>
+            <translation><!-- Reserved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Restocked</masterLabel>
+            <translation><!-- Restocked --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipped</masterLabel>
+            <translation><!-- Shipped --></translation>
+        </picklistValues>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Quantity to Issue should not be less then Quantity Issued --></errorMessage>
+        <name>inscor__Quantity_Issued_and_Quantity_to_Issue</name>
+    </validationRules>
+</CustomObjectTranslation>

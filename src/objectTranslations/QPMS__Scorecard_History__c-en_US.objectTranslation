@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Action --></label>
+        <name>QPMS__ActionStatus__c</name>
+        <picklistValues>
+            <masterLabel>Created</masterLabel>
+            <translation><!-- Created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deleted</masterLabel>
+            <translation><!-- Deleted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Updated</masterLabel>
+            <translation><!-- Updated --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Action --></label>
+        <name>QPMS__Action__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>QPMS__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- FieldApiName --></label>
+        <name>QPMS__FieldApiName__c</name>
+    </fields>
+    <fields>
+        <label><!-- FieldName --></label>
+        <name>QPMS__FieldName__c</name>
+    </fields>
+    <fields>
+        <label><!-- HistoryObject --></label>
+        <name>QPMS__HistoryObject__c</name>
+        <picklistValues>
+            <masterLabel>Score Card</masterLabel>
+            <translation><!-- Score Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplier Score Definition</masterLabel>
+            <translation><!-- Supplier Score Definition --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last ModifiedBy --></label>
+        <name>QPMS__Last_ModifiedBy__c</name>
+    </fields>
+    <fields>
+        <label><!-- NewValue --></label>
+        <name>QPMS__NewValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object --></label>
+        <name>QPMS__Object__c</name>
+    </fields>
+    <fields>
+        <label><!-- OldValue --></label>
+        <name>QPMS__OldValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Score Card --></label>
+        <name>QPMS__Score_Card__c</name>
+        <relationshipLabel><!-- Scorecard Historys --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sub Parent --></label>
+        <name>QPMS__Sub_Parent__c</name>
+        <picklistValues>
+            <masterLabel>Score Card</masterLabel>
+            <translation><!-- Score Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplierscore Definition</masterLabel>
+            <translation><!-- Supplierscore Definition --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Supplier Score Definition --></label>
+        <name>QPMS__Supplier_Score_Definition__c</name>
+        <relationshipLabel><!-- Scorecard Historys --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Action --></label>
+        <name>QPMS__isCreated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deleted --></label>
+        <name>QPMS__isDeleted__c</name>
+    </fields>
+</CustomObjectTranslation>

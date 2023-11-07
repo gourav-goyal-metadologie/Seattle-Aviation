@@ -1,0 +1,15 @@
+<template>
+    <template if:true={isLoading}>
+        <lightning-spinner alternative-text="Loading" size="small"></lightning-spinner>
+    </template>
+    <div style="height: 100%;">
+        <lightning-datatable
+                key-field="id"
+                show-row-number-column
+                hide-checkbox-column
+                enable-infinite-loading
+                data={data}
+                columns={columns}>
+        </lightning-datatable>
+    </div>
+</template>

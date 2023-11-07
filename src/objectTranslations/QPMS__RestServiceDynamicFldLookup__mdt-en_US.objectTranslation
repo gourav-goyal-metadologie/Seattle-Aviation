@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- DataType --></label>
+        <name>QPMS__DataType__c</name>
+        <picklistValues>
+            <masterLabel>Integer</masterLabel>
+            <translation><!-- Integer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>String</masterLabel>
+            <translation><!-- String --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- IsCustomField --></label>
+        <name>QPMS__IsCustomField__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsCustomObject --></label>
+        <name>QPMS__IsCustomObject__c</name>
+    </fields>
+    <fields>
+        <label><!-- UniqueField --></label>
+        <name>QPMS__UniqueField__c</name>
+    </fields>
+</CustomObjectTranslation>

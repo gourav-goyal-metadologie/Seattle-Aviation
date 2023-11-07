@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Encrypted --></label>
+        <name>BillNPay__Encrypted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gateway --></label>
+        <name>BillNPay__Gateway__c</name>
+        <relationshipLabel><!-- Gateway Configuration --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Hidden --></label>
+        <name>BillNPay__Hidden__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key --></label>
+        <name>BillNPay__Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label --></label>
+        <name>BillNPay__Label__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sequence# --></label>
+        <name>BillNPay__Sequence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value --></label>
+        <name>BillNPay__Value__c</name>
+    </fields>
+</CustomObjectTranslation>

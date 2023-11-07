@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Details --></label>
+        <name>QPMS__Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exception --></label>
+        <name>QPMS__Exception__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Ids --></label>
+        <name>QPMS__External_Ids__c</name>
+    </fields>
+    <fields>
+        <label><!-- Module --></label>
+        <name>QPMS__Module__c</name>
+        <picklistValues>
+            <masterLabel>Account</masterLabel>
+            <translation><!-- Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Audit</masterLabel>
+            <translation><!-- Audit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAPA</masterLabel>
+            <translation><!-- CAPA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complaint</masterLabel>
+            <translation><!-- Complaint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contact</masterLabel>
+            <translation><!-- Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC</masterLabel>
+            <translation><!-- NC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quality Central</masterLabel>
+            <translation><!-- Quality Central --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Object Name --></label>
+        <name>QPMS__Object_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Ids --></label>
+        <name>QPMS__Record_Ids__c</name>
+    </fields>
+    <fields>
+        <label><!-- Result --></label>
+        <name>QPMS__Result__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>QPMS__Type__c</name>
+        <picklistValues>
+            <masterLabel>PUBLISH</masterLabel>
+            <translation><!-- PUBLISH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SUBSCRIBE</masterLabel>
+            <translation><!-- SUBSCRIBE --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

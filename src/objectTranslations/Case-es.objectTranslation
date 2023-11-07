@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Case Type --></label>
+        <name>QPMS__Case_Type__c</name>
+        <picklistValues>
+            <masterLabel>Process</masterLabel>
+            <translation><!-- Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation><!-- Product --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Create Non-Conformance --></label>
+        <name>QPMS__Create_Non_Conformance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Defect Statement --></label>
+        <name>QPMS__Defect_Statement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Department --></label>
+        <name>QPMS__Department__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Engineering Req Number --></label>
+        <name>QPMS__EngineeringReqNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- NC Created --></label>
+        <name>QPMS__NC_Created__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non-Conformance --></label>
+        <name>QPMS__Non_Conformance__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Occurrence Date --></label>
+        <name>QPMS__Occurrence_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Potential Liability --></label>
+        <name>QPMS__PotentialLiability__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Process Defect --></label>
+        <name>QPMS__Process_Defect__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Process --></label>
+        <name>QPMS__Process__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Defect --></label>
+        <name>QPMS__Product_Defect__c</name>
+        <relationshipLabel><!-- Cases (Product Defect) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>QPMS__Product_Family__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>QPMS__Product__c</name>
+        <picklistValues>
+            <masterLabel>GC1020</masterLabel>
+            <translation><!-- GC1020 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC1040</masterLabel>
+            <translation><!-- GC1040 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC1060</masterLabel>
+            <translation><!-- GC1060 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC3020</masterLabel>
+            <translation><!-- GC3020 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC3040</masterLabel>
+            <translation><!-- GC3040 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC3060</masterLabel>
+            <translation><!-- GC3060 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC5020</masterLabel>
+            <translation><!-- GC5020 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC5040</masterLabel>
+            <translation><!-- GC5040 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC5060</masterLabel>
+            <translation><!-- GC5060 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- RecordTypeName --></label>
+        <name>QPMS__RecordTypeName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reported Date --></label>
+        <name>QPMS__Reported_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter --></label>
+        <name>QPMS__Reporter__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- SLA Violation --></label>
+        <name>QPMS__SLAViolation__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewChildCase --></label>
+        <name>NewChildCase</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- Defect Statement Should not be left empty --></errorMessage>
+        <name>QPMS__Defect_Statement</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Occurrence Date cannot be a future date. --></errorMessage>
+        <name>QPMS__Occurance_Date_not_future</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Occurrence Date cannot be greater than the Reported Date --></errorMessage>
+        <name>QPMS__Occurrence_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Process should not be left blank when Case Type is Process --></errorMessage>
+        <name>QPMS__Process_CaseType</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Process Defect should not be left blank when Process is not blank --></errorMessage>
+        <name>QPMS__Process_Defect</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Have to select only one at a time either &quot;Product Defect&quot; or &quot;Process Defect&quot; based on &quot;Product&quot; or &quot;Process&quot; --></errorMessage>
+        <name>QPMS__ProductDefectOrProcessDefect</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Have to select only one at a time either &quot;Product&quot; or &quot;Process&quot; based on &quot;Case Type&quot; --></errorMessage>
+        <name>QPMS__ProductOrProcess</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Product should not be left blank when Case Type is Product --></errorMessage>
+        <name>QPMS__Product_CaseType</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Product Defect should not be left blank when Product is not blank --></errorMessage>
+        <name>QPMS__Product_Defect</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Reported Date should not be a future date --></errorMessage>
+        <name>QPMS__Reported_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Reported Date cannot be less than Occurrence Date --></errorMessage>
+        <name>QPMS__Reported_Date_cannot_be_before_Occurance</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Reporter Should not be left blank --></errorMessage>
+        <name>QPMS__Reporter</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- SendEmailCase --></label>
+        <name>MME__SendEmailCase</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_to_Slack --></label>
+        <name>slackv2__Send_to_Slack</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Slack_Alerts --></label>
+        <name>slackv2__Slack_Alerts</name>
+    </webLinks>
+</CustomObjectTranslation>

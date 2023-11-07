@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>51.0</apiVersion>
+    <assignments>
+        <name>Assign_Account_PN</name>
+        <label>Assign Account PN</label>
+        <locationX>330</locationX>
+        <locationY>556</locationY>
+        <assignmentItems>
+            <assignToReference>AccountPNRecord</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Get_Account_Parts</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Check_Account_Part</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Update_Internal_Comment</name>
+        <label>Update Internal Comment</label>
+        <locationX>457</locationX>
+        <locationY>215</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.inscor__Internal_Comments_rt__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>InternalComment</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <decisions>
+        <name>Check_Account_Part</name>
+        <label>Check Account Part</label>
+        <locationX>519</locationX>
+        <locationY>462</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Is_Account_PN_Exist</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Account_Parts</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Internal_Comment</targetReference>
+            </connector>
+            <label>Is Account PN Exist</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Record_Check</name>
+        <label>Record Check</label>
+        <locationX>93</locationX>
+        <locationY>349</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Is_New_Record</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Id</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Account_Parts</targetReference>
+            </connector>
+            <label>Is New Record</label>
+        </rules>
+        <rules>
+            <name>Is_PN_Changed</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.inscor__Product__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>$Record__Prior.inscor__Product__c</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Account_Parts</targetReference>
+            </connector>
+            <label>Is PN Changed</label>
+        </rules>
+    </decisions>
+    <formulas>
+        <name>InternalComment</name>
+        <dataType>String</dataType>
+        <expression>&apos;Customer PN from Account Part Masters is &apos; + {!Get_Account_Parts.inscor__Customer_Part_Number__r.Name} + &apos;. &apos; + {!$Record.inscor__Internal_Comments_rt__c}</expression>
+    </formulas>
+    <interviewLabel>CQ Update Internal Comments {!$Flow.CurrentDateTime}</interviewLabel>
+    <isTemplate>true</isTemplate>
+    <label>CQ Update Internal Comments</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Account_Parts</name>
+        <label>Get Account Parts</label>
+        <locationX>100</locationX>
+        <locationY>555</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Assign_Account_PN</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>inscor__Part_Number__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.inscor__Product__c</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>inscor__Account__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.inscor__Customer_Quote__r.inscor__Customer__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>inscor__Account_Part_Master__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>51</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>Record_Check</targetReference>
+        </connector>
+        <object>inscor__Customer_Quote_Line__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>AccountPNRecord</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>inscor__Account_Part_Master__c</objectType>
+    </variables>
+</Flow>

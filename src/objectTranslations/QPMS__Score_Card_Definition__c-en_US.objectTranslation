@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Active --></label>
+        <name>QPMS__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Score --></label>
+        <name>QPMS__Default_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Module --></label>
+        <name>QPMS__Module__c</name>
+        <picklistValues>
+            <masterLabel>AUDIT</masterLabel>
+            <translation><!-- AUDIT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAPA</masterLabel>
+            <translation><!-- CAPA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inspection</masterLabel>
+            <translation><!-- Inspection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC</masterLabel>
+            <translation><!-- NC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Observation</masterLabel>
+            <translation><!-- Observation --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Score Card --></label>
+        <name>QPMS__Score_Card__c</name>
+        <relationshipLabel><!-- Score Card Definitions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Score --></label>
+        <name>QPMS__Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Selected Field --></label>
+        <name>QPMS__Selected_Field__c</name>
+        <picklistValues>
+            <masterLabel>Priority</masterLabel>
+            <translation><!-- Priority --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Risk Severity</masterLabel>
+            <translation><!-- Risk Severity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Severity</masterLabel>
+            <translation><!-- Severity --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Selected Value --></label>
+        <name>QPMS__Selected_Value__c</name>
+        <picklistValues>
+            <masterLabel>Catastrophic</masterLabel>
+            <translation><!-- Catastrophic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Critical</masterLabel>
+            <translation><!-- Critical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Danger</masterLabel>
+            <translation><!-- Danger --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Extreme</masterLabel>
+            <translation><!-- Extreme --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insignificant</masterLabel>
+            <translation><!-- Insignificant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Major</masterLabel>
+            <translation><!-- Major --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minor</masterLabel>
+            <translation><!-- Minor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moderate</masterLabel>
+            <translation><!-- Moderate --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

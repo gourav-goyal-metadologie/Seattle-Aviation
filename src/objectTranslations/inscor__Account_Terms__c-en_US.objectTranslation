@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enforce Credit Limit? --></label>
+        <name>inscor__Enforce_Credit_Limit__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Finance Contact --></label>
+        <name>inscor__Finance_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Days --></label>
+        <name>inscor__Number_of_Days__c</name>
+    </fields>
+    <layouts>
+        <layout>Account Terms Layout</layout>
+        <sections>
+            <label><!-- Account Terms Information --></label>
+            <section>Account Terms Information</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

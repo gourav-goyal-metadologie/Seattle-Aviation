@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Supplier Section --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Supplier Section --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Supplier Section --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Supplier Section --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Supplier Section --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Supplier Section --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Supplier Section --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Supplier Section --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Section --></label>
+        <name>QPMS__Section</name>
+    </fieldSets>
+    <fields>
+        <label><!-- AssignedTo --></label>
+        <name>QPMS__AssignedTo__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Section Id --></label>
+        <name>QPMS__Old_SectionId__c</name>
+        <relationshipLabel><!-- Supplier_Sections --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Old Section Id --></label>
+        <name>QPMS__Old_Section_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>QPMS__Order__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is section --></help>
+        <label><!-- SectionName --></label>
+        <name>QPMS__SectionName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Section Name --></label>
+        <name>QPMS__Section_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Section Question --></label>
+        <name>QPMS__Section_question__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier Checklist --></label>
+        <name>QPMS__Supplier_Checklist__c</name>
+        <relationshipLabel><!-- Supplier_Sections --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Total Score Available --></label>
+        <name>QPMS__Total_Score_Available__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Score Received --></label>
+        <name>QPMS__Total_Score_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- UniqueName --></label>
+        <name>QPMS__UniqueName__c</name>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <nameFieldLabel><!-- Section Name --></nameFieldLabel>
+</CustomObjectTranslation>

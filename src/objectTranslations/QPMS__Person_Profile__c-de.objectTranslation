@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Person Profile --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Person Profile --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Person Profile --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Person Profile --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Person Profile --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Person Profile --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Person Profile --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Person Profile --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- ActiveDeactiveFields --></label>
+        <name>QPMS__ActiveDeactiveFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CourseSession PersonProfile --></label>
+        <name>QPMS__CourseSession_PersonProfile</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- DisplayPersonProfile --></label>
+        <name>QPMS__DisplayPersonProfile</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Jobfunction for licensed pp --></label>
+        <name>QPMS__Jobfunction_for_licensed_pp</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Jobfunction for non licensed pp --></label>
+        <name>QPMS__Jobfunction_for_non_licensed_pp</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- PersonProfileHeader --></label>
+        <name>QPMS__PersonProfileHeader</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- PersonProfileInit --></label>
+        <name>QPMS__PersonProfileInit</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Person Profile Audit Trail --></label>
+        <name>QPMS__Person_Profile_Audit_Trail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Personal Profile Contextual Help --></label>
+        <name>QPMS__Personal_Profile_Contextual_Help</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- PersonprofileDownload --></label>
+        <name>QPMS__PersonprofileDownload</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- PresonProfileLitView --></label>
+        <name>QPMS__PresonProfileLitView</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- TrainingExport --></label>
+        <name>QPMS__TrainingExport</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UserForLicensedUsers --></label>
+        <name>QPMS__UserForLicensedUsers</name>
+    </fieldSets>
+    <fields>
+        <help><!-- Used to store allow days in approval orocess --></help>
+        <label><!-- Allowed Days --></label>
+        <name>QPMS__Allowed_Days__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field stores the name of approval process currently this record hold --></help>
+        <label><!-- ApprovalProcess --></label>
+        <name>QPMS__ApprovalProcess__c</name>
+        <picklistValues>
+            <masterLabel>PersonProfile</masterLabel>
+            <translation><!-- PersonProfile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PersonProfileApproval</masterLabel>
+            <translation><!-- PersonProfileApproval --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approval Group --></label>
+        <name>QPMS__Approval_Group__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is used to complete the approval process in Person Profile --></help>
+        <label><!-- Approval Process Complete --></label>
+        <name>QPMS__Approval_Process_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Process --></label>
+        <name>QPMS__Approval_Process__c</name>
+        <picklistValues>
+            <masterLabel>Person Profile Active</masterLabel>
+            <translation><!-- Person Profile Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Person Profile Deactivate</masterLabel>
+            <translation><!-- Person Profile Deactivate --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Used to store the Approval required for Person Profile --></help>
+        <label><!-- Approval Required --></label>
+        <name>QPMS__Approval_Required__c</name>
+    </fields>
+    <fields>
+        <help><!-- To store the status of record in approval process --></help>
+        <label><!-- Approval Status --></label>
+        <name>QPMS__Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recall</masterLabel>
+            <translation><!-- Recall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This filed is used to store second approver in approval process. --></help>
+        <label><!-- Approver 1 --></label>
+        <name>QPMS__Approver_1__c</name>
+        <relationshipLabel><!-- Person Profiles (Approver 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This field is used to store third approver in approval process. --></help>
+        <label><!-- Approver 2 --></label>
+        <name>QPMS__Approver_2__c</name>
+        <relationshipLabel><!-- Person Profiles (Approver 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This field is used to store fourth approver in approval process. --></help>
+        <label><!-- Approver 3 --></label>
+        <name>QPMS__Approver_3__c</name>
+        <relationshipLabel><!-- Person Profiles (Approver 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This field is used to store fifth approver in approval process. --></help>
+        <label><!-- Approver 4 --></label>
+        <name>QPMS__Approver_4__c</name>
+        <relationshipLabel><!-- Person Profiles (Approver 4) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This field is used to store fifth approver in approval process. --></help>
+        <label><!-- Approver 5 --></label>
+        <name>QPMS__Approver_5__c</name>
+        <relationshipLabel><!-- Person Profiles (Approver 5) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This field is used to store seventh approver in approval process. --></help>
+        <label><!-- Approver 6 --></label>
+        <name>QPMS__Approver_6__c</name>
+        <relationshipLabel><!-- Person Profiles (Approver 6) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This field is used to store eigth approver in approval process. --></help>
+        <label><!-- Approver 7 --></label>
+        <name>QPMS__Approver_7__c</name>
+        <relationshipLabel><!-- Person Profiles (Approver 7) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This field is used to store ninth approver in approval process. --></help>
+        <label><!-- Approver 8 --></label>
+        <name>QPMS__Approver_8__c</name>
+        <relationshipLabel><!-- Person Profiles (Approver 8) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This field is used to store tenth approver in approval process. --></help>
+        <label><!-- Approver 9 --></label>
+        <name>QPMS__Approver_9__c</name>
+        <relationshipLabel><!-- Person Profiles (Approver 9) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- To store first user in approval process --></help>
+        <label><!-- Approver --></label>
+        <name>QPMS__Approver__c</name>
+        <relationshipLabel><!-- Person Profiles (Approver) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Courses --></label>
+        <name>QPMS__Courses__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is used to store CurrentApprovalSequenceNumber in approval process --></help>
+        <label><!-- CurrentApprovalSequenceNumber --></label>
+        <name>QPMS__CurrentApprovalSequenceNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document --></label>
+        <name>QPMS__Document__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>QPMS__Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Person Profile First Name --></help>
+        <label><!-- First Name --></label>
+        <name>QPMS__First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Followers --></label>
+        <name>QPMS__Followers__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Initial Submitter --></label>
+        <name>QPMS__Initial_Submitter__c</name>
+        <relationshipLabel><!-- Person Profiles (Initial Submitter) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Initiating Site --></label>
+        <name>QPMS__InitiatingSite__c</name>
+        <relationshipLabel><!-- Person Profiles --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Initiating Site --></label>
+        <name>QPMS__Initiating_Site__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Submit --></label>
+        <name>QPMS__Is_Submit__c</name>
+    </fields>
+    <fields>
+        <help><!-- Job function --></help>
+        <label><!-- Job Function --></label>
+        <name>QPMS__Job_Function__c</name>
+    </fields>
+    <fields>
+        <help><!-- Person Profile Last Name --></help>
+        <label><!-- Last Name --></label>
+        <name>QPMS__Last_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Person Profile Middle Name --></help>
+        <label><!-- Middle Initial --></label>
+        <name>QPMS__Middle_Initial__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non-Licensed User --></label>
+        <name>QPMS__Non_Licensed_User__c</name>
+    </fields>
+    <fields>
+        <help><!-- Note to Approver --></help>
+        <label><!-- Note To Approver --></label>
+        <name>QPMS__Note_To_Approver__c</name>
+    </fields>
+    <fields>
+        <label><!-- Person Profile Login --></label>
+        <name>QPMS__Person_Profile_Login__c</name>
+    </fields>
+    <fields>
+        <label><!-- Person Profile Status --></label>
+        <name>QPMS__Person_Profile_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Previous Job Function --></label>
+        <name>QPMS__Previous_Job_Function__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason --></label>
+        <name>QPMS__Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reports To --></label>
+        <name>QPMS__Reports_To_Title__c</name>
+    </fields>
+    <fields>
+        <help><!-- Person Profile  Reports To --></help>
+        <label><!-- Reports To --></label>
+        <name>QPMS__Reports_To__c</name>
+        <relationshipLabel><!-- Person Profiles (Reports To) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sequence --></label>
+        <name>QPMS__Sequence__c</name>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation><!-- 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40</masterLabel>
+            <translation><!-- 40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50</masterLabel>
+            <translation><!-- 50 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60</masterLabel>
+            <translation><!-- 60 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>70</masterLabel>
+            <translation><!-- 70 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>80</masterLabel>
+            <translation><!-- 80 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>90</masterLabel>
+            <translation><!-- 90 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Signed Off Details --></label>
+        <name>QPMS__Signed_Off_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>QPMS__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>InReview</masterLabel>
+            <translation><!-- InReview --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Person Profile Title --></help>
+        <label><!-- Title --></label>
+        <name>QPMS__Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Trained Hours --></label>
+        <name>QPMS__Total_Trained_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- UserId --></label>
+        <name>QPMS__UserId__c</name>
+    </fields>
+    <fields>
+        <label><!-- User From Doc --></label>
+        <name>QPMS__User_From_Doc__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Name --></label>
+        <name>QPMS__User_Name_Title__c</name>
+    </fields>
+    <fields>
+        <help><!-- User Name --></help>
+        <label><!-- User Name --></label>
+        <name>QPMS__User__c</name>
+        <relationshipLabel><!-- Person Profiles (User Name) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This is used to flag in Approval Process. --></help>
+        <label><!-- isDisabled --></label>
+        <name>QPMS__isDisabled__c</name>
+    </fields>
+    <fields>
+        <help><!-- Flag to make record locked when it is submitted for approval --></help>
+        <label><!-- isLocked --></label>
+        <name>QPMS__isLocked__c</name>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <layouts>
+        <layout>Person Profile Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Person Profile Name --></nameFieldLabel>
+</CustomObjectTranslation>

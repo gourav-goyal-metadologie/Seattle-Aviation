@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Assessment Contextual Help --></label>
+        <name>QPMS__Assessment_Contextual_Help</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Assessment_Library Assesment --></label>
+        <name>QPMS__Assessment_Library_Assesment</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Assessment_Library_Init --></label>
+        <name>QPMS__Assessment_Library_Init</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Allow Re-Test --></label>
+        <name>QPMS__Allow_re_test__c</name>
+    </fields>
+    <fields>
+        <label><!-- Course --></label>
+        <name>QPMS__Course__c</name>
+        <relationshipLabel><!-- Assessment Templates --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Final Message on Fail --></label>
+        <name>QPMS__Final_Message_on_final_fail__c</name>
+    </fields>
+    <fields>
+        <help><!-- Inform Manager &amp; Continue With training --></help>
+        <label><!-- Inform Manager &amp; Continue With training --></label>
+        <name>QPMS__Inform_Manager_Continue_With_training__c</name>
+    </fields>
+    <fields>
+        <help><!-- Inform Manager &amp; Wait for approval --></help>
+        <label><!-- Inform Manager &amp; Wait for approval --></label>
+        <name>QPMS__Inform_Manager_Wait_for_approval__c</name>
+    </fields>
+    <fields>
+        <label><!-- Minimum Passing % --></label>
+        <name>QPMS__Minimum_Passing_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- No Of Attempts --></label>
+        <name>QPMS__No_Of_Attempts__c</name>
+    </fields>
+    <fields>
+        <label><!-- No Of Questions --></label>
+        <name>QPMS__No_Of_Questions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test Assessment --></label>
+        <name>QPMS__Test_Assessment__c</name>
+    </fields>
+    <layouts>
+        <layout>Assessment Library Template Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

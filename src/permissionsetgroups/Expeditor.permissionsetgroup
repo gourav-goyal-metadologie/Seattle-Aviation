@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Expeditor (Upgrade Package 1)</label>
+    <permissionSets>AvSight_Create_List_Views</permissionSets>
+    <permissionSets>inscor__AvSight_Purchasing_User</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Company Currency --></label>
+        <name>inscor__Company_Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Company Skill Rate --></label>
+        <name>inscor__Default_Company_Skill_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Skill Rate --></label>
+        <name>inscor__Default_Skill_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee Hourly Rate --></label>
+        <name>inscor__Employee_Hourly_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee Name --></label>
+        <name>inscor__Employee_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee --></label>
+        <name>inscor__Employee__c</name>
+        <relationshipLabel><!-- Labor Entries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- End Time --></label>
+        <name>inscor__End_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Entry Total Company Value --></label>
+        <name>inscor__Entry_Total_Company_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Entry Total Cost --></label>
+        <name>inscor__Entry_Total_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Entry Total Value --></label>
+        <name>inscor__Entry_Total_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exchange Rate --></label>
+        <name>inscor__Exchange_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hours Billed --></label>
+        <name>inscor__Hours_Billed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hours Unbilled --></label>
+        <name>inscor__Hours_Unbilled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hours --></label>
+        <name>inscor__Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Line --></label>
+        <name>inscor__Invoice_Line__c</name>
+        <relationshipLabel><!-- Labor Entries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Rate Date --></label>
+        <name>inscor__Rate_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Skill --></label>
+        <name>inscor__Skill__c</name>
+        <relationshipLabel><!-- Labor Entries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Start Time --></label>
+        <name>inscor__Start_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Task Skill Burden Rate --></label>
+        <name>inscor__Task_Skill_Burden_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Order Task Skill --></label>
+        <name>inscor__Work_Order_Task_Skill__c</name>
+        <relationshipLabel><!-- Labor Entries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Work Order Task --></label>
+        <name>inscor__Work_Order_Task__c</name>
+        <relationshipLabel><!-- Labor Entries --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>AvSight Labor Entry Layout</layout>
+        <sections>
+            <label><!-- Entry Information --></label>
+            <section>Entry Information</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Information --></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- Time Information --></label>
+            <section>Time Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Labor Entry - Cost Hidden</layout>
+        <sections>
+            <label><!-- Entry Information --></label>
+            <section>Entry Information</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Information --></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- Time Information --></label>
+            <section>Time Information</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Start Time must be before End Time --></errorMessage>
+        <name>inscor__Start_Date_End_Date_Validation</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Clock_Out --></label>
+        <name>inscor__Clock_Out</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>May be used to automate the creation of payment instead of using button.  For future use</description>
+    <masterLabel>Authvia: Create Payment from Sales Order NOT IN USE</masterLabel>
+</FlowDefinition>

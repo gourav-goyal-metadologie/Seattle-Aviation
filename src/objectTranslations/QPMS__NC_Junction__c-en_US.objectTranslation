@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- NC_ParentName --></label>
+        <name>QPMS__NC_ParentName__c</name>
+    </fields>
+    <fields>
+        <label><!-- NC Parent --></label>
+        <name>QPMS__NC_Parent__c</name>
+        <relationshipLabel><!-- NC Junctions (NC Parent) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Non_ConformanceChildName --></label>
+        <name>QPMS__Non_ConformanceChildName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non-Conformance --></label>
+        <name>QPMS__Non_Conformance__c</name>
+        <relationshipLabel><!-- NC Junctions --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

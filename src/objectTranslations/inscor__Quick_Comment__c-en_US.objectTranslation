@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Comment Available --></label>
+        <name>inscor__Comment_Available__c</name>
+        <picklistValues>
+            <masterLabel>Invoice Header</masterLabel>
+            <translation><!-- Invoice Header --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice Lines</masterLabel>
+            <translation><!-- Invoice Lines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PO Header</masterLabel>
+            <translation><!-- PO Header --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PO Lines</masterLabel>
+            <translation><!-- PO Lines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote Header</masterLabel>
+            <translation><!-- Quote Header --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote Lines</masterLabel>
+            <translation><!-- Quote Lines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RFQ Header</masterLabel>
+            <translation><!-- RFQ Header --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RFQ Lines</masterLabel>
+            <translation><!-- RFQ Lines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RO Header</masterLabel>
+            <translation><!-- RO Header --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RO Lines</masterLabel>
+            <translation><!-- RO Lines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SO Header</masterLabel>
+            <translation><!-- SO Header --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SO Lines</masterLabel>
+            <translation><!-- SO Lines --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Comment Type --></label>
+        <name>inscor__Comment_Type__c</name>
+        <picklistValues>
+            <masterLabel>External</masterLabel>
+            <translation><!-- External --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal</masterLabel>
+            <translation><!-- Internal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Comment --></label>
+        <name>inscor__Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company --></label>
+        <name>inscor__Company__c</name>
+        <relationshipLabel><!-- Quick Comments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <layouts>
+        <layout>Quick Comment Layout</layout>
+        <sections>
+            <label><!-- Comment --></label>
+            <section>Comment</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- Quick Comment Information --></label>
+            <section>Quick Comment Information</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

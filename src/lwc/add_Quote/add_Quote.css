@@ -1,0 +1,22 @@
+.add-to-quote{
+
+margin-left:8px;
+}
+
+.slds-theme_success{
+    background-color: rgb(208, 28, 72);
+}
+
+@media(max-width: 500px) {
+    .common-btn{
+          font-size: 9px !important;
+      }
+      .common-btn .slds-button_brand {
+        border-radius: 0 !important;
+        padding: 0 10px !important;
+    }
+    .common-btn button {
+        border-radius: 0 !important;
+        padding: 0 10px !important;
+    }
+  }

@@ -1,0 +1,2522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>inscor__Inventory_Compact</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>inscor__Inventory_Compact</fullName>
+        <fields>Name</fields>
+        <fields>inscor__Condition_Code__c</fields>
+        <fields>inscor__Warehouse__c</fields>
+        <fields>inscor__Owner_Code__c</fields>
+        <fields>inscor__Serialized__c</fields>
+        <fields>inscor__Serial_Number__c</fields>
+        <label>Inventory Compact</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>false</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>false</enableSharing>
+    <enableStreamingApi>false</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Legacy_Condition_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Legacy Condition Code</label>
+        <length>10</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Accrued_Repair_Cost__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Accrued Repair Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Acquisition_Cost__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Acquisition Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Acquisition_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Acquisition Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Batch_LOT__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Batch/LOT#</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Box_Size__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Box Size</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>4x4</fullName>
+                    <default>false</default>
+                    <label>4x4</label>
+                </value>
+                <value>
+                    <fullName>12x6</fullName>
+                    <default>false</default>
+                    <label>12x6</label>
+                </value>
+                <value>
+                    <fullName>12x2</fullName>
+                    <default>false</default>
+                    <label>12x2</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>inscor__Business_Category__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Business Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>inscor__Business_Category</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>inscor__CSN__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>CSN</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__CSO__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Cycles since overhaul</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Cycles since last overhaul.</inlineHelpText>
+        <label>CSO</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Comments__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Comments</label>
+        <length>10000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__Company__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Company</label>
+        <referenceTo>inscor__Company__c</referenceTo>
+        <relationshipLabel>Inventory</relationshipLabel>
+        <relationshipName>Inventory</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Condition_Code__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Condition Code</label>
+        <referenceTo>inscor__Condition_Code__c</referenceTo>
+        <relationshipLabel>Inventory</relationshipLabel>
+        <relationshipName>Inventory</relationshipName>
+        <required>true</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Conversion_Barcode_ID_1__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Conversion Barcode ID 1</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Conversion_Barcode_ID_2__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Conversion Barcode ID 2</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Conversion_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Conversion ID</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Conversion_Tag_Agency__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Conversion Tag Agency</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Country_of_Origin__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Country of Origin</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Cycle_Limit__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Cycle Limit</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Cycles_Remaining__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Cycles Remaining</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Duplicate_SN__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <deprecated>false</deprecated>
+        <description>This field is automatically populated based on the SN duplication definition as implemented in the Process Builder: &quot;Process Builder - Inventory - Duplicate Field Fill&quot;. Duplicate prevention is normally defined as a concatenation of PN+SN + MFR Code on inventory records where qty &gt; 0. NOTE: Script must be run manually to initially fill in this field for already existing records.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field is automatically populated based on the SN duplication definition as implemented in the Process Builder: &quot;Process Builder-Inventory-Duplicate Field Fill&quot;. Duplicate prevention is normally defined as a concatenation of PN+SN+Mfr Code when qty&gt;0.</inlineHelpText>
+        <label>Duplicate SN</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__ESN_Text__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>MSN/ESN</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Expiration_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Expiration Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Extended_Acquisition_Cost__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>inscor__Acquisition_Cost__c * inscor__Quantity__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Extended Acquisition Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Extended_Cost__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>inscor__Quantity__c * inscor__Total_Cost__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Extended Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Extended_Repair_Cost__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>inscor__Repair_Cost__c * inscor__Quantity__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Extended Repair Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>inscor__External_Reference_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <deprecated>false</deprecated>
+        <externalId>true</externalId>
+        <label>External Reference ID</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Grouping_Enabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Grouping Enabled?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Inspected_By__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Inspected By</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Inventory</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Inspected_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Inspected Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Inspection_Notes__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Inspection Notes</label>
+        <length>131072</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__Inventory_Clasification__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Inventory Clasification</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>A</fullName>
+                    <default>false</default>
+                    <label>A</label>
+                </value>
+                <value>
+                    <fullName>B</fullName>
+                    <default>false</default>
+                    <label>B</label>
+                </value>
+                <value>
+                    <fullName>C</fullName>
+                    <default>false</default>
+                    <label>C</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>inscor__Inventory_Grouping__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Inventory Grouping</label>
+        <referenceTo>inscor__Inventory_Grouping__c</referenceTo>
+        <relationshipLabel>Inventory</relationshipLabel>
+        <relationshipName>Inventory</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__KIT_Lot__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>KIT Lot #</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Keyword__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>inscor__Product__r.inscor__Keyword__c</formula>
+        <label>Keyword</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Kit_Revision__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Kit Version</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Last_Calibration_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Last Calibration Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Last_Inspection_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Last Inspection Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Last_Stock_Check_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Last Stock Check Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Location__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Location</label>
+        <referenceTo>inscor__Inventory_Location__c</referenceTo>
+        <relationshipLabel>Inventory</relationshipLabel>
+        <relationshipName>Inventory</relationshipName>
+        <required>true</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__MFG_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>MFG Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__MFR_Code__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>MFR Code</label>
+        <referenceTo>inscor__Manufacturer_Code__c</referenceTo>
+        <relationshipLabel>Inventory</relationshipLabel>
+        <relationshipName>Inventory</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__MFR_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>inscor__MFR_Code__r.inscor__Company_Name__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>MFR Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Manifest__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Manifest</label>
+        <referenceTo>inscor__Manifest__c</referenceTo>
+        <relationshipLabel>Inventory</relationshipLabel>
+        <relationshipName>Inventory</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Manufacture_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Manufacture Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Next_Calibration_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Next Calibration Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Next_Inspection_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Next Inspection Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>inscor__OEM_Packaging__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>OEM Packaging</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Original_Inventory_Line__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Original Inventory Line</label>
+        <referenceTo>inscor__Inventory_Line__c</referenceTo>
+        <relationshipLabel>Inventory (Original Inventory Line)</relationshipLabel>
+        <relationshipName>Original_Inventory</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Owned_by_Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Owned by Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Inventory (Owned by Account)</relationshipLabel>
+        <relationshipName>OwnedByAccount</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Owner_Code__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Owner Code</label>
+        <referenceTo>inscor__Owner_Code__c</referenceTo>
+        <relationshipLabel>Inventory</relationshipLabel>
+        <relationshipName>Inventory</relationshipName>
+        <required>true</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Parent_Inventory__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Parent Inventory</label>
+        <referenceTo>inscor__Inventory_Line__c</referenceTo>
+        <relationshipLabel>Inventory</relationshipLabel>
+        <relationshipName>Inventory</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Price_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Price Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Price__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Product__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Part Number</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Inventory</relationshipLabel>
+        <relationshipName>Inventory</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Protected_Reason__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Protected Reason</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Customer Property</fullName>
+                    <default>false</default>
+                    <label>Customer Property</label>
+                </value>
+                <value>
+                    <fullName>Incident Related</fullName>
+                    <default>false</default>
+                    <label>Incident Related</label>
+                </value>
+                <value>
+                    <fullName>Customer RMA</fullName>
+                    <default>false</default>
+                    <label>Customer RMA</label>
+                </value>
+                <value>
+                    <fullName>LOT Main</fullName>
+                    <default>false</default>
+                    <label>LOT Main</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+                <value>
+                    <fullName>Exchange Core</fullName>
+                    <default>false</default>
+                    <label>Exchange Core</label>
+                </value>
+                <value>
+                    <fullName>WO Part</fullName>
+                    <default>false</default>
+                    <label>WO Part</label>
+                </value>
+                <value>
+                    <fullName>Tool</fullName>
+                    <default>false</default>
+                    <label>Tool</label>
+                </value>
+                <value>
+                    <fullName>Managed Repair</fullName>
+                    <default>false</default>
+                    <label>Managed Repair</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__Protected__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Protected</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Purchase_Order__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Purchase Order</label>
+        <referenceTo>inscor__Purchase_Order__c</referenceTo>
+        <relationshipLabel>Inventory</relationshipLabel>
+        <relationshipName>Inventory</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Quantity_Allocated__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Quantity Allocated</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Quantity_Assigned__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Quantity Assigned</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Quantity_Available__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>(inscor__Quantity__c) -  (inscor__Quantity_Allocated__c + inscor__Quantity_on_Repair__c +  inscor__Quantity_on_Exchange__c + inscor__Quantity_on_Lease__c +  inscor__Quantity_on_WO__c + inscor__Quantity_Assigned__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Quantity Available</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Quantity_Rejected__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Quantity Rejected</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Quantity__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Quantity_on_Exchange__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Quantity on Exchange</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Quantity_on_Lease__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Quantity on Lease</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Quantity_on_RO_Issued__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Quantity on RO Issued</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Quantity_on_Repair__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Quantity on Repair</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Quantity_on_WO__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Quantity on WO</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__RMA__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>RMA</label>
+        <referenceTo>inscor__RMA__c</referenceTo>
+        <relationshipLabel>Inventory</relationshipLabel>
+        <relationshipName>Inventory</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Reference_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Reference ID</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Rejection_Reason__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Rejection Reason</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Quality-Cond</fullName>
+                    <default>false</default>
+                    <label>Quality-Mismatched Cond.</label>
+                </value>
+                <value>
+                    <fullName>Quality-PN</fullName>
+                    <default>false</default>
+                    <label>Quality-Mismatched PN</label>
+                </value>
+                <value>
+                    <fullName>Quality-Ppwk</fullName>
+                    <default>false</default>
+                    <label>Quality-Mismatched Ppwk</label>
+                </value>
+                <value>
+                    <fullName>Order-Qty</fullName>
+                    <default>false</default>
+                    <label>Order-Mismatched Qty</label>
+                </value>
+                <value>
+                    <fullName>Order-Packaging</fullName>
+                    <default>false</default>
+                    <label>Order-Packaging</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__Repair_Cost__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Repair Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Repair_Order__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Repair Order</label>
+        <referenceTo>inscor__Repair_Order__c</referenceTo>
+        <relationshipLabel>Inventory</relationshipLabel>
+        <relationshipName>Inventory</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Repair_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Repair Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>inscor__Repair_Type</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>inscor__Serial_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Serial Number</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Serialized__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>inscor__Product__r.inscor__Serialized__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Serialized?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Source_2__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Source 2</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Inventory (Source 2)</relationshipLabel>
+        <relationshipName>Source2</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Source__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Specifies where the parts were obtained from and usually the vendor parts were purchased from. Used in Material Certifications for Obtained From information.</inlineHelpText>
+        <label>Source</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Inventory (Source)</relationshipLabel>
+        <relationshipName>Source</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Sub_Location__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Sub Location</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Suggested_Location__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Suggested Location</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__TSN__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>TSN</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__TSO__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Time since overhaul</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Time since last overhaul.</inlineHelpText>
+        <label>TSO</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Tag_Agency_2__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Tag Agency 2</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Inventory (Tag Agency 2)</relationshipLabel>
+        <relationshipName>TagAgency2</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Tag_Agency__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Tag Agency</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Inventory</relationshipLabel>
+        <relationshipName>TagAgency</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Tag_Date_2__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Tag Date 2</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Tag_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Tag Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Tag_Reference__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Tag Reference</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Tags__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Part Certification or conformance document type, Certificate Tyoes. NOTE: used in SPEC2, CET field.</inlineHelpText>
+        <label>Tags</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>EASA Form 1</fullName>
+                    <default>false</default>
+                    <label>EASA Form 1</label>
+                </value>
+                <value>
+                    <fullName>CASA Form 1</fullName>
+                    <default>false</default>
+                    <label>CASA Form 1</label>
+                </value>
+                <value>
+                    <fullName>TCCA Form 1</fullName>
+                    <default>false</default>
+                    <label>TCCA Form 1</label>
+                </value>
+                <value>
+                    <fullName>CAAC AAC-038</fullName>
+                    <default>false</default>
+                    <label>CAAC AAC-038</label>
+                </value>
+                <value>
+                    <fullName>Transfer Document</fullName>
+                    <default>false</default>
+                    <label>Transfer Document</label>
+                </value>
+                <value>
+                    <fullName>Certificate of Conformance</fullName>
+                    <default>false</default>
+                    <label>Certificate of Conformance</label>
+                </value>
+                <value>
+                    <fullName>Certificate of Conformity</fullName>
+                    <default>false</default>
+                    <label>Certificate of Conformity</label>
+                </value>
+                <value>
+                    <fullName>--</fullName>
+                    <default>false</default>
+                    <label>--</label>
+                </value>
+                <value>
+                    <fullName>00001817</fullName>
+                    <default>false</default>
+                    <label>00001817</label>
+                </value>
+                <value>
+                    <fullName>03/18 DUAL RELEASE</fullName>
+                    <default>false</default>
+                    <label>03/18 DUAL RELEASE</label>
+                </value>
+                <value>
+                    <fullName>11/12 MFG COC</fullName>
+                    <default>false</default>
+                    <label>11/12 MFG COC</label>
+                </value>
+                <value>
+                    <fullName>11/14 FAA 8130</fullName>
+                    <default>false</default>
+                    <label>11/14 FAA 8130</label>
+                </value>
+                <value>
+                    <fullName>15521</fullName>
+                    <default>false</default>
+                    <label>15521</label>
+                </value>
+                <value>
+                    <fullName>163542</fullName>
+                    <default>false</default>
+                    <label>163542</label>
+                </value>
+                <value>
+                    <fullName>2/18 DUAL RELEASE</fullName>
+                    <default>false</default>
+                    <label>2/18 DUAL RELEASE</label>
+                </value>
+                <value>
+                    <fullName>3/18 DUAL RELEASE</fullName>
+                    <default>false</default>
+                    <label>3/18 DUAL RELEASE</label>
+                </value>
+                <value>
+                    <fullName>3229896</fullName>
+                    <default>false</default>
+                    <label>3229896</label>
+                </value>
+                <value>
+                    <fullName>3229898</fullName>
+                    <default>false</default>
+                    <label>3229898</label>
+                </value>
+                <value>
+                    <fullName>4/18 DUAL RELEASE</fullName>
+                    <default>false</default>
+                    <label>4/18 DUAL RELEASE</label>
+                </value>
+                <value>
+                    <fullName>4/18 FAA 8130</fullName>
+                    <default>false</default>
+                    <label>4/18 FAA 8130</label>
+                </value>
+                <value>
+                    <fullName>4/18 FAA 8130-3</fullName>
+                    <default>false</default>
+                    <label>4/18 FAA 8130-3</label>
+                </value>
+                <value>
+                    <fullName>5/16 FAA 8130-3</fullName>
+                    <default>false</default>
+                    <label>5/16 FAA 8130-3</label>
+                </value>
+                <value>
+                    <fullName>810570874</fullName>
+                    <default>false</default>
+                    <label>810570874</label>
+                </value>
+                <value>
+                    <fullName>810570877</fullName>
+                    <default>false</default>
+                    <label>810570877</label>
+                </value>
+                <value>
+                    <fullName>8130</fullName>
+                    <default>false</default>
+                    <label>8130</label>
+                </value>
+                <value>
+                    <fullName>8130 + Full trace</fullName>
+                    <default>false</default>
+                    <label>8130 + Full trace</label>
+                </value>
+                <value>
+                    <fullName>8130-3</fullName>
+                    <default>false</default>
+                    <label>8130-3</label>
+                </value>
+                <value>
+                    <fullName>Arjet</fullName>
+                    <default>false</default>
+                    <label>Arjet</label>
+                </value>
+                <value>
+                    <fullName>AT106</fullName>
+                    <default>false</default>
+                    <label>AT106</label>
+                </value>
+                <value>
+                    <fullName>ATA 106</fullName>
+                    <default>false</default>
+                    <label>ATA 106</label>
+                </value>
+                <value>
+                    <fullName>ATA106</fullName>
+                    <default>false</default>
+                    <label>ATA106</label>
+                </value>
+                <value>
+                    <fullName>ATA-106</fullName>
+                    <default>false</default>
+                    <label>ATA-106</label>
+                </value>
+                <value>
+                    <fullName>ATA106 + Full trace</fullName>
+                    <default>false</default>
+                    <label>ATA106 + Full trace</label>
+                </value>
+                <value>
+                    <fullName>ATA106 Only</fullName>
+                    <default>false</default>
+                    <label>ATA106 Only</label>
+                </value>
+                <value>
+                    <fullName>BCAA</fullName>
+                    <default>false</default>
+                    <label>BCAA</label>
+                </value>
+                <value>
+                    <fullName>C.O.C.</fullName>
+                    <default>false</default>
+                    <label>C.O.C.</label>
+                </value>
+                <value>
+                    <fullName>CAA Form 1</fullName>
+                    <default>false</default>
+                    <label>CAA Form 1</label>
+                </value>
+                <value>
+                    <fullName>Calibration Cert</fullName>
+                    <default>false</default>
+                    <label>Calibration Cert</label>
+                </value>
+                <value>
+                    <fullName>Caplugs buffalo ny</fullName>
+                    <default>false</default>
+                    <label>Caplugs buffalo ny</label>
+                </value>
+                <value>
+                    <fullName>CERT</fullName>
+                    <default>false</default>
+                    <label>CERT</label>
+                </value>
+                <value>
+                    <fullName>CERTS</fullName>
+                    <default>false</default>
+                    <label>CERTS</label>
+                </value>
+                <value>
+                    <fullName>Chem/physical test</fullName>
+                    <default>false</default>
+                    <label>Chem/physical test</label>
+                </value>
+                <value>
+                    <fullName>COC,8130,TD REPORT</fullName>
+                    <default>false</default>
+                    <label>COC,8130,TD REPORT</label>
+                </value>
+                <value>
+                    <fullName>Customer Documents</fullName>
+                    <default>false</default>
+                    <label>Customer Documents</label>
+                </value>
+                <value>
+                    <fullName>Depot Mnt Work Reqmt</fullName>
+                    <default>false</default>
+                    <label>Depot Mnt Work Reqmt</label>
+                </value>
+                <value>
+                    <fullName>Dist COC</fullName>
+                    <default>false</default>
+                    <label>Dist COC</label>
+                </value>
+                <value>
+                    <fullName>Distributitor CoC</fullName>
+                    <default>false</default>
+                    <label>Distributitor CoC</label>
+                </value>
+                <value>
+                    <fullName>DISTRIBUTOR COC</fullName>
+                    <default>false</default>
+                    <label>DISTRIBUTOR COC</label>
+                </value>
+                <value>
+                    <fullName>Distributor COC only</fullName>
+                    <default>false</default>
+                    <label>Distributor COC only</label>
+                </value>
+                <value>
+                    <fullName>Distributor Document</fullName>
+                    <default>false</default>
+                    <label>Distributor Document</label>
+                </value>
+                <value>
+                    <fullName>Dual FAA 8130-3</fullName>
+                    <default>false</default>
+                    <label>Dual FAA 8130-3</label>
+                </value>
+                <value>
+                    <fullName>Dual Release</fullName>
+                    <default>false</default>
+                    <label>Dual Release</label>
+                </value>
+                <value>
+                    <fullName>Dual Release + trace</fullName>
+                    <default>false</default>
+                    <label>Dual Release + trace</label>
+                </value>
+                <value>
+                    <fullName>Dual Release only</fullName>
+                    <default>false</default>
+                    <label>Dual Release only</label>
+                </value>
+                <value>
+                    <fullName>DUAL RLS</fullName>
+                    <default>false</default>
+                    <label>DUAL RLS</label>
+                </value>
+                <value>
+                    <fullName>EASA + Full trace</fullName>
+                    <default>false</default>
+                    <label>EASA + Full trace</label>
+                </value>
+                <value>
+                    <fullName>EASA F1</fullName>
+                    <default>false</default>
+                    <label>EASA F1</label>
+                </value>
+                <value>
+                    <fullName>Easa Form !</fullName>
+                    <default>false</default>
+                    <label>Easa Form !</label>
+                </value>
+                <value>
+                    <fullName>EASA Form 1 only</fullName>
+                    <default>false</default>
+                    <label>EASA Form 1 only</label>
+                </value>
+                <value>
+                    <fullName>EASA Form1</fullName>
+                    <default>false</default>
+                    <label>EASA Form1</label>
+                </value>
+                <value>
+                    <fullName>EASA From 1</fullName>
+                    <default>false</default>
+                    <label>EASA From 1</label>
+                </value>
+                <value>
+                    <fullName>EASA-1</fullName>
+                    <default>false</default>
+                    <label>EASA-1</label>
+                </value>
+                <value>
+                    <fullName>EEASA FORM 1</fullName>
+                    <default>false</default>
+                    <label>EEASA FORM 1</label>
+                </value>
+                <value>
+                    <fullName>EUROCOPTER 8130</fullName>
+                    <default>false</default>
+                    <label>EUROCOPTER 8130</label>
+                </value>
+                <value>
+                    <fullName>F-100-01</fullName>
+                    <default>false</default>
+                    <label>F-100-01</label>
+                </value>
+                <value>
+                    <fullName>FAA 1830-3</fullName>
+                    <default>false</default>
+                    <label>FAA 1830-3</label>
+                </value>
+                <value>
+                    <fullName>FAA 60333</fullName>
+                    <default>false</default>
+                    <label>FAA 60333</label>
+                </value>
+                <value>
+                    <fullName>FAA 8130</fullName>
+                    <default>false</default>
+                    <label>FAA Form 8130-3</label>
+                </value>
+                <value>
+                    <fullName>FAA 8130 Only</fullName>
+                    <default>false</default>
+                    <label>FAA 8130 Only</label>
+                </value>
+                <value>
+                    <fullName>FAA 8130, WO REPORT</fullName>
+                    <default>false</default>
+                    <label>FAA 8130, WO REPORT</label>
+                </value>
+                <value>
+                    <fullName>FAA 8130-3</fullName>
+                    <default>false</default>
+                    <label>FAA 8130-3</label>
+                </value>
+                <value>
+                    <fullName>FAA 8130nspection Re</fullName>
+                    <default>false</default>
+                    <label>FAA 8130nspection Re</label>
+                </value>
+                <value>
+                    <fullName>FAA8130</fullName>
+                    <default>false</default>
+                    <label>FAA8130</label>
+                </value>
+                <value>
+                    <fullName>Full trace + SDS</fullName>
+                    <default>false</default>
+                    <label>Full trace + SDS</label>
+                </value>
+                <value>
+                    <fullName>Full trace + tests</fullName>
+                    <default>false</default>
+                    <label>Full trace + tests</label>
+                </value>
+                <value>
+                    <fullName>Full trace to mfg</fullName>
+                    <default>false</default>
+                    <label>Full trace to mfg</label>
+                </value>
+                <value>
+                    <fullName>GACA 8130-3</fullName>
+                    <default>false</default>
+                    <label>GACA 8130-3</label>
+                </value>
+                <value>
+                    <fullName>MATERIAL CERTS</fullName>
+                    <default>false</default>
+                    <label>MATERIAL CERTS</label>
+                </value>
+                <value>
+                    <fullName>MFG CERTS</fullName>
+                    <default>false</default>
+                    <label>MFG CERTS</label>
+                </value>
+                <value>
+                    <fullName>MFG COC</fullName>
+                    <default>false</default>
+                    <label>MFG COC</label>
+                </value>
+                <value>
+                    <fullName>Mfg/OEM COC</fullName>
+                    <default>false</default>
+                    <label>Mfg/OEM COC</label>
+                </value>
+                <value>
+                    <fullName>Mfg/OEM COC only</fullName>
+                    <default>false</default>
+                    <label>Mfg/OEM COC only</label>
+                </value>
+                <value>
+                    <fullName>MFR CERTS</fullName>
+                    <default>false</default>
+                    <label>MFR CERTS</label>
+                </value>
+                <value>
+                    <fullName>MFR COC</fullName>
+                    <default>false</default>
+                    <label>MFR COC</label>
+                </value>
+                <value>
+                    <fullName>Mfr CoC Required</fullName>
+                    <default>false</default>
+                    <label>Mfr CoC Required</label>
+                </value>
+                <value>
+                    <fullName>MIA-2018/0842</fullName>
+                    <default>false</default>
+                    <label>MIA-2018/0842</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                    <label>None</label>
+                </value>
+                <value>
+                    <fullName>None Supplied</fullName>
+                    <default>false</default>
+                    <label>None Supplied</label>
+                </value>
+                <value>
+                    <fullName>Not Applicable</fullName>
+                    <default>false</default>
+                    <label>Not Applicable</label>
+                </value>
+                <value>
+                    <fullName>Packing List 2948866</fullName>
+                    <default>false</default>
+                    <label>Packing List 2948866</label>
+                </value>
+                <value>
+                    <fullName>Packlist 03/2018</fullName>
+                    <default>false</default>
+                    <label>Packlist 03/2018</label>
+                </value>
+                <value>
+                    <fullName>Packlist 3229367</fullName>
+                    <default>false</default>
+                    <label>Packlist 3229367</label>
+                </value>
+                <value>
+                    <fullName>Packlist 384443</fullName>
+                    <default>false</default>
+                    <label>Packlist 384443</label>
+                </value>
+                <value>
+                    <fullName>Packlist 496/2017</fullName>
+                    <default>false</default>
+                    <label>Packlist 496/2017</label>
+                </value>
+                <value>
+                    <fullName>Part Tag</fullName>
+                    <default>false</default>
+                    <label>Part Tag</label>
+                </value>
+                <value>
+                    <fullName>Part Tag only</fullName>
+                    <default>false</default>
+                    <label>Part Tag only</label>
+                </value>
+                <value>
+                    <fullName>PTI Technologies</fullName>
+                    <default>false</default>
+                    <label>PTI Technologies</label>
+                </value>
+                <value>
+                    <fullName>REMOVAL TAG</fullName>
+                    <default>false</default>
+                    <label>REMOVAL TAG</label>
+                </value>
+                <value>
+                    <fullName>REPAIR CERTS</fullName>
+                    <default>false</default>
+                    <label>REPAIR CERTS</label>
+                </value>
+                <value>
+                    <fullName>SC00356098</fullName>
+                    <default>false</default>
+                    <label>SC00356098</label>
+                </value>
+                <value>
+                    <fullName>Scrap Report</fullName>
+                    <default>false</default>
+                    <label>Scrap Report</label>
+                </value>
+                <value>
+                    <fullName>SUPPLIER DOCS</fullName>
+                    <default>false</default>
+                    <label>SUPPLIER DOCS</label>
+                </value>
+                <value>
+                    <fullName>Supplier Documeentat</fullName>
+                    <default>false</default>
+                    <label>Supplier Documeentat</label>
+                </value>
+                <value>
+                    <fullName>Supplier Documents</fullName>
+                    <default>false</default>
+                    <label>Supplier Documents</label>
+                </value>
+                <value>
+                    <fullName>TBA</fullName>
+                    <default>false</default>
+                    <label>TBA</label>
+                </value>
+                <value>
+                    <fullName>tcaa</fullName>
+                    <default>false</default>
+                    <label>tcaa</label>
+                </value>
+                <value>
+                    <fullName>TCAA-1</fullName>
+                    <default>false</default>
+                    <label>TCAA-1</label>
+                </value>
+                <value>
+                    <fullName>TCCA</fullName>
+                    <default>false</default>
+                    <label>TCCA</label>
+                </value>
+                <value>
+                    <fullName>TCCA + Full trace</fullName>
+                    <default>false</default>
+                    <label>TCCA + Full trace</label>
+                </value>
+                <value>
+                    <fullName>TCCA For 1</fullName>
+                    <default>false</default>
+                    <label>TCCA For 1</label>
+                </value>
+                <value>
+                    <fullName>TCCA Form</fullName>
+                    <default>false</default>
+                    <label>TCCA Form</label>
+                </value>
+                <value>
+                    <fullName>TCCA Form !</fullName>
+                    <default>false</default>
+                    <label>TCCA Form !</label>
+                </value>
+                <value>
+                    <fullName>TCCA form 1 only</fullName>
+                    <default>false</default>
+                    <label>TCCA form 1 only</label>
+                </value>
+                <value>
+                    <fullName>TCCA Form 14261341-1</fullName>
+                    <default>false</default>
+                    <label>TCCA Form 14261341-1</label>
+                </value>
+                <value>
+                    <fullName>tcca form one</fullName>
+                    <default>false</default>
+                    <label>tcca form one</label>
+                </value>
+                <value>
+                    <fullName>TCCA Form1</fullName>
+                    <default>false</default>
+                    <label>TCCA Form1</label>
+                </value>
+                <value>
+                    <fullName>TCCA-1</fullName>
+                    <default>false</default>
+                    <label>TCCA-1</label>
+                </value>
+                <value>
+                    <fullName>TCCA-1426</fullName>
+                    <default>false</default>
+                    <label>TCCA-1426</label>
+                </value>
+                <value>
+                    <fullName>Test Reports</fullName>
+                    <default>false</default>
+                    <label>Test Reports</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>inscor__Time_Limit__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Time Limit</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Time_Remaining__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Time Remaining</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>inscor__Total_Cost__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>inscor__Acquisition_Cost__c +  inscor__Repair_Cost__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Trace_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Identifies the type for the Trace. Used in SPEC2K as SOR.</inlineHelpText>
+        <label>Trace Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>OEM</fullName>
+                    <default>false</default>
+                    <label>OEM</label>
+                </value>
+                <value>
+                    <fullName>121</fullName>
+                    <default>false</default>
+                    <label>121</label>
+                </value>
+                <value>
+                    <fullName>129</fullName>
+                    <default>false</default>
+                    <label>129</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>inscor__Trace__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Specifies the company that the parts are officially traced to and synonymous with Last Operator unless traced to a 145. Used in SPEC2K as SRN field.</inlineHelpText>
+        <label>Trace</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Inventory (Trace)</relationshipLabel>
+        <relationshipName>Inventory</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__UOM__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>UOM</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>inscor__UOM</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>inscor__Warehouse__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Warehouse</label>
+        <referenceTo>inscor__Warehouse__c</referenceTo>
+        <relationshipLabel>Inventory</relationshipLabel>
+        <relationshipName>Inventory</relationshipName>
+        <required>true</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>inscor__Work_Order__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Work Order</label>
+        <referenceTo>inscor__Work_Order__c</referenceTo>
+        <relationshipLabel>Assembled Kits</relationshipLabel>
+        <relationshipName>Inventory</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Inventory</label>
+    <listViews>
+        <fullName>Commercials_Owner_Code</fullName>
+        <columns>NAME</columns>
+        <columns>inscor__Product__c</columns>
+        <columns>inscor__Keyword__c</columns>
+        <columns>inscor__Condition_Code__c</columns>
+        <columns>inscor__Owner_Code__c</columns>
+        <columns>inscor__Serial_Number__c</columns>
+        <columns>inscor__Quantity__c</columns>
+        <columns>inscor__Expiration_Date__c</columns>
+        <columns>inscor__Source__c</columns>
+        <columns>inscor__Trace__c</columns>
+        <columns>inscor__Tags__c</columns>
+        <columns>inscor__Tag_Date__c</columns>
+        <columns>inscor__Location__c</columns>
+        <columns>inscor__Acquisition_Date__c</columns>
+        <columns>inscor__Total_Cost__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>inscor__Quantity_Available__c</field>
+            <operation>greaterThan</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>inscor__Owner_Code__c</field>
+            <operation>contains</operation>
+            <value>commercial</value>
+        </filters>
+        <label>Commercials (Owner Code)</label>
+        <sharedTo>
+            <group>Commercial_Teardown</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>For_Learning_Purpose</fullName>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <columns>NAME</columns>
+        <columns>inscor__Product__c</columns>
+        <columns>inscor__Keyword__c</columns>
+        <columns>inscor__Condition_Code__c</columns>
+        <columns>inscor__Owner_Code__c</columns>
+        <columns>inscor__Serial_Number__c</columns>
+        <columns>inscor__Quantity__c</columns>
+        <columns>inscor__External_Reference_ID__c</columns>
+        <columns>inscor__Expiration_Date__c</columns>
+        <columns>inscor__Source__c</columns>
+        <columns>inscor__Trace__c</columns>
+        <columns>inscor__Tags__c</columns>
+        <columns>inscor__Tag_Date__c</columns>
+        <columns>inscor__Location__c</columns>
+        <columns>inscor__Acquisition_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>inscor__Quantity_Available__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>inscor__Location__c</field>
+            <operation>notEqual</operation>
+            <value>civ</value>
+        </filters>
+        <filters>
+            <field>inscor__Location__c</field>
+            <operation>notEqual</operation>
+            <value>civw</value>
+        </filters>
+        <label>For Learning Purpose</label>
+        <sharedTo>
+            <group>Commercial_Teardown</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Inventory_List_for_Filters</fullName>
+        <columns>NAME</columns>
+        <columns>inscor__Product__c</columns>
+        <columns>inscor__Keyword__c</columns>
+        <columns>inscor__Condition_Code__c</columns>
+        <columns>inscor__Owner_Code__c</columns>
+        <columns>inscor__Serial_Number__c</columns>
+        <columns>inscor__Quantity__c</columns>
+        <columns>inscor__External_Reference_ID__c</columns>
+        <columns>inscor__Expiration_Date__c</columns>
+        <columns>inscor__Source__c</columns>
+        <columns>inscor__Trace__c</columns>
+        <columns>inscor__Tags__c</columns>
+        <columns>inscor__Tag_Date__c</columns>
+        <columns>inscor__Location__c</columns>
+        <columns>inscor__Acquisition_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>inscor__Quantity__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>inscor__Product__c</field>
+            <operation>contains</operation>
+            <value>g16</value>
+        </filters>
+        <label>Inventory List for Filters</label>
+        <sharedTo>
+            <group>Commercial_Teardown</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>PO_6613_TRs_Teardowns</fullName>
+        <columns>NAME</columns>
+        <columns>inscor__Product__c</columns>
+        <columns>inscor__Keyword__c</columns>
+        <columns>inscor__Condition_Code__c</columns>
+        <columns>inscor__Owner_Code__c</columns>
+        <columns>inscor__Serial_Number__c</columns>
+        <columns>inscor__Quantity__c</columns>
+        <columns>inscor__Expiration_Date__c</columns>
+        <columns>inscor__Source__c</columns>
+        <columns>inscor__Trace__c</columns>
+        <columns>inscor__Tags__c</columns>
+        <columns>inscor__Tag_Date__c</columns>
+        <columns>inscor__Location__c</columns>
+        <columns>inscor__Acquisition_Date__c</columns>
+        <columns>inscor__Total_Cost__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>inscor__Quantity_Available__c</field>
+            <operation>greaterThan</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>inscor__Owner_Code__c</field>
+            <operation>contains</operation>
+            <value>commercial</value>
+        </filters>
+        <filters>
+            <field>inscor__Purchase_Order__c</field>
+            <operation>contains</operation>
+            <value>6613</value>
+        </filters>
+        <label>PO-6613 TRs Teardowns</label>
+        <sharedTo>
+            <group>Commercial_Teardown</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Shelf_Life</fullName>
+        <columns>NAME</columns>
+        <columns>inscor__Product__c</columns>
+        <columns>inscor__Keyword__c</columns>
+        <columns>inscor__Condition_Code__c</columns>
+        <columns>inscor__Owner_Code__c</columns>
+        <columns>inscor__Serial_Number__c</columns>
+        <columns>inscor__Quantity__c</columns>
+        <columns>inscor__External_Reference_ID__c</columns>
+        <columns>inscor__Expiration_Date__c</columns>
+        <columns>inscor__Source__c</columns>
+        <columns>inscor__Trace__c</columns>
+        <columns>inscor__Tags__c</columns>
+        <columns>inscor__Tag_Date__c</columns>
+        <columns>inscor__Location__c</columns>
+        <columns>inscor__Acquisition_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>inscor__Quantity_Available__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>inscor__Expiration_Date__c</field>
+            <operation>greaterThan</operation>
+            <value>TODAY</value>
+        </filters>
+        <label>Shelf-Lifed Inventory</label>
+    </listViews>
+    <listViews>
+        <fullName>Shelf_Lifed_Inventory_Within_90_Days</fullName>
+        <columns>NAME</columns>
+        <columns>inscor__Product__c</columns>
+        <columns>inscor__Keyword__c</columns>
+        <columns>inscor__Condition_Code__c</columns>
+        <columns>inscor__Owner_Code__c</columns>
+        <columns>inscor__Serial_Number__c</columns>
+        <columns>inscor__Quantity__c</columns>
+        <columns>inscor__External_Reference_ID__c</columns>
+        <columns>inscor__Protected__c</columns>
+        <columns>inscor__Expiration_Date__c</columns>
+        <columns>inscor__Source__c</columns>
+        <columns>inscor__Trace__c</columns>
+        <columns>inscor__Tags__c</columns>
+        <columns>inscor__Location__c</columns>
+        <columns>inscor__Acquisition_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>inscor__Quantity_Available__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>inscor__Expiration_Date__c</field>
+            <operation>lessOrEqual</operation>
+            <value>NEXT_90_DAYS</value>
+        </filters>
+        <label>Shelf-Lifed Inventory (Within 90 Days)</label>
+    </listViews>
+    <listViews>
+        <fullName>inscor__All</fullName>
+        <columns>NAME</columns>
+        <columns>inscor__Product__c</columns>
+        <columns>inscor__Keyword__c</columns>
+        <columns>inscor__Condition_Code__c</columns>
+        <columns>inscor__Owner_Code__c</columns>
+        <columns>inscor__Serial_Number__c</columns>
+        <columns>inscor__Quantity__c</columns>
+        <columns>inscor__External_Reference_ID__c</columns>
+        <columns>inscor__Expiration_Date__c</columns>
+        <columns>inscor__Source__c</columns>
+        <columns>inscor__Trace__c</columns>
+        <columns>inscor__Tags__c</columns>
+        <columns>inscor__Tag_Date__c</columns>
+        <columns>inscor__Location__c</columns>
+        <columns>inscor__Acquisition_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>inscor__Quantity_Available__c</field>
+            <operation>equals</operation>
+            <value>4</value>
+        </filters>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>inscor__Rejected_Inventory</fullName>
+        <columns>NAME</columns>
+        <columns>inscor__Product__c</columns>
+        <columns>inscor__Protected_Reason__c</columns>
+        <columns>inscor__Quantity__c</columns>
+        <columns>inscor__Quantity_Rejected__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>inscor__Quantity_Rejected__c</field>
+            <operation>greaterThan</operation>
+            <value>0</value>
+        </filters>
+        <label>Rejected Inventory</label>
+    </listViews>
+    <listViews>
+        <fullName>inscor__Search_By1</fullName>
+        <columns>NAME</columns>
+        <columns>inscor__Product__c</columns>
+        <columns>inscor__Keyword__c</columns>
+        <columns>inscor__Condition_Code__c</columns>
+        <columns>inscor__Owner_Code__c</columns>
+        <columns>inscor__Serial_Number__c</columns>
+        <columns>inscor__Quantity__c</columns>
+        <columns>inscor__Quantity_Rejected__c</columns>
+        <columns>inscor__Quantity_on_Repair__c</columns>
+        <columns>inscor__Quantity_on_Exchange__c</columns>
+        <columns>inscor__Quantity_Allocated__c</columns>
+        <columns>inscor__Quantity_Available__c</columns>
+        <columns>inscor__Acquisition_Cost__c</columns>
+        <columns>inscor__Repair_Cost__c</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>inscor__Product__c</field>
+            <operation>startsWith</operation>
+            <value>10R</value>
+        </filters>
+        <label>Search By</label>
+    </listViews>
+    <listViews>
+        <fullName>inscor__Search_By_PN</fullName>
+        <columns>NAME</columns>
+        <columns>inscor__Product__c</columns>
+        <columns>inscor__Condition_Code__c</columns>
+        <columns>inscor__Quantity__c</columns>
+        <columns>inscor__Quantity_Allocated__c</columns>
+        <columns>inscor__Quantity_on_Repair__c</columns>
+        <columns>inscor__Quantity_on_Exchange__c</columns>
+        <columns>inscor__Purchase_Order__c</columns>
+        <columns>inscor__Repair_Order__c</columns>
+        <columns>inscor__Owner_Code__c</columns>
+        <columns>inscor__Location__c</columns>
+        <columns>inscor__Acquisition_Cost__c</columns>
+        <columns>inscor__Repair_Cost__c</columns>
+        <columns>inscor__Serial_Number__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>inscor__Product__c</field>
+            <operation>contains</operation>
+            <value>MS24665-319</value>
+        </filters>
+        <label>Search By PN</label>
+    </listViews>
+    <listViews>
+        <fullName>inscor__Search_by</fullName>
+        <columns>NAME</columns>
+        <columns>inscor__Product__c</columns>
+        <columns>inscor__Keyword__c</columns>
+        <columns>inscor__Condition_Code__c</columns>
+        <columns>inscor__Owner_Code__c</columns>
+        <columns>inscor__Serial_Number__c</columns>
+        <columns>inscor__Quantity__c</columns>
+        <columns>inscor__Quantity_Rejected__c</columns>
+        <columns>inscor__Quantity_on_Repair__c</columns>
+        <columns>inscor__Quantity_on_Exchange__c</columns>
+        <columns>inscor__Quantity_Allocated__c</columns>
+        <columns>inscor__Quantity_Available__c</columns>
+        <columns>inscor__Acquisition_Cost__c</columns>
+        <columns>inscor__Repair_Cost__c</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>inscor__Product__c</field>
+            <operation>startsWith</operation>
+            <value>3A1</value>
+        </filters>
+        <label>Search by</label>
+    </listViews>
+    <listViews>
+        <fullName>inscor__Tools</fullName>
+        <columns>NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>inscor__Product__c</columns>
+        <columns>inscor__Keyword__c</columns>
+        <columns>inscor__Condition_Code__c</columns>
+        <columns>inscor__Owner_Code__c</columns>
+        <columns>inscor__Serial_Number__c</columns>
+        <columns>inscor__Quantity__c</columns>
+        <columns>inscor__Quantity_on_Repair__c</columns>
+        <columns>inscor__Quantity_on_Exchange__c</columns>
+        <columns>inscor__Quantity_Allocated__c</columns>
+        <columns>inscor__Quantity_Available__c</columns>
+        <columns>inscor__Quantity_Rejected__c</columns>
+        <columns>inscor__Acquisition_Cost__c</columns>
+        <columns>inscor__Repair_Cost__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>inscor__Last_Calibration_Date__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <label>Tools</label>
+    </listViews>
+    <nameField>
+        <displayFormat>INV-{0}</displayFormat>
+        <label>Inventory UID</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Inventory</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>inscor__Condition_Code__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>inscor__Warehouse__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>inscor__Owner_Code__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>inscor__Serial_Number__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>inscor__Quantity__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>inscor__Quantity_on_Repair__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>inscor__Quantity_on_Exchange__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>inscor__Quantity__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>inscor__Serial_Number__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>inscor__Repair_Cost__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>inscor__Location__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>inscor__Condition_Code__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>inscor__Serial_Number__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>inscor__Location__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>inscor__Quantity_Available__c</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>inscor__Product__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>inscor__Keyword__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>inscor__Condition_Code__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>inscor__Warehouse__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>inscor__Owner_Code__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>inscor__Serial_Number__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>inscor__Quantity__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>inscor__Quantity_on_Repair__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>inscor__Location__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>inscor__Can_not_be_Negative</fullName>
+        <active>true</active>
+        <errorConditionFormula>inscor__Quantity_Allocated__c &lt; 0</errorConditionFormula>
+        <errorDisplayField>inscor__Quantity_Allocated__c</errorDisplayField>
+        <errorMessage>Quantity Allocated cannot be Negative</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Check_round_of_Decimal</fullName>
+        <active>true</active>
+        <errorConditionFormula>FLOOR(inscor__Quantity__c) &lt;&gt; inscor__Quantity__c</errorConditionFormula>
+        <errorDisplayField>inscor__Quantity__c</errorDisplayField>
+        <errorMessage>Please Only Enter Whole Numbers.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Lot_Owner_Code_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+NOT(ISNEW()),
+inscor__Acquisition_Cost__c &gt; 0,
+OR(inscor__Owner_Code__r.inscor__Lot_Purchase__c, inscor__Owner_Code__r.inscor__Consignment__c ),
+PRIORVALUE(inscor__Owner_Code__c) &lt;&gt; inscor__Owner_Code__c 
+)</errorConditionFormula>
+        <errorMessage>You cannot change from a non Lot/Cons Owner Code to a Lot/Cons Owner Code if there is an acquisition cost greater than $0</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>inscor__Quantity_Allocation_Validation</fullName>
+        <active>true</active>
+        <description>Quantity on hand cannot be less than quantity allocated. Please cancel the allocations before adjusting inventory quantity.</description>
+        <errorConditionFormula>inscor__Quantity_Allocated__c &gt;  inscor__Quantity__c</errorConditionFormula>
+        <errorMessage>Quantity on hand cannot be less than quantity allocated. Please cancel the allocations before adjusting inventory quantity.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>inscor__Create_RO</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Create RO</masterLabel>
+        <openType>sidebar</openType>
+        <page>inscor__Inventory_CreateROBtn</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+</CustomObject>

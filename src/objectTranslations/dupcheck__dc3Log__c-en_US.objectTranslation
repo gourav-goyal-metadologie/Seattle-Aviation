@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Object --></label>
+        <name>dupcheck__Object__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record --></label>
+        <name>dupcheck__Record__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>dupcheck__Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Log Data --></label>
+        <name>dupcheck__data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duplicate Check Job --></label>
+        <name>dupcheck__dc3Job__c</name>
+        <relationshipLabel><!-- Duplicate Check Logs --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

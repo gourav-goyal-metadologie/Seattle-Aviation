@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Attribute History --></label>
+        <name>QPMS__Attribute_History</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- INSSTDAttributeAndVariableContextual --></label>
+        <name>QPMS__INSSTDAttributeAndVariableContextual</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Ins Standard Attribute Details Fields --></label>
+        <name>QPMS__Ins_Standard_Attribute_Details_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Ins Standard Attribute Listview Fields --></label>
+        <name>QPMS__Ins_Standard_Attribute_Listview_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Ins Standard Variable Details Fields --></label>
+        <name>QPMS__Ins_Standard_Variable_Details_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Ins Standard Variable Listview Fields --></label>
+        <name>QPMS__Ins_Standard_Variable_Listview_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- InspectionStandardCriteriaFeilds --></label>
+        <name>QPMS__InspectionStandardCriteriaFeilds</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Inspection Standard Attribute Fields --></label>
+        <name>QPMS__Inspection_Standard_Attribute_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Inspection Standard Variable Fields --></label>
+        <name>QPMS__Inspection_Standard_Variable_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Variable History --></label>
+        <name>QPMS__Variable_History</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Criteria Name --></label>
+        <name>QPMS__Criteria_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Criteria --></label>
+        <name>QPMS__Criteria__c</name>
+        <relationshipLabel><!-- Inspection Standard Criterias --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>QPMS__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inspection Criteria Type --></label>
+        <name>QPMS__Inspection_Criteria_Type__c</name>
+        <picklistValues>
+            <masterLabel>Attribute</masterLabel>
+            <translation><!-- Attribute --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Variable</masterLabel>
+            <translation><!-- Variable --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Inspection Standard Criteria Name --></label>
+        <name>QPMS__Inspection_Standard_Criteria_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inspection Standard --></label>
+        <name>QPMS__Inspection_Standard__c</name>
+        <relationshipLabel><!-- Inspection Standard Criterias --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Instruction --></label>
+        <name>QPMS__Instruction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Measurement --></label>
+        <name>QPMS__Measurement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Severity --></label>
+        <name>QPMS__Severity_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Severity --></label>
+        <name>QPMS__Severity__c</name>
+        <relationshipLabel><!-- Inspection Standard Criterias --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tolerance (-) --></label>
+        <name>QPMS__Tolerance_Minus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tolerance (+) --></label>
+        <name>QPMS__Tolerance_Plus__c</name>
+    </fields>
+    <fields>
+        <label><!-- UOM --></label>
+        <name>QPMS__UOM__c</name>
+        <picklistValues>
+            <masterLabel>cm</masterLabel>
+            <translation><!-- cm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>g</masterLabel>
+            <translation><!-- g --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>inch</masterLabel>
+            <translation><!-- inch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>kg</masterLabel>
+            <translation><!-- kg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>lbs</masterLabel>
+            <translation><!-- lbs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>m</masterLabel>
+            <translation><!-- m --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>mm</masterLabel>
+            <translation><!-- mm --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

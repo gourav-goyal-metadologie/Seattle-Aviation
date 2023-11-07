@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Example of a late fee adding 10% to the amount being paid: &quot;function(){ return this[&apos;amount-being-paid&apos;] * .1;}&quot;
+
+Contact us at support@cetmobile.com or api_help@authvia.com for assistance on creating complex &quot;condition&quot; and/or &quot;calculation&quot; --></help>
+        <label><!-- Calculation --></label>
+        <name>BillNPay__Calculation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comment --></label>
+        <name>BillNPay__Comment__c</name>
+    </fields>
+    <fields>
+        <help><!-- Example of a late fee condition &quot;function(){ return this.payable[&apos;due-on&apos;] &gt;= new Date();}&quot;,
+
+Contact us at support@cetmobile.com or api_help@authvia.com for assistance on creating complex &quot;condition&quot; and/or &quot;calculation&quot; functions. --></help>
+        <label><!-- Condition --></label>
+        <name>BillNPay__Condition__c</name>
+    </fields>
+    <fields>
+        <help><!-- Optional: List as line-item on the payment request and payment confirmation message --></help>
+        <label><!-- Line-Item --></label>
+        <name>BillNPay__Line_Item__c</name>
+    </fields>
+    <fields>
+        <help><!-- Displayed within SMS content. Example &quot;L8 Fee&quot;.    Its a text message - Keep it short! --></help>
+        <label><!-- SMS Label --></label>
+        <name>BillNPay__SMS_Label__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used for web UI. Example &quot;Late Fee&quot; --></help>
+        <label><!-- Web Label --></label>
+        <name>BillNPay__Web_Label__c</name>
+    </fields>
+    <layouts>
+        <layout>Adjustments Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

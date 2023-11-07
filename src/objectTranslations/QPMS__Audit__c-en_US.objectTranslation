@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Additional Details --></label>
+        <name>QPMS__Additional_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Additional Information --></label>
+        <name>QPMS__Additional_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- AuditSummaryContextual --></label>
+        <name>QPMS__AuditSummaryContextual</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- AuditSummaryHistory --></label>
+        <name>QPMS__AuditSummaryHistory</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Audit Additional info contextual --></label>
+        <name>QPMS__Audit_Additional_info_contextual</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Audit Approval Audit Trail --></label>
+        <name>QPMS__Audit_Approval_Audit_Trail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Audit Details for Audit Program --></label>
+        <name>QPMS__Audit_Details_for_Audit_Program</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Audit Header --></label>
+        <name>QPMS__Audit_Header</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Audit Header For Print --></label>
+        <name>QPMS__Audit_Header_For_Print</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Audit Header for Mobile --></label>
+        <name>QPMS__Audit_Header_for_Mobile</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Audit History --></label>
+        <name>QPMS__Audit_History</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Audit Init --></label>
+        <name>QPMS__Audit_Init</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Audit Initiation Details --></label>
+        <name>QPMS__Audit_Initiation_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Audit List --></label>
+        <name>QPMS__Audit_List</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Audit Search List Fields --></label>
+        <name>QPMS__Audit_Search_List_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Audit Security --></label>
+        <name>QPMS__Audit_Security</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Audit Summary --></label>
+        <name>QPMS__Audit_Summary</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Audit Team --></label>
+        <name>QPMS__Audit_Team</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Audit Team contextual --></label>
+        <name>QPMS__Audit_Team_contextual</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Audit View --></label>
+        <name>QPMS__Audit_View</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Audit closure contextual --></label>
+        <name>QPMS__Audit_closure_contextual</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Audit contextual --></label>
+        <name>QPMS__Audit_contextual</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Auditee --></label>
+        <name>QPMS__Auditee</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Auditee contextual --></label>
+        <name>QPMS__Auditee_contextual</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Auditee for Audit --></label>
+        <name>QPMS__Auditee_for_Audit</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Auditors --></label>
+        <name>QPMS__Auditors</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Auditors_Group --></label>
+        <name>QPMS__Auditors_Group</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Evaluation For AuditProgram --></label>
+        <name>QPMS__Evaluation_For_AuditProgram</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Header Options --></label>
+        <name>QPMS__Header_Options</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Planned_Audit --></label>
+        <name>QPMS__Planned_Audit</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Report FS1 --></label>
+        <name>QPMS__Report_FS1</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SPAuditContextualHelp --></label>
+        <name>QPMS__SPAuditContextualHelp</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SQM_AuditListInSP --></label>
+        <name>QPMS__SQM_AuditListInSP</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Securitycontextual --></label>
+        <name>QPMS__Securitycontextual</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- auditObservationApproval --></label>
+        <name>QPMS__auditObservationApproval</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- others --></label>
+        <name>QPMS__others</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Active Checklist --></label>
+        <name>QPMS__Active_Checklist__c</name>
+        <relationshipLabel><!-- Audits --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Additional Auditors --></label>
+        <name>QPMS__Additional_Auditors__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allowed Days --></label>
+        <name>QPMS__Allowed_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- ApprovalProcess --></label>
+        <name>QPMS__ApprovalProcess__c</name>
+        <picklistValues>
+            <masterLabel>Audit</masterLabel>
+            <translation><!-- Audit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Audit Observation Approval</masterLabel>
+            <translation><!-- Audit Observation Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Lead Auditor</masterLabel>
+            <translation><!-- Change Lead Auditor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approval Group --></label>
+        <name>QPMS__Approval_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Process Complete --></label>
+        <name>QPMS__Approval_Process_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Required --></label>
+        <name>QPMS__Approval_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>QPMS__Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recall</masterLabel>
+            <translation><!-- Recall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approver 1 --></label>
+        <name>QPMS__Approver_1__c</name>
+        <relationshipLabel><!-- Audits (Approver 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 2 --></label>
+        <name>QPMS__Approver_2__c</name>
+        <relationshipLabel><!-- Audits (Approver 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 3 --></label>
+        <name>QPMS__Approver_3__c</name>
+        <relationshipLabel><!-- Audits (Approver 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 4 --></label>
+        <name>QPMS__Approver_4__c</name>
+        <relationshipLabel><!-- Audits (Approver 4) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 5 --></label>
+        <name>QPMS__Approver_5__c</name>
+        <relationshipLabel><!-- Audits (Approver 5) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 6 --></label>
+        <name>QPMS__Approver_6__c</name>
+        <relationshipLabel><!-- Audits (Approver 6) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 7 --></label>
+        <name>QPMS__Approver_7__c</name>
+        <relationshipLabel><!-- Audits (Approver 7) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 8 --></label>
+        <name>QPMS__Approver_8__c</name>
+        <relationshipLabel><!-- Audits (Approver 8) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 9 --></label>
+        <name>QPMS__Approver_9__c</name>
+        <relationshipLabel><!-- Audits (Approver 9) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver --></label>
+        <name>QPMS__Approver__c</name>
+        <relationshipLabel><!-- Audits (Approver) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Audit Reason --></label>
+        <name>QPMS__AuditReason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Audit Age --></label>
+        <name>QPMS__Audit_Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Audit Category --></label>
+        <name>QPMS__Audit_Category__c</name>
+        <picklistValues>
+            <masterLabel>For Cause</masterLabel>
+            <translation><!-- For Cause --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Initial</masterLabel>
+            <translation><!-- Initial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Re-Audit</masterLabel>
+            <translation><!-- Re-Audit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Re-Certification</masterLabel>
+            <translation><!-- Re-Certification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Surveillance</masterLabel>
+            <translation><!-- Surveillance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unannounced</masterLabel>
+            <translation><!-- Unannounced --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Audit Cost --></label>
+        <name>QPMS__Audit_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Audit Final Result --></label>
+        <name>QPMS__Audit_Final_Result__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Audit Man Days --></label>
+        <name>QPMS__Audit_Man_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Audit Number --></label>
+        <name>QPMS__Audit_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Audit Program --></label>
+        <name>QPMS__Audit_Program_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Audit Program --></label>
+        <name>QPMS__Audit_Program__c</name>
+        <relationshipLabel><!-- Audits (Audit Program) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Audit Reason --></label>
+        <name>QPMS__Audit_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Audit Standards --></label>
+        <name>QPMS__Audit_Standards__c</name>
+        <picklistValues>
+            <masterLabel>AS9120B</masterLabel>
+            <translation><!-- AS9120B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASA-100</masterLabel>
+            <translation><!-- ASA-100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EASA Part 145</masterLabel>
+            <translation><!-- EASA Part 145 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Export Administration Regulations (EAR) 15 CFR  730 - 774</masterLabel>
+            <translation><!-- Export Administration Regulations (EAR) 15 CFR  730 - 774 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FAA Part 145</masterLabel>
+            <translation><!-- FAA Part 145 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hazmat Transportation Regulations 49 CFR  100 - 185</masterLabel>
+            <translation><!-- Hazmat Transportation Regulations 49 CFR  100 - 185 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IATA Dangerous Goods Regulations</masterLabel>
+            <translation><!-- IATA Dangerous Goods Regulations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ISO 9001-2008</masterLabel>
+            <translation><!-- ISO 9001-2008 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ISO 9001-2008 : 4 Quality management system</masterLabel>
+            <translation><!-- ISO 9001-2008 : 4 Quality management system --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ISO 9001-2008 : 4 Quality management system : 4.1 General requirements</masterLabel>
+            <translation><!-- ISO 9001-2008 : 4 Quality management system : 4.1 General requirements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ISO 9001-2008 : 4 Quality management system : 4.2 Documentation requirements</masterLabel>
+            <translation><!-- ISO 9001-2008 : 4 Quality management system : 4.2 Documentation requirements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ISO 9001-2008 : 4 Quality management system : 4.2 Documentation requirements : 4.2.2 Quality manual</masterLabel>
+            <translation><!-- ISO 9001-2008 : 4 Quality management system : 4.2 Documentation requirements : 4.2.2 Quality manual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ISO 9001-2008 : 4 Quality management system : 4.2 Documentation requirements : 4.2.3 Control of documents</masterLabel>
+            <translation><!-- ISO 9001-2008 : 4 Quality management system : 4.2 Documentation requirements : 4.2.3 Control of documents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ISO 9001-2008 : 4 Quality management system : 4.2 Documentation requirements : 4.2.4 Control of records</masterLabel>
+            <translation><!-- ISO 9001-2008 : 4 Quality management system : 4.2 Documentation requirements : 4.2.4 Control of records --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ISO 9001-2008 : 5 Management responsibility</masterLabel>
+            <translation><!-- ISO 9001-2008 : 5 Management responsibility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ISO 9001-2008 : 5 Management responsibility : 5.1 Management commitment</masterLabel>
+            <translation><!-- ISO 9001-2008 : 5 Management responsibility : 5.1 Management commitment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ISO 9001-2008 : 5 Management responsibility : 5.2 Customer focus</masterLabel>
+            <translation><!-- ISO 9001-2008 : 5 Management responsibility : 5.2 Customer focus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ISO 9001:2015</masterLabel>
+            <translation><!-- ISO 9001:2015 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>International Traffic in Arms Regulations (ITAR)  22 CFR  120 - 130</masterLabel>
+            <translation><!-- International Traffic in Arms Regulations (ITAR)  22 CFR  120 - 130 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Occupational Safety and Health Administration (OSHA) 29 CFR  1910 -1970</masterLabel>
+            <translation><!-- Occupational Safety and Health Administration (OSHA) 29 CFR  1910 -1970 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Audit Type --></label>
+        <name>QPMS__Audit_Type_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Audit Type --></label>
+        <name>QPMS__Audit_Type__c</name>
+        <relationshipLabel><!-- Audits --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Audit --></label>
+        <name>QPMS__Audit__c</name>
+        <relationshipLabel><!-- Audits --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Auditors --></label>
+        <name>QPMS__Auditors__c</name>
+    </fields>
+    <fields>
+        <label><!-- Authorized Entity Group --></label>
+        <name>QPMS__Authorized_Entity_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Authorized Entity --></label>
+        <name>QPMS__Authorized_Entity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auto Created --></label>
+        <name>QPMS__Auto_Created__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Unit --></label>
+        <name>QPMS__Business_Unit__c</name>
+        <picklistValues>
+            <masterLabel>Business_Unit1</masterLabel>
+            <translation><!-- Business_Unit1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cloud</masterLabel>
+            <translation><!-- Cloud --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engineering</masterLabel>
+            <translation><!-- Engineering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Environmental</masterLabel>
+            <translation><!-- Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR</masterLabel>
+            <translation><!-- HR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT</masterLabel>
+            <translation><!-- IT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IoT Applications</masterLabel>
+            <translation><!-- IoT Applications --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Networking</masterLabel>
+            <translation><!-- Networking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCO</masterLabel>
+            <translation><!-- SCO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation><!-- Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Security</masterLabel>
+            <translation><!-- Security --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services</masterLabel>
+            <translation><!-- Services --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ChangeFieldApprovalStatus --></label>
+        <name>QPMS__ChangeFieldApprovalStatus__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recall</masterLabel>
+            <translation><!-- Recall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CheckListsToBeCloned --></label>
+        <name>QPMS__CheckListsToBeCloned__c</name>
+    </fields>
+    <fields>
+        <label><!-- Clinical Trial --></label>
+        <name>QPMS__Clinical_Trail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Closed Date --></label>
+        <name>QPMS__Closed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Closing Statement --></label>
+        <name>QPMS__Closing_Statement__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is useful for create audit  record explicitly when it is  scheduled and scheduled date is not reached --></help>
+        <label><!-- Create Audit Explicity --></label>
+        <name>QPMS__Create_Audit_Explicity__c</name>
+    </fields>
+    <fields>
+        <label><!-- CurrentApprovalSequenceNumber --></label>
+        <name>QPMS__CurrentApprovalSequenceNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Contact --></label>
+        <name>QPMS__Customer_Contact__c</name>
+        <relationshipLabel><!-- Audits (Customer Contact) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Customer --></label>
+        <name>QPMS__Customer__c</name>
+        <relationshipLabel><!-- Audits (Customer) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Departments --></label>
+        <name>QPMS__Departments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Security --></label>
+        <name>QPMS__Enable_Security__c</name>
+    </fields>
+    <fields>
+        <help><!-- End Date for audit --></help>
+        <label><!-- End Date --></label>
+        <name>QPMS__End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Escalation Rule for Approval --></label>
+        <name>QPMS__Escalation_Rule_for_Approval__c</name>
+        <picklistValues>
+            <masterLabel>Default</masterLabel>
+            <translation><!-- Default --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NONE</masterLabel>
+            <translation><!-- NONE --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Escalation Rule for Task --></label>
+        <name>QPMS__Escalation_Rule_for_Task__c</name>
+        <picklistValues>
+            <masterLabel>Default</masterLabel>
+            <translation><!-- Default --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NONE</masterLabel>
+            <translation><!-- NONE --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Evaluation Type --></label>
+        <name>QPMS__Evaluation_Type__c</name>
+        <picklistValues>
+            <masterLabel>Color</masterLabel>
+            <translation><!-- Color --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass/Fail</masterLabel>
+            <translation><!-- Pass/Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scoring</masterLabel>
+            <translation><!-- Scoring --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Executive Summary --></label>
+        <name>QPMS__Executive_Summary__c</name>
+    </fields>
+    <fields>
+        <help><!-- External Id --></help>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- External --></label>
+        <name>QPMS__External__c</name>
+    </fields>
+    <fields>
+        <label><!-- Finding Response Grace Period --></label>
+        <name>QPMS__Finding_Response_Grace_Period__c</name>
+    </fields>
+    <fields>
+        <help><!-- To Check Follow Up Is Created or Not --></help>
+        <label><!-- Follow Up Created --></label>
+        <name>QPMS__Follow_Up_Created__c</name>
+    </fields>
+    <fields>
+        <label><!-- Follow up Audit End Date --></label>
+        <name>QPMS__Follow_up_Audit_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Follow up Audit Start Date --></label>
+        <name>QPMS__Follow_up_Audit_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Follow up --></label>
+        <name>QPMS__Follow_up__c</name>
+    </fields>
+    <fields>
+        <help><!-- To hold followers for this record --></help>
+        <label><!-- Followers --></label>
+        <name>QPMS__Followers__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Initial Submitter --></label>
+        <name>QPMS__Initial_Submitter__c</name>
+        <relationshipLabel><!-- Audits (Initial Submitter) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Audit Initiated Date --></help>
+        <label><!-- Initiated Date --></label>
+        <name>QPMS__Initiated_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initiating Site --></label>
+        <name>QPMS__Initiating_Site_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Stores the logged in user site public group and inherited from audit type --></help>
+        <label><!-- Initiating Site Security --></label>
+        <name>QPMS__Initiating_Site_Security__c</name>
+    </fields>
+    <fields>
+        <help><!-- Initiation Site To Which user belongs to --></help>
+        <label><!-- Initiating Site --></label>
+        <name>QPMS__Initiating_Site__c</name>
+        <relationshipLabel><!-- Audits (Initiating Site) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Internal Team Group --></label>
+        <name>QPMS__Internal_Team_Group_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Team Group --></label>
+        <name>QPMS__Internal_Team_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Audit Team --></label>
+        <name>QPMS__Internal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interviewed Personnel --></label>
+        <name>QPMS__Interviewed_Personnel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Auditor Group --></label>
+        <name>QPMS__Lead_Auditor_Group_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Auditor Group --></label>
+        <name>QPMS__Lead_Auditor_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Auditor --></label>
+        <name>QPMS__Lead_Auditor_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Auditor --></label>
+        <name>QPMS__Lead_Auditor__c</name>
+        <relationshipLabel><!-- Audits (Lead Auditor) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Locations --></label>
+        <name>QPMS__Locations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Logged In User Is Lead Auditor --></label>
+        <name>QPMS__Logged_In_User_Is_Lead_Auditor__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Lead Auditor --></label>
+        <name>QPMS__New_Lead_Auditor__c</name>
+        <relationshipLabel><!-- Audits (New Lead Auditor) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Note To Approver Lead Auditor --></label>
+        <name>QPMS__Note_To_Approver_Lead_Auditor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Note To Approver --></label>
+        <name>QPMS__Note_To_Approver__c</name>
+    </fields>
+    <fields>
+        <label><!-- Observation Approval Required --></label>
+        <name>QPMS__Observation_Approval_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Observation Approval --></label>
+        <name>QPMS__Observation_Approval__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recall</masterLabel>
+            <translation><!-- Recall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Note To Approver --></label>
+        <name>QPMS__Observation_Note_To_Approver__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opening Statement --></label>
+        <name>QPMS__Opening_Statement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process --></label>
+        <name>QPMS__Process__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>QPMS__Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purpose --></label>
+        <name>QPMS__Purpose__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason For Void --></label>
+        <name>QPMS__Reason_For_Void__c</name>
+    </fields>
+    <fields>
+        <label><!-- Require Follow up? --></label>
+        <name>QPMS__Require_Follow_up__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scope --></label>
+        <name>QPMS__Scope__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sequence --></label>
+        <name>QPMS__Sequence__c</name>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation><!-- 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40</masterLabel>
+            <translation><!-- 40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50</masterLabel>
+            <translation><!-- 50 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60</masterLabel>
+            <translation><!-- 60 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>70</masterLabel>
+            <translation><!-- 70 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>80</masterLabel>
+            <translation><!-- 80 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>90</masterLabel>
+            <translation><!-- 90 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Signed Off Details --></label>
+        <name>QPMS__Signed_Off_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sites --></label>
+        <name>QPMS__Sites__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>QPMS__Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>QPMS__Status__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-Review</masterLabel>
+            <translation><!-- In-Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>InProgress</masterLabel>
+            <translation><!-- InProgress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Response</masterLabel>
+            <translation><!-- Response --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheduled</masterLabel>
+            <translation><!-- Scheduled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Void</masterLabel>
+            <translation><!-- Void --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sub Departments --></label>
+        <name>QPMS__Sub_Departments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier Contact --></label>
+        <name>QPMS__Supplier_Contact__c</name>
+        <relationshipLabel><!-- Audits --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Supplier --></label>
+        <name>QPMS__Supplier__c</name>
+        <relationshipLabel><!-- Audits --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Manufacturing Site --></label>
+        <name>QPMS__Test_Lookup__c</name>
+        <relationshipLabel><!-- Audits (Manufacturing Site) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>QPMS__Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Travel Cost --></label>
+        <name>QPMS__Travel_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Travel Required? --></label>
+        <name>QPMS__Travel_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- View Only Entity Group --></label>
+        <name>QPMS__View_Only_Entity_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- View Only Entity --></label>
+        <name>QPMS__View_Only_Entity__c</name>
+    </fields>
+    <fields>
+        <label><!-- isLocked --></label>
+        <name>QPMS__isLocked__c</name>
+    </fields>
+    <fields>
+        <label><!-- isSubmitted --></label>
+        <name>QPMS__isSubmitted__c</name>
+    </fields>
+    <layouts>
+        <layout>Audit Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Audit --></label>
+        <name>QPMS__Audit</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PlannedAudit --></label>
+        <name>QPMS__PlannedAudit</name>
+    </recordTypes>
+</CustomObjectTranslation>

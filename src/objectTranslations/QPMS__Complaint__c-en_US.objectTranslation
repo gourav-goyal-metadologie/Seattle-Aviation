@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Additional Info section --></label>
+        <name>QPMS__Additional_Info_section</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Additional Info section For Detail --></label>
+        <name>QPMS__Additional_Info_section_For_Detail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Address --></label>
+        <name>QPMS__Address</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CMP Additional Info --></label>
+        <name>QPMS__CMP_Additional_Info</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CMP CMP Initial Reporter Fields --></label>
+        <name>QPMS__CMP_CMP_Initial_Reporter_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CMP Contextual help --></label>
+        <name>QPMS__CMP_Contextual_help</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CMP Facility Detail Help --></label>
+        <name>QPMS__CMP_Facility_Detail_Help</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Complaint Approval Audit Trail --></label>
+        <name>QPMS__Complaint_Approval_Audit_Trail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Complaint Details --></label>
+        <name>QPMS__Complaint_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Complaint Initiation --></label>
+        <name>QPMS__Complaint_Initiation</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Complaint Initiation For Detail --></label>
+        <name>QPMS__Complaint_Initiation_For_Detail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Complaint Resoltuion Fields --></label>
+        <name>QPMS__Complaint_Resoltuion_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Complaint Resolution Audit --></label>
+        <name>QPMS__Complaint_Resolution_Audit</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Complaint Search List Fields --></label>
+        <name>QPMS__Complaint_Search_List_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Complaint View --></label>
+        <name>QPMS__Complaint_View</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Complaints_Header --></label>
+        <name>QPMS__Complaints_Header</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Complaints_Header_for_mobile --></label>
+        <name>QPMS__Complaints_Header_for_mobile</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Compliants Initiation AuditTrail --></label>
+        <name>QPMS__Compliants_Initiation_AuditTrail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Facility Details --></label>
+        <name>QPMS__Facility_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Initial Reporter --></label>
+        <name>QPMS__Initial_Reporter</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Address --></label>
+        <name>QPMS__Initial_Reporter_Address</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Initial Reporter Init --></label>
+        <name>QPMS__Initial_Reporter_Init</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Product User Detail --></label>
+        <name>QPMS__Product_User_Detail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QueryFields --></label>
+        <name>QPMS__QueryFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Resolution Approval --></label>
+        <name>QPMS__Resolution_Approval</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Security Fields --></label>
+        <name>QPMS__Security_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Type of Event --></label>
+        <name>QPMS__Type_of_Event</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- WebServiceResponse --></label>
+        <name>QPMS__WebServiceResponse</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- facility details audit --></label>
+        <name>QPMS__facility_details_audit</name>
+    </fieldSets>
+    <fields>
+        <label><!-- City --></label>
+        <name>QPMS__Account_BillingCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>QPMS__Account_BillingCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zip Code --></label>
+        <name>QPMS__Account_BillingPostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>QPMS__Account_BillingState__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address --></label>
+        <name>QPMS__Account_BillingStreet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>QPMS__Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone --></label>
+        <name>QPMS__Account_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Facility --></label>
+        <name>QPMS__Account__c</name>
+        <relationshipLabel><!-- Complaints --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Adverse Event Codes --></label>
+        <name>QPMS__Adverse_Event_Codes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Age UOM --></label>
+        <name>QPMS__Age_UOM__c</name>
+        <picklistValues>
+            <masterLabel>Month(s)</masterLabel>
+            <translation><!-- Month(s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Week(s)</masterLabel>
+            <translation><!-- Week(s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Year(s)</masterLabel>
+            <translation><!-- Year(s) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Age --></label>
+        <name>QPMS__Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allow Multiple Product --></label>
+        <name>QPMS__Allow_Multiple_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- ApprovalProcess --></label>
+        <name>QPMS__ApprovalProcess__c</name>
+        <picklistValues>
+            <masterLabel>Change Owner</masterLabel>
+            <translation><!-- Change Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complaint Approval</masterLabel>
+            <translation><!-- Complaint Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolution Approval</masterLabel>
+            <translation><!-- Resolution Approval --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approval Group --></label>
+        <name>QPMS__Approval_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Process Complete --></label>
+        <name>QPMS__Approval_Process_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Required --></label>
+        <name>QPMS__Approval_Required__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>QPMS__Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recall</masterLabel>
+            <translation><!-- Recall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approver 1 --></label>
+        <name>QPMS__Approver_1__c</name>
+        <relationshipLabel><!-- Complaints (Approver 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 2 --></label>
+        <name>QPMS__Approver_2__c</name>
+        <relationshipLabel><!-- Complaints (Approver 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 3 --></label>
+        <name>QPMS__Approver_3__c</name>
+        <relationshipLabel><!-- Complaints (Approver 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 4 --></label>
+        <name>QPMS__Approver_4__c</name>
+        <relationshipLabel><!-- Complaints (Approver 4) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 5 --></label>
+        <name>QPMS__Approver_5__c</name>
+        <relationshipLabel><!-- Complaints (Approver 5) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 6 --></label>
+        <name>QPMS__Approver_6__c</name>
+        <relationshipLabel><!-- Complaints (Approver 6) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 7 --></label>
+        <name>QPMS__Approver_7__c</name>
+        <relationshipLabel><!-- Complaints (Approver 7) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 8 --></label>
+        <name>QPMS__Approver_8__c</name>
+        <relationshipLabel><!-- Complaints (Approver 8) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 9 --></label>
+        <name>QPMS__Approver_9__c</name>
+        <relationshipLabel><!-- Complaints (Approver 9) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver --></label>
+        <name>QPMS__Approver__c</name>
+        <relationshipLabel><!-- Complaints (Approver) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Authorized Entity Group --></label>
+        <name>QPMS__Authorized_Entity_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Authorized Entity --></label>
+        <name>QPMS__Authorized_Entity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aware Date --></label>
+        <name>QPMS__Aware_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Birth Date --></label>
+        <name>QPMS__Birth_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- ChangeFieldApprovalStatus --></label>
+        <name>QPMS__ChangeFieldApprovalStatus__c</name>
+        <picklistValues>
+            <masterLabel>Approve</masterLabel>
+            <translation><!-- Approve --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recall</masterLabel>
+            <translation><!-- Recall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reject</masterLabel>
+            <translation><!-- Reject --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Closed Date GMT --></label>
+        <name>QPMS__Closed_Date_GMT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Closed Date --></label>
+        <name>QPMS__Closed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Complaint Number --></label>
+        <name>QPMS__Complaint_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Concomitant Medical Products --></label>
+        <name>QPMS__Concomitant_Medical_Products__c</name>
+    </fields>
+    <fields>
+        <label><!-- Configure Workflow --></label>
+        <name>QPMS__Configure_Workflow__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product User Details --></label>
+        <name>QPMS__Consumer_Detail__c</name>
+        <relationshipLabel><!-- Complaints --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Country of Origin --></label>
+        <name>QPMS__Country_of_Origin__c</name>
+        <picklistValues>
+            <masterLabel>Afghanistan</masterLabel>
+            <translation><!-- Afghanistan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Albania</masterLabel>
+            <translation><!-- Albania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Algeria</masterLabel>
+            <translation><!-- Algeria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Andorra</masterLabel>
+            <translation><!-- Andorra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation><!-- India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United States-USA</masterLabel>
+            <translation><!-- United States-USA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CurrentApprovalSequenceNumber --></label>
+        <name>QPMS__CurrentApprovalSequenceNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Experience Type Name --></label>
+        <name>QPMS__Customer_Experience_Type_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Experience Type --></label>
+        <name>QPMS__Customer_Experience_Type__c</name>
+        <relationshipLabel><!-- Complaints --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Death --></label>
+        <name>QPMS__Death__c</name>
+    </fields>
+    <fields>
+        <label><!-- Department --></label>
+        <name>QPMS__Department__c</name>
+        <relationshipLabel><!-- Complaints --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Describe Event or Problem --></label>
+        <name>QPMS__Describe_Event_or_Problem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Address --></label>
+        <name>QPMS__Email_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Security --></label>
+        <name>QPMS__Enable_Security__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ethnicity --></label>
+        <name>QPMS__Ethnicity__c</name>
+        <picklistValues>
+            <masterLabel>Hispanic/Latino</masterLabel>
+            <translation><!-- Hispanic/Latino --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Hispanic/Latino</masterLabel>
+            <translation><!-- Not Hispanic/Latino --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Evaluation Codes --></label>
+        <name>QPMS__Evaluation_Codes__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Facility Information --></label>
+        <name>QPMS__Facility_Information__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Name --></label>
+        <name>QPMS__First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Health Professional? --></label>
+        <name>QPMS__Health_Professional__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Address --></label>
+        <name>QPMS__IR_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>QPMS__IR_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>QPMS__IR_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone --></label>
+        <name>QPMS__IR_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zip Code --></label>
+        <name>QPMS__IR_PostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>QPMS__IR_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Submitter --></label>
+        <name>QPMS__Initial_Submitter__c</name>
+        <relationshipLabel><!-- Complaints (Initial Submitter) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Initiating Site Security --></label>
+        <name>QPMS__Initiating_Site_Security__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initiating Site --></label>
+        <name>QPMS__Initiating_Site__c</name>
+        <relationshipLabel><!-- Complaints --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Integration Status --></label>
+        <name>QPMS__Integration_Status__c</name>
+        <picklistValues>
+            <masterLabel>Sync Failed</masterLabel>
+            <translation><!-- Sync Failed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sync Successful</masterLabel>
+            <translation><!-- Sync Successful --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last Name --></label>
+        <name>QPMS__Last_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- last sync time of the complaint --></help>
+        <label><!-- Last Sync Time --></label>
+        <name>QPMS__Last_Sync_Time__c</name>
+    </fields>
+    <fields>
+        <help><!-- hold details of integration errors --></help>
+        <label><!-- Last Transaction Result --></label>
+        <name>QPMS__Last_Transaction_Result__c</name>
+    </fields>
+    <fields>
+        <label><!-- Malfunction --></label>
+        <name>QPMS__Malfunction__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Owner --></label>
+        <name>QPMS__New_Owner__c</name>
+        <relationshipLabel><!-- Complaints (New Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Note To Approver Owner --></label>
+        <name>QPMS__Note_To_Approver_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Note To Approver --></label>
+        <name>QPMS__Note_To_Approver_Resolution__c</name>
+    </fields>
+    <fields>
+        <label><!-- Note To Approver --></label>
+        <name>QPMS__Note_To_Approver__c</name>
+    </fields>
+    <fields>
+        <label><!-- Occupation --></label>
+        <name>QPMS__Occupation__c</name>
+        <picklistValues>
+            <masterLabel>Administrator/Supervisor</masterLabel>
+            <translation><!-- Administrator/Supervisor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Biomedical Engineer</masterLabel>
+            <translation><!-- Biomedical Engineer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dentist</masterLabel>
+            <translation><!-- Dentist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Healthcare Professional</masterLabel>
+            <translation><!-- Non-Healthcare Professional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nurse</masterLabel>
+            <translation><!-- Nurse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nurse Practitioner</masterLabel>
+            <translation><!-- Nurse Practitioner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Healthcare Professional</masterLabel>
+            <translation><!-- Other Healthcare Professional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmacist</masterLabel>
+            <translation><!-- Pharmacist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Physician</masterLabel>
+            <translation><!-- Physician --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Physician Assistant</masterLabel>
+            <translation><!-- Physician Assistant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Risk Manager</masterLabel>
+            <translation><!-- Risk Manager --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Occurrence Date --></label>
+        <name>QPMS__Occurance_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Relevant History --></label>
+        <name>QPMS__Other_Relevant_History__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner --></label>
+        <name>QPMS__Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Information --></label>
+        <name>QPMS__Product_Information__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Family --></label>
+        <name>QPMS__Product_Number__c</name>
+        <relationshipLabel><!-- Complaints --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Problem Codes --></label>
+        <name>QPMS__Product_Problem_Codes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Queue Mapping Value --></label>
+        <name>QPMS__Queue_Mapping_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason For Reopen --></label>
+        <name>QPMS__Reason_For_Reopen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason For Void --></label>
+        <name>QPMS__Reason_For_Void__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regulatory Assessment --></label>
+        <name>QPMS__Regulatory_Assessment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Relevant Tests/Laboratory Data --></label>
+        <name>QPMS__Relevant_Tests_Laboratory_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter Information --></label>
+        <name>QPMS__Reporter_Information__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Required --></label>
+        <name>QPMS__Resolution_Approval_Required__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Resolution Approval Status --></label>
+        <name>QPMS__Resolution_Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recalled</masterLabel>
+            <translation><!-- Recalled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Resolution Code --></label>
+        <name>QPMS__Resolution_Code__c</name>
+        <picklistValues>
+            <masterLabel>Complaint Workflow</masterLabel>
+            <translation><!-- Complaint Workflow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No investigation Required</masterLabel>
+            <translation><!-- No investigation Required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not A Complaint</masterLabel>
+            <translation><!-- Not A Complaint --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Resolution Description --></label>
+        <name>QPMS__Resolution_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Review Required --></label>
+        <name>QPMS__Review_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sequence --></label>
+        <name>QPMS__Sequence__c</name>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation><!-- 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40</masterLabel>
+            <translation><!-- 40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50</masterLabel>
+            <translation><!-- 50 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60</masterLabel>
+            <translation><!-- 60 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>70</masterLabel>
+            <translation><!-- 70 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>80</masterLabel>
+            <translation><!-- 80 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>90</masterLabel>
+            <translation><!-- 90 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Serious Injury --></label>
+        <name>QPMS__Serious_Injury__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signed Off Details --></label>
+        <name>QPMS__Signed_Off_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Site Location --></label>
+        <name>QPMS__Site_Location__c</name>
+        <relationshipLabel><!-- Complaints (Site Location) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Source --></label>
+        <name>QPMS__Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- State/UT --></label>
+        <name>QPMS__State_UT__c</name>
+        <picklistValues>
+            <masterLabel>California</masterLabel>
+            <translation><!-- California --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delhi</masterLabel>
+            <translation><!-- Delhi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Florida</masterLabel>
+            <translation><!-- Florida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Goa</masterLabel>
+            <translation><!-- Goa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Main</masterLabel>
+            <translation><!-- Main --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Odisha</masterLabel>
+            <translation><!-- Odisha --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Texas</masterLabel>
+            <translation><!-- Texas --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>QPMS__Status__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-Review</masterLabel>
+            <translation><!-- In-Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inprogress</masterLabel>
+            <translation><!-- Inprogress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inworks</masterLabel>
+            <translation><!-- Inworks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reopened</masterLabel>
+            <translation><!-- Reopened --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Void</masterLabel>
+            <translation><!-- Void --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sub Department --></label>
+        <name>QPMS__Sub_Department__c</name>
+        <relationshipLabel><!-- Complaints (Sub Department) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>QPMS__Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Information: --></label>
+        <name>QPMS__User_Information__c</name>
+    </fields>
+    <fields>
+        <label><!-- View Only Entity Group --></label>
+        <name>QPMS__View_Only_Entity_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- View Only Entity --></label>
+        <name>QPMS__View_Only_Entity__c</name>
+    </fields>
+    <fields>
+        <label><!-- isLocked --></label>
+        <name>QPMS__isLocked__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Owner --></label>
+        <name>QPMS__newQueueName__c</name>
+    </fields>
+    <fields>
+        <label><!-- newQueue --></label>
+        <name>QPMS__newQueue__c</name>
+    </fields>
+    <layouts>
+        <layout>Complaint Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Should Contains Only Number --></errorMessage>
+        <name>QPMS__Account_Phone_Number</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Should Contains Only Number --></errorMessage>
+        <name>QPMS__Phone_Number</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please choose at least one Type of event --></errorMessage>
+        <name>QPMS__Type_Of_Event_Required</name>
+    </validationRules>
+</CustomObjectTranslation>

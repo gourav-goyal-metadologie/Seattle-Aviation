@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Analysis Group --></label>
+        <name>inscor__Analysis_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned To --></label>
+        <name>inscor__Assigned_To__c</name>
+        <relationshipLabel><!-- Workspaces --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Company --></label>
+        <name>inscor__Company__c</name>
+        <relationshipLabel><!-- Part 360 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date Due --></label>
+        <name>inscor__Date_Due__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Requested --></label>
+        <name>inscor__Date_Requested__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Comments --></label>
+        <name>inscor__External_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Comments --></label>
+        <name>inscor__Internal_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Name --></label>
+        <name>inscor__Project_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Selected Metrics --></label>
+        <name>inscor__Selected_Metrics__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>inscor__Status__c</name>
+        <picklistValues>
+            <masterLabel>Canceled</masterLabel>
+            <translation><!-- Canceled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hold</masterLabel>
+            <translation><!-- Hold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>inscor__Type__c</name>
+        <picklistValues>
+            <masterLabel>Buy</masterLabel>
+            <translation><!-- Buy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LOT Sale</masterLabel>
+            <translation><!-- LOT Sale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scrap</masterLabel>
+            <translation><!-- Scrap --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Workspace Layout</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- Workspace Information --></label>
+            <section>Workspace Information</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

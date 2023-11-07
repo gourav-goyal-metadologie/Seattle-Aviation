@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- IS Material List View Fields --></label>
+        <name>QPMS__IS_Material_List_View_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Inspection Standard Material Fields --></label>
+        <name>QPMS__Inspection_Standard_Material_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- MaterialDetails --></label>
+        <name>QPMS__MaterialDetails</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Material History --></label>
+        <name>QPMS__Material_History</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Material List View Fields --></label>
+        <name>QPMS__Material_List_View_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- POMaterialOrderedContextualHelp --></label>
+        <name>QPMS__POMaterialOrderedContextualHelp</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Purchase Order Material Fields --></label>
+        <name>QPMS__Purchase_Order_Material_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Receive Materail List View --></label>
+        <name>QPMS__Receive_Materail_List_View</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Receive Purchase Order fields --></label>
+        <name>QPMS__Receive_Purchase_Order_fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Received Date Field --></label>
+        <name>QPMS__Received_Date_Field</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Comment --></label>
+        <name>QPMS__Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Create Inspection --></label>
+        <name>QPMS__Create_Inspection__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Date --></label>
+        <name>QPMS__Est_Delivery_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inspection Name --></label>
+        <name>QPMS__InspectionTypeName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inspection Decision? --></label>
+        <name>QPMS__Inspection_Decision__c</name>
+        <picklistValues>
+            <masterLabel>Inspect</masterLabel>
+            <translation><!-- Inspect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skip</masterLabel>
+            <translation><!-- Skip --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Inspection --></label>
+        <name>QPMS__Inspection_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inspection Name --></label>
+        <name>QPMS__Inspection_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inspection Name --></label>
+        <name>QPMS__Inspection_Type_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inspection Type --></label>
+        <name>QPMS__Inspection_Type__c</name>
+        <picklistValues>
+            <masterLabel>Container Loading</masterLabel>
+            <translation><!-- Container Loading --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>During Production(DPI)</masterLabel>
+            <translation><!-- During Production(DPI) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Final</masterLabel>
+            <translation><!-- Final --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First Article(FAI)</masterLabel>
+            <translation><!-- First Article(FAI) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incoming</masterLabel>
+            <translation><!-- Incoming --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Shipment(PSI)</masterLabel>
+            <translation><!-- Pre-Shipment(PSI) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-production(PPI)</masterLabel>
+            <translation><!-- Pre-production(PPI) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Random</masterLabel>
+            <translation><!-- Random --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Line Item Status --></label>
+        <name>QPMS__Line_Item_Status__c</name>
+        <picklistValues>
+            <masterLabel>Discard</masterLabel>
+            <translation><!-- Discard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inspect</masterLabel>
+            <translation><!-- Inspect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inspected</masterLabel>
+            <translation><!-- Inspected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inspection In progress</masterLabel>
+            <translation><!-- Inspection In progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Inspection Required</masterLabel>
+            <translation><!-- No Inspection Required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Required</masterLabel>
+            <translation><!-- Not Required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Re-inspect</masterLabel>
+            <translation><!-- Re-inspect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skipped</masterLabel>
+            <translation><!-- Skipped --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>To be Inspected</masterLabel>
+            <translation><!-- To be Inspected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Line # --></label>
+        <name>QPMS__Line_New__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line # --></label>
+        <name>QPMS__Line__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lot # --></label>
+        <name>QPMS__Lot__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>QPMS__Material__c</name>
+    </fields>
+    <fields>
+        <label><!-- Not Required --></label>
+        <name>QPMS__No_longer_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ordered UOM --></label>
+        <name>QPMS__Ordered_UOM__c</name>
+        <picklistValues>
+            <masterLabel>cm</masterLabel>
+            <translation><!-- cm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>g</masterLabel>
+            <translation><!-- g --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>inch</masterLabel>
+            <translation><!-- inch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>kg</masterLabel>
+            <translation><!-- kg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>lbs</masterLabel>
+            <translation><!-- lbs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>m</masterLabel>
+            <translation><!-- m --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>mm</masterLabel>
+            <translation><!-- mm --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>QPMS__Priority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Urgent</masterLabel>
+            <translation><!-- Urgent --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>QPMS__Product_Family__c</name>
+        <relationshipLabel><!-- Ordered Materials --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Purchase Order --></label>
+        <name>QPMS__Purchase_Order__c</name>
+        <relationshipLabel><!-- Ordered Materials --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity Ordered --></label>
+        <name>QPMS__Quantity_Ordered_New__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Ordered --></label>
+        <name>QPMS__Quantity_Ordered__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Received --></label>
+        <name>QPMS__Quantity_Received_New__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Received --></label>
+        <name>QPMS__Quantity_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Status --></label>
+        <name>QPMS__Quantity_Status__c</name>
+        <picklistValues>
+            <masterLabel>Match</masterLabel>
+            <translation><!-- Match --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Overage</masterLabel>
+            <translation><!-- Overage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shortage</masterLabel>
+            <translation><!-- Shortage --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Rationale --></label>
+        <name>QPMS__Rationale__c</name>
+    </fields>
+    <fields>
+        <label><!-- Receive PO --></label>
+        <name>QPMS__Receive_PO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Receive PO check --></label>
+        <name>QPMS__Receive_PO_check__c</name>
+    </fields>
+    <fields>
+        <label><!-- Received Date --></label>
+        <name>QPMS__Received_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Receiving Status --></label>
+        <name>QPMS__Receiving_Status__c</name>
+        <picklistValues>
+            <masterLabel>Early</masterLabel>
+            <translation><!-- Early --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late</masterLabel>
+            <translation><!-- Late --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Time</masterLabel>
+            <translation><!-- On Time --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Supplier part # --></label>
+        <name>QPMS__Supplier_part__c</name>
+    </fields>
+    <layouts>
+        <layout>Ordered Material Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

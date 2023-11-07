@@ -1,0 +1,35 @@
+<template>
+    <lightning-spinner
+        if:false={hasProduct}
+        class="slds-is-relative slds-align_absolute-center slds-m-around_large"
+        alternative-text="Loading product information..."
+        size="medium"
+        variant="brand"
+    >
+    </lightning-spinner>
+    <c-product-details-display
+        if:true={hasProduct}
+        cart-locked={_isCartLocked}
+        category-path={displayableProduct.categoryPath}
+        custom-fields={displayableProduct.customFields}
+        description={displayableProduct.description}
+        keywords={displayableProduct.keywords}
+        corev={displayableProduct.corev}
+        image={displayableProduct.image}
+        name={displayableProduct.name}
+        price={displayableProduct.price}
+        sku={displayableProduct.sku}
+        uom={displayableProduct.uom}
+        hazmat={displayableProduct.hazmat}
+        conditions={conditionCodes}
+        expirationdate={displayableProduct.expirationdate}
+        product-record-id={recordId}
+        cart-id={cartRecordId}
+        effective-account-id={effectiveAccountId}
+        onproductconditioncodeandprice={getConditionCodeAndPrice}
+        product-qty-map={inventoryQtyMap}
+        onaddtocart={addToCart}
+        oncreateandaddtolist={createAndAddToList}
+    >
+    </c-product-details-display>
+</template>

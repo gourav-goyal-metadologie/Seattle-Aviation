@@ -1,0 +1,1744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>Org specific settings</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>QPMS__Action_Plan_RecordTypeId__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Action Plan RecordTypeId</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__AdhocTask_Actions_RecordTypeId__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>AdhocTask Actions RecordTypeId</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Adverse_event_Optional__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Adverse event Optional when Product Problem is code is required</inlineHelpText>
+        <label>Adverse event Optional</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Allow_Multiple_CEM_Type__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Allow Multiple CEM Type</description>
+        <externalId>false</externalId>
+        <label>Allow Multiple CEM Type</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Allow_Multiple_Planned_Audit_on_same_day__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Allow multiple planned audits same day</description>
+        <externalId>false</externalId>
+        <label>Allow Multiple Planned Audit on same day</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Allow_Multiple_SCR__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>allow to create multiple scr</description>
+        <externalId>false</externalId>
+        <label>Allow Multiple SCR</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__AssessementQuestionTemplate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>this is used to store assessment template id</description>
+        <externalId>false</externalId>
+        <label>AssessementQuestionTemplate</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__AuditTrailReportId__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>AuditTrailReportId</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Audit_Group_Filter__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Audit Group Filter</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Audit_Program_Report_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Holds Audit Program Report Id</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Holds Audit Program Report Id</inlineHelpText>
+        <label>Audit Program Report Id</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Audit_Report_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Holds audit report id to be displayed on dashboard</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Holds audit report id to be displayed on dashboard</inlineHelpText>
+        <label>Audit Report Id</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Auto_Create_Audits__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>By enabling this, audits in &quot;planned audit&quot; section will automatically creates audits when &quot;Start Date&quot; of audit is today</description>
+        <externalId>false</externalId>
+        <label>Auto Create Audits</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Auto_Populate_Default_NC_Rootcause__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Auto Populate Default NC Rootcause</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Batch_Size__c</fullName>
+        <defaultValue>100</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>This is used in scheduler for batch execution except document module</inlineHelpText>
+        <label>Batch Size</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__CAPA_Configurable_Workflow_Tasks__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Disable CAPA Configurable Workflow Tasks</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__CAPA_Group_Filter__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>CAPA Group Filter</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__CAPA_Report_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>CAPA Report Id</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__CMP_Report_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <description>For Complaints Report Id</description>
+        <externalId>false</externalId>
+        <inlineHelpText>For Complaints Report Id</inlineHelpText>
+        <label>CMP Report Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__CR_Group_Filter__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>CR Group Filter</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__CR_Report_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>CR Report Id</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__CSMS_Group_Filter__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>CSMS Group Filter</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__CSMS_Report_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <description>CSMS Report Id</description>
+        <externalId>false</externalId>
+        <inlineHelpText>CSMS Report Id</inlineHelpText>
+        <label>CSMS Report Id</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__CSMS_Schedule_Interval__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Used to calculate Next Due Date for showing schedule record before mentioned days on dashboard for custodian.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Used to calculate Next Due Date for showing schedule record before mentioned days on dashboard for custodian.</inlineHelpText>
+        <label>CSMS Schedule Interval(In Days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Cache_Expiry_Time_In_Hours__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Time to expire cache</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Time to expire cache</inlineHelpText>
+        <label>Cache Expiry Time(In Hours)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Certificate_Review_days__c</fullName>
+        <deprecated>false</deprecated>
+        <description>review days in advance</description>
+        <externalId>false</externalId>
+        <label>Certificate Review days</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__ChecklistReport_Color__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>ChecklistReport Color</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__ChecklistReport__c</fullName>
+        <deprecated>false</deprecated>
+        <description>this is used to export report fore complete checklist</description>
+        <externalId>false</externalId>
+        <label>ChecklistReport</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Checklist_Report_Score__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Checklist Report Score</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Checklist_Report_pass_fail__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Checklist Report pass fail</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Close_NC_when_CAPA_is_closed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Close NC when CAPA is closed</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Community_Portal_User_Profiles__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Community Portal User Profiles</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Complete_Audit__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>To Update Audit status to Complete</description>
+        <externalId>false</externalId>
+        <inlineHelpText>To Update Audit status to Complete</inlineHelpText>
+        <label>Complete Audit</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Compliant_Group_Filter__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Compliant Group Filter</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Connected_App_consumer_key__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Connected App consumer key</label>
+        <length>100</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Connected_App_consumer_secret__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Connected App consumer secret</label>
+        <length>100</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Containment_Action_RecordTypeId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Containment Action Record Type id</description>
+        <externalId>false</externalId>
+        <label>Containment Action RecordTypeId</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__CoverPageLogo__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Holdes logo id copied from document standard object from logos folder</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Holdes logo id copied from document standard object from logos folder</inlineHelpText>
+        <label>CoverPageLogo</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Create_Address__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>allow to create address</description>
+        <externalId>false</externalId>
+        <label>Create Address</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Create_Contact__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>allow to create contact</description>
+        <externalId>false</externalId>
+        <label>Create Contact</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Custom_Page__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Page to include all customer-specific logics dynamically on top of managed package</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Page to include all customer-specific logics dynamically on top of managed package</inlineHelpText>
+        <label>Custom Page</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__DOC_Report_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <description>To display the Document Profile reports grouped by Status</description>
+        <externalId>false</externalId>
+        <inlineHelpText>To display the Document Profile reports grouped by Status</inlineHelpText>
+        <label>DOC Report Id</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Default_Audit_Pass_Fail__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Default status of audit pas/ fail will set to fail even one question is failed</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Default status of audit pas/ fail will set to fail in closure even one question is failed</inlineHelpText>
+        <label>Default Audit Pass Fail</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Display_Comments_to_External_User__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Display Comments to External User</description>
+        <externalId>false</externalId>
+        <label>Display Comments to External User</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Display_Supplier_Details_As_Expanded__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>it will displays the details as open view</description>
+        <externalId>false</externalId>
+        <label>Display Supplier Details As Expanded</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Display_Training_enabled_documents__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Display Training enabled documents</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Disposition_Section_RecordTypeId__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Disposition Section RecordTypeId</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Document_Group_Filter__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Document Group Filter</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__DocumentsReportList__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>DocumentsReportList</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Edit_Address__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>allow to eit address</description>
+        <externalId>false</externalId>
+        <label>Edit Address</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Edit_Contact__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>allow to edit contact</description>
+        <externalId>false</externalId>
+        <label>Edit Contact</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__EmailNotificationAfterSchedule__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>EmailNotificationAfterSchedule</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Enable_Account_lookup_Filter__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>To filter the accounts based on the custom field(record type)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>To filter the accounts based on the custom field(record type)</inlineHelpText>
+        <label>Enable Account lookup Filter</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Enable_Advance_Change_Management__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enable Advance Change Management Flow (Includes Change Type Template)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable Advance Change Management Flow (Includes Change Type Template)</inlineHelpText>
+        <label>Enable Advance Change Management</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Enable_Audit_Trail__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>To enable audit trail and chronology</description>
+        <externalId>false</externalId>
+        <label>Enable Audit Trail</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Enable_Audit__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Flag to Enable/Disable Audit Module</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Flag to Enable/Disable Audit Module</inlineHelpText>
+        <label>Enable Audit</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Enable_CAPA__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Enable CAPA</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Enable_CSMS__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Flag to Enable/Disable CSMS Module</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Flag to Enable/Disable CSMS Module</inlineHelpText>
+        <label>Enable CSMS</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Enable_Cache__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>To enable browser cache  for faster response</description>
+        <externalId>false</externalId>
+        <inlineHelpText>To enable browser cache  for faster response</inlineHelpText>
+        <label>Enable Cache</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Enable_Chatter__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>handle the chatter in collaboration review task of document profile</description>
+        <externalId>false</externalId>
+        <inlineHelpText>handle the chatter in collaboration review task of document profile</inlineHelpText>
+        <label>Enable Chatter</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Enable_Complaint__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Enable Complaint</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Enable_Createchecklist__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>For enabling checklist in audittype and auditprogram,audit</description>
+        <externalId>false</externalId>
+        <label>Enable Createchecklist</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Enable_DOC__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Enable DOC</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Enable_Date_Format__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Enable Date Format</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Enable_Document_Print__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Enable Document Print</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Enable_Document_Temp__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>handling Document temp option from header drop down</description>
+        <externalId>false</externalId>
+        <inlineHelpText>handling Document temp option from header drop down</inlineHelpText>
+        <label>Enable Document Temp</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Enable_Document_Watermark__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Enable Document Watermark</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Enable_Email_Session_Cancelled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Send Email to Participants when Course Session is Cancelled.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Send Email to Participants when Course Session is Cancelled.</inlineHelpText>
+        <label>Enable Email Session Cancelled</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Enable_Email_Session_Creation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Send Email to Followers when Course Session is Created.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Send Email to Followers when Course Session is Created.</inlineHelpText>
+        <label>Enable Email Session Creation</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Enable_Email_Session_Is_Cancelled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Send Email to Internal Trainers when Course Session is Cancelled.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Send Email to Internal Trainers when Course Session is Cancelled.</inlineHelpText>
+        <label>Enable Email Session Is Cancelled</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Enable_Email_Session_Is_Completed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Send Email to Internal Trainers when Course Session is Completed.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Send Email to Internal Trainers when Course Session is Completed.</inlineHelpText>
+        <label>Enable Email Session Is Completed</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Enable_Email_Session_Is_In_Session__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Send Email to Participants when Course Session is In Session.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Send Email to Participants when Course Session is In Session.</inlineHelpText>
+        <label>Enable Email Session Is In Session</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Enable_Email_Session_Is_Open_Enrollment__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Send Email to All Participants When Course Session is in Open Enrollment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Send Email to All Participants When Course Session is in Open Enrollment.</inlineHelpText>
+        <label>Enable Email Session Is Open Enrollment</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Enable_Inspection_Bypass__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>To enable bypass inspection button</description>
+        <externalId>false</externalId>
+        <label>Enable Inspection Bypass</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Enable_Inspection__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>this is for inspection</description>
+        <externalId>false</externalId>
+        <label>Enable Inspection</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Enable_NC_Email__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This field is for to enable or disable the email service</description>
+        <externalId>false</externalId>
+        <label>Enable Email Service</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Enable_NC_Template__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Enable NC Template</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Enable_NC__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Enable NC</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Enable_PO_Numbering_Scheme__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>to enable or disable numbering scheme for PO</description>
+        <externalId>false</externalId>
+        <label>Enable PO Numbering Scheme</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Enable_PersonProfiles_With_Out_Users__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>If Enabled, You can create Person Profiles without Users</inlineHelpText>
+        <label>Enable PersonProfiles With Out Users</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Enable_Registration__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>To Enable Product  Registration</description>
+        <externalId>false</externalId>
+        <inlineHelpText>To Enable Product  Registration</inlineHelpText>
+        <label>Enable Registration</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Enable_Report_Builder__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Enable Report Builder</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Enable_Response_Field__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enable Response Field</description>
+        <externalId>false</externalId>
+        <label>Enable Response Field</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Enable_Security_Based_On_Initiating_Site__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Enable Security Based On Initiating Site</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Enable_Supplier_Qualification__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>enable the supplier</description>
+        <externalId>false</externalId>
+        <label>Enable Supplier Qualification</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Enable_Sync_Button__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Sync the Complaint record to Case Management record</inlineHelpText>
+        <label>Enable Sync Button</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Enable_Sync_Button_for_CEM_Type__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Sync Button for CEM type page</inlineHelpText>
+        <label>Enable Sync Button for CEM Type</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Enable_Training__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>to check training required or not</description>
+        <externalId>false</externalId>
+        <label>Enable Training</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__EndPointURL__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>End point URL of Case management</inlineHelpText>
+        <label>EndPointURL</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__External_Processing_URL__c</fullName>
+        <defaultValue>&quot;/api/3.0/process&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>URL to External Processing app minus the host name (e.g. If external app is https://qualityze-external-processing.herokuapp.com/api/3.0/process then this field should contain /api/3.0/process)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>URL to External Processing app minus the host name (e.g. If external app is https://qualityze-external-processing.herokuapp.com/api/3.0/process then this field should contain /api/3.0/process)</inlineHelpText>
+        <label>External Processing URL</label>
+        <length>50</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__External_Response_Required__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>External Response Required ?</description>
+        <externalId>false</externalId>
+        <label>External Response Required ?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__GDPRBatchSize__c</fullName>
+        <deprecated>false</deprecated>
+        <description>GDPR batch size for mask</description>
+        <externalId>false</externalId>
+        <label>GDPRBatchSize</label>
+        <length>120</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Hide_Response_Field__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Hide Response Field</description>
+        <externalId>false</externalId>
+        <label>Hide Response Field</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__History_Objects__c</fullName>
+        <deprecated>false</deprecated>
+        <description>add History Objects here</description>
+        <externalId>false</externalId>
+        <label>History Objects</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__INS_Group_Filter__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>INS Group Filter</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__INS_Report_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>INS Report Id</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__ImportSessionBatchSize__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>ImportSessionBatchSize</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Instance_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Salesforce instance name (e.g. na41, ap2, eu5, etc.)</inlineHelpText>
+        <label>Instance Name</label>
+        <length>10</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__InternalTrainer_Validation_Required__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Internal Trainer Validation Required</description>
+        <externalId>false</externalId>
+        <label>InternalTrainer Validation Required</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Internal_Comment_Required__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Internal Comment Required ?</description>
+        <externalId>false</externalId>
+        <label>Internal Comment Required ?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Interviewed_Personnel_RecordtypeId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Used in audit summary records in audit junction</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Used in audit summary records in audit junction</inlineHelpText>
+        <label>Interviewed Personnel RecordtypeId</label>
+        <length>120</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Is_CompleteChecklist_Validation_Required__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This custom setting enabled the uses yo turn on/off the validation for answering all questions or not in Complete checklist page.</description>
+        <externalId>false</externalId>
+        <label>Is CompleteChecklist Validation Required</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Is_Complete_Observations__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Is Complete Observations</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Is_Digital_Signature_Needed__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Flag To show or hide digital signature</description>
+        <externalId>false</externalId>
+        <label>Is Digital Signature Needed</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Is_Due_Date_Validation_Needed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Is Due Date Validation Needed</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Is_External_System_Capa_Reference_Needed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Is External System Capa Reference Needed</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Is_Manager_Approval_required_For_Enroll__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Is Manager Approval required For Enroll</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Is_Need_Create_Document__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>handle for create document option</description>
+        <externalId>false</externalId>
+        <label>Is Need Create Document</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Is_inprogress_training_deletion_required__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Is inprogress training deletion required</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__LogoId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Holdes logo id copied from document standard object from logos folder</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Holdes logo id copied from document standard object from logos folder</inlineHelpText>
+        <label>LogoId</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Logo_Style__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Logo Style</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Make_Site_Editable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This field is used to site field should be editable or disable</description>
+        <externalId>false</externalId>
+        <label>Make Site Editable</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Max_Approvers__c</fullName>
+        <defaultValue>10</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Max Approvers</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__NCReportId__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>NCReportId</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__NC_Configurable_Workflow_Tasks__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Disable NC Configurable Workflow Tasks</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__NC_Group_Filter__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>NC Group Filter</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__NC_Internal_Supplier_Email_Address__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This is email service address</description>
+        <externalId>false</externalId>
+        <label>Email Service Address</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Need_Additional_Resolution_Codes__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Need Additional Resolution Codes</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Number_Of_Days_For_Alerts__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Number Of Days For Alerts</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__OauthURL__c</fullName>
+        <deprecated>false</deprecated>
+        <description>OauthURL for digital signature. varies  for production and sandbox</description>
+        <externalId>false</externalId>
+        <label>OauthURL</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Observation_Report_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Holds Observation Report Id</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Holds Observation Report Id</inlineHelpText>
+        <label>Observation Report Id</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Overdue_Documents_ReportId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Overdue Documents Report Id</description>
+        <externalId>false</externalId>
+        <label>Overdue Documents ReportId</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__PersonProfilesRestrictedProfiles__c</fullName>
+        <deprecated>false</deprecated>
+        <description>PersonProfilesRestrictedProfiles</description>
+        <externalId>false</externalId>
+        <label>PersonProfilesRestrictedProfiles</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Qualityze_Tabid__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Qualityze Tab id</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Qualityze Tabid</inlineHelpText>
+        <label>Qualityze Tabid</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Registration_Page_Custom_Include_Page__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Page to included in Registration page after package install</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Page to included in Registration page after package install</inlineHelpText>
+        <label>Registration Page Custom Include Page</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Regulatory_Submission_Company_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This is for Company Name in FDA XML Generation</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This is for Company Name in FDA XML Generation</inlineHelpText>
+        <label>Regulatory Submission Company Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Remoting_Timeout__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Remoting Timeout</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Root_Cause_RecordTypeId__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Root Cause RecordTypeId</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__SQM_Group_Filter__c</fullName>
+        <deprecated>false</deprecated>
+        <description>group filter</description>
+        <externalId>false</externalId>
+        <label>SQM Group Filter</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__SessionCancelEmailForTrainer__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Send Email to Internal Trainers when Course Session is Cancelled.(Email Template Name)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Send Email to Internal Trainers when Course Session is Cancelled.(Email Template Name)</inlineHelpText>
+        <label>SessionCancelEmailForTrainer</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__SessionCancelForParticipants__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Send Email to Participants when Course Session is Cancelled.(Email Template Name)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Send Email to Participants when Course Session is Cancelled.(Email Template Name)</inlineHelpText>
+        <label>SessionCancelForParticipants</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__SessionCompletedEmailForTrainer__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Send Email to Internal Trainers when Course Session is Completed.(Email Template Name)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Send Email to Internal Trainers when Course Session is Completed.(Email Template Name)</inlineHelpText>
+        <label>SessionCompletedEmailForTrainer</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__SessionCreationEmailForFollowers__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Send Email to Followers when Course Session is Created.(Email Template Name)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Send Email to Followers when Course Session is Created.(Email Template Name)</inlineHelpText>
+        <label>SessionCreationEmailForFollowers</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__SessionInsessionEmailForParticipants__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Send Email to Participants when Course Session is In Session.(Email Template Name)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Send Email to Participants when Course Session is In Session.(Email Template Name)</inlineHelpText>
+        <label>SessionInsessionEmailForParticipants</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__SessionOpenEnrollmentEmailForParticipant__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Send Email to All Participants When Course Session is in Open Enrollment.(Email Template Name)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Send Email to All Participants When Course Session is in Open Enrollment.(Email Template Name)</inlineHelpText>
+        <label>SessionOpenEnrollmentEmailForParticipant</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Show_All_Users_Groups_In_Site_Security__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Restricted the users/groups to display in site security level</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Restricted the users/groups to display in site security level</inlineHelpText>
+        <label>Show All Users/Groups In Site Security</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Show_Copy_Right__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Show Copy Right</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Site_Filter_in_Reference__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This field is used to filter based on site in references</description>
+        <externalId>false</externalId>
+        <label>Site Filter in Reference</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Standard_Object_Names__c</fullName>
+        <deprecated>false</deprecated>
+        <description>if any standard objects has to mask then user can some objects names here</description>
+        <externalId>false</externalId>
+        <label>Standard Object Names</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__StaticResource__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>StaticResource</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Streaming_Channel_Name__c</fullName>
+        <defaultValue>&quot;/u/QualityzeUserNotification&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The name of the streaming channel (e.g. /u/QualityzeUserNotification)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the streaming channel (e.g. /u/QualityzeUserNotification)</inlineHelpText>
+        <label>Streaming Channel Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Supplier_Record_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>used in supplier score card</description>
+        <externalId>false</externalId>
+        <label>Supplier Record Type</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Supplier_Report_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Supplier report id</description>
+        <externalId>false</externalId>
+        <label>Supplier Report Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__SystemAdminProfileID__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field will stores system admin filed Id</description>
+        <externalId>false</externalId>
+        <label>SystemAdminProfileID</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Task_DueDate_Validation_On_Current_Date__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Allow user to predefine the due date in Resolution page should update based on Created date or Today&apos;s date</description>
+        <externalId>false</externalId>
+        <label>Task DueDate Validation On Current Date</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Training_Batch_size__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Training Batch size</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Training_Group_Filter__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Training Group Filter</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Training Group Filter</inlineHelpText>
+        <label>Training Group Filter</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Training_JF_Parent_Update_Batch_Size__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Batch update size for parent records from Job Function.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Batch update size for parent records from Job Function.</inlineHelpText>
+        <label>Training JF Parent Update Batch Size</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Training_Junction_Batch_Size__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Batch size for Training Junctions from Job Function.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Batch size for Training Junctions from Job Function.</inlineHelpText>
+        <label>Training Junction Batch Size</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Training_ReprotId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>To save training report id</description>
+        <externalId>false</externalId>
+        <label>Training ReprotId</label>
+        <length>30</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__TrainingsDeletionFromSessionBatchSize__c</fullName>
+        <deprecated>false</deprecated>
+        <description>TrainingsDeletionFromSessionBatchSize</description>
+        <externalId>false</externalId>
+        <label>TrainingsDeletionFromSessionBatchSize</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__TriggerFetchRecordDetails__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>To configure getting record details from trigger execution in commonutil class</description>
+        <externalId>false</externalId>
+        <inlineHelpText>To configure getting record details from trigger execution in commonutil class</inlineHelpText>
+        <label>TriggerFetchRecordDetails</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__URL__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>URL</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Verification_Plan_RecordTypeId__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Verification Plan RecordTypeId</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__WCT_Registration_Providers__c</fullName>
+        <defaultValue>&quot;WHERE Id IN (SELECT ContactId FROM AccountContactRelation WHERE AccountId = &apos;?&apos;)&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Where Clause Template for Registration page for Service Provider and Maintenance Provider fields. Enter question mark &quot;?&quot; where value should be replaced</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Where Clause Template for Registration page for Service Provider and Maintenance Provider fields. Enter question mark &quot;?&quot; where value should be replaced</inlineHelpText>
+        <label>WCT Registration Providers</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__Warm_Up_Needed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Flag for warm up to make page load faster</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Flag for warm up to make page load faster</inlineHelpText>
+        <label>Warm-Up Needed</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QPMS__Warm_Up_Time_Interval__c</fullName>
+        <defaultValue>10</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This field holds time interval to perform warm up to make page load faster</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field holds time interval to perform warm up to make page load faster</inlineHelpText>
+        <label>Warm-Up Time interval(In Min.)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QPMS__isOwnerAsAppover__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>To display the owner in approver list</inlineHelpText>
+        <label>isOwnerAsAppover</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>QC_settings</label>
+    <visibility>Public</visibility>
+</CustomObject>

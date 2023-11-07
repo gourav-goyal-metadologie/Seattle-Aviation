@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>inscor__Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Customer Approval</masterLabel>
+            <translation><!-- Pending Customer Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Submitted --></label>
+        <name>inscor__Date_Submitted__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Comments --></label>
+        <name>inscor__External_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Comments --></label>
+        <name>inscor__Internal_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote before proceeding? --></label>
+        <name>inscor__Quote_before_proceeding__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rejection Comment --></label>
+        <name>inscor__Rejection_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>inscor__Status__c</name>
+        <picklistValues>
+            <masterLabel>Accepted</masterLabel>
+            <translation><!-- Accepted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Quoting</masterLabel>
+            <translation><!-- In Quoting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation><!-- Submitted --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Work Order --></label>
+        <name>inscor__Work_Order__c</name>
+        <relationshipLabel><!-- Work Scopes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Work Scope Text --></label>
+        <name>inscor__Work_Scope_Text__c</name>
+    </fields>
+    <layouts>
+        <layout>Community Layout</layout>
+        <sections>
+            <label><!-- Work Scope Detail --></label>
+            <section>Work Scope Detail</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Work Order Scope Layout</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- Work Order Scope Information --></label>
+            <section>Work Order Scope Information</section>
+        </sections>
+        <sections>
+            <label><!-- Work Scope --></label>
+            <section>Work Scope</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

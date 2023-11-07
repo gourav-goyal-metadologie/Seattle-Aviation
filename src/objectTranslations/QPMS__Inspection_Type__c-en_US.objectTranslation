@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- INS Inspection Type Init Details Fields --></label>
+        <name>QPMS__INS_Inspection_Type_Init_Details_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- InspectionTypeInitContextual --></label>
+        <name>QPMS__InspectionTypeInitContextual</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Inspection Type Header Fields --></label>
+        <name>QPMS__Inspection_Type_Header_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Inspection Type History --></label>
+        <name>QPMS__Inspection_Type_History</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Inspection Type Initiation Fields --></label>
+        <name>QPMS__Inspection_Type_Initiation_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Inspection Type List View --></label>
+        <name>QPMS__Inspection_Type_List_View</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Adhok task --></label>
+        <name>QPMS__Adhok_Task__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allow Workflow Change --></label>
+        <name>QPMS__Allow_Workflow_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allowed Days --></label>
+        <name>QPMS__Allowed_days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Group --></label>
+        <name>QPMS__Approval_Group_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Group --></label>
+        <name>QPMS__Approval_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Close Inspection With Open NC Record --></label>
+        <name>QPMS__Close_Inspection_With_Open_NC_Record__c</name>
+    </fields>
+    <fields>
+        <label><!-- Closure task --></label>
+        <name>QPMS__Closure_task__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created By --></label>
+        <name>QPMS__Created_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>QPMS__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Purchase Order --></label>
+        <name>QPMS__Enable_Purchase_Order_Section__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Work Order --></label>
+        <name>QPMS__Enable_WorkOrder_Section__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>QPMS__IT_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inspection Task --></label>
+        <name>QPMS__Inspection_Task__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inspection Type Number --></label>
+        <name>QPMS__Inspection_Type_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inspection Type --></label>
+        <name>QPMS__Inspection_Type_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>QPMS__Name__c</name>
+        <picklistValues>
+            <masterLabel>Container Loading</masterLabel>
+            <translation><!-- Container Loading --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>During Production(DPI)</masterLabel>
+            <translation><!-- During Production(DPI) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Final</masterLabel>
+            <translation><!-- Final --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First Article(FAI)</masterLabel>
+            <translation><!-- First Article(FAI) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incoming</masterLabel>
+            <translation><!-- Incoming --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Shipment(PSI)</masterLabel>
+            <translation><!-- Pre-Shipment(PSI) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-production(PPI)</masterLabel>
+            <translation><!-- Pre-production(PPI) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Random</masterLabel>
+            <translation><!-- Random --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Number Scheme --></label>
+        <name>QPMS__Number_Scheme__c</name>
+        <relationshipLabel><!-- Inspection Types --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Numbering Scheme --></label>
+        <name>QPMS__Numbering_Scheme_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pagelock --></label>
+        <name>QPMS__Pagelock__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason --></label>
+        <name>QPMS__Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sample Size Calculation --></label>
+        <name>QPMS__Sample_Size_Calculation__c</name>
+        <picklistValues>
+            <masterLabel>Use Batch Qty</masterLabel>
+            <translation><!-- Use Batch Qty --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Use Qty Ordered</masterLabel>
+            <translation><!-- Use Qty Ordered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Use Qty Received</masterLabel>
+            <translation><!-- Use Qty Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Use WO Qty</masterLabel>
+            <translation><!-- Use WO Qty --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sampling Hierarchy --></label>
+        <name>QPMS__Sampling_Hierarchy__c</name>
+        <picklistValues>
+            <masterLabel>Inspection Standard</masterLabel>
+            <translation><!-- Inspection Standard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Family Profile</masterLabel>
+            <translation><!-- Product Family Profile --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sampling Plan Hierarchy --></label>
+        <name>QPMS__Sampling_Plan_Hierarchy_PickList__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sampling Plan Hierarchy --></label>
+        <name>QPMS__Sampling_Plan_Hierarchy__c</name>
+        <picklistValues>
+            <masterLabel>Inspection Standard</masterLabel>
+            <translation><!-- Inspection Standard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Family Profile</masterLabel>
+            <translation><!-- Product Family Profile --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sequence --></label>
+        <name>QPMS__Sequence__c</name>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation><!-- 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40</masterLabel>
+            <translation><!-- 40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50</masterLabel>
+            <translation><!-- 50 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Signed Off Details --></label>
+        <name>QPMS__Signed_Off_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>QPMS__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Switching Hierarchy --></label>
+        <name>QPMS__Switching_Hierarchy__c</name>
+        <picklistValues>
+            <masterLabel>Product Family Profile</masterLabel>
+            <translation><!-- Product Family Profile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplier Profile</masterLabel>
+            <translation><!-- Supplier Profile --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Switching Rule Hierarchy --></label>
+        <name>QPMS__Switching_Rule_Hierarchy_PickList__c</name>
+    </fields>
+    <fields>
+        <label><!-- Switching Rule Hierarchy --></label>
+        <name>QPMS__Switching_Rule_Hierarchy__c</name>
+        <picklistValues>
+            <masterLabel>Product Family Profile</masterLabel>
+            <translation><!-- Product Family Profile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplier Profile</masterLabel>
+            <translation><!-- Supplier Profile --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- isSubmit --></label>
+        <name>QPMS__isSubmit__c</name>
+    </fields>
+    <layouts>
+        <layout>Inspection Type Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

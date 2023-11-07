@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Defect Cause --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Defect Cause --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Defect Cause --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Defect Cause --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Defect Cause --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Defect Cause --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Defect Cause --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Defect Cause --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Defect_CauseAuditTrail --></label>
+        <name>QPMS__Defect_CauseAuditTrail</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Cause --></label>
+        <name>QPMS__Cause__c</name>
+        <relationshipLabel><!-- Defect Causes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Defect Cause id --></label>
+        <name>QPMS__Defect_Cause_id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Defect --></label>
+        <name>QPMS__Defect__c</name>
+        <relationshipLabel><!-- Defect Causes --></relationshipLabel>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <nameFieldLabel><!-- Defect Cause Name --></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Condition Code --></label>
+        <name>inscor__Condition_Code__c</name>
+        <relationshipLabel><!-- RO Off Units --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date Received --></label>
+        <name>inscor__Date_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- ESN --></label>
+        <name>inscor__ESN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inventory --></label>
+        <name>inscor__Inventory__c</name>
+        <relationshipLabel><!-- RO Off Units --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>inscor__Location__c</name>
+        <relationshipLabel><!-- RO Off Units --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Manifest Line --></label>
+        <name>inscor__Manifest_Line__c</name>
+        <relationshipLabel><!-- RO Off Units --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Manifest --></label>
+        <name>inscor__Manifest__c</name>
+        <relationshipLabel><!-- RO Off Units --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Owner Code --></label>
+        <name>inscor__Owner_Code__c</name>
+        <relationshipLabel><!-- RO Off Units --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Part Master --></label>
+        <name>inscor__Part_Master__c</name>
+        <relationshipLabel><!-- RO Off Units --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity Accepted --></label>
+        <name>inscor__Quantity_Accepted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Received --></label>
+        <name>inscor__Quantity_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Rejected --></label>
+        <name>inscor__Quantity_Rejected__c</name>
+    </fields>
+    <fields>
+        <label><!-- Receipt --></label>
+        <name>inscor__Receipt__c</name>
+        <relationshipLabel><!-- RO Off Units --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Repair Order Line --></label>
+        <name>inscor__Repair_Order_Line__c</name>
+        <relationshipLabel><!-- RO Off Units --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Repair Order --></label>
+        <name>inscor__Repair_Order__c</name>
+        <relationshipLabel><!-- RO Off Units --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Serial Number --></label>
+        <name>inscor__Serial_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source --></label>
+        <name>inscor__Source__c</name>
+        <relationshipLabel><!-- RO Off Units (Source) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Trace --></label>
+        <name>inscor__Trace__c</name>
+        <relationshipLabel><!-- RO Off Units --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Warehouse --></label>
+        <name>inscor__Warehouse__c</name>
+        <relationshipLabel><!-- RO Off Units --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

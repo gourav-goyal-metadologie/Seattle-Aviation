@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- AuthURL --></label>
+        <name>inscor__AuthURL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Govgistics_Get_Url --></label>
+        <name>inscor__Govgistics_Get_Url__c</name>
+    </fields>
+    <fields>
+        <label><!-- Import Stock URL --></label>
+        <name>inscor__Import_Stock_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- PartSearchURL --></label>
+        <name>inscor__PartSearchURL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part Search Gov Data URL --></label>
+        <name>inscor__Part_Search_Gov_Data_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pull RFQ Service URL --></label>
+        <name>inscor__Pull_RFQ_Service_URL__c</name>
+    </fields>
+</CustomObjectTranslation>

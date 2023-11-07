@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Supplier Profile Certificate --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Supplier Profile Certificate --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Supplier Profile Certificate --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Supplier Profile Certificate --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Supplier Profile Certificate --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Supplier Profile Certificate --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Supplier Profile Certificate --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Supplier Profile Certificate --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- CertificateFieldsInSupplierProfile --></label>
+        <name>QPMS__CertificateFieldsInSupplierProfile</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ListViewInSupplierProfile --></label>
+        <name>QPMS__ListViewInSupplierProfile</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SQMCertificateFieldsInAuditTrial --></label>
+        <name>QPMS__SQMCertificateFieldsInAuditTrial</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SupplierCertificateContextual --></label>
+        <name>QPMS__SupplierCertificateContextual</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Attachment --></label>
+        <name>QPMS__Attachment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Certificate Type --></label>
+        <name>QPMS__Certificate_Type_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Certificate Type --></label>
+        <name>QPMS__Certificate_Type__c</name>
+        <relationshipLabel><!-- Supplier Profile Certificates --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Certifying Body --></label>
+        <name>QPMS__Certifying_Body_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Certifying Body --></label>
+        <name>QPMS__Certifying_Body__c</name>
+        <relationshipLabel><!-- Supplier Profile Certificates --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CurrentUrl --></label>
+        <name>QPMS__CurrentUrl__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expiration Date --></label>
+        <name>QPMS__Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initiating Site Security --></label>
+        <name>QPMS__Initiating_Site_Security__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsAttached --></label>
+        <name>QPMS__IsAttached__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Supplier Profile Certificate --></label>
+        <name>QPMS__Parent_Supplier_Profile_Certificate__c</name>
+        <relationshipLabel><!-- Supplier Profile Certificates --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Review days --></label>
+        <name>QPMS__Review_days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>QPMS__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cloned</masterLabel>
+            <translation><!-- Cloned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SupplierEmail --></label>
+        <name>QPMS__SupplierEmail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier Change Id --></label>
+        <name>QPMS__Supplier_Change_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier Change --></label>
+        <name>QPMS__Supplier_Change__c</name>
+        <relationshipLabel><!-- Supplier Profile Certificates --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Supplier Name --></label>
+        <name>QPMS__Supplier_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier Profile Id --></label>
+        <name>QPMS__Supplier_Profile_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier Profile --></label>
+        <name>QPMS__Supplier_Profile__c</name>
+        <relationshipLabel><!-- Supplier Profile Certificates --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- site security --></label>
+        <name>QPMS__site_security__c</name>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <layouts>
+        <layout>Supplier Profile Certificate Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Certificate Name --></nameFieldLabel>
+</CustomObjectTranslation>

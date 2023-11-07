@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Audit Trial For Reference --></label>
+        <name>QPMS__Audit_Trial_For_Reference</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Audit --></label>
+        <name>QPMS__Audit__c</name>
+        <relationshipLabel><!-- Inspection Reference Junctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CAPA --></label>
+        <name>QPMS__CAPA__c</name>
+        <relationshipLabel><!-- Inspection Reference Junctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Change Management --></label>
+        <name>QPMS__Change_Management__c</name>
+        <relationshipLabel><!-- Inspection Reference Junctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Complaint --></label>
+        <name>QPMS__Complaint__c</name>
+        <relationshipLabel><!-- Inspection Reference Junctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Document Profile --></label>
+        <name>QPMS__Document_Profile__c</name>
+        <relationshipLabel><!-- Inspection Reference Junctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- InspectionParent --></label>
+        <name>QPMS__InspectionParent__c</name>
+        <relationshipLabel><!-- Inspection Reference Junctions (InspectionParent) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Inspection --></label>
+        <name>QPMS__Inspection__c</name>
+        <relationshipLabel><!-- Inspection Reference Junctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Non-Conformance --></label>
+        <name>QPMS__Non_Conformance__c</name>
+        <relationshipLabel><!-- Inspection Reference Junctions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reference --></label>
+        <name>QPMS__Reference__c</name>
+    </fields>
+</CustomObjectTranslation>

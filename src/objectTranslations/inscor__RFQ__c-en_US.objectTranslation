@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Legacy Ship Method --></label>
+        <name>Legacy_Ship_Method__c</name>
+    </fields>
+    <fields>
+        <help><!-- Terms given to us by the vendor. --></help>
+        <label><!-- Terms --></label>
+        <name>inscor__Account_Terms__c</name>
+        <relationshipLabel><!-- RFQs --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- If this field is left blank when changing Ship Method then the default Acct # will be filled in automatically. --></help>
+        <label><!-- Acct # --></label>
+        <name>inscor__Acct__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned To --></label>
+        <name>inscor__Assigned_To__c</name>
+        <relationshipLabel><!-- RFQs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Business Category Auto Update? --></label>
+        <name>inscor__Business_Category_Auto_Update__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Category --></label>
+        <name>inscor__Business_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company --></label>
+        <name>inscor__Company__c</name>
+        <relationshipLabel><!-- RFQs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <lookupFilter>
+            <errorMessage><!-- Contact must be associated with the selected vendor --></errorMessage>
+        </lookupFilter>
+        <name>inscor__Contact__c</name>
+        <relationshipLabel><!-- RFQs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Create Date --></label>
+        <name>inscor__Create_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created From CQ --></label>
+        <name>inscor__Created_From_CQ__c</name>
+        <relationshipLabel><!-- RFQs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Due Date --></label>
+        <name>inscor__Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Comments Available --></label>
+        <name>inscor__External_Comments_Available__c</name>
+        <relationshipLabel><!-- RFQs (External Comments Available) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- External Comments --></label>
+        <name>inscor__External_Comments_rt__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- FOB - RETIRED --></label>
+        <name>inscor__FOB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Generate PDF Selected Docs --></label>
+        <name>inscor__Generate_PDF_Selected_Docs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Comments Available --></label>
+        <name>inscor__Internal_Comments_Available__c</name>
+        <relationshipLabel><!-- RFQs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Internal Comments --></label>
+        <name>inscor__Internal_Comments_rt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Lines --></label>
+        <name>inscor__Number_of_Lines__c</name>
+    </fields>
+    <fields>
+        <label><!-- Port/Dest --></label>
+        <name>inscor__Port_Dest__c</name>
+    </fields>
+    <fields>
+        <label><!-- RFQ Total Company Value --></label>
+        <name>inscor__RFQ_Total_Company_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- RFQ Total Value --></label>
+        <name>inscor__RFQ_Total_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference ID --></label>
+        <name>inscor__Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference # --></label>
+        <name>inscor__Reference__c</name>
+    </fields>
+    <fields>
+        <help><!-- If wanting to use the default Acct # when setting/changing Ship Method, make sure that Acct # is blank. If Acct # is filled in then it will not be automatically set. --></help>
+        <label><!-- Ship Method --></label>
+        <name>inscor__Ship_Method__c</name>
+        <relationshipLabel><!-- RFQs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Ship Terms --></label>
+        <name>inscor__Ship_Terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ship To Location --></label>
+        <name>inscor__Ship_To_Location__c</name>
+        <relationshipLabel><!-- RFQs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>inscor__Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requested</masterLabel>
+            <translation><!-- Requested --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sent to Vendor</masterLabel>
+            <translation><!-- Sent to Vendor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Terms - RETIRED --></label>
+        <name>inscor__Terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Urgency --></label>
+        <name>inscor__Urgency__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Routine</masterLabel>
+            <translation><!-- Routine --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Vendor --></label>
+        <name>inscor__Vendor__c</name>
+        <relationshipLabel><!-- RFQs --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>RFQ Layout</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Company &amp; Owner Information --></label>
+            <section>Company &amp; Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- RFQ Info --></label>
+            <section>RFQ Info</section>
+        </sections>
+        <sections>
+            <label><!-- Shipping --></label>
+            <section>Shipping</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Auto Update Cannot be true when Business Category Selected. --></errorMessage>
+        <name>inscor__Business_Category_blank_Auto_Update</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Once cancelled, the RFQ cannot be reopened. --></errorMessage>
+        <name>inscor__Cancelled_cannot_be_changed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Company is a required field --></errorMessage>
+        <name>inscor__Company_field_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Need by date cannot be less than today --></errorMessage>
+        <name>inscor__Need_by_cannot_be_less_than_today</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Status cannot be changed to a previous status --></errorMessage>
+        <name>inscor__Status_cannot_be_previous</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Vendor is a required field --></errorMessage>
+        <name>inscor__Vendor_field_required</name>
+    </validationRules>
+</CustomObjectTranslation>

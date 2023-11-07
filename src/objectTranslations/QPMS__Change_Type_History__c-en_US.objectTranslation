@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- History Fields --></label>
+        <name>QPMS__History_Fields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Action --></label>
+        <name>QPMS__ActionStatus__c</name>
+        <picklistValues>
+            <masterLabel>Created</masterLabel>
+            <translation><!-- Created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deleted</masterLabel>
+            <translation><!-- Deleted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Updated</masterLabel>
+            <translation><!-- Updated --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Attachment --></label>
+        <name>QPMS__Attachment_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Change Type --></label>
+        <name>QPMS__Change_Type__c</name>
+        <relationshipLabel><!-- Change Type History --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>QPMS__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- FieldApiName --></label>
+        <name>QPMS__FieldApiName__c</name>
+    </fields>
+    <fields>
+        <label><!-- FieldName --></label>
+        <name>QPMS__FieldName__c</name>
+    </fields>
+    <fields>
+        <label><!-- HistoryObject --></label>
+        <name>QPMS__HistoryObject__c</name>
+        <picklistValues>
+            <masterLabel>Change Type</masterLabel>
+            <translation><!-- Change Type --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last ModifiedBy --></label>
+        <name>QPMS__Last_ModifiedBy__c</name>
+    </fields>
+    <fields>
+        <label><!-- NewValue --></label>
+        <name>QPMS__NewValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object --></label>
+        <name>QPMS__Object__c</name>
+    </fields>
+    <fields>
+        <label><!-- OldValue --></label>
+        <name>QPMS__OldValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub Parent Formula --></label>
+        <name>QPMS__Sub_Parent_Formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub Parent --></label>
+        <name>QPMS__Sub_Parent__c</name>
+        <picklistValues>
+            <masterLabel>Additional Details</masterLabel>
+            <translation><!-- Additional Details --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Address</masterLabel>
+            <translation><!-- Address --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adhoc Task</masterLabel>
+            <translation><!-- Adhoc Task --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdhocTask</masterLabel>
+            <translation><!-- AdhocTask --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdhocTask Approval</masterLabel>
+            <translation><!-- AdhocTask Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdhocTask Change Field Approval</masterLabel>
+            <translation><!-- AdhocTask Change Field Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CEM Type Approval</masterLabel>
+            <translation><!-- CEM Type Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CEMTypeTaskTemplate</masterLabel>
+            <translation><!-- CEMTypeTaskTemplate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Field Approval</masterLabel>
+            <translation><!-- Change Field Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Type</masterLabel>
+            <translation><!-- Change Type --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Type Approval</masterLabel>
+            <translation><!-- Change Type Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Type Approver</masterLabel>
+            <translation><!-- Change Type Approver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Type Details</masterLabel>
+            <translation><!-- Change Type Details --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Type GeneralSubTask</masterLabel>
+            <translation><!-- Change Type GeneralSubTask --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Type GeneralTask</masterLabel>
+            <translation><!-- Change Type GeneralTask --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Type Init</masterLabel>
+            <translation><!-- Change Type Init --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Type Reference</masterLabel>
+            <translation><!-- Change Type Reference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Type initiation</masterLabel>
+            <translation><!-- Change Type initiation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closure</masterLabel>
+            <translation><!-- Closure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closure Approval</masterLabel>
+            <translation><!-- Closure Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closure Change Field Approval</masterLabel>
+            <translation><!-- Closure Change Field Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document Change</masterLabel>
+            <translation><!-- Document Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Functional Task</masterLabel>
+            <translation><!-- Functional Task --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Initiation</masterLabel>
+            <translation><!-- Initiation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investigation</masterLabel>
+            <translation><!-- Investigation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investigation Approval</masterLabel>
+            <translation><!-- Investigation Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investigation Change Field Approval</masterLabel>
+            <translation><!-- Investigation Change Field Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Change</masterLabel>
+            <translation><!-- Product Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Evaluation</masterLabel>
+            <translation><!-- Product Evaluation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Evaluation Approval</masterLabel>
+            <translation><!-- Product Evaluation Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Evaluation Change Field Approval</masterLabel>
+            <translation><!-- Product Evaluation Change Field Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product User Details</masterLabel>
+            <translation><!-- Product User Details --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reference</masterLabel>
+            <translation><!-- Reference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolution</masterLabel>
+            <translation><!-- Resolution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Review DHR</masterLabel>
+            <translation><!-- Review DHR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Review DHR Approval</masterLabel>
+            <translation><!-- Review DHR Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Review DHR Change Field Approval</masterLabel>
+            <translation><!-- Review DHR Change Field Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Security</masterLabel>
+            <translation><!-- Security --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ServiceProvider</masterLabel>
+            <translation><!-- ServiceProvider --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Created --></label>
+        <name>QPMS__isCreated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deleted --></label>
+        <name>QPMS__isDeleted__c</name>
+    </fields>
+</CustomObjectTranslation>

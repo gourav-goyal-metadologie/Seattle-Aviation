@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Calibration Criteria</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Calibration Criterias</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Asset Profile Criteria Contextual --></label>
+        <name>QPMS__Asset_Profile_Criteria_Contextual</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Audit Trail --></label>
+        <name>QPMS__Audit_Trail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Calibrate Attribute Criteria For Details --></label>
+        <name>QPMS__Calibrate_Attribute_Criteria_For_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Calibrate Attribute ListView --></label>
+        <name>QPMS__Calibrate_Attribute_ListView</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Calibrate Variable ListView --></label>
+        <name>QPMS__Calibrate_Variable_ListView</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Calibration Attribute Criteria List View --></label>
+        <name>QPMS__Calibration_Attribute_Criteria_List_View</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Calibration Criteria List View --></label>
+        <name>QPMS__Calibration_Criteria_List_View</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CriteriaCharacteristicContextualHelp --></label>
+        <name>QPMS__CriteriaCharacteristicContextualHelp</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Export Fields --></label>
+        <name>QPMS__Export_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QueryFields --></label>
+        <name>QPMS__QueryFields</name>
+    </fieldSets>
+    <fields>
+        <help><!-- After Calibration Measurement --></help>
+        <label><!-- After Calibration Measurement --></label>
+        <name>QPMS__After_Calibration_Measurement__c</name>
+    </fields>
+    <fields>
+        <help><!-- As Received Measurement --></help>
+        <label><!-- As Received Measurement --></label>
+        <name>QPMS__As_Received_Measurement__c</name>
+    </fields>
+    <fields>
+        <help><!-- Calibration --></help>
+        <label><!-- Calibration --></label>
+        <name>QPMS__Calibration__c</name>
+        <relationshipLabel><!-- Calibration Criterias --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Criteria_Name --></help>
+        <label><!-- Criteria Name --></label>
+        <name>QPMS__Criteria_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Criteria Type --></label>
+        <name>QPMS__Criteria_Type__c</name>
+        <picklistValues>
+            <masterLabel>Attribute</masterLabel>
+            <translation><!-- Attribute --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Variable</masterLabel>
+            <translation><!-- Variable --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Criteria --></help>
+        <label><!-- Criteria --></label>
+        <name>QPMS__Criteria__c</name>
+        <relationshipLabel><!-- Calibration Criterias --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Description --></help>
+        <label><!-- Description --></label>
+        <name>QPMS__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>QPMS__External_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Last Modified By --></help>
+        <label><!-- Last Modified By --></label>
+        <name>QPMS__Last_Modified_By__c</name>
+    </fields>
+    <fields>
+        <help><!-- Measurement --></help>
+        <label><!-- Measurement --></label>
+        <name>QPMS__Measurement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Result --></label>
+        <name>QPMS__Result__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Tolerance_Minus --></help>
+        <label><!-- Tolerance (-) --></label>
+        <name>QPMS__Tolerance_Minus__c</name>
+    </fields>
+    <fields>
+        <help><!-- Tolerance_Plus --></help>
+        <label><!-- Tolerance(+) --></label>
+        <name>QPMS__Tolerance_Plus__c</name>
+    </fields>
+    <fields>
+        <help><!-- Unit Of Measurement --></help>
+        <label><!-- UOM --></label>
+        <name>QPMS__UOM__c</name>
+        <picklistValues>
+            <masterLabel>cm</masterLabel>
+            <translation><!-- cm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>g</masterLabel>
+            <translation><!-- g --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>inch</masterLabel>
+            <translation><!-- inch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>kg</masterLabel>
+            <translation><!-- kg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>lbs</masterLabel>
+            <translation><!-- lbs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>m</masterLabel>
+            <translation><!-- m --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>mm</masterLabel>
+            <translation><!-- mm --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Calibration Criteria Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nombre de criterios de calibración</nameFieldLabel>
+</CustomObjectTranslation>

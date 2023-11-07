@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Select the API user.   See Admin Guide --></help>
+        <label><!-- API User --></label>
+        <name>BillNPay__API_User__c</name>
+        <relationshipLabel><!-- Merchant --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Counts Active ACH Gateways to ensure only 1 is active --></help>
+        <label><!-- Active ACH Gateways --></label>
+        <name>BillNPay__Active_ACH_Gateways__c</name>
+    </fields>
+    <fields>
+        <help><!-- Counts Active Card Gateways to ensure only 1 is active --></help>
+        <label><!-- Active Card Gateways --></label>
+        <name>BillNPay__Active_Card_Gateways__c</name>
+    </fields>
+    <fields>
+        <help><!-- Active Merchant Record --></help>
+        <label><!-- Active --></label>
+        <name>BillNPay__Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- Bank account for paying monthly Bill &amp; Pay bills --></help>
+        <label><!-- Bank Account Number --></label>
+        <name>BillNPay__Bank_Account_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Account Type --></label>
+        <name>BillNPay__Bank_Account_Type__c</name>
+        <picklistValues>
+            <masterLabel>Checking</masterLabel>
+            <translation><!-- Checking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Savings</masterLabel>
+            <translation><!-- Savings --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Bank account for paying monthly Bill &amp; Pay bills --></help>
+        <label><!-- Bank Routing Number --></label>
+        <name>BillNPay__Bank_Routing_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is primarily used with the Embedded Payment Widget.  See Admin Guide for additional info
+Recommend: Unchecked --></help>
+        <label><!-- Enable Guest Pay --></label>
+        <name>BillNPay__Enable_Guest_Pay__c</name>
+    </fields>
+    <fields>
+        <help><!-- In HPP, can customers make payments above the due amount.  Example, can use pay loan down faster --></help>
+        <label><!-- Enable Over Payments --></label>
+        <name>BillNPay__Enable_Over_Payments__c</name>
+    </fields>
+    <fields>
+        <help><!-- In HPP, can customers make partial payments, or must they pay in full --></help>
+        <label><!-- Enable Partial Payments --></label>
+        <name>BillNPay__Enable_Partial_Payments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Friday End --></label>
+        <name>BillNPay__Friday_End__c</name>
+    </fields>
+    <fields>
+        <label><!-- Friday Start --></label>
+        <name>BillNPay__Friday_Start__c</name>
+    </fields>
+    <fields>
+        <help><!-- Email address to display as sender for Email2Pay. Example &quot;no-reply@cetmobile.com&quot; --></help>
+        <label><!-- From Email (Deprecate) --></label>
+        <name>BillNPay__From_Email__c</name>
+    </fields>
+    <fields>
+        <help><!-- If Checked, user has option to opt out of saving Payment Method on HPP.  If user opts out, user must re-enter payment method every time.  
+If Unchecked, user cannot opt out of saving Payment Method.
+Recommend: Unchecked --></help>
+        <label><!-- HPP-Show &quot;Save my Payment Method&quot; --></label>
+        <name>BillNPay__HPP_Save_Payment_Method__c</name>
+    </fields>
+    <fields>
+        <help><!-- If Checked, user will see existing payment methods to select from on HPP.  
+If Unchecked user must re-enter new method every time.  
+Recommend: Checked --></help>
+        <label><!-- HPP-Show Existing Payment Method --></label>
+        <name>BillNPay__HPP_Show_Payment_Method__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Running oAuth --></label>
+        <name>BillNPay__IsRunningOAuth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key DEPRECATED --></label>
+        <name>BillNPay__Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- Maximum Amount - ACH --></label>
+        <name>BillNPay__Maximum_Amount_ACH__c</name>
+    </fields>
+    <fields>
+        <label><!-- Maximum Amount - Card --></label>
+        <name>BillNPay__Maximum_Amount_Card__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used for invoices &amp; hosted payment page
+
+PNG or JPG
+Full color
+200 x 120 pxl max
+Images used in email will be resized to fit
+Transparent or white background
+Hosted by the merchant with a fully qualified URL
+Manage HTTP/HTTPS to avoid pos --></help>
+        <label><!-- Merchant Logo URL --></label>
+        <name>BillNPay__Merchant_Logo_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merchant Reply-To Email --></label>
+        <name>BillNPay__Merchant_Reply_To_Email__c</name>
+    </fields>
+    <fields>
+        <help><!-- Assigned during registration --></help>
+        <label><!-- Merchant ID --></label>
+        <name>BillNPay__Merchant_id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Minimum Amount - ACH --></label>
+        <name>BillNPay__Minimum_Amount_ACH__c</name>
+    </fields>
+    <fields>
+        <label><!-- Minimum Amount - Card --></label>
+        <name>BillNPay__Minimum_Amount_Card__c</name>
+    </fields>
+    <fields>
+        <label><!-- Monday End --></label>
+        <name>BillNPay__Monday_End__c</name>
+    </fields>
+    <fields>
+        <label><!-- Monday Start --></label>
+        <name>BillNPay__Monday_Start__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check if deployed into org with Non-Profit Success Pack (NPSP) --></help>
+        <label><!-- Non-Profit --></label>
+        <name>BillNPay__Non_Profit__c</name>
+    </fields>
+    <fields>
+        <help><!-- Must be always checked to ensure the integration between Authvia to SF --></help>
+        <label><!-- OAuth --></label>
+        <name>BillNPay__OAuth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Org Token --></label>
+        <name>BillNPay__Org_Token__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Plan --></label>
+        <name>BillNPay__Payment_Plan__c</name>
+        <picklistValues>
+            <masterLabel>Business - Large</masterLabel>
+            <translation><!-- Business - Large --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business - Medium</masterLabel>
+            <translation><!-- Business - Medium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business - Small</masterLabel>
+            <translation><!-- Business - Small --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enterprise</masterLabel>
+            <translation><!-- Enterprise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lite</masterLabel>
+            <translation><!-- Lite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Starter</masterLabel>
+            <translation><!-- Starter --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Switch between Authvia production and sandbox environments.  Normally this will align Sandbox for Salesforce Sandboxes and Production for Salesforce Production.  However, for debugging or testing you may modify. --></help>
+        <label><!-- Payment Environment --></label>
+        <name>BillNPay__Payment_Type__c</name>
+        <picklistValues>
+            <masterLabel>Production Payments</masterLabel>
+            <translation><!-- Production Payments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sandbox Payments</masterLabel>
+            <translation><!-- Sandbox Payments --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Private Key DEPRECATED --></label>
+        <name>BillNPay__Private_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- Saturday End --></label>
+        <name>BillNPay__Saturday_End__c</name>
+    </fields>
+    <fields>
+        <label><!-- Saturday Start --></label>
+        <name>BillNPay__Saturday_Start__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select whether you want email payment receipts to be sent using Authvia or Salesforce Email Template(s) sent using Process Builder. --></help>
+        <label><!-- Send Payment Receipt Via --></label>
+        <name>BillNPay__Send_Payment_Receipt_Via__c</name>
+        <picklistValues>
+            <masterLabel>Authvia</masterLabel>
+            <translation><!-- Authvia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce</masterLabel>
+            <translation><!-- Salesforce --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- When checked, the HPP payment confirmation page will have a &quot;Request Receipt&quot; button.  If clicked by customer, this button sends a payment confirmation email from AuthVia (not Salesforce).   Recommend: Unchecked --></help>
+        <label><!-- HPP-Show Request Receipt Button --></label>
+        <name>BillNPay__Show_Request_Receipt__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>BillNPay__State__c</name>
+        <picklistValues>
+            <masterLabel>AK</masterLabel>
+            <translation><!-- AK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AL</masterLabel>
+            <translation><!-- AL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AR</masterLabel>
+            <translation><!-- AR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZ</masterLabel>
+            <translation><!-- AZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA</masterLabel>
+            <translation><!-- CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO</masterLabel>
+            <translation><!-- CO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CT</masterLabel>
+            <translation><!-- CT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE</masterLabel>
+            <translation><!-- DE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL</masterLabel>
+            <translation><!-- FL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA</masterLabel>
+            <translation><!-- GA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HI</masterLabel>
+            <translation><!-- HI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IA</masterLabel>
+            <translation><!-- IA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID</masterLabel>
+            <translation><!-- ID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IL</masterLabel>
+            <translation><!-- IL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN</masterLabel>
+            <translation><!-- IN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KS</masterLabel>
+            <translation><!-- KS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KY</masterLabel>
+            <translation><!-- KY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA</masterLabel>
+            <translation><!-- LA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA</masterLabel>
+            <translation><!-- MA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MD</masterLabel>
+            <translation><!-- MD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME</masterLabel>
+            <translation><!-- ME --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI</masterLabel>
+            <translation><!-- MI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MN</masterLabel>
+            <translation><!-- MN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MO</masterLabel>
+            <translation><!-- MO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS</masterLabel>
+            <translation><!-- MS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT</masterLabel>
+            <translation><!-- MT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC</masterLabel>
+            <translation><!-- NC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ND</masterLabel>
+            <translation><!-- ND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NE</masterLabel>
+            <translation><!-- NE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NH</masterLabel>
+            <translation><!-- NH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ</masterLabel>
+            <translation><!-- NJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NM</masterLabel>
+            <translation><!-- NM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NV</masterLabel>
+            <translation><!-- NV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY</masterLabel>
+            <translation><!-- NY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK</masterLabel>
+            <translation><!-- OK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR</masterLabel>
+            <translation><!-- OR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA</masterLabel>
+            <translation><!-- PA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RI</masterLabel>
+            <translation><!-- RI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC</masterLabel>
+            <translation><!-- SC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SD</masterLabel>
+            <translation><!-- SD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TN</masterLabel>
+            <translation><!-- TN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX</masterLabel>
+            <translation><!-- TX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UT</masterLabel>
+            <translation><!-- UT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VA</masterLabel>
+            <translation><!-- VA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VT</masterLabel>
+            <translation><!-- VT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WA</masterLabel>
+            <translation><!-- WA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WI</masterLabel>
+            <translation><!-- WI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WV</masterLabel>
+            <translation><!-- WV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WY</masterLabel>
+            <translation><!-- WY --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sunday End --></label>
+        <name>BillNPay__Sunday_End__c</name>
+    </fields>
+    <fields>
+        <help><!-- Set the Start time when messaging to consumers is allowed --></help>
+        <label><!-- Sunday Start --></label>
+        <name>BillNPay__Sunday_Start__c</name>
+    </fields>
+    <fields>
+        <help><!-- Use Create Merchant Wizard to set --></help>
+        <label><!-- Terms &amp; Conditions --></label>
+        <name>BillNPay__Terms_Conditions__c</name>
+    </fields>
+    <fields>
+        <help><!-- Password is used to connect to the AuthVia server.  You will probably not need to login to the AuthVia portal except for troubleshooting.  Make a note of this password just in case. --></help>
+        <label><!-- Merchant Password --></label>
+        <name>BillNPay__Text2Pay_Password__c</name>
+    </fields>
+    <fields>
+        <help><!-- Merchant portal master user name --></help>
+        <label><!-- Merchant Username --></label>
+        <name>BillNPay__Text2Pay_Username__c</name>
+    </fields>
+    <fields>
+        <label><!-- Thursday End --></label>
+        <name>BillNPay__Thursday_End__c</name>
+    </fields>
+    <fields>
+        <label><!-- Thursday Start --></label>
+        <name>BillNPay__Thursday_Start__c</name>
+    </fields>
+    <fields>
+        <label><!-- Timezone --></label>
+        <name>BillNPay__Timezone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tuesday End --></label>
+        <name>BillNPay__Tuesday_End__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tuesday Start --></label>
+        <name>BillNPay__Tuesday_Start__c</name>
+    </fields>
+    <fields>
+        <help><!-- When a pmt record is created without Account/Contact, Authvia assigns one using mobile #/email or creates new Account/Contact. This field tells Bill&amp;Pay to search Account or Contact.  Select Non-Profit for NPSP. --></help>
+        <label><!-- Headless Payment User Object --></label>
+        <name>BillNPay__User_Object__c</name>
+        <picklistValues>
+            <masterLabel>Account</masterLabel>
+            <translation><!-- Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contact</masterLabel>
+            <translation><!-- Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Profit</masterLabel>
+            <translation><!-- Non-Profit --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Set by system --></help>
+        <label><!-- Webhook --></label>
+        <name>BillNPay__Webhook__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wednesday End --></label>
+        <name>BillNPay__Wednesday_End__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wednesday Start --></label>
+        <name>BillNPay__Wednesday_Start__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zip Code --></label>
+        <name>BillNPay__Zip__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>BillNPay__city__c</name>
+    </fields>
+    <fields>
+        <help><!-- The merchant&apos;s support email address --></help>
+        <label><!-- Merchant Support Email --></label>
+        <name>BillNPay__help_email__c</name>
+    </fields>
+    <fields>
+        <help><!-- Merchant&apos;s corporate phone number --></help>
+        <label><!-- Phone --></label>
+        <name>BillNPay__phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Street Address --></label>
+        <name>BillNPay__street_address__c</name>
+    </fields>
+    <fields>
+        <help><!-- Merchant&apos;s Website landing page.  Appears in invoice templates and hosted payment page --></help>
+        <label><!-- Website --></label>
+        <name>BillNPay__website__c</name>
+    </fields>
+    <layouts>
+        <layout>Merchant Layout</layout>
+        <sections>
+            <label><!-- App Behavior Settings --></label>
+            <section>App Behavior Settings</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Integration Settings --></label>
+            <section>Integration Settings</section>
+        </sections>
+        <sections>
+            <label><!-- Text Notification Window (Time of day when texts can be sent) --></label>
+            <section>Text Notification Window (Time of day when texts can be sent)</section>
+        </sections>
+        <sections>
+            <label><!-- logo --></label>
+            <section>logo</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Only 1 Gateway can be active for ACH.  To make your Gateway Active, uncheck the Active box on the existing Gateway for Payment Method = ACH or Both.  Note: the old Gateway will still be in use until you make this one Active --></errorMessage>
+        <name>BillNPay__One_Active_ACH_Gateway</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only 1 Gateway can be active for Card Payments.  To make your Gateway Active, uncheck the Active box on the existing Gateway for Payment Method = Card or Both.  Note: the old Gateway will still be in use until you make this one Active --></errorMessage>
+        <name>BillNPay__One_Active_Card_Gateway</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- It is not possible to switch an existing Merchant between Production and Sandbox.   Instead, create separate Merchants for each Type with only one set to active at a time --></errorMessage>
+        <name>BillNPay__Payment_Environment_Change</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Create_Merchant_Wizard --></label>
+        <name>BillNPay__Create_Merchant_Wizard</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Terms_Conditions --></label>
+        <name>BillNPay__Terms_Conditions</name>
+    </webLinks>
+</CustomObjectTranslation>

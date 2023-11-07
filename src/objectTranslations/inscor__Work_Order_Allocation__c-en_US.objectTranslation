@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Allocation Type --></label>
+        <name>inscor__Allocation_Type__c</name>
+        <picklistValues>
+            <masterLabel>Purchase Order</masterLabel>
+            <translation><!-- Purchase Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair Order</masterLabel>
+            <translation><!-- Repair Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stock</masterLabel>
+            <translation><!-- Stock --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- BOM --></label>
+        <name>inscor__BOM__c</name>
+        <relationshipLabel><!-- Work Order Allocations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Condition Code --></label>
+        <name>inscor__Condition_Code__c</name>
+        <relationshipLabel><!-- Work Order Allocations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Issued --></label>
+        <name>inscor__Date_Issued__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inventory Line --></label>
+        <name>inscor__Inventory_Line__c</name>
+        <relationshipLabel><!-- Work Order Allocations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Issued By --></label>
+        <name>inscor__Issued_By__c</name>
+        <relationshipLabel><!-- Work Order Allocations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Material Type --></label>
+        <name>inscor__Material_Type__c</name>
+        <picklistValues>
+            <masterLabel>Part Off</masterLabel>
+            <translation><!-- Part Off --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Part On</masterLabel>
+            <translation><!-- Part On --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Part Number --></label>
+        <name>inscor__Part_Number__c</name>
+        <relationshipLabel><!-- Work Order Allocations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Purchase Order Line --></label>
+        <name>inscor__Purchase_Order_Line__c</name>
+        <relationshipLabel><!-- Work Order Allocations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity Allocated --></label>
+        <name>inscor__Quantity_Allocated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Consumed --></label>
+        <name>inscor__Quantity_Consumed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Invoiced --></label>
+        <name>inscor__Quantity_Invoiced__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Issued --></label>
+        <name>inscor__Quantity_Issued__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Returned --></label>
+        <name>inscor__Quantity_Returned__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Unbilled --></label>
+        <name>inscor__Quantity_Unbilled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference ID --></label>
+        <name>inscor__Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Repair Order Line --></label>
+        <name>inscor__Repair_Order_Line__c</name>
+        <relationshipLabel><!-- Work Order Allocations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>inscor__Status__c</name>
+        <picklistValues>
+            <masterLabel>Allocated</masterLabel>
+            <translation><!-- Allocated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Issued</masterLabel>
+            <translation><!-- Issued --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Work Order Material --></label>
+        <name>inscor__Work_Order_Material__c</name>
+        <relationshipLabel><!-- Work Order Allocations --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>AvSight Work Order Allocation Layout</layout>
+        <sections>
+            <label><!-- Allocation Information --></label>
+            <section>Allocation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Issue Information --></label>
+            <section>Issue Information</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

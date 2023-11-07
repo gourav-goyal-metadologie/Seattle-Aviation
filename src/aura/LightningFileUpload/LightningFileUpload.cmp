@@ -1,0 +1,117 @@
+<aura:component controller="LightningFileUploadController" 
+                implements="lightning:availableForFlowScreens,force:appHostable,force:hasRecordId,forceCommunity:availableForAllPageTypes,flexipage:availableForAllPageTypes" 
+                access="global" >  
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>  
+    <aura:attribute name="files" type="LightningFileUploadController.ContentDocumentWrapper[]"/>  
+    <aura:attribute name="recordId" type="String" />  
+    <aura:attribute name="acceptFileTypes" type="String" />  
+    <aura:attribute name="showRequired" type="Boolean" default="false" /> 
+    <aura:attribute name="showFileHeader" type="Boolean" default="true" />  
+    <aura:attribute name="fileHeaderText" type="String" default="Documents" /> 
+    <aura:attribute name="uploadMultiple" type="Boolean" default="true"/>  
+    <aura:attribute name="category" type="String" />    
+    <aura:attribute name="showSpinner" type="boolean" default="false"/>
+    <aura:attribute name="isGuestUser" type="boolean" default="false"/>
+    <aura:attribute name="allowUpload" type="Boolean" default="true" />  
+    <aura:attribute name="allowDelete" type="Boolean" default="true" /> 
+    <aura:attribute name="helpText" type="String" default="" /> 
+    
+    <aura:attribute name="showPopup" type="Boolean" default="false" /> 
+    <aura:attribute name="fileUrl" type="String" default="" /> 
+    <aura:attribute name="fileTitle" type="String" default="" /> 
+    
+    <aura:attribute name="guid" type="String" />
+    
+    
+    <div class="slds-card slds-card_boundary">  
+        <!-- show or hide header -->
+        <aura:if isTrue="{!v.showFileHeader}">
+            <div class="slds-page-header">
+                
+                <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                    <div class="slds-media__figure">
+                        <span class="slds-icon_container header-icon">
+                            <img src="/img/icon/t4v35/standard/file_120.png" title="{!v.fileHeaderText}" alt="{!v.fileHeaderText}" 
+                                 height="24" width="24"/>
+                        </span>
+                    </div>
+                    <div class="slds-media__body">
+                        <h2 class="slds-card__header-title">
+                            <aura:if isTrue="{!v.showRequired}">
+                                <abbr class="slds-required" title="required">*</abbr>
+                            </aura:if>
+                            <span>
+                                {!v.fileHeaderText}
+                            </span>
+                        </h2>
+                    </div>
+                </header>
+
+            </div>  
+        </aura:if>
+        
+        <div class="slds-form--compound">
+            <div class="slds-grid slds-wrap">
+                <div class="slds-col slds-size_4-of-12 slds-p-around_x-small slds-text-align_center">
+                    Line Number
+                </div>
+                <div class="slds-col slds-size_4-of-12 slds-p-around_x-small slds-text-align_center">
+                    Part Number
+                </div>
+                <div class="slds-col slds-size_4-of-12 slds-p-around_x-small slds-text-align_center">
+                    Action
+                </div>
+                <aura:iteration items="{!v.files}" var="f" indexVar="index">
+                    <div class="slds-col slds-size_4-of-12 slds-p-around_x-small slds-text-align_center">
+                            {!f.LineNumber}
+                    </div>
+                    <div class="slds-col slds-size_4-of-12 slds-p-around_x-small slds-text-align_center">
+                        {!f.Title}
+                    </div>
+                    <div class="slds-col slds-size_4-of-12 slds-p-around_x-small slds-text-align_center">
+                        <a id="{!index}" target="_blank" onclick="{!c.previewFile}">
+                            Preview File
+                        </a>
+                        /
+                        <a id="{!index}" target="_blank" onclick="{!c.downloadFile}">
+                            Download
+                        </a>
+                    </div>
+                   
+                </aura:iteration>
+            </div>
+            <!-- show spinner logo when needed -->
+            <aura:if isTrue="{!v.showSpinner}">
+                <div class="slds-spinner_container">
+                    <div class="slds-spinner slds-spinner--medium" aria-hidden="false" role="alert">
+                        <div class="slds-spinner__dot-a"></div>
+                        <div class="slds-spinner__dot-b"></div>
+                    </div>
+                </div>
+            </aura:if>
+        </div> 
+    </div>  
+    
+    <aura:if isTrue="{!v.showPopup}">
+        <section role="dialog" tabindex="-1" class="slds-modal slds-fade-in-open slds-modal_large" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1">
+            <div class="slds-modal__container">
+                <header class="slds-modal__header">
+                    <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" title="Close"
+                            onclick="{!c.hideFilePreview}">
+                        <lightning:icon iconName="utility:close"  />
+
+                    </button>
+                    <h2 id="modal-heading-01" class="slds-modal__title slds-hyphenate">{!v.fileTitle}</h2>
+                </header>
+                <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+                    <iframe src="{!v.fileUrl}" width="100%" height="380px;" frameBorder="0"/>
+                </div>
+                <footer class="slds-modal__footer">
+                    <button class="slds-button slds-button_neutral"
+                            onclick="{!c.hideFilePreview}">Cancel</button>
+                </footer>
+            </div>
+        </section>
+        <div class="slds-backdrop slds-backdrop_open"></div>
+    </aura:if>
+</aura:component>

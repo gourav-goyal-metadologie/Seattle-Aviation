@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- The bank account which will be reconciled. Only source records associated with this bank account will be associated with this bank reconciliation. --></help>
+        <label><!-- Bank/Credit Card Account --></label>
+        <name>AcctSeed__Bank_Account__c</name>
+        <relationshipLabel><!-- Bank Reconciliations --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The beginning balance of the bank reconciliation. Should match the ending balance of the prior reconciliation. --></help>
+        <label><!-- Beginning Balance --></label>
+        <name>AcctSeed__Beginning_Balance__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the beginning balance + cleared deposits - cleared disbursements. --></help>
+        <label><!-- Cleared Balance --></label>
+        <name>AcctSeed__Calculated_Ending_Balance__c</name>
+    </fields>
+    <fields>
+        <help><!-- If bank, calculated as statement ending balance + uncleared deposits - uncleared payments. If credit card, calculated as statement ending balance - uncleared payments + uncleared charges. --></help>
+        <label><!-- Calculated Balance --></label>
+        <name>AcctSeed__Calculated_GL_Balance__c</name>
+    </fields>
+    <fields>
+        <help><!-- The aggregate amount of cleared deposits associated with this bank reconciliation. This includes all cleared cash receipts, bank deposits, and journal lines with a debit balance. --></help>
+        <label><!-- Cleared Deposits --></label>
+        <name>AcctSeed__Cleared_Deposits__c</name>
+    </fields>
+    <fields>
+        <help><!-- The aggregate amount of cleared disbursements for the bank reconciliation. This includes all cleared cash disbursements and journal entry lines with a credit balance. --></help>
+        <label><!-- Cleared Payments --></label>
+        <name>AcctSeed__Cleared_Disbursements__c</name>
+    </fields>
+    <fields>
+        <help><!-- The end date for the period to be reconciled. --></help>
+        <label><!-- Statement Ending Date --></label>
+        <name>AcctSeed__End_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- The ending balance of the bank reconciliation. --></help>
+        <label><!-- Statement Ending Balance --></label>
+        <name>AcctSeed__Ending_Balance__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used to hold any error messages encountered while transitioning from In Progress to Completed. --></help>
+        <label><!-- Error --></label>
+        <name>AcctSeed__Error__c</name>
+    </fields>
+    <fields>
+        <help><!-- General Ledger segment used for reporting of a business unit such as division or department. --></help>
+        <label><!-- GL Variable 1 --></label>
+        <name>AcctSeed__GL_Account_Variable_1__c</name>
+        <relationshipLabel><!-- Bank Reconciliations --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- General Ledger segment used for reporting of a business unit such as division or department. --></help>
+        <label><!-- GL Variable 2 --></label>
+        <name>AcctSeed__GL_Account_Variable_2__c</name>
+        <relationshipLabel><!-- Bank Reconciliations (GL Account Variable 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- General Ledger segment used for reporting of a business unit such as division or department. --></help>
+        <label><!-- GL Variable 3 --></label>
+        <name>AcctSeed__GL_Account_Variable_3__c</name>
+        <relationshipLabel><!-- Bank Reconciliations (GL Account Variable 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- General Ledger segment used for reporting of a business unit such as division or department. --></help>
+        <label><!-- GL Variable 4 --></label>
+        <name>AcctSeed__GL_Account_Variable_4__c</name>
+        <relationshipLabel><!-- Bank Reconciliations (GL Account Variable 4) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The difference between the calculated balance and the GL ending balance. Should be zero when status is completed. --></help>
+        <label><!-- GL Difference --></label>
+        <name>AcctSeed__GL_Difference__c</name>
+    </fields>
+    <fields>
+        <help><!-- The ending balance of the bank account or credit card GL account per the general ledger as of the statement ending date. --></help>
+        <label><!-- GL Ending Balance --></label>
+        <name>AcctSeed__GL_Ending_Balance__c</name>
+    </fields>
+    <fields>
+        <help><!-- Denotes the associated ledger. --></help>
+        <label><!-- Ledger --></label>
+        <name>AcctSeed__Ledger__c</name>
+        <relationshipLabel><!-- Bank Reconciliations --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Bank reconciliations with this flag set to unchecked are those that exist prior to the modern BR process and do not function with the modern BR process functionality. --></help>
+        <label><!-- Modern BR --></label>
+        <name>AcctSeed__Modern_BR__c</name>
+    </fields>
+    <fields>
+        <help><!-- Cleared balance from prior completed bank reconciliation will not be carried forward to this bank reconciliation if this override selected and a manual beginning balance entered. --></help>
+        <label><!-- Override Beginning Balance --></label>
+        <name>AcctSeed__Override_Beginning_Balance__c</name>
+    </fields>
+    <fields>
+        <help><!-- The start date for the period to be reconciled. --></help>
+        <label><!-- Statement Start Date --></label>
+        <name>AcctSeed__Start_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- A completed status indicates that the cleared balance agrees to the statement ending balance and the calculated balance agrees to the actual GL ending balance. --></help>
+        <label><!-- Status --></label>
+        <name>AcctSeed__Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The type of financial institution account you are reconciling. --></help>
+        <label><!-- Type --></label>
+        <name>AcctSeed__Type__c</name>
+        <picklistValues>
+            <masterLabel>Bank</masterLabel>
+            <translation><!-- Bank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Card</masterLabel>
+            <translation><!-- Credit Card --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The sum of the uncleared incoming funds (bank) or payments (credit card) as of the statement ending date. This includes all uncleared cash receipts, bank deposits and debit journal entry lines. --></help>
+        <label><!-- UnCleared Deposits --></label>
+        <name>AcctSeed__UnCleared_Deposits__c</name>
+    </fields>
+    <fields>
+        <help><!-- The sum of the uncleared outgoing funds (bank) or charges (credit card) as of the statement ending date. This includes all uncleared cash disbursements and credit journal entry lines. --></help>
+        <label><!-- UnCleared Payments --></label>
+        <name>AcctSeed__UnCleared_Payments__c</name>
+    </fields>
+    <fields>
+        <help><!-- The difference between the calculated ending balance and the ending balance. Should be zero when the bank rec is finished. --></help>
+        <label><!-- Difference --></label>
+        <name>AcctSeed__Uncleared_Amount__c</name>
+    </fields>
+    <layouts>
+        <layout>Bank Reconciliation Layout</layout>
+        <sections>
+            <label><!-- Bank Reconciliation Calculation --></label>
+            <section>Bank Reconciliation Calculation</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label><!-- Clear_Unclear_Transactions --></label>
+        <name>AcctSeed__Clear_Unclear_Transactions</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Next --></label>
+        <name>AcctSeed__Create_Next</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Reconciliation_Reports --></label>
+        <name>AcctSeed__Create_Reconciliation_Reports</name>
+    </webLinks>
+</CustomObjectTranslation>

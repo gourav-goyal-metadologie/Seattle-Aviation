@@ -1,0 +1,10 @@
+.THIS .slds-grid_align-end { justify-content: center !important; }
+.THIS .radiusInput .slds-input {
+    border-radius: 0px;
+}
+.THIS .radiusBtn {
+    border-radius: 0px;
+}
+.THIS .labelHidden .slds-form-element__label{
+    display : none;
+}

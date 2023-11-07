@@ -1,0 +1,149 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" access="global" >
+	
+    
+    <ltng:require 
+                 
+                  styles= "{!join(',', 
+                           $Resource.CommunityHeaderCSS+ '/styles/custom.css', 
+                           $Resource.CommunityHeaderCSS+ '/styles/fullcssfile.css', 
+                           $Resource.CommunityHeaderCSS+ '/styles/font_style.css')
+                           }"
+                  scripts="{!$Resource.CommunityHeaderJS + '/jquery-3.3.1.min.js'}"
+                  afterScriptsLoaded="{!c.scriptsLoaded}" />
+    <head>
+        <meta charset="UTF-8"></meta>
+        <meta charset="utf-8"></meta>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"></meta>
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="theme-color" content="#d01a48"></meta>
+        <title>SAS: Aviation spare parts | Aircraft parts at best price</title>
+        <link rel="icon" href="https://www.seattleav.com/media_library/sas-logo-zzaowf.png" type="image/png" sizes="16x16"></link>
+        <meta name="description" content="SAS is one of the best aviation spare parts distributor in the globe. We offer business jet and commercial aviation spares from acclaimed manufacturers" />
+        <meta name="keywords" content="Seattle aviation solution,Aviation spare parts,Gulfstream spare parts,Gulfstream spares"/>
+        <!--<link rel="shortcut icon" href="" >-->
+        <!--<cachetime></cachetime>-->
+        <meta name='robots' content='index, follow'></meta>
+        <meta name='geo.region' content='US-WA' />
+        <meta name='geo.placename' content='Bothell' />
+        <meta name='geo.position' content='47.75987;-122.206829' />
+        <meta name='ICBM' content='47.75987, -122.206829' />
+        <link  href='https://www.seattleav.com/static/frontend/css/fullcssfile.css?1613979661' rel='stylesheet'></link>
+        <link  href='https://www.seattleav.com/static/frontend/css/fonts/font_stlye.css?1613979661' rel='stylesheet'></link>
+        <link  href='https://www.seattleav.com/static/gl_build/common/css/custom.css?1613979661' rel='stylesheet'></link>
+    </head>
+    <body>
+        <header class="header">
+            <div class="sas_hambrgr_wrap"></div>
+            <div class="sas_overlay"></div>
+            <div class="top_header indx_bg">
+                <div class="top_head_col_1">
+                    
+                    <div class="social_icon">
+                        <ul>
+                            <li><a href="https://www.facebook.com/SeattleAviation/"><i class="ti-facebook"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/seattle-aviation/"><i class="ti-linkedin"></i></a></li>
+                            <li><a href="https://twitter.com/seattleav"><i class="gd_icon_twitter_f"></i></a></li>
+                            <li><a href="https://www.instagram.com/seattleaviationsolution/"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="https://www.seattleav.com/blog/"><i class="gd_icon_blogger_f"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="top_head_col_2">
+                    <ul class="contact_link_head">
+                        <!--        
+                            <li class="cagecode">Cage Code: 807A6</li>
+                              <li>
+                                <a href="tel:+1 425-448-5005"><i class="fa fa-phone"></i>
+                                  +1 425-448-5005</a>
+                              </li>
+                              <li>
+                                <a href="mailto:customersupport@seattleav.com"><i class="ti-email"></i>
+                                  customersupport@seattleav.com</a>
+                              </li>
+                              <li class="sas_online_btn"> <a href="http://portal.seattleav.com/(S(vxiaw0y1hjmomf44lu5ghkz1))/Login.aspx"
+                                  target="_blank">Online Portal </a> </li>
+                            -->
+                        <li class="">Cage Code: 807A6</li>
+                        <li>
+                            <a href="mailto:customersupport@seattleav.com"><i class="ti-email"></i>
+                            customersupport@seattleav.com</a>
+                        </li>
+                        <li>
+                            <a href="tel:+1 425-448-5005"><i class="fa fa-phone"></i>
+                            +1 425-448-5005</a>
+                        </li>
+                        <li class="sas_online_btn">              
+                            <a href="https://shop.seattleav.com/Home/Login" target="_blank">
+                            Online Portal            </a>    
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav_header">
+                <div class="logo">
+                    <a href="https://www.seattleav.com/">
+                        <img src="{!$Resource.SeatleAviationLogo}"/>
+                    </a>
+                </div>
+                <div class="menu_block">
+                    <ul>
+                        <li class="">
+                            <a  href='https://www.seattleav.com/home'  >HOME <i class=""></i></a> 
+                        </li>
+                        <li class="dropdown drop drop ">
+                            <div class="drop-down">
+                                <a href="javascript:void(0);" 
+                                    >
+                                PRODUCTS AND SERVICES                                     </a>
+                                <span class="fa fa-angle-down icon "></span>
+                            </div>
+                            <div class="dropdown-menu menu">
+                                <a class="dropdown-item"  href='https://www.seattleav.com/products-and-services/business-aviation-spare-parts'>Business Aviation Spare Parts</a>
+                                <a class="dropdown-item"  href='https://www.seattleav.com/products-and-services/commercial-aviation-spare-parts'>Commercial Aviation Spare parts</a>
+                                <a class="dropdown-item"  href='https://www.seattleav.com/products-and-services/business-aviation-services'>Business Aviation Services</a>
+                                <a class="dropdown-item"  href='https://www.seattleav.com/products-and-services/military-aviation-services'>Military Aviation Services</a>
+                                <a class="dropdown-item"  href='https://www.seattleav.com/products-and-services'>More</a>
+                            </div>
+                        </li>
+                        <li class="dropdown drop drop ">
+                            <div class="drop-down">
+                                <a href="javascript:void(0);" 
+                                    >
+                                RESOURCE CENTER                                     </a>
+                                <span class="fa fa-angle-down icon "></span>
+                            </div>
+                            <div class="dropdown-menu menu">
+                                <a class="dropdown-item"  href='https://www.seattleav.com/resource-center/resources'>Resources</a>
+                                <a class="dropdown-item"  href='https://www.seattleav.com/resource-center/application-for-credit'>Application For Credit</a>
+                            </div>
+                        </li>
+                        <li class="">
+                            <a  href='https://www.seattleav.com/distribution'  >DISTRIBUTION <i class=""></i></a> 
+                        </li>
+                        <li class="">
+                            <a  href='https://shop.seattleav.com/aircraft-parts'   target='_blank'  >INVENTORY <i class=""></i></a> 
+                        </li>
+                        <li class="">
+                            <a  href='https://www.seattleav.com/about-us'  >ABOUT US <i class=""></i></a> 
+                        </li>
+                        <li class="">
+                            <a  href='https://www.seattleav.com/contact'  >CONTACT <i class=""></i></a> 
+                        </li>
+                        <li class="">
+                            <a  href='https://www.seattleav.com/news-and-events'  >NEWS AND EVENTS <i class=""></i></a> 
+                        </li>
+                        <li class="">
+                            <a  href='https://www.seattleav.com/blog'   target='_blank'  >BLOG <i class=""></i></a> 
+                        </li>
+                        <li class="">
+                            <a  href='https://shop.seattleav.com/'   target='_self'  >PRICE QUOTE <i class="fa fa-pencil-square-o"></i></a> 
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="sas_bnr_cover"></div>
+    </body>
+
+</aura:component>

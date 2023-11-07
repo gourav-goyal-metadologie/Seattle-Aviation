@@ -1,0 +1,24 @@
+.THIS .slds-file-selector__body{
+	padding: 1em;
+}
+.THIS .header-icon{
+    background-color: #cd1a48;
+    height: 24px;
+    width: 24px;
+}
+.THIS .W75{
+    width: 75%;
+}
+.THIS .W15{
+    width: 15%;
+}
+.THIS .W10{
+    width: 10%;
+}
+.THIS .slds-icon-utility-close svg{
+    fill: #fff;
+}
+.THIS .slds-col.slds-size_4-of-12.slds-p-around_x-small{
+    border-bottom: 1px solid var(--sds-c-card-color-border, var(--lwc-cardColorBorder,#D4D4D4));
+    border-right: 1px solid var(--sds-c-card-color-border, var(--lwc-cardColorBorder,#D4D4D4));
+}

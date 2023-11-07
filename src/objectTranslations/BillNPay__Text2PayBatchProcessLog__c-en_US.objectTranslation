@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Error Code --></label>
+        <name>BillNPay__ErrorCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error Message --></label>
+        <name>BillNPay__ErrorMsg__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error Type --></label>
+        <name>BillNPay__ErrorType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object --></label>
+        <name>BillNPay__Object__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name of process that triggered this error --></help>
+        <label><!-- Process Name --></label>
+        <name>BillNPay__Process_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Click link to open record that triggered this error --></help>
+        <label><!-- Link to Record --></label>
+        <name>BillNPay__ReferenceRecordId__c</name>
+    </fields>
+    <layouts>
+        <layout>Error Log Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

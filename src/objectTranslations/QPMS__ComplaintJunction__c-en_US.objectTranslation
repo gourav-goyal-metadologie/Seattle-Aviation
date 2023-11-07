@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Adverse Event Codes --></label>
+        <name>QPMS__Adverse_Event_Codes</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- AuditTrailForAdv Prd --></label>
+        <name>QPMS__AuditTrailForAdv_Prd</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CMP CMP Adverse Event Codes Help --></label>
+        <name>QPMS__CMP_CMP_Adverse_Event_Codes_Help</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CMP CMP Product Problem Codes Help --></label>
+        <name>QPMS__CMP_CMP_Product_Problem_Codes_Help</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CMP Product Eva Code Help --></label>
+        <name>QPMS__CMP_Product_Eva_Code_Help</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ComplaintJunctionAuditTrial --></label>
+        <name>QPMS__ComplaintJunctionAuditTrial</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Product Problem Codes --></label>
+        <name>QPMS__Product_Problem_Codes</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QueryFields --></label>
+        <name>QPMS__QueryFields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Access Level --></label>
+        <name>QPMS__Access_Level__c</name>
+        <picklistValues>
+            <masterLabel>Edit</masterLabel>
+            <translation><!-- Edit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Read</masterLabel>
+            <translation><!-- Read --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Adverse Events --></label>
+        <name>QPMS__Adverse_Events__c</name>
+        <relationshipLabel><!-- ComplaintJunction (Adverse Events) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- AuditName --></label>
+        <name>QPMS__AuditName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Audit --></label>
+        <name>QPMS__Audit__c</name>
+        <relationshipLabel><!-- ComplaintJunction --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CAPAName --></label>
+        <name>QPMS__CAPAName__c</name>
+    </fields>
+    <fields>
+        <label><!-- CAPA Name --></label>
+        <name>QPMS__CAPA_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- CAPA --></label>
+        <name>QPMS__CAPA__c</name>
+        <relationshipLabel><!-- ComplaintJunction --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>QPMS__Category__c</name>
+        <picklistValues>
+            <masterLabel>val1</masterLabel>
+            <translation><!-- val1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>val2</masterLabel>
+            <translation><!-- val2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>val3</masterLabel>
+            <translation><!-- val3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Change_ManagementName --></label>
+        <name>QPMS__Change_ManagementName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Change Management --></label>
+        <name>QPMS__Change_Management__c</name>
+        <relationshipLabel><!-- ComplaintJunction --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ComplaintChildName --></label>
+        <name>QPMS__ComplaintChildName__c</name>
+    </fields>
+    <fields>
+        <label><!-- ComplaintChild --></label>
+        <name>QPMS__ComplaintChild__c</name>
+        <relationshipLabel><!-- ComplaintJunction (Complaint) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ComplaintParentName --></label>
+        <name>QPMS__ComplaintParentName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Investigation --></label>
+        <name>QPMS__Complaint_General_Task__c</name>
+        <relationshipLabel><!-- ComplaintJunction --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Complaint Product --></label>
+        <name>QPMS__Complaint_Product__c</name>
+        <relationshipLabel><!-- ComplaintJunction --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Complaint --></label>
+        <name>QPMS__Complaint__c</name>
+        <relationshipLabel><!-- ComplaintJunction --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- DocumentProfileName --></label>
+        <name>QPMS__DocumentProfileName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Profile --></label>
+        <name>QPMS__Document_Profile__c</name>
+        <relationshipLabel><!-- ComplaintJunction --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Group Id --></label>
+        <name>QPMS__Group_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Malfunction Code --></label>
+        <name>QPMS__Malfunction_Code__c</name>
+        <relationshipLabel><!-- Complaint_Malfunction_Codes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Non-ConformanceName --></label>
+        <name>QPMS__Non_ConformanceName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non-Conformance --></label>
+        <name>QPMS__Non_Conformance__c</name>
+        <relationshipLabel><!-- ComplaintJunction --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RegistrationName --></label>
+        <name>QPMS__RegistrationName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Registration --></label>
+        <name>QPMS__Registration__c</name>
+        <relationshipLabel><!-- ComplaintJunction --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>QPMS__Type__c</name>
+        <picklistValues>
+            <masterLabel>Adverse Event Codes</masterLabel>
+            <translation><!-- Adverse Event Codes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Group</masterLabel>
+            <translation><!-- Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Problem Codes</masterLabel>
+            <translation><!-- Product Problem Codes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reference</masterLabel>
+            <translation><!-- Reference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User</masterLabel>
+            <translation><!-- User --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>QPMS__User__c</name>
+        <relationshipLabel><!-- ComplaintJunction --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>ComplaintJunction Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

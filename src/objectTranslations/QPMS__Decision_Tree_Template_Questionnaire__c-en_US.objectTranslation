@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- DTTQuestionnaire Fields --></label>
+        <name>QPMS__DTTQuestionnaire_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- DTT Details --></label>
+        <name>QPMS__DTT_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QueryFields --></label>
+        <name>QPMS__QueryFields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- If --></label>
+        <name>QPMS__Answer__c</name>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Decision Tree Template --></label>
+        <name>QPMS__Decision_Tree_Template__c</name>
+        <relationshipLabel><!-- Decision Tree Template Questionnaires --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ExternalID --></label>
+        <name>QPMS__ExternalID__c</name>
+    </fields>
+    <fields>
+        <label><!-- If No ExternalId --></label>
+        <name>QPMS__If_No_ExternalId__c</name>
+    </fields>
+    <fields>
+        <label><!-- If No Number Of Days --></label>
+        <name>QPMS__If_No_Number_Of_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- If No OutCome --></label>
+        <name>QPMS__If_No_OutCome__c</name>
+        <picklistValues>
+            <masterLabel>No Report</masterLabel>
+            <translation><!-- No Report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reportable within 10 Days</masterLabel>
+            <translation><!-- Reportable within 10 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reportable within 15 Days</masterLabel>
+            <translation><!-- Reportable within 15 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reportable within 20 Days</masterLabel>
+            <translation><!-- Reportable within 20 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reportable within 30 Days</masterLabel>
+            <translation><!-- Reportable within 30 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reportable within 5 Days</masterLabel>
+            <translation><!-- Reportable within 5 Days --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- If_No --></label>
+        <name>QPMS__If_No__c</name>
+        <relationshipLabel><!-- Decision Tree Template Questionnaires (If_No) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- If No --></label>
+        <name>QPMS__If_No_formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- If Yes ExternalId --></label>
+        <name>QPMS__If_Yes_ExternalId__c</name>
+    </fields>
+    <fields>
+        <label><!-- If Yes Number Of Days --></label>
+        <name>QPMS__If_Yes_Number_Of_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- If Yes OutCome --></label>
+        <name>QPMS__If_Yes_OutCome__c</name>
+        <picklistValues>
+            <masterLabel>No Report</masterLabel>
+            <translation><!-- No Report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reportable within 10 Days</masterLabel>
+            <translation><!-- Reportable within 10 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reportable within 15 Days</masterLabel>
+            <translation><!-- Reportable within 15 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reportable within 20 Days</masterLabel>
+            <translation><!-- Reportable within 20 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reportable within 30 Days</masterLabel>
+            <translation><!-- Reportable within 30 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reportable within 5 Days</masterLabel>
+            <translation><!-- Reportable within 5 Days --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- If Yes --></label>
+        <name>QPMS__If_Yes__c</name>
+        <relationshipLabel><!-- Decision Tree Template Questionnaires (If Yes) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Number Of Days --></label>
+        <name>QPMS__Number_Of_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- OutCome --></label>
+        <name>QPMS__OutCome__c</name>
+        <picklistValues>
+            <masterLabel>Not Reportable</masterLabel>
+            <translation><!-- Not Reportable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reportable</masterLabel>
+            <translation><!-- Reportable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reportable within 10 Days</masterLabel>
+            <translation><!-- Reportable within 10 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reportable within 20 Days</masterLabel>
+            <translation><!-- Reportable within 20 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reportable within 30 Days</masterLabel>
+            <translation><!-- Reportable within 30 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reportable within 5 Days</masterLabel>
+            <translation><!-- Reportable within 5 Days --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Question Number --></label>
+        <name>QPMS__Question_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question Shorten --></label>
+        <name>QPMS__Question_Shorten__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question Type --></label>
+        <name>QPMS__Question_Type__c</name>
+        <picklistValues>
+            <masterLabel>Decision Tree</masterLabel>
+            <translation><!-- Decision Tree --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Library</masterLabel>
+            <translation><!-- Library --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Question --></label>
+        <name>QPMS__Question__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>QPMS__Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- height --></label>
+        <name>QPMS__height__c</name>
+    </fields>
+    <fields>
+        <label><!-- if Yes --></label>
+        <name>QPMS__if_Yes_Forumula__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Out Come is not defined --></errorMessage>
+        <name>QPMS__Question_Type_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Question Type Is Mandatory --></errorMessage>
+        <name>QPMS__Question_Type_is_Mandatory</name>
+    </validationRules>
+</CustomObjectTranslation>

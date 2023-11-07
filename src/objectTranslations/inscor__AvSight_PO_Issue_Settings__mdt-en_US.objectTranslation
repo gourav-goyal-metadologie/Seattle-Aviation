@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Allow PO Line SPEC issue from Cons --></label>
+        <name>inscor__Allow_PO_Line_SPEC_issue_from_Cons__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allow PO Line SPEC issue from LOT --></label>
+        <name>inscor__Allow_PO_Line_SPEC_issue_from_LOT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allow PO Line SPEC issue from Spec --></label>
+        <name>inscor__Allow_PO_Line_SPEC_issue_from_Spec__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Approved By --></label>
+        <name>inscor__Approved_By__c</name>
+        <relationshipLabel><!-- Request Items (Approved By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Company --></label>
+        <name>inscor__Company__c</name>
+        <relationshipLabel><!-- Request Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Internal Comments --></label>
+        <name>inscor__Internal_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- PO Line --></label>
+        <name>inscor__PO_Line__c</name>
+        <relationshipLabel><!-- Request Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- PO --></label>
+        <name>inscor__PO__c</name>
+        <relationshipLabel><!-- Request Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RFQ Line --></label>
+        <name>inscor__RFQ_Line__c</name>
+        <relationshipLabel><!-- Request Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RFQ --></label>
+        <name>inscor__RFQ__c</name>
+        <relationshipLabel><!-- Request Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RO Line --></label>
+        <name>inscor__RO_Line__c</name>
+        <relationshipLabel><!-- Request Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RO --></label>
+        <name>inscor__RO__c</name>
+        <relationshipLabel><!-- Request Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Recommended? --></label>
+        <name>inscor__Recommended__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request --></label>
+        <name>inscor__Request__c</name>
+        <relationshipLabel><!-- Request Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Response By --></label>
+        <name>inscor__Response_By__c</name>
+        <relationshipLabel><!-- Request Items (Response By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Response For --></label>
+        <name>inscor__Response_For__c</name>
+        <relationshipLabel><!-- Request Items (Response For) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>inscor__Status__c</name>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requested</masterLabel>
+            <translation><!-- Requested --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Responded</masterLabel>
+            <translation><!-- Responded --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- WO Line --></label>
+        <name>inscor__WO_Line__c</name>
+        <relationshipLabel><!-- Request Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- WO --></label>
+        <name>inscor__WO__c</name>
+        <relationshipLabel><!-- Request Items --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- fiveWhyTempDetails --></label>
+        <name>QPMS__fiveWhyTempDetails</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- fiveWhyTempHistory --></label>
+        <name>QPMS__fiveWhyTempHistory</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Answer --></label>
+        <name>QPMS__Answer__c</name>
+    </fields>
+    <fields>
+        <label><!-- FiveWhy --></label>
+        <name>QPMS__FiveWhy__c</name>
+        <relationshipLabel><!-- FiveWhyTemplates --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- General Task --></label>
+        <name>QPMS__General_Task__c</name>
+    </fields>
+    <fields>
+        <label><!-- How --></label>
+        <name>QPMS__How__c</name>
+    </fields>
+    <fields>
+        <label><!-- NonConformance Id --></label>
+        <name>QPMS__NonConformance_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question --></label>
+        <name>QPMS__Question__c</name>
+    </fields>
+    <fields>
+        <label><!-- RecordType Name --></label>
+        <name>QPMS__RecordType_Name__c</name>
+    </fields>
+    <recordTypes>
+        <description><!-- How --></description>
+        <label><!-- How --></label>
+        <name>QPMS__How</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Why --></description>
+        <label><!-- Why --></label>
+        <name>QPMS__Why</name>
+    </recordTypes>
+</CustomObjectTranslation>

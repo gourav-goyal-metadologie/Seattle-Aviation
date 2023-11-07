@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- The amount associated with this record. The amount is transcribed from the associated source document. --></help>
+        <label><!-- Amount --></label>
+        <name>AcctSeed__Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Bank Deposit  associated with this record. --></help>
+        <label><!-- Bank Deposit --></label>
+        <name>AcctSeed__Bank_Deposit__c</name>
+        <relationshipLabel><!-- Uncleared Bank Reconciliation Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Records the associated Bank Reconciliation. --></help>
+        <label><!-- Bank Reconciliation --></label>
+        <name>AcctSeed__Bank_Reconciliation__c</name>
+        <relationshipLabel><!-- Uncleared Bank Reconciliation Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The Cash Disbursement associated with this record. --></help>
+        <label><!-- Cash Disbursement --></label>
+        <name>AcctSeed__Cash_Disbursement__c</name>
+        <relationshipLabel><!-- Uncleared Bank Reconciliation Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The Cash Receipt  associated with this record. --></help>
+        <label><!-- Cash Receipt --></label>
+        <name>AcctSeed__Cash_Receipt__c</name>
+        <relationshipLabel><!-- Uncleared Bank Reconciliation Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cleared Date --></label>
+        <name>AcctSeed__Cleared_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date --></label>
+        <name>AcctSeed__Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>AcctSeed__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Journal Entry Line  associated with this record. --></help>
+        <label><!-- Journal Entry Line --></label>
+        <name>AcctSeed__Journal_Entry_Line__c</name>
+        <relationshipLabel><!-- Uncleared Bank Reconciliation Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Ledger Amount --></label>
+        <name>AcctSeed__Ledger_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payee Id --></label>
+        <name>AcctSeed__Payee_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payee Name --></label>
+        <name>AcctSeed__Payee_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference --></label>
+        <name>AcctSeed__Reference__c</name>
+    </fields>
+    <fields>
+        <help><!-- The name of the source document associated with this Uncleared Bank Reconciliation Line. This is a system populated field. --></help>
+        <label><!-- Related Source Document --></label>
+        <name>AcctSeed__Related_Source_Document__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>AcctSeed__Type__c</name>
+    </fields>
+    <layouts>
+        <layout>Uncleared Bank Reconciliation Line Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

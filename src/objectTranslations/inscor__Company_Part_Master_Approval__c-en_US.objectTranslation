@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- CQ Approved --></label>
+        <name>inscor__CQ_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company --></label>
+        <name>inscor__Company__c</name>
+        <relationshipLabel><!-- Company Part Master Approval --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Conversion ID --></label>
+        <name>inscor__Conversion_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference ID --></label>
+        <name>inscor__External_Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lease Approved --></label>
+        <name>inscor__Lease_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- PO Approved --></label>
+        <name>inscor__PO_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part Master --></label>
+        <name>inscor__Part_Master__c</name>
+        <relationshipLabel><!-- Company Part Master Approval --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RFQ Approved --></label>
+        <name>inscor__RFQ_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- RO Approved --></label>
+        <name>inscor__RO_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- SO Approved --></label>
+        <name>inscor__SO_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- WO Approved --></label>
+        <name>inscor__WO_Approved__c</name>
+    </fields>
+    <layouts>
+        <layout>Company Part Master Approval Layout</layout>
+        <sections>
+            <label><!-- Company Part Master Information --></label>
+            <section>Company Part Master Information</section>
+        </sections>
+        <sections>
+            <label><!-- Document Approval Information --></label>
+            <section>Document Approval Information</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

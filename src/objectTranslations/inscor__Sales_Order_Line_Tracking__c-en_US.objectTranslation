@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Action --></label>
+        <name>inscor__Action__c</name>
+        <picklistValues>
+            <masterLabel>Allocation</masterLabel>
+            <translation><!-- Allocation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Quote</masterLabel>
+            <translation><!-- Customer Quote --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice</masterLabel>
+            <translation><!-- Invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase</masterLabel>
+            <translation><!-- Purchase --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RFQ</masterLabel>
+            <translation><!-- RFQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receipt</masterLabel>
+            <translation><!-- Receipt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Release</masterLabel>
+            <translation><!-- Release --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair</masterLabel>
+            <translation><!-- Repair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solicitation</masterLabel>
+            <translation><!-- Solicitation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work Order</masterLabel>
+            <translation><!-- Work Order --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Allocation --></label>
+        <name>inscor__Allocation__c</name>
+        <relationshipLabel><!-- Sales Order Line Tracking --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Create Date --></label>
+        <name>inscor__Create_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Quote Line --></label>
+        <name>inscor__Customer_Quote_Line__c</name>
+        <relationshipLabel><!-- Sales Order Line Tracking --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Invoice Line --></label>
+        <name>inscor__Invoice_Line__c</name>
+        <relationshipLabel><!-- Sales Order Line Tracking --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Purchase Order Line --></label>
+        <name>inscor__Purchase_Order_Line__c</name>
+        <relationshipLabel><!-- Sales Order Line Tracking --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RFQ Line --></label>
+        <name>inscor__RFQ_Line__c</name>
+        <relationshipLabel><!-- Sales Order Line Tracking --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Receipt --></label>
+        <name>inscor__Receipt__c</name>
+        <relationshipLabel><!-- Sales Order Line Tracking --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Release Line --></label>
+        <name>inscor__Release_Line__c</name>
+        <relationshipLabel><!-- Sales Order Line Tracking --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Repair Order Line --></label>
+        <name>inscor__Repair_Order_Line__c</name>
+        <relationshipLabel><!-- Sales Order Line Tracking --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sales Order Line --></label>
+        <name>inscor__Sales_Order_Line__c</name>
+        <relationshipLabel><!-- Sales Order Line Tracking --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sales Order --></label>
+        <name>inscor__Sales_Order__c</name>
+        <relationshipLabel><!-- Sales Order Line Tracking --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Solicitation --></label>
+        <name>inscor__Solicitation__c</name>
+        <relationshipLabel><!-- Sales Order Line Tracking --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Work Order --></label>
+        <name>inscor__Work_Order__c</name>
+        <relationshipLabel><!-- Sales Order Line Tracking --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

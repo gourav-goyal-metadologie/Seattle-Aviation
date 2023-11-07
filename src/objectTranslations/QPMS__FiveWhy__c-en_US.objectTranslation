@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- fiveHowHistory --></label>
+        <name>QPMS__fiveHowHistory</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- fiveWhyDetails --></label>
+        <name>QPMS__fiveWhyDetails</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- fiveWhyHistory --></label>
+        <name>QPMS__fiveWhyHistory</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- fiveWhySummaryDetails --></label>
+        <name>QPMS__fiveWhySummaryDetails</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- howDetails --></label>
+        <name>QPMS__howDetails</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Created By --></label>
+        <name>QPMS__Created_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- General Task --></label>
+        <name>QPMS__General_Task__c</name>
+        <relationshipLabel><!-- FiveWhys --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- How Summary --></label>
+        <name>QPMS__HowSummary__c</name>
+    </fields>
+    <fields>
+        <label><!-- How --></label>
+        <name>QPMS__How__c</name>
+    </fields>
+    <fields>
+        <label><!-- LastModifiedBy --></label>
+        <name>QPMS__LastModifiedBy__c</name>
+    </fields>
+    <fields>
+        <label><!-- NonConformance Id --></label>
+        <name>QPMS__NonConformance_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Summary --></label>
+        <name>QPMS__Summary__c</name>
+    </fields>
+    <recordTypes>
+        <description><!-- How --></description>
+        <label><!-- How --></label>
+        <name>QPMS__How</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Why --></description>
+        <label><!-- Why --></label>
+        <name>QPMS__Why</name>
+    </recordTypes>
+</CustomObjectTranslation>

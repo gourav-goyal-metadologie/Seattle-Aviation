@@ -1,0 +1,413 @@
+<apex:page standardController="inscor__Invoice__c" extensions="InvoicePDFController" applyBodyTag="false" renderAs="pdf" action="{!saveAsPDF}">
+    <head>
+        <style type="text/css" media="print">
+            @page:first {
+                    @top-left {
+                    	content: element(header);
+                    }
+            		@bottom-center {
+                    	content: element(footer);
+                    }
+            		
+                    margin-top: 120px;
+            		margin-bottom : 100px;
+            }
+            
+            @page {
+                @top-left {
+                    padding-top : 10px;
+                    content: element(header);
+                    padding-bottom : 160px;
+                    display : block;
+            
+                }
+            	
+                @bottom-center {
+            			content: element(footer);
+            			width: 100%;	
+                    }
+            	
+            	thead {
+                        display: table-header-group;
+                    }
+            	margin-bottom : 100px;
+            	margin-top: 120px;
+            }
+            div.headerFirst {
+                margin-left:5px;
+                position: running(headerFirst);
+                display: block;
+            }
+            div.header {
+            	position: running(header);
+            	display: block;
+            }
+            div.content {
+            position: relative;
+            }
+            div.footer {
+                display: block;
+                padding: 0px;
+                position: running(footer);
+            }
+            
+            
+            .pagenumber:before {
+            content: counter(page);
+            }
+            .pagecount:before {
+            content: counter(pages);
+            }
+            body {
+            font-family: "Arial""Sans-Serif";
+            font-size: 12px;
+            margin: 0px;
+            }
+            .tableHeader {
+                font-weight: bold;
+                background-color: #DADADA;
+                height: 20px;
+                padding: 6px;
+                vertical-align: top;
+            }
+            .columnHeader {
+            text-align: right;
+            }
+            .tableRow {
+            border-bottom: 3px solid #DADADA;
+            padding: 6px;
+            vertical-align:text-top;
+            }
+            .tableRowAmount {
+            background-color: #DADADA;
+            }            
+            .alignRight {
+            text-align: right
+            }
+            .content .margin7{
+            	margin:7px;
+            }
+            .content {
+            	margin:0px;
+            }
+            .items{
+            	-fs-table-paginate: paginate;
+                 border-spacing: 0;
+            	 font-size:11px;
+                 table-layout:fixed;
+            }
+            .wordBreak {
+                word-break: break-all;
+            }
+            
+            .colHeader{
+            	border:1px solid black;
+            	text-align:center; 
+            	vertical-align: middle;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class="header" style="width: 50%; height: 110px;">
+            <table style="width: 100%;">
+                <tr style="width: 100%;padding-bottom:20px;">
+                    <td style="width:100%;text-align:left;padding-top:12px;">
+                        <apex:image url="{!$Resource.SAS_LOGO}" width="264px" height="78px"/>
+                    </td>
+                    <td style="padding-left:350px;"><h1 style="">INVOICE</h1></td>
+                </tr>
+            </table>
+            <br/>
+        </div>
+        
+        <div class="footer" style="font-size:8px;">
+            <apex:outputField value="{!formOptions.inscor__Footer__c}"/>
+            <span  style="float:right;padding-left:48px;padding-right:0px;margin-right;0;">
+                Page&nbsp;<span class="pagenumber" />&nbsp;of&nbsp;<span class="pagecount" />
+            </span>
+        </div>
+        
+        <div class="content">
+            <table  style="width:100%;padding:0px;margin-top:0px;">
+                <tr style="padding:0px;">
+                    <td style="width:60%;padding:0px;">
+                        <strong>
+                            <br/>
+                            Seattle Aviation Solutions<br/>
+                            18103 NE 68 ST, C200 <br/>
+							Redmond, WA 98052 USA<br/>
+                            Tel: +1 425 448 5005<br/>
+                            Email customersupport@seattleav.com<br/>
+                        </strong>
+                    </td>
+                    <td style="width:20%;padding:0px; padding-left:36px;vertical-align:bottom;">
+                        <apex:image value="{!imageUrl}" style="border:0px;padding-left:36px;" title="{!Invoice.Name}"/>
+                    </td>
+                    <!--<td style="width:20%">
+                        <h1 style="float:right">INVOICE</h1>
+                    </td>-->
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td style="width:48%;vertical-align:top">
+                        <table style="width:100%;border-collapse:collapse;border:none">
+                            <tr>
+                                <td style="border:1px solid black" class="tableHeader">
+                                    Billing Address
+                                </td>
+                            </tr>
+                            <tr style="height:95px">
+                                <td style="border:1px solid black;text-align:left; padding-left:10px;">
+                                    <Strong>
+                                        <h3>
+                                        	<span>{!Invoice.inscor__Account__r.Name}</span>
+                                    	</h3>
+                                        <!--{!Invoice.inscor__Account__r.Name}-->
+                                        {!Invoice.inscor__Billing_Street__c} <br/>
+                                        {!Invoice.inscor__Billing_City__c}<br/>
+                                        {!Invoice.inscor__Billing_State__c} {!Invoice.inscor__Billing_Country__c}&nbsp;{!Invoice.inscor__Billing_Postal_Code__c} <br/>
+                                        {!Invoice.inscor__Billing_Contact__r.Phone}<br/>
+                                    </Strong>
+                                </td>
+                            </tr>
+                        </table>
+                        <table style="width:100%;border-collapse:collapse;margin-top:14px;height:50px">
+                            <tr>
+                                <td style="border:1px solid black" class="tableHeader">
+                                    Shipping Address
+                                </td>
+                            </tr>
+                            <tr style="height:95px">
+                                <td style="border:1px solid black;text-align:left; padding-left:10px;">
+                                    <Strong>
+                                        {!Invoice.inscor__Street__c} <br/>
+                                        {!Invoice.inscor__City__c}<br/>
+                                        {!Invoice.inscor__State__c} {!Invoice.inscor__Country__c}&nbsp;{!Invoice.inscor__Zip_Code__c}<br/>
+                                        {!Invoice.inscor__Contact__r.Phone}<br/>
+                                    </Strong>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td style="width:4%;vertical-align:top">
+                        &nbsp;
+                    </td>
+                    <td style="width:48%;vertical-align:top;">
+                        <table style="width:100%;border-collapse:collapse;border:1px solid black">
+                            <tr>
+                                <th style="border:1px solid black" class="tableHeader">
+                                    Information
+                                </th>
+                            </tr>
+                            <tr style="height:230px">
+                                <td style="width:45%;vertical-align:top;border:1px solid black">
+                                    <h3 class="margin7">
+                                        <span style="width:150px;display:inline-block;">Invoice Number:</span>
+                                        <span>{!Invoice.Name}</span>
+                                    </h3>
+                                    <div class="margin7">
+                                        <span style="width:150px;display:inline-block;">Date:</span>
+                                        <span>
+                                            <apex:outputText value="{0,date,MM/dd/yy}">
+                                                <apex:param value="{!Invoice.inscor__Invoice_Date__c}" />
+                                                <!--<apex:param value="{!Today()}" />-->
+                                            </apex:outputText>
+                                        </span>
+                                    </div>
+                                    <div class="margin7">
+                                        <span style="width:150px;display:inline-block;">AWB:</span>
+                                        <span>
+                                            {!Invoice.inscor__AWB__c}
+                                        </span>
+                                    </div>
+                                    <div class="margin7">
+                                        <span style="width:150px;display:inline-block;">Shipping Method:</span>
+                                        <span>
+                                            {!Invoice.inscor__Shipped_Method__r.Name}
+                                        </span>
+                                    </div>
+                                    <div class="margin7">
+                                        <span style="width:150px;display:inline-block;">Purchase Order No.:</span>
+                                        <span>{!Invoice.inscor__Customer_PO_Number__c}</span>
+                                    </div>
+                                    <div class="margin7">
+                                        <span style="width:150px;display:inline-block;">Customer No.:</span>
+                                        <span>
+                                            {!Invoice.inscor__Acct__c}
+                                        </span>
+                                    </div>
+                                    <div class="margin7">
+                                        <span style="width:150px;display:inline-block;">Sales Order No.:</span>
+                                        <span>{!Invoice.inscor__Sales_Order__r.Name}</span>
+                                    </div>
+                                    <div class="margin7">
+                                        <span style="width:150px;display:inline-block;">Sales Order Date:</span>
+                                        <span>
+                                            <apex:outputText value="{0,date,MM/dd/yy}">
+                                                <apex:param value="{!Invoice.inscor__Sales_Order__r.inscor__Create_Date__c }" />
+                                            </apex:outputText>
+                                        </span>
+                                        
+                                    </div>
+                                    <div class="margin7">
+                                        <span style="width:150px;display:inline-block;">Payment Terms:</span>
+                                        <span>{!Invoice.inscor__Account_Terms__r.Name}</span>
+                                    </div>
+                                    <div class="margin7">
+                                        <span style="width:150px;display:inline-block;">Delivery Terms:</span>
+                                        <span>{!Invoice.inscor__Ship_Terms__c}</span>
+                                    </div>
+                                    <div class="margin7">
+                                        <span style="width:150px;display:inline-block;">A/R Contact Name:</span>
+                                        <span>{!Invoice.inscor__Billing_Contact__r.Name}</span>
+                                    </div>
+                                    <apex:outputPanel id="VATPanel" layout="block" rendered="{!Invoice.inscor__Account__r.inscor__VAT__c != ''}">
+                                        <div class="margin7">
+                                            <span style="width:150px;display:inline-block;">VAT:</span>
+                                            <span>{!Invoice.inscor__Account__r.inscor__VAT__c}</span>
+                                        </div>
+                                    </apex:outputPanel>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <table class="items" style="width:100%;border-collapse:collapse;margin-top:25px;margin-bottom:25px;border:1px solid black;">
+                            <thead class="tableHeader">
+                                <th class="colHeader" style="width:3%;">
+                                    Item
+                                </th>
+                                <th class="colHeader" style="width:25%;">
+                                    Part Number
+                                </th>
+                                <th class="colHeader" style="width:5%;">
+                                    Cond Code
+                                </th>
+                                <th class="colHeader" style="width:20%;">
+                                    Description
+                                </th> 
+                                <th class="colHeader" style="width:4%;">
+                                    Qty
+                                </th>
+                                <th class="colHeader" style="width:4%;">
+                                    UOM
+                                </th>
+                                <th class="colHeader" style="width:14%;">
+                                    Sell Price
+                                </th>
+                                <th class="colHeader" style="width:15%;">
+                                    Total
+                                </th>
+                            </thead>
+                            <tbody>
+                            <apex:variable value="{!1}" var="count" />
+                            <apex:repeat value="{!invoiceLines}" var="invoiceLine">         
+                                <tr>
+                                    <td style="border:0.5px solid black;text-align:center;">
+                                        {!count}
+                                        <apex:variable value="{!count+1}" var="count" /> 
+                                    </td>
+                                    <td class="wordBreak" style="border:0.5px solid black;text-align:left; padding-left:8px; page-break-inside: avoid;">
+                                        <div>
+                                            <apex:outputPanel id="itemName" layout="block" rendered="{!invoiceLine.inscor__Item__r.Name != ''}">
+                                                <strong>PN: {!invoiceLine.inscor__Item__r.Name}</strong><br/>
+                                            </apex:outputPanel>
+                                            <apex:outputPanel id="snCode" layout="block" rendered="{!invoiceLine.inscor__Inventory__r.inscor__Serial_Number__c != ''}">
+                                                SN: {!invoiceLine.inscor__Inventory__r.inscor__Serial_Number__c}<br/>
+                                            </apex:outputPanel>
+                                            <apex:outputPanel id="batchCode" layout="block" rendered="{!invoiceLine.inscor__Inventory__r.inscor__Batch_LOT__c != ''}">
+                                                Batch/LOT: {!invoiceLine.inscor__Inventory__r.inscor__Batch_LOT__c}<br/>
+                                            </apex:outputPanel>
+                                            <apex:outputPanel id="htsCode" layout="block" rendered="{!invoiceLine.inscor__Item__r.inscor__HTS_Code__c != ''}">
+                                                HTS: {!invoiceLine.inscor__Item__r.inscor__HTS_Code__c}<br/>
+                                            </apex:outputPanel>
+                                            ECCN: {!invoiceLine.inscor__Item__r.ECCN_Value__c}
+                                        </div>  
+                                    </td>
+                                    <td style="border:0.5px solid black;text-align:center;">
+                                        {!invoiceLine.Condition_Code_Value__c}
+                                    </td>
+                                    <td style="border:0.5px solid black;text-align:center">
+                                        {!invoiceLine.inscor__Item__r.inscor__Description__c}
+                                    </td>
+                                    <td style="border:0.5px solid black;text-align:center;">
+                                        {!invoiceLine.inscor__Quantity__c}
+                                    </td>
+                                    <td style="border:0.5px solid black;text-align:center;">
+                                        {!invoiceLine.inscor__UOM__c}
+                                    </td>
+                                    <td style="border:0.5px solid black;text-align:center;">
+                                        <apex:outputText value="${0, number, ###,###,###,##0.00}">
+                                            <apex:param value="{!invoiceLine.inscor__Price__c}" />
+                                        </apex:outputText>
+                                        
+                                    </td>
+                                    <td style="border:0.5px solid black;text-align:center;">
+                                        <apex:outputText value="${0, number, ###,###,###,##0.00}">
+                                            <apex:param value="{!invoiceLine.inscor__Extended_Price__c}" />
+                                        </apex:outputText>
+                                    </td>
+                                </tr>
+                            </apex:repeat>
+                            
+                            <tr>
+                                <td colspan="5">
+                                </td>
+                                <td style="border:1px solid black" colspan="3">
+                                    <Strong>Total Amount Due
+                                        <span style="float:right;">
+                                            <apex:outputText value="${0, number, ###,###,###,##0.00}">
+                                                <apex:param value="{!Invoice.inscor__Total_Invoice__c}" />
+                                            </apex:outputText>
+                                        </span>
+                                    </Strong>
+                                </td>
+                            </tr>
+                            <!--<tr>
+                                <td colspan="5">
+                                </td>
+                                <td style="border:1px solid black" colspan="3">
+                                    <Strong>Currency
+                                        <span style="float:right;">USD</span></Strong>
+                                </td>
+                            </tr>-->
+                            </tbody>
+                            
+                        </table>
+                    </td>
+                </tr>
+                <apex:outputPanel id="thePanel" layout="block" rendered="{!Invoice.inscor__External_Comments_rt__c != ''}">
+                    <tr>
+                        <td colspan="3">
+                            <table style="width:100%;border-collapse:collapse;border:1px solid black">
+                                <tr>
+                                    <th style="border:1px solid black" class="tableHeader">
+                                        Comments
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <td style="border:1px solid black;min-width:400px; !important;">
+                                        <div class="margin7">
+                                            <span>
+                                                <apex:outputField value="{!Invoice.inscor__External_Comments_rt__c}"/> 
+                                            </span>
+                                        </div> 
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </apex:outputPanel>
+                
+            </table>
+            
+            <!--<div style="bottom:0px;">
+                <apex:outputField value="{!formOptions.inscor__Footer__c}"/> 
+            </div>-->
+        </div>
+    </body>
+</apex:page>

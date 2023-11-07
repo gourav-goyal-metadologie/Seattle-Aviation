@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- USFDATypeOfReport --></label>
+        <name>QPMS__USFDATypeOfReport</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- USFDAUserFacilityImporterInit --></label>
+        <name>QPMS__USFDAUserFacilityImporterInit</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- USFDAUserInformation --></label>
+        <name>QPMS__USFDAUserInformation</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA Audit Trail --></label>
+        <name>QPMS__US_FDA_Audit_Trail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA Location Where Event Occurred --></label>
+        <name>QPMS__US_FDA_Location_Where_Event_Occurred</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA QueryFields --></label>
+        <name>QPMS__US_FDA_QueryFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA Report Sent to FDA --></label>
+        <name>QPMS__US_FDA_Report_Sent_to_FDA</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- US FDA Report Sent to Manufacturer --></label>
+        <name>QPMS__US_FDA_Report_Sent_to_Manufacturer</name>
+    </fieldSets>
+    <fields>
+        <help><!-- Address-Line 1 --></help>
+        <label><!-- Address-Line 1 --></label>
+        <name>QPMS__Address_Line_1__c</name>
+    </fields>
+    <fields>
+        <help><!-- Address-Line 2 --></help>
+        <label><!-- Address-Line 2 --></label>
+        <name>QPMS__Address_Line_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Age UOM --></label>
+        <name>QPMS__Age_UOM__c</name>
+        <picklistValues>
+            <masterLabel>Day(s)</masterLabel>
+            <translation><!-- Day(s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Months(s)</masterLabel>
+            <translation><!-- Months(s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Week(s)</masterLabel>
+            <translation><!-- Week(s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Year(s)</masterLabel>
+            <translation><!-- Year(s) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- F9. Approximate Age of Device --></label>
+        <name>QPMS__Approximate_Age_of_Device__c</name>
+    </fields>
+    <fields>
+        <label><!-- F1. For Use By --></label>
+        <name>QPMS__Check_One__c</name>
+        <picklistValues>
+            <masterLabel>Importer</masterLabel>
+            <translation><!-- Importer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User Facility</masterLabel>
+            <translation><!-- User Facility --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- City --></help>
+        <label><!-- City --></label>
+        <name>QPMS__City__c</name>
+    </fields>
+    <fields>
+        <label><!-- ComplaintId --></label>
+        <name>QPMS__ComplaintId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Person --></label>
+        <name>QPMS__Contact_Person__c</name>
+    </fields>
+    <fields>
+        <help><!-- Country --></help>
+        <label><!-- Country --></label>
+        <name>QPMS__Country_ForUse__c</name>
+        <picklistValues>
+            <masterLabel>America</masterLabel>
+            <translation><!-- America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation><!-- India --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- F6. Date User Facility --></label>
+        <name>QPMS__Date_User_Facility__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of this Report --></label>
+        <name>QPMS__Date_of_this_Report_FDA__c</name>
+    </fields>
+    <fields>
+        <label><!-- F8. Date of this Report --></label>
+        <name>QPMS__Date_of_this_Report__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of this Report --></label>
+        <name>QPMS__Date_of_this_Report_sent_to_Manufacturer__c</name>
+    </fields>
+    <fields>
+        <help><!-- Email Address --></help>
+        <label><!-- Email Address --></label>
+        <name>QPMS__Email_Address__c</name>
+    </fields>
+    <fields>
+        <help><!-- First/Given Name --></help>
+        <label><!-- First/Given Name --></label>
+        <name>QPMS__First_Given_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Follow Up Number --></label>
+        <name>QPMS__Follow_Up_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Follow-up # --></label>
+        <name>QPMS__Follow_up__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial --></label>
+        <name>QPMS__Initial__c</name>
+    </fields>
+    <fields>
+        <help><!-- Last Name --></help>
+        <label><!-- Last Name --></label>
+        <name>QPMS__Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location Where Event Occurred --></label>
+        <name>QPMS__Location_Where_Event_Occurred__c</name>
+        <picklistValues>
+            <masterLabel>Ambulatory Surgical Facility</masterLabel>
+            <translation><!-- Ambulatory Surgical Facility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home</masterLabel>
+            <translation><!-- Home --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospital</masterLabel>
+            <translation><!-- Hospital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nursing Home</masterLabel>
+            <translation><!-- Nursing Home --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outpatient Diagnostic Facility</masterLabel>
+            <translation><!-- Outpatient Diagnostic Facility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outpatient Treatment Facility</masterLabel>
+            <translation><!-- Outpatient Treatment Facility --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Address-Line 1 --></help>
+        <label><!-- Address-Line 1 --></label>
+        <name>QPMS__Manufacturer_Address_Line_1__c</name>
+    </fields>
+    <fields>
+        <help><!-- Address-Line 2 --></help>
+        <label><!-- Address-Line 2 --></label>
+        <name>QPMS__Manufacturer_Address_Line_2__c</name>
+    </fields>
+    <fields>
+        <help><!-- City --></help>
+        <label><!-- City --></label>
+        <name>QPMS__Manufacturer_City__c</name>
+    </fields>
+    <fields>
+        <help><!-- Email Address --></help>
+        <label><!-- Email Address --></label>
+        <name>QPMS__Manufacturer_Email_Address__c</name>
+    </fields>
+    <fields>
+        <help><!-- Establishment Name --></help>
+        <label><!-- Establishment Name --></label>
+        <name>QPMS__Manufacturer_Establishment_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Phone # --></help>
+        <label><!-- Phone # --></label>
+        <name>QPMS__Manufacturer_Phone__c</name>
+    </fields>
+    <fields>
+        <help><!-- Post Office or Zip Code --></help>
+        <label><!-- Post Office or Zip Code --></label>
+        <name>QPMS__Manufacturer_Post_Office_or_Zip_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- Country --></help>
+        <label><!-- Country --></label>
+        <name>QPMS__Manufacturers_Country__c</name>
+        <picklistValues>
+            <masterLabel>America</masterLabel>
+            <translation><!-- America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation><!-- India --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- State, Province, or Territory --></help>
+        <label><!-- State, Province, or Territory --></label>
+        <name>QPMS__Manufacturers_State__c</name>
+        <picklistValues>
+            <masterLabel>Florida</masterLabel>
+            <translation><!-- Florida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Goa</masterLabel>
+            <translation><!-- Goa --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Middle Name --></help>
+        <label><!-- Middle Name --></label>
+        <name>QPMS__Middle_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Other --></help>
+        <label><!-- Other --></label>
+        <name>QPMS__Other__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone Number --></label>
+        <name>QPMS__Phone_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Post Office or Zip Code --></help>
+        <label><!-- Post Office or Zip Code --></label>
+        <name>QPMS__Post_Office_or_Zip_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regulatory Body --></label>
+        <name>QPMS__Regulatory_Body__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regulatory Report --></label>
+        <name>QPMS__Regulatory_Report__c</name>
+        <relationshipLabel><!-- For use by User Facility/Importers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Report Sent? --></label>
+        <name>QPMS__Report_Sent__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Report Sent? --></label>
+        <name>QPMS__Report_Sent_to_Manufacturer__c</name>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- State, Province, or Territory --></help>
+        <label><!-- State, Province, or Territory --></label>
+        <name>QPMS__State_Province_or_Territory_ForUse__c</name>
+        <picklistValues>
+            <masterLabel>Florida</masterLabel>
+            <translation><!-- Florida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Goa</masterLabel>
+            <translation><!-- Goa --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Title (e.g., Mr., Ms.) --></help>
+        <label><!-- Title (e.g., Mr., Ms.) --></label>
+        <name>QPMS__Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- F2. UF/Importer Report Number --></label>
+        <name>QPMS__UF_Importer_Report_Number__c</name>
+    </fields>
+</CustomObjectTranslation>

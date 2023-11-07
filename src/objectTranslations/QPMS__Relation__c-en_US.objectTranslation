@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Sub Department --></label>
+        <name>QPMS__Business_Entity_C__c</name>
+        <relationshipLabel><!-- Departments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Department --></label>
+        <name>QPMS__Business_Entity_P__c</name>
+        <relationshipLabel><!-- Sub Department --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>
